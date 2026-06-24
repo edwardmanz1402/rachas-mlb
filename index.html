@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚾ MLB Rachas de Hit</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #0d1117; color: #e6edf3; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; font-size: 14px; }
+  header { background: #161b22; border-bottom: 1px solid #30363d; padding: 16px; text-align: center; position: sticky; top: 0; z-index: 100; }
+  header h1 { font-size: 20px; color: #58a6ff; }
+  header p { font-size: 12px; color: #8b949e; margin-top: 4px; }
+  .tabs { display: flex; overflow-x: auto; background: #161b22; border-bottom: 1px solid #30363d; padding: 0 16px; gap: 4px; }
+  .tab { padding: 10px 14px; cursor: pointer; border-bottom: 2px solid transparent; color: #8b949e; white-space: nowrap; font-size: 13px; }
+  .tab.active { color: #58a6ff; border-bottom-color: #58a6ff; }
+  .content { padding: 12px; max-width: 700px; margin: 0 auto; }
+  .equipo-card { background: #161b22; border: 1px solid #30363d; border-radius: 8px; margin-bottom: 12px; overflow: hidden; }
+  .equipo-header { background: #1f2937; padding: 10px 14px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; }
+  .equipo-nombre { font-weight: bold; color: #58a6ff; font-size: 14px; }
+  .equipo-count { background: #388bfd26; color: #58a6ff; border-radius: 12px; padding: 2px 8px; font-size: 12px; }
+  .equipo-body { padding: 10px; display: none; }
+  .equipo-body.open { display: block; }
+  .jugador { border: 1px solid #21262d; border-radius: 6px; margin-bottom: 8px; overflow: hidden; }
+  .jugador-header { padding: 10px 12px; background: #0d1117; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+  .jugador-nombre { font-weight: bold; font-size: 14px; }
+  .jugador-meta { font-size: 12px; color: #8b949e; margin-top: 2px; }
+  .badge-fuego { color: #ff7b72; }
+  .badge-ok { color: #3fb950; }
+  .score-bar { height: 4px; background: #21262d; border-radius: 2px; margin-top: 6px; }
+  .score-fill { height: 4px; border-radius: 2px; background: linear-gradient(90deg, #388bfd, #3fb950); }
+  .jugador-detalle { display: none; padding: 10px 12px; background: #010409; border-top: 1px solid #21262d; }
+  .jugador-detalle.open { display: block; }
+  .detalle-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .detalle-table th { color: #8b949e; text-align: left; padding: 4px 6px; border-bottom: 1px solid #21262d; }
+  .detalle-table td { padding: 5px 6px; border-bottom: 1px solid #0d1117; }
+  .hits-bar { color: #f0883e; letter-spacing: 1px; }
+  .tipos { font-size: 11px; color: #8b949e; margin-top: 4px; }
+  .ranking-item { display: flex; align-items: center; gap: 10px; padding: 10px 12px; border-bottom: 1px solid #21262d; }
+  .ranking-num { color: #8b949e; font-size: 13px; width: 28px; text-align: right; flex-shrink: 0; }
+  .ranking-info { flex: 1; min-width: 0; }
+  .ranking-nombre { font-weight: bold; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ranking-equipo { font-size: 11px; color: #8b949e; }
+  .ranking-score { text-align: right; flex-shrink: 0; }
+  .ranking-pct { font-size: 16px; font-weight: bold; color: #3fb950; }
+  .ranking-bar { height: 3px; background: #21262d; border-radius: 2px; margin-top: 4px; width: 60px; }
+  .ranking-bar-fill { height: 3px; border-radius: 2px; background: linear-gradient(90deg, #388bfd, #3fb950); }
+  .rotas-item { padding: 10px 12px; border-bottom: 1px solid #21262d; display: flex; justify-content: space-between; }
+  .rotas-nombre { font-weight: bold; }
+  .rotas-info { font-size: 12px; color: #8b949e; margin-top: 2px; }
+  .rotas-juegos { color: #ff7b72; font-size: 13px; font-weight: bold; }
+  .empty { text-align: center; padding: 40px; color: #8b949e; }
+  .loading { text-align: center; padding: 60px; color: #8b949e; }
+  .tag-2b { color: #d2a8ff; }
+  .tag-3b { color: #ffa657; }
+  .tag-hr { color: #ff7b72; }
+  .tag-s  { color: #79c0ff; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>⚾ MLB Rachas de Hit</h1>
+  <p id="actualizado">Cargando...</p>
+</header>
+
+<div class="tabs">
+  <div class="tab active" onclick="showTab('equipos')">🏟 Por Equipo</div>
+  <div class="tab" onclick="showTab('ranking')">🎯 Ranking</div>
+  <div class="tab" onclick="showTab('rotas')">💔 Rotas Hoy</div>
+</div>
+
+<div class="content">
+  <div id="tab-equipos"><div class="loading">Cargando datos...</div></div>
+  <div id="tab-ranking" style="display:none"></div>
+  <div id="tab-rotas" style="display:none"></div>
+</div>
+
+<script>
+const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/main/data.json';
+
+function showTab(tab) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.toggle('active', ['equipos','ranking','rotas'][i] === tab));
+  ['equipos','ranking','rotas'].forEach(t => document.getElementById('tab-'+t).style.display = t===tab ? 'block' : 'none');
+}
+
+function toggleEquipo(id) {
+  const el = document.getElementById('eq-'+id);
+  el.classList.toggle('open');
+}
+
+function toggleJugador(id) {
+  const el = document.getElementById('jg-'+id);
+  el.classList.toggle('open');
+}
+
+function formatDetalle(det) {
+  return det.split('+').map(p => {
+    if (p.includes('HR')) return `<span class="tag-hr">${p}</span>`;
+    if (p.includes('3B')) return `<span class="tag-3b">${p}</span>`;
+    if (p.includes('2B')) return `<span class="tag-2b">${p}</span>`;
+    return `<span class="tag-s">${p}</span>`;
+  }).join('+');
+}
+
+function renderEquipos(data) {
+  const div = document.getElementById('tab-equipos');
+  if (!data.equipos || Object.keys(data.equipos).length === 0) {
+    div.innerHTML = '<div class="empty">No hay datos disponibles</div>'; return;
+  }
+  let html = '';
+  Object.keys(data.equipos).sort().forEach((eq, ei) => {
+    const jugadores = data.equipos[eq];
+    html += `<div class="equipo-card">
+      <div class="equipo-header" onclick="toggleEquipo(${ei})">
+        <span class="equipo-nombre">🏟 ${eq}</span>
+        <span class="equipo-count">${jugadores.length} en racha</span>
+      </div>
+      <div class="equipo-body open" id="eq-${ei}">`;
+    jugadores.forEach((j, ji) => {
+      const id = `${ei}_${ji}`;
+      const fuego = j.juegos >= 6 ? '🔥' : '✅';
+      const avg = (j.avg * 1000).toFixed(0).padStart(3,'0');
+      html += `<div class="jugador">
+        <div class="jugador-header" onclick="toggleJugador('${id}')">
+          <div>
+            <div class="jugador-nombre">${fuego} ${j.jugador}</div>
+            <div class="jugador-meta">${j.juegos}j &nbsp;|&nbsp; ${j.total_hits}-${j.total_ab} &nbsp;|&nbsp; AVG .${avg}</div>
+            <div class="tipos">
+              <span class="tag-s">${j.singles}S</span> &nbsp;
+              <span class="tag-2b">${j.doubles}-2B</span> &nbsp;
+              <span class="tag-3b">${j.triples}-3B</span> &nbsp;
+              <span class="tag-hr">${j.hr}HR</span>
+            </div>
+            <div class="score-bar"><div class="score-fill" style="width:${j.score}%"></div></div>
+          </div>
+          <span style="color:#8b949e;font-size:18px">›</span>
+        </div>
+        <div class="jugador-detalle" id="jg-${id}">
+          <table class="detalle-table">
+            <tr><th>FECHA</th><th>RESULT</th><th>DETALLE</th><th>HITS</th></tr>`;
+      j.detalle.forEach(g => {
+        const fecha = g.fecha.slice(5).replace('-','/');
+        html += `<tr>
+          <td>${fecha}</td>
+          <td>${g.result}</td>
+          <td>${formatDetalle(g.detalle)}</td>
+          <td class="hits-bar">${'█'.repeat(g.hits)}</td>
+        </tr>`;
+      });
+      html += `</table></div></div>`;
+    });
+    html += `</div></div>`;
+  });
+  div.innerHTML = html;
+}
+
+function renderRanking(data) {
+  const div = document.getElementById('tab-ranking');
+  if (!data.ranking || data.ranking.length === 0) {
+    div.innerHTML = '<div class="empty">No hay datos</div>'; return;
+  }
+  let html = '<div class="equipo-card">';
+  data.ranking.forEach((r, i) => {
+    const avg = (r.avg * 1000).toFixed(0).padStart(3,'0');
+    const fuego = r.juegos >= 6 ? '🔥' : '';
+    html += `<div class="ranking-item">
+      <div class="ranking-num">#${i+1}</div>
+      <div class="ranking-info">
+        <div class="ranking-nombre">${fuego} ${r.jugador}</div>
+        <div class="ranking-equipo">${r.equipo} &nbsp;·&nbsp; ${r.juegos}j &nbsp;·&nbsp; AVG .${avg}</div>
+      </div>
+      <div class="ranking-score">
+        <div class="ranking-pct">${r.score}%</div>
+        <div class="ranking-bar"><div class="ranking-bar-fill" style="width:${r.score}%"></div></div>
+      </div>
+    </div>`;
+  });
+  html += '</div>';
+  div.innerHTML = html;
+}
+
+function renderRotas(data) {
+  const div = document.getElementById('tab-rotas');
+  if (!data.rotas_hoy || data.rotas_hoy.length === 0) {
+    div.innerHTML = '<div class="empty">💚 Ninguna racha rota hoy</div>'; return;
+  }
+  let html = '<div class="equipo-card">';
+  data.rotas_hoy.forEach(r => {
+    html += `<div class="rotas-item">
+      <div>
+        <div class="rotas-nombre">💔 ${r.jugador}</div>
+        <div class="rotas-info">${r.equipo} &nbsp;·&nbsp; ${r.motivo}</div>
+      </div>
+      <div class="rotas-juegos">${r.juegos}j</div>
+    </div>`;
+  });
+  html += '</div>';
+  div.innerHTML = html;
+}
+
+fetch(DATA_URL)
+  .then(r => r.json())
+  .then(data => {
+    document.getElementById('actualizado').textContent = `Actualizado: ${data.actualizado} · ${data.total_jugadores} jugadores en racha`;
+    renderEquipos(data);
+    renderRanking(data);
+    renderRotas(data);
+  })
+  .catch(() => {
+    document.getElementById('tab-equipos').innerHTML = '<div class="empty">Error cargando datos. Intenta de nuevo.</div>';
+  });
+</script>
+</body>
+</html>
