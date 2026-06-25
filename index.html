@@ -12,7 +12,7 @@
   .header-top { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; }
   .header-logo { display: flex; align-items: center; gap: 10px; }
   .logo-icon { font-size: 28px; animation: spin 8s linear infinite; }
-  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
   .logo-text h1 { font-family: 'Oswald', sans-serif; font-size: 22px; color: #fff; letter-spacing: 2px; text-transform: uppercase; }
   .logo-text p { font-size: 10px; color: #60a5fa; letter-spacing: 3px; text-transform: uppercase; }
   .header-meta { text-align: right; }
@@ -27,13 +27,11 @@
   .tabs { display: flex; background: #0d1b2e; border-bottom: 1px solid #1e3a5f; overflow-x: auto; }
   .tab { flex: 1; padding: 12px 8px; cursor: pointer; color: #64748b; text-align: center; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap; }
   .tab.active { color: #60a5fa; border-bottom-color: #2563eb; background: rgba(37,99,235,0.1); }
-  .tab:hover:not(.active) { color: #94a3b8; background: rgba(255,255,255,0.03); }
   .filtro-section { padding: 10px 12px; background: #0d1b2e; border-bottom: 1px solid #1e3a5f; display: flex; gap: 8px; align-items: center; }
-  .filtro-section select { flex: 1; background: #070b14; color: #e6edf3; border: 1px solid #1e3a5f; border-radius: 6px; padding: 8px 12px; font-size: 13px; font-family: 'Inter', sans-serif; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='%2360a5fa'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 30px; }
+  .filtro-section select { flex: 1; background: #070b14; color: #e6edf3; border: 1px solid #1e3a5f; border-radius: 6px; padding: 8px 12px; font-size: 13px; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='%2360a5fa'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 30px; }
   .filtro-count { background: #1e3a5f; color: #60a5fa; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 12px; white-space: nowrap; }
   .content { padding: 10px; max-width: 700px; margin: 0 auto; }
-  .equipo-card { background: linear-gradient(135deg, #0d1b2e 0%, #111827 100%); border: 1px solid #1e3a5f; border-radius: 10px; margin-bottom: 10px; overflow: hidden; transition: border-color 0.2s; }
-  .equipo-card:hover { border-color: #2563eb; }
+  .equipo-card { background: linear-gradient(135deg, #0d1b2e 0%, #111827 100%); border: 1px solid #1e3a5f; border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
   .equipo-header { padding: 11px 14px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(90deg, rgba(37,99,235,0.15) 0%, transparent 100%); border-left: 3px solid #2563eb; }
   .equipo-nombre { font-family: 'Oswald', sans-serif; font-size: 15px; color: #93c5fd; letter-spacing: 1px; text-transform: uppercase; }
   .equipo-right { display: flex; align-items: center; gap: 8px; }
@@ -42,35 +40,50 @@
   .equipo-arrow.open { transform: rotate(90deg); }
   .equipo-body { padding: 8px; display: none; }
   .equipo-body.open { display: block; }
-  .jugador { border: 1px solid #1e293b; border-radius: 8px; margin-bottom: 6px; overflow: hidden; transition: border-color 0.2s; }
-  .jugador:hover { border-color: #334155; }
+  .jugador { border: 1px solid #1e293b; border-radius: 8px; margin-bottom: 6px; overflow: hidden; }
   .jugador-header { padding: 10px 12px; background: #070b14; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
   .jugador-left { flex: 1; }
-  .jugador-nombre { font-weight: 600; font-size: 14px; display: flex; align-items: center; gap: 6px; }
+  .jugador-nombre { font-weight: 600; font-size: 14px; }
   .jugador-meta { font-size: 11px; color: #64748b; margin-top: 3px; display: flex; gap: 8px; flex-wrap: wrap; }
   .avg-badge { background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.3); border-radius: 4px; padding: 1px 6px; font-size: 11px; font-weight: 700; }
   .racha-badge { background: rgba(239,68,68,0.15); color: #f87171; border: 1px solid rgba(239,68,68,0.3); border-radius: 4px; padding: 1px 6px; font-size: 11px; font-weight: 700; }
+  .tipo-badge { font-size: 10px; padding: 1px 6px; border-radius: 3px; font-weight: 600; margin-top: 3px; display: inline-block; }
+  .tipo-racha { background: rgba(239,68,68,0.15); color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
+  .tipo-consist { background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.2); }
+  .tipo-irreg { background: rgba(100,116,139,0.15); color: #94a3b8; border: 1px solid rgba(100,116,139,0.2); }
   .tipos-row { display: flex; gap: 6px; margin-top: 5px; flex-wrap: wrap; }
   .tipo-chip { font-size: 10px; padding: 1px 6px; border-radius: 3px; font-weight: 600; }
   .chip-s  { background: rgba(96,165,250,0.15); color: #60a5fa; border: 1px solid rgba(96,165,250,0.2); }
   .chip-2b { background: rgba(167,139,250,0.15); color: #a78bfa; border: 1px solid rgba(167,139,250,0.2); }
   .chip-3b { background: rgba(251,146,60,0.15); color: #fb923c; border: 1px solid rgba(251,146,60,0.2); }
   .chip-hr { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.2); }
-  .score-bar { flex:1; height: 3px; background: #1e293b; border-radius: 2px; margin-top: 5px; }
+  .score-bar { height: 3px; background: #1e293b; border-radius: 2px; margin-top: 5px; }
   .score-fill { height: 3px; border-radius: 2px; }
   .jugador-arrow { color: #334155; font-size: 18px; margin-left: 8px; transition: transform 0.2s; flex-shrink: 0; }
   .jugador-arrow.open { transform: rotate(90deg); color: #60a5fa; }
-  .jugador-detalle { display: none; background: #020609; border-top: 1px solid #1e293b; }
+  .jugador-detalle { display: none; background: #020609; border-top: 1px solid #1e293b; padding: 12px; }
   .jugador-detalle.open { display: block; }
+  .detalle-section { margin-bottom: 12px; }
+  .detalle-section-title { font-size: 10px; color: #475569; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid #1e293b; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 8px; }
+  .stat-box { background: #0d1b2e; border: 1px solid #1e3a5f; border-radius: 6px; padding: 6px; text-align: center; }
+  .stat-val { font-family: 'Oswald', sans-serif; font-size: 16px; color: #60a5fa; font-weight: 700; }
+  .stat-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .hist-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 8px; }
+  .hist-box { background: #0d1b2e; border: 1px solid #1e3a5f; border-radius: 6px; padding: 6px; text-align: center; }
+  .hist-val { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; }
+  .hist-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .pct-verde { color: #22c55e; }
+  .pct-amarillo { color: #f59e0b; }
+  .pct-gris { color: #94a3b8; }
   .detalle-table { width: 100%; border-collapse: collapse; font-size: 12px; }
-  .detalle-table th { color: #475569; text-align: left; padding: 7px 10px; border-bottom: 1px solid #1e293b; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; }
+  .detalle-table th { color: #475569; text-align: left; padding: 6px 8px; border-bottom: 1px solid #1e293b; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; }
+  .detalle-table td { padding: 6px 8px; border-bottom: 1px solid #0d1117; }
   .detalle-table tr:last-child td { border-bottom: none; }
-  .detalle-table td { padding: 7px 10px; border-bottom: 1px solid #0d1117; }
-  .detalle-table tr:hover td { background: rgba(255,255,255,0.02); }
-  .result-col { font-weight: 700; color: #e2e8f0; }
-  .result-col.bueno { color: #34d399; }
-  .result-col.malo { color: #f87171; }
-  .hits-bar { color: #f0883e; letter-spacing: 2px; font-size: 13px; }
+  .result-bueno { color: #34d399; font-weight: 700; }
+  .result-malo { color: #f87171; font-weight: 700; }
+  .result-normal { color: #e2e8f0; font-weight: 700; }
+  .hits-bar { color: #f0883e; letter-spacing: 2px; }
   .fecha-col { color: #64748b; font-size: 11px; }
   .tag-s  { color: #60a5fa; }
   .tag-2b { color: #a78bfa; }
@@ -82,10 +95,9 @@
   .ranking-item:hover { background: rgba(255,255,255,0.02); }
   .ranking-item:last-child { border-bottom: none; }
   .ranking-num { font-family: 'Oswald', sans-serif; font-size: 18px; color: #334155; width: 30px; text-align: center; flex-shrink: 0; }
-  .ranking-num.top3 { color: #f59e0b; }
   .ranking-info { flex: 1; min-width: 0; }
   .ranking-nombre { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
-  .ranking-sub { font-size: 11px; color: #64748b; margin-top: 2px; display: flex; gap: 8px; }
+  .ranking-sub { font-size: 11px; color: #64748b; margin-top: 2px; display: flex; gap: 6px; flex-wrap: wrap; }
   .ranking-score { text-align: right; flex-shrink: 0; }
   .pct-num { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; line-height: 1; }
   .pct-label { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
@@ -98,7 +110,6 @@
   .rotas-right { text-align: right; }
   .rotas-juegos { font-family: 'Oswald', sans-serif; font-size: 20px; color: #ef4444; }
   .rotas-label { font-size: 10px; color: #64748b; }
-  .rotas-motivo { font-size: 10px; color: #ef4444; margin-top: 2px; }
   .empty { text-align: center; padding: 50px 20px; color: #334155; }
   .empty-icon { font-size: 40px; margin-bottom: 10px; }
   .loading { text-align: center; padding: 60px; color: #334155; }
@@ -110,10 +121,7 @@
   <div class="header-top">
     <div class="header-logo">
       <div class="logo-icon">⚾</div>
-      <div class="logo-text">
-        <h1>MLB Rachas</h1>
-        <p>Hit Streak Tracker</p>
-      </div>
+      <div class="logo-text"><h1>MLB Rachas</h1><p>Hit Streak Tracker</p></div>
     </div>
     <div class="header-meta">
       <div class="live-badge">● LIVE</div>
@@ -146,12 +154,13 @@
 <script>
 const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/main/data.json';
 let globalData = null;
+
 function showTab(tab) {
   ['equipos','ranking','rotas'].forEach(t => {
-    document.getElementById('tab-'+t).style.display = t===tab ? 'block' : 'none';
-    document.querySelectorAll('.tab')[['equipos','ranking','rotas'].indexOf(t)].classList.toggle('active', t===tab);
+    document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
+    document.querySelectorAll('.tab')[['equipos','ranking','rotas'].indexOf(t)].classList.toggle('active',t===tab);
   });
-  document.getElementById('filtro-bar').style.display = tab === 'equipos' ? 'flex' : 'none';
+  document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
 }
 function toggleEquipo(id) {
   document.getElementById('eq-body-'+id).classList.toggle('open');
@@ -161,91 +170,202 @@ function toggleJugador(id) {
   document.getElementById('jg-det-'+id).classList.toggle('open');
   document.getElementById('jg-arrow-'+id).classList.toggle('open');
 }
-function getScoreColor(score) {
-  if (score >= 55) return '#22c55e';
-  if (score >= 45) return '#f59e0b';
+function getColor(score) {
+  if(score>=55) return '#22c55e';
+  if(score>=45) return '#f59e0b';
   return '#60a5fa';
 }
-function formatDetalle(det) {
-  if (!det) return '—';
+function getPctColor(pct) {
+  if(pct>=65) return 'pct-verde';
+  if(pct>=55) return 'pct-amarillo';
+  return 'pct-gris';
+}
+function getTipoBadge(tipo) {
+  if(!tipo) return '';
+  if(tipo.includes('RACHA')) return '<span class="tipo-badge tipo-racha">'+tipo+'</span>';
+  if(tipo.includes('CONSIST')) return '<span class="tipo-badge tipo-consist">'+tipo+'</span>';
+  return '<span class="tipo-badge tipo-irreg">'+tipo+'</span>';
+}
+function formatDet(det) {
+  if(!det) return '—';
   return det.split('+').map(p => {
-    if (p.includes('HR')) return '<span class="tag-hr">'+p+'</span>';
-    if (p.includes('3B')) return '<span class="tag-3b">'+p+'</span>';
-    if (p.includes('2B')) return '<span class="tag-2b">'+p+'</span>';
+    if(p.includes('HR')) return '<span class="tag-hr">'+p+'</span>';
+    if(p.includes('3B')) return '<span class="tag-3b">'+p+'</span>';
+    if(p.includes('2B')) return '<span class="tag-2b">'+p+'</span>';
     return '<span class="tag-s">'+p+'</span>';
   }).join('<span style="color:#334155">+</span>');
 }
-function resultClass(result) {
-  const parts = result.split('-');
-  const h = parseInt(parts[0]); const ab = parseInt(parts[1]);
-  const avg = ab > 0 ? h/ab : 0;
-  if (avg >= 0.400) return 'bueno';
-  if (h === 0) return 'malo';
-  return '';
+function resClass(r) {
+  const p=r.split('-'); const h=parseInt(p[0]); const ab=parseInt(p[1]);
+  if(ab>0&&h/ab>=0.4) return 'result-bueno';
+  if(h===0) return 'result-malo';
+  return 'result-normal';
 }
 function renderJugador(j, id) {
-  const avg = (j.avg * 1000).toFixed(0).padStart(3,'0');
-  const fuego = j.juegos >= 6 ? '🔥' : '✅';
-  const color = getScoreColor(j.score);
-  return '<div class="jugador"><div class="jugador-header" onclick="toggleJugador(\''+id+'\')"><div class="jugador-left"><div class="jugador-nombre">'+fuego+' '+j.jugador+'</div><div class="jugador-meta"><span class="racha-badge">'+j.juegos+'J</span><span class="avg-badge">AVG .'+avg+'</span><span style="color:#64748b">'+j.total_hits+'-'+j.total_ab+'</span></div><div class="tipos-row">'+(j.singles>0?'<span class="tipo-chip chip-s">'+j.singles+'S</span>':'')+(j.doubles>0?'<span class="tipo-chip chip-2b">'+j.doubles+'-2B</span>':'')+(j.triples>0?'<span class="tipo-chip chip-3b">'+j.triples+'-3B</span>':'')+(j.hr>0?'<span class="tipo-chip chip-hr">'+j.hr+'HR</span>':'')+'</div><div class="score-bar"><div class="score-fill" style="width:'+j.score+'%;background:'+color+'"></div></div></div><div class="jugador-arrow" id="jg-arrow-'+id+'">›</div></div><div class="jugador-detalle" id="jg-det-'+id+'"><table class="detalle-table"><tr><th>Fecha</th><th>Result</th><th>Tipo</th><th>Hits</th></tr>'+j.detalle.map(g=>'<tr><td class="fecha-col">'+g.fecha.slice(5).replace('-','/')+'</td><td class="result-col '+resultClass(g.result)+'">'+g.result+'</td><td>'+formatDetalle(g.detalle)+'</td><td class="hits-bar">'+'█'.repeat(g.hits)+'</td></tr>').join('')+'</table></div></div>';
+  const avg = (j.avg*1000).toFixed(0).padStart(3,'0');
+  const fuego = j.juegos>=6?'🔥':'✅';
+  const color = getColor(j.score);
+  const t = j.temporada||{};
+  const h = j.historico||{};
+  const tipo = h.tipo||'';
+  const pctClass = getPctColor(h.pct_hit||0);
+
+  let tempHTML = '';
+  if(t.avg_temp) {
+    tempHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📊 Estadísticas de Temporada</div>'+
+      '<div class="stats-grid">'+
+      '<div class="stat-box"><div class="stat-val">'+t.avg_temp+'</div><div class="stat-lbl">AVG</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.obp+'</div><div class="stat-lbl">OBP</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.slg+'</div><div class="stat-lbl">SLG</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.ops+'</div><div class="stat-lbl">OPS</div></div>'+
+      '</div>'+
+      '<div class="stats-grid">'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.gp+'</div><div class="stat-lbl">GP</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.rbi+'</div><div class="stat-lbl">RBI</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.hr_temp+'</div><div class="stat-lbl">HR</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.sb+'</div><div class="stat-lbl">SB</div></div>'+
+      '</div></div>';
+  }
+
+  let histHTML = '';
+  if(h.pct_hit) {
+    const rachas = h.rachas_3plus||[];
+    histHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📈 Perfil Histórico 2026</div>'+
+      '<div class="hist-grid">'+
+      '<div class="hist-box"><div class="hist-val '+pctClass+'">'+h.pct_hit+'%</div><div class="hist-lbl">Juegos con hit</div></div>'+
+      '<div class="hist-box"><div class="hist-val" style="color:#f59e0b">'+h.racha_max+'j</div><div class="hist-lbl">Racha máxima</div></div>'+
+      '<div class="hist-box"><div class="hist-val" style="color:#a78bfa">'+rachas.length+'x</div><div class="hist-lbl">Rachas 3+ este año</div></div>'+
+      '</div>'+
+      getTipoBadge(tipo)+
+      '</div>';
+  }
+
+  let detHTML = '<div class="detalle-section">'+
+    '<div class="detalle-section-title">📅 Detalle de Racha Actual</div>'+
+    '<table class="detalle-table">'+
+    '<tr><th>Fecha</th><th>Result</th><th>Tipo</th><th>Hits</th></tr>'+
+    j.detalle.map(g=>'<tr>'+
+      '<td class="fecha-col">'+g.fecha.slice(5).replace('-','/')+'</td>'+
+      '<td class="'+resClass(g.result)+'">'+g.result+'</td>'+
+      '<td>'+formatDet(g.detalle)+'</td>'+
+      '<td class="hits-bar">'+'█'.repeat(g.hits)+'</td>'+
+    '</tr>').join('')+
+    '</table></div>';
+
+  return '<div class="jugador">'+
+    '<div class="jugador-header" onclick="toggleJugador(\''+id+'\')">'+
+    '<div class="jugador-left">'+
+    '<div class="jugador-nombre">'+fuego+' '+j.jugador+'</div>'+
+    '<div class="jugador-meta">'+
+    '<span class="racha-badge">'+j.juegos+'J</span>'+
+    '<span class="avg-badge">AVG .'+avg+'</span>'+
+    '<span style="color:#64748b">'+j.total_hits+'-'+j.total_ab+'</span>'+
+    (t.ops?'<span style="color:#64748b">OPS '+t.ops+'</span>':'')+
+    '</div>'+
+    '<div class="tipos-row">'+
+    (j.singles>0?'<span class="tipo-chip chip-s">'+j.singles+'S</span>':'')+
+    (j.doubles>0?'<span class="tipo-chip chip-2b">'+j.doubles+'-2B</span>':'')+
+    (j.triples>0?'<span class="tipo-chip chip-3b">'+j.triples+'-3B</span>':'')+
+    (j.hr>0?'<span class="tipo-chip chip-hr">'+j.hr+'HR</span>':'')+
+    (h.pct_hit?'<span class="tipo-chip" style="background:rgba(100,116,139,0.1);color:#94a3b8;border:1px solid rgba(100,116,139,0.2)">'+h.pct_hit+'% hit/año</span>':'')+
+    '</div>'+
+    '<div class="score-bar"><div class="score-fill" style="width:'+j.score+'%;background:'+color+'"></div></div>'+
+    '</div>'+
+    '<div class="jugador-arrow" id="jg-arrow-'+id+'">›</div>'+
+    '</div>'+
+    '<div class="jugador-detalle" id="jg-det-'+id+'">'+
+    tempHTML+histHTML+detHTML+
+    '</div></div>';
 }
 function filtrarEquipo() {
   renderEquipos(globalData, document.getElementById('filtro-equipo').value);
 }
 function renderEquipos(data, filtro) {
-  filtro = filtro || '';
-  const div = document.getElementById('tab-equipos');
-  const keys = Object.keys(data.equipos).sort().filter(e => !filtro || e === filtro);
-  let total = 0; keys.forEach(e => total += data.equipos[e].length);
-  document.getElementById('filtro-count').textContent = total+' jugador'+(total!==1?'es':'');
-  if (!keys.length) { div.innerHTML='<div class="empty"><div class="empty-icon">🔍</div><div>Sin datos</div></div>'; return; }
-  let html = '';
-  keys.forEach((eq, ei) => {
-    const jugs = data.equipos[eq];
-    html += '<div class="equipo-card"><div class="equipo-header" onclick="toggleEquipo('+ei+')"><span class="equipo-nombre">🏟 '+eq+'</span><div class="equipo-right"><span class="equipo-count">'+jugs.length+' en racha</span><span class="equipo-arrow open" id="eq-arrow-'+ei+'">›</span></div></div><div class="equipo-body open" id="eq-body-'+ei+'">'+jugs.map((j,ji)=>renderJugador(j,ei+'_'+ji)).join('')+'</div></div>';
+  filtro=filtro||'';
+  const div=document.getElementById('tab-equipos');
+  const keys=Object.keys(data.equipos).sort().filter(e=>!filtro||e===filtro);
+  let total=0; keys.forEach(e=>total+=data.equipos[e].length);
+  document.getElementById('filtro-count').textContent=total+' jugador'+(total!==1?'es':'');
+  if(!keys.length){div.innerHTML='<div class="empty"><div class="empty-icon">🔍</div><div>Sin datos</div></div>';return;}
+  let html='';
+  keys.forEach((eq,ei)=>{
+    const jugs=data.equipos[eq];
+    html+='<div class="equipo-card">'+
+      '<div class="equipo-header" onclick="toggleEquipo('+ei+')">'+
+      '<span class="equipo-nombre">🏟 '+eq+'</span>'+
+      '<div class="equipo-right">'+
+      '<span class="equipo-count">'+jugs.length+' en racha</span>'+
+      '<span class="equipo-arrow open" id="eq-arrow-'+ei+'">›</span>'+
+      '</div></div>'+
+      '<div class="equipo-body open" id="eq-body-'+ei+'">'+
+      jugs.map((j,ji)=>renderJugador(j,ei+'_'+ji)).join('')+
+      '</div></div>';
   });
-  div.innerHTML = html;
+  div.innerHTML=html;
 }
 function renderRanking(data) {
-  const div = document.getElementById('tab-ranking');
-  if (!data.ranking || !data.ranking.length) { div.innerHTML='<div class="empty"><div class="empty-icon">📊</div><div>No hay datos</div></div>'; return; }
-  let html = '<div class="equipo-card"><div class="ranking-header"><span class="ranking-title">🎯 Probabilidad de Hit Mañana</span><span style="font-size:11px;color:#64748b">Top '+Math.min(data.ranking.length,30)+'</span></div>';
-  data.ranking.slice(0,30).forEach((r,i) => {
-    const avg = (r.avg*1000).toFixed(0).padStart(3,'0');
-    const color = getScoreColor(r.score);
-    const fuego = r.juegos >= 6 ? '🔥' : '';
-    html += '<div class="ranking-item"><div class="ranking-num'+(i<3?' top3':'')+'">'+( i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div><div class="ranking-info"><div class="ranking-nombre">'+fuego+' '+r.jugador+'</div><div class="ranking-sub"><span>'+r.equipo+'</span><span>·</span><span>'+r.juegos+'j</span><span>·</span><span>AVG .'+avg+'</span></div></div><div class="ranking-score"><div class="pct-num" style="color:'+color+'">'+r.score+'%</div><div class="pct-label">prob hit</div><div class="pct-bar"><div class="pct-fill" style="width:'+r.score+'%;background:'+color+'"></div></div></div></div>';
+  const div=document.getElementById('tab-ranking');
+  if(!data.ranking||!data.ranking.length){div.innerHTML='<div class="empty"><div class="empty-icon">📊</div><div>No hay datos</div></div>';return;}
+  let html='<div class="equipo-card"><div class="ranking-header"><span class="ranking-title">🎯 Probabilidad de Hit Mañana</span><span style="font-size:11px;color:#64748b">Top '+Math.min(data.ranking.length,30)+'</span></div>';
+  data.ranking.slice(0,30).forEach((r,i)=>{
+    const avg=(r.avg*1000).toFixed(0).padStart(3,'0');
+    const color=getColor(r.score);
+    const fuego=r.juegos>=6?'🔥':'';
+    html+='<div class="ranking-item">'+
+      '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
+      '<div class="ranking-info">'+
+      '<div class="ranking-nombre">'+fuego+' '+r.jugador+'</div>'+
+      '<div class="ranking-sub">'+
+      '<span>'+r.equipo+'</span><span>·</span>'+
+      '<span>'+r.juegos+'j</span><span>·</span>'+
+      '<span>AVG .'+avg+'</span><span>·</span>'+
+      '<span>OPS '+r.ops+'</span>'+
+      (r.pct_hit?'<span>·</span><span style="color:'+getColor(r.pct_hit)+'">'+r.pct_hit+'% hit/año</span>':'')+
+      '</div></div>'+
+      '<div class="ranking-score">'+
+      '<div class="pct-num" style="color:'+color+'">'+r.score+'%</div>'+
+      '<div class="pct-label">prob hit</div>'+
+      '<div class="pct-bar"><div class="pct-fill" style="width:'+r.score+'%;background:'+color+'"></div></div>'+
+      '</div></div>';
   });
-  html += '</div>';
-  div.innerHTML = html;
+  html+='</div>';
+  div.innerHTML=html;
 }
 function renderRotas(data) {
-  const div = document.getElementById('tab-rotas');
-  if (!data.rotas_hoy || !data.rotas_hoy.length) { div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>'; return; }
-  let html = '<div class="equipo-card">';
-  data.rotas_hoy.forEach(r => {
-    html += '<div class="rotas-item"><div><div class="rotas-nombre">💔 '+r.jugador+'</div><div class="rotas-equipo">'+r.equipo+'</div><div class="rotas-motivo">'+r.motivo+'</div></div><div class="rotas-right"><div class="rotas-juegos">'+r.juegos+'</div><div class="rotas-label">juegos</div></div></div>';
+  const div=document.getElementById('tab-rotas');
+  if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
+  let html='<div class="equipo-card">';
+  data.rotas_hoy.forEach(r=>{
+    html+='<div class="rotas-item">'+
+      '<div><div class="rotas-nombre">💔 '+r.jugador+'</div>'+
+      '<div class="rotas-equipo">'+r.equipo+'</div></div>'+
+      '<div class="rotas-right">'+
+      '<div class="rotas-juegos">'+r.juegos+'</div>'+
+      '<div class="rotas-label">juegos</div>'+
+      '</div></div>';
   });
-  html += '</div>';
-  div.innerHTML = html;
+  html+='</div>';
+  div.innerHTML=html;
 }
-fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data => {
-  globalData = data;
-  document.getElementById('update-time').textContent = 'Actualizado: '+data.actualizado;
-  document.getElementById('stat-jugadores').textContent = data.total_jugadores;
-  document.getElementById('stat-equipos').textContent = Object.keys(data.equipos).length;
-  document.getElementById('stat-rotas').textContent = (data.rotas_hoy||[]).length;
-  document.getElementById('stat-top').textContent = Math.max(...data.ranking.map(r=>r.juegos))+'j';
-  const sel = document.getElementById('filtro-equipo');
-  Object.keys(data.equipos).sort().forEach(eq => {
-    const opt = document.createElement('option');
-    opt.value = eq; opt.textContent = '🏟 '+eq+' ('+data.equipos[eq].length+')';
+fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
+  globalData=data;
+  document.getElementById('update-time').textContent='Actualizado: '+data.actualizado;
+  document.getElementById('stat-jugadores').textContent=data.total_jugadores;
+  document.getElementById('stat-equipos').textContent=Object.keys(data.equipos).length;
+  document.getElementById('stat-rotas').textContent=(data.rotas_hoy||[]).length;
+  document.getElementById('stat-top').textContent=Math.max(...data.ranking.map(r=>r.juegos))+'j';
+  const sel=document.getElementById('filtro-equipo');
+  Object.keys(data.equipos).sort().forEach(eq=>{
+    const opt=document.createElement('option');
+    opt.value=eq; opt.textContent='🏟 '+eq+' ('+data.equipos[eq].length+')';
     sel.appendChild(opt);
   });
   renderEquipos(data);
   renderRanking(data);
   renderRotas(data);
-}).catch(() => {
+}).catch(()=>{
   document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
 });
 </script>
