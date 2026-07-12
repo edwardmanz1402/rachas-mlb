@@ -71,8 +71,13 @@
   .stat-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
   .hist-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 8px; }
   .hist-box { background: #0d1b2e; border: 1px solid #1e3a5f; border-radius: 6px; padding: 6px; text-align: center; }
+  .hist-box.clickable { cursor: pointer; transition: border-color 0.2s; }
+  .hist-box.clickable:hover { border-color: #a78bfa; }
   .hist-val { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; }
   .hist-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .rachas-detalle { display: none; padding: 8px; margin-top: 4px; background: rgba(167,139,250,0.05); border-radius: 6px; border: 1px solid rgba(167,139,250,0.15); flex-wrap: wrap; gap: 4px; }
+  .rachas-detalle.open { display: flex; }
+  .racha-chip { background: rgba(167,139,250,0.15); color: #a78bfa; border: 1px solid rgba(167,139,250,0.2); border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; }
   .pct-verde { color: #22c55e; }
   .pct-amarillo { color: #f59e0b; }
   .pct-gris { color: #94a3b8; }
@@ -170,6 +175,11 @@ function toggleJugador(id) {
   document.getElementById('jg-det-'+id).classList.toggle('open');
   document.getElementById('jg-arrow-'+id).classList.toggle('open');
 }
+function toggleRachas(id, event) {
+  event.stopPropagation();
+  const el = document.getElementById('rachas-det-'+id);
+  el.classList.toggle('open');
+}
 function getColor(score) {
   if(score>=55) return '#22c55e';
   if(score>=45) return '#f59e0b';
@@ -182,7 +192,7 @@ function getPctColor(pct) {
 }
 function getTipoBadge(tipo) {
   if(!tipo) return '';
-  if(tipo.includes('RACHA')) return '<span class="tipo-badge tipo-racha">'+tipo+'</span>';
+  if(tipo.includes('RACHA')||tipo.includes('INUSUAL')) return '<span class="tipo-badge tipo-racha">'+tipo+'</span>';
   if(tipo.includes('CONSIST')) return '<span class="tipo-badge tipo-consist">'+tipo+'</span>';
   return '<span class="tipo-badge tipo-irreg">'+tipo+'</span>';
 }
@@ -209,6 +219,7 @@ function renderJugador(j, id) {
   const h = j.historico||{};
   const tipo = h.tipo||'';
   const pctClass = getPctColor(h.pct_hit||0);
+  const rachas = h.rachas_3plus||[];
 
   let tempHTML = '';
   if(t.avg_temp) {
@@ -230,13 +241,18 @@ function renderJugador(j, id) {
 
   let histHTML = '';
   if(h.pct_hit) {
-    const rachas = h.rachas_3plus||[];
     histHTML = '<div class="detalle-section">'+
       '<div class="detalle-section-title">📈 Perfil Histórico 2026</div>'+
       '<div class="hist-grid">'+
       '<div class="hist-box"><div class="hist-val '+pctClass+'">'+h.pct_hit+'%</div><div class="hist-lbl">Juegos con hit</div></div>'+
       '<div class="hist-box"><div class="hist-val" style="color:#f59e0b">'+h.racha_max+'j</div><div class="hist-lbl">Racha máxima</div></div>'+
-      '<div class="hist-box"><div class="hist-val" style="color:#a78bfa">'+rachas.length+'x</div><div class="hist-lbl">Rachas 3+ este año</div></div>'+
+      '<div class="hist-box clickable" onclick="toggleRachas(\''+id+'\', event)">'+
+      '<div class="hist-val" style="color:#a78bfa">'+rachas.length+'x</div>'+
+      '<div class="hist-lbl">Rachas 3+ ▼</div>'+
+      '</div>'+
+      '</div>'+
+      '<div class="rachas-detalle" id="rachas-det-'+id+'">'+
+      (rachas.length > 0 ? rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join('') : '<span style="color:#64748b;font-size:11px">Sin rachas de 3+ este año</span>')+
       '</div>'+
       getTipoBadge(tipo)+
       '</div>';
@@ -323,6 +339,7 @@ function renderRanking(data) {
       '<span>AVG .'+avg+'</span><span>·</span>'+
       '<span>OPS '+r.ops+'</span>'+
       (r.pct_hit?'<span>·</span><span style="color:'+getColor(r.pct_hit)+'">'+r.pct_hit+'% hit/año</span>':'')+
+      (r.tipo?'<span>·</span><span style="font-size:10px">'+r.tipo+'</span>':'')+
       '</div></div>'+
       '<div class="ranking-score">'+
       '<div class="pct-num" style="color:'+color+'">'+r.score+'%</div>'+
