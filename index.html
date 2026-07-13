@@ -379,6 +379,7 @@ function renderCandidatos(data) {
       '<span>'+c.equipo+'</span><span>·</span>'+
       '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
       '<span>'+c.num_rachas+'x rachas 3+</span><span>·</span>'+
+      (c.rachas_3plus&&c.rachas_3plus.length>0?'<span style="color:#a78bfa">'+c.rachas_3plus.map(r=>r+'j').join(' ')+'</span>':'')+'<span>·</span>'+
       '<span>max '+c.racha_max+'j</span>'+
       '</div></div>'+
       '<div class="candidato-score">'+
