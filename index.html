@@ -151,6 +151,7 @@
   <div class="tab active" onclick="showTab('equipos')">🏟 Equipos</div>
   <div class="tab" onclick="showTab('ranking')">🎯 Ranking</div>
   <div class="tab" onclick="showTab('candidatos')">🚨 2J→3J</div>
+  <div class="tab" onclick="showTab('candidatos1j')">🎯 1J→2J</div>
   <div class="tab" onclick="showTab('rotas')">💔 Rotas</div>
 </div>
 <div id="filtro-bar" class="filtro-section">
@@ -163,6 +164,7 @@
   <div id="tab-equipos"><div class="loading"><div class="loading-spinner">⚾</div><div>Cargando datos MLB...</div></div></div>
   <div id="tab-ranking" style="display:none"></div>
   <div id="tab-candidatos" style="display:none"></div>
+  <div id="tab-candidatos1j" style="display:none"></div>
   <div id="tab-rotas" style="display:none"></div>
 </div>
 <script>
@@ -170,9 +172,9 @@ const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/ma
 let globalData = null;
 
 function showTab(tab) {
-  ['equipos','ranking','candidatos','rotas'].forEach(t => {
+  ['equipos','ranking','candidatos','candidatos1j','rotas'].forEach(t => {
     document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
-    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','rotas'].indexOf(t)].classList.toggle('active',t===tab);
+    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','rotas'].indexOf(t)].classList.toggle('active',t===tab);
   });
   document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
 }
@@ -398,6 +400,42 @@ function renderCandidatos(data) {
   html+='</div>';
   div.innerHTML=html;
 }
+function renderCandidatos1j(data) {
+  const div=document.getElementById('tab-candidatos1j');
+  if(!data.candidatos_1j||!data.candidatos_1j.length){
+    div.innerHTML='<div class="empty"><div class="empty-icon">🎯</div><div>No hay candidatos hoy</div></div>';return;
+  }
+  let html='<div class="equipo-card">'+
+    '<div class="ranking-header">'+
+    '<span class="ranking-title">🎯 Candidatos a 2do Hit</span>'+
+    '<span style="font-size:11px;color:#64748b">Dieron hit hoy</span>'+
+    '</div>';
+  data.candidatos_1j.forEach((c,i)=>{
+    const color=getColor(c.prob);
+    const emoji=c.prob>=70?'🔥':c.prob>=55?'✅':'📊';
+    const rachas=c.rachas_3plus||[];
+    html+='<div class="candidato-item">'+
+      '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
+      '<div class="candidato-info">'+
+      '<div class="candidato-nombre">'+emoji+' '+c.jugador+'</div>'+
+      '<div class="candidato-sub">'+
+      '<span>'+c.equipo+'</span><span>·</span>'+
+      '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
+      '<span>'+c.num_rachas+'x rachas 3+</span>'+
+      (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+
+      '</div>'+
+      (rachas.length>0?'<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">'+rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join('')+'</div>':'')+
+      '</div>'+
+      '<div class="candidato-score">'+
+      '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
+      '<div class="pct-label">prob 2do hit</div>'+
+      '<div class="pct-bar"><div class="pct-fill" style="width:'+c.prob+'%;background:'+color+'"></div></div>'+
+      '</div></div>';
+  });
+  html+='</div>';
+  div.innerHTML=html;
+}
+
 function renderRotas(data) {
   const div=document.getElementById('tab-rotas');
   if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
@@ -430,6 +468,7 @@ fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
   renderEquipos(data);
   renderRanking(data);
   renderCandidatos(data);
+  renderCandidatos1j(data);
   renderRotas(data);
 }).catch(()=>{
   document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
