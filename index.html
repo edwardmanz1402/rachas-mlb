@@ -262,6 +262,11 @@ function renderJugador(j, id) {
       '<div class="rachas-detalle" id="rachas-det-'+id+'">'+
       (rachas.length>0?rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join(''):'<span style="color:#64748b;font-size:11px">Sin rachas de 3+ este año</span>')+
       '</div>'+
+      '<div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap">'+
+      (h.prob_2j_3j?'<div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#22c55e">'+h.prob_2j_3j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">2j→3j</div></div>':'')+
+      (h.prob_3j_4j?'<div style="background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#fbbf24">'+h.prob_3j_4j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">3j→4j</div></div>':'')+
+      (h.prob_4j_5j?'<div style="background:rgba(96,165,250,0.1);border:1px solid rgba(96,165,250,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#60a5fa">'+h.prob_4j_5j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">4j→5j</div></div>':'')+
+      '</div>'+
       getTipoBadge(tipo)+
       '</div>';
   }
@@ -381,6 +386,8 @@ function renderCandidatos(data) {
       '<span>'+c.num_rachas+'x rachas 3+</span><span>·</span>'+
       (c.rachas_3plus&&c.rachas_3plus.length>0?'<span style="color:#a78bfa">'+c.rachas_3plus.map(r=>r+'j').join(' ')+'</span>':'')+'<span>·</span>'+
       '<span>max '+c.racha_max+'j</span>'+
+      (c.prob_2j_3j?'<span>·</span><span style="color:#22c55e;font-weight:700">2j→3j: '+c.prob_2j_3j+'%</span>':'')+
+      (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+ 
       '</div></div>'+
       '<div class="candidato-score">'+
       '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
