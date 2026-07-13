@@ -25,7 +25,7 @@
   .hstat-num { font-family: 'Oswald', sans-serif; font-size: 18px; color: #60a5fa; font-weight: 700; }
   .hstat-label { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
   .tabs { display: flex; background: #0d1b2e; border-bottom: 1px solid #1e3a5f; overflow-x: auto; }
-  .tab { flex: 1; padding: 12px 8px; cursor: pointer; color: #64748b; text-align: center; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap; }
+  .tab { flex: 1; padding: 12px 6px; cursor: pointer; color: #64748b; text-align: center; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap; }
   .tab.active { color: #60a5fa; border-bottom-color: #2563eb; background: rgba(37,99,235,0.1); }
   .filtro-section { padding: 10px 12px; background: #0d1b2e; border-bottom: 1px solid #1e3a5f; display: flex; gap: 8px; align-items: center; }
   .filtro-section select { flex: 1; background: #070b14; color: #e6edf3; border: 1px solid #1e3a5f; border-radius: 6px; padding: 8px 12px; font-size: 13px; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='%2360a5fa'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 30px; }
@@ -115,6 +115,13 @@
   .rotas-right { text-align: right; }
   .rotas-juegos { font-family: 'Oswald', sans-serif; font-size: 20px; color: #ef4444; }
   .rotas-label { font-size: 10px; color: #64748b; }
+  .candidato-item { display: flex; align-items: center; gap: 10px; padding: 11px 12px; border-bottom: 1px solid #0d1117; transition: background 0.15s; }
+  .candidato-item:hover { background: rgba(255,255,255,0.02); }
+  .candidato-item:last-child { border-bottom: none; }
+  .candidato-info { flex: 1; min-width: 0; }
+  .candidato-nombre { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .candidato-sub { font-size: 11px; color: #64748b; margin-top: 2px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .candidato-score { text-align: right; flex-shrink: 0; }
   .empty { text-align: center; padding: 50px 20px; color: #334155; }
   .empty-icon { font-size: 40px; margin-bottom: 10px; }
   .loading { text-align: center; padding: 60px; color: #334155; }
@@ -143,6 +150,7 @@
 <div class="tabs">
   <div class="tab active" onclick="showTab('equipos')">🏟 Equipos</div>
   <div class="tab" onclick="showTab('ranking')">🎯 Ranking</div>
+  <div class="tab" onclick="showTab('candidatos')">🚨 2J→3J</div>
   <div class="tab" onclick="showTab('rotas')">💔 Rotas</div>
 </div>
 <div id="filtro-bar" class="filtro-section">
@@ -154,6 +162,7 @@
 <div class="content">
   <div id="tab-equipos"><div class="loading"><div class="loading-spinner">⚾</div><div>Cargando datos MLB...</div></div></div>
   <div id="tab-ranking" style="display:none"></div>
+  <div id="tab-candidatos" style="display:none"></div>
   <div id="tab-rotas" style="display:none"></div>
 </div>
 <script>
@@ -161,9 +170,9 @@ const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/ma
 let globalData = null;
 
 function showTab(tab) {
-  ['equipos','ranking','rotas'].forEach(t => {
+  ['equipos','ranking','candidatos','rotas'].forEach(t => {
     document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
-    document.querySelectorAll('.tab')[['equipos','ranking','rotas'].indexOf(t)].classList.toggle('active',t===tab);
+    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','rotas'].indexOf(t)].classList.toggle('active',t===tab);
   });
   document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
 }
@@ -177,12 +186,11 @@ function toggleJugador(id) {
 }
 function toggleRachas(id, event) {
   event.stopPropagation();
-  const el = document.getElementById('rachas-det-'+id);
-  el.classList.toggle('open');
+  document.getElementById('rachas-det-'+id).classList.toggle('open');
 }
 function getColor(score) {
-  if(score>=55) return '#22c55e';
-  if(score>=45) return '#f59e0b';
+  if(score>=70) return '#22c55e';
+  if(score>=55) return '#f59e0b';
   return '#60a5fa';
 }
 function getPctColor(pct) {
@@ -252,7 +260,7 @@ function renderJugador(j, id) {
       '</div>'+
       '</div>'+
       '<div class="rachas-detalle" id="rachas-det-'+id+'">'+
-      (rachas.length > 0 ? rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join('') : '<span style="color:#64748b;font-size:11px">Sin rachas de 3+ este año</span>')+
+      (rachas.length>0?rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join(''):'<span style="color:#64748b;font-size:11px">Sin rachas de 3+ este año</span>')+
       '</div>'+
       getTipoBadge(tipo)+
       '</div>';
@@ -350,6 +358,38 @@ function renderRanking(data) {
   html+='</div>';
   div.innerHTML=html;
 }
+function renderCandidatos(data) {
+  const div=document.getElementById('tab-candidatos');
+  if(!data.candidatos_3j||!data.candidatos_3j.length){
+    div.innerHTML='<div class="empty"><div class="empty-icon">🚨</div><div>No hay candidatos hoy</div></div>';return;
+  }
+  let html='<div class="equipo-card">'+
+    '<div class="ranking-header">'+
+    '<span class="ranking-title">🚨 Candidatos a 3er Hit</span>'+
+    '<span style="font-size:11px;color:#64748b">Llevan 2j con hit</span>'+
+    '</div>';
+  data.candidatos_3j.forEach((c,i)=>{
+    const color=getColor(c.prob);
+    const emoji=c.prob>=70?'🔥':c.prob>=55?'✅':'📊';
+    html+='<div class="candidato-item">'+
+      '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
+      '<div class="candidato-info">'+
+      '<div class="candidato-nombre">'+emoji+' '+c.jugador+'</div>'+
+      '<div class="candidato-sub">'+
+      '<span>'+c.equipo+'</span><span>·</span>'+
+      '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
+      '<span>'+c.num_rachas+'x rachas 3+</span><span>·</span>'+
+      '<span>max '+c.racha_max+'j</span>'+
+      '</div></div>'+
+      '<div class="candidato-score">'+
+      '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
+      '<div class="pct-label">prob 3er hit</div>'+
+      '<div class="pct-bar"><div class="pct-fill" style="width:'+c.prob+'%;background:'+color+'"></div></div>'+
+      '</div></div>';
+  });
+  html+='</div>';
+  div.innerHTML=html;
+}
 function renderRotas(data) {
   const div=document.getElementById('tab-rotas');
   if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
@@ -381,6 +421,7 @@ fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
   });
   renderEquipos(data);
   renderRanking(data);
+  renderCandidatos(data);
   renderRotas(data);
 }).catch(()=>{
   document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
