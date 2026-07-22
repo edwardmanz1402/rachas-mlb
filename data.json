@@ -12057,7 +12057,17 @@
       "game_id": 824735,
       "fecha": "2026-07-22",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Masataka Yoshida",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Caleb Durbin",
+        "Romy Gonzalez",
+        "Jarren Duran",
+        "Connor Wong",
+        "Tsung-Che Cheng"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -12132,17 +12142,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 73.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Andruw Monasterio",
-            "juegos": 4,
-            "avg": 0.545,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 51.8,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -12151,21 +12151,14 @@
             "prob": 73,
             "prob_2j_3j": 75.0,
             "pct_hit": 68.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Caleb Durbin",
             "prob": 51,
             "prob_2j_3j": 52.6,
             "pct_hit": 54.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jahmai Jones",
-            "prob": 27,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 23.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -12174,28 +12167,28 @@
             "prob": 64,
             "prob_1j_2j": 68.0,
             "pct_hit": 64.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wilyer Abreu",
             "prob": 62,
             "prob_1j_2j": 60.0,
             "pct_hit": 65.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Masataka Yoshida",
             "prob": 62,
             "prob_1j_2j": 67.6,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jarren Duran",
             "prob": 61,
             "prob_1j_2j": 66.0,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -14185,5 +14178,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/07/26 07:00"
+  "alineaciones_actualizadas": "22/07/26 08:00"
 }
