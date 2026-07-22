@@ -11728,9 +11728,29 @@
       "home": "New York Yankees",
       "game_id": 823518,
       "fecha": "2026-07-22",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jake Mangum",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Ryan O'Hearn",
+        "Nick Gonzales",
+        "Jacob Gonzalez",
+        "Henry Davis",
+        "Tyler Callihan"
+      ],
+      "home_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Spencer Jones",
+        "Cody Bellinger",
+        "Jasson Domínguez",
+        "Jazz Chisholm Jr.",
+        "José Caballero",
+        "Ryan McMahon",
+        "Austin Wells"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -11741,7 +11761,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 66.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Gonzales",
@@ -11751,17 +11771,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 66.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jared Triolo",
-            "juegos": 4,
-            "avg": 0.538,
-            "prob_2j_3j": 23.1,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 59.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jacob Gonzalez",
@@ -11771,17 +11781,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 43.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Marcell Ozuna",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 58.3,
-            "prob_3j_4j": 83.3,
-            "pct_hit": 58.3,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11791,21 +11791,21 @@
             "prob": 65,
             "prob_1j_2j": 67.7,
             "pct_hit": 68.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan O'Hearn",
             "prob": 62,
             "prob_1j_2j": 61.5,
             "pct_hit": 64.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Henry Davis",
             "prob": 30,
             "prob_1j_2j": 28.6,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -11819,7 +11819,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 69.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jazz Chisholm Jr.",
@@ -11829,60 +11829,45 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Paul Goldschmidt",
-            "prob": 65,
-            "prob_2j_3j": 75.0,
-            "pct_hit": 60.3,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Jasson Domínguez",
             "prob": 60,
             "prob_1j_2j": 63.6,
             "pct_hit": 63.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cody Bellinger",
             "prob": 60,
             "prob_1j_2j": 62.7,
             "pct_hit": 64.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Anthony Volpe",
-            "prob": 55,
-            "prob_1j_2j": 60.9,
-            "pct_hit": 52.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan McMahon",
             "prob": 46,
             "prob_1j_2j": 48.5,
             "pct_hit": 47.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Caballero",
             "prob": 44,
             "prob_1j_2j": 42.2,
             "pct_hit": 56.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Wells",
             "prob": 25,
             "prob_1j_2j": 21.7,
             "pct_hit": 36.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -14178,5 +14163,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/07/26 08:00"
+  "alineaciones_actualizadas": "22/07/26 08:30"
 }
