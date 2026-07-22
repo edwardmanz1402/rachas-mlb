@@ -11736,19 +11736,19 @@
         "Ryan O'Hearn",
         "Nick Gonzales",
         "Jacob Gonzalez",
-        "Henry Davis",
+        "Billy Cook",
         "Jared Triolo"
       ],
       "home_lineup": [
         "Trent Grisham",
-        "Ben Rice",
-        "Spencer Jones",
+        "Ali Sánchez",
+        "Amed Rosario",
         "Cody Bellinger",
         "Jasson Domínguez",
         "Jazz Chisholm Jr.",
         "José Caballero",
         "Ryan McMahon",
-        "Austin Wells"
+        "Paul Goldschmidt"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -11809,28 +11809,11 @@
             "prob_1j_2j": 61.5,
             "pct_hit": 64.3,
             "confirmado": true
-          },
-          {
-            "jugador": "Henry Davis",
-            "prob": 30,
-            "prob_1j_2j": 28.6,
-            "pct_hit": 42.9,
-            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Ben Rice",
-            "juegos": 9,
-            "avg": 0.387,
-            "prob_2j_3j": 70.8,
-            "prob_3j_4j": 69.2,
-            "pct_hit": 69.6,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
           {
             "jugador": "Jazz Chisholm Jr.",
             "juegos": 5,
@@ -11842,7 +11825,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Paul Goldschmidt",
+            "prob": 65,
+            "prob_2j_3j": 75.0,
+            "pct_hit": 60.3,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Jasson Domínguez",
@@ -11870,13 +11861,6 @@
             "prob": 44,
             "prob_1j_2j": 42.2,
             "pct_hit": 56.0,
-            "confirmado": true
-          },
-          {
-            "jugador": "Austin Wells",
-            "prob": 25,
-            "prob_1j_2j": 21.7,
-            "pct_hit": 36.8,
             "confirmado": true
           }
         ]
@@ -12056,7 +12040,7 @@
         "Pete Alonso",
         "Gunnar Henderson",
         "Tyler O'Neill",
-        "Coby Mayo",
+        "Colton Cowser",
         "Leody Taveras",
         "Christian Encarnacion-Strand",
         "Jackson Holliday",
@@ -12357,7 +12341,7 @@
         "Michael Massey",
         "Isaac Collins",
         "Starling Marte",
-        "Josh Rojas",
+        "Nick Loftin",
         "Andrew Velazquez"
       ],
       "alineacion_confirmada": true,
@@ -12421,10 +12405,10 @@
             "confirmado": true
           },
           {
-            "jugador": "Josh Rojas",
-            "prob": 23,
-            "prob_2j_3j": 0,
-            "pct_hit": 37.5,
+            "jugador": "Nick Loftin",
+            "prob": 33,
+            "prob_2j_3j": 30.0,
+            "pct_hit": 48.3,
             "confirmado": true
           }
         ],
@@ -13031,7 +13015,7 @@
         "Masyn Winn",
         "José Fermín",
         "Blaze Jordan",
-        "Pedro Pagés"
+        "Jimmy Crooks"
       ],
       "home_lineup": [
         "Zach Neto",
@@ -13282,7 +13266,17 @@
       "home": "Philadelphia Phillies",
       "game_id": 823438,
       "fecha": "2026-07-22",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Tommy Edman",
+        "Dalton Rushing"
+      ],
       "home_lineup": [
         "Trea Turner",
         "Kyle Schwarber",
@@ -13294,7 +13288,7 @@
         "Bryson Stott",
         "Rafael Marchán"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -13305,7 +13299,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 69.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andy Pages",
@@ -13315,7 +13309,7 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 67.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -13324,7 +13318,7 @@
             "prob": 67,
             "prob_2j_3j": 76.9,
             "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -13333,14 +13327,14 @@
             "prob": 73,
             "prob_1j_2j": 73.8,
             "pct_hit": 71.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Muncy",
             "prob": 54,
             "prob_1j_2j": 54.7,
             "pct_hit": 55.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14107,5 +14101,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/07/26 13:30"
+  "alineaciones_actualizadas": "22/07/26 14:00"
 }
