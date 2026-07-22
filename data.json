@@ -13138,9 +13138,29 @@
       "home": "Cleveland Guardians",
       "game_id": 824408,
       "fecha": "2026-07-22",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Trevor Larnach",
+        "Brooks Lee",
+        "Kody Clemens",
+        "Josh Bell",
+        "Royce Lewis",
+        "Victor Caratini",
+        "Alan Roden",
+        "Luke Keaschall",
+        "Alex Jackson"
+      ],
+      "home_lineup": [
+        "Steven Kwan",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Brayan Rocchio",
+        "Travis Bazzana",
+        "Kyle Manzardo",
+        "Daniel Schneemann",
+        "Patrick Bailey",
+        "Petey Halpin"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -13151,7 +13171,7 @@
             "prob_3j_4j": 54.5,
             "pct_hit": 66.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brooks Lee",
@@ -13161,61 +13181,37 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 64.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Byron Buxton",
-            "prob": 71,
-            "prob_2j_3j": 71.4,
-            "pct_hit": 71.1,
-            "confirmado": false
-          },
           {
             "jugador": "Trevor Larnach",
             "prob": 65,
             "prob_2j_3j": 71.4,
             "pct_hit": 59.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Ryan Jeffers",
-            "prob": 66,
-            "prob_1j_2j": 69.2,
-            "pct_hit": 72.5,
-            "confirmado": false
-          },
           {
             "jugador": "Kody Clemens",
             "prob": 60,
             "prob_1j_2j": 62.0,
             "pct_hit": 59.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alex Jackson",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Kahlil Watson",
-            "juegos": 6,
-            "avg": 0.35,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 57.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Chase DeLauter",
             "juegos": 6,
@@ -13224,7 +13220,7 @@
             "prob_3j_4j": 81.8,
             "pct_hit": 65.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brayan Rocchio",
@@ -13234,7 +13230,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 62.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -13243,21 +13239,14 @@
             "prob": 57,
             "prob_2j_3j": 64.3,
             "pct_hit": 57.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 57,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daniel Schneemann",
             "prob": 51,
             "prob_2j_3j": 58.3,
             "pct_hit": 52.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -13266,14 +13255,14 @@
             "prob": 59,
             "prob_1j_2j": 60.4,
             "pct_hit": 57.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Patrick Bailey",
             "prob": 45,
             "prob_1j_2j": 48.1,
             "pct_hit": 48.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -14122,5 +14111,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/07/26 12:30"
+  "alineaciones_actualizadas": "22/07/26 13:00"
 }
