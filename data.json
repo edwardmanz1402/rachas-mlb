@@ -12467,7 +12467,17 @@
       "home": "Toronto Blue Jays",
       "game_id": 822785,
       "fecha": "2026-07-23",
-      "away_lineup": [],
+      "away_lineup": [
+        "Yandy Díaz",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Victor Mesa Jr.",
+        "Jonny DeLuca",
+        "Chandler Simpson",
+        "Ben Williamson",
+        "Richie Palacios",
+        "Hunter Feduccia"
+      ],
       "home_lineup": [
         "Yohendrick Piñango",
         "Vladimir Guerrero Jr.",
@@ -12479,7 +12489,7 @@
         "Luis Urías",
         "Myles Straw"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -12490,7 +12500,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 73.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Chandler Simpson",
@@ -12500,17 +12510,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 69.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Nick Fortes",
-            "juegos": 4,
-            "avg": 0.467,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 75.0,
-            "pct_hit": 60.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Victor Mesa Jr.",
@@ -12520,7 +12520,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -12529,25 +12529,10 @@
             "prob": 69,
             "prob_2j_3j": 77.8,
             "pct_hit": 59.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Vilade",
-            "prob": 54,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Taylor Walls",
-            "prob": 55,
-            "prob_1j_2j": 57.5,
-            "pct_hit": 56.2,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [],
@@ -12866,5 +12851,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "23/07/26 10:30"
+  "alineaciones_actualizadas": "23/07/26 11:00"
 }
