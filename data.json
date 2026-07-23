@@ -12174,9 +12174,29 @@
       "home": "Atlanta Braves",
       "game_id": 824893,
       "fecha": "2026-07-23",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Luis Rengifo",
+        "Manny Machado",
+        "Ty France",
+        "Xander Bogaerts",
+        "Gavin Sheets",
+        "Freddy Fermin",
+        "Jase Bowen",
+        "Jake Cronenworth"
+      ],
+      "home_lineup": [
+        "Drake Baldwin",
+        "Ozzie Albies",
+        "Matt Olson",
+        "Michael Harris II",
+        "Mauricio Dubón",
+        "Austin Riley",
+        "Dominic Smith",
+        "Mike Yastrzemski",
+        "Jim Jarvis"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -12187,7 +12207,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 52.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -12196,28 +12216,21 @@
             "prob": 64,
             "prob_2j_3j": 57.1,
             "pct_hit": 72.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Xander Bogaerts",
             "prob": 59,
             "prob_2j_3j": 62.5,
             "pct_hit": 54.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jackson Merrill",
-            "prob": 40,
-            "prob_2j_3j": 35.0,
-            "pct_hit": 56.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
             "prob": 37,
             "prob_2j_3j": 40.0,
             "pct_hit": 42.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -12226,14 +12239,14 @@
             "prob": 61,
             "prob_1j_2j": 66.0,
             "pct_hit": 51.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Freddy Fermin",
             "prob": 39,
             "prob_1j_2j": 43.8,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -12245,14 +12258,14 @@
             "prob": 69,
             "prob_2j_3j": 70.0,
             "pct_hit": 73.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jim Jarvis",
             "prob": 37,
             "prob_2j_3j": 33.3,
             "pct_hit": 64.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -12261,49 +12274,35 @@
             "prob": 69,
             "prob_1j_2j": 71.4,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ozzie Albies",
             "prob": 69,
             "prob_1j_2j": 73.4,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mauricio Dubón",
             "prob": 66,
             "prob_1j_2j": 67.2,
             "pct_hit": 67.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Smith",
             "prob": 52,
             "prob_1j_2j": 53.7,
             "pct_hit": 54.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brewer Hicklen",
-            "prob": 50,
-            "prob_1j_2j": 0,
-            "pct_hit": 75.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Riley",
             "prob": 48,
             "prob_1j_2j": 49.0,
             "pct_hit": 51.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jorge Mateo",
-            "prob": 43,
-            "prob_1j_2j": 47.4,
-            "pct_hit": 38.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -12314,7 +12313,17 @@
       "game_id": 824406,
       "fecha": "2026-07-23",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Steven Kwan",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Brayan Rocchio",
+        "Travis Bazzana",
+        "Rhys Hoskins",
+        "Kyle Manzardo",
+        "Patrick Bailey",
+        "Petey Halpin"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -12406,17 +12415,7 @@
             "prob_3j_4j": 81.8,
             "pct_hit": 65.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Kahlil Watson",
-            "juegos": 6,
-            "avg": 0.35,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 57.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brayan Rocchio",
@@ -12426,7 +12425,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 62.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -12435,21 +12434,14 @@
             "prob": 65,
             "prob_2j_3j": 70.6,
             "pct_hit": 57.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 57,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Patrick Bailey",
             "prob": 32,
             "prob_2j_3j": 30.0,
             "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -12458,21 +12450,21 @@
             "prob": 60,
             "prob_1j_2j": 60.0,
             "pct_hit": 63.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Manzardo",
             "prob": 52,
             "prob_1j_2j": 54.5,
             "pct_hit": 51.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Petey Halpin",
             "prob": 46,
             "prob_1j_2j": 55.6,
             "pct_hit": 41.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -12871,5 +12863,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "23/07/26 08:00"
+  "alineaciones_actualizadas": "23/07/26 08:30"
 }
