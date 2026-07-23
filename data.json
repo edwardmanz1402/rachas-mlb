@@ -12193,7 +12193,7 @@
         "Mauricio Dubón",
         "Austin Riley",
         "Dominic Smith",
-        "Mike Yastrzemski",
+        "Eli White",
         "Jim Jarvis"
       ],
       "alineacion_confirmada": true,
@@ -12568,7 +12568,17 @@
       "home": "St. Louis Cardinals",
       "game_id": 823042,
       "fecha": "2026-07-23",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ketel Marte",
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Max Kepler",
+        "Tim Tawa",
+        "Adrian Del Castillo",
+        "Ildemaro Vargas",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [
         "JJ Wetherholt",
         "Jordan Walker",
@@ -12580,19 +12590,9 @@
         "Blaze Jordan",
         "Jimmy Crooks"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Nolan Arenado",
-            "juegos": 5,
-            "avg": 0.333,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 30.0,
-            "pct_hit": 64.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Ildemaro Vargas",
             "juegos": 5,
@@ -12601,7 +12601,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 63.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan Waldschmidt",
@@ -12611,7 +12611,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -12621,7 +12621,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 65.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
@@ -12631,33 +12631,16 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Jorge Barrosa",
-            "prob": 42,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 40.4,
-            "confirmado": false
-          },
           {
             "jugador": "Tim Tawa",
             "prob": 35,
             "prob_2j_3j": 40.0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -12666,14 +12649,14 @@
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Adrian Del Castillo",
             "prob": 43,
             "prob_1j_2j": 43.5,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -12854,5 +12837,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "23/07/26 12:00"
+  "alineaciones_actualizadas": "23/07/26 12:30"
 }
