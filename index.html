@@ -437,35 +437,6 @@ function renderTurnoHit(tu) {
 }
 
 
-function renderTurnoHit(tu) {
-  if(!tu || !tu.promedio) return '';
-  const maxPct = Math.max(tu.pct_t1, tu.pct_t2, tu.pct_t3, tu.pct_t4plus);
-  const gc = (pct) => pct === maxPct ? '#22c55e' : '#475569';
-  return '<div style="background:#0a1628;border:1px solid #1e3a5f;border-radius:6px;padding:8px;margin-top:6px">'+
-    '<div style="font-size:10px;color:#60a5fa;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">⚡ Patrón Hit en Vivo</div>'+
-    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:3px">'+
-    '<div style="font-size:10px;color:#64748b">Turno 1</div>'+
-    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t1)+';width:'+tu.pct_t1+'%"></div></div>'+
-    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t1)+';text-align:right">'+tu.pct_t1+'%</div>'+
-    '</div>'+
-    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:3px">'+
-    '<div style="font-size:10px;color:#64748b">Turno 2</div>'+
-    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t2)+';width:'+tu.pct_t2+'%"></div></div>'+
-    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t2)+';text-align:right">'+tu.pct_t2+'%</div>'+
-    '</div>'+
-    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:3px">'+
-    '<div style="font-size:10px;color:#64748b">Turno 3</div>'+
-    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t3)+';width:'+tu.pct_t3+'%"></div></div>'+
-    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t3)+';text-align:right">'+tu.pct_t3+'%</div>'+
-    '</div>'+
-    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:5px">'+
-    '<div style="font-size:10px;color:#64748b">Turno 4+</div>'+
-    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t4plus)+';width:'+tu.pct_t4plus+'%"></div></div>'+
-    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t4plus)+';text-align:right">'+tu.pct_t4plus+'%</div>'+
-    '</div>'+
-    '<div style="font-size:10px;color:#64748b;text-align:center">Promedio: turno '+tu.promedio+'</div>'+
-    '</div>';
-}
 
 function renderCandidatos(data) {
   const div=document.getElementById('tab-candidatos');
@@ -493,9 +464,6 @@ function renderCandidatos(data) {
       (c.prob_2j_3j?'<span>·</span><span style="color:#22c55e;font-weight:700">2j→3j: '+c.prob_2j_3j+'%</span>':'')+
       (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+ 
       '</div>'+renderTurnoHit(c.turno_hit)+
-      '<div style="display:none">'+
-      '</div>'+renderTurnoHit(c.turno_hit)+
-      '<div style="display:none">'+
       '</div></div>'+
       '<div class="candidato-score">'+
       '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
@@ -607,7 +575,8 @@ function renderCandidatos1j(data) {
       '<span>'+c.equipo+'</span><span>·</span>'+
       '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
       '<span>'+c.num_rachas+'x rachas 3+</span>'+
-      (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+'</div>'+renderTurnoHit(c.turno_hit)+'<div style="display:none">'+
+      (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+
+      '</div>'+renderTurnoHit(c.turno_hit)+
       '</div>'+
       (rachas.length>0?'<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">'+rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join('')+'</div>':'')+
       '</div>'+
