@@ -153,6 +153,7 @@
   <div class="tab" onclick="showTab('candidatos')">🚨 2J→3J</div>
   <div class="tab" onclick="showTab('candidatos1j')">🎯 1J→2J</div>
   <div class="tab" onclick="showTab('juegos')">📅 Juegos</div>
+  <div class="tab" onclick="showTab('efectividad')">📊 Efectividad</div>
   <div class="tab" onclick="showTab('rotas')">💔 Rotas</div>
 </div>
 <div id="filtro-bar" class="filtro-section">
@@ -167,6 +168,7 @@
   <div id="tab-candidatos" style="display:none"></div>
   <div id="tab-candidatos1j" style="display:none"></div>
   <div id="tab-juegos" style="display:none"></div>
+  <div id="tab-efectividad" style="display:none"></div>
   <div id="tab-rotas" style="display:none"></div>
 </div>
 <script>
@@ -174,9 +176,9 @@ const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/ma
 let globalData = null;
 
 function showTab(tab) {
-  ['equipos','ranking','candidatos','candidatos1j','juegos','rotas'].forEach(t => {
+  ['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','rotas'].forEach(t => {
     document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
-    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','rotas'].indexOf(t)].classList.toggle('active',t===tab);
+    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','rotas'].indexOf(t)].classList.toggle('active',t===tab);
   });
   document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
 }
@@ -517,6 +519,72 @@ function renderCandidatos1j(data) {
   div.innerHTML=html;
 }
 
+function renderEfectividad(data) {
+  const div = document.getElementById('tab-efectividad');
+  const ef = data.efectividad || {};
+  const pred = data.predicciones_hoy || {};
+  
+  let html = '<div class="equipo-card">';
+  
+  // Header
+  html += '<div class="ranking-header"><span class="ranking-title">📊 Efectividad Histórica</span></div>';
+  
+  // Stats por tipo
+  const tipos = [
+    {key: '1J→2J', emoji: '🎯', color: '#22c55e', label: 'Candidatos 1J→2J (Top 15)'},
+    {key: '2J→3J', emoji: '🚨', color: '#f59e0b', label: 'Candidatos 2J→3J (Top 15)'},
+    {key: 'RACHA', emoji: '🔥', color: '#f87171', label: 'Jugadores en Racha'}
+  ];
+  
+  tipos.forEach(t => {
+    const e = ef[t.key] || {total: 0, aciertos: 0, pct: 0};
+    const pct = e.pct || 0;
+    const color = pct >= 65 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#f87171';
+    html += '<div style="padding:14px;border-bottom:1px solid #1e293b">'+
+      '<div style="display:flex;justify-content:space-between;align-items:center">'+
+      '<div>'+
+      '<div style="font-weight:600;font-size:14px">'+t.emoji+' '+t.label+'</div>'+
+      '<div style="font-size:12px;color:#64748b;margin-top:3px">'+
+      e.aciertos+' aciertos de '+e.total+' predicciones'+
+      '</div>'+
+      '</div>'+
+      '<div style="text-align:right">'+
+      '<div style="font-family:Oswald,sans-serif;font-size:28px;font-weight:700;color:'+color+'">'+pct+'%</div>'+
+      '<div style="font-size:10px;color:#64748b">efectividad</div>'+
+      '</div>'+
+      '</div>'+
+      '<div style="height:4px;background:#1e293b;border-radius:2px;margin-top:8px">'+
+      '<div style="height:4px;border-radius:2px;background:'+color+';width:'+pct+'%"></div>'+
+      '</div>'+
+      '</div>';
+  });
+  
+  html += '</div>';
+  
+  // Predicciones de hoy
+  html += '<div class="equipo-card" style="margin-top:10px">';
+  html += '<div class="ranking-header"><span class="ranking-title">🎯 Predicciones de Hoy</span></div>';
+  
+  ['1J→2J','2J→3J'].forEach(tipo => {
+    const lista = pred[tipo] || [];
+    if(!lista.length) return;
+    const emoji = tipo === '1J→2J' ? '🎯' : '🚨';
+    html += '<div style="padding:10px 14px;border-bottom:1px solid #1e293b">'+
+      '<div style="font-family:Oswald,sans-serif;font-size:12px;color:#60a5fa;letter-spacing:1px;margin-bottom:8px">'+emoji+' '+tipo+'</div>';
+    lista.forEach((p,i) => {
+      const color = p.prob>=70?'#22c55e':p.prob>=55?'#f59e0b':'#60a5fa';
+      html += '<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #0d1117">'+
+        '<span style="font-size:13px">'+(i+1)+'. '+p.jugador+'</span>'+
+        '<span style="font-family:Oswald,sans-serif;font-size:16px;color:'+color+'">'+p.prob+'%</span>'+
+        '</div>';
+    });
+    html += '</div>';
+  });
+  
+  html += '</div>';
+  div.innerHTML = html;
+}
+
 function renderRotas(data) {
   const div=document.getElementById('tab-rotas');
   if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
@@ -551,6 +619,7 @@ fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
   renderCandidatos(data);
   renderJuegos(data);
   renderCandidatos1j(data);
+  renderEfectividad(data);
   renderRotas(data);
 }).catch(()=>{
   document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
