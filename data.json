@@ -13800,7 +13800,17 @@
       "game_id": 824248,
       "fecha": "2026-07-24",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Colt Keith",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Spencer Torkelson",
+        "Hao-Yu Lee",
+        "Zach McKinstry",
+        "Matt Vierling",
+        "Ben Malgeri"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -13881,17 +13891,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 55.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Kevin McGonigle",
-            "juegos": 6,
-            "avg": 0.304,
-            "prob_2j_3j": 71.9,
-            "prob_3j_4j": 73.7,
-            "pct_hit": 75.3,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dillon Dingler",
@@ -13901,7 +13901,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 58.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -13910,28 +13910,14 @@
             "prob": 70,
             "prob_2j_3j": 73.9,
             "pct_hit": 65.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zach McKinstry",
             "prob": 53,
             "prob_2j_3j": 60.0,
             "pct_hit": 45.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "James Outman",
-            "prob": 51,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 36.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Kerry Carpenter",
-            "prob": 50,
-            "prob_2j_3j": 53.8,
-            "pct_hit": 49.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -13940,7 +13926,7 @@
             "prob": 53,
             "prob_1j_2j": 53.8,
             "pct_hit": 62.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -15663,5 +15649,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "24/07/26 12:30"
+  "alineaciones_actualizadas": "24/07/26 13:00"
 }
