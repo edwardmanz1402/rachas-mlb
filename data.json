@@ -14445,7 +14445,17 @@
       "home": "New York Mets",
       "game_id": 823601,
       "fecha": "2026-07-24",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Tommy Edman",
+        "Freddie Freeman",
+        "Mookie Betts",
+        "Miguel Rojas",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Dalton Rushing"
+      ],
       "home_lineup": [
         "A.J. Ewing",
         "Juan Soto",
@@ -14457,7 +14467,7 @@
         "Marcus Semien",
         "Francisco Alvarez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -14468,7 +14478,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 69.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andy Pages",
@@ -14478,7 +14488,7 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 67.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Teoscar Hernández",
@@ -14488,7 +14498,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -14498,14 +14508,14 @@
             "prob": 61,
             "prob_1j_2j": 66.7,
             "pct_hit": 68.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dalton Rushing",
             "prob": 47,
             "prob_1j_2j": 50.0,
             "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -15024,7 +15034,17 @@
       "game_id": 822872,
       "fecha": "2026-07-24",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Joc Pederson",
+        "Wyatt Langford",
+        "Ezequiel Duran",
+        "Brandon Nimmo",
+        "Evan Carter",
+        "Jake Burger",
+        "Nicky Lopez",
+        "Elias Díaz",
+        "Cam Cauley"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -15113,7 +15133,7 @@
             "prob_3j_4j": 20.0,
             "pct_hit": 50.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ezequiel Duran",
@@ -15123,7 +15143,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 64.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cam Cauley",
@@ -15133,48 +15153,19 @@
             "prob_3j_4j": 0,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Josh Jung",
-            "prob": 71,
-            "prob_2j_3j": 71.4,
-            "pct_hit": 70.0,
-            "confirmado": false
-          },
           {
             "jugador": "Brandon Nimmo",
             "prob": 51,
             "prob_2j_3j": 47.8,
             "pct_hit": 61.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alejandro Osuna",
-            "prob": 45,
-            "prob_2j_3j": 45.5,
-            "pct_hit": 56.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Justin Foscue",
-            "prob": 37,
-            "prob_2j_3j": 40.0,
-            "pct_hit": 43.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Kyle Higashioka",
-            "prob": 47,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 53.8,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       }
     },
     {
@@ -15183,7 +15174,17 @@
       "game_id": 823680,
       "fecha": "2026-07-24",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Austin Martin",
+        "Byron Buxton",
+        "Ryan Jeffers",
+        "Josh Bell",
+        "Royce Lewis",
+        "Victor Caratini",
+        "Luke Keaschall",
+        "Brooks Lee",
+        "Ryan Kreidler"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -15277,26 +15278,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Trevor Larnach",
-            "juegos": 4,
-            "avg": 0.462,
-            "prob_2j_3j": 71.4,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 60.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Kody Clemens",
-            "juegos": 3,
-            "avg": 0.286,
-            "prob_2j_3j": 47.6,
-            "prob_3j_4j": 40.0,
-            "pct_hit": 59.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Byron Buxton",
             "juegos": 3,
             "avg": 0.364,
@@ -15304,7 +15285,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 71.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -15313,21 +15294,14 @@
             "prob": 70,
             "prob_2j_3j": 80.0,
             "pct_hit": 73.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luke Keaschall",
             "prob": 66,
             "prob_2j_3j": 65.2,
             "pct_hit": 66.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alex Jackson",
-            "prob": 56,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -15579,5 +15553,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "24/07/26 14:00"
+  "alineaciones_actualizadas": "24/07/26 14:30"
 }
