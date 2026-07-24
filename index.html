@@ -277,6 +277,42 @@ function renderJugador(j, id) {
       '</div>';
   }
 
+  let turnoHTML = '';
+  const tu = j.turno_hit;
+  if(tu && tu.promedio > 0) {
+    const maxPct = Math.max(tu.pct_t1, tu.pct_t2, tu.pct_t3, tu.pct_t4plus);
+    const getColor = (pct) => pct === maxPct ? '#22c55e' : '#475569';
+    turnoHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">⚡ Patrón de Hit en Vivo</div>'+
+      '<div style="background:#0d1b2e;border:1px solid #1e3a5f;border-radius:6px;padding:10px;margin-bottom:8px">'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 1</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t1)+';width:'+tu.pct_t1+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t1)+';text-align:right">'+tu.pct_t1+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 2</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t2)+';width:'+tu.pct_t2+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t2)+';text-align:right">'+tu.pct_t2+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 3</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t3)+';width:'+tu.pct_t3+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t3)+';text-align:right">'+tu.pct_t3+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:8px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 4+</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t4plus)+';width:'+tu.pct_t4plus+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t4plus)+';text-align:right">'+tu.pct_t4plus+'%</div>'+
+      '</div>'+
+      '<div style="display:flex;justify-content:space-between;border-top:1px solid #1e293b;padding-top:6px">'+
+      '<span style="font-size:11px;color:#64748b">Promedio: turno '+tu.promedio+'</span>'+
+      '<span style="font-size:11px;color:#64748b">Máx: turno '+tu.maximo+'</span>'+
+      '</div>'+
+      '</div>'+
+      '</div>';
+  }
+
   let detHTML = '<div class="detalle-section">'+
     '<div class="detalle-section-title">📅 Detalle de Racha Actual</div>'+
     '<table class="detalle-table">'+
@@ -311,7 +347,7 @@ function renderJugador(j, id) {
     '<div class="jugador-arrow" id="jg-arrow-'+id+'">›</div>'+
     '</div>'+
     '<div class="jugador-detalle" id="jg-det-'+id+'">'+
-    tempHTML+histHTML+detHTML+
+    tempHTML+histHTML+turnoHTML+detHTML+
     '</div></div>';
 }
 function filtrarEquipo() {
