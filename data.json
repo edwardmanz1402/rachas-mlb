@@ -13692,7 +13692,7 @@
         "Brice Turang",
         "William Contreras",
         "Garrett Mitchell",
-        "Luis Lara",
+        "Andrew Vaughn",
         "Jake Bauers",
         "Joey Ortiz",
         "David Hamilton"
@@ -13789,6 +13789,13 @@
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 67.4,
+            "confirmado": true
+          },
+          {
+            "jugador": "Andrew Vaughn",
+            "prob": 48,
+            "prob_1j_2j": 50.0,
+            "pct_hit": 51.8,
             "confirmado": true
           }
         ]
@@ -15405,7 +15412,17 @@
       "game_id": 823196,
       "fecha": "2026-07-24",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Luis Arraez",
+        "Heliot Ramos",
+        "Bryce Eldridge",
+        "Rafael Devers",
+        "Casey Schmitt",
+        "Jung Hoo Lee",
+        "Willy Adames",
+        "Drew Gilbert",
+        "Drew Cavanaugh"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -15477,43 +15494,35 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Jesus Rodriguez",
-            "prob": 31,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 60.0,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Casey Schmitt",
             "prob": 68,
             "prob_1j_2j": 69.0,
             "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Devers",
             "prob": 64,
             "prob_1j_2j": 65.1,
             "pct_hit": 65.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willy Adames",
             "prob": 59,
             "prob_1j_2j": 58.5,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "24/07/26 15:30"
+  "alineaciones_actualizadas": "24/07/26 16:00"
 }
