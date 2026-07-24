@@ -14061,9 +14061,19 @@
       "home": "Washington Nationals",
       "game_id": 822707,
       "fecha": "2026-07-24",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ketel Marte",
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Nolan Arenado",
+        "Max Kepler",
+        "Tyler Locklear",
+        "Adrian Del Castillo",
+        "Tim Tawa"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -14074,17 +14084,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Ildemaro Vargas",
-            "juegos": 6,
-            "avg": 0.44,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 63.6,
-            "pct_hit": 63.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -14094,7 +14094,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 66.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
@@ -14104,7 +14104,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 61.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
@@ -14114,17 +14114,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 43.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -14133,14 +14123,7 @@
             "prob": 56,
             "prob_2j_3j": 66.7,
             "pct_hit": 52.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jorge Barrosa",
-            "prob": 42,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 40.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -14149,7 +14132,7 @@
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -15680,5 +15663,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "24/07/26 12:00"
+  "alineaciones_actualizadas": "24/07/26 12:30"
 }
