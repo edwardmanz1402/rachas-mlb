@@ -492,8 +492,10 @@ function renderCandidatos(data) {
       '<span>max '+c.racha_max+'j</span>'+
       (c.prob_2j_3j?'<span>·</span><span style="color:#22c55e;font-weight:700">2j→3j: '+c.prob_2j_3j+'%</span>':'')+
       (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+ 
-      '</div>'+renderTurnoHit(c.turno_hit)+'<div style="display:none">'+
-      '</div>'+renderTurnoHit(c.turno_hit)+'<div style="display:none">'+
+      '</div>'+renderTurnoHit(c.turno_hit)+
+      '<div style="display:none">'+
+      '</div>'+renderTurnoHit(c.turno_hit)+
+      '<div style="display:none">'+
       '</div></div>'+
       '<div class="candidato-score">'+
       '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
@@ -605,7 +607,7 @@ function renderCandidatos1j(data) {
       '<span>'+c.equipo+'</span><span>·</span>'+
       '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
       '<span>'+c.num_rachas+'x rachas 3+</span>'+
-      (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+'</div>'+renderTurnoHit(c.turno_hit)+'<div style="display:none">'+'</div>'+renderTurnoHit(c.turno_hit)+'<div style="display:none">'+
+      (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+'</div>'+renderTurnoHit(c.turno_hit)+'<div style="display:none">'+
       '</div>'+
       (rachas.length>0?'<div style="display:flex;gap:4px;flex-wrap:wrap;margin-top:4px">'+rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join('')+'</div>':'')+
       '</div>'+
