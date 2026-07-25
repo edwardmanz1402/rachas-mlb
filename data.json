@@ -12830,9 +12830,19 @@
       "home": "Detroit Tigers",
       "game_id": 824244,
       "fecha": "2026-07-25",
-      "away_lineup": [],
+      "away_lineup": [
+        "Carter Jensen",
+        "Lane Thomas",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Vinnie Pasquantino",
+        "Nick Loftin",
+        "Michael Massey",
+        "Isaac Collins",
+        "Andrew Velazquez"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -12843,7 +12853,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 50.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Massey",
@@ -12853,17 +12863,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 57.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Josh Rojas",
-            "juegos": 4,
-            "avg": 0.429,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 41.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -12872,7 +12872,7 @@
             "prob": 57,
             "prob_2j_3j": 58.8,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -12881,7 +12881,7 @@
             "prob": 54,
             "prob_1j_2j": 56.0,
             "pct_hit": 57.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14779,5 +14779,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "25/07/26 07:00"
+  "alineaciones_actualizadas": "25/07/26 08:00"
 }
