@@ -13684,9 +13684,19 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823355,
       "fecha": "2026-07-25",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Dansby Swanson",
+        "Miguel Amaya"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -13697,7 +13707,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 42.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ian Happ",
@@ -13707,7 +13717,7 @@
             "prob_3j_4j": 87.5,
             "pct_hit": 57.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -13716,7 +13726,7 @@
             "prob": 43,
             "prob_2j_3j": 42.9,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -13725,21 +13735,21 @@
             "prob": 70,
             "prob_1j_2j": 73.1,
             "pct_hit": 70.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nico Hoerner",
             "prob": 70,
             "prob_1j_2j": 68.3,
             "pct_hit": 68.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dansby Swanson",
             "prob": 51,
             "prob_1j_2j": 52.2,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14046,7 +14056,17 @@
       "home": "Chicago White Sox",
       "game_id": 824571,
       "fecha": "2026-07-25",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "LaMonte Wade Jr.",
+        "Christian Walker",
+        "Yainer Diaz",
+        "Lucas Spence",
+        "Cam Smith"
+      ],
       "home_lineup": [
         "Sam Antonacci",
         "Munetaka Murakami",
@@ -14058,7 +14078,7 @@
         "Chase Meidroth",
         "Edgar Quero"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -14069,7 +14089,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 70.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jeremy Peña",
@@ -14079,7 +14099,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 76.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Walker",
@@ -14089,60 +14109,31 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 59.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Taylor Trammell",
-            "prob": 47,
-            "prob_2j_3j": 57.1,
-            "pct_hit": 46.5,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Jose Altuve",
             "prob": 60,
             "prob_1j_2j": 61.4,
             "pct_hit": 61.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cam Smith",
             "prob": 56,
             "prob_1j_2j": 58.0,
             "pct_hit": 53.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "LaMonte Wade Jr.",
             "prob": 42,
             "prob_1j_2j": 50.0,
             "pct_hit": 37.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Vázquez",
-            "prob": 41,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 46.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Raynel Delgado",
-            "prob": 36,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 58.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nick Allen",
-            "prob": 32,
-            "prob_1j_2j": 31.2,
-            "pct_hit": 43.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14467,7 +14458,17 @@
         "Edwin Arroyo",
         "Ke'Bryan Hayes"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "JJ Wetherholt",
+        "Jordan Walker",
+        "Alec Burleson",
+        "Iván Herrera",
+        "Lars Nootbaar",
+        "Masyn Winn",
+        "Bryan Torres",
+        "Blaze Jordan",
+        "Nathan Church"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -14533,34 +14534,20 @@
         "racha": [],
         "candidatos_2j": [
           {
-            "jugador": "Jimmy Crooks",
-            "prob": 42,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 42.3,
-            "confirmado": false
-          },
-          {
             "jugador": "Bryan Torres",
             "prob": 25,
             "prob_2j_3j": 0,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "José Fermín",
-            "prob": 56,
-            "prob_1j_2j": 61.3,
-            "pct_hit": 53.2,
-            "confirmado": false
-          },
           {
             "jugador": "Blaze Jordan",
             "prob": 51,
             "prob_1j_2j": 54.5,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -14706,5 +14693,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "25/07/26 14:30"
+  "alineaciones_actualizadas": "25/07/26 15:00"
 }
