@@ -13089,7 +13089,17 @@
       "home": "San Francisco Giants",
       "game_id": 823197,
       "fecha": "2026-07-25",
-      "away_lineup": [],
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Vaughn Grissom",
+        "Jorge Soler",
+        "Nolan Schanuel",
+        "Jo Adell",
+        "Denzer Guzman",
+        "Jose Siri",
+        "Logan O'Hoppe"
+      ],
       "home_lineup": [
         "Luis Arraez",
         "Heliot Ramos",
@@ -13101,7 +13111,7 @@
         "Drew Gilbert",
         "Daniel Susac"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -13112,7 +13122,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -13121,7 +13131,7 @@
             "prob": 58,
             "prob_2j_3j": 57.1,
             "pct_hit": 65.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -13130,56 +13140,35 @@
             "prob": 72,
             "prob_1j_2j": 78.9,
             "pct_hit": 72.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Schanuel",
             "prob": 69,
             "prob_1j_2j": 71.7,
             "pct_hit": 72.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jo Adell",
             "prob": 57,
             "prob_1j_2j": 56.9,
             "pct_hit": 58.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Vaughn Grissom",
             "prob": 57,
             "prob_1j_2j": 58.1,
             "pct_hit": 61.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Oswald Peraza",
-            "prob": 53,
-            "prob_1j_2j": 52.3,
-            "pct_hit": 55.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Josh Lowe",
-            "prob": 52,
-            "prob_1j_2j": 59.3,
-            "pct_hit": 47.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Siri",
             "prob": 36,
             "prob_1j_2j": 35.3,
             "pct_hit": 47.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyler Heineman",
-            "prob": 21,
-            "prob_1j_2j": 16.7,
-            "pct_hit": 39.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14783,5 +14772,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "25/07/26 11:00"
+  "alineaciones_actualizadas": "25/07/26 11:30"
 }
