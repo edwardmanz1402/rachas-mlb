@@ -725,13 +725,16 @@ function renderTendencia(data) {
   div.innerHTML = html;
   window.__efDiariaGlobal = efDiaria;
   window.__tiposTendencia = tiposT;
+  window.__detalleGlobal = data.detalle_predicciones || {};
   seleccionarDiaTendencia(fechas[fechas.length-1]);
 }
 
 function seleccionarDiaTendencia(fecha) {
   const efDiaria = window.__efDiariaGlobal || {};
   const tiposT = window.__tiposTendencia || [];
+  const detalleGlobal = window.__detalleGlobal || {};
   const diaData = efDiaria[fecha];
+  const diaDetalle = detalleGlobal[fecha] || {};
   const sel = document.getElementById('tendencia-select');
   if (sel) sel.value = fecha;
   const cont = document.getElementById('tendencia-detalle-content');
@@ -742,12 +745,37 @@ function seleccionarDiaTendencia(fecha) {
     if(!e) return;
     const pct = e.pct||0;
     const color = pct>=65?'#22c55e':pct>=50?'#f59e0b':'#f87171';
-    html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #1e293b">'+
+    const lista = diaDetalle[t.key] || [];
+    html += '<div style="margin-bottom:6px">';
+    html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;cursor:pointer" onclick="toggleDetalleTipo(this)">'+
       '<span style="font-size:13px">'+t.emoji+' '+t.key+' ('+e.aciertos+'/'+e.total+')</span>'+
+      '<span style="display:flex;align-items:center;gap:6px">'+
       '<span style="font-family:Oswald,sans-serif;font-size:16px;font-weight:600;color:'+color+'">'+pct+'%</span>'+
+      '<span style="color:#64748b;font-size:11px">▼</span>'+
+      '</span>'+
       '</div>';
+    html += '<div style="display:none">';
+    lista.forEach(p=>{
+      const acerto = p.dio_hit === 1;
+      const icono = acerto ? '✅' : '❌';
+      const colorFila = acerto ? '#34d399' : '#f87171';
+      html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px;font-size:12px;border-bottom:1px solid #0d1117">'+
+        '<span>'+icono+' '+p.jugador+' <span style="color:#64748b">('+p.equipo+')</span></span>'+
+        '<span style="color:'+colorFila+'">'+Math.round(p.prob)+'%</span>'+
+        '</div>';
+    });
+    html += '</div>';
+    html += '</div>';
   });
   cont.innerHTML = html;
+}
+function toggleDetalleTipo(el) {
+  const panel = el.nextElementSibling;
+  const arrow = el.querySelector('span:last-child span');
+  if (!panel) return;
+  const abierto = panel.style.display === 'block';
+  panel.style.display = abierto ? 'none' : 'block';
+  if (arrow) arrow.textContent = abierto ? '▼' : '▲';
 }
 
 function renderRotas(data) {
