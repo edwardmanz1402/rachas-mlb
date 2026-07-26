@@ -632,6 +632,30 @@ function renderEfectividad(data) {
   
   html += '</div>';
   
+  // Efectividad por dia
+  const efDiaria = data.efectividad_diaria || {};
+  const fechasOrdenadas = Object.keys(efDiaria).sort().reverse();
+  if (fechasOrdenadas.length) {
+    html += '<div class="equipo-card" style="margin-top:10px">';
+    html += '<div class="ranking-header"><span class="ranking-title">📅 Efectividad por Dia</span></div>';
+    fechasOrdenadas.forEach(fecha => {
+      const diaData = efDiaria[fecha];
+      html += '<div style="padding:10px 14px;border-bottom:1px solid #1e293b">';
+      html += '<div style="font-family:Oswald,sans-serif;font-size:12px;color:#60a5fa;letter-spacing:1px;margin-bottom:6px">'+fecha+'</div>';
+      tipos.forEach(t => {
+        const e = diaData[t.key];
+        if (!e) return;
+        const pct = e.pct || 0;
+        const color = pct >= 65 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#f87171';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 0">'+
+          '<span style="font-size:12px;color:#94a3b8">'+t.emoji+' '+t.key+' ('+e.aciertos+'/'+e.total+')</span>'+
+          '<span style="font-family:Oswald,sans-serif;font-size:14px;font-weight:600;color:'+color+'">'+pct+'%</span>'+
+          '</div>';
+      });
+      html += '</div>';
+    });
+    html += '</div>';
+  }
   // Predicciones de hoy
   html += '<div class="equipo-card" style="margin-top:10px">';
   html += '<div class="ranking-header"><span class="ranking-title">🎯 Predicciones de Hoy</span></div>';
