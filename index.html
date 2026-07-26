@@ -154,6 +154,7 @@
   <div class="tab" onclick="showTab('candidatos1j')">🎯 1J→2J</div>
   <div class="tab" onclick="showTab('juegos')">📅 Juegos</div>
   <div class="tab" onclick="showTab('efectividad')">📊 Efectividad</div>
+  <div class="tab" onclick="showTab('tendencia')">📈 Tendencia</div>
   <div class="tab" onclick="showTab('rotas')">💔 Rotas</div>
 </div>
 <div id="filtro-bar" class="filtro-section">
@@ -169,6 +170,7 @@
   <div id="tab-candidatos1j" style="display:none"></div>
   <div id="tab-juegos" style="display:none"></div>
   <div id="tab-efectividad" style="display:none"></div>
+  <div id="tab-tendencia" style="display:none"></div>
   <div id="tab-rotas" style="display:none"></div>
 </div>
 <script>
@@ -176,9 +178,9 @@ const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/ma
 let globalData = null;
 
 function showTab(tab) {
-  ['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','rotas'].forEach(t => {
+  ['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas'].forEach(t => {
     document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
-    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','rotas'].indexOf(t)].classList.toggle('active',t===tab);
+    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas'].indexOf(t)].classList.toggle('active',t===tab);
   });
   document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
 }
@@ -680,6 +682,98 @@ function renderEfectividad(data) {
   div.innerHTML = html;
 }
 
+function renderTendencia(data) {
+  const div = document.getElementById('tab-tendencia');
+  const efDiaria = data.efectividad_diaria || {};
+  const fechas = Object.keys(efDiaria).sort();
+  if (!fechas.length) { div.innerHTML = '<div class="empty"><div class="empty-icon">\ud83d\udcc8</div><div>Aun no hay historial suficiente</div></div>'; return; }
+  const tiposT = [
+    {key:'1J\u21922J', emoji:'\ud83c\udfaf', color:'#22c55e'},
+    {key:'2J\u21923J', emoji:'\ud83d\udea8', color:'#f59e0b'},
+    {key:'RACHA', emoji:'\ud83d\udd25', color:'#f87171'}
+  ];
+  const w = 660, h = 200, padL = 30, padR = 10, padT = 10, padB = 30;
+  const plotW = w - padL - padR, plotH = h - padT - padB;
+  const n = fechas.length;
+  const xStep = n>1 ? plotW/(n-1) : 0;
+  function xPos(i){ return padL + i*xStep; }
+  function yPos(pct){ return padT + plotH - (pct/100*plotH); }
+
+  let svg = '<svg viewBox="0 0 '+w+' '+h+'" style="width:100%;height:auto;display:block">';
+  [0,25,50,75,100].forEach(v=>{
+    const y = yPos(v);
+    svg += '<line x1="'+padL+'" y1="'+y+'" x2="'+(w-padR)+'" y2="'+y+'" stroke="#1e293b" stroke-width="1"/>';
+    svg += '<text x="2" y="'+(y+3)+'" font-size="9" fill="#64748b">'+v+'</text>';
+  });
+  tiposT.forEach(t=>{
+    let pts = [];
+    fechas.forEach((f,i)=>{
+      const e = efDiaria[f][t.key];
+      if(e) pts.push(xPos(i)+','+yPos(e.pct));
+    });
+    if(pts.length) svg += '<polyline points="'+pts.join(' ')+'" fill="none" stroke="'+t.color+'" stroke-width="2"/>';
+    fechas.forEach((f,i)=>{
+      const e = efDiaria[f][t.key];
+      if(!e) return;
+      svg += '<circle cx="'+xPos(i)+'" cy="'+yPos(e.pct)+'" r="4" fill="'+t.color+'" stroke="#070b14" stroke-width="1" style="cursor:pointer" onclick="seleccionarDiaTendencia(\''+f+'\')"/>';
+    });
+  });
+  fechas.forEach((f,i)=>{
+    svg += '<text x="'+xPos(i)+'" y="'+(h-8)+'" font-size="9" fill="#64748b" text-anchor="middle">'+f.slice(5)+'</text>';
+  });
+  svg += '</svg>';
+
+  let html = '<div class="equipo-card">';
+  html += '<div class="ranking-header"><span class="ranking-title">\ud83d\udcc8 Tendencia de Efectividad</span></div>';
+  html += '<div style="padding:10px 14px">';
+  html += '<div style="display:flex;gap:14px;margin-bottom:8px;flex-wrap:wrap">';
+  tiposT.forEach(t=>{
+    html += '<div style="display:flex;align-items:center;gap:5px;font-size:11px;color:#94a3b8"><span style="width:10px;height:10px;border-radius:50%;background:'+t.color+';display:inline-block"></span>'+t.emoji+' '+t.key+'</div>';
+  });
+  html += '</div>';
+  html += svg;
+  html += '</div></div>';
+
+  html += '<div class="equipo-card" style="margin-top:10px" id="tendencia-detalle-wrap">';
+  html += '<div class="ranking-header"><span class="ranking-title">\ud83d\udd0d Detalle por Dia</span></div>';
+  html += '<div style="padding:10px 14px">';
+  html += '<select id="tendencia-select" onchange="seleccionarDiaTendencia(this.value)" style="width:100%;background:#070b14;color:#e6edf3;border:1px solid #1e3a5f;border-radius:6px;padding:8px 12px;font-size:13px">';
+  fechas.slice().reverse().forEach(f=>{
+    html += '<option value="'+f+'">'+f+'</option>';
+  });
+  html += '</select>';
+  html += '</div>';
+  html += '<div id="tendencia-detalle-content" style="padding:0 14px 14px"></div>';
+  html += '</div>';
+
+  div.innerHTML = html;
+  window.__efDiariaGlobal = efDiaria;
+  window.__tiposTendencia = tiposT;
+  seleccionarDiaTendencia(fechas[fechas.length-1]);
+}
+
+function seleccionarDiaTendencia(fecha) {
+  const efDiaria = window.__efDiariaGlobal || {};
+  const tiposT = window.__tiposTendencia || [];
+  const diaData = efDiaria[fecha];
+  const sel = document.getElementById('tendencia-select');
+  if (sel) sel.value = fecha;
+  const cont = document.getElementById('tendencia-detalle-content');
+  if (!cont || !diaData) return;
+  let html = '<div style="font-family:Oswald,sans-serif;font-size:13px;color:#60a5fa;letter-spacing:1px;margin-bottom:8px">'+fecha+'</div>';
+  tiposT.forEach(t=>{
+    const e = diaData[t.key];
+    if(!e) return;
+    const pct = e.pct||0;
+    const color = pct>=65?'#22c55e':pct>=50?'#f59e0b':'#f87171';
+    html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #1e293b">'+
+      '<span style="font-size:13px">'+t.emoji+' '+t.key+' ('+e.aciertos+'/'+e.total+')</span>'+
+      '<span style="font-family:Oswald,sans-serif;font-size:16px;font-weight:600;color:'+color+'">'+pct+'%</span>'+
+      '</div>';
+  });
+  cont.innerHTML = html;
+}
+
 function renderRotas(data) {
   const div=document.getElementById('tab-rotas');
   if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
@@ -715,6 +809,7 @@ fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
   renderJuegos(data);
   renderCandidatos1j(data);
   renderEfectividad(data);
+  renderTendencia(data);
   renderRotas(data);
 }).catch(()=>{
   document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
