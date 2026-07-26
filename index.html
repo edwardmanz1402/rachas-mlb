@@ -755,15 +755,35 @@ function seleccionarDiaTendencia(fecha) {
       '</span>'+
       '</div>';
     html += '<div style="display:none">';
-    lista.forEach(p=>{
-      const acerto = p.dio_hit === 1;
-      const icono = acerto ? '✅' : '❌';
-      const colorFila = acerto ? '#34d399' : '#f87171';
-      html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px;font-size:12px;border-bottom:1px solid #0d1117">'+
-        '<span>'+icono+' '+p.jugador+' <span style="color:#64748b">('+p.equipo+')</span></span>'+
-        '<span style="color:'+colorFila+'">'+Math.round(p.prob)+'%</span>'+
-        '</div>';
-    });
+    if (t.key === 'RACHA') {
+      const porEquipo = {};
+      lista.forEach(p=>{
+        porEquipo[p.equipo] = porEquipo[p.equipo] || [];
+        porEquipo[p.equipo].push(p);
+      });
+      Object.keys(porEquipo).sort().forEach(eq=>{
+        html += '<div style="padding:4px 8px;font-size:10px;color:#60a5fa;text-transform:uppercase;letter-spacing:0.5px;background:rgba(37,99,235,0.08)">'+eq+'</div>';
+        porEquipo[eq].forEach(p=>{
+          const acerto = p.dio_hit === 1;
+          const icono = acerto ? '✅' : '❌';
+          const colorFila = acerto ? '#34d399' : '#f87171';
+          html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px 4px 16px;font-size:12px;border-bottom:1px solid #0d1117">'+
+            '<span>'+icono+' '+p.jugador+'</span>'+
+            '<span style="color:'+colorFila+'">'+Math.round(p.prob)+'%</span>'+
+            '</div>';
+        });
+      });
+    } else {
+      lista.forEach(p=>{
+        const acerto = p.dio_hit === 1;
+        const icono = acerto ? '✅' : '❌';
+        const colorFila = acerto ? '#34d399' : '#f87171';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px;font-size:12px;border-bottom:1px solid #0d1117">'+
+          '<span>'+icono+' '+p.jugador+' <span style="color:#64748b">('+p.equipo+')</span></span>'+
+          '<span style="color:'+colorFila+'">'+Math.round(p.prob)+'%</span>'+
+          '</div>';
+      });
+    }
     html += '</div>';
     html += '</div>';
   });
