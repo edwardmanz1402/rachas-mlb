@@ -14333,7 +14333,7 @@
         "Ketel Marte",
         "Ryan Waldschmidt",
         "Nolan Arenado",
-        "Ildemaro Vargas",
+        "Jorge Barrosa",
         "Tyler Locklear",
         "Tim Tawa"
       ],
@@ -14351,16 +14351,6 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Ildemaro Vargas",
-            "juegos": 7,
-            "avg": 0.414,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 63.6,
-            "pct_hit": 63.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
           {
             "jugador": "Gabriel Moreno",
             "juegos": 6,
@@ -14392,7 +14382,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Jorge Barrosa",
+            "prob": 42,
+            "prob_2j_3j": 50.0,
+            "pct_hit": 40.4,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Ryan Waldschmidt",
@@ -14691,9 +14689,9 @@
         "Matt Olson",
         "Michael Harris II",
         "Mauricio Dubón",
-        "Dominic Smith",
+        "Jorge Mateo",
         "Austin Riley",
-        "Eli White",
+        "Brewer Hicklen",
         "Jim Jarvis"
       ],
       "home_lineup": [
@@ -14752,15 +14750,7 @@
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": [
-          {
-            "jugador": "Eli White",
-            "prob": 38,
-            "prob_1j_2j": 40.9,
-            "pct_hit": 44.4,
-            "confirmado": true
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -14921,9 +14911,9 @@
       "game_id": 823599,
       "fecha": "2026-07-26",
       "away_lineup": [
-        "Shohei Ohtani",
+        "Alex Call",
         "Andy Pages",
-        "Freddie Freeman",
+        "Alex Freeland",
         "Max Muncy",
         "Mookie Betts",
         "Tommy Edman",
@@ -14945,16 +14935,6 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Freddie Freeman",
-            "juegos": 6,
-            "avg": 0.5,
-            "prob_2j_3j": 65.5,
-            "prob_3j_4j": 52.9,
-            "pct_hit": 70.0,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
           {
             "jugador": "Andy Pages",
             "juegos": 6,
@@ -15189,7 +15169,7 @@
         "Royce Lewis",
         "Kody Clemens",
         "Luke Keaschall",
-        "Alex Jackson",
+        "Alan Roden",
         "Brooks Lee",
         "Ryan Kreidler"
       ],
@@ -15221,6 +15201,16 @@
       "home_data": {
         "racha": [
           {
+            "jugador": "Alan Roden",
+            "juegos": 3,
+            "avg": 0.3,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 50.0,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
+          },
+          {
             "jugador": "Ryan Jeffers",
             "juegos": 3,
             "avg": 0.231,
@@ -15231,15 +15221,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Alex Jackson",
-            "prob": 56,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 57.9,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Royce Lewis",
@@ -15271,8 +15253,8 @@
       "game_id": 824572,
       "fecha": "2026-07-26",
       "away_lineup": [
-        "Jeremy Peña",
-        "Yordan Alvarez",
+        "Nick Allen",
+        "Christian Vázquez",
         "Isaac Paredes",
         "Jose Altuve",
         "LaMonte Wade Jr.",
@@ -15294,18 +15276,7 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Jeremy Peña",
-            "juegos": 7,
-            "avg": 0.519,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 77.8,
-            "pct_hit": 77.4,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "LaMonte Wade Jr.",
@@ -15321,6 +15292,20 @@
             "prob": 67,
             "prob_1j_2j": 67.8,
             "pct_hit": 67.0,
+            "confirmado": true
+          },
+          {
+            "jugador": "Christian Vázquez",
+            "prob": 41,
+            "prob_1j_2j": 42.9,
+            "pct_hit": 46.8,
+            "confirmado": true
+          },
+          {
+            "jugador": "Nick Allen",
+            "prob": 32,
+            "prob_1j_2j": 31.2,
+            "pct_hit": 43.2,
             "confirmado": true
           }
         ]
@@ -15372,8 +15357,8 @@
       "fecha": "2026-07-26",
       "away_lineup": [
         "Jake McCarthy",
-        "Mickey Moniak",
-        "Hunter Goodman",
+        "Brett Sullivan",
+        "Braxton Fulford",
         "TJ Rumfield",
         "Kyle Karros",
         "Cole Carrigg",
@@ -15386,7 +15371,7 @@
         "Brice Turang",
         "Andrew Vaughn",
         "William Contreras",
-        "Jake Bauers",
+        "Blake Perkins",
         "Gary Sánchez",
         "Luis Lara",
         "Cooper Pratt",
@@ -15403,16 +15388,6 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 72.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
-          {
-            "jugador": "Hunter Goodman",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 43.5,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 62.1,
-            "tipo": "✅ CONSISTENTE",
             "confirmado": true
           },
           {
@@ -15469,13 +15444,6 @@
             "confirmado": true
           },
           {
-            "jugador": "Jake Bauers",
-            "prob": 47,
-            "prob_2j_3j": 47.6,
-            "pct_hit": 58.7,
-            "confirmado": true
-          },
-          {
             "jugador": "Andrew Vaughn",
             "prob": 41,
             "prob_2j_3j": 40.0,
@@ -15514,8 +15482,8 @@
         "Nathaniel Lowe",
         "Dane Myers",
         "Noelvi Marte",
-        "Jose Trevino",
-        "Ke'Bryan Hayes"
+        "Tyler Stephenson",
+        "Sal Stewart"
       ],
       "home_lineup": [
         "JJ Wetherholt",
@@ -15531,6 +15499,16 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
+          {
+            "jugador": "Sal Stewart",
+            "juegos": 3,
+            "avg": 0.308,
+            "prob_2j_3j": 59.3,
+            "prob_3j_4j": 61.5,
+            "pct_hit": 65.0,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": true
+          },
           {
             "jugador": "JJ Bleday",
             "juegos": 3,
@@ -15548,13 +15526,6 @@
             "prob": 70,
             "prob_2j_3j": 76.2,
             "pct_hit": 72.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Jose Trevino",
-            "prob": 30,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 54.5,
             "confirmado": true
           }
         ],
@@ -15971,5 +15942,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/07/26 14:30"
+  "alineaciones_actualizadas": "26/07/26 15:00"
 }
