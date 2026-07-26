@@ -14193,7 +14193,17 @@
       "home": "Tampa Bay Rays",
       "game_id": 822950,
       "fecha": "2026-07-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Steven Kwan",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Brayan Rocchio",
+        "Travis Bazzana",
+        "Angel Martínez",
+        "Kyle Manzardo",
+        "Austin Hedges",
+        "Petey Halpin"
+      ],
       "home_lineup": [
         "Yandy Díaz",
         "Ryan Vilade",
@@ -14205,19 +14215,9 @@
         "Nick Fortes",
         "Richie Palacios"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Kahlil Watson",
-            "juegos": 5,
-            "avg": 0.375,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 57.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Steven Kwan",
             "juegos": 4,
@@ -14226,39 +14226,31 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 58.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 57,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 58.8,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Chase DeLauter",
             "prob": 65,
             "prob_1j_2j": 68.0,
             "pct_hit": 65.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Ramírez",
             "prob": 60,
             "prob_1j_2j": 60.0,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Travis Bazzana",
             "prob": 56,
             "prob_1j_2j": 60.5,
             "pct_hit": 54.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14334,21 +14326,21 @@
       "home": "Washington Nationals",
       "game_id": 822706,
       "fecha": "2026-07-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Adrian Del Castillo",
+        "Tyler Locklear",
+        "Tim Tawa"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Ildemaro Vargas",
-            "juegos": 7,
-            "avg": 0.414,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 63.6,
-            "pct_hit": 63.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Gabriel Moreno",
             "juegos": 6,
@@ -14357,7 +14349,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
@@ -14367,17 +14359,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 58.3,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler Locklear",
@@ -14387,27 +14369,11 @@
             "prob_3j_4j": 0,
             "pct_hit": 80.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Jorge Barrosa",
-            "prob": 42,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 40.4,
-            "confirmado": false
-          }
-        ],
-        "candidatos_1j": [
-          {
-            "jugador": "Ryan Waldschmidt",
-            "prob": 39,
-            "prob_1j_2j": 35.0,
-            "pct_hit": 58.3,
-            "confirmado": false
-          }
-        ]
+        "candidatos_2j": [],
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -16086,5 +16052,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/07/26 07:00"
+  "alineaciones_actualizadas": "26/07/26 08:00"
 }
