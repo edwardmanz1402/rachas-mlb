@@ -14430,9 +14430,29 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823354,
       "fecha": "2026-07-26",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Michael Conforto",
+        "Carson Kelly",
+        "Pedro Ramírez",
+        "Dansby Swanson"
+      ],
+      "home_lineup": [
+        "Jake Mangum",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Ryan O'Hearn",
+        "Nick Gonzales",
+        "Jacob Gonzalez",
+        "Shawn Ross",
+        "Tyler Callihan"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -14443,17 +14463,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Miguel Amaya",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 42.9,
-            "prob_3j_4j": 0,
-            "pct_hit": 57.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -14462,21 +14472,21 @@
             "prob": 73,
             "prob_2j_3j": 72.0,
             "pct_hit": 68.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
             "prob": 70,
             "prob_2j_3j": 75.0,
             "pct_hit": 70.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dansby Swanson",
             "prob": 49,
             "prob_2j_3j": 50.0,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -14485,14 +14495,14 @@
             "prob": 69,
             "prob_1j_2j": 74.0,
             "pct_hit": 63.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Busch",
             "prob": 67,
             "prob_1j_2j": 69.5,
             "pct_hit": 64.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -14506,7 +14516,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Mangum",
@@ -14516,7 +14526,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 66.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -14525,14 +14535,7 @@
             "prob": 61,
             "prob_2j_3j": 60.0,
             "pct_hit": 63.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Henry Davis",
-            "prob": 24,
-            "prob_2j_3j": 20.0,
-            "pct_hit": 43.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -14541,7 +14544,7 @@
             "prob": 67,
             "prob_1j_2j": 76.5,
             "pct_hit": 64.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -15166,7 +15169,17 @@
         "Jeff McNeil",
         "Henry Bolte"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Austin Martin",
+        "Byron Buxton",
+        "Ryan Jeffers",
+        "Royce Lewis",
+        "Kody Clemens",
+        "Luke Keaschall",
+        "Alex Jackson",
+        "Brooks Lee",
+        "Ryan Kreidler"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -15203,26 +15216,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Trevor Larnach",
-            "juegos": 5,
-            "avg": 0.412,
-            "prob_2j_3j": 71.4,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 60.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Alan Roden",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 50.0,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Ryan Jeffers",
             "juegos": 3,
             "avg": 0.231,
@@ -15230,7 +15223,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 73.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -15239,7 +15232,7 @@
             "prob": 56,
             "prob_2j_3j": 66.7,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -15248,28 +15241,21 @@
             "prob": 60,
             "prob_1j_2j": 62.5,
             "pct_hit": 60.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Caratini",
-            "prob": 55,
-            "prob_1j_2j": 57.5,
-            "pct_hit": 58.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Martin",
             "prob": 54,
             "prob_1j_2j": 54.8,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan Kreidler",
             "prob": 51,
             "prob_1j_2j": 56.5,
             "pct_hit": 47.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -15625,9 +15611,19 @@
       "home": "Texas Rangers",
       "game_id": 822870,
       "fecha": "2026-07-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Cole Young",
+        "Julio Rodríguez",
+        "Dominic Canzone",
+        "Randy Arozarena",
+        "Josh Naylor",
+        "Cal Raleigh",
+        "Luke Raley",
+        "J.P. Crawford",
+        "Colt Emerson"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -15638,7 +15634,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -15647,21 +15643,14 @@
             "prob": 67,
             "prob_2j_3j": 78.6,
             "pct_hit": 56.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Robles",
-            "prob": 60,
-            "prob_2j_3j": 75.0,
-            "pct_hit": 48.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colt Emerson",
             "prob": 43,
             "prob_2j_3j": 50.0,
             "pct_hit": 45.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -15670,7 +15659,7 @@
             "prob": 47,
             "prob_1j_2j": 50.0,
             "pct_hit": 44.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -15997,5 +15986,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/07/26 09:30"
+  "alineaciones_actualizadas": "26/07/26 10:00"
 }
