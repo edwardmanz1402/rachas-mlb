@@ -15947,7 +15947,17 @@
       "home": "Chicago White Sox",
       "game_id": 824570,
       "fecha": "2026-07-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Max Schuemann",
+        "Ben Rice",
+        "Paul Goldschmidt",
+        "Jasson Domínguez",
+        "Anthony Volpe",
+        "Jazz Chisholm Jr.",
+        "José Caballero",
+        "Spencer Jones",
+        "Ali Sánchez"
+      ],
       "home_lineup": [
         "Randal Grichuk",
         "Munetaka Murakami",
@@ -15959,7 +15969,7 @@
         "Edgar Quero",
         "Luisangel Acuña"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -15970,27 +15980,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 65.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Cody Bellinger",
-            "juegos": 5,
-            "avg": 0.353,
-            "prob_2j_3j": 48.0,
-            "prob_3j_4j": 70.0,
-            "pct_hit": 65.7,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Austin Wells",
-            "juegos": 3,
-            "avg": 0.571,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 0,
-            "pct_hit": 37.7,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -15999,7 +15989,7 @@
             "prob": 65,
             "prob_2j_3j": 75.0,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -16008,7 +15998,7 @@
             "prob": 44,
             "prob_1j_2j": 42.2,
             "pct_hit": 54.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -16071,7 +16061,17 @@
       "home": "St. Louis Cardinals",
       "game_id": 823025,
       "fecha": "2026-07-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Alex Bregman",
+        "Carson Kelly",
+        "Michael Busch",
+        "Nico Hoerner",
+        "Ian Happ",
+        "Dansby Swanson",
+        "Miguel Amaya"
+      ],
       "home_lineup": [
         "JJ Wetherholt",
         "Jordan Walker",
@@ -16083,19 +16083,9 @@
         "Lars Nootbaar",
         "Blaze Jordan"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Pedro Ramírez",
-            "juegos": 7,
-            "avg": 0.44,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 46.4,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Pete Crow-Armstrong",
             "juegos": 3,
@@ -16104,7 +16094,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 70.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dansby Swanson",
@@ -16114,7 +16104,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 51.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nico Hoerner",
@@ -16124,7 +16114,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 68.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Amaya",
@@ -16134,7 +16124,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 57.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -16143,14 +16133,14 @@
             "prob": 65,
             "prob_2j_3j": 68.2,
             "pct_hit": 64.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Busch",
             "prob": 64,
             "prob_2j_3j": 64.0,
             "pct_hit": 64.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -16159,14 +16149,7 @@
             "prob": 56,
             "prob_1j_2j": 58.5,
             "pct_hit": 57.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Conforto",
-            "prob": 46,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 42.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -16602,5 +16585,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/07/26 14:30"
+  "alineaciones_actualizadas": "27/07/26 15:00"
 }
