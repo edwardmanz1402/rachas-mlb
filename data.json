@@ -15088,7 +15088,17 @@
       "game_id": 822868,
       "fecha": "2026-07-27",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Joc Pederson",
+        "Wyatt Langford",
+        "Ezequiel Duran",
+        "Brandon Nimmo",
+        "Evan Carter",
+        "Jake Burger",
+        "Nicky Lopez",
+        "Josh Smith",
+        "Elias Díaz"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -15172,7 +15182,7 @@
             "prob_3j_4j": 20.0,
             "pct_hit": 51.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ezequiel Duran",
@@ -15182,7 +15192,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 64.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wyatt Langford",
@@ -15192,7 +15202,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 73.5,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nicky Lopez",
@@ -15202,23 +15212,16 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 65.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Josh Jung",
-            "prob": 71,
-            "prob_2j_3j": 71.4,
-            "pct_hit": 70.0,
-            "confirmado": false
-          },
           {
             "jugador": "Evan Carter",
             "prob": 56,
             "prob_2j_3j": 66.7,
             "pct_hit": 43.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -15227,21 +15230,7 @@
             "prob": 60,
             "prob_1j_2j": 61.8,
             "pct_hit": 61.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Kyle Higashioka",
-            "prob": 47,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 53.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Austin Wynns",
-            "prob": 16,
-            "prob_1j_2j": 0,
-            "pct_hit": 23.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -16611,5 +16600,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/07/26 09:30"
+  "alineaciones_actualizadas": "27/07/26 10:00"
 }
