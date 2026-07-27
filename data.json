@@ -15087,7 +15087,17 @@
       "home": "Texas Rangers",
       "game_id": 822868,
       "fecha": "2026-07-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Cole Young",
+        "Julio Rodríguez",
+        "Dominic Canzone",
+        "Randy Arozarena",
+        "Josh Naylor",
+        "Luke Raley",
+        "Mitch Garver",
+        "J.P. Crawford",
+        "Colt Emerson"
+      ],
       "home_lineup": [
         "Joc Pederson",
         "Wyatt Langford",
@@ -15099,7 +15109,7 @@
         "Josh Smith",
         "Elias Díaz"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -15110,17 +15120,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 67.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Robles",
-            "juegos": 3,
-            "avg": 0.667,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 50.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colt Emerson",
@@ -15130,7 +15130,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 46.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -15140,35 +15140,28 @@
             "prob": 70,
             "prob_1j_2j": 70.8,
             "pct_hit": 67.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Naylor",
             "prob": 68,
             "prob_1j_2j": 70.0,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Julio Rodríguez",
             "prob": 67,
             "prob_1j_2j": 67.8,
             "pct_hit": 68.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Cal Raleigh",
-            "prob": 53,
-            "prob_1j_2j": 56.2,
-            "pct_hit": 50.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
             "prob": 43,
             "prob_1j_2j": 43.9,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -16600,5 +16593,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/07/26 10:00"
+  "alineaciones_actualizadas": "27/07/26 10:30"
 }
