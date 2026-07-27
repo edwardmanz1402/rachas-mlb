@@ -16196,7 +16196,17 @@
       "home": "Los Angeles Angels",
       "game_id": 824001,
       "fecha": "2026-07-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "LaMonte Wade Jr.",
+        "Jose Altuve",
+        "Taylor Trammell",
+        "Christian Walker",
+        "Lucas Spence",
+        "Christian Vázquez"
+      ],
       "home_lineup": [
         "Zach Neto",
         "Mike Trout",
@@ -16208,7 +16218,7 @@
         "Denzer Guzman",
         "Tyler Heineman"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -16219,46 +16229,17 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 77.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Nick Allen",
-            "prob": 27,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 43.2,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Yainer Diaz",
-            "prob": 68,
-            "prob_1j_2j": 73.3,
-            "pct_hit": 69.6,
-            "confirmado": false
-          },
           {
             "jugador": "Taylor Trammell",
             "prob": 50,
             "prob_1j_2j": 57.9,
             "pct_hit": 46.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Raynel Delgado",
-            "prob": 36,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 58.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Zach Dezenzo",
-            "prob": 30,
-            "prob_1j_2j": 30.0,
-            "pct_hit": 41.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -16557,5 +16538,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/07/26 16:30"
+  "alineaciones_actualizadas": "27/07/26 17:00"
 }
