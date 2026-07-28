@@ -16225,9 +16225,29 @@
       "home": "Cincinnati Reds",
       "game_id": 824490,
       "fecha": "2026-07-28",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Steven Kwan",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Travis Bazzana",
+        "Brayan Rocchio",
+        "Kyle Manzardo",
+        "Angel Martínez",
+        "Patrick Bailey",
+        "Petey Halpin"
+      ],
+      "home_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Eugenio Suárez",
+        "Nathaniel Lowe",
+        "Tyler Stephenson",
+        "Dane Myers",
+        "Edwin Arroyo",
+        "TJ Friedl"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -16238,28 +16258,10 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 58.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Kahlil Watson",
-            "juegos": 4,
-            "avg": 0.364,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 57.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 57,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 58.8,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": []
       },
       "home_data": {
@@ -16272,7 +16274,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 65.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Elly De La Cruz",
@@ -16282,7 +16284,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 72.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -16291,30 +16293,16 @@
             "prob": 51,
             "prob_2j_3j": 53.8,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Noelvi Marte",
-            "prob": 60,
-            "prob_1j_2j": 66.7,
-            "pct_hit": 54.8,
-            "confirmado": false
-          },
           {
             "jugador": "Dane Myers",
             "prob": 54,
             "prob_1j_2j": 61.5,
             "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ke'Bryan Hayes",
-            "prob": 39,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 41.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -18453,5 +18441,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/07/26 08:30"
+  "alineaciones_actualizadas": "28/07/26 09:00"
 }
