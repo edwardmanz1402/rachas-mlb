@@ -17665,9 +17665,19 @@
       "home": "Athletics",
       "game_id": 824976,
       "fecha": "2026-07-28",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jahmai Jones",
+        "Romy Gonzalez",
+        "Willson Contreras",
+        "Wilyer Abreu",
+        "Ceddanne Rafaela",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Carlos Narváez"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -17678,7 +17688,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 54.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Romy Gonzalez",
@@ -17688,7 +17698,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 50.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -17697,37 +17707,23 @@
             "prob": 66,
             "prob_2j_3j": 63.0,
             "pct_hit": 73.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Caleb Durbin",
             "prob": 51,
             "prob_2j_3j": 52.6,
             "pct_hit": 53.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Connor Wong",
-            "prob": 63,
-            "prob_1j_2j": 68.0,
-            "pct_hit": 63.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Masataka Yoshida",
-            "prob": 62,
-            "prob_1j_2j": 67.6,
-            "pct_hit": 57.1,
-            "confirmado": false
-          },
           {
             "jugador": "Jahmai Jones",
             "prob": 28,
             "prob_1j_2j": 33.3,
             "pct_hit": 22.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -17817,9 +17813,9 @@
         "Mickey Moniak",
         "Hunter Goodman",
         "TJ Rumfield",
-        "Kyle Karros",
         "Cole Carrigg",
         "Troy Johnston",
+        "Willi Castro",
         "Edouard Julien",
         "Ezequiel Tovar"
       ],
@@ -17880,6 +17876,13 @@
             "prob": 65,
             "prob_1j_2j": 71.1,
             "pct_hit": 62.5,
+            "confirmado": true
+          },
+          {
+            "jugador": "Willi Castro",
+            "prob": 61,
+            "prob_1j_2j": 58.0,
+            "pct_hit": 64.0,
             "confirmado": true
           }
         ]
@@ -17964,7 +17967,17 @@
       "game_id": 823193,
       "fecha": "2026-07-28",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Luis Arraez",
+        "Bryce Eldridge",
+        "Heliot Ramos",
+        "Rafael Devers",
+        "Jung Hoo Lee",
+        "Willy Adames",
+        "Grant McCray",
+        "Drew Cavanaugh",
+        "Christian Koss"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -18027,7 +18040,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 76.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willy Adames",
@@ -18037,45 +18050,24 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 59.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Casey Schmitt",
-            "prob": 68,
-            "prob_1j_2j": 69.0,
-            "pct_hit": 66.3,
-            "confirmado": false
-          },
-          {
             "jugador": "Jung Hoo Lee",
             "prob": 66,
             "prob_1j_2j": 69.0,
             "pct_hit": 66.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jesus Rodriguez",
-            "prob": 60,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 52.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drew Gilbert",
-            "prob": 49,
-            "prob_1j_2j": 51.6,
-            "pct_hit": 47.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Cavanaugh",
             "prob": 21,
             "prob_1j_2j": 20.0,
             "pct_hit": 31.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -18219,5 +18211,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/07/26 15:30"
+  "alineaciones_actualizadas": "28/07/26 16:00"
 }
