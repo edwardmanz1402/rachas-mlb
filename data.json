@@ -16241,7 +16241,7 @@
         "Sal Stewart",
         "JJ Bleday",
         "Eugenio Suárez",
-        "Nathaniel Lowe",
+        "Ivan Johnson",
         "Tyler Stephenson",
         "Dane Myers",
         "Edwin Arroyo",
@@ -16287,15 +16287,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Nathaniel Lowe",
-            "prob": 51,
-            "prob_2j_3j": 53.8,
-            "pct_hit": 57.7,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Dane Myers",
@@ -17817,9 +17809,19 @@
       "home": "San Diego Padres",
       "game_id": 823275,
       "fecha": "2026-07-28",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Mickey Moniak",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Kyle Karros",
+        "Cole Carrigg",
+        "Troy Johnston",
+        "Edouard Julien",
+        "Ezequiel Tovar"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -17830,7 +17832,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 62.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Carrigg",
@@ -17840,7 +17842,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 64.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -17849,7 +17851,7 @@
             "prob": 58,
             "prob_2j_3j": 62.5,
             "pct_hit": 52.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -17858,28 +17860,14 @@
             "prob": 73,
             "prob_1j_2j": 72.3,
             "pct_hit": 68.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyler Freeman",
-            "prob": 67,
-            "prob_1j_2j": 69.8,
-            "pct_hit": 67.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mickey Moniak",
             "prob": 65,
             "prob_1j_2j": 71.1,
             "pct_hit": 62.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Willi Castro",
-            "prob": 61,
-            "prob_1j_2j": 58.0,
-            "pct_hit": 64.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -18235,5 +18223,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/07/26 14:00"
+  "alineaciones_actualizadas": "28/07/26 14:30"
 }
