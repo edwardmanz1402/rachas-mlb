@@ -18077,9 +18077,29 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823923,
       "fecha": "2026-07-28",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Cole Young",
+        "Randy Arozarena",
+        "Julio Rodríguez",
+        "Dominic Canzone",
+        "Cal Raleigh",
+        "Josh Naylor",
+        "Rob Refsnyder",
+        "Weston Wilson",
+        "Colt Emerson"
+      ],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Max Muncy",
+        "Mookie Betts",
+        "Tommy Edman",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Dalton Rushing"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -18090,7 +18110,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 67.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colt Emerson",
@@ -18100,17 +18120,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 47.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Robles",
-            "juegos": 3,
-            "avg": 0.667,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 50.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -18119,28 +18129,28 @@
             "prob": 73,
             "prob_2j_3j": 76.9,
             "pct_hit": 68.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Naylor",
             "prob": 71,
             "prob_2j_3j": 75.0,
             "pct_hit": 67.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Julio Rodríguez",
             "prob": 71,
             "prob_2j_3j": 73.9,
             "pct_hit": 69.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
             "prob": 39,
             "prob_2j_3j": 38.5,
             "pct_hit": 50.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -18149,14 +18159,7 @@
             "prob": 53,
             "prob_1j_2j": 56.2,
             "pct_hit": 51.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Mitch Garver",
-            "prob": 40,
-            "prob_1j_2j": 43.8,
-            "pct_hit": 41.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -18170,7 +18173,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 70.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Teoscar Hernández",
@@ -18180,7 +18183,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 60.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -18189,7 +18192,7 @@
             "prob": 46,
             "prob_2j_3j": 50.0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -18198,18 +18201,18 @@
             "prob": 73,
             "prob_1j_2j": 73.8,
             "pct_hit": 72.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy Edman",
             "prob": 60,
             "prob_1j_2j": 66.7,
             "pct_hit": 65.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "28/07/26 16:00"
+  "alineaciones_actualizadas": "28/07/26 16:30"
 }
