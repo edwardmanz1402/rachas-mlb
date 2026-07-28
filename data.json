@@ -16412,7 +16412,17 @@
       "game_id": 824243,
       "fecha": "2026-07-28",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Riley Greene",
+        "Dillon Dingler",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Zach McKinstry",
+        "Eduardo Valencia",
+        "Javier Báez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -16491,16 +16501,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Hao-Yu Lee",
-            "juegos": 10,
-            "avg": 0.364,
-            "prob_2j_3j": 27.3,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 57.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Zach McKinstry",
             "juegos": 5,
             "avg": 0.412,
@@ -16508,7 +16508,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 45.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colt Keith",
@@ -16518,7 +16518,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 53.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -16527,21 +16527,21 @@
             "prob": 74,
             "prob_2j_3j": 71.9,
             "pct_hit": 75.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dillon Dingler",
             "prob": 55,
             "prob_2j_3j": 56.2,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Torkelson",
             "prob": 49,
             "prob_2j_3j": 47.1,
             "pct_hit": 53.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -16550,7 +16550,7 @@
             "prob": 64,
             "prob_1j_2j": 64.5,
             "pct_hit": 65.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -16691,7 +16691,17 @@
       "home": "Tampa Bay Rays",
       "game_id": 822949,
       "fecha": "2026-07-28",
-      "away_lineup": [],
+      "away_lineup": [
+        "Joc Pederson",
+        "Wyatt Langford",
+        "Ezequiel Duran",
+        "Brandon Nimmo",
+        "Evan Carter",
+        "Jake Burger",
+        "Nicky Lopez",
+        "Josh Smith",
+        "Austin Wynns"
+      ],
       "home_lineup": [
         "Yandy Díaz",
         "Jonathan Aranda",
@@ -16703,7 +16713,7 @@
         "Taylor Walls",
         "Hunter Feduccia"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -16714,7 +16724,7 @@
             "prob_3j_4j": 20.0,
             "pct_hit": 52.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ezequiel Duran",
@@ -16724,7 +16734,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 65.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nicky Lopez",
@@ -16734,7 +16744,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 66.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Evan Carter",
@@ -16744,23 +16754,16 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 43.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Josh Jung",
-            "prob": 71,
-            "prob_2j_3j": 71.4,
-            "pct_hit": 70.0,
-            "confirmado": false
-          },
           {
             "jugador": "Brandon Nimmo",
             "prob": 51,
             "prob_2j_3j": 47.8,
             "pct_hit": 61.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -16769,28 +16772,21 @@
             "prob": 62,
             "prob_1j_2j": 65.5,
             "pct_hit": 59.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Smith",
             "prob": 56,
             "prob_1j_2j": 61.9,
             "pct_hit": 53.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Kyle Higashioka",
-            "prob": 47,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Wynns",
             "prob": 16,
             "prob_1j_2j": 0,
             "pct_hit": 23.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -16846,7 +16842,17 @@
       "home": "Miami Marlins",
       "game_id": 823838,
       "fecha": "2026-07-28",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trea Turner",
+        "Bryson Stott",
+        "Bryce Harper",
+        "Alec Bohm",
+        "Brandon Marsh",
+        "Edmundo Sosa",
+        "Justin Crawford",
+        "Bryan De La Cruz",
+        "Garrett Stubbs"
+      ],
       "home_lineup": [
         "Otto Lopez",
         "Kyle Stowers",
@@ -16858,19 +16864,9 @@
         "Graham Pauley",
         "Joe Mack"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Kyle Schwarber",
-            "juegos": 5,
-            "avg": 0.333,
-            "prob_2j_3j": 52.2,
-            "prob_3j_4j": 41.7,
-            "pct_hit": 62.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Bryan De La Cruz",
             "juegos": 4,
@@ -16879,7 +16875,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trea Turner",
@@ -16889,7 +16885,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 68.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -16898,39 +16894,31 @@
             "prob": 61,
             "prob_2j_3j": 64.7,
             "pct_hit": 55.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Bohm",
             "prob": 61,
             "prob_2j_3j": 66.7,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
             "prob": 58,
             "prob_2j_3j": 57.1,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryson Stott",
             "prob": 58,
             "prob_2j_3j": 58.3,
             "pct_hit": 65.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "J.T. Realmuto",
-            "prob": 44,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 54.2,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -17006,7 +16994,17 @@
       "game_id": 822703,
       "fecha": "2026-07-28",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "James Wood",
+        "Luis García Jr.",
+        "Dylan Crews",
+        "CJ Abrams",
+        "Keibert Ruiz",
+        "Daylen Lile",
+        "Nasim Nuñez",
+        "Jorbit Vivas",
+        "Jacob Young"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -17081,7 +17079,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 65.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daylen Lile",
@@ -17091,7 +17089,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 62.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -17100,44 +17098,30 @@
             "prob": 61,
             "prob_2j_3j": 60.0,
             "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jacob Young",
             "prob": 59,
             "prob_2j_3j": 58.8,
             "pct_hit": 61.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Crews",
             "prob": 45,
             "prob_2j_3j": 45.5,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Brady House",
-            "prob": 62,
-            "prob_1j_2j": 66.7,
-            "pct_hit": 65.1,
-            "confirmado": false
-          },
           {
             "jugador": "Nasim Nuñez",
             "prob": 55,
             "prob_1j_2j": 55.3,
             "pct_hit": 55.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "prob": 17,
-            "prob_1j_2j": 12.5,
-            "pct_hit": 34.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -17299,7 +17283,17 @@
       "game_id": 824569,
       "fecha": "2026-07-28",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Sam Antonacci",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Colson Montgomery",
+        "Andrew Benintendi",
+        "Braden Montgomery",
+        "Tristan Peters",
+        "Chase Meidroth",
+        "Drew Romo"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -17381,7 +17375,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 60.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Vargas",
@@ -17391,7 +17385,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 64.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -17400,28 +17394,14 @@
             "prob": 68,
             "prob_2j_3j": 70.4,
             "pct_hit": 70.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colson Montgomery",
             "prob": 62,
             "prob_2j_3j": 61.9,
             "pct_hit": 57.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Luisangel Acuña",
-            "prob": 41,
-            "prob_2j_3j": 44.4,
-            "pct_hit": 50.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Randal Grichuk",
-            "prob": 33,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 46.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -17430,28 +17410,14 @@
             "prob": 52,
             "prob_1j_2j": 52.9,
             "pct_hit": 61.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Edgar Quero",
-            "prob": 32,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 37.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Romo",
             "prob": 20,
             "prob_1j_2j": 16.7,
             "pct_hit": 36.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Junior Perez",
-            "prob": 18,
-            "prob_1j_2j": 0,
-            "pct_hit": 26.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -18289,5 +18255,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/07/26 13:00"
+  "alineaciones_actualizadas": "28/07/26 13:30"
 }
