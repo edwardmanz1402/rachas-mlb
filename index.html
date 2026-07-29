@@ -188,6 +188,12 @@ function toggleEquipo(id) {
   document.getElementById('eq-body-'+id).classList.toggle('open');
   document.getElementById('eq-arrow-'+id).classList.toggle('open');
 }
+function toggleCandidato(id) {
+  const det = document.getElementById('cand-det-'+id);
+  const arrow = document.getElementById('cand-arrow-'+id);
+  if(det) det.classList.toggle('open');
+  if(arrow) arrow.classList.toggle('open');
+}
 function toggleJugador(id) {
   document.getElementById('jg-det-'+id).classList.toggle('open');
   document.getElementById('jg-arrow-'+id).classList.toggle('open');
@@ -440,6 +446,108 @@ function renderTurnoHit(tu) {
 
 
 
+function renderDetalleCandidato(j, id) {
+  const t = j.temporada||{};
+  const h = j.historico||{};
+  const tipo = h.tipo||'';
+  const pctClass = getPctColor(h.pct_hit||0);
+  const rachas = h.rachas_3plus||[];
+
+  let tempHTML = '';
+  if(t.avg_temp) {
+    tempHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📊 Estadísticas de Temporada</div>'+
+      '<div class="stats-grid">'+
+      '<div class="stat-box"><div class="stat-val">'+t.avg_temp+'</div><div class="stat-lbl">AVG</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.obp+'</div><div class="stat-lbl">OBP</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.slg+'</div><div class="stat-lbl">SLG</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.ops+'</div><div class="stat-lbl">OPS</div></div>'+
+      '</div>'+
+      '<div class="stats-grid">'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.gp+'</div><div class="stat-lbl">GP</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.rbi+'</div><div class="stat-lbl">RBI</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.hr_temp+'</div><div class="stat-lbl">HR</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.sb+'</div><div class="stat-lbl">SB</div></div>'+
+      '</div></div>';
+  }
+
+  let histHTML = '';
+  if(h.pct_hit) {
+    histHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📈 Perfil Histórico 2026</div>'+
+      '<div class="hist-grid">'+
+      '<div class="hist-box"><div class="hist-val '+pctClass+'">'+h.pct_hit+'%</div><div class="hist-lbl">Juegos con hit</div></div>'+
+      '<div class="hist-box"><div class="hist-val" style="color:#f59e0b">'+h.racha_max+'j</div><div class="hist-lbl">Racha máxima</div></div>'+
+      '<div class="hist-box clickable" onclick="toggleRachas(\''+id+'\', event)">'+
+      '<div class="hist-val" style="color:#a78bfa">'+rachas.length+'x</div>'+
+      '<div class="hist-lbl">Rachas 3+ ▼</div>'+
+      '</div>'+
+      '</div>'+
+      '<div class="rachas-detalle" id="rachas-det-'+id+'">'+
+      (rachas.length>0?rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join(''):'<span style="color:#64748b;font-size:11px">Sin rachas de 3+ este año</span>')+
+      '</div>'+
+      '<div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap">'+
+      (h.prob_2j_3j?'<div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#22c55e">'+h.prob_2j_3j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">2j→3j</div></div>':'')+
+      (h.prob_3j_4j?'<div style="background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#fbbf24">'+h.prob_3j_4j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">3j→4j</div></div>':'')+
+      (h.prob_4j_5j?'<div style="background:rgba(96,165,250,0.1);border:1px solid rgba(96,165,250,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#60a5fa">'+h.prob_4j_5j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">4j→5j</div></div>':'')+
+      '</div>'+
+      getTipoBadge(tipo)+
+      '</div>';
+  }
+
+  let turnoHTML = '';
+  const tu = j.turno_hit;
+  if(tu && tu.promedio > 0) {
+    const maxPct = Math.max(tu.pct_t1, tu.pct_t2, tu.pct_t3, tu.pct_t4plus);
+    const gc2 = (pct) => pct === maxPct ? '#22c55e' : '#475569';
+    turnoHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">⚡ Patrón de Hit en Vivo</div>'+
+      '<div style="background:#0d1b2e;border:1px solid #1e3a5f;border-radius:6px;padding:10px;margin-bottom:8px">'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 1</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+gc2(tu.pct_t1)+';width:'+tu.pct_t1+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+gc2(tu.pct_t1)+';text-align:right">'+tu.pct_t1+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 2</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+gc2(tu.pct_t2)+';width:'+tu.pct_t2+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+gc2(tu.pct_t2)+';text-align:right">'+tu.pct_t2+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 3</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+gc2(tu.pct_t3)+';width:'+tu.pct_t3+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+gc2(tu.pct_t3)+';text-align:right">'+tu.pct_t3+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:8px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 4+</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+gc2(tu.pct_t4plus)+';width:'+tu.pct_t4plus+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+gc2(tu.pct_t4plus)+';text-align:right">'+tu.pct_t4plus+'%</div>'+
+      '</div>'+
+      '<div style="display:flex;justify-content:space-between;border-top:1px solid #1e293b;padding-top:6px">'+
+      '<span style="font-size:11px;color:#64748b">Promedio: turno '+tu.promedio+'</span>'+
+      '<span style="font-size:11px;color:#64748b">Máx: turno '+(tu.maximo||'-')+'</span>'+
+      '</div>'+
+      '</div>'+
+      '</div>';
+  }
+
+  let detHTML = '';
+  if(j.detalle && j.detalle.length) {
+    detHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📅 Últimos Juegos</div>'+
+      '<table class="detalle-table">'+
+      '<tr><th>Fecha</th><th>Result</th><th>Tipo</th><th>Hits</th></tr>'+
+      j.detalle.map(g=>'<tr>'+
+        '<td class="fecha-col">'+g.fecha.slice(5).replace('-','/')+'</td>'+
+        '<td class="'+resClass(g.result)+'">'+g.result+'</td>'+
+        '<td>'+formatDet(g.detalle)+'</td>'+
+        '<td class="hits-bar">'+'█'.repeat(g.hits)+'</td>'+
+      '</tr>').join('')+
+      '</table></div>';
+  }
+
+  return tempHTML+histHTML+turnoHTML+detHTML;
+}
 function renderCandidatos(data) {
   const div=document.getElementById('tab-candidatos');
   if(!data.candidatos_3j||!data.candidatos_3j.length){
@@ -453,10 +561,12 @@ function renderCandidatos(data) {
   data.candidatos_3j.forEach((c,i)=>{
     const color=getColor(c.prob);
     const emoji=c.prob>=70?'🔥':c.prob>=55?'✅':'📊';
-    html+='<div class="candidato-item">'+
+    const expandible = !!(c.detalle && c.detalle.length);
+    const cid = 'c3j-'+i;
+    html+='<div class="candidato-item"'+(expandible?' style="cursor:pointer" onclick="toggleCandidato(\''+cid+'\')"':'')+'>'+
       '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
       '<div class="candidato-info">'+
-      '<div class="candidato-nombre">'+emoji+' '+c.jugador+'</div>'+
+      '<div class="candidato-nombre">'+emoji+' '+c.jugador+(expandible?' <span id="cand-arrow-'+cid+'" style="color:#2563eb;font-size:13px">›</span>':'')+'</div>'+
       '<div class="candidato-sub">'+
       '<span>'+c.equipo+'</span><span>·</span>'+
       '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
@@ -464,8 +574,9 @@ function renderCandidatos(data) {
       (c.rachas_3plus&&c.rachas_3plus.length>0?'<span style="color:#a78bfa">'+c.rachas_3plus.map(r=>r+'j').join(' ')+'</span>':'')+'<span>·</span>'+
       '<span>max '+c.racha_max+'j</span>'+
       (c.prob_2j_3j?'<span>·</span><span style="color:#22c55e;font-weight:700">2j→3j: '+c.prob_2j_3j+'%</span>':'')+
-      (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+ 
+      (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+
       '</div>'+renderTurnoHit(c.turno_hit)+
+      (expandible?'<div class="jugador-detalle" id="cand-det-'+cid+'">'+renderDetalleCandidato(c,cid)+'</div>':'')+
       '</div>'+
       '<div class="candidato-score">'+
       '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
@@ -569,10 +680,12 @@ function renderCandidatos1j(data) {
     const color=getColor(c.prob);
     const emoji=c.prob>=70?'🔥':c.prob>=55?'✅':'📊';
     const rachas=c.rachas_3plus||[];
-    html+='<div class="candidato-item">'+
+    const expandible = !!(c.detalle && c.detalle.length);
+    const cid = 'c1j-'+i;
+    html+='<div class="candidato-item"'+(expandible?' style="cursor:pointer" onclick="toggleCandidato(\''+cid+'\')"':'')+'>'+
       '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
       '<div class="candidato-info">'+
-      '<div class="candidato-nombre">'+emoji+' '+c.jugador+'</div>'+
+      '<div class="candidato-nombre">'+emoji+' '+c.jugador+(expandible?' <span id="cand-arrow-'+cid+'" style="color:#2563eb;font-size:13px">›</span>':'')+'</div>'+
       '<div class="candidato-sub">'+
       '<span>'+c.equipo+'</span><span>·</span>'+
       '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
@@ -581,6 +694,7 @@ function renderCandidatos1j(data) {
       '<span>max '+c.racha_max+'j</span>'+
       (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+
       '</div>'+renderTurnoHit(c.turno_hit)+
+      (expandible?'<div class="jugador-detalle" id="cand-det-'+cid+'">'+renderDetalleCandidato(c,cid)+'</div>':'')+
       '</div>'+
       '<div class="candidato-score">'+
       '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
