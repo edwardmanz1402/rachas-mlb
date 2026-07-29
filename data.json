@@ -26186,7 +26186,7 @@
         "Gary Sánchez",
         "Garrett Mitchell",
         "Luis Lara",
-        "David Hamilton",
+        "Andrew Vaughn",
         "Cooper Pratt"
       ],
       "home_lineup": [
@@ -26214,6 +26214,16 @@
             "confirmado": true
           },
           {
+            "jugador": "Andrew Vaughn",
+            "juegos": 5,
+            "avg": 0.333,
+            "prob_2j_3j": 40.0,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 53.4,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
+          },
+          {
             "jugador": "Jake Bauers",
             "juegos": 4,
             "avg": 0.5,
@@ -26224,15 +26234,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "David Hamilton",
-            "prob": 19,
-            "prob_2j_3j": 9.1,
-            "pct_hit": 48.6,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Brice Turang",
@@ -26341,7 +26343,7 @@
         "Willi Castro",
         "Tyler Freeman",
         "Mickey Moniak",
-        "Ezequiel Tovar",
+        "Troy Johnston",
         "Brett Sullivan"
       ],
       "home_lineup": [
@@ -26350,7 +26352,7 @@
         "Manny Machado",
         "Ty France",
         "Jackson Merrill",
-        "Luis Rengifo",
+        "Jase Bowen",
         "Gavin Sheets",
         "Xander Bogaerts",
         "Freddy Fermin"
@@ -26366,16 +26368,6 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 64.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Ezequiel Tovar",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 62.5,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 53.2,
-            "tipo": "📊 IRREGULAR",
             "confirmado": true
           }
         ],
@@ -26396,6 +26388,13 @@
           }
         ],
         "candidatos_1j": [
+          {
+            "jugador": "Troy Johnston",
+            "prob": 66,
+            "prob_1j_2j": 64.3,
+            "pct_hit": 65.9,
+            "confirmado": true
+          },
           {
             "jugador": "Jake McCarthy",
             "prob": 65,
@@ -27294,7 +27293,17 @@
       "game_id": 823924,
       "fecha": "2026-07-29",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Max Muncy",
+        "Tommy Edman",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Dalton Rushing"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -27388,7 +27397,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 70.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dalton Rushing",
@@ -27398,7 +27407,7 @@
             "prob_3j_4j": 20.0,
             "pct_hit": 50.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27407,14 +27416,14 @@
             "prob": 82,
             "prob_2j_3j": 87.5,
             "pct_hit": 72.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy Edman",
             "prob": 53,
             "prob_2j_3j": 60.0,
             "pct_hit": 65.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -27423,32 +27432,32 @@
             "prob": 69,
             "prob_1j_2j": 69.2,
             "pct_hit": 67.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Tucker",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Muncy",
             "prob": 54,
             "prob_1j_2j": 54.7,
             "pct_hit": 54.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mookie Betts",
             "prob": 51,
             "prob_1j_2j": 52.8,
             "pct_hit": 57.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "29/07/26 16:00"
+  "alineaciones_actualizadas": "29/07/26 16:30"
 }
