@@ -25079,7 +25079,17 @@
       "home": "San Francisco Giants",
       "game_id": 823192,
       "fecha": "2026-07-29",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Jake Bauers",
+        "Christian Yelich",
+        "Gary Sánchez",
+        "Garrett Mitchell",
+        "Luis Lara",
+        "David Hamilton",
+        "Cooper Pratt"
+      ],
       "home_lineup": [
         "Luis Arraez",
         "Bryce Eldridge",
@@ -25091,7 +25101,7 @@
         "Grant McCray",
         "Christian Koss"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -25102,17 +25112,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 76.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrew Vaughn",
-            "juegos": 5,
-            "avg": 0.333,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 53.4,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Bauers",
@@ -25122,7 +25122,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 59.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25131,7 +25131,7 @@
             "prob": 19,
             "prob_2j_3j": 9.1,
             "pct_hit": 48.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -25140,42 +25140,35 @@
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 67.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "William Contreras",
-            "prob": 67,
-            "prob_1j_2j": 69.0,
-            "pct_hit": 63.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cooper Pratt",
             "prob": 60,
             "prob_1j_2j": 69.2,
             "pct_hit": 53.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Yelich",
             "prob": 55,
             "prob_1j_2j": 55.9,
             "pct_hit": 57.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Garrett Mitchell",
             "prob": 54,
             "prob_1j_2j": 55.3,
             "pct_hit": 56.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Lara",
             "prob": 42,
             "prob_1j_2j": 0,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -26427,5 +26420,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "29/07/26 11:00"
+  "alineaciones_actualizadas": "29/07/26 11:30"
 }
