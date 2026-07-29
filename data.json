@@ -24449,9 +24449,29 @@
       "home": "Miami Marlins",
       "game_id": 823837,
       "fecha": "2026-07-29",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Trea Turner",
+        "Bryson Stott",
+        "Bryce Harper",
+        "Alec Bohm",
+        "J.T. Realmuto",
+        "Brandon Marsh",
+        "Bryan De La Cruz",
+        "Justin Crawford",
+        "Edmundo Sosa"
+      ],
+      "home_lineup": [
+        "Otto Lopez",
+        "Heriberto Hernández",
+        "Liam Hicks",
+        "Xavier Edwards",
+        "Javier Sanoja",
+        "Leo Jiménez",
+        "Kyle Stowers",
+        "Esteury Ruiz",
+        "Brian Navarreto"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -24462,17 +24482,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
-          },
-          {
-            "jugador": "Kyle Schwarber",
-            "juegos": 5,
-            "avg": 0.333,
-            "prob_2j_3j": 52.2,
-            "prob_3j_4j": 41.7,
-            "pct_hit": 62.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
@@ -24482,7 +24492,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Bohm",
@@ -24492,7 +24502,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 58.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -24508,7 +24518,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 58.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Xavier Edwards",
@@ -24518,7 +24528,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 73.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -24527,25 +24537,10 @@
             "prob": 56,
             "prob_2j_3j": 57.1,
             "pct_hit": 64.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Griffin Conine",
-            "prob": 53,
-            "prob_2j_3j": 60.0,
-            "pct_hit": 55.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Joe Mack",
-            "prob": 45,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 53.6,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       }
     },
     {
@@ -24866,7 +24861,17 @@
       "game_id": 824242,
       "fecha": "2026-07-29",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Gleyber Torres",
+        "Kevin McGonigle",
+        "Hao-Yu Lee",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Eduardo Valencia",
+        "Spencer Torkelson",
+        "Matt Vierling",
+        "Javier Báez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -24910,27 +24915,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Zach McKinstry",
-            "juegos": 6,
-            "avg": 0.364,
-            "prob_2j_3j": 60.0,
-            "prob_3j_4j": 16.7,
-            "pct_hit": 46.7,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Colt Keith",
-            "juegos": 5,
-            "avg": 0.444,
-            "prob_2j_3j": 44.4,
-            "prob_3j_4j": 83.3,
-            "pct_hit": 54.3,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kevin McGonigle",
@@ -24940,7 +24925,7 @@
             "prob_3j_4j": 73.7,
             "pct_hit": 75.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -24950,28 +24935,21 @@
             "prob": 53,
             "prob_1j_2j": 53.8,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Báez",
             "prob": 52,
             "prob_1j_2j": 53.3,
             "pct_hit": 62.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eduardo Valencia",
             "prob": 50,
             "prob_1j_2j": 0,
             "pct_hit": 75.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "James Outman",
-            "prob": 31,
-            "prob_1j_2j": 31.2,
-            "pct_hit": 36.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -26458,5 +26436,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "29/07/26 07:00"
+  "alineaciones_actualizadas": "29/07/26 08:00"
 }
