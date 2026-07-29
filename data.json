@@ -24548,9 +24548,19 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823351,
       "fecha": "2026-07-29",
-      "away_lineup": [],
+      "away_lineup": [
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "Ildemaro Vargas",
+        "Jorge Barrosa"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -24561,27 +24571,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 65.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Waldschmidt",
-            "juegos": 4,
-            "avg": 0.545,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 60.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 4,
-            "avg": 0.529,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 60.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ketel Marte",
@@ -24591,7 +24581,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
@@ -24601,7 +24591,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 56.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
@@ -24611,7 +24601,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 62.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -24620,7 +24610,7 @@
             "prob": 72,
             "prob_2j_3j": 100.0,
             "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -24629,14 +24619,14 @@
             "prob": 66,
             "prob_1j_2j": 70.5,
             "pct_hit": 66.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Arenado",
             "prob": 59,
             "prob_1j_2j": 57.9,
             "pct_hit": 62.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -26436,5 +26426,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "29/07/26 08:00"
+  "alineaciones_actualizadas": "29/07/26 08:30"
 }
