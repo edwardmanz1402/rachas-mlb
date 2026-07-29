@@ -24721,12 +24721,12 @@
         "Daulton Varsho",
         "Ernie Clement",
         "Andrés Giménez",
-        "Davis Schneider"
+        "Luis Urías"
       ],
       "home_lineup": [
         "James Wood",
         "Luis García Jr.",
-        "Brady House",
+        "José Tena",
         "CJ Abrams",
         "Harry Ford",
         "Daylen Lile",
@@ -24807,15 +24807,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Brady House",
-            "prob": 57,
-            "prob_2j_3j": 63.6,
-            "pct_hit": 65.1,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "CJ Abrams",
@@ -24836,7 +24828,7 @@
         "Taylor Ward",
         "Pete Alonso",
         "Gunnar Henderson",
-        "Dylan Beavers",
+        "Colton Cowser",
         "Christian Encarnacion-Strand",
         "Coby Mayo",
         "Leody Taveras",
@@ -24844,7 +24836,7 @@
         "Jackson Holliday"
       ],
       "home_lineup": [
-        "Gleyber Torres",
+        "James Outman",
         "Kevin McGonigle",
         "Colt Keith",
         "Dillon Dingler",
@@ -24923,13 +24915,6 @@
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Gleyber Torres",
-            "prob": 53,
-            "prob_1j_2j": 53.8,
-            "pct_hit": 60.9,
-            "confirmado": true
-          },
-          {
             "jugador": "Javier Báez",
             "prob": 52,
             "prob_1j_2j": 53.3,
@@ -24941,6 +24926,13 @@
             "prob": 50,
             "prob_1j_2j": 0,
             "pct_hit": 75.0,
+            "confirmado": true
+          },
+          {
+            "jugador": "James Outman",
+            "prob": 31,
+            "prob_1j_2j": 31.2,
+            "pct_hit": 36.0,
             "confirmado": true
           }
         ]
@@ -24957,7 +24949,7 @@
         "Matt Olson",
         "Ozzie Albies",
         "Michael Harris II",
-        "Mauricio Dubón",
+        "Jorge Mateo",
         "Austin Riley",
         "Mike Yastrzemski",
         "Joey Bart"
@@ -25498,7 +25490,17 @@
       "home": "Cincinnati Reds",
       "game_id": 824487,
       "fecha": "2026-07-29",
-      "away_lineup": [],
+      "away_lineup": [
+        "Steven Kwan",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Travis Bazzana",
+        "Brayan Rocchio",
+        "Kyle Manzardo",
+        "Gabriel Arias",
+        "Patrick Bailey",
+        "Petey Halpin"
+      ],
       "home_lineup": [
         "Elly De La Cruz",
         "Sal Stewart",
@@ -25510,19 +25512,9 @@
         "Edwin Arroyo",
         "Ke'Bryan Hayes"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Kahlil Watson",
-            "juegos": 4,
-            "avg": 0.364,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 57.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Gabriel Arias",
             "juegos": 3,
@@ -25531,7 +25523,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25540,58 +25532,51 @@
             "prob": 56,
             "prob_2j_3j": 64.3,
             "pct_hit": 54.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Austin Hedges",
-            "prob": 66,
-            "prob_1j_2j": 74.1,
-            "pct_hit": 61.7,
-            "confirmado": false
-          },
           {
             "jugador": "Brayan Rocchio",
             "prob": 65,
             "prob_1j_2j": 66.7,
             "pct_hit": 61.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Chase DeLauter",
             "prob": 64,
             "prob_1j_2j": 68.0,
             "pct_hit": 64.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Ramírez",
             "prob": 60,
             "prob_1j_2j": 60.0,
             "pct_hit": 62.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Steven Kwan",
             "prob": 59,
             "prob_1j_2j": 60.4,
             "pct_hit": 58.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Manzardo",
             "prob": 51,
             "prob_1j_2j": 54.5,
             "pct_hit": 50.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Petey Halpin",
             "prob": 45,
             "prob_1j_2j": 55.6,
             "pct_hit": 36.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25771,7 +25756,17 @@
       "game_id": 824567,
       "fecha": "2026-07-29",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Sam Antonacci",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Colson Montgomery",
+        "Andrew Benintendi",
+        "Braden Montgomery",
+        "Tristan Peters",
+        "Chase Meidroth",
+        "Drew Romo"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -25842,7 +25837,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Vargas",
@@ -25852,7 +25847,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 64.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Chase Meidroth",
@@ -25862,7 +25857,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 70.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25871,14 +25866,14 @@
             "prob": 49,
             "prob_2j_3j": 50.0,
             "pct_hit": 62.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Romo",
             "prob": 22,
             "prob_2j_3j": 0,
             "pct_hit": 36.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -25887,7 +25882,7 @@
             "prob": 39,
             "prob_1j_2j": 36.4,
             "pct_hit": 51.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -26446,5 +26441,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "29/07/26 13:30"
+  "alineaciones_actualizadas": "29/07/26 14:00"
 }
