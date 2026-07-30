@@ -607,6 +607,35 @@ function renderJuegos(data) {
       '<div style="font-size:10px;color:#64748b;margin-top:2px">'+(confirmado?'✅ Alineaciones confirmadas':'⏳ Alineaciones pendientes')+'</div>'+
       '</div>';
     
+    const gm = (data.juegos_manana||[]).find(x => x.away===j.away && x.home===j.home);
+    const awayPitcher = j.away_pitcher || (gm && gm.away_pitcher) || null;
+    const homePitcher = j.home_pitcher || (gm && gm.home_pitcher) || null;
+    if(awayPitcher || homePitcher) {
+      function renderPitcherMini(p) {
+        if(!p) return '<div style="font-size:11px;color:#64748b;text-align:center;padding:6px">Pitcher no anunciado</div>';
+        const avgNum = parseFloat(p.avg_contra);
+        const avgColor = avgNum<=0.230?'#22c55e':avgNum<=0.260?'#f59e0b':'#f87171';
+        let h2 = '<div style="font-size:12px;font-weight:600;margin-bottom:4px">👨 '+p.nombre+'</div>'+
+          '<div style="display:flex;gap:5px;flex-wrap:wrap;margin-bottom:5px">'+
+          '<span style="background:rgba(0,0,0,0.3);border-radius:4px;padding:2px 6px;font-size:10px"><span style="color:'+avgColor+';font-weight:700">'+p.avg_contra+'</span> AVG</span>'+
+          '<span style="background:rgba(0,0,0,0.3);border-radius:4px;padding:2px 6px;font-size:10px">ERA <b>'+p.era+'</b></span>'+
+          '<span style="background:rgba(0,0,0,0.3);border-radius:4px;padding:2px 6px;font-size:10px">WHIP <b>'+p.whip+'</b></span>'+
+          '</div>';
+        if(p.ultimas4 && p.ultimas4.length) {
+          h2 += '<div style="font-size:9px;color:#64748b;text-transform:uppercase;margin-bottom:2px">Ultimas salidas</div>';
+          p.ultimas4.forEach(g => {
+            h2 += '<div style="display:flex;justify-content:space-between;font-size:10px;color:#94a3b8;padding:1px 0">'+
+              '<span>'+(g.fecha?g.fecha.slice(5):'')+'</span><span>'+g.ip+'IP</span><span>'+g.k+'K</span><span>'+g.h+'H</span>'+
+              '</div>';
+          });
+        }
+        return h2;
+      }
+      html += '<div style="display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:10px 12px;border-top:1px solid #1e293b">'+
+        '<div>'+renderPitcherMini(awayPitcher)+'</div>'+
+        '<div>'+renderPitcherMini(homePitcher)+'</div>'+
+        '</div>';
+    }
     ['away','home'].forEach(lado => {
       const equipo = lado === 'away' ? j.away : j.home;
       const edata = lado === 'away' ? j.away_data : j.home_data;
