@@ -23570,9 +23570,29 @@
       "home": "St. Louis Cardinals",
       "game_id": 823023,
       "fecha": "2026-07-30",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Michael Conforto",
+        "Carson Kelly",
+        "Dansby Swanson"
+      ],
+      "home_lineup": [
+        "JJ Wetherholt",
+        "Jordan Walker",
+        "Alec Burleson",
+        "Iván Herrera",
+        "Lars Nootbaar",
+        "Masyn Winn",
+        "Bryan Torres",
+        "Blaze Jordan",
+        "Nathan Church"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -23583,7 +23603,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alex Bregman",
@@ -23593,7 +23613,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 65.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -23603,7 +23623,7 @@
             "prob": 70,
             "prob_1j_2j": 73.1,
             "pct_hit": 69.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -23617,7 +23637,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -23627,28 +23647,28 @@
             "prob": 72,
             "prob_1j_2j": 76.2,
             "pct_hit": 69.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Walker",
             "prob": 71,
             "prob_1j_2j": 73.1,
             "pct_hit": 72.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
             "prob": 64,
             "prob_1j_2j": 64.5,
             "pct_hit": 63.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Jordan",
             "prob": 49,
             "prob_1j_2j": 54.5,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       }
@@ -24402,5 +24422,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/07/26 09:30"
+  "alineaciones_actualizadas": "30/07/26 10:00"
 }
