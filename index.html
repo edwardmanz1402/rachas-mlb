@@ -607,9 +607,8 @@ function renderJuegos(data) {
       '<div style="font-size:10px;color:#64748b;margin-top:2px">'+(confirmado?'✅ Alineaciones confirmadas':'⏳ Alineaciones pendientes')+'</div>'+
       '</div>';
     
-    const gm = (data.juegos_manana||[]).find(x => x.away===j.away && x.home===j.home);
-    const awayPitcher = j.away_pitcher || (gm && gm.away_pitcher) || null;
-    const homePitcher = j.home_pitcher || (gm && gm.home_pitcher) || null;
+    const awayPitcher = j.away_pitcher || null;
+    const homePitcher = j.home_pitcher || null;
     if(awayPitcher || homePitcher) {
       function renderPitcherMini(p) {
         if(!p) return '<div style="font-size:11px;color:#64748b;text-align:center;padding:6px">Pitcher no anunciado</div>';
