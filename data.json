@@ -24621,7 +24621,17 @@
       "game_id": 823999,
       "fecha": "2026-07-31",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Jorge Soler",
+        "Vaughn Grissom",
+        "Jo Adell",
+        "Denzer Guzman",
+        "Travis d'Arnaud",
+        "Jose Siri"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -24659,7 +24669,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 61.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Schanuel",
@@ -24669,7 +24679,7 @@
             "prob_3j_4j": 72.7,
             "pct_hit": 72.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -24905,7 +24915,17 @@
       "home": "San Diego Padres",
       "game_id": 823272,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Luis Arraez",
+        "Heliot Ramos",
+        "Bryce Eldridge",
+        "Rafael Devers",
+        "Jung Hoo Lee",
+        "Willy Adames",
+        "Grant McCray",
+        "Drew Cavanaugh",
+        "Christian Koss"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Luis Rengifo",
@@ -24917,7 +24937,7 @@
         "Freddy Fermin",
         "Jase Bowen"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -24928,7 +24948,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 61.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jung Hoo Lee",
@@ -24938,7 +24958,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Heliot Ramos",
@@ -24948,46 +24968,31 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 72.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Drew Gilbert",
-            "prob": 64,
-            "prob_2j_3j": 77.8,
-            "pct_hit": 48.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Daniel Susac",
-            "prob": 33,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 43.6,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Rafael Devers",
             "prob": 64,
             "prob_1j_2j": 65.1,
             "pct_hit": 63.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Eldridge",
             "prob": 61,
             "prob_1j_2j": 65.7,
             "pct_hit": 64.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Cavanaugh",
             "prob": 22,
             "prob_1j_2j": 20.0,
             "pct_hit": 35.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25531,5 +25536,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 15:30"
+  "alineaciones_actualizadas": "31/07/26 16:00"
 }
