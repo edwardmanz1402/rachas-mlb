@@ -22973,7 +22973,17 @@
       "game_id": 824486,
       "fecha": "2026-07-31",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Nathaniel Lowe",
+        "Eugenio Suárez",
+        "Dane Myers",
+        "Noelvi Marte",
+        "Matt McLain"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -23046,7 +23056,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 51.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sal Stewart",
@@ -23056,7 +23066,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 65.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler Stephenson",
@@ -23066,39 +23076,31 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 57.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Edwin Arroyo",
-            "prob": 46,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 57.1,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Elly De La Cruz",
             "prob": 67,
             "prob_1j_2j": 69.8,
             "pct_hit": 72.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathaniel Lowe",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Matt McLain",
             "prob": 45,
             "prob_1j_2j": 47.2,
             "pct_hit": 46.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25458,5 +25460,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 11:30"
+  "alineaciones_actualizadas": "31/07/26 12:00"
 }
