@@ -22882,18 +22882,18 @@
       },
       "away_pitcher": {
         "nombre": "Will Warren",
-        "avg_contra": ".267",
-        "era": "4.31",
-        "whip": "1.39",
-        "k9": "9.06",
-        "h9": "9.40",
-        "ip_temporada": "104.1",
+        "avg_contra": ".263",
+        "era": "4.21",
+        "whip": "1.36",
+        "k9": "9.08",
+        "h9": "9.25",
+        "ip_temporada": "107.0",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "2.0",
-            "k": 2,
-            "h": 1,
+            "ip": "4.0",
+            "k": 5,
+            "h": 2,
             "er": 0,
             "bb": 0
           },
@@ -22925,19 +22925,19 @@
       },
       "home_pitcher": {
         "nombre": "Shota Imanaga",
-        "avg_contra": ".225",
-        "era": "3.63",
+        "avg_contra": ".226",
+        "era": "3.71",
         "whip": "1.07",
-        "k9": "8.56",
-        "h9": "7.55",
-        "ip_temporada": "124.0",
+        "k9": "8.43",
+        "h9": "7.57",
+        "ip_temporada": "126.0",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "3.0",
+            "ip": "5.0",
             "k": 5,
-            "h": 0,
-            "er": 0,
+            "h": 2,
+            "er": 2,
             "bb": 0
           },
           {
@@ -23492,7 +23492,17 @@
         "Tim Tawa",
         "Ryan Waldschmidt"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Angel Martínez",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Rhys Hoskins",
+        "Brayan Rocchio",
+        "David Fry",
+        "Travis Bazzana",
+        "Austin Hedges",
+        "Steven Kwan"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -23533,16 +23543,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Gabriel Arias",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 61.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Travis Bazzana",
             "juegos": 3,
             "avg": 0.364,
@@ -23550,7 +23550,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 54.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -23648,9 +23648,29 @@
       "home": "Tampa Bay Rays",
       "game_id": 822945,
       "fecha": "2026-07-31",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Sam Antonacci",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Colson Montgomery",
+        "Andrew Benintendi",
+        "Braden Montgomery",
+        "Tristan Peters",
+        "Chase Meidroth",
+        "Drew Romo"
+      ],
+      "home_lineup": [
+        "Yandy Díaz",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Cedric Mullins",
+        "Chandler Simpson",
+        "Victor Mesa Jr.",
+        "Richie Palacios",
+        "Taylor Walls",
+        "Hunter Feduccia"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -23661,17 +23681,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 62.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Edgar Quero",
-            "juegos": 3,
-            "avg": 0.273,
-            "prob_2j_3j": 20.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 38.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrew Benintendi",
@@ -23681,7 +23691,7 @@
             "prob_3j_4j": 25.0,
             "pct_hit": 51.7,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -23690,18 +23700,10 @@
             "prob": 62,
             "prob_2j_3j": 63.2,
             "pct_hit": 63.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Randal Grichuk",
-            "prob": 33,
-            "prob_1j_2j": 30.8,
-            "pct_hit": 45.3,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -23713,7 +23715,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 68.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -23722,51 +23724,30 @@
             "prob": 73,
             "prob_2j_3j": 72.4,
             "pct_hit": 68.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Jonny DeLuca",
-            "prob": 54,
-            "prob_1j_2j": 53.3,
-            "pct_hit": 57.6,
-            "confirmado": false
-          },
           {
             "jugador": "Cedric Mullins",
             "prob": 52,
             "prob_1j_2j": 53.3,
             "pct_hit": 55.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Vilade",
-            "prob": 52,
-            "prob_1j_2j": 56.5,
-            "pct_hit": 51.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ben Williamson",
-            "prob": 48,
-            "prob_1j_2j": 47.1,
-            "pct_hit": 54.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Victor Mesa Jr.",
             "prob": 46,
             "prob_1j_2j": 50.0,
             "pct_hit": 46.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hunter Feduccia",
             "prob": 41,
             "prob_1j_2j": 40.9,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24028,7 +24009,17 @@
       "game_id": 824892,
       "fecha": "2026-07-31",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Ronald Acuña Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Ozzie Albies",
+        "Michael Harris II",
+        "Mauricio Dubón",
+        "Austin Riley",
+        "Joey Bart",
+        "Jim Jarvis"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -24084,39 +24075,24 @@
             "prob_3j_4j": 0,
             "pct_hit": 45.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Dominic Smith",
-            "prob": 60,
-            "prob_2j_3j": 69.2,
-            "pct_hit": 54.5,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Ozzie Albies",
             "prob": 69,
             "prob_1j_2j": 73.4,
             "pct_hit": 65.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ronald Acuña Jr.",
             "prob": 60,
             "prob_1j_2j": 62.9,
             "pct_hit": 63.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Mike Yastrzemski",
-            "prob": 53,
-            "prob_1j_2j": 56.8,
-            "pct_hit": 50.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25410,5 +25386,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 13:00"
+  "alineaciones_actualizadas": "31/07/26 13:30"
 }
