@@ -22779,7 +22779,7 @@
       "away_lineup": [
         "Paul Goldschmidt",
         "Ben Rice",
-        "Amed Rosario",
+        "Ryan McMahon",
         "Jasson Domínguez",
         "Trent Grisham",
         "Anthony Volpe",
@@ -22882,17 +22882,17 @@
       },
       "away_pitcher": {
         "nombre": "Will Warren",
-        "avg_contra": ".263",
-        "era": "4.21",
-        "whip": "1.36",
-        "k9": "9.08",
-        "h9": "9.25",
-        "ip_temporada": "107.0",
+        "avg_contra": ".260",
+        "era": "4.14",
+        "whip": "1.34",
+        "k9": "9.03",
+        "h9": "9.11",
+        "ip_temporada": "108.2",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "4.0",
-            "k": 5,
+            "ip": "6.0",
+            "k": 7,
             "h": 2,
             "er": 0,
             "bb": 0
@@ -22925,18 +22925,18 @@
       },
       "home_pitcher": {
         "nombre": "Shota Imanaga",
-        "avg_contra": ".226",
-        "era": "3.71",
+        "avg_contra": ".227",
+        "era": "3.67",
         "whip": "1.07",
-        "k9": "8.43",
-        "h9": "7.57",
-        "ip_temporada": "126.0",
+        "k9": "8.39",
+        "h9": "7.61",
+        "ip_temporada": "127.2",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "5.0",
-            "k": 5,
-            "h": 2,
+            "ip": "6.2",
+            "k": 6,
+            "h": 4,
             "er": 2,
             "bb": 0
           },
@@ -22972,7 +22972,17 @@
       "home": "Cincinnati Reds",
       "game_id": 824486,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake Mangum",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Ryan O'Hearn",
+        "Nick Gonzales",
+        "Endy Rodríguez",
+        "Jacob Gonzalez",
+        "Henry Davis"
+      ],
       "home_lineup": [
         "Elly De La Cruz",
         "Sal Stewart",
@@ -22984,7 +22994,7 @@
         "Noelvi Marte",
         "Matt McLain"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -22995,7 +23005,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 68.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Mangum",
@@ -23005,7 +23015,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 67.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brandon Lowe",
@@ -23015,7 +23025,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 68.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Endy Rodríguez",
@@ -23025,7 +23035,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 51.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -23035,14 +23045,7 @@
             "prob": 66,
             "prob_1j_2j": 76.5,
             "pct_hit": 61.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jhostynxon Garcia",
-            "prob": 46,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -23196,9 +23199,29 @@
       "home": "Baltimore Orioles",
       "game_id": 824809,
       "fecha": "2026-07-31",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Alec Bohm",
+        "Brandon Marsh",
+        "J.T. Realmuto",
+        "Bryson Stott",
+        "Gabriel Rincones Jr.",
+        "Justin Crawford"
+      ],
+      "home_lineup": [
+        "Dylan Beavers",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Taylor Ward",
+        "Leody Taveras",
+        "Jackson Holliday",
+        "Coby Mayo",
+        "Colton Cowser",
+        "Yohel Pozo"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -23209,7 +23232,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Bohm",
@@ -23219,7 +23242,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 59.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -23235,7 +23258,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -23844,7 +23867,17 @@
       "game_id": 823593,
       "fecha": "2026-07-31",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "A.J. Ewing",
+        "Francisco Lindor",
+        "Bo Bichette",
+        "Carson Benge",
+        "Luis Robert Jr.",
+        "Jared Young",
+        "Brett Baty",
+        "Jorge Polanco",
+        "Francisco Alvarez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -23908,7 +23941,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 65.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -23917,7 +23950,7 @@
             "prob": 29,
             "prob_2j_3j": 25.0,
             "pct_hit": 52.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -23926,35 +23959,21 @@
             "prob": 69,
             "prob_1j_2j": 69.8,
             "pct_hit": 65.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Robert Jr.",
             "prob": 53,
             "prob_1j_2j": 57.1,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Francisco Lindor",
             "prob": 51,
             "prob_1j_2j": 54.5,
             "pct_hit": 55.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Marcus Semien",
-            "prob": 46,
-            "prob_1j_2j": 46.3,
-            "pct_hit": 50.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eric Wagaman",
-            "prob": 30,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 35.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24001,14 +24020,66 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Kodai Senga",
+        "avg_contra": ".280",
+        "era": "8.85",
+        "whip": "1.84",
+        "k9": "10.84",
+        "h9": "9.96",
+        "ip_temporada": "40.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-07-18",
+            "ip": "1.1",
+            "k": 2,
+            "h": 3,
+            "er": 2,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-07-10",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-07-07",
+            "ip": "3.0",
+            "k": 4,
+            "h": 5,
+            "er": 4,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-07-03",
+            "ip": "2.2",
+            "k": 4,
+            "h": 2,
+            "er": 1,
+            "bb": 0
+          }
+        ]
+      }
     },
     {
       "away": "Washington Nationals",
       "home": "Atlanta Braves",
       "game_id": 824892,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "James Wood",
+        "Luis García Jr.",
+        "Dylan Crews",
+        "CJ Abrams",
+        "Brady House",
+        "Daylen Lile",
+        "Harry Ford",
+        "José Tena",
+        "Jacob Young"
+      ],
       "home_lineup": [
         "Ronald Acuña Jr.",
         "Drake Baldwin",
@@ -24020,7 +24091,7 @@
         "Joey Bart",
         "Jim Jarvis"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -24031,7 +24102,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 63.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis García Jr.",
@@ -24041,7 +24112,7 @@
             "prob_3j_4j": 45.5,
             "pct_hit": 60.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jacob Young",
@@ -24051,7 +24122,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 61.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -24061,7 +24132,7 @@
             "prob": 43,
             "prob_1j_2j": 46.7,
             "pct_hit": 43.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25386,5 +25457,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 13:30"
+  "alineaciones_actualizadas": "31/07/26 14:00"
 }
