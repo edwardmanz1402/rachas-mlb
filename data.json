@@ -24021,7 +24021,7 @@
         "Ryan O'Hearn",
         "Nick Gonzales",
         "Endy Rodríguez",
-        "Jacob Gonzalez",
+        "Jared Triolo",
         "Jhostynxon Garcia"
       ],
       "home_lineup": [
@@ -24080,7 +24080,15 @@
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": []
+        "candidatos_1j": [
+          {
+            "jugador": "Jared Triolo",
+            "prob": 48,
+            "prob_1j_2j": 48.5,
+            "pct_hit": 56.2,
+            "confirmado": true
+          }
+        ]
       },
       "home_data": {
         "racha": [
@@ -24325,20 +24333,20 @@
       },
       "away_pitcher": {
         "nombre": "Eury Pérez",
-        "avg_contra": ".202",
-        "era": "3.49",
-        "whip": "1.09",
-        "k9": "9.75",
-        "h9": "6.44",
-        "ip_temporada": "100.2",
+        "avg_contra": ".198",
+        "era": "3.41",
+        "whip": "1.08",
+        "k9": "9.70",
+        "h9": "6.29",
+        "ip_temporada": "103.0",
         "ultimas4": [
           {
             "fecha": "2026-07-30",
-            "ip": "2.0",
-            "k": 3,
+            "ip": "4.0",
+            "k": 5,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-07-25",
@@ -24368,19 +24376,19 @@
       },
       "home_pitcher": {
         "nombre": "Nolan McLean",
-        "avg_contra": ".207",
-        "era": "3.24",
+        "avg_contra": ".208",
+        "era": "3.26",
         "whip": "1.12",
-        "k9": "10.74",
-        "h9": "6.77",
-        "ip_temporada": "122.1",
+        "k9": "10.57",
+        "h9": "6.80",
+        "ip_temporada": "124.1",
         "ultimas4": [
           {
             "fecha": "2026-07-30",
-            "ip": "2.2",
-            "k": 3,
-            "h": 2,
-            "er": 0,
+            "ip": "4.2",
+            "k": 4,
+            "h": 3,
+            "er": 1,
             "bb": 2
           },
           {
@@ -24421,7 +24429,7 @@
         "Dylan Crews",
         "CJ Abrams",
         "Daylen Lile",
-        "Keibert Ruiz",
+        "Harry Ford",
         "José Tena",
         "Brady House",
         "Nasim Nuñez"
@@ -24434,7 +24442,7 @@
         "Ozzie Albies",
         "Mauricio Dubón",
         "Dominic Smith",
-        "Mike Yastrzemski",
+        "Eli White",
         "Jim Jarvis"
       ],
       "alineacion_confirmada": true,
@@ -24509,6 +24517,13 @@
             "prob_2j_3j": 65.4,
             "pct_hit": 67.0,
             "confirmado": true
+          },
+          {
+            "jugador": "Eli White",
+            "prob": 29,
+            "prob_2j_3j": 28.6,
+            "pct_hit": 43.6,
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -24535,7 +24550,7 @@
             "ip": "5.0",
             "k": 1,
             "h": 3,
-            "er": 3,
+            "er": 5,
             "bb": 2
           },
           {
@@ -25238,5 +25253,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/07/26 19:00"
+  "alineaciones_actualizadas": "30/07/26 19:30"
 }
