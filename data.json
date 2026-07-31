@@ -22882,13 +22882,21 @@
       },
       "away_pitcher": {
         "nombre": "Will Warren",
-        "avg_contra": ".269",
-        "era": "4.41",
-        "whip": "1.41",
-        "k9": "9.00",
-        "h9": "9.53",
-        "ip_temporada": "102.0",
+        "avg_contra": ".267",
+        "era": "4.31",
+        "whip": "1.39",
+        "k9": "9.06",
+        "h9": "9.40",
+        "ip_temporada": "104.1",
         "ultimas4": [
+          {
+            "fecha": "2026-07-31",
+            "ip": "2.0",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-26",
             "ip": "3.0",
@@ -22912,30 +22920,22 @@
             "h": 4,
             "er": 1,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-07",
-            "ip": "4.0",
-            "k": 3,
-            "h": 7,
-            "er": 6,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Shota Imanaga",
-        "avg_contra": ".229",
-        "era": "3.70",
-        "whip": "1.09",
-        "k9": "8.43",
-        "h9": "7.69",
-        "ip_temporada": "121.2",
+        "avg_contra": ".225",
+        "era": "3.63",
+        "whip": "1.07",
+        "k9": "8.56",
+        "h9": "7.55",
+        "ip_temporada": "124.0",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "1.0",
-            "k": 2,
+            "ip": "3.0",
+            "k": 5,
             "h": 0,
             "er": 0,
             "bb": 0
@@ -23291,50 +23291,42 @@
       "home": "Toronto Blue Jays",
       "game_id": 822782,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Jordan Walker",
+        "Alec Burleson",
+        "Iván Herrera",
+        "Lars Nootbaar",
+        "Masyn Winn",
+        "Nathan Church",
+        "José Fermín",
+        "Jimmy Crooks"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Bryan Torres",
-            "juegos": 3,
-            "avg": 0.571,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 45.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
-          {
-            "jugador": "Blaze Jordan",
-            "prob": 74,
-            "prob_2j_3j": 100.0,
-            "pct_hit": 50.0,
-            "confirmado": false
-          },
           {
             "jugador": "Alec Burleson",
             "prob": 72,
             "prob_2j_3j": 77.8,
             "pct_hit": 69.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Walker",
             "prob": 71,
             "prob_2j_3j": 75.0,
             "pct_hit": 72.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
             "prob": 61,
             "prob_2j_3j": 60.0,
             "pct_hit": 63.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -23343,21 +23335,21 @@
             "prob": 63,
             "prob_1j_2j": 64.8,
             "pct_hit": 61.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "JJ Wetherholt",
             "prob": 61,
             "prob_1j_2j": 60.7,
             "pct_hit": 62.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Fermín",
             "prob": 56,
             "prob_1j_2j": 61.3,
             "pct_hit": 50.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -23489,21 +23481,21 @@
       "home": "Cleveland Guardians",
       "game_id": 824407,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Adrian Del Castillo",
+        "Tim Tawa",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Ildemaro Vargas",
-            "juegos": 10,
-            "avg": 0.412,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 63.6,
-            "pct_hit": 65.5,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
           {
             "jugador": "Ketel Marte",
             "juegos": 4,
@@ -23512,7 +23504,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
@@ -23522,7 +23514,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 62.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Kepler",
@@ -23532,7 +23524,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -25418,5 +25410,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 12:30"
+  "alineaciones_actualizadas": "31/07/26 13:00"
 }
