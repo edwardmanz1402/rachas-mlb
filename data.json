@@ -24314,7 +24314,17 @@
       "home": "Houston Astros",
       "game_id": 824164,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Joc Pederson",
+        "Wyatt Langford",
+        "Corey Seager",
+        "Brandon Nimmo",
+        "Ezequiel Duran",
+        "Evan Carter",
+        "Jake Burger",
+        "Nicky Lopez",
+        "Austin Wynns"
+      ],
       "home_lineup": [
         "Jeremy Peña",
         "Yordan Alvarez",
@@ -24326,7 +24336,7 @@
         "LaMonte Wade Jr.",
         "Cam Smith"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -24336,21 +24346,7 @@
             "prob": 61,
             "prob_1j_2j": 63.3,
             "pct_hit": 70.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Elias Díaz",
-            "prob": 52,
-            "prob_1j_2j": 55.6,
-            "pct_hit": 58.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alejandro Osuna",
-            "prob": 49,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24472,9 +24468,29 @@
       "home": "Colorado Rockies",
       "game_id": 824325,
       "fecha": "2026-07-31",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Carter Jensen",
+        "Lane Thomas",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Michael Massey",
+        "Isaac Collins",
+        "John Rave",
+        "Josh Rojas",
+        "Andrew Velazquez"
+      ],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Mickey Moniak",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Kyle Karros",
+        "Tyler Freeman",
+        "Troy Johnston",
+        "Brenton Doyle",
+        "Ezequiel Tovar"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -24483,14 +24499,7 @@
             "prob": 67,
             "prob_2j_3j": 70.0,
             "pct_hit": 59.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyler Tolbert",
-            "prob": 30,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 37.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -24499,7 +24508,7 @@
             "prob": 56,
             "prob_1j_2j": 56.2,
             "pct_hit": 58.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24513,17 +24522,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 63.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Willi Castro",
-            "juegos": 3,
-            "avg": 0.375,
-            "prob_2j_3j": 81.2,
-            "prob_3j_4j": 25.0,
-            "pct_hit": 64.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -25522,5 +25521,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 14:30"
+  "alineaciones_actualizadas": "31/07/26 15:00"
 }
