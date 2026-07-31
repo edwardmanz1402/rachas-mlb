@@ -23116,19 +23116,19 @@
       },
       "away_pitcher": {
         "nombre": "Paul Skenes",
-        "avg_contra": ".223",
-        "era": "3.63",
-        "whip": "1.07",
-        "k9": "11.05",
-        "h9": "7.42",
-        "ip_temporada": "121.1",
+        "avg_contra": ".226",
+        "era": "3.74",
+        "whip": "1.08",
+        "k9": "11.15",
+        "h9": "7.56",
+        "ip_temporada": "122.2",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "0.2",
-            "k": 0,
-            "h": 0,
-            "er": 0,
+            "ip": "2.0",
+            "k": 3,
+            "h": 3,
+            "er": 2,
             "bb": 2
           },
           {
@@ -23159,19 +23159,19 @@
       },
       "home_pitcher": {
         "nombre": "Hunter Greene",
-        "avg_contra": ".269",
-        "era": "7.54",
-        "whip": "1.46",
-        "k9": "11.91",
-        "h9": "9.93",
-        "ip_temporada": "22.2",
+        "avg_contra": ".268",
+        "era": "7.61",
+        "whip": "1.44",
+        "k9": "11.79",
+        "h9": "9.89",
+        "ip_temporada": "23.2",
         "ultimas4": [
           {
             "fecha": "2026-07-31",
-            "ip": "1.0",
-            "k": 1,
-            "h": 3,
-            "er": 2,
+            "ip": "2.1",
+            "k": 3,
+            "h": 5,
+            "er": 3,
             "bb": 1
           },
           {
@@ -25182,7 +25182,17 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823922,
       "fecha": "2026-07-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Masataka Yoshida",
+        "Caleb Durbin",
+        "Andruw Monasterio",
+        "Jarren Duran",
+        "Carlos Narváez"
+      ],
       "home_lineup": [
         "Shohei Ohtani",
         "Andy Pages",
@@ -25194,7 +25204,7 @@
         "Enrique Hernández",
         "Eliezer Alfonzo"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -25205,17 +25215,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 73.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jahmai Jones",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 24.1,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25224,14 +25224,14 @@
             "prob": 72,
             "prob_2j_3j": 75.0,
             "pct_hit": 66.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andruw Monasterio",
             "prob": 41,
             "prob_2j_3j": 40.0,
             "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -25240,28 +25240,21 @@
             "prob": 69,
             "prob_1j_2j": 75.0,
             "pct_hit": 75.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Anthony Seigler",
-            "prob": 61,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 51.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wilyer Abreu",
             "prob": 61,
             "prob_1j_2j": 60.0,
             "pct_hit": 61.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Masataka Yoshida",
             "prob": 61,
             "prob_1j_2j": 67.6,
             "pct_hit": 56.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25422,7 +25415,17 @@
         "Luke Keaschall",
         "Tristan Gray"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Cole Young",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Cal Raleigh",
+        "Weston Wilson",
+        "Colt Emerson",
+        "Victor Robles"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -25470,7 +25473,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 68.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Young",
@@ -25480,7 +25483,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 68.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25489,7 +25492,7 @@
             "prob": 33,
             "prob_2j_3j": 33.3,
             "pct_hit": 46.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -25498,7 +25501,7 @@
             "prob": 62,
             "prob_1j_2j": 61.0,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25590,5 +25593,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/07/26 16:30"
+  "alineaciones_actualizadas": "31/07/26 17:00"
 }
