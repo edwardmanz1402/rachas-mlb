@@ -26002,19 +26002,19 @@
       },
       "home_pitcher": {
         "nombre": "Logan Gilbert",
-        "avg_contra": ".210",
-        "era": "3.42",
-        "whip": "0.98",
-        "k9": "9.50",
-        "h9": "6.90",
-        "ip_temporada": "131.2",
+        "avg_contra": ".213",
+        "era": "3.46",
+        "whip": "0.99",
+        "k9": "9.43",
+        "h9": "6.99",
+        "ip_temporada": "132.2",
         "ultimas4": [
           {
             "fecha": "2026-08-01",
-            "ip": "6.0",
+            "ip": "7.0",
             "k": 6,
-            "h": 3,
-            "er": 2,
+            "h": 5,
+            "er": 3,
             "bb": 1
           },
           {
@@ -26061,7 +26061,7 @@
         "Edgar Quero"
       ],
       "home_lineup": [
-        "Yandy Díaz",
+        "Cedric Mullins",
         "Chandler Simpson",
         "Junior Caminero",
         "Victor Mesa Jr.",
@@ -26131,19 +26131,16 @@
         ]
       },
       "home_data": {
-        "racha": [
+        "racha": [],
+        "candidatos_2j": [
           {
-            "jugador": "Yandy Díaz",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 72.4,
-            "prob_3j_4j": 58.8,
-            "pct_hit": 69.0,
-            "tipo": "🔥 JUGADOR DE RACHA",
+            "jugador": "Cedric Mullins",
+            "prob": 56,
+            "prob_2j_3j": 60.0,
+            "pct_hit": 55.2,
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Junior Caminero",
@@ -26272,7 +26269,7 @@
         "Heriberto Hernández",
         "Liam Hicks",
         "Xavier Edwards",
-        "Leo Jiménez",
+        "Jakob Marsee",
         "Kyle Stowers",
         "Javier Sanoja",
         "Esteury Ruiz",
@@ -26309,6 +26306,13 @@
             "prob": 55,
             "prob_2j_3j": 57.1,
             "pct_hit": 57.3,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jakob Marsee",
+            "prob": 49,
+            "prob_2j_3j": 50.0,
+            "pct_hit": 49.0,
             "confirmado": true
           }
         ],
@@ -26373,18 +26377,18 @@
       },
       "away_pitcher": {
         "nombre": "Tyler Phillips",
-        "avg_contra": ".241",
-        "era": "3.55",
-        "whip": "1.34",
-        "k9": "6.70",
-        "h9": "8.22",
-        "ip_temporada": "88.2",
+        "avg_contra": ".244",
+        "era": "3.53",
+        "whip": "1.35",
+        "k9": "6.65",
+        "h9": "8.36",
+        "ip_temporada": "89.1",
         "ultimas4": [
           {
             "fecha": "2026-08-01",
-            "ip": "4.0",
+            "ip": "5.0",
             "k": 3,
-            "h": 4,
+            "h": 6,
             "er": 2,
             "bb": 0
           },
@@ -27863,7 +27867,17 @@
       "home": "San Diego Padres",
       "game_id": 823269,
       "fecha": "2026-08-01",
-      "away_lineup": [],
+      "away_lineup": [
+        "Luis Arraez",
+        "Bryce Eldridge",
+        "Heliot Ramos",
+        "Rafael Devers",
+        "Jung Hoo Lee",
+        "Willy Adames",
+        "Daniel Susac",
+        "Drew Gilbert",
+        "Christian Koss"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Jake Cronenworth",
@@ -27875,7 +27889,7 @@
         "Freddy Fermin",
         "Jase Bowen"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -27886,7 +27900,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 40.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27895,7 +27909,7 @@
             "prob": 33,
             "prob_2j_3j": 33.3,
             "pct_hit": 45.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -27904,7 +27918,7 @@
             "prob": 74,
             "prob_1j_2j": 71.4,
             "pct_hit": 76.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28285,7 +28299,17 @@
       "game_id": 824000,
       "fecha": "2026-08-01",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Jorge Soler",
+        "Vaughn Grissom",
+        "Jo Adell",
+        "Travis d'Arnaud",
+        "Denzer Guzman",
+        "Jose Siri"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -28366,7 +28390,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 61.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Schanuel",
@@ -28376,7 +28400,7 @@
             "prob_3j_4j": 72.7,
             "pct_hit": 72.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -28385,7 +28409,7 @@
             "prob": 62,
             "prob_2j_3j": 66.7,
             "pct_hit": 73.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -28394,7 +28418,7 @@
             "prob": 61,
             "prob_1j_2j": 60.7,
             "pct_hit": 63.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28490,7 +28514,17 @@
       "home": "Athletics",
       "game_id": 824972,
       "fecha": "2026-08-01",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Javier Báez",
+        "Zach McKinstry"
+      ],
       "home_lineup": [
         "Jacob Wilson",
         "Jonah Heim",
@@ -28502,7 +28536,7 @@
         "Brian Serven",
         "Jonathan Ornelas"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -28513,7 +28547,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 65.4,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -28522,14 +28556,14 @@
             "prob": 55,
             "prob_2j_3j": 56.2,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Torkelson",
             "prob": 49,
             "prob_2j_3j": 47.1,
             "pct_hit": 53.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -28538,14 +28572,7 @@
             "prob": 78,
             "prob_1j_2j": 78.6,
             "pct_hit": 75.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eduardo Valencia",
-            "prob": 45,
-            "prob_1j_2j": 0,
-            "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28671,5 +28698,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "01/08/26 16:00"
+  "alineaciones_actualizadas": "01/08/26 16:30"
 }
