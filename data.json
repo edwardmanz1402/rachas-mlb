@@ -25875,7 +25875,7 @@
         "Josh Naylor",
         "Mitch Garver",
         "Weston Wilson",
-        "Colt Emerson"
+        "Leo Rivas"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -26596,13 +26596,21 @@
       },
       "away_pitcher": {
         "nombre": "Braxton Ashcraft",
-        "avg_contra": ".248",
-        "era": "4.05",
-        "whip": "1.19",
-        "k9": "9.93",
-        "h9": "8.46",
-        "ip_temporada": "122.1",
+        "avg_contra": ".246",
+        "era": "4.01",
+        "whip": "1.18",
+        "k9": "9.92",
+        "h9": "8.39",
+        "ip_temporada": "123.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-01",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-26",
             "ip": "6.0",
@@ -26626,26 +26634,26 @@
             "h": 5,
             "er": 5,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-04",
-            "ip": "5.2",
-            "k": 7,
-            "h": 6,
-            "er": 1,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Andrew Abbott",
         "avg_contra": ".243",
-        "era": "3.85",
+        "era": "3.81",
         "whip": "1.38",
-        "k9": "7.23",
+        "k9": "7.17",
         "h9": "8.31",
-        "ip_temporada": "117.0",
+        "ip_temporada": "118.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-01",
+            "ip": "1.0",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-26",
             "ip": "6.0",
@@ -26669,14 +26677,6 @@
             "h": 4,
             "er": 4,
             "bb": 3
-          },
-          {
-            "fecha": "2026-07-07",
-            "ip": "6.0",
-            "k": 8,
-            "h": 5,
-            "er": 3,
-            "bb": 0
           }
         ]
       }
@@ -27269,14 +27269,14 @@
       "fecha": "2026-08-01",
       "away_lineup": [
         "James Wood",
-        "Luis García Jr.",
+        "Andrés Chaparro",
         "Dylan Crews",
         "CJ Abrams",
-        "Keibert Ruiz",
-        "Daylen Lile",
+        "Brady House",
+        "Jacob Young",
         "Nasim Nuñez",
-        "Jorbit Vivas",
-        "Jacob Young"
+        "Luis García Jr.",
+        "Keibert Ruiz"
       ],
       "home_lineup": [
         "Drake Baldwin",
@@ -27291,18 +27291,7 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Daylen Lile",
-            "juegos": 7,
-            "avg": 0.308,
-            "prob_2j_3j": 65.2,
-            "prob_3j_4j": 53.8,
-            "pct_hit": 63.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
@@ -27320,10 +27309,10 @@
             "confirmado": true
           },
           {
-            "jugador": "Jorbit Vivas",
-            "prob": 55,
-            "prob_1j_2j": 61.1,
-            "pct_hit": 51.4,
+            "jugador": "Brady House",
+            "prob": 61,
+            "prob_1j_2j": 66.7,
+            "pct_hit": 62.2,
             "confirmado": true
           },
           {
@@ -27331,6 +27320,13 @@
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 60.0,
+            "confirmado": true
+          },
+          {
+            "jugador": "Andrés Chaparro",
+            "prob": 17,
+            "prob_1j_2j": 12.5,
+            "pct_hit": 34.5,
             "confirmado": true
           }
         ]
@@ -27435,45 +27431,45 @@
         ]
       },
       "home_pitcher": {
-        "nombre": "Reynaldo López",
-        "avg_contra": ".245",
-        "era": "3.64",
-        "whip": "1.34",
-        "k9": "8.29",
-        "h9": "8.41",
-        "ip_temporada": "71.2",
+        "nombre": "Martín Pérez",
+        "avg_contra": ".225",
+        "era": "3.49",
+        "whip": "1.23",
+        "k9": "6.87",
+        "h9": "7.37",
+        "ip_temporada": "90.1",
         "ultimas4": [
           {
-            "fecha": "2026-07-26",
-            "ip": "5.2",
-            "k": 6,
-            "h": 5,
-            "er": 0,
+            "fecha": "2026-07-27",
+            "ip": "5.0",
+            "k": 4,
+            "h": 8,
+            "er": 3,
             "bb": 1
           },
           {
-            "fecha": "2026-07-21",
-            "ip": "4.1",
-            "k": 6,
-            "h": 9,
-            "er": 5,
-            "bb": 3
+            "fecha": "2026-07-22",
+            "ip": "4.0",
+            "k": 3,
+            "h": 1,
+            "er": 0,
+            "bb": 4
           },
           {
-            "fecha": "2026-07-11",
+            "fecha": "2026-07-05",
+            "ip": "4.1",
+            "k": 1,
+            "h": 6,
+            "er": 4,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-06-30",
             "ip": "5.0",
-            "k": 3,
+            "k": 1,
             "h": 5,
             "er": 4,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-07-06",
-            "ip": "5.0",
-            "k": 5,
-            "h": 3,
-            "er": 1,
-            "bb": 2
+            "bb": 3
           }
         ]
       }
@@ -28298,7 +28294,17 @@
       "home": "Los Angeles Angels",
       "game_id": 824000,
       "fecha": "2026-08-01",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Chourio",
+        "Brice Turang",
+        "William Contreras",
+        "Christian Yelich",
+        "Andrew Vaughn",
+        "Jake Bauers",
+        "Garrett Mitchell",
+        "Cooper Pratt",
+        "Joey Ortiz"
+      ],
       "home_lineup": [
         "Zach Neto",
         "Mike Trout",
@@ -28310,7 +28316,7 @@
         "Denzer Guzman",
         "Jose Siri"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -28321,7 +28327,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cooper Pratt",
@@ -28331,7 +28337,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Yelich",
@@ -28341,7 +28347,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 58.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brice Turang",
@@ -28351,7 +28357,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 68.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -28360,7 +28366,7 @@
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 63.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -28369,14 +28375,14 @@
             "prob": 71,
             "prob_1j_2j": 71.7,
             "pct_hit": 76.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Garrett Mitchell",
             "prob": 54,
             "prob_1j_2j": 55.3,
             "pct_hit": 56.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28698,5 +28704,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "01/08/26 16:30"
+  "alineaciones_actualizadas": "01/08/26 17:00"
 }
