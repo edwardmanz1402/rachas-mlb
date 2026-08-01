@@ -26692,7 +26692,17 @@
       "game_id": 824808,
       "fecha": "2026-08-01",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Coby Mayo",
+        "Taylor Ward",
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Tyler O'Neill",
+        "Christian Encarnacion-Strand",
+        "Leody Taveras",
+        "Jackson Holliday",
+        "Jake Rogers"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -26743,7 +26753,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -26752,14 +26762,14 @@
             "prob": 61,
             "prob_2j_3j": 64.7,
             "pct_hit": 58.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Alonso",
             "prob": 55,
             "prob_2j_3j": 56.0,
             "pct_hit": 65.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -26768,14 +26778,7 @@
             "prob": 51,
             "prob_1j_2j": 0,
             "pct_hit": 75.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Dylan Beavers",
-            "prob": 43,
-            "prob_1j_2j": 45.0,
-            "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28650,5 +28653,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "01/08/26 12:30"
+  "alineaciones_actualizadas": "01/08/26 13:00"
 }
