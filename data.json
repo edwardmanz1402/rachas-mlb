@@ -25672,7 +25672,17 @@
       "game_id": 822781,
       "fecha": "2026-08-01",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Luis Urías",
+        "Vladimir Guerrero Jr.",
+        "Kazuma Okamoto",
+        "George Springer",
+        "Alejandro Kirk",
+        "Daulton Varsho",
+        "Ernie Clement",
+        "Myles Straw",
+        "Davis Schneider"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -25743,7 +25753,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 65.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kazuma Okamoto",
@@ -25753,7 +25763,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 59.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Vladimir Guerrero Jr.",
@@ -25763,32 +25773,17 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 61.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Brandon Valenzuela",
-            "prob": 60,
-            "prob_2j_3j": 70.0,
-            "pct_hit": 50.9,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Andrés Giménez",
-            "prob": 57,
-            "prob_1j_2j": 58.3,
-            "pct_hit": 53.1,
-            "confirmado": false
-          },
           {
             "jugador": "Luis Urías",
             "prob": 41,
             "prob_1j_2j": 50.0,
             "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28649,5 +28644,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "01/08/26 09:30"
+  "alineaciones_actualizadas": "01/08/26 10:00"
 }
