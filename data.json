@@ -27608,8 +27608,8 @@
         "Tyler Soderstrom",
         "Jonah Heim",
         "Tommy White",
-        "Lawrence Butler",
-        "Carlos Cortes",
+        "Jonathan Ornelas",
+        "Brian Serven",
         "Alika Williams",
         "Jeff McNeil",
         "Henry Bolte"
@@ -27709,13 +27709,6 @@
             "prob": 49,
             "prob_1j_2j": 50.0,
             "pct_hit": 50.6,
-            "confirmado": true
-          },
-          {
-            "jugador": "Lawrence Butler",
-            "prob": 33,
-            "prob_1j_2j": 30.6,
-            "pct_hit": 43.3,
             "confirmado": true
           }
         ]
@@ -27819,9 +27812,9 @@
         "Rafael Devers",
         "Jung Hoo Lee",
         "Willy Adames",
-        "Drew Cavanaugh",
-        "Drew Gilbert",
-        "Osleivis Basabe"
+        "Christian Koss",
+        "Daniel Susac",
+        "Grant McCray"
       ],
       "home_lineup": [
         "Luis Rengifo",
@@ -27836,7 +27829,18 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [],
+        "racha": [
+          {
+            "jugador": "Daniel Susac",
+            "juegos": 3,
+            "avg": 0.455,
+            "prob_2j_3j": 33.3,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 46.3,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": true
+          }
+        ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
@@ -27872,13 +27876,6 @@
             "prob": 61,
             "prob_1j_2j": 65.7,
             "pct_hit": 63.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Drew Gilbert",
-            "prob": 49,
-            "prob_1j_2j": 51.6,
-            "pct_hit": 47.4,
             "confirmado": true
           }
         ]
@@ -28040,7 +28037,7 @@
         "Randy Arozarena",
         "Dominic Canzone",
         "Julio Rodríguez",
-        "Josh Naylor",
+        "Stuart Fairchild",
         "Cal Raleigh",
         "Victor Robles",
         "Colt Emerson",
@@ -28119,13 +28116,6 @@
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Josh Naylor",
-            "prob": 68,
-            "prob_1j_2j": 70.0,
-            "pct_hit": 67.3,
-            "confirmado": true
-          },
           {
             "jugador": "Randy Arozarena",
             "prob": 62,
@@ -28254,7 +28244,7 @@
         "Kyle Tucker",
         "Teoscar Hernández",
         "Max Muncy",
-        "Dalton Rushing"
+        "Eliezer Alfonzo"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -28322,6 +28312,16 @@
             "pct_hit": 68.3,
             "tipo": "🔥 JUGADOR DE RACHA",
             "confirmado": true
+          },
+          {
+            "jugador": "Eliezer Alfonzo",
+            "juegos": 3,
+            "avg": 0.375,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 40.0,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -28387,13 +28387,21 @@
       },
       "home_pitcher": {
         "nombre": "Emmet Sheehan",
-        "avg_contra": ".245",
-        "era": "4.95",
-        "whip": "1.25",
-        "k9": "10.10",
-        "h9": "8.45",
-        "ip_temporada": "92.2",
+        "avg_contra": ".248",
+        "era": "5.01",
+        "whip": "1.28",
+        "k9": "10.03",
+        "h9": "8.58",
+        "ip_temporada": "93.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-02",
+            "ip": "0.2",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-07-26",
             "ip": "5.0",
@@ -28417,18 +28425,10 @@
             "h": 3,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-05",
-            "ip": "4.1",
-            "k": 5,
-            "h": 3,
-            "er": 1,
-            "bb": 3
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "02/08/26 17:00"
+  "alineaciones_actualizadas": "02/08/26 17:30"
 }
