@@ -26591,7 +26591,17 @@
       "home": "New York Mets",
       "game_id": 823592,
       "fecha": "2026-08-02",
-      "away_lineup": [],
+      "away_lineup": [
+        "Liam Hicks",
+        "Kyle Stowers",
+        "Otto Lopez",
+        "Xavier Edwards",
+        "Griffin Conine",
+        "Owen Caissie",
+        "Jakob Marsee",
+        "Joe Mack",
+        "Javier Sanoja"
+      ],
       "home_lineup": [
         "A.J. Ewing",
         "Francisco Lindor",
@@ -26603,7 +26613,7 @@
         "Jorge Polanco",
         "Francisco Alvarez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -26614,7 +26624,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 57.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -26623,21 +26633,14 @@
             "prob": 53,
             "prob_2j_3j": 60.0,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Sanoja",
             "prob": 32,
             "prob_2j_3j": 28.6,
             "pct_hit": 51.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Esteury Ruiz",
-            "prob": 23,
-            "prob_2j_3j": 20.0,
-            "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -26646,21 +26649,21 @@
             "prob": 78,
             "prob_1j_2j": 79.7,
             "pct_hit": 74.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Liam Hicks",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 63.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joe Mack",
             "prob": 45,
             "prob_1j_2j": 42.9,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28475,5 +28478,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/08/26 09:00"
+  "alineaciones_actualizadas": "02/08/26 09:30"
 }
