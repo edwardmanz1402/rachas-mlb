@@ -25743,9 +25743,19 @@
       "home": "Toronto Blue Jays",
       "game_id": 822783,
       "fecha": "2026-08-02",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Jordan Walker",
+        "Alec Burleson",
+        "Iván Herrera",
+        "Masyn Winn",
+        "Bryan Torres",
+        "José Fermín",
+        "Nathan Church",
+        "Blaze Jordan"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -25756,7 +25766,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 72.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Burleson",
@@ -25766,7 +25776,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 69.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Jordan",
@@ -25776,7 +25786,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 53.1,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Masyn Winn",
@@ -25786,7 +25796,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 62.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25795,7 +25805,7 @@
             "prob": 50,
             "prob_2j_3j": 53.3,
             "pct_hit": 51.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -25804,21 +25814,14 @@
             "prob": 64,
             "prob_1j_2j": 64.5,
             "pct_hit": 63.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lars Nootbaar",
             "prob": 50,
             "prob_1j_2j": 52.6,
             "pct_hit": 54.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jimmy Crooks",
-            "prob": 31,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 36.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -28502,5 +28505,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/08/26 07:00"
+  "alineaciones_actualizadas": "02/08/26 08:00"
 }
