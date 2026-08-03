@@ -23681,7 +23681,17 @@
         "José Fermín",
         "Jimmy Crooks"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Luis García Jr.",
+        "Spencer Jones",
+        "Jasson Domínguez",
+        "Jazz Chisholm Jr.",
+        "Ryan McMahon",
+        "José Caballero",
+        "Austin Wells"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -23752,17 +23762,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 54.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Amed Rosario",
-            "juegos": 3,
-            "avg": 0.273,
-            "prob_2j_3j": 87.5,
-            "prob_3j_4j": 16.7,
-            "pct_hit": 55.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -23771,7 +23771,7 @@
             "prob": 65,
             "prob_2j_3j": 75.0,
             "pct_hit": 61.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -23780,14 +23780,7 @@
             "prob": 46,
             "prob_1j_2j": 48.5,
             "pct_hit": 46.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ali Sánchez",
-            "prob": 34,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 30.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -23884,7 +23877,17 @@
       "game_id": 823757,
       "fecha": "2026-08-03",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Christian Yelich",
+        "William Contreras",
+        "Jake Bauers",
+        "Andrew Vaughn",
+        "Garrett Mitchell",
+        "David Hamilton",
+        "Joey Ortiz"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -23942,17 +23945,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 60.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Cooper Pratt",
-            "juegos": 5,
-            "avg": 0.333,
-            "prob_2j_3j": 80.0,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 59.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brice Turang",
@@ -23962,7 +23955,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 68.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Chourio",
@@ -23972,7 +23965,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 76.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -24173,7 +24166,49 @@
         ],
         "candidatos_1j": []
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Justin Wrobleski",
+        "avg_contra": ".222",
+        "era": "2.88",
+        "whip": "1.02",
+        "k9": "6.95",
+        "h9": "7.51",
+        "ip_temporada": "112.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-07-28",
+            "ip": "6.0",
+            "k": 7,
+            "h": 7,
+            "er": 5,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-07-21",
+            "ip": "6.1",
+            "k": 7,
+            "h": 5,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-07",
+            "ip": "7.0",
+            "k": 9,
+            "h": 6,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-06-30",
+            "ip": "7.0",
+            "k": 11,
+            "h": 7,
+            "er": 3,
+            "bb": 0
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Matthew Boyd",
         "avg_contra": ".240",
@@ -24224,7 +24259,17 @@
       "game_id": 822867,
       "fecha": "2026-08-03",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Joc Pederson",
+        "Wyatt Langford",
+        "Corey Seager",
+        "Brandon Nimmo",
+        "Evan Carter",
+        "Jake Burger",
+        "Ezequiel Duran",
+        "Austin Wynns",
+        "Nicky Lopez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -24276,14 +24321,7 @@
             "prob": 51,
             "prob_2j_3j": 47.8,
             "pct_hit": 61.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alejandro Osuna",
-            "prob": 45,
-            "prob_2j_3j": 45.5,
-            "pct_hit": 56.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -24292,21 +24330,21 @@
             "prob": 65,
             "prob_1j_2j": 63.6,
             "pct_hit": 63.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Burger",
             "prob": 62,
             "prob_1j_2j": 65.5,
             "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Evan Carter",
             "prob": 44,
             "prob_1j_2j": 45.5,
             "pct_hit": 43.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25075,5 +25113,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/08/26 14:00"
+  "alineaciones_actualizadas": "03/08/26 14:30"
 }
