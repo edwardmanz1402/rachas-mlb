@@ -23583,13 +23583,21 @@
       },
       "away_pitcher": {
         "nombre": "Andrew Alvarez",
-        "avg_contra": ".268",
-        "era": "4.06",
-        "whip": "1.51",
-        "k9": "9.05",
-        "h9": "9.21",
-        "ip_temporada": "57.2",
+        "avg_contra": ".265",
+        "era": "3.99",
+        "whip": "1.48",
+        "k9": "9.20",
+        "h9": "9.05",
+        "ip_temporada": "58.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-03",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-27",
             "ip": "4.1",
@@ -23613,26 +23621,26 @@
             "h": 4,
             "er": 3,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-07",
-            "ip": "5.2",
-            "k": 3,
-            "h": 4,
-            "er": 5,
-            "bb": 5
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Aaron Nola",
         "avg_contra": ".279",
-        "era": "5.61",
-        "whip": "1.45",
-        "k9": "9.16",
-        "h9": "9.95",
-        "ip_temporada": "114.0",
+        "era": "5.63",
+        "whip": "1.44",
+        "k9": "9.23",
+        "h9": "9.94",
+        "ip_temporada": "115.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-03",
+            "ip": "1.0",
+            "k": 2,
+            "h": 2,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-28",
             "ip": "5.2",
@@ -23656,14 +23664,6 @@
             "h": 6,
             "er": 3,
             "bb": 4
-          },
-          {
-            "fecha": "2026-07-10",
-            "ip": "5.0",
-            "k": 8,
-            "h": 3,
-            "er": 2,
-            "bb": 2
           }
         ]
       }
@@ -24445,7 +24445,17 @@
         "Andrés Giménez",
         "Myles Straw"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Jose Altuve",
+        "Taylor Trammell",
+        "Yainer Diaz",
+        "Cam Smith"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -24498,7 +24508,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 79.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Walker",
@@ -24508,7 +24518,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cam Smith",
@@ -24518,7 +24528,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 53.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Taylor Trammell",
@@ -24528,27 +24538,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 48.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "LaMonte Wade Jr.",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 40.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Vázquez",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 47.7,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yordan Alvarez",
@@ -24558,7 +24548,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 69.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -24568,7 +24558,7 @@
             "prob": 59,
             "prob_1j_2j": 61.4,
             "pct_hit": 59.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24665,7 +24655,17 @@
       "game_id": 824324,
       "fecha": "2026-08-03",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Kyle Karros",
+        "Cole Carrigg",
+        "Hunter Goodman",
+        "Mickey Moniak",
+        "Willi Castro",
+        "Tyler Freeman",
+        "Troy Johnston",
+        "Ezequiel Tovar"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -24740,17 +24740,7 @@
             "prob_3j_4j": 25.0,
             "pct_hit": 65.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "TJ Rumfield",
-            "juegos": 4,
-            "avg": 0.353,
-            "prob_2j_3j": 67.9,
-            "prob_3j_4j": 68.8,
-            "pct_hit": 69.3,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -24759,28 +24749,14 @@
             "prob": 65,
             "prob_2j_3j": 71.4,
             "pct_hit": 70.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Karros",
             "prob": 59,
             "prob_2j_3j": 60.0,
             "pct_hit": 59.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Sullivan",
-            "prob": 41,
-            "prob_2j_3j": 42.9,
-            "pct_hit": 48.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brenton Doyle",
-            "prob": 34,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -24789,28 +24765,28 @@
             "prob": 66,
             "prob_1j_2j": 69.8,
             "pct_hit": 65.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Troy Johnston",
             "prob": 65,
             "prob_1j_2j": 64.3,
             "pct_hit": 64.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Carrigg",
             "prob": 60,
             "prob_1j_2j": 66.7,
             "pct_hit": 61.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hunter Goodman",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24917,7 +24893,17 @@
         "Xander Bogaerts",
         "Sung-Mun Song"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Adrian Del Castillo",
+        "Tim Tawa",
+        "Ryan Waldschmidt"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -24978,17 +24964,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 62.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 4,
-            "avg": 0.647,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 60.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
@@ -24998,7 +24974,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 56.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -25008,7 +24984,7 @@
             "prob": 45,
             "prob_1j_2j": 53.8,
             "pct_hit": 38.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25100,5 +25076,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/08/26 16:30"
+  "alineaciones_actualizadas": "03/08/26 17:00"
 }
