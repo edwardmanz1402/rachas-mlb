@@ -254,7 +254,7 @@ function renderJuego(j) {
 
 async function cargar() {
   try {
-    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    const res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
     const data = await res.json();
     document.getElementById('actualizado').textContent = 'Actualizado: ' + data.actualizado;
     const main = document.getElementById('main');
