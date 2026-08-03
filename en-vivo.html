@@ -195,6 +195,7 @@ function renderCandidato(c) {
   let estadoHtml = '';
 
   const yaSinHit = c.ab > 0 && !c.dio_hit;
+  const turnosRestVal = c.turnos_restantes_minimo_garantizado;
 
   if (c.dio_hit) {
     estadoHtml = '<div class="estado-hit">✅ HIT</div>';
@@ -212,7 +213,11 @@ function renderCandidato(c) {
       estadoHtml = `<div class="estado-espera">Faltan ${falta}</div>`;
     }
   } else if (yaSinHit) {
-    estadoHtml = '<div class="estado-espera">❌ sin hit (fin del juego)</div>';
+    if (turnosRestVal === 0) {
+      estadoHtml = '<div class="estado-espera">❌ sin hit (fin del juego)</div>';
+    } else {
+      estadoHtml = '<div class="estado-espera">❌ sin hit · su equipo no batea ahora</div>';
+    }
   } else {
     estadoHtml = '<div class="estado-espera">⏳ Esperando</div>';
   }
