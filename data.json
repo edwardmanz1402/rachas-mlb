@@ -24070,9 +24070,19 @@
       "home": "Chicago Cubs",
       "game_id": 824647,
       "fecha": "2026-08-03",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Tommy Edman",
+        "Freddie Freeman",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Enrique Hernández",
+        "Eliezer Alfonzo"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -24083,7 +24093,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 71.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Shohei Ohtani",
@@ -24093,7 +24103,7 @@
             "prob_3j_4j": 47.1,
             "pct_hit": 73.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andy Pages",
@@ -24103,7 +24113,7 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 68.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -24112,14 +24122,7 @@
             "prob": 67,
             "prob_2j_3j": 76.9,
             "pct_hit": 60.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Max Muncy",
-            "prob": 52,
-            "prob_2j_3j": 51.9,
-            "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -24128,21 +24131,7 @@
             "prob": 58,
             "prob_1j_2j": 60.0,
             "pct_hit": 58.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Miguel Rojas",
-            "prob": 43,
-            "prob_1j_2j": 46.2,
-            "pct_hit": 45.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alex Call",
-            "prob": 38,
-            "prob_1j_2j": 39.1,
-            "pct_hit": 48.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -24364,7 +24353,49 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Cal Quantrill",
+        "avg_contra": ".246",
+        "era": "3.84",
+        "whip": "1.24",
+        "k9": "5.98",
+        "h9": "8.44",
+        "ip_temporada": "58.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-07-28",
+            "ip": "5.1",
+            "k": 7,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-22",
+            "ip": "3.0",
+            "k": 1,
+            "h": 2,
+            "er": 2,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-07-17",
+            "ip": "4.0",
+            "k": 3,
+            "h": 11,
+            "er": 6,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-10",
+            "ip": "6.0",
+            "k": 1,
+            "h": 5,
+            "er": 1,
+            "bb": 1
+          }
+        ]
+      }
     },
     {
       "away": "Toronto Blue Jays",
@@ -25044,5 +25075,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/08/26 13:30"
+  "alineaciones_actualizadas": "03/08/26 14:00"
 }
