@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MLB Rachas — En Vivo</title>
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    background: #0a0e17;
+    color: #e2e8f0;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    padding-bottom: 40px;
+  }
+  header {
+    background: linear-gradient(135deg, #0a1628 0%, #0d2045 50%, #0a1628 100%);
+    border-bottom: 2px solid #1e40af;
+    padding: 16px 14px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #fff;
+  }
+  .titulo span { color: #ef4444; }
+  .live-badge {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 11px;
+    color: #ef4444;
+    font-weight: 700;
+  }
+  .live-dot {
+    width: 8px; height: 8px;
+    background: #ef4444;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.3; }
+  }
+  .actualizado {
+    font-size: 10px;
+    color: #64748b;
+    margin-top: 4px;
+  }
+  main { max-width: 720px; margin: 0 auto; padding: 14px; }
+  .empty {
+    text-align: center;
+    padding: 60px 20px;
+    color: #64748b;
+  }
+  .empty-icon { font-size: 40px; margin-bottom: 10px; }
+  .juego-card {
+    background: #0d1420;
+    border: 1px solid #1e293b;
+    border-radius: 10px;
+    margin-bottom: 14px;
+    overflow: hidden;
+  }
+  .juego-header {
+    background: linear-gradient(90deg, rgba(37,99,235,0.2), transparent);
+    padding: 12px 14px;
+    border-left: 3px solid #2563eb;
+  }
+  .juego-titulo {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #93c5fd;
+    letter-spacing: 0.5px;
+  }
+  .juego-estado {
+    font-size: 10px;
+    color: #64748b;
+    margin-top: 3px;
+  }
+  .juego-estado b { color: #f59e0b; }
+  .candidato-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 11px 14px;
+    border-top: 1px solid #131c2e;
+    gap: 10px;
+  }
+  .candidato-row.al-bate {
+    background: rgba(251, 191, 36, 0.08);
+  }
+  .cand-info { flex: 1; min-width: 0; }
+  .cand-nombre {
+    font-size: 13px;
+    font-weight: 600;
+    color: #f1f5f9;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .tag {
+    font-size: 9px;
+    font-weight: 700;
+    padding: 1px 6px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .tag-1j { background: rgba(96,165,250,0.15); color: #60a5fa; }
+  .tag-2j { background: rgba(251,146,60,0.15); color: #fb923c; }
+  .tag-racha { background: rgba(239,68,68,0.15); color: #f87171; }
+  .cand-sub {
+    font-size: 11px;
+    color: #64748b;
+    margin-top: 2px;
+  }
+  .estado-bate {
+    text-align: right;
+    min-width: 92px;
+  }
+  .estado-hit {
+    font-size: 18px;
+    font-weight: 700;
+    color: #22c55e;
+  }
+  .estado-espera {
+    font-size: 11px;
+    font-weight: 600;
+    color: #94a3b8;
+  }
+  .estado-espera.pronto { color: #fbbf24; }
+  .estado-ab {
+    font-size: 10px;
+    color: #64748b;
+    margin-top: 2px;
+  }
+  footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 10px;
+    color: #475569;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="header-row">
+    <div>
+      <div class="titulo">⚾ RACHAS <span>EN VIVO</span></div>
+      <div class="actualizado" id="actualizado">Cargando...</div>
+    </div>
+    <div class="live-badge"><div class="live-dot"></div>LIVE</div>
+  </div>
+</header>
+
+<main id="main">
+  <div class="empty">
+    <div class="empty-icon">📡</div>
+    <div>Cargando datos en vivo...</div>
+  </div>
+</main>
+
+<footer>Se actualiza automáticamente cada 10 minutos durante los juegos</footer>
+
+<script>
+const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/main/en_vivo_data.json';
+
+function tagClass(tipo) {
+  if (tipo === '1J→2J') return 'tag-1j';
+  if (tipo === '2J→3J') return 'tag-2j';
+  return 'tag-racha';
+}
+
+function tagLabel(tipo) {
+  if (tipo === '1J→2J') return '🎯 1J→2J';
+  if (tipo === '2J→3J') return '🚨 2J→3J';
+  return '🔥 RACHA';
+}
+
+function renderCandidato(c) {
+  const alBate = c.esta_al_bate_ahora;
+  const falta = c.bateadores_faltan_su_turno;
+  let estadoHtml = '';
+
+  if (c.dio_hit) {
+    estadoHtml = '<div class="estado-hit">✅ HIT</div>';
+  } else if (alBate) {
+    estadoHtml = '<div class="estado-espera pronto">🔴 BATEANDO</div>';
+  } else if (falta !== null && falta !== undefined) {
+    if (falta === 0) {
+      estadoHtml = '<div class="estado-espera pronto">🔴 BATEANDO</div>';
+    } else if (falta <= 2) {
+      estadoHtml = `<div class="estado-espera pronto">Faltan ${falta}</div>`;
+    } else {
+      estadoHtml = `<div class="estado-espera">Faltan ${falta}</div>`;
+    }
+  } else {
+    estadoHtml = '<div class="estado-espera">⏳ Esperando</div>';
+  }
+
+  return `
+    <div class="candidato-row ${alBate ? 'al-bate' : ''}">
+      <div class="cand-info">
+        <div class="cand-nombre">
+          ${c.jugador}
+          <span class="tag ${tagClass(c.tipo)}">${tagLabel(c.tipo)}</span>
+        </div>
+        <div class="cand-sub">${c.equipo} · #${c.posicion_orden} en el orden${c.prob ? ' · ' + c.prob + '% prob' : ''}</div>
+      </div>
+      <div class="estado-bate">
+        ${estadoHtml}
+        <div class="estado-ab">${c.ab}-${c.ab + (c.h > 0 ? 0 : 0)} AB, ${c.h} H</div>
+      </div>
+    </div>
+  `;
+}
+
+function renderJuego(j) {
+  return `
+    <div class="juego-card">
+      <div class="juego-header">
+        <div class="juego-titulo">⚾ ${j.away} @ ${j.home}</div>
+        <div class="juego-estado">Entrada ${j.entrada} · <b>${j.estado_entrada || ''}</b> · Al bate: ${j.equipo_al_bate}</div>
+      </div>
+      ${j.candidatos.map(renderCandidato).join('')}
+    </div>
+  `;
+}
+
+async function cargar() {
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now());
+    const data = await res.json();
+    document.getElementById('actualizado').textContent = 'Actualizado: ' + data.actualizado;
+    const main = document.getElementById('main');
+    if (!data.juegos_en_vivo || !data.juegos_en_vivo.length) {
+      main.innerHTML = '<div class="empty"><div class="empty-icon">💤</div><div>No hay juegos en vivo con candidatos ahora mismo</div></div>';
+      return;
+    }
+    main.innerHTML = data.juegos_en_vivo.map(renderJuego).join('');
+  } catch (e) {
+    document.getElementById('main').innerHTML = '<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
+  }
+}
+
+cargar();
+setInterval(cargar, 60000);
+</script>
+
+</body>
+</html>
