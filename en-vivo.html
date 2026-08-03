@@ -194,6 +194,8 @@ function renderCandidato(c) {
   const falta = c.bateadores_faltan_su_turno;
   let estadoHtml = '';
 
+  const yaSinHit = c.ab > 0 && !c.dio_hit;
+
   if (c.dio_hit) {
     estadoHtml = '<div class="estado-hit">✅ HIT</div>';
   } else if (alBate) {
@@ -201,14 +203,24 @@ function renderCandidato(c) {
   } else if (falta !== null && falta !== undefined) {
     if (falta === 0) {
       estadoHtml = '<div class="estado-espera pronto">🔴 BATEANDO</div>';
+    } else if (yaSinHit) {
+      const color = falta <= 2 ? 'pronto' : '';
+      estadoHtml = `<div class="estado-espera ${color}">❌ sin hit · faltan ${falta}</div>`;
     } else if (falta <= 2) {
       estadoHtml = `<div class="estado-espera pronto">Faltan ${falta}</div>`;
     } else {
       estadoHtml = `<div class="estado-espera">Faltan ${falta}</div>`;
     }
+  } else if (yaSinHit) {
+    estadoHtml = '<div class="estado-espera">❌ sin hit (fin del juego)</div>';
   } else {
     estadoHtml = '<div class="estado-espera">⏳ Esperando</div>';
   }
+
+  const turnosRest = c.turnos_restantes_minimo_garantizado;
+  const turnosInfo = (turnosRest !== undefined && turnosRest !== null)
+    ? `<div class="estado-ab">Le quedan ~${turnosRest} turno${turnosRest === 1 ? '' : 's'} (mínimo)</div>`
+    : '';
 
   return `
     <div class="candidato-row ${alBate ? 'al-bate' : ''}">
@@ -221,7 +233,8 @@ function renderCandidato(c) {
       </div>
       <div class="estado-bate">
         ${estadoHtml}
-        <div class="estado-ab">${c.ab}-${c.ab + (c.h > 0 ? 0 : 0)} AB, ${c.h} H</div>
+        <div class="estado-ab">${c.ab} AB, ${c.h} H</div>
+        ${turnosInfo}
       </div>
     </div>
   `;
