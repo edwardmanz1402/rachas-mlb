@@ -25094,9 +25094,29 @@
       "home": "Baltimore Orioles",
       "game_id": 824805,
       "fecha": "2026-08-04",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Vaughn Grissom",
+        "Denzer Guzman",
+        "Moisés Ballesteros",
+        "Travis d'Arnaud",
+        "Jose Siri",
+        "Wade Meckler"
+      ],
+      "home_lineup": [
+        "Dylan Beavers",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Christian Encarnacion-Strand",
+        "Jackson Holliday",
+        "Coby Mayo",
+        "Christian Franklin",
+        "Colton Cowser",
+        "Carlos Narváez"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -25346,7 +25366,17 @@
       "home": "Cincinnati Reds",
       "game_id": 824484,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lawrence Butler",
+        "Jacob Wilson",
+        "Tyler Soderstrom",
+        "Jonah Heim",
+        "Jeff McNeil",
+        "Tommy White",
+        "Donovan Walton",
+        "Carlos Cortes",
+        "Henry Bolte"
+      ],
       "home_lineup": [
         "Elly De La Cruz",
         "Sal Stewart",
@@ -25358,7 +25388,7 @@
         "Ke'Bryan Hayes",
         "Matt McLain"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -25483,7 +25513,17 @@
       "game_id": 823432,
       "fecha": "2026-08-04",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "J.T. Realmuto",
+        "Brandon Marsh",
+        "Bryson Stott",
+        "Justin Crawford"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -25530,7 +25570,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 58.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -25539,32 +25579,17 @@
             "prob": 61,
             "prob_2j_3j": 66.7,
             "pct_hit": 58.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryson Stott",
             "prob": 58,
             "prob_2j_3j": 58.3,
             "pct_hit": 64.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Edmundo Sosa",
-            "prob": 28,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 44.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Derek Hill",
-            "prob": 49,
-            "prob_1j_2j": 53.3,
-            "pct_hit": 50.0,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Carson Palmquist",
@@ -25658,9 +25683,19 @@
       "home": "New York Yankees",
       "game_id": 823517,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Jordan Walker",
+        "Iván Herrera",
+        "José Fermín",
+        "Nelson Velázquez",
+        "Masyn Winn",
+        "Blaze Jordan",
+        "Nathan Church",
+        "Pedro Pagés"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -25671,17 +25706,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 73.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Alec Burleson",
-            "juegos": 6,
-            "avg": 0.375,
-            "prob_2j_3j": 77.8,
-            "prob_3j_4j": 80.0,
-            "pct_hit": 70.2,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Jordan",
@@ -25691,7 +25716,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 55.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Church",
@@ -25701,37 +25726,16 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 52.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Lars Nootbaar",
-            "prob": 57,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 55.8,
-            "confirmado": false
-          },
           {
             "jugador": "José Fermín",
             "prob": 52,
             "prob_2j_3j": 58.3,
             "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jimmy Crooks",
-            "prob": 40,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 36.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "prob": 26,
-            "prob_2j_3j": 0,
-            "pct_hit": 43.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -25740,7 +25744,7 @@
             "prob": 61,
             "prob_1j_2j": 60.7,
             "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -25902,9 +25906,29 @@
       "home": "Boston Red Sox",
       "game_id": 824731,
       "fecha": "2026-08-04",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Chase Meidroth",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Randal Grichuk",
+        "Colson Montgomery",
+        "Joey Bart",
+        "Brenton Doyle",
+        "Braden Montgomery",
+        "Luisangel Acuña"
+      ],
+      "home_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Masataka Yoshida",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Connor Wong"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -25915,7 +25939,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 63.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -25931,7 +25955,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 74.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andruw Monasterio",
@@ -25941,7 +25965,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 56.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jarren Duran",
@@ -25951,7 +25975,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 55.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -26050,7 +26074,17 @@
       "game_id": 824888,
       "fecha": "2026-08-04",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Drake Baldwin",
+        "Ronald Acuña Jr.",
+        "Matt Olson",
+        "Michael Harris II",
+        "Ozzie Albies",
+        "Mike Yastrzemski",
+        "Dominic Smith",
+        "Austin Riley",
+        "Jim Jarvis"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -26067,7 +26101,7 @@
             "prob_3j_4j": 92.3,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Matt Olson",
@@ -26077,7 +26111,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 72.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Riley",
@@ -26087,7 +26121,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 50.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mike Yastrzemski",
@@ -26097,7 +26131,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 51.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -26196,7 +26230,17 @@
       "game_id": 824084,
       "fecha": "2026-08-04",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Carter Jensen",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Michael Massey",
+        "Nick Loftin",
+        "Isaac Collins",
+        "John Rave",
+        "Kyle Isbel"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -26244,7 +26288,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Salvador Perez",
@@ -26254,7 +26298,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 58.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -27807,5 +27851,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/08/26 13:00"
+  "alineaciones_actualizadas": "04/08/26 13:30"
 }
