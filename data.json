@@ -25681,14 +25681,14 @@
       "fecha": "2026-08-04",
       "away_lineup": [
         "JJ Wetherholt",
-        "Jordan Walker",
         "Iván Herrera",
         "José Fermín",
         "Nelson Velázquez",
         "Masyn Winn",
         "Blaze Jordan",
         "Nathan Church",
-        "Pedro Pagés"
+        "Pedro Pagés",
+        "Bryan Torres"
       ],
       "home_lineup": [
         "Trent Grisham",
@@ -25704,16 +25704,6 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Jordan Walker",
-            "juegos": 6,
-            "avg": 0.31,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 80.0,
-            "pct_hit": 73.3,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
           {
             "jugador": "Blaze Jordan",
             "juegos": 5,
@@ -25741,6 +25731,13 @@
             "prob": 52,
             "prob_2j_3j": 58.3,
             "pct_hit": 50.0,
+            "confirmado": true
+          },
+          {
+            "jugador": "Bryan Torres",
+            "prob": 26,
+            "prob_2j_3j": 0,
+            "pct_hit": 43.8,
             "confirmado": true
           }
         ],
@@ -26391,7 +26388,17 @@
       "home": "Milwaukee Brewers",
       "game_id": 823756,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake Mangum",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Spencer Horwitz",
+        "Nick Gonzales",
+        "Endy Rodríguez",
+        "Jacob Gonzalez",
+        "Jared Triolo"
+      ],
       "home_lineup": [
         "Brice Turang",
         "Jackson Chourio",
@@ -26403,7 +26410,7 @@
         "Cooper Pratt",
         "David Hamilton"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -26414,7 +26421,7 @@
             "prob_3j_4j": 90.9,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -26424,35 +26431,35 @@
             "prob": 64,
             "prob_1j_2j": 63.3,
             "pct_hit": 68.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Horwitz",
             "prob": 59,
             "prob_1j_2j": 58.3,
             "pct_hit": 64.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Mangum",
             "prob": 59,
             "prob_1j_2j": 60.5,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jared Triolo",
             "prob": 47,
             "prob_1j_2j": 48.5,
             "pct_hit": 53.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Endy Rodríguez",
             "prob": 43,
             "prob_1j_2j": 43.8,
             "pct_hit": 51.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -27427,21 +27434,31 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825054,
       "fecha": "2026-08-04",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Luis Rengifo",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Xander Bogaerts",
+        "Freddy Fermin",
+        "Jake Cronenworth",
+        "Jase Bowen"
+      ],
+      "home_lineup": [
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Max Kepler",
+        "Ketel Marte",
+        "Nolan Arenado",
+        "Lars Nootbaar",
+        "Tim Tawa",
+        "James McCann",
+        "Ryan Waldschmidt"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Luis Campusano",
-            "juegos": 6,
-            "avg": 0.455,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 60.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Jackson Merrill",
             "juegos": 3,
@@ -27450,7 +27467,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27459,30 +27476,16 @@
             "prob": 63,
             "prob_2j_3j": 75.0,
             "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Gavin Sheets",
-            "prob": 61,
-            "prob_1j_2j": 66.0,
-            "pct_hit": 50.0,
-            "confirmado": false
-          },
           {
             "jugador": "Xander Bogaerts",
             "prob": 54,
             "prob_1j_2j": 54.2,
             "pct_hit": 53.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Sung-Mun Song",
-            "prob": 42,
-            "prob_1j_2j": 46.7,
-            "pct_hit": 41.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -27496,7 +27499,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
@@ -27506,7 +27509,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 56.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27515,7 +27518,7 @@
             "prob": 35,
             "prob_2j_3j": 40.0,
             "pct_hit": 38.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -27524,14 +27527,7 @@
             "prob": 59,
             "prob_1j_2j": 57.9,
             "pct_hit": 60.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Adrian Del Castillo",
-            "prob": 43,
-            "prob_1j_2j": 43.5,
-            "pct_hit": 49.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -27627,7 +27623,17 @@
       "home": "Seattle Mariners",
       "game_id": 823108,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Javier Báez",
+        "Zach McKinstry"
+      ],
       "home_lineup": [
         "Cole Young",
         "Randy Arozarena",
@@ -27639,7 +27645,7 @@
         "Taylor Ward",
         "Colt Emerson"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -27650,7 +27656,7 @@
             "prob_3j_4j": 37.5,
             "pct_hit": 54.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dillon Dingler",
@@ -27660,17 +27666,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 59.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Eduardo Valencia",
-            "juegos": 3,
-            "avg": 0.625,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 75.0,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Clark",
@@ -27680,7 +27676,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -27800,5 +27796,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/08/26 16:00"
+  "alineaciones_actualizadas": "04/08/26 16:30"
 }
