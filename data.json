@@ -26576,9 +26576,19 @@
       "home": "Chicago Cubs",
       "game_id": 824645,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Tommy Edman",
+        "Ben Rortvedt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -26589,7 +26599,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 72.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Shohei Ohtani",
@@ -26599,7 +26609,7 @@
             "prob_3j_4j": 47.1,
             "pct_hit": 73.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andy Pages",
@@ -26609,7 +26619,7 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 68.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Teoscar Hernández",
@@ -26619,7 +26629,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -26628,14 +26638,14 @@
             "prob": 52,
             "prob_2j_3j": 50.0,
             "pct_hit": 58.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Muncy",
             "prob": 52,
             "prob_2j_3j": 51.9,
             "pct_hit": 54.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -26644,14 +26654,7 @@
             "prob": 58,
             "prob_1j_2j": 66.7,
             "pct_hit": 55.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eliezer Alfonzo",
-            "prob": 25,
-            "prob_1j_2j": 0,
-            "pct_hit": 36.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -26996,7 +26999,17 @@
       "home": "Houston Astros",
       "game_id": 824161,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nathan Lukes",
+        "Vladimir Guerrero Jr.",
+        "Kazuma Okamoto",
+        "George Springer",
+        "Alejandro Kirk",
+        "Jesús Sánchez",
+        "Ernie Clement",
+        "Andrés Giménez",
+        "Myles Straw"
+      ],
       "home_lineup": [
         "Jeremy Peña",
         "Yordan Alvarez",
@@ -27008,7 +27021,7 @@
         "Yainer Diaz",
         "Cam Smith"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -27019,7 +27032,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 67.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alejandro Kirk",
@@ -27029,17 +27042,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Luis Urías",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 41.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27048,7 +27051,7 @@
             "prob": 55,
             "prob_2j_3j": 54.2,
             "pct_hit": 58.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -27057,14 +27060,14 @@
             "prob": 61,
             "prob_1j_2j": 62.2,
             "pct_hit": 60.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Myles Straw",
             "prob": 33,
             "prob_1j_2j": 34.6,
             "pct_hit": 35.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -27816,5 +27819,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/08/26 15:00"
+  "alineaciones_actualizadas": "04/08/26 15:30"
 }
