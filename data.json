@@ -26813,7 +26813,17 @@
       "home": "Texas Rangers",
       "game_id": 822865,
       "fecha": "2026-08-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Osleivis Basabe",
+        "Jung Hoo Lee",
+        "Willy Adames",
+        "Rafael Devers",
+        "Daniel Susac",
+        "Buddy Kennedy",
+        "Eddys Leonard",
+        "Grant McCray",
+        "Christian Koss"
+      ],
       "home_lineup": [
         "Joc Pederson",
         "Wyatt Langford",
@@ -26825,7 +26835,7 @@
         "Nicky Lopez",
         "Justin Foscue"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -26836,7 +26846,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Osleivis Basabe",
@@ -26846,39 +26856,17 @@
             "prob_3j_4j": 0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Bryce Eldridge",
-            "prob": 66,
-            "prob_2j_3j": 76.9,
-            "pct_hit": 64.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Heliot Ramos",
-            "prob": 65,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 71.6,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Drew Gilbert",
-            "prob": 49,
-            "prob_1j_2j": 51.6,
-            "pct_hit": 46.8,
-            "confirmado": false
-          },
           {
             "jugador": "Christian Koss",
             "prob": 24,
             "prob_1j_2j": 0,
             "pct_hit": 35.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -27003,7 +26991,17 @@
       "game_id": 824161,
       "fecha": "2026-08-04",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Jose Altuve",
+        "Taylor Trammell",
+        "Yainer Diaz",
+        "Cam Smith"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -27074,7 +27072,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 79.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Walker",
@@ -27084,7 +27082,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cam Smith",
@@ -27094,7 +27092,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 53.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yordan Alvarez",
@@ -27104,27 +27102,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 69.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "LaMonte Wade Jr.",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 40.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Vázquez",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 47.7,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27133,7 +27111,7 @@
             "prob": 57,
             "prob_2j_3j": 58.8,
             "pct_hit": 59.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -27142,14 +27120,14 @@
             "prob": 68,
             "prob_1j_2j": 73.3,
             "pct_hit": 69.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daulton Varsho",
             "prob": 59,
             "prob_1j_2j": 62.2,
             "pct_hit": 59.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -27832,5 +27810,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/08/26 14:00"
+  "alineaciones_actualizadas": "04/08/26 14:30"
 }
