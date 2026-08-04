@@ -23476,7 +23476,7 @@
       "game_id": 823431,
       "fecha": "2026-08-03",
       "away_lineup": [
-        "James Wood",
+        "Dylan Crews",
         "Andrés Chaparro",
         "José Tena",
         "CJ Abrams",
@@ -23488,12 +23488,12 @@
       ],
       "home_lineup": [
         "Trea Turner",
-        "Kyle Schwarber",
+        "Justin Crawford",
         "Bryce Harper",
         "Alec Bohm",
         "Bryan De La Cruz",
         "Bryson Stott",
-        "Edmundo Sosa",
+        "Brandon Marsh",
         "Derek Hill",
         "Garrett Stubbs"
       ],
@@ -23538,6 +23538,16 @@
             "confirmado": true
           },
           {
+            "jugador": "Justin Crawford",
+            "juegos": 3,
+            "avg": 0.364,
+            "prob_2j_3j": 64.7,
+            "prob_3j_4j": 30.0,
+            "pct_hit": 55.8,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
             "jugador": "Trea Turner",
             "juegos": 3,
             "avg": 0.5,
@@ -23550,6 +23560,13 @@
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
+          {
+            "jugador": "Brandon Marsh",
+            "prob": 70,
+            "prob_1j_2j": 70.8,
+            "pct_hit": 66.3,
+            "confirmado": true
+          },
           {
             "jugador": "Bryson Stott",
             "prob": 63,
@@ -23575,20 +23592,20 @@
       },
       "away_pitcher": {
         "nombre": "Andrew Alvarez",
-        "avg_contra": ".259",
-        "era": "3.68",
+        "avg_contra": ".258",
+        "era": "3.94",
         "whip": "1.45",
-        "k9": "8.91",
-        "h9": "8.76",
-        "ip_temporada": "63.2",
+        "k9": "8.86",
+        "h9": "8.72",
+        "ip_temporada": "64.0",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "6.0",
+            "ip": "6.1",
             "k": 5,
             "h": 3,
-            "er": 0,
-            "bb": 2
+            "er": 2,
+            "bb": 3
           },
           {
             "fecha": "2026-07-27",
@@ -23780,18 +23797,18 @@
       },
       "away_pitcher": {
         "nombre": "Michael McGreevy",
-        "avg_contra": ".249",
-        "era": "3.48",
-        "whip": "1.18",
-        "k9": "5.97",
-        "h9": "8.39",
-        "ip_temporada": "119.0",
+        "avg_contra": ".250",
+        "era": "3.44",
+        "whip": "1.19",
+        "k9": "6.06",
+        "h9": "8.45",
+        "ip_temporada": "120.1",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "3.0",
-            "k": 3,
-            "h": 1,
+            "ip": "4.0",
+            "k": 4,
+            "h": 3,
             "er": 0,
             "bb": 1
           },
@@ -23963,20 +23980,20 @@
       },
       "away_pitcher": {
         "nombre": "Bubba Chandler",
-        "avg_contra": ".225",
-        "era": "4.43",
+        "avg_contra": ".224",
+        "era": "4.36",
         "whip": "1.39",
-        "k9": "8.02",
-        "h9": "7.61",
-        "ip_temporada": "107.2",
+        "k9": "7.98",
+        "h9": "7.57",
+        "ip_temporada": "109.1",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "3.0",
-            "k": 3,
+            "ip": "4.1",
+            "k": 4,
             "h": 0,
             "er": 0,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-07-28",
@@ -24006,18 +24023,18 @@
       },
       "home_pitcher": {
         "nombre": "Brandon Sproat",
-        "avg_contra": ".246",
+        "avg_contra": ".248",
         "era": "5.17",
-        "whip": "1.41",
+        "whip": "1.42",
         "k9": "9.41",
-        "h9": "8.18",
+        "h9": "8.28",
         "ip_temporada": "95.2",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
             "ip": "3.0",
             "k": 4,
-            "h": 4,
+            "h": 5,
             "er": 3,
             "bb": 2
           },
@@ -24168,20 +24185,20 @@
       },
       "away_pitcher": {
         "nombre": "Justin Wrobleski",
-        "avg_contra": ".224",
-        "era": "3.01",
-        "whip": "1.03",
-        "k9": "6.97",
-        "h9": "7.60",
-        "ip_temporada": "113.2",
+        "avg_contra": ".228",
+        "era": "3.27",
+        "whip": "1.06",
+        "k9": "7.00",
+        "h9": "7.78",
+        "ip_temporada": "115.2",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "1.0",
-            "k": 1,
-            "h": 2,
-            "er": 2,
-            "bb": 0
+            "ip": "3.0",
+            "k": 3,
+            "h": 6,
+            "er": 6,
+            "bb": 2
           },
           {
             "fecha": "2026-07-28",
@@ -24211,18 +24228,18 @@
       },
       "home_pitcher": {
         "nombre": "Matthew Boyd",
-        "avg_contra": ".248",
-        "era": "3.74",
-        "whip": "1.23",
-        "k9": "8.02",
-        "h9": "8.55",
-        "ip_temporada": "67.1",
+        "avg_contra": ".247",
+        "era": "3.65",
+        "whip": "1.22",
+        "k9": "7.96",
+        "h9": "8.48",
+        "ip_temporada": "69.0",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "1.2",
-            "k": 0,
-            "h": 4,
+            "ip": "3.0",
+            "k": 1,
+            "h": 5,
             "er": 3,
             "bb": 0
           },
@@ -24346,18 +24363,18 @@
       },
       "away_pitcher": {
         "nombre": "Logan Webb",
-        "avg_contra": ".229",
-        "era": "3.90",
+        "avg_contra": ".230",
+        "era": "3.87",
         "whip": "1.12",
-        "k9": "7.20",
-        "h9": "7.73",
-        "ip_temporada": "120.0",
+        "k9": "7.29",
+        "h9": "7.81",
+        "ip_temporada": "121.0",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "1.0",
-            "k": 3,
-            "h": 0,
+            "ip": "2.0",
+            "k": 5,
+            "h": 1,
             "er": 0,
             "bb": 1
           },
@@ -24389,19 +24406,19 @@
       },
       "home_pitcher": {
         "nombre": "Cal Quantrill",
-        "avg_contra": ".242",
-        "era": "3.77",
-        "whip": "1.24",
-        "k9": "6.03",
-        "h9": "8.30",
-        "ip_temporada": "59.2",
+        "avg_contra": ".243",
+        "era": "3.79",
+        "whip": "1.23",
+        "k9": "6.13",
+        "h9": "8.32",
+        "ip_temporada": "61.2",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "1.0",
-            "k": 1,
-            "h": 0,
-            "er": 0,
+            "ip": "3.0",
+            "k": 3,
+            "h": 2,
+            "er": 1,
             "bb": 1
           },
           {
@@ -24566,20 +24583,20 @@
       },
       "away_pitcher": {
         "nombre": "Shane Bieber",
-        "avg_contra": ".278",
-        "era": "5.63",
+        "avg_contra": ".279",
+        "era": "5.24",
         "whip": "1.66",
-        "k9": "6.19",
-        "h9": "9.84",
-        "ip_temporada": "32.0",
+        "k9": "6.82",
+        "h9": "9.96",
+        "ip_temporada": "34.1",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "0.2",
-            "k": 0,
-            "h": 2,
+            "ip": "2.2",
+            "k": 4,
+            "h": 4,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-07-28",
@@ -24610,18 +24627,18 @@
       "home_pitcher": {
         "nombre": "Cristian Javier",
         "avg_contra": ".284",
-        "era": "6.85",
-        "whip": "1.79",
-        "k9": "9.27",
-        "h9": "10.07",
-        "ip_temporada": "22.1",
+        "era": "6.66",
+        "whip": "1.73",
+        "k9": "8.51",
+        "h9": "9.99",
+        "ip_temporada": "24.1",
         "ultimas4": [
           {
             "fecha": "2026-08-03",
-            "ip": "1.0",
+            "ip": "3.0",
             "k": 2,
-            "h": 1,
-            "er": 0,
+            "h": 3,
+            "er": 1,
             "bb": 0
           },
           {
@@ -24773,12 +24790,20 @@
       "away_pitcher": {
         "nombre": "Ian Seymour",
         "avg_contra": ".211",
-        "era": "4.37",
+        "era": "4.31",
         "whip": "1.12",
-        "k9": "10.34",
-        "h9": "6.89",
-        "ip_temporada": "78.1",
+        "k9": "10.44",
+        "h9": "6.92",
+        "ip_temporada": "79.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-03",
+            "ip": "0.2",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-29",
             "ip": "4.2",
@@ -24802,26 +24827,26 @@
             "h": 2,
             "er": 3,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-12",
-            "ip": "3.1",
-            "k": 3,
-            "h": 6,
-            "er": 5,
-            "bb": 3
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Michael Lorenzen",
-        "avg_contra": ".331",
-        "era": "6.54",
+        "avg_contra": ".332",
+        "era": "6.64",
         "whip": "1.81",
-        "k9": "6.88",
-        "h9": "12.81",
-        "ip_temporada": "104.2",
+        "k9": "6.81",
+        "h9": "12.86",
+        "ip_temporada": "105.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-03",
+            "ip": "1.0",
+            "k": 0,
+            "h": 2,
+            "er": 2,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-28",
             "ip": "4.0",
@@ -24844,14 +24869,6 @@
             "k": 1,
             "h": 5,
             "er": 1,
-            "bb": 3
-          },
-          {
-            "fecha": "2026-07-07",
-            "ip": "6.0",
-            "k": 5,
-            "h": 6,
-            "er": 2,
             "bb": 3
           }
         ]
@@ -24876,12 +24893,12 @@
       "home_lineup": [
         "Corbin Carroll",
         "Geraldo Perdomo",
-        "Gabriel Moreno",
-        "Ketel Marte",
         "Max Kepler",
+        "Ketel Marte",
         "Nolan Arenado",
         "Adrian Del Castillo",
         "Tim Tawa",
+        "James McCann",
         "Ryan Waldschmidt"
       ],
       "alineacion_confirmada": true,
@@ -24943,6 +24960,16 @@
             "prob_2j_3j": 40.0,
             "prob_3j_4j": 50.0,
             "pct_hit": 62.5,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
+            "jugador": "James McCann",
+            "juegos": 4,
+            "avg": 0.647,
+            "prob_2j_3j": 75.0,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
           },
@@ -25056,5 +25083,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/08/26 18:30"
+  "alineaciones_actualizadas": "03/08/26 19:00"
 }
