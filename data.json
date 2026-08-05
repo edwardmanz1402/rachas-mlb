@@ -30078,9 +30078,19 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825052,
       "fecha": "2026-08-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Luis Rengifo",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Xander Bogaerts",
+        "Luis Campusano",
+        "Jake Cronenworth",
+        "Jase Bowen"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -30091,17 +30101,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 60.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Freddy Fermin",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 39.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Merrill",
@@ -30111,7 +30111,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Rengifo",
@@ -30121,7 +30121,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 54.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -30130,7 +30130,7 @@
             "prob": 59,
             "prob_2j_3j": 62.5,
             "pct_hit": 53.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -30139,42 +30139,28 @@
             "prob": 68,
             "prob_1j_2j": 65.7,
             "pct_hit": 69.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gavin Sheets",
-            "prob": 61,
-            "prob_1j_2j": 66.0,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Manny Machado",
             "prob": 48,
             "prob_1j_2j": 48.0,
             "pct_hit": 53.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Sung-Mun Song",
-            "prob": 42,
-            "prob_1j_2j": 46.7,
-            "pct_hit": 41.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
             "prob": 37,
             "prob_1j_2j": 38.9,
             "pct_hit": 42.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jase Bowen",
             "prob": 16,
             "prob_1j_2j": 0,
             "pct_hit": 25.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -30326,7 +30312,17 @@
       "home": "Seattle Mariners",
       "game_id": 823106,
       "fecha": "2026-08-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Eduardo Valencia",
+        "Zach McKinstry"
+      ],
       "home_lineup": [
         "Cole Young",
         "Randy Arozarena",
@@ -30338,7 +30334,7 @@
         "Taylor Ward",
         "Colt Emerson"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -30349,7 +30345,7 @@
             "prob_3j_4j": 37.5,
             "pct_hit": 54.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dillon Dingler",
@@ -30359,7 +30355,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 59.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zach McKinstry",
@@ -30369,7 +30365,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 48.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gleyber Torres",
@@ -30379,7 +30375,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 62.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eduardo Valencia",
@@ -30389,39 +30385,24 @@
             "prob_3j_4j": 0,
             "pct_hit": 75.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "James Outman",
-            "prob": 51,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 37.3,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Riley Greene",
             "prob": 64,
             "prob_1j_2j": 64.5,
             "pct_hit": 62.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colt Keith",
             "prob": 53,
             "prob_1j_2j": 56.5,
             "pct_hit": 53.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Hao-Yu Lee",
-            "prob": 49,
-            "prob_1j_2j": 51.9,
-            "pct_hit": 55.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -30554,5 +30535,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/08/26 16:00"
+  "alineaciones_actualizadas": "05/08/26 16:30"
 }
