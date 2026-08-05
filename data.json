@@ -27941,7 +27941,17 @@
         "Taylor Walls",
         "Nick Fortes"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Cole Carrigg",
+        "Mickey Moniak",
+        "Kyle Karros",
+        "TJ Rumfield",
+        "Jordan Beck",
+        "Edouard Julien",
+        "Ezequiel Tovar",
+        "Brett Sullivan"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -28014,16 +28024,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Willi Castro",
-            "juegos": 7,
-            "avg": 0.36,
-            "prob_2j_3j": 81.2,
-            "prob_3j_4j": 25.0,
-            "pct_hit": 66.3,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
             "jugador": "Jake McCarthy",
             "juegos": 4,
             "avg": 0.368,
@@ -28031,7 +28031,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 70.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Carrigg",
@@ -28041,7 +28041,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 62.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -28050,21 +28050,21 @@
             "prob": 61,
             "prob_2j_3j": 68.8,
             "pct_hit": 62.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ezequiel Tovar",
             "prob": 57,
             "prob_2j_3j": 62.5,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Sullivan",
             "prob": 41,
             "prob_2j_3j": 42.9,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -28073,21 +28073,14 @@
             "prob": 73,
             "prob_1j_2j": 72.3,
             "pct_hit": 68.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Hunter Goodman",
-            "prob": 59,
-            "prob_1j_2j": 60.0,
-            "pct_hit": 60.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Beck",
             "prob": 41,
             "prob_1j_2j": 45.5,
             "pct_hit": 41.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -30569,5 +30562,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/08/26 11:00"
+  "alineaciones_actualizadas": "05/08/26 11:30"
 }
