@@ -27963,14 +27963,14 @@
         "Liam Hicks",
         "Chandler Simpson",
         "Cedric Mullins",
-        "Ben Williamson",
+        "Ryan Vilade",
         "Taylor Walls",
         "Nick Fortes"
       ],
       "home_lineup": [
         "Jake McCarthy",
         "Cole Carrigg",
-        "Mickey Moniak",
+        "Hunter Goodman",
         "Kyle Karros",
         "TJ Rumfield",
         "Jordan Beck",
@@ -28043,13 +28043,6 @@
             "prob_2j_3j": 50.0,
             "pct_hit": 60.3,
             "confirmado": true
-          },
-          {
-            "jugador": "Ben Williamson",
-            "prob": 46,
-            "prob_2j_3j": 45.5,
-            "pct_hit": 54.1,
-            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -28079,13 +28072,6 @@
         ],
         "candidatos_2j": [
           {
-            "jugador": "Mickey Moniak",
-            "prob": 61,
-            "prob_2j_3j": 68.8,
-            "pct_hit": 62.7,
-            "confirmado": true
-          },
-          {
             "jugador": "Ezequiel Tovar",
             "prob": 57,
             "prob_2j_3j": 62.5,
@@ -28106,6 +28092,13 @@
             "prob": 73,
             "prob_1j_2j": 72.3,
             "pct_hit": 68.6,
+            "confirmado": true
+          },
+          {
+            "jugador": "Hunter Goodman",
+            "prob": 59,
+            "prob_1j_2j": 60.0,
+            "pct_hit": 60.6,
             "confirmado": true
           },
           {
@@ -29887,7 +29880,17 @@
       "home": "Milwaukee Brewers",
       "game_id": 823753,
       "fecha": "2026-08-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake Mangum",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Nick Gonzales",
+        "Endy Rodríguez",
+        "Jared Triolo",
+        "Rafael Flores Jr.",
+        "Jhostynxon Garcia"
+      ],
       "home_lineup": [
         "Brice Turang",
         "Jackson Chourio",
@@ -29899,7 +29902,7 @@
         "Cooper Pratt",
         "David Hamilton"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -29908,32 +29911,24 @@
             "prob": 70,
             "prob_2j_3j": 72.7,
             "pct_hit": 68.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Mangum",
             "prob": 53,
             "prob_2j_3j": 52.9,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Endy Rodríguez",
             "prob": 39,
             "prob_2j_3j": 40.0,
             "pct_hit": 51.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Jacob Gonzalez",
-            "prob": 46,
-            "prob_1j_2j": 53.8,
-            "pct_hit": 40.5,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [],
@@ -30332,7 +30327,17 @@
       "game_id": 823106,
       "fecha": "2026-08-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Cole Young",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Cal Raleigh",
+        "Brendan Donovan",
+        "Taylor Ward",
+        "Colt Emerson"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -30430,7 +30435,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 68.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Randy Arozarena",
@@ -30440,7 +30445,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 66.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -30449,25 +30454,17 @@
             "prob": 49,
             "prob_2j_3j": 50.0,
             "pct_hit": 50.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
             "prob": 39,
             "prob_2j_3j": 38.5,
             "pct_hit": 50.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Victor Robles",
-            "prob": 43,
-            "prob_1j_2j": 43.8,
-            "pct_hit": 48.6,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Drew Anderson",
@@ -30557,5 +30554,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/08/26 15:30"
+  "alineaciones_actualizadas": "05/08/26 16:00"
 }
