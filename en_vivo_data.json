@@ -1,13 +1,13 @@
 {
-  "actualizado": "05/08/26 12:20:01",
+  "actualizado": "05/08/26 12:25:02",
   "juegos_en_vivo": [
     {
       "away": "Toronto Blue Jays",
       "home": "Houston Astros",
       "entrada": 1,
-      "estado_entrada": "Middle",
+      "estado_entrada": "Bottom",
       "equipo_al_bate": "Houston Astros",
-      "bateador_actual": "Jeremy Peña",
+      "bateador_actual": "Jose Altuve",
       "candidatos": [
         {
           "jugador": "George Springer",
@@ -67,11 +67,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 1,
+          "outs_equipo_restantes": 26,
+          "pa_equipo_hasta_ahora": 2
         },
         {
           "jugador": "Jose Altuve",
@@ -82,12 +82,12 @@
           "ab": 0,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 1,
+          "outs_equipo_restantes": 26,
+          "pa_equipo_hasta_ahora": 2
         },
         {
           "jugador": "Taylor Trammell",
@@ -99,11 +99,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 1,
+          "outs_equipo_restantes": 26,
+          "pa_equipo_hasta_ahora": 2
         },
         {
           "jugador": "Christian Walker",
@@ -115,11 +115,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 1,
+          "outs_equipo_restantes": 26,
+          "pa_equipo_hasta_ahora": 2
         },
         {
           "jugador": "LaMonte Wade Jr.",
@@ -131,11 +131,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 1,
+          "outs_equipo_restantes": 26,
+          "pa_equipo_hasta_ahora": 2
         },
         {
           "jugador": "Yainer Diaz",
@@ -147,11 +147,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 1,
+          "outs_equipo_restantes": 26,
+          "pa_equipo_hasta_ahora": 2
         }
       ]
     },
@@ -161,7 +161,7 @@
       "entrada": 1,
       "estado_entrada": "Top",
       "equipo_al_bate": "Los Angeles Dodgers",
-      "bateador_actual": "Shohei Ohtani",
+      "bateador_actual": "Tommy Edman",
       "candidatos": [
         {
           "jugador": "Shohei Ohtani",
@@ -169,15 +169,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 1,
-          "ab": 0,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
+          "ab": 1,
+          "h": 1,
+          "dio_hit": true,
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 2,
+          "outs_equipo_restantes": 25,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Freddie Freeman",
@@ -185,15 +185,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 3,
-          "ab": 0,
+          "ab": 1,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 2,
+          "outs_equipo_restantes": 25,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Kyle Tucker",
@@ -205,11 +205,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 2,
+          "outs_equipo_restantes": 25,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Pete Crow-Armstrong",
