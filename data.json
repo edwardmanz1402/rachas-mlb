@@ -27930,9 +27930,19 @@
       "home": "Colorado Rockies",
       "game_id": 824322,
       "fecha": "2026-08-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Victor Mesa Jr.",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Liam Hicks",
+        "Chandler Simpson",
+        "Cedric Mullins",
+        "Richie Palacios",
+        "Taylor Walls",
+        "Nick Fortes"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -27943,7 +27953,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 69.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Liam Hicks",
@@ -27953,7 +27963,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 63.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonathan Aranda",
@@ -27963,7 +27973,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 67.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Junior Caminero",
@@ -27973,7 +27983,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 70.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -27982,39 +27992,24 @@
             "prob": 57,
             "prob_2j_3j": 64.3,
             "pct_hit": 51.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cedric Mullins",
             "prob": 56,
             "prob_2j_3j": 60.0,
             "pct_hit": 55.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Fortes",
             "prob": 50,
             "prob_2j_3j": 50.0,
             "pct_hit": 60.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ben Williamson",
-            "prob": 46,
-            "prob_2j_3j": 45.5,
-            "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Yandy Díaz",
-            "prob": 74,
-            "prob_1j_2j": 75.8,
-            "pct_hit": 68.0,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -30574,5 +30569,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/08/26 10:30"
+  "alineaciones_actualizadas": "05/08/26 11:00"
 }
