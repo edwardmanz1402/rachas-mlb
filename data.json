@@ -27588,9 +27588,19 @@
       "home": "Chicago Cubs",
       "game_id": 824646,
       "fecha": "2026-08-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Tommy Edman",
+        "Kyle Tucker",
+        "Mookie Betts",
+        "Max Muncy",
+        "Miguel Rojas",
+        "Hunter Feduccia"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -27601,7 +27611,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 72.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Shohei Ohtani",
@@ -27611,7 +27621,7 @@
             "prob_3j_4j": 47.1,
             "pct_hit": 73.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Tucker",
@@ -27621,19 +27631,11 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 59.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": [
-          {
-            "jugador": "Eliezer Alfonzo",
-            "prob": 25,
-            "prob_1j_2j": 0,
-            "pct_hit": 36.4,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -30599,5 +30601,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/08/26 09:00"
+  "alineaciones_actualizadas": "05/08/26 09:30"
 }
