@@ -27590,7 +27590,7 @@
       "fecha": "2026-08-05",
       "away_lineup": [
         "Shohei Ohtani",
-        "Alex Call",
+        "Ben Rortvedt",
         "Enrique Hernández",
         "Tommy Edman",
         "Kyle Tucker",
@@ -27603,7 +27603,7 @@
         "Pete Crow-Armstrong",
         "Seiya Suzuki",
         "Alex Bregman",
-        "Carson Kelly",
+        "Miguel Amaya",
         "Michael Busch",
         "Nico Hoerner",
         "Ian Happ",
@@ -27639,16 +27639,6 @@
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Carson Kelly",
-            "juegos": 5,
-            "avg": 0.286,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 60.3,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
           {
             "jugador": "Seiya Suzuki",
             "juegos": 4,
@@ -27793,7 +27783,7 @@
         "Osleivis Basabe",
         "Nate Furman",
         "Grant McCray",
-        "Eddys Leonard",
+        "Drew Gilbert",
         "Drew Cavanaugh"
       ],
       "home_lineup": [
@@ -27841,7 +27831,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Drew Gilbert",
+            "prob": 63,
+            "prob_2j_3j": 77.8,
+            "pct_hit": 46.8,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Willy Adames",
@@ -28132,7 +28130,7 @@
             "fecha": "2026-08-05",
             "ip": "5.2",
             "k": 4,
-            "h": 5,
+            "h": 6,
             "er": 0,
             "bb": 0
           },
@@ -29890,7 +29888,17 @@
       "game_id": 823753,
       "fecha": "2026-08-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Garrett Mitchell",
+        "William Contreras",
+        "Christian Yelich",
+        "Andrew Vaughn",
+        "Luis Lara",
+        "Cooper Pratt",
+        "David Hamilton"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -29928,32 +29936,21 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Jake Bauers",
-            "juegos": 9,
-            "avg": 0.419,
-            "prob_2j_3j": 47.6,
-            "prob_3j_4j": 62.5,
-            "pct_hit": 61.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Andrew Vaughn",
             "prob": 41,
             "prob_2j_3j": 40.0,
             "pct_hit": 51.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "David Hamilton",
             "prob": 18,
             "prob_2j_3j": 9.1,
             "pct_hit": 47.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -29962,42 +29959,35 @@
             "prob": 71,
             "prob_1j_2j": 71.7,
             "pct_hit": 75.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brice Turang",
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 68.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "William Contreras",
             "prob": 66,
             "prob_1j_2j": 69.0,
             "pct_hit": 62.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cooper Pratt",
             "prob": 61,
             "prob_1j_2j": 69.2,
             "pct_hit": 57.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Joey Ortiz",
-            "prob": 42,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 48.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Lara",
             "prob": 38,
             "prob_1j_2j": 0,
             "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -30567,5 +30557,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/08/26 15:00"
+  "alineaciones_actualizadas": "05/08/26 15:30"
 }
