@@ -1,13 +1,13 @@
 {
-  "actualizado": "05/08/26 22:20:02",
+  "actualizado": "05/08/26 22:25:02",
   "juegos_en_vivo": [
     {
       "away": "San Diego Padres",
       "home": "Arizona Diamondbacks",
-      "entrada": 8,
-      "estado_entrada": "End",
+      "entrada": 9,
+      "estado_entrada": "Top",
       "equipo_al_bate": "San Diego Padres",
-      "bateador_actual": "Fernando Tatis Jr.",
+      "bateador_actual": "Sung-Mun Song",
       "candidatos": [
         {
           "jugador": "Fernando Tatis Jr.",
@@ -15,31 +15,47 @@
           "tipo": "1J→2J",
           "prob": 68,
           "posicion_orden": 1,
-          "ab": 3,
+          "ab": 4,
+          "h": 1,
+          "dio_hit": true,
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 7,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
+        },
+        {
+          "jugador": "Gavin Sheets",
+          "equipo": "San Diego Padres",
+          "tipo": "1J→2J",
+          "prob": 61,
+          "posicion_orden": 2,
+          "ab": 1,
+          "h": 0,
+          "dio_hit": false,
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
+        },
+        {
+          "jugador": "Sung-Mun Song",
+          "equipo": "San Diego Padres",
+          "tipo": "1J→2J",
+          "prob": 42,
+          "posicion_orden": 3,
+          "ab": 0,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": true,
           "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
-        },
-        {
-          "jugador": "Luis Rengifo",
-          "equipo": "San Diego Padres",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 2,
-          "ab": 3,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Jackson Merrill",
@@ -51,27 +67,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
-        },
-        {
-          "jugador": "Sung-Mun Song",
-          "equipo": "San Diego Padres",
-          "tipo": "1J→2J",
-          "prob": 42,
-          "posicion_orden": 6,
-          "ab": 0,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
+          "bateadores_faltan_su_turno": 2,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Luis Campusano",
@@ -83,11 +83,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Jake Cronenworth",
@@ -99,11 +99,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Jase Bowen",
@@ -115,11 +115,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 24,
+          "outs_equipo_restantes": 3,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Jorge Barrosa",
