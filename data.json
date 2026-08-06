@@ -30119,7 +30119,7 @@
         "Mike Trout",
         "Nolan Schanuel",
         "Zach Neto",
-        "Vaughn Grissom",
+        "Denzer Guzman",
         "Moisés Ballesteros",
         "Jose Siri",
         "Josh Lowe",
@@ -30131,10 +30131,10 @@
         "Gunnar Henderson",
         "Christian Encarnacion-Strand",
         "Jackson Holliday",
-        "Leody Taveras",
+        "Tyler O'Neill",
         "Jeremiah Jackson",
-        "Colton Cowser",
-        "Yohel Pozo"
+        "Christian Franklin",
+        "Coby Mayo"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -30170,16 +30170,28 @@
         ]
       },
       "home_data": {
-        "racha": [],
-        "candidatos_2j": [],
-        "candidatos_1j": [
+        "racha": [
           {
-            "jugador": "Leody Taveras",
-            "prob": 57,
-            "prob_1j_2j": 60.9,
-            "pct_hit": 55.8,
+            "jugador": "Tyler O'Neill",
+            "juegos": 3,
+            "avg": 0.429,
+            "prob_2j_3j": 57.1,
+            "prob_3j_4j": 100.0,
+            "pct_hit": 45.2,
+            "tipo": "📊 IRREGULAR",
             "confirmado": true
-          },
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Coby Mayo",
+            "prob": 56,
+            "prob_2j_3j": 63.6,
+            "pct_hit": 50.6,
+            "confirmado": true
+          }
+        ],
+        "candidatos_1j": [
           {
             "jugador": "Gunnar Henderson",
             "prob": 52,
@@ -30495,7 +30507,7 @@
         "A.J. Ewing"
       ],
       "home_lineup": [
-        "Travis Bazzana",
+        "Jo Adell",
         "Chase DeLauter",
         "José Ramírez",
         "Nathaniel Lowe",
@@ -30550,16 +30562,6 @@
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Travis Bazzana",
-            "juegos": 4,
-            "avg": 0.312,
-            "prob_2j_3j": 64.3,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 55.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
           {
             "jugador": "Angel Martínez",
             "juegos": 3,
@@ -30762,19 +30764,19 @@
       },
       "away_pitcher": {
         "nombre": "Braxton Ashcraft",
-        "avg_contra": ".242",
-        "era": "3.97",
-        "whip": "1.16",
-        "k9": "9.95",
-        "h9": "8.21",
-        "ip_temporada": "129.1",
+        "avg_contra": ".241",
+        "era": "4.02",
+        "whip": "1.15",
+        "k9": "9.89",
+        "h9": "8.18",
+        "ip_temporada": "132.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "3.0",
-            "k": 3,
-            "h": 1,
-            "er": 2,
+            "ip": "4.1",
+            "k": 4,
+            "h": 2,
+            "er": 3,
             "bb": 1
           },
           {
@@ -30805,20 +30807,20 @@
       },
       "home_pitcher": {
         "nombre": "Dustin May",
-        "avg_contra": ".250",
-        "era": "4.26",
-        "whip": "1.26",
-        "k9": "8.76",
-        "h9": "8.44",
-        "ip_temporada": "112.0",
+        "avg_contra": ".252",
+        "era": "4.34",
+        "whip": "1.27",
+        "k9": "8.68",
+        "h9": "8.53",
+        "ip_temporada": "114.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "3.0",
-            "k": 3,
-            "h": 0,
-            "er": 0,
-            "bb": 1
+            "ip": "5.0",
+            "k": 4,
+            "h": 3,
+            "er": 2,
+            "bb": 2
           },
           {
             "fecha": "2026-07-29",
@@ -30859,7 +30861,7 @@
         "George Springer",
         "Nathan Lukes",
         "Ernie Clement",
-        "Luis Urías",
+        "Josh Smith",
         "Davis Schneider",
         "Andrés Giménez"
       ],
@@ -30977,20 +30979,20 @@
       },
       "away_pitcher": {
         "nombre": "Dylan Cease",
-        "avg_contra": ".181",
-        "era": "2.37",
+        "avg_contra": ".180",
+        "era": "2.35",
         "whip": "1.06",
-        "k9": "13.05",
-        "h9": "5.79",
-        "ip_temporada": "121.1",
+        "k9": "13.10",
+        "h9": "5.74",
+        "ip_temporada": "122.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "2.0",
-            "k": 2,
+            "ip": "3.0",
+            "k": 4,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-07-31",
@@ -31020,20 +31022,20 @@
       },
       "home_pitcher": {
         "nombre": "David Peterson",
-        "avg_contra": ".272",
-        "era": "5.50",
-        "whip": "1.50",
-        "k9": "7.60",
-        "h9": "9.79",
-        "ip_temporada": "103.0",
+        "avg_contra": ".275",
+        "era": "5.43",
+        "whip": "1.51",
+        "k9": "7.50",
+        "h9": "9.92",
+        "ip_temporada": "104.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "2.0",
+            "ip": "4.0",
             "k": 2,
-            "h": 3,
+            "h": 6,
             "er": 1,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-01",
@@ -31482,7 +31484,17 @@
         "Braden Montgomery",
         "Luisangel Acuña"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Caleb Durbin",
+        "Masataka Yoshida",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Anthony Seigler",
+        "Connor Wong"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
@@ -31514,7 +31526,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 56.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jarren Duran",
@@ -31524,7 +31536,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 55.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wilyer Abreu",
@@ -31534,7 +31546,7 @@
             "prob_3j_4j": 45.5,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Caleb Durbin",
@@ -31544,18 +31556,10 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 54.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Willson Contreras",
-            "prob": 72,
-            "prob_2j_3j": 75.0,
-            "pct_hit": 64.9,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": []
       },
       "away_pitcher": {
@@ -31830,7 +31834,17 @@
       "game_id": 824080,
       "fecha": "2026-08-06",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Carter Jensen",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Michael Massey",
+        "Isaac Collins",
+        "John Rave",
+        "Josh Rojas",
+        "Kyle Isbel"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -31876,7 +31890,7 @@
             "prob_3j_4j": 46.2,
             "pct_hit": 60.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Massey",
@@ -31886,32 +31900,17 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 56.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Starling Marte",
-            "prob": 41,
-            "prob_2j_3j": 40.0,
-            "pct_hit": 55.6,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Isaac Collins",
             "prob": 56,
             "prob_1j_2j": 56.2,
             "pct_hit": 58.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nick Loftin",
-            "prob": 44,
-            "prob_1j_2j": 46.4,
-            "pct_hit": 49.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32217,5 +32216,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 13:00"
+  "alineaciones_actualizadas": "06/08/26 13:30"
 }
