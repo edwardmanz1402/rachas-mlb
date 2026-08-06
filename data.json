@@ -30862,7 +30862,7 @@
         "Nathan Lukes",
         "Ernie Clement",
         "Josh Smith",
-        "Davis Schneider",
+        "Jesús Sánchez",
         "Andrés Giménez"
       ],
       "home_lineup": [
@@ -30874,7 +30874,7 @@
         "Nico Hoerner",
         "Michael Conforto",
         "Dansby Swanson",
-        "Miguel Amaya"
+        "Carson Kelly"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -30912,11 +30912,28 @@
             "prob_1j_2j": 64.9,
             "pct_hit": 58.5,
             "confirmado": true
+          },
+          {
+            "jugador": "Jesús Sánchez",
+            "prob": 61,
+            "prob_1j_2j": 62.2,
+            "pct_hit": 60.0,
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
+          {
+            "jugador": "Carson Kelly",
+            "juegos": 6,
+            "avg": 0.346,
+            "prob_2j_3j": 50.0,
+            "prob_3j_4j": 100.0,
+            "pct_hit": 60.3,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
           {
             "jugador": "Seiya Suzuki",
             "juegos": 5,
@@ -30980,15 +30997,15 @@
       "away_pitcher": {
         "nombre": "Dylan Cease",
         "avg_contra": ".179",
-        "era": "2.29",
-        "whip": "1.05",
-        "k9": "13.18",
-        "h9": "5.73",
-        "ip_temporada": "125.2",
+        "era": "2.28",
+        "whip": "1.04",
+        "k9": "13.11",
+        "h9": "5.70",
+        "ip_temporada": "126.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "6.2",
+            "ip": "7.0",
             "k": 10,
             "h": 2,
             "er": 0,
@@ -31169,20 +31186,20 @@
       },
       "away_pitcher": {
         "nombre": "Framber Valdez",
-        "avg_contra": ".261",
-        "era": "4.41",
-        "whip": "1.39",
-        "k9": "7.33",
-        "h9": "9.27",
-        "ip_temporada": "120.1",
+        "avg_contra": ".258",
+        "era": "4.34",
+        "whip": "1.38",
+        "k9": "7.28",
+        "h9": "9.12",
+        "ip_temporada": "122.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "0.0",
-            "k": 0,
+            "ip": "2.0",
+            "k": 1,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 2
           },
           {
             "fecha": "2026-08-01",
@@ -31212,19 +31229,19 @@
       },
       "home_pitcher": {
         "nombre": "Bryce Miller",
-        "avg_contra": ".212",
-        "era": "3.15",
-        "whip": "0.98",
-        "k9": "8.96",
-        "h9": "7.02",
-        "ip_temporada": "74.1",
+        "avg_contra": ".214",
+        "era": "3.20",
+        "whip": "0.99",
+        "k9": "8.88",
+        "h9": "7.11",
+        "ip_temporada": "76.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "1.0",
+            "ip": "2.0",
             "k": 1,
-            "h": 3,
-            "er": 3,
+            "h": 5,
+            "er": 4,
             "bb": 2
           },
           {
@@ -32234,5 +32251,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 14:30"
+  "alineaciones_actualizadas": "06/08/26 15:00"
 }
