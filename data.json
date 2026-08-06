@@ -31097,7 +31097,7 @@
         "Ben Malgeri",
         "Hao-Yu Lee",
         "Dillon Dingler",
-        "Riley Greene",
+        "James Outman",
         "Colt Keith",
         "Spencer Torkelson",
         "Max Clark",
@@ -31400,19 +31400,19 @@
       },
       "away_pitcher": {
         "nombre": "Miles Mikolas",
-        "avg_contra": ".290",
-        "era": "5.78",
-        "whip": "1.38",
-        "k9": "4.54",
-        "h9": "10.49",
-        "ip_temporada": "109.0",
+        "avg_contra": ".295",
+        "era": "5.81",
+        "whip": "1.40",
+        "k9": "4.58",
+        "h9": "10.72",
+        "ip_temporada": "110.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "1.0",
-            "k": 0,
-            "h": 3,
-            "er": 2,
+            "ip": "2.2",
+            "k": 1,
+            "h": 7,
+            "er": 3,
             "bb": 1
           },
           {
@@ -31443,19 +31443,19 @@
       },
       "home_pitcher": {
         "nombre": "Cristopher Sánchez",
-        "avg_contra": ".249",
-        "era": "2.59",
-        "whip": "1.19",
-        "k9": "10.44",
-        "h9": "8.71",
-        "ip_temporada": "145.2",
+        "avg_contra": ".252",
+        "era": "2.62",
+        "whip": "1.21",
+        "k9": "10.42",
+        "h9": "8.84",
+        "ip_temporada": "147.2",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "1.1",
-            "k": 2,
-            "h": 0,
-            "er": 0,
+            "ip": "3.0",
+            "k": 3,
+            "h": 4,
+            "er": 1,
             "bb": 0
           },
           {
@@ -32038,7 +32038,17 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825053,
       "fecha": "2026-08-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Luis Rengifo",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Xander Bogaerts",
+        "Gavin Sheets",
+        "Freddy Fermin",
+        "Jake Cronenworth"
+      ],
       "home_lineup": [
         "Geraldo Perdomo",
         "Corbin Carroll",
@@ -32050,7 +32060,7 @@
         "Tim Tawa",
         "Ryan Waldschmidt"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32061,7 +32071,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 39.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32070,7 +32080,7 @@
             "prob": 64,
             "prob_2j_3j": 57.1,
             "pct_hit": 69.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -32079,21 +32089,7 @@
             "prob": 52,
             "prob_1j_2j": 52.9,
             "pct_hit": 58.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Sung-Mun Song",
-            "prob": 42,
-            "prob_1j_2j": 46.7,
-            "pct_hit": 41.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gage Workman",
-            "prob": 20,
-            "prob_1j_2j": 20.0,
-            "pct_hit": 29.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32230,5 +32226,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 16:30"
+  "alineaciones_actualizadas": "06/08/26 17:00"
 }
