@@ -807,7 +807,7 @@ function renderEfectividad(data) {
       '<div style="font-family:Oswald,sans-serif;font-size:12px;color:#f87171;letter-spacing:1px;margin-bottom:8px">🔥 RACHA (3+ juegos)</div>';
     equiposConRacha.forEach(equipo => {
       const jugs = rachaEquipos[equipo];
-      html += '<div style="font-size:11px;color:#94a3b8;margin-top:6px;margin-bottom:3px">'+equipo+'</div>';
+      html += '<div style="font-family:Oswald,sans-serif;font-size:12px;font-weight:600;color:#60a5fa;letter-spacing:0.5px;margin-top:10px;margin-bottom:4px;padding-top:6px;border-top:1px solid #1e293b">🏟 '+equipo.toUpperCase()+'</div>';
       jugs.forEach(j => {
         html += '<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #0d1117">'+
           '<span style="font-size:13px">'+j.jugador+'</span>'+
