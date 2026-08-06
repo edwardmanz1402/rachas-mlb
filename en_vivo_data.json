@@ -1,5 +1,5 @@
 {
-  "actualizado": "06/08/26 15:45:01",
+  "actualizado": "06/08/26 15:50:01",
   "juegos_en_vivo": [
     {
       "away": "Detroit Tigers",
@@ -7,7 +7,7 @@
       "entrada": 6,
       "estado_entrada": "Bottom",
       "equipo_al_bate": "Seattle Mariners",
-      "bateador_actual": "Taylor Ward",
+      "bateador_actual": "Julio Rodríguez",
       "candidatos": [
         {
           "jugador": "Gleyber Torres",
@@ -63,15 +63,15 @@
           "tipo": "1J→2J",
           "prob": 66,
           "posicion_orden": 1,
-          "ab": 2,
+          "ab": 3,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Randy Arozarena",
@@ -79,15 +79,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 2,
-          "ab": 1,
-          "h": 0,
-          "dio_hit": false,
+          "ab": 2,
+          "h": 1,
+          "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "bateadores_faltan_su_turno": 7,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Julio Rodríguez",
@@ -98,12 +98,12 @@
           "ab": 2,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Colt Emerson",
@@ -115,11 +115,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 21
         }
       ]
     },
