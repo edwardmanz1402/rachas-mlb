@@ -30497,7 +30497,7 @@
       "fecha": "2026-08-06",
       "away_lineup": [
         "Francisco Lindor",
-        "Bo Bichette",
+        "Brett Baty",
         "Luis Robert Jr.",
         "Carson Benge",
         "Francisco Alvarez",
@@ -30509,7 +30509,7 @@
       "home_lineup": [
         "Jo Adell",
         "Chase DeLauter",
-        "José Ramírez",
+        "Rhys Hoskins",
         "Nathaniel Lowe",
         "Angel Martínez",
         "Brayan Rocchio",
@@ -30521,13 +30521,6 @@
       "away_data": {
         "racha": [],
         "candidatos_2j": [
-          {
-            "jugador": "Bo Bichette",
-            "prob": 73,
-            "prob_2j_3j": 76.0,
-            "pct_hit": 64.2,
-            "confirmado": true
-          },
           {
             "jugador": "Carson Benge",
             "prob": 65,
@@ -30544,6 +30537,13 @@
           }
         ],
         "candidatos_1j": [
+          {
+            "jugador": "Brett Baty",
+            "prob": 61,
+            "prob_1j_2j": 65.3,
+            "pct_hit": 54.7,
+            "confirmado": true
+          },
           {
             "jugador": "Luis Torrens",
             "prob": 46,
@@ -30692,7 +30692,7 @@
         "Spencer Horwitz",
         "Nick Gonzales",
         "Ronny Simon",
-        "Jacob Gonzalez",
+        "Jared Triolo",
         "Henry Davis"
       ],
       "home_lineup": [
@@ -30980,17 +30980,17 @@
       "away_pitcher": {
         "nombre": "Dylan Cease",
         "avg_contra": ".179",
-        "era": "2.32",
+        "era": "2.29",
         "whip": "1.05",
-        "k9": "13.17",
-        "h9": "5.72",
-        "ip_temporada": "124.1",
+        "k9": "13.18",
+        "h9": "5.73",
+        "ip_temporada": "125.2",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "5.0",
-            "k": 8,
-            "h": 1,
+            "ip": "6.2",
+            "k": 10,
+            "h": 2,
             "er": 0,
             "bb": 1
           },
@@ -31177,6 +31177,14 @@
         "ip_temporada": "120.1",
         "ultimas4": [
           {
+            "fecha": "2026-08-06",
+            "ip": "0.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-08-01",
             "ip": "7.0",
             "k": 6,
@@ -31199,26 +31207,26 @@
             "h": 5,
             "er": 6,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-09",
-            "ip": "7.0",
-            "k": 9,
-            "h": 3,
-            "er": 1,
-            "bb": 0
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Bryce Miller",
-        "avg_contra": ".204",
-        "era": "2.80",
-        "whip": "0.92",
-        "k9": "9.00",
-        "h9": "6.69",
-        "ip_temporada": "74.0",
+        "avg_contra": ".212",
+        "era": "3.15",
+        "whip": "0.98",
+        "k9": "8.96",
+        "h9": "7.02",
+        "ip_temporada": "74.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-06",
+            "ip": "1.0",
+            "k": 1,
+            "h": 3,
+            "er": 3,
+            "bb": 2
+          },
           {
             "fecha": "2026-07-31",
             "ip": "5.1",
@@ -31242,14 +31250,6 @@
             "h": 7,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-09",
-            "ip": "5.0",
-            "k": 3,
-            "h": 9,
-            "er": 4,
-            "bb": 4
           }
         ]
       }
@@ -31657,7 +31657,17 @@
       "home": "Atlanta Braves",
       "game_id": 824885,
       "fecha": "2026-08-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Otto Lopez",
+        "Heriberto Hernández",
+        "Agustín Ramírez",
+        "Xavier Edwards",
+        "Leo Jiménez",
+        "Kyle Stowers",
+        "Javier Sanoja",
+        "Esteury Ruiz",
+        "Brian Navarreto"
+      ],
       "home_lineup": [
         "Drake Baldwin",
         "Ronald Acuña Jr.",
@@ -31669,7 +31679,7 @@
         "Austin Riley",
         "Jim Jarvis"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -31678,21 +31688,14 @@
             "prob": 75,
             "prob_2j_3j": 79.3,
             "pct_hit": 74.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jakob Marsee",
-            "prob": 49,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 49.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Sanoja",
             "prob": 32,
             "prob_2j_3j": 28.6,
             "pct_hit": 51.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -31701,7 +31704,7 @@
             "prob": 44,
             "prob_1j_2j": 47.1,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -31846,7 +31849,17 @@
       "home": "Kansas City Royals",
       "game_id": 824080,
       "fecha": "2026-08-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trevor Larnach",
+        "Luke Keaschall",
+        "Kody Clemens",
+        "Josh Bell",
+        "Royce Lewis",
+        "Brooks Lee",
+        "Alan Roden",
+        "Victor Caratini",
+        "Tristan Gray"
+      ],
       "home_lineup": [
         "Carter Jensen",
         "Bobby Witt Jr.",
@@ -31858,7 +31871,7 @@
         "Josh Rojas",
         "Kyle Isbel"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -31869,7 +31882,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 64.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luke Keaschall",
@@ -31879,19 +31892,11 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": [
-          {
-            "jugador": "Ryan Jeffers",
-            "prob": 66,
-            "prob_1j_2j": 69.2,
-            "pct_hit": 73.3,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -32229,5 +32234,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 14:00"
+  "alineaciones_actualizadas": "06/08/26 14:30"
 }
