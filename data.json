@@ -31094,8 +31094,8 @@
       "game_id": 823105,
       "fecha": "2026-08-06",
       "away_lineup": [
-        "Kevin McGonigle",
-        "Gleyber Torres",
+        "Ben Malgeri",
+        "Hao-Yu Lee",
         "Dillon Dingler",
         "Riley Greene",
         "Colt Keith",
@@ -31125,16 +31125,6 @@
             "prob_2j_3j": 56.2,
             "prob_3j_4j": 57.1,
             "pct_hit": 59.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Gleyber Torres",
-            "juegos": 4,
-            "avg": 0.333,
-            "prob_2j_3j": 55.6,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 62.7,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
           }
@@ -31194,17 +31184,17 @@
       "away_pitcher": {
         "nombre": "Framber Valdez",
         "avg_contra": ".259",
-        "era": "4.20",
+        "era": "4.17",
         "whip": "1.37",
-        "k9": "7.34",
+        "k9": "7.28",
         "h9": "9.12",
-        "ip_temporada": "126.1",
+        "ip_temporada": "127.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "6.0",
+            "ip": "7.0",
             "k": 5,
-            "h": 4,
+            "h": 5,
             "er": 0,
             "bb": 2
           },
@@ -31410,13 +31400,21 @@
       },
       "away_pitcher": {
         "nombre": "Miles Mikolas",
-        "avg_contra": ".286",
-        "era": "5.67",
-        "whip": "1.35",
-        "k9": "4.58",
-        "h9": "10.33",
-        "ip_temporada": "108.0",
+        "avg_contra": ".290",
+        "era": "5.78",
+        "whip": "1.38",
+        "k9": "4.54",
+        "h9": "10.49",
+        "ip_temporada": "109.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-06",
+            "ip": "1.0",
+            "k": 0,
+            "h": 3,
+            "er": 2,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-01",
             "ip": "6.0",
@@ -31440,26 +31438,26 @@
             "h": 6,
             "er": 3,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-11",
-            "ip": "4.0",
-            "k": 0,
-            "h": 4,
-            "er": 0,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Cristopher Sánchez",
-        "avg_contra": ".250",
-        "era": "2.61",
-        "whip": "1.20",
-        "k9": "10.45",
-        "h9": "8.77",
-        "ip_temporada": "144.2",
+        "avg_contra": ".249",
+        "era": "2.59",
+        "whip": "1.19",
+        "k9": "10.44",
+        "h9": "8.71",
+        "ip_temporada": "145.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-06",
+            "ip": "1.1",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-01",
             "ip": "6.0",
@@ -31483,14 +31481,6 @@
             "h": 7,
             "er": 2,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-11",
-            "ip": "7.0",
-            "k": 7,
-            "h": 10,
-            "er": 2,
-            "bb": 1
           }
         ]
       }
@@ -32049,7 +32039,17 @@
       "game_id": 825053,
       "fecha": "2026-08-06",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Lars Nootbaar",
+        "Nolan Arenado",
+        "Max Kepler",
+        "Tim Tawa",
+        "Ryan Waldschmidt"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -32107,7 +32107,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 57.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32116,65 +32116,37 @@
             "prob": 54,
             "prob_2j_3j": 50.0,
             "pct_hit": 60.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jorge Barrosa",
-            "prob": 42,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan Waldschmidt",
             "prob": 41,
             "prob_2j_3j": 40.0,
             "pct_hit": 61.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Ildemaro Vargas",
-            "prob": 64,
-            "prob_1j_2j": 70.8,
-            "pct_hit": 63.2,
-            "confirmado": false
-          },
           {
             "jugador": "Corbin Carroll",
             "prob": 61,
             "prob_1j_2j": 61.4,
             "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lars Nootbaar",
             "prob": 50,
             "prob_1j_2j": 52.6,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
             "prob": 45,
             "prob_1j_2j": 53.8,
             "pct_hit": 39.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Adrian Del Castillo",
-            "prob": 43,
-            "prob_1j_2j": 43.5,
-            "pct_hit": 49.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyler Locklear",
-            "prob": 31,
-            "prob_1j_2j": 0,
-            "pct_hit": 44.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32258,5 +32230,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 16:00"
+  "alineaciones_actualizadas": "06/08/26 16:30"
 }
