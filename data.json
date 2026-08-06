@@ -30492,9 +30492,29 @@
       "home": "Cleveland Guardians",
       "game_id": 824401,
       "fecha": "2026-08-06",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Francisco Lindor",
+        "Bo Bichette",
+        "Luis Robert Jr.",
+        "Carson Benge",
+        "Francisco Alvarez",
+        "Marcus Semien",
+        "Eric Wagaman",
+        "Luis Torrens",
+        "Cristian Pache"
+      ],
+      "home_lineup": [
+        "Travis Bazzana",
+        "Chase DeLauter",
+        "José Ramírez",
+        "Nathaniel Lowe",
+        "Angel Martínez",
+        "Brayan Rocchio",
+        "Petey Halpin",
+        "Patrick Bailey",
+        "Angel Genao"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -30503,66 +30523,28 @@
             "prob": 73,
             "prob_2j_3j": 76.0,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carson Benge",
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 65.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "A.J. Ewing",
-            "prob": 62,
-            "prob_2j_3j": 70.0,
-            "pct_hit": 61.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Brett Baty",
-            "prob": 61,
-            "prob_1j_2j": 65.3,
-            "pct_hit": 54.7,
-            "confirmado": false
-          },
           {
             "jugador": "Luis Torrens",
             "prob": 46,
             "prob_1j_2j": 48.1,
             "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jared Young",
-            "prob": 40,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 51.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jorge Polanco",
-            "prob": 29,
-            "prob_1j_2j": 30.0,
-            "pct_hit": 37.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Steven Kwan",
-            "juegos": 7,
-            "avg": 0.429,
-            "prob_2j_3j": 70.6,
-            "prob_3j_4j": 40.0,
-            "pct_hit": 60.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Travis Bazzana",
             "juegos": 4,
@@ -30571,7 +30553,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 55.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Angel Martínez",
@@ -30581,7 +30563,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 52.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -30590,7 +30572,7 @@
             "prob": 32,
             "prob_2j_3j": 30.0,
             "pct_hit": 47.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -30599,7 +30581,7 @@
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32235,5 +32217,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 08:00"
+  "alineaciones_actualizadas": "06/08/26 08:30"
 }
