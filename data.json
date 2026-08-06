@@ -30125,7 +30125,17 @@
         "Josh Lowe",
         "Oswald Peraza"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Dylan Beavers",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Christian Encarnacion-Strand",
+        "Jackson Holliday",
+        "Leody Taveras",
+        "Jeremiah Jackson",
+        "Colton Cowser",
+        "Yohel Pozo"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -30160,48 +30170,29 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Tyler O'Neill",
-            "juegos": 3,
-            "avg": 0.429,
-            "prob_2j_3j": 57.1,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 45.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          }
-        ],
-        "candidatos_2j": [
-          {
-            "jugador": "Coby Mayo",
-            "prob": 56,
-            "prob_2j_3j": 63.6,
-            "pct_hit": 50.6,
-            "confirmado": false
-          }
-        ],
+        "racha": [],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Leody Taveras",
             "prob": 57,
             "prob_1j_2j": 60.9,
             "pct_hit": 55.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gunnar Henderson",
             "prob": 52,
             "prob_1j_2j": 50.0,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Encarnacion-Strand",
             "prob": 42,
             "prob_1j_2j": 0,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32217,5 +32208,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 09:00"
+  "alineaciones_actualizadas": "06/08/26 09:30"
 }
