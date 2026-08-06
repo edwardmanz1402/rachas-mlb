@@ -30764,19 +30764,19 @@
       },
       "away_pitcher": {
         "nombre": "Braxton Ashcraft",
-        "avg_contra": ".241",
-        "era": "4.02",
-        "whip": "1.15",
-        "k9": "9.89",
-        "h9": "8.18",
-        "ip_temporada": "132.0",
+        "avg_contra": ".242",
+        "era": "4.08",
+        "whip": "1.16",
+        "k9": "9.86",
+        "h9": "8.23",
+        "ip_temporada": "132.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "4.1",
-            "k": 4,
-            "h": 2,
-            "er": 3,
+            "ip": "5.0",
+            "k": 5,
+            "h": 4,
+            "er": 4,
             "bb": 1
           },
           {
@@ -30807,20 +30807,20 @@
       },
       "home_pitcher": {
         "nombre": "Dustin May",
-        "avg_contra": ".252",
-        "era": "4.34",
+        "avg_contra": ".251",
+        "era": "4.30",
         "whip": "1.27",
-        "k9": "8.68",
-        "h9": "8.53",
-        "ip_temporada": "114.0",
+        "k9": "8.69",
+        "h9": "8.45",
+        "ip_temporada": "115.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "5.0",
-            "k": 4,
+            "ip": "6.0",
+            "k": 5,
             "h": 3,
             "er": 2,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-07-29",
@@ -30979,18 +30979,18 @@
       },
       "away_pitcher": {
         "nombre": "Dylan Cease",
-        "avg_contra": ".180",
-        "era": "2.35",
-        "whip": "1.06",
-        "k9": "13.10",
-        "h9": "5.74",
-        "ip_temporada": "122.1",
+        "avg_contra": ".179",
+        "era": "2.32",
+        "whip": "1.05",
+        "k9": "13.17",
+        "h9": "5.72",
+        "ip_temporada": "124.1",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "3.0",
-            "k": 4,
-            "h": 0,
+            "ip": "5.0",
+            "k": 8,
+            "h": 1,
             "er": 0,
             "bb": 1
           },
@@ -31022,18 +31022,18 @@
       },
       "home_pitcher": {
         "nombre": "David Peterson",
-        "avg_contra": ".275",
-        "era": "5.43",
-        "whip": "1.51",
-        "k9": "7.50",
-        "h9": "9.92",
-        "ip_temporada": "104.1",
+        "avg_contra": ".274",
+        "era": "5.35",
+        "whip": "1.50",
+        "k9": "7.47",
+        "h9": "9.85",
+        "ip_temporada": "106.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "4.0",
-            "k": 2,
-            "h": 6,
+            "ip": "5.0",
+            "k": 3,
+            "h": 7,
             "er": 1,
             "bb": 3
           },
@@ -31259,7 +31259,17 @@
       "home": "Philadelphia Phillies",
       "game_id": 823430,
       "fecha": "2026-08-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Dylan Crews",
+        "Andrés Chaparro",
+        "Brady House",
+        "CJ Abrams",
+        "Harry Ford",
+        "Andrew Pinckney",
+        "Jacob Young",
+        "Nasim Nuñez",
+        "Keibert Ruiz"
+      ],
       "home_lineup": [
         "Kyle Schwarber",
         "Trea Turner",
@@ -31271,7 +31281,7 @@
         "Bryson Stott",
         "Justin Crawford"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -31282,7 +31292,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 64.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -31291,44 +31301,37 @@
             "prob": 66,
             "prob_2j_3j": 66.7,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brady House",
             "prob": 56,
             "prob_2j_3j": 63.6,
             "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "James Wood",
-            "prob": 66,
-            "prob_1j_2j": 65.6,
-            "pct_hit": 63.3,
-            "confirmado": false
-          },
           {
             "jugador": "Jacob Young",
             "prob": 57,
             "prob_1j_2j": 57.4,
             "pct_hit": 59.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Crews",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 58.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrés Chaparro",
             "prob": 16,
             "prob_1j_2j": 12.5,
             "pct_hit": 32.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -31490,8 +31493,8 @@
         "Wilyer Abreu",
         "Caleb Durbin",
         "Masataka Yoshida",
-        "Jarren Duran",
         "Andruw Monasterio",
+        "Jarren Duran",
         "Anthony Seigler",
         "Connor Wong"
       ],
@@ -31655,7 +31658,17 @@
       "game_id": 824885,
       "fecha": "2026-08-06",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Drake Baldwin",
+        "Ronald Acuña Jr.",
+        "Matt Olson",
+        "Michael Harris II",
+        "Mauricio Dubón",
+        "Mike Yastrzemski",
+        "Dominic Smith",
+        "Austin Riley",
+        "Jim Jarvis"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -31702,7 +31715,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 51.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ronald Acuña Jr.",
@@ -31712,7 +31725,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 64.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -31721,7 +31734,7 @@
             "prob": 62,
             "prob_2j_3j": 65.4,
             "pct_hit": 68.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -31730,14 +31743,14 @@
             "prob": 68,
             "prob_1j_2j": 71.4,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mauricio Dubón",
             "prob": 66,
             "prob_1j_2j": 67.2,
             "pct_hit": 66.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32216,5 +32229,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 13:30"
+  "alineaciones_actualizadas": "06/08/26 14:00"
 }
