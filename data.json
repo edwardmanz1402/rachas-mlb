@@ -30114,9 +30114,19 @@
       "home": "Baltimore Orioles",
       "game_id": 824804,
       "fecha": "2026-08-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Wade Meckler",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Zach Neto",
+        "Vaughn Grissom",
+        "Moisés Ballesteros",
+        "Jose Siri",
+        "Josh Lowe",
+        "Oswald Peraza"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -30127,7 +30137,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -30136,14 +30146,7 @@
             "prob": 68,
             "prob_2j_3j": 72.7,
             "pct_hit": 70.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Travis d'Arnaud",
-            "prob": 26,
-            "prob_2j_3j": 0,
-            "pct_hit": 43.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -30152,7 +30155,7 @@
             "prob": 35,
             "prob_1j_2j": 35.3,
             "pct_hit": 42.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -30294,9 +30297,29 @@
       "home": "Cincinnati Reds",
       "game_id": 824481,
       "fecha": "2026-08-06",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Henry Bolte",
+        "Tommy White",
+        "Jonah Heim",
+        "Tyler Soderstrom",
+        "Max Muncy",
+        "Lawrence Butler",
+        "Brian Serven",
+        "Alika Williams",
+        "Jonathan Ornelas"
+      ],
+      "home_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Eugenio Suárez",
+        "Dane Myers",
+        "Héctor Rodríguez",
+        "Noelvi Marte",
+        "Matt McLain"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -30307,7 +30330,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 59.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -30317,14 +30340,14 @@
             "prob": 60,
             "prob_1j_2j": 64.3,
             "pct_hit": 55.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lawrence Butler",
             "prob": 33,
             "prob_1j_2j": 30.6,
             "pct_hit": 43.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -30338,7 +30361,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 71.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sal Stewart",
@@ -30348,7 +30371,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 65.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -30357,14 +30380,7 @@
             "prob": 41,
             "prob_2j_3j": 41.7,
             "pct_hit": 46.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jose Trevino",
-            "prob": 28,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -30373,14 +30389,14 @@
             "prob": 60,
             "prob_1j_2j": 66.7,
             "pct_hit": 54.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dane Myers",
             "prob": 55,
             "prob_1j_2j": 61.5,
             "pct_hit": 52.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32219,5 +32235,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 07:00"
+  "alineaciones_actualizadas": "06/08/26 08:00"
 }
