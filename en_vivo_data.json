@@ -1,5 +1,5 @@
 {
-  "actualizado": "06/08/26 13:45:02",
+  "actualizado": "06/08/26 13:50:03",
   "juegos_en_vivo": [
     {
       "away": "New York Mets",
@@ -7,7 +7,7 @@
       "entrada": 8,
       "estado_entrada": "Top",
       "equipo_al_bate": "New York Mets",
-      "bateador_actual": "A.J. Ewing",
+      "bateador_actual": "Bo Bichette",
       "candidatos": [
         {
           "jugador": "Bo Bichette",
@@ -18,12 +18,12 @@
           "ab": 4,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 20,
-          "outs_equipo_restantes": 7,
-          "pa_equipo_hasta_ahora": 44
+          "outs_equipo_hechos": 22,
+          "outs_equipo_restantes": 5,
+          "pa_equipo_hasta_ahora": 46
         },
         {
           "jugador": "Carson Benge",
@@ -35,11 +35,11 @@
           "h": 3,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 20,
-          "outs_equipo_restantes": 7,
-          "pa_equipo_hasta_ahora": 44
+          "outs_equipo_hechos": 22,
+          "outs_equipo_restantes": 5,
+          "pa_equipo_hasta_ahora": 46
         },
         {
           "jugador": "Jared Young",
@@ -51,11 +51,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 20,
-          "outs_equipo_restantes": 7,
-          "pa_equipo_hasta_ahora": 44
+          "outs_equipo_hechos": 22,
+          "outs_equipo_restantes": 5,
+          "pa_equipo_hasta_ahora": 46
         },
         {
           "jugador": "Luis Torrens",
@@ -67,11 +67,11 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 20,
-          "outs_equipo_restantes": 7,
-          "pa_equipo_hasta_ahora": 44
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 22,
+          "outs_equipo_restantes": 5,
+          "pa_equipo_hasta_ahora": 46
         },
         {
           "jugador": "A.J. Ewing",
@@ -79,15 +79,15 @@
           "tipo": "2J→3J",
           "prob": 62,
           "posicion_orden": 9,
-          "ab": 2,
+          "ab": 3,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 20,
-          "outs_equipo_restantes": 7,
-          "pa_equipo_hasta_ahora": 44
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 7,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 22,
+          "outs_equipo_restantes": 5,
+          "pa_equipo_hasta_ahora": 46
         },
         {
           "jugador": "Nathaniel Lowe",
@@ -143,9 +143,9 @@
       "away": "Pittsburgh Pirates",
       "home": "Milwaukee Brewers",
       "entrada": 6,
-      "estado_entrada": "Middle",
+      "estado_entrada": "Bottom",
       "equipo_al_bate": "Milwaukee Brewers",
-      "bateador_actual": "Garrett Mitchell",
+      "bateador_actual": "Christian Yelich",
       "candidatos": [
         {
           "jugador": "Bryan Reynolds",
@@ -201,15 +201,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 4,
-          "ab": 2,
-          "h": 0,
-          "dio_hit": false,
+          "ab": 3,
+          "h": 1,
+          "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
+          "bateadores_faltan_su_turno": 8,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 14,
           "outs_equipo_restantes": 13,
-          "pa_equipo_hasta_ahora": 20
+          "pa_equipo_hasta_ahora": 22
         },
         {
           "jugador": "Christian Yelich",
@@ -220,12 +220,12 @@
           "ab": 2,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 14,
           "outs_equipo_restantes": 13,
-          "pa_equipo_hasta_ahora": 20
+          "pa_equipo_hasta_ahora": 22
         }
       ]
     },
@@ -233,9 +233,9 @@
       "away": "Toronto Blue Jays",
       "home": "Chicago Cubs",
       "entrada": 5,
-      "estado_entrada": "Middle",
+      "estado_entrada": "Bottom",
       "equipo_al_bate": "Chicago Cubs",
-      "bateador_actual": "Nico Hoerner",
+      "bateador_actual": "Michael Conforto",
       "candidatos": [
         {
           "jugador": "Myles Straw",
@@ -311,11 +311,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Seiya Suzuki",
@@ -327,11 +327,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Michael Busch",
@@ -343,11 +343,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Alex Bregman",
@@ -359,11 +359,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Nico Hoerner",
@@ -371,15 +371,15 @@
           "tipo": "2J→3J",
           "prob": 73,
           "posicion_orden": 6,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 14
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Dansby Swanson",
@@ -391,11 +391,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 15
         }
       ]
     },
