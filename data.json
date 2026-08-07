@@ -34251,9 +34251,29 @@
       "home": "Milwaukee Brewers",
       "game_id": 823750,
       "fecha": "2026-08-07",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Austin Martin",
+        "Ryan Jeffers",
+        "Royce Lewis",
+        "Josh Bell",
+        "Kody Clemens",
+        "Luke Keaschall",
+        "Kaelen Culpepper",
+        "Victor Caratini",
+        "Ryan Kreidler"
+      ],
+      "home_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Jake Bauers",
+        "William Contreras",
+        "Garrett Mitchell",
+        "Christian Yelich",
+        "Luis Lara",
+        "Cooper Pratt",
+        "David Hamilton"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -34264,7 +34284,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luke Keaschall",
@@ -34274,68 +34294,36 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Brooks Lee",
-            "prob": 60,
-            "prob_1j_2j": 61.4,
-            "pct_hit": 60.2,
-            "confirmado": false
-          },
-          {
             "jugador": "Josh Bell",
             "prob": 60,
             "prob_1j_2j": 59.0,
             "pct_hit": 63.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Trevor Larnach",
-            "prob": 54,
-            "prob_1j_2j": 53.3,
-            "pct_hit": 57.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Martin",
             "prob": 53,
             "prob_1j_2j": 54.8,
             "pct_hit": 55.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alan Roden",
-            "prob": 31,
-            "prob_1j_2j": 0,
-            "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Andrew Vaughn",
-            "juegos": 4,
-            "avg": 0.308,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 53.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "William Contreras",
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34344,35 +34332,28 @@
             "prob": 71,
             "prob_1j_2j": 71.7,
             "pct_hit": 75.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brice Turang",
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 67.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cooper Pratt",
             "prob": 61,
             "prob_1j_2j": 69.2,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Garrett Mitchell",
             "prob": 53,
             "prob_1j_2j": 55.3,
             "pct_hit": 53.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gary Sánchez",
-            "prob": 42,
-            "prob_1j_2j": 44.0,
-            "pct_hit": 49.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34468,7 +34449,17 @@
       "home": "Kansas City Royals",
       "game_id": 824081,
       "fecha": "2026-08-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Alex Bregman",
+        "Michael Busch",
+        "Nico Hoerner",
+        "Ian Happ",
+        "Carson Kelly",
+        "Pedro Ramírez",
+        "Dansby Swanson"
+      ],
       "home_lineup": [
         "Carter Jensen",
         "Bobby Witt Jr.",
@@ -34480,7 +34471,7 @@
         "Starling Marte",
         "Tyler Tolbert"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -34491,7 +34482,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
@@ -34501,26 +34492,11 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 69.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": [
-          {
-            "jugador": "Miguel Amaya",
-            "prob": 44,
-            "prob_1j_2j": 43.5,
-            "pct_hit": 55.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyrone Taylor",
-            "prob": 39,
-            "prob_1j_2j": 42.1,
-            "pct_hit": 40.7,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -34855,7 +34831,17 @@
       "home": "Texas Rangers",
       "game_id": 822863,
       "fecha": "2026-08-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Tyler O'Neill",
+        "Dylan Beavers",
+        "Leody Taveras",
+        "Coby Mayo",
+        "Colton Cowser",
+        "Carlos Narváez"
+      ],
       "home_lineup": [
         "Joc Pederson",
         "Wyatt Langford",
@@ -34867,7 +34853,7 @@
         "Elias Díaz",
         "Nicky Lopez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -34878,7 +34864,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 46.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -34888,21 +34874,14 @@
             "prob": 60,
             "prob_1j_2j": 61.9,
             "pct_hit": 64.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Beavers",
             "prob": 43,
             "prob_1j_2j": 45.0,
             "pct_hit": 50.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Yohel Pozo",
-            "prob": 32,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 38.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35927,5 +35906,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "07/08/26 14:30"
+  "alineaciones_actualizadas": "07/08/26 15:00"
 }
