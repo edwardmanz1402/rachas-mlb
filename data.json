@@ -31275,19 +31275,19 @@
       "fecha": "2026-08-06",
       "away_lineup": [
         "Dylan Crews",
-        "Andrés Chaparro",
+        "Abimelec Ortiz",
         "Brady House",
         "CJ Abrams",
         "Harry Ford",
         "Daylen Lile",
-        "Jacob Young",
+        "José Tena",
         "Nasim Nuñez",
         "Keibert Ruiz"
       ],
       "home_lineup": [
         "Kyle Schwarber",
         "Trea Turner",
-        "Bryce Harper",
+        "Bryan De La Cruz",
         "Luis Arraez",
         "Alec Bohm",
         "Brandon Marsh",
@@ -31327,24 +31327,10 @@
         ],
         "candidatos_1j": [
           {
-            "jugador": "Jacob Young",
-            "prob": 57,
-            "prob_1j_2j": 57.4,
-            "pct_hit": 59.3,
-            "confirmado": true
-          },
-          {
             "jugador": "Dylan Crews",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 58.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "prob": 16,
-            "prob_1j_2j": 12.5,
-            "pct_hit": 32.4,
             "confirmado": true
           }
         ]
@@ -31494,10 +31480,10 @@
         "Chase Meidroth",
         "Munetaka Murakami",
         "Miguel Vargas",
-        "Randal Grichuk",
+        "Andrew Benintendi",
         "Colson Montgomery",
         "Joey Bart",
-        "Brenton Doyle",
+        "Tristan Peters",
         "Braden Montgomery",
         "Sam Antonacci"
       ],
@@ -31515,7 +31501,15 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Andrew Benintendi",
+            "prob": 37,
+            "prob_2j_3j": 33.3,
+            "pct_hit": 52.2,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Miguel Vargas",
@@ -31581,19 +31575,19 @@
       },
       "away_pitcher": {
         "nombre": "Luis Castillo",
-        "avg_contra": ".268",
-        "era": "5.08",
-        "whip": "1.38",
-        "k9": "7.80",
-        "h9": "9.56",
-        "ip_temporada": "102.2",
+        "avg_contra": ".273",
+        "era": "5.30",
+        "whip": "1.41",
+        "k9": "7.90",
+        "h9": "9.81",
+        "ip_temporada": "103.2",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "3.0",
-            "k": 3,
-            "h": 2,
-            "er": 2,
+            "ip": "4.0",
+            "k": 5,
+            "h": 6,
+            "er": 5,
             "bb": 1
           },
           {
@@ -31948,16 +31942,16 @@
       },
       "away_pitcher": {
         "nombre": "Bailey Ober",
-        "avg_contra": ".244",
-        "era": "4.32",
+        "avg_contra": ".246",
+        "era": "4.45",
         "whip": "1.22",
-        "k9": "6.32",
-        "h9": "8.53",
-        "ip_temporada": "89.2",
+        "k9": "6.23",
+        "h9": "8.60",
+        "ip_temporada": "91.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "2.2",
+            "ip": "4.0",
             "k": 0,
             "h": 4,
             "er": 2,
@@ -31992,19 +31986,19 @@
       "home_pitcher": {
         "nombre": "Michael Wacha",
         "avg_contra": ".234",
-        "era": "3.44",
+        "era": "3.46",
         "whip": "1.15",
-        "k9": "7.13",
-        "h9": "7.83",
-        "ip_temporada": "141.1",
+        "k9": "7.05",
+        "h9": "7.80",
+        "ip_temporada": "143.0",
         "ultimas4": [
           {
             "fecha": "2026-08-06",
-            "ip": "3.0",
+            "ip": "4.2",
             "k": 1,
-            "h": 1,
-            "er": 0,
-            "bb": 1
+            "h": 2,
+            "er": 1,
+            "bb": 3
           },
           {
             "fecha": "2026-07-31",
@@ -32226,5 +32220,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/08/26 18:30"
+  "alineaciones_actualizadas": "06/08/26 19:00"
 }
