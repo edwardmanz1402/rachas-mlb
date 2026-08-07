@@ -32943,6 +32943,14 @@
         "ip_temporada": "34.1",
         "ultimas4": [
           {
+            "fecha": "2026-08-07",
+            "ip": "0.1",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-08-01",
             "ip": "4.2",
             "k": 2,
@@ -32965,26 +32973,26 @@
             "h": 3,
             "er": 0,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-12",
-            "ip": "7.0",
-            "k": 5,
-            "h": 2,
-            "er": 0,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Carmen Mlodzinski",
-        "avg_contra": ".254",
-        "era": "3.15",
-        "whip": "1.31",
-        "k9": "7.25",
-        "h9": "8.87",
-        "ip_temporada": "94.1",
+        "avg_contra": ".258",
+        "era": "3.21",
+        "whip": "1.33",
+        "k9": "7.27",
+        "h9": "9.06",
+        "ip_temporada": "95.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-07",
+            "ip": "1.0",
+            "k": 1,
+            "h": 3,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-01",
             "ip": "3.0",
@@ -33008,14 +33016,6 @@
             "h": 3,
             "er": 1,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-22",
-            "ip": "2.2",
-            "k": 3,
-            "h": 3,
-            "er": 3,
-            "bb": 2
           }
         ]
       }
@@ -35026,7 +35026,17 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825051,
       "fecha": "2026-08-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Tommy Edman",
+        "Hunter Feduccia"
+      ],
       "home_lineup": [
         "Geraldo Perdomo",
         "Corbin Carroll",
@@ -35038,7 +35048,7 @@
         "Tim Tawa",
         "Ryan Waldschmidt"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -35049,7 +35059,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 72.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Shohei Ohtani",
@@ -35059,7 +35069,7 @@
             "prob_3j_4j": 47.1,
             "pct_hit": 74.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Tucker",
@@ -35069,39 +35079,31 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Miguel Rojas",
-            "prob": 44,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 45.2,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Andy Pages",
             "prob": 69,
             "prob_1j_2j": 69.2,
             "pct_hit": 68.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy Edman",
             "prob": 57,
             "prob_1j_2j": 66.7,
             "pct_hit": 53.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mookie Betts",
             "prob": 51,
             "prob_1j_2j": 52.8,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35246,7 +35248,17 @@
       "home": "San Diego Padres",
       "game_id": 823266,
       "fecha": "2026-08-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Christian Walker",
+        "Daulton Varsho",
+        "Yainer Diaz",
+        "Cam Smith",
+        "Jake Meyers"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Jake Cronenworth",
@@ -35258,7 +35270,7 @@
         "Xander Bogaerts",
         "Sung-Mun Song"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -35269,7 +35281,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 61.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yordan Alvarez",
@@ -35279,7 +35291,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 70.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Altuve",
@@ -35289,17 +35301,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "LaMonte Wade Jr.",
-            "juegos": 4,
-            "avg": 0.6,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 43.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -35309,14 +35311,7 @@
             "prob": 59,
             "prob_1j_2j": 62.2,
             "pct_hit": 58.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nick Allen",
-            "prob": 32,
-            "prob_1j_2j": 31.2,
-            "pct_hit": 43.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35449,7 +35444,17 @@
       "home": "Seattle Mariners",
       "game_id": 823103,
       "fecha": "2026-08-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Yandy Díaz",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Liam Hicks",
+        "Chandler Simpson",
+        "Jonny DeLuca",
+        "Victor Mesa Jr.",
+        "Richie Palacios",
+        "Taylor Walls"
+      ],
       "home_lineup": [
         "Taylor Ward",
         "Cole Young",
@@ -35461,7 +35466,7 @@
         "Cal Raleigh",
         "Colt Emerson"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -35472,7 +35477,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 70.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonathan Aranda",
@@ -35482,7 +35487,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 67.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Junior Caminero",
@@ -35492,7 +35497,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 70.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -35502,7 +35507,7 @@
             "prob": 45,
             "prob_1j_2j": 50.0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35879,5 +35884,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "07/08/26 16:30"
+  "alineaciones_actualizadas": "07/08/26 17:00"
 }
