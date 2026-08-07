@@ -351,6 +351,8 @@ function renderJugador(j, id) {
     (j.doubles>0?'<span class="tipo-chip chip-2b">'+j.doubles+'-2B</span>':'')+
     (j.triples>0?'<span class="tipo-chip chip-3b">'+j.triples+'-3B</span>':'')+
     (j.hr>0?'<span class="tipo-chip chip-hr">'+j.hr+'HR</span>':'')+
+    (j.total_runs>0?'<span class="tipo-chip" style="background:rgba(96,165,250,0.1);color:#60a5fa;border:1px solid rgba(96,165,250,0.2)">'+j.total_runs+'R</span>':'')+
+    (j.total_rbi>0?'<span class="tipo-chip" style="background:rgba(251,191,36,0.1);color:#fbbf24;border:1px solid rgba(251,191,36,0.2)">'+j.total_rbi+'RBI</span>':'')+
     (h.pct_hit?'<span class="tipo-chip" style="background:rgba(100,116,139,0.1);color:#94a3b8;border:1px solid rgba(100,116,139,0.2)">'+h.pct_hit+'% hit/año</span>':'')+
     '</div>'+
     '<div class="score-bar"><div class="score-fill" style="width:'+j.score+'%;background:'+color+'"></div></div>'+
@@ -578,7 +580,9 @@ function renderCandidatos(data) {
       '<span>max '+c.racha_max+'j</span>'+
       (c.prob_2j_3j?'<span>·</span><span style="color:#22c55e;font-weight:700">2j→3j: '+c.prob_2j_3j+'%</span>':'')+
       (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+
-      '</div>'+renderTurnoHit(c.turno_hit)+
+      '</div>'+
+      (c.total_hits!==undefined?'<div style="font-size:10px;color:#64748b;margin-top:2px">'+c.total_hits+'H · '+(c.total_runs_racha||0)+'R · '+(c.total_rbi_racha||0)+'RBI (esta racha)</div>':'')+
+      renderTurnoHit(c.turno_hit)+
       (expandible?'<div class="jugador-detalle" id="cand-det-'+cid+'">'+renderDetalleCandidato(c,cid)+'</div>':'')+
       '</div>'+
       '<div class="candidato-score">'+
@@ -724,7 +728,9 @@ function renderCandidatos1j(data) {
       (c.rachas_3plus&&c.rachas_3plus.length>0?'<span style="color:#a78bfa">'+c.rachas_3plus.map(r=>r+'j').join(' ')+'</span>':'')+'<span>·</span>'+
       '<span>max '+c.racha_max+'j</span>'+
       (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+
-      '</div>'+renderTurnoHit(c.turno_hit)+
+      '</div>'+
+      (c.total_hits!==undefined?'<div style="font-size:10px;color:#64748b;margin-top:2px">'+c.total_hits+'H · '+(c.total_runs_racha||0)+'R · '+(c.total_rbi_racha||0)+'RBI (esta racha)</div>':'')+
+      renderTurnoHit(c.turno_hit)+
       (expandible?'<div class="jugador-detalle" id="cand-det-'+cid+'">'+renderDetalleCandidato(c,cid)+'</div>':'')+
       '</div>'+
       '<div class="candidato-score">'+
@@ -809,9 +815,13 @@ function renderEfectividad(data) {
       const jugs = rachaEquipos[equipo];
       html += '<div style="font-family:Oswald,sans-serif;font-size:12px;font-weight:600;color:#60a5fa;letter-spacing:0.5px;margin-top:10px;margin-bottom:4px;padding-top:6px;border-top:1px solid #1e293b">🏟 '+equipo.toUpperCase()+'</div>';
       jugs.forEach(j => {
-        html += '<div style="display:flex;justify-content:space-between;padding:3px 0;border-bottom:1px solid #0d1117">'+
+        const hrrbi = (j.total_hits!==undefined) ? `${j.total_hits}H · ${j.total_runs||0}R · ${j.total_rbi||0}RBI` : '';
+        html += '<div style="padding:3px 0;border-bottom:1px solid #0d1117">'+
+          '<div style="display:flex;justify-content:space-between">'+
           '<span style="font-size:13px">'+j.jugador+'</span>'+
           '<span style="font-family:Oswald,sans-serif;font-size:14px;color:#f87171">'+j.juegos+'j</span>'+
+          '</div>'+
+          (hrrbi ? '<div style="font-size:10px;color:#64748b;margin-top:1px">'+hrrbi+'</div>' : '')+
           '</div>';
       });
     });
