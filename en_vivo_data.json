@@ -1,13 +1,13 @@
 {
-  "actualizado": "06/08/26 18:00:03",
+  "actualizado": "06/08/26 18:05:02",
   "juegos_en_vivo": [
     {
       "away": "Washington Nationals",
       "home": "Philadelphia Phillies",
       "entrada": 6,
-      "estado_entrada": "Top",
-      "equipo_al_bate": "Washington Nationals",
-      "bateador_actual": "Dylan Crews",
+      "estado_entrada": "Bottom",
+      "equipo_al_bate": "Philadelphia Phillies",
+      "bateador_actual": "Bryson Stott",
       "candidatos": [
         {
           "jugador": "Dylan Crews",
@@ -15,15 +15,15 @@
           "tipo": "1J→2J",
           "prob": 54,
           "posicion_orden": 1,
-          "ab": 3,
+          "ab": 4,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 27
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 17,
+          "outs_equipo_restantes": 10,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Andrés Chaparro",
@@ -31,15 +31,15 @@
           "tipo": "1J→2J",
           "prob": 16,
           "posicion_orden": 2,
-          "ab": 3,
+          "ab": 4,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 17,
+          "outs_equipo_restantes": 10,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Brady House",
@@ -51,11 +51,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 17,
+          "outs_equipo_restantes": 10,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "CJ Abrams",
@@ -67,11 +67,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 17,
+          "outs_equipo_restantes": 10,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Jacob Young",
@@ -83,11 +83,11 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 27
+          "outs_equipo_hechos": 17,
+          "outs_equipo_restantes": 10,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Keibert Ruiz",
@@ -99,11 +99,11 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 27
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 17,
+          "outs_equipo_restantes": 10,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Luis Arraez",
@@ -115,7 +115,7 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 12,
           "outs_equipo_restantes": 15,
@@ -131,7 +131,7 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 1,
           "outs_equipo_hechos": 12,
           "outs_equipo_restantes": 15,
@@ -147,7 +147,7 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 7,
           "turnos_restantes_minimo_garantizado": 1,
           "outs_equipo_hechos": 12,
           "outs_equipo_restantes": 15,
@@ -163,7 +163,7 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 8,
           "turnos_restantes_minimo_garantizado": 1,
           "outs_equipo_hechos": 12,
           "outs_equipo_restantes": 15,
@@ -178,8 +178,8 @@
           "ab": 2,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 12,
           "outs_equipo_restantes": 15,
@@ -191,9 +191,9 @@
       "away": "Chicago White Sox",
       "home": "Boston Red Sox",
       "entrada": 3,
-      "estado_entrada": "Middle",
+      "estado_entrada": "Bottom",
       "equipo_al_bate": "Boston Red Sox",
-      "bateador_actual": "Jarren Duran",
+      "bateador_actual": "Connor Wong",
       "candidatos": [
         {
           "jugador": "Miguel Vargas",
@@ -237,11 +237,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 6
+          "outs_equipo_hechos": 7,
+          "outs_equipo_restantes": 20,
+          "pa_equipo_hasta_ahora": 8
         },
         {
           "jugador": "Caleb Durbin",
@@ -253,11 +253,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 6
+          "outs_equipo_hechos": 7,
+          "outs_equipo_restantes": 20,
+          "pa_equipo_hasta_ahora": 8
         },
         {
           "jugador": "Andruw Monasterio",
@@ -269,11 +269,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 6
+          "outs_equipo_hechos": 7,
+          "outs_equipo_restantes": 20,
+          "pa_equipo_hasta_ahora": 8
         },
         {
           "jugador": "Jarren Duran",
@@ -281,105 +281,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 7,
-          "ab": 0,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 6
-        }
-      ]
-    },
-    {
-      "away": "Minnesota Twins",
-      "home": "Kansas City Royals",
-      "entrada": 2,
-      "estado_entrada": "Top",
-      "equipo_al_bate": "Minnesota Twins",
-      "bateador_actual": "Brooks Lee",
-      "candidatos": [
-        {
-          "jugador": "Luke Keaschall",
-          "equipo": "Minnesota Twins",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 2,
           "ab": 1,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 7,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 4,
-          "outs_equipo_restantes": 23,
-          "pa_equipo_hasta_ahora": 5
-        },
-        {
-          "jugador": "Royce Lewis",
-          "equipo": "Minnesota Twins",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 5,
-          "ab": 1,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 4,
-          "outs_equipo_restantes": 23,
-          "pa_equipo_hasta_ahora": 5
-        },
-        {
-          "jugador": "Jac Caglianone",
-          "equipo": "Kansas City Royals",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 3,
-          "ab": 1,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 3,
-          "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
-        },
-        {
-          "jugador": "Michael Massey",
-          "equipo": "Kansas City Royals",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 5,
-          "ab": 0,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 3,
-          "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
-        },
-        {
-          "jugador": "Isaac Collins",
-          "equipo": "Kansas City Royals",
-          "tipo": "1J→2J",
-          "prob": 56,
-          "posicion_orden": 6,
-          "ab": 0,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 3,
-          "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "outs_equipo_hechos": 7,
+          "outs_equipo_restantes": 20,
+          "pa_equipo_hasta_ahora": 8
         }
       ]
     }
