@@ -34149,7 +34149,17 @@
       "home": "Boston Red Sox",
       "game_id": 824726,
       "fecha": "2026-08-08",
-      "away_lineup": [],
+      "away_lineup": [
+        "Henry Bolte",
+        "Jacob Wilson",
+        "Jonah Heim",
+        "Tyler Soderstrom",
+        "Tommy White",
+        "Brian Serven",
+        "Lawrence Butler",
+        "Max Muncy",
+        "Alika Williams"
+      ],
       "home_lineup": [
         "Jahmai Jones",
         "Ceddanne Rafaela",
@@ -34161,7 +34171,7 @@
         "Jarren Duran",
         "Connor Wong"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -34172,7 +34182,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 60.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -34182,7 +34192,7 @@
             "prob": 54,
             "prob_1j_2j": 54.7,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34348,9 +34358,29 @@
       "home": "Miami Marlins",
       "game_id": 823834,
       "fecha": "2026-08-08",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Wade Meckler",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Zach Neto",
+        "Vaughn Grissom",
+        "Moisés Ballesteros",
+        "Denzer Guzman",
+        "Josh Lowe",
+        "Tyler Heineman"
+      ],
+      "home_lineup": [
+        "Jakob Marsee",
+        "Xavier Edwards",
+        "Kyle Stowers",
+        "Otto Lopez",
+        "Griffin Conine",
+        "Heriberto Hernández",
+        "Owen Caissie",
+        "Joe Mack",
+        "Javier Sanoja"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -34359,14 +34389,7 @@
             "prob": 40,
             "prob_2j_3j": 44.4,
             "pct_hit": 45.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Travis d'Arnaud",
-            "prob": 26,
-            "prob_2j_3j": 0,
-            "pct_hit": 43.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34375,35 +34398,28 @@
             "prob": 69,
             "prob_1j_2j": 71.7,
             "pct_hit": 70.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mike Trout",
             "prob": 68,
             "prob_1j_2j": 72.0,
             "pct_hit": 62.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Oswald Peraza",
-            "prob": 52,
-            "prob_1j_2j": 52.3,
-            "pct_hit": 53.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Lowe",
             "prob": 51,
             "prob_1j_2j": 59.3,
             "pct_hit": 43.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler Heineman",
             "prob": 20,
             "prob_1j_2j": 16.7,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34417,7 +34433,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 53.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jakob Marsee",
@@ -34427,17 +34443,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 50.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Leo Jiménez",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 45.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -34446,25 +34452,10 @@
             "prob": 55,
             "prob_2j_3j": 57.1,
             "pct_hit": 57.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Agustín Ramírez",
-            "prob": 43,
-            "prob_2j_3j": 42.9,
-            "pct_hit": 58.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Esteury Ruiz",
-            "prob": 34,
-            "prob_1j_2j": 35.3,
-            "pct_hit": 40.0,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Walbert Ureña",
@@ -37076,5 +37067,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "08/08/26 11:00"
+  "alineaciones_actualizadas": "08/08/26 11:30"
 }
