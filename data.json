@@ -33943,9 +33943,29 @@
       "home": "New York Yankees",
       "game_id": 823514,
       "fecha": "2026-08-08",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Drake Baldwin",
+        "Ronald Acuña Jr.",
+        "Matt Olson",
+        "Michael Harris II",
+        "Ozzie Albies",
+        "Mauricio Dubón",
+        "Mike Yastrzemski",
+        "Austin Riley",
+        "Jim Jarvis"
+      ],
+      "home_lineup": [
+        "Paul Goldschmidt",
+        "Heliot Ramos",
+        "Ben Rice",
+        "Amed Rosario",
+        "Trent Grisham",
+        "George Lombard Jr.",
+        "Spencer Jones",
+        "José Caballero",
+        "Austin Wells"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -33956,7 +33976,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 65.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mauricio Dubón",
@@ -33966,7 +33986,7 @@
             "prob_3j_4j": 84.6,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drake Baldwin",
@@ -33976,7 +33996,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -33985,7 +34005,7 @@
             "prob": 69,
             "prob_2j_3j": 70.0,
             "pct_hit": 71.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -33994,7 +34014,7 @@
             "prob": 48,
             "prob_1j_2j": 49.0,
             "pct_hit": 50.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34008,7 +34028,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -34017,14 +34037,14 @@
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 70.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Wells",
             "prob": 51,
             "prob_2j_3j": 66.7,
             "pct_hit": 35.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34033,21 +34053,7 @@
             "prob": 66,
             "prob_1j_2j": 68.3,
             "pct_hit": 64.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Luis García Jr.",
-            "prob": 60,
-            "prob_1j_2j": 59.3,
-            "pct_hit": 59.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan McMahon",
-            "prob": 46,
-            "prob_1j_2j": 48.5,
-            "pct_hit": 46.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -37091,5 +37097,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "08/08/26 09:30"
+  "alineaciones_actualizadas": "08/08/26 10:00"
 }
