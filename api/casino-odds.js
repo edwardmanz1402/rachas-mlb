@@ -8,14 +8,14 @@ export default async function handler(req, res) {
     return;
   }
 
-  const PRIORIDAD_CASAS = ["draftkings", "betmgm", "fanduel", "hardrock", "fanatics"];
+  const PRIORIDAD_CASAS = ["draftkings", "betmgm", "caesars", "betrivers", "thescorebet"];
   const resultado = {};
   let cursor = null;
   let totalTraidas = 0;
 
   try {
     for (let pagina = 0; pagina < 20; pagina++) {
-      let url = `https://api.sharpapi.io/api/v1/odds?sport=baseball&league=MLB&sportsbook=hardrock,draftkings,betmgm,fanduel,fanatics&market=player_hits&limit=200`;
+      let url = `https://api.sharpapi.io/api/v1/odds?sport=baseball&league=MLB&sportsbook=betrivers,draftkings,thescorebet,betmgm,caesars&market=player_hits&limit=200`;
       if (cursor) url += `&cursor=${encodeURIComponent(cursor)}`;
 
       const r = await fetch(url, { headers: { 'X-API-Key': apiKey } });
