@@ -33958,7 +33958,7 @@
         "Paul Goldschmidt",
         "Heliot Ramos",
         "Ben Rice",
-        "Amed Rosario",
+        "Ryan McMahon",
         "Trent Grisham",
         "George Lombard Jr.",
         "Spencer Jones",
@@ -34054,25 +34054,32 @@
             "prob_1j_2j": 68.3,
             "pct_hit": 64.4,
             "confirmado": true
+          },
+          {
+            "jugador": "Ryan McMahon",
+            "prob": 46,
+            "prob_1j_2j": 48.5,
+            "pct_hit": 46.2,
+            "confirmado": true
           }
         ]
       },
       "away_pitcher": {
         "nombre": "Chris Sale",
-        "avg_contra": ".217",
-        "era": "2.16",
+        "avg_contra": ".216",
+        "era": "2.20",
         "whip": "1.02",
-        "k9": "11.08",
-        "h9": "7.21",
-        "ip_temporada": "121.0",
+        "k9": "11.05",
+        "h9": "7.17",
+        "ip_temporada": "123.0",
         "ultimas4": [
           {
             "fecha": "2026-08-08",
-            "ip": "4.0",
-            "k": 6,
-            "h": 4,
-            "er": 2,
-            "bb": 1
+            "ip": "6.0",
+            "k": 8,
+            "h": 5,
+            "er": 3,
+            "bb": 2
           },
           {
             "fecha": "2026-07-29",
@@ -34102,17 +34109,17 @@
       },
       "home_pitcher": {
         "nombre": "Gerrit Cole",
-        "avg_contra": ".231",
-        "era": "3.43",
-        "whip": "1.11",
-        "k9": "9.72",
-        "h9": "8.01",
-        "ip_temporada": "78.2",
+        "avg_contra": ".227",
+        "era": "3.36",
+        "whip": "1.08",
+        "k9": "9.63",
+        "h9": "7.84",
+        "ip_temporada": "80.1",
         "ultimas4": [
           {
             "fecha": "2026-08-08",
-            "ip": "5.0",
-            "k": 7,
+            "ip": "7.0",
+            "k": 9,
             "h": 6,
             "er": 2,
             "bb": 0
@@ -34268,18 +34275,18 @@
       },
       "away_pitcher": {
         "nombre": "Gage Jump",
-        "avg_contra": ".271",
-        "era": "4.79",
-        "whip": "1.49",
-        "k9": "9.98",
-        "h9": "9.18",
-        "ip_temporada": "67.2",
+        "avg_contra": ".266",
+        "era": "4.65",
+        "whip": "1.46",
+        "k9": "10.08",
+        "h9": "9.04",
+        "ip_temporada": "69.2",
         "ultimas4": [
           {
             "fecha": "2026-08-08",
-            "ip": "1.0",
-            "k": 2,
-            "h": 2,
+            "ip": "3.0",
+            "k": 5,
+            "h": 3,
             "er": 2,
             "bb": 1
           },
@@ -34311,20 +34318,20 @@
       },
       "home_pitcher": {
         "nombre": "Jake Bennett",
-        "avg_contra": ".225",
-        "era": "2.86",
-        "whip": "1.00",
-        "k9": "6.35",
-        "h9": "7.34",
-        "ip_temporada": "72.1",
+        "avg_contra": ".220",
+        "era": "2.78",
+        "whip": "0.98",
+        "k9": "6.17",
+        "h9": "7.14",
+        "ip_temporada": "74.1",
         "ultimas4": [
           {
             "fecha": "2026-08-08",
-            "ip": "1.0",
+            "ip": "3.0",
             "k": 1,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-02",
@@ -34459,20 +34466,20 @@
       },
       "away_pitcher": {
         "nombre": "Walbert Ureña",
-        "avg_contra": ".198",
-        "era": "2.51",
-        "whip": "1.24",
-        "k9": "8.52",
-        "h9": "6.46",
-        "ip_temporada": "100.1",
+        "avg_contra": ".201",
+        "era": "2.48",
+        "whip": "1.25",
+        "k9": "8.59",
+        "h9": "6.55",
+        "ip_temporada": "101.2",
         "ultimas4": [
           {
             "fecha": "2026-08-08",
-            "ip": "1.0",
-            "k": 0,
-            "h": 0,
+            "ip": "2.1",
+            "k": 2,
+            "h": 2,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-02",
@@ -34503,19 +34510,19 @@
       "home_pitcher": {
         "nombre": "Sandy Alcantara",
         "avg_contra": ".245",
-        "era": "3.65",
-        "whip": "1.19",
-        "k9": "7.01",
-        "h9": "8.37",
-        "ip_temporada": "158.0",
+        "era": "3.61",
+        "whip": "1.20",
+        "k9": "7.10",
+        "h9": "8.40",
+        "ip_temporada": "159.2",
         "ultimas4": [
           {
             "fecha": "2026-08-08",
-            "ip": "1.0",
-            "k": 2,
-            "h": 0,
+            "ip": "3.0",
+            "k": 6,
+            "h": 2,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-02",
@@ -36579,7 +36586,17 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825049,
       "fecha": "2026-08-08",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Tommy Edman",
+        "Teoscar Hernández",
+        "Hunter Feduccia"
+      ],
       "home_lineup": [
         "Geraldo Perdomo",
         "Corbin Carroll",
@@ -36591,7 +36608,7 @@
         "James McCann",
         "Ryan Waldschmidt"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -36602,17 +36619,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 59.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Miguel Rojas",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 46.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -36621,21 +36628,21 @@
             "prob": 68,
             "prob_2j_3j": 66.7,
             "pct_hit": 68.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy Edman",
             "prob": 50,
             "prob_2j_3j": 60.0,
             "pct_hit": 53.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mookie Betts",
             "prob": 46,
             "prob_2j_3j": 46.2,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -36644,7 +36651,7 @@
             "prob": 41,
             "prob_1j_2j": 40.9,
             "pct_hit": 50.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -36970,5 +36977,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "08/08/26 14:30"
+  "alineaciones_actualizadas": "08/08/26 15:00"
 }
