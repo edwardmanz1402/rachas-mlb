@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>⚾ MLB Rachas de Hit</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap');
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: #070b14; color: #e6edf3; font-family: 'Inter', sans-serif; font-size: 14px; min-height: 100vh; }
+  header { background: linear-gradient(135deg, #0a1628 0%, #0d2045 50%, #0a1628 100%); border-bottom: 2px solid #1e40af; padding: 0; position: sticky; top: 0; z-index: 200; box-shadow: 0 4px 20px rgba(0,0,0,0.5); }
+  .header-top { display: flex; align-items: center; justify-content: space-between; padding: 12px 16px; }
+  .header-logo { display: flex; align-items: center; gap: 10px; }
+  .logo-icon { font-size: 28px; animation: spin 8s linear infinite; }
+  @keyframes spin { from{transform:rotate(0deg)} to{transform:rotate(360deg)} }
+  .logo-text h1 { font-family: 'Oswald', sans-serif; font-size: 22px; color: #fff; letter-spacing: 2px; text-transform: uppercase; }
+  .logo-text p { font-size: 10px; color: #60a5fa; letter-spacing: 3px; text-transform: uppercase; }
+  .header-meta { text-align: right; }
+  .live-badge { background: #dc2626; color: #fff; font-size: 10px; font-weight: 700; padding: 3px 8px; border-radius: 3px; letter-spacing: 1px; animation: pulse 2s infinite; }
+  @keyframes pulse { 0%,100%{opacity:1} 50%{opacity:0.6} }
+  .update-time { font-size: 10px; color: #94a3b8; margin-top: 4px; }
+  .header-stats { display: flex; background: rgba(0,0,0,0.3); border-top: 1px solid rgba(255,255,255,0.05); }
+  .hstat { flex: 1; text-align: center; padding: 8px 4px; border-right: 1px solid rgba(255,255,255,0.05); }
+  .hstat:last-child { border-right: none; }
+  .hstat-num { font-family: 'Oswald', sans-serif; font-size: 18px; color: #60a5fa; font-weight: 700; }
+  .hstat-label { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .tabs { display: flex; background: #0d1b2e; border-bottom: 1px solid #1e3a5f; overflow-x: auto; }
+  .tab { flex: 1; padding: 12px 6px; cursor: pointer; color: #64748b; text-align: center; font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; border-bottom: 3px solid transparent; transition: all 0.2s; white-space: nowrap; }
+  .tab.active { color: #60a5fa; border-bottom-color: #2563eb; background: rgba(37,99,235,0.1); }
+  .filtro-section { padding: 10px 12px; background: #0d1b2e; border-bottom: 1px solid #1e3a5f; display: flex; gap: 8px; align-items: center; }
+  .filtro-section select { flex: 1; background: #070b14; color: #e6edf3; border: 1px solid #1e3a5f; border-radius: 6px; padding: 8px 12px; font-size: 13px; appearance: none; background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='%2360a5fa'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E"); background-repeat: no-repeat; background-position: right 10px center; padding-right: 30px; }
+  .filtro-count { background: #1e3a5f; color: #60a5fa; font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 12px; white-space: nowrap; }
+  .content { padding: 10px; max-width: 700px; margin: 0 auto; }
+  .equipo-card { background: linear-gradient(135deg, #0d1b2e 0%, #111827 100%); border: 1px solid #1e3a5f; border-radius: 10px; margin-bottom: 10px; overflow: hidden; }
+  .equipo-header { padding: 11px 14px; cursor: pointer; display: flex; justify-content: space-between; align-items: center; background: linear-gradient(90deg, rgba(37,99,235,0.15) 0%, transparent 100%); border-left: 3px solid #2563eb; }
+  .equipo-nombre { font-family: 'Oswald', sans-serif; font-size: 15px; color: #93c5fd; letter-spacing: 1px; text-transform: uppercase; }
+  .equipo-right { display: flex; align-items: center; gap: 8px; }
+  .equipo-count { background: rgba(37,99,235,0.3); color: #60a5fa; border-radius: 10px; padding: 2px 8px; font-size: 11px; font-weight: 700; border: 1px solid #2563eb40; }
+  .equipo-arrow { color: #2563eb; font-size: 16px; transition: transform 0.2s; }
+  .equipo-arrow.open { transform: rotate(90deg); }
+  .equipo-body { padding: 8px; display: none; }
+  .equipo-body.open { display: block; }
+  .jugador { border: 1px solid #1e293b; border-radius: 8px; margin-bottom: 6px; overflow: hidden; }
+  .jugador-header { padding: 10px 12px; background: #070b14; display: flex; justify-content: space-between; align-items: center; cursor: pointer; }
+  .jugador-left { flex: 1; }
+  .jugador-nombre { font-weight: 600; font-size: 14px; }
+  .jugador-meta { font-size: 11px; color: #64748b; margin-top: 3px; display: flex; gap: 8px; flex-wrap: wrap; }
+  .avg-badge { background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.3); border-radius: 4px; padding: 1px 6px; font-size: 11px; font-weight: 700; }
+  .racha-badge { background: rgba(239,68,68,0.15); color: #f87171; border: 1px solid rgba(239,68,68,0.3); border-radius: 4px; padding: 1px 6px; font-size: 11px; font-weight: 700; }
+  .tipo-badge { font-size: 10px; padding: 1px 6px; border-radius: 3px; font-weight: 600; margin-top: 3px; display: inline-block; }
+  .tipo-racha { background: rgba(239,68,68,0.15); color: #f87171; border: 1px solid rgba(239,68,68,0.2); }
+  .tipo-consist { background: rgba(16,185,129,0.15); color: #34d399; border: 1px solid rgba(16,185,129,0.2); }
+  .tipo-irreg { background: rgba(100,116,139,0.15); color: #94a3b8; border: 1px solid rgba(100,116,139,0.2); }
+  .tipos-row { display: flex; gap: 6px; margin-top: 5px; flex-wrap: wrap; }
+  .tipo-chip { font-size: 10px; padding: 1px 6px; border-radius: 3px; font-weight: 600; }
+  .chip-s  { background: rgba(96,165,250,0.15); color: #60a5fa; border: 1px solid rgba(96,165,250,0.2); }
+  .chip-2b { background: rgba(167,139,250,0.15); color: #a78bfa; border: 1px solid rgba(167,139,250,0.2); }
+  .chip-3b { background: rgba(251,146,60,0.15); color: #fb923c; border: 1px solid rgba(251,146,60,0.2); }
+  .chip-hr { background: rgba(248,113,113,0.15); color: #f87171; border: 1px solid rgba(248,113,113,0.2); }
+  .score-bar { height: 3px; background: #1e293b; border-radius: 2px; margin-top: 5px; }
+  .score-fill { height: 3px; border-radius: 2px; }
+  .jugador-arrow { color: #334155; font-size: 18px; margin-left: 8px; transition: transform 0.2s; flex-shrink: 0; }
+  .jugador-arrow.open { transform: rotate(90deg); color: #60a5fa; }
+  .jugador-detalle { display: none; background: #020609; border-top: 1px solid #1e293b; padding: 12px; }
+  .jugador-detalle.open { display: block; }
+  .detalle-section { margin-bottom: 12px; }
+  .detalle-section-title { font-size: 10px; color: #475569; text-transform: uppercase; letter-spacing: 2px; margin-bottom: 8px; padding-bottom: 4px; border-bottom: 1px solid #1e293b; }
+  .stats-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; margin-bottom: 8px; }
+  .stat-box { background: #0d1b2e; border: 1px solid #1e3a5f; border-radius: 6px; padding: 6px; text-align: center; }
+  .stat-val { font-family: 'Oswald', sans-serif; font-size: 16px; color: #60a5fa; font-weight: 700; }
+  .stat-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .hist-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 6px; margin-bottom: 8px; }
+  .hist-box { background: #0d1b2e; border: 1px solid #1e3a5f; border-radius: 6px; padding: 6px; text-align: center; }
+  .hist-box.clickable { cursor: pointer; transition: border-color 0.2s; }
+  .hist-box.clickable:hover { border-color: #a78bfa; }
+  .hist-val { font-family: 'Oswald', sans-serif; font-size: 18px; font-weight: 700; }
+  .hist-lbl { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .rachas-detalle { display: none; padding: 8px; margin-top: 4px; background: rgba(167,139,250,0.05); border-radius: 6px; border: 1px solid rgba(167,139,250,0.15); flex-wrap: wrap; gap: 4px; }
+  .rachas-detalle.open { display: flex; }
+  .racha-chip { background: rgba(167,139,250,0.15); color: #a78bfa; border: 1px solid rgba(167,139,250,0.2); border-radius: 4px; padding: 3px 8px; font-size: 11px; font-weight: 700; }
+  .pct-verde { color: #22c55e; }
+  .pct-amarillo { color: #f59e0b; }
+  .pct-gris { color: #94a3b8; }
+  .detalle-table { width: 100%; border-collapse: collapse; font-size: 12px; }
+  .detalle-table th { color: #475569; text-align: left; padding: 6px 8px; border-bottom: 1px solid #1e293b; font-size: 10px; text-transform: uppercase; letter-spacing: 1px; }
+  .detalle-table td { padding: 6px 8px; border-bottom: 1px solid #0d1117; }
+  .detalle-table tr:last-child td { border-bottom: none; }
+  .result-bueno { color: #34d399; font-weight: 700; }
+  .result-malo { color: #f87171; font-weight: 700; }
+  .result-normal { color: #e2e8f0; font-weight: 700; }
+  .hits-bar { color: #f0883e; letter-spacing: 2px; }
+  .fecha-col { color: #64748b; font-size: 11px; }
+  .tag-s  { color: #60a5fa; }
+  .tag-2b { color: #a78bfa; }
+  .tag-3b { color: #fb923c; }
+  .tag-hr { color: #f87171; font-weight: 700; }
+  .ranking-header { background: linear-gradient(90deg, #1e3a5f, transparent); padding: 10px 14px; border-bottom: 1px solid #1e3a5f; display: flex; justify-content: space-between; align-items: center; }
+  .ranking-title { font-family: 'Oswald', sans-serif; font-size: 13px; color: #60a5fa; letter-spacing: 2px; text-transform: uppercase; }
+  .ranking-item { display: flex; align-items: center; gap: 10px; padding: 11px 12px; border-bottom: 1px solid #0d1117; transition: background 0.15s; }
+  .ranking-item:hover { background: rgba(255,255,255,0.02); }
+  .ranking-item:last-child { border-bottom: none; }
+  .ranking-num { font-family: 'Oswald', sans-serif; font-size: 18px; color: #334155; width: 30px; text-align: center; flex-shrink: 0; }
+  .ranking-info { flex: 1; min-width: 0; }
+  .ranking-nombre { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .ranking-sub { font-size: 11px; color: #64748b; margin-top: 2px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .ranking-score { text-align: right; flex-shrink: 0; }
+  .pct-num { font-family: 'Oswald', sans-serif; font-size: 22px; font-weight: 700; line-height: 1; }
+  .pct-label { font-size: 9px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; }
+  .pct-bar { height: 3px; background: #1e293b; border-radius: 2px; margin-top: 4px; width: 60px; }
+  .pct-fill { height: 3px; border-radius: 2px; }
+  .rotas-item { display: flex; justify-content: space-between; align-items: center; padding: 12px 14px; border-bottom: 1px solid #0d1117; }
+  .rotas-item:last-child { border-bottom: none; }
+  .rotas-nombre { font-weight: 600; font-size: 13px; }
+  .rotas-equipo { font-size: 11px; color: #64748b; margin-top: 2px; }
+  .rotas-right { text-align: right; }
+  .rotas-juegos { font-family: 'Oswald', sans-serif; font-size: 20px; color: #ef4444; }
+  .rotas-label { font-size: 10px; color: #64748b; }
+  .candidato-item { display: flex; align-items: center; gap: 10px; padding: 11px 12px; border-bottom: 1px solid #0d1117; transition: background 0.15s; }
+  .candidato-item:hover { background: rgba(255,255,255,0.02); }
+  .candidato-item:last-child { border-bottom: none; }
+  .candidato-info { flex: 1; min-width: 0; }
+  .candidato-nombre { font-weight: 600; font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .candidato-sub { font-size: 11px; color: #64748b; margin-top: 2px; display: flex; gap: 6px; flex-wrap: wrap; }
+  .candidato-score { text-align: right; flex-shrink: 0; }
+  .empty { text-align: center; padding: 50px 20px; color: #334155; }
+  .empty-icon { font-size: 40px; margin-bottom: 10px; }
+  .loading { text-align: center; padding: 60px; color: #334155; }
+  .loading-spinner { font-size: 30px; animation: spin 1s linear infinite; margin-bottom: 10px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="header-top">
+    <div class="header-logo">
+      <div class="logo-icon">⚾</div>
+      <div class="logo-text"><h1>MLB Rachas</h1><p>Hit Streak Tracker</p></div>
+    </div>
+    <div class="header-meta">
+      <div class="live-badge">● LIVE</div>
+      <div class="update-time" id="update-time">Cargando...</div>
+    </div>
+  </div>
+  <div class="header-stats">
+    <div class="hstat"><div class="hstat-num" id="stat-jugadores">—</div><div class="hstat-label">En Racha</div></div>
+    <div class="hstat"><div class="hstat-num" id="stat-equipos">—</div><div class="hstat-label">Equipos</div></div>
+    <div class="hstat"><div class="hstat-num" id="stat-rotas">—</div><div class="hstat-label">Rotas Hoy</div></div>
+    <div class="hstat"><div class="hstat-num" id="stat-top">—</div><div class="hstat-label">Racha Máx</div></div>
+  </div>
+</header>
+<div class="tabs">
+  <div class="tab active" onclick="showTab('equipos')">🏟 Equipos</div>
+  <div class="tab" onclick="showTab('ranking')">🎯 Ranking</div>
+  <div class="tab" onclick="showTab('candidatos')">🚨 2J→3J</div>
+  <div class="tab" onclick="showTab('candidatos1j')">🎯 1J→2J</div>
+  <div class="tab" onclick="showTab('juegos')">📅 Juegos</div>
+  <div class="tab" onclick="showTab('efectividad')">📊 Efectividad</div>
+  <div class="tab" onclick="showTab('tendencia')">📈 Tendencia</div>
+  <div class="tab" onclick="showTab('rotas')">💔 Rotas</div>
+</div>
+<div id="filtro-bar" class="filtro-section">
+  <select id="filtro-equipo" onchange="filtrarEquipo()">
+    <option value="">🏟 Todos los equipos</option>
+  </select>
+  <div class="filtro-count" id="filtro-count">— jugadores</div>
+</div>
+<div class="content">
+  <div id="tab-equipos"><div class="loading"><div class="loading-spinner">⚾</div><div>Cargando datos MLB...</div></div></div>
+  <div id="tab-ranking" style="display:none"></div>
+  <div id="tab-candidatos" style="display:none"></div>
+  <div id="tab-candidatos1j" style="display:none"></div>
+  <div id="tab-juegos" style="display:none"></div>
+  <div id="tab-efectividad" style="display:none"></div>
+  <div id="tab-tendencia" style="display:none"></div>
+  <div id="tab-rotas" style="display:none"></div>
+</div>
+<script>
+const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/main/data.json';
+let globalData = null;
+
+function showTab(tab) {
+  ['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas'].forEach(t => {
+    document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
+    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas'].indexOf(t)].classList.toggle('active',t===tab);
+  });
+  document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
+}
+function toggleEquipo(id) {
+  document.getElementById('eq-body-'+id).classList.toggle('open');
+  document.getElementById('eq-arrow-'+id).classList.toggle('open');
+}
+function toggleJugador(id) {
+  document.getElementById('jg-det-'+id).classList.toggle('open');
+  document.getElementById('jg-arrow-'+id).classList.toggle('open');
+}
+function toggleRachas(id, event) {
+  event.stopPropagation();
+  document.getElementById('rachas-det-'+id).classList.toggle('open');
+}
+function getColor(score) {
+  if(score>=70) return '#22c55e';
+  if(score>=55) return '#f59e0b';
+  return '#60a5fa';
+}
+function getPctColor(pct) {
+  if(pct>=65) return 'pct-verde';
+  if(pct>=55) return 'pct-amarillo';
+  return 'pct-gris';
+}
+function getTipoBadge(tipo) {
+  if(!tipo) return '';
+  if(tipo.includes('RACHA')||tipo.includes('INUSUAL')) return '<span class="tipo-badge tipo-racha">'+tipo+'</span>';
+  if(tipo.includes('CONSIST')) return '<span class="tipo-badge tipo-consist">'+tipo+'</span>';
+  return '<span class="tipo-badge tipo-irreg">'+tipo+'</span>';
+}
+function formatDet(det) {
+  if(!det) return '—';
+  return det.split('+').map(p => {
+    if(p.includes('HR')) return '<span class="tag-hr">'+p+'</span>';
+    if(p.includes('3B')) return '<span class="tag-3b">'+p+'</span>';
+    if(p.includes('2B')) return '<span class="tag-2b">'+p+'</span>';
+    return '<span class="tag-s">'+p+'</span>';
+  }).join('<span style="color:#334155">+</span>');
+}
+function resClass(r) {
+  const p=r.split('-'); const h=parseInt(p[0]); const ab=parseInt(p[1]);
+  if(ab>0&&h/ab>=0.4) return 'result-bueno';
+  if(h===0) return 'result-malo';
+  return 'result-normal';
+}
+function renderJugador(j, id) {
+  const avg = (j.avg*1000).toFixed(0).padStart(3,'0');
+  const fuego = j.juegos>=6?'🔥':'✅';
+  const color = getColor(j.score);
+  const t = j.temporada||{};
+  const h = j.historico||{};
+  const tipo = h.tipo||'';
+  const pctClass = getPctColor(h.pct_hit||0);
+  const rachas = h.rachas_3plus||[];
+
+  let tempHTML = '';
+  if(t.avg_temp) {
+    tempHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📊 Estadísticas de Temporada</div>'+
+      '<div class="stats-grid">'+
+      '<div class="stat-box"><div class="stat-val">'+t.avg_temp+'</div><div class="stat-lbl">AVG</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.obp+'</div><div class="stat-lbl">OBP</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.slg+'</div><div class="stat-lbl">SLG</div></div>'+
+      '<div class="stat-box"><div class="stat-val">'+t.ops+'</div><div class="stat-lbl">OPS</div></div>'+
+      '</div>'+
+      '<div class="stats-grid">'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.gp+'</div><div class="stat-lbl">GP</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.rbi+'</div><div class="stat-lbl">RBI</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.hr_temp+'</div><div class="stat-lbl">HR</div></div>'+
+      '<div class="stat-box"><div class="stat-val" style="font-size:14px">'+t.sb+'</div><div class="stat-lbl">SB</div></div>'+
+      '</div></div>';
+  }
+
+  let histHTML = '';
+  if(h.pct_hit) {
+    histHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">📈 Perfil Histórico 2026</div>'+
+      '<div class="hist-grid">'+
+      '<div class="hist-box"><div class="hist-val '+pctClass+'">'+h.pct_hit+'%</div><div class="hist-lbl">Juegos con hit</div></div>'+
+      '<div class="hist-box"><div class="hist-val" style="color:#f59e0b">'+h.racha_max+'j</div><div class="hist-lbl">Racha máxima</div></div>'+
+      '<div class="hist-box clickable" onclick="toggleRachas(\''+id+'\', event)">'+
+      '<div class="hist-val" style="color:#a78bfa">'+rachas.length+'x</div>'+
+      '<div class="hist-lbl">Rachas 3+ ▼</div>'+
+      '</div>'+
+      '</div>'+
+      '<div class="rachas-detalle" id="rachas-det-'+id+'">'+
+      (rachas.length>0?rachas.map(r=>'<span class="racha-chip">'+r+'j</span>').join(''):'<span style="color:#64748b;font-size:11px">Sin rachas de 3+ este año</span>')+
+      '</div>'+
+      '<div style="display:flex;gap:6px;margin-top:6px;flex-wrap:wrap">'+
+      (h.prob_2j_3j?'<div style="background:rgba(34,197,94,0.1);border:1px solid rgba(34,197,94,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#22c55e">'+h.prob_2j_3j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">2j→3j</div></div>':'')+
+      (h.prob_3j_4j?'<div style="background:rgba(251,191,36,0.1);border:1px solid rgba(251,191,36,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#fbbf24">'+h.prob_3j_4j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">3j→4j</div></div>':'')+
+      (h.prob_4j_5j?'<div style="background:rgba(96,165,250,0.1);border:1px solid rgba(96,165,250,0.2);border-radius:6px;padding:5px 8px;text-align:center;flex:1"><div style="font-family:Oswald,sans-serif;font-size:16px;font-weight:700;color:#60a5fa">'+h.prob_4j_5j+'%</div><div style="font-size:9px;color:#64748b;text-transform:uppercase;letter-spacing:1px">4j→5j</div></div>':'')+
+      '</div>'+
+      getTipoBadge(tipo)+
+      '</div>';
+  }
+
+  let turnoHTML = '';
+  const tu = j.turno_hit;
+  if(tu && tu.promedio > 0) {
+    const maxPct = Math.max(tu.pct_t1, tu.pct_t2, tu.pct_t3, tu.pct_t4plus);
+    const getColor = (pct) => pct === maxPct ? '#22c55e' : '#475569';
+    turnoHTML = '<div class="detalle-section">'+
+      '<div class="detalle-section-title">⚡ Patrón de Hit en Vivo</div>'+
+      '<div style="background:#0d1b2e;border:1px solid #1e3a5f;border-radius:6px;padding:10px;margin-bottom:8px">'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 1</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t1)+';width:'+tu.pct_t1+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t1)+';text-align:right">'+tu.pct_t1+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 2</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t2)+';width:'+tu.pct_t2+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t2)+';text-align:right">'+tu.pct_t2+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:6px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 3</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t3)+';width:'+tu.pct_t3+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t3)+';text-align:right">'+tu.pct_t3+'%</div>'+
+      '</div>'+
+      '<div style="display:grid;grid-template-columns:60px 1fr 40px;gap:4px;align-items:center;margin-bottom:8px">'+
+      '<div style="font-size:11px;color:#64748b">Turno 4+</div>'+
+      '<div style="height:6px;background:#1e293b;border-radius:3px"><div style="height:6px;border-radius:3px;background:'+getColor(tu.pct_t4plus)+';width:'+tu.pct_t4plus+'%"></div></div>'+
+      '<div style="font-size:12px;font-weight:700;color:'+getColor(tu.pct_t4plus)+';text-align:right">'+tu.pct_t4plus+'%</div>'+
+      '</div>'+
+      '<div style="display:flex;justify-content:space-between;border-top:1px solid #1e293b;padding-top:6px">'+
+      '<span style="font-size:11px;color:#64748b">Promedio: turno '+tu.promedio+'</span>'+
+      '<span style="font-size:11px;color:#64748b">Máx: turno '+tu.maximo+'</span>'+
+      '</div>'+
+      '</div>'+
+      '</div>';
+  }
+
+  let detHTML = '<div class="detalle-section">'+
+    '<div class="detalle-section-title">📅 Detalle de Racha Actual</div>'+
+    '<table class="detalle-table">'+
+    '<tr><th>Fecha</th><th>Result</th><th>Tipo</th><th>Hits</th></tr>'+
+    j.detalle.map(g=>'<tr>'+
+      '<td class="fecha-col">'+g.fecha.slice(5).replace('-','/')+'</td>'+
+      '<td class="'+resClass(g.result)+'">'+g.result+'</td>'+
+      '<td>'+formatDet(g.detalle)+'</td>'+
+      '<td class="hits-bar">'+'█'.repeat(g.hits)+'</td>'+
+    '</tr>').join('')+
+    '</table></div>';
+
+  return '<div class="jugador">'+
+    '<div class="jugador-header" onclick="toggleJugador(\''+id+'\')">'+
+    '<div class="jugador-left">'+
+    '<div class="jugador-nombre">'+fuego+' '+j.jugador+'</div>'+
+    '<div class="jugador-meta">'+
+    '<span class="racha-badge">'+j.juegos+'J</span>'+
+    '<span class="avg-badge">AVG .'+avg+'</span>'+
+    '<span style="color:#64748b">'+j.total_hits+'-'+j.total_ab+'</span>'+
+    (t.ops?'<span style="color:#64748b">OPS '+t.ops+'</span>':'')+
+    '</div>'+
+    '<div class="tipos-row">'+
+    (j.singles>0?'<span class="tipo-chip chip-s">'+j.singles+'S</span>':'')+
+    (j.doubles>0?'<span class="tipo-chip chip-2b">'+j.doubles+'-2B</span>':'')+
+    (j.triples>0?'<span class="tipo-chip chip-3b">'+j.triples+'-3B</span>':'')+
+    (j.hr>0?'<span class="tipo-chip chip-hr">'+j.hr+'HR</span>':'')+
+    (h.pct_hit?'<span class="tipo-chip" style="background:rgba(100,116,139,0.1);color:#94a3b8;border:1px solid rgba(100,116,139,0.2)">'+h.pct_hit+'% hit/año</span>':'')+
+    '</div>'+
+    '<div class="score-bar"><div class="score-fill" style="width:'+j.score+'%;background:'+color+'"></div></div>'+
+    '</div>'+
+    '<div class="jugador-arrow" id="jg-arrow-'+id+'">›</div>'+
+    '</div>'+
+    '<div class="jugador-detalle" id="jg-det-'+id+'">'+
+    tempHTML+histHTML+turnoHTML+detHTML+
+    '</div></div>';
+}
+function filtrarEquipo() {
+  renderEquipos(globalData, document.getElementById('filtro-equipo').value);
+}
+function renderEquipos(data, filtro) {
+  filtro=filtro||'';
+  const div=document.getElementById('tab-equipos');
+  const keys=Object.keys(data.equipos).sort().filter(e=>!filtro||e===filtro);
+  let total=0; keys.forEach(e=>total+=data.equipos[e].length);
+  document.getElementById('filtro-count').textContent=total+' jugador'+(total!==1?'es':'');
+  if(!keys.length){div.innerHTML='<div class="empty"><div class="empty-icon">🔍</div><div>Sin datos</div></div>';return;}
+  let html='';
+  keys.forEach((eq,ei)=>{
+    const jugs=data.equipos[eq];
+    html+='<div class="equipo-card">'+
+      '<div class="equipo-header" onclick="toggleEquipo('+ei+')">'+
+      '<span class="equipo-nombre">🏟 '+eq+'</span>'+
+      '<div class="equipo-right">'+
+      '<span class="equipo-count">'+jugs.length+' en racha</span>'+
+      '<span class="equipo-arrow open" id="eq-arrow-'+ei+'">›</span>'+
+      '</div></div>'+
+      '<div class="equipo-body open" id="eq-body-'+ei+'">'+
+      jugs.map((j,ji)=>renderJugador(j,ei+'_'+ji)).join('')+
+      '</div></div>';
+  });
+  div.innerHTML=html;
+}
+function renderRanking(data) {
+  const div=document.getElementById('tab-ranking');
+  if(!data.ranking||!data.ranking.length){div.innerHTML='<div class="empty"><div class="empty-icon">📊</div><div>No hay datos</div></div>';return;}
+  let html='<div class="equipo-card"><div class="ranking-header"><span class="ranking-title">🎯 Probabilidad de Hit Mañana</span><span style="font-size:11px;color:#64748b">Top '+Math.min(data.ranking.length,30)+'</span></div>';
+  data.ranking.slice(0,30).forEach((r,i)=>{
+    const avg=(r.avg*1000).toFixed(0).padStart(3,'0');
+    const color=getColor(r.score);
+    const fuego=r.juegos>=6?'🔥':'';
+    html+='<div class="ranking-item">'+
+      '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
+      '<div class="ranking-info">'+
+      '<div class="ranking-nombre">'+fuego+' '+r.jugador+'</div>'+
+      '<div class="ranking-sub">'+
+      '<span>'+r.equipo+'</span><span>·</span>'+
+      '<span>'+r.juegos+'j</span><span>·</span>'+
+      '<span>AVG .'+avg+'</span><span>·</span>'+
+      '<span>OPS '+r.ops+'</span>'+
+      (r.pct_hit?'<span>·</span><span style="color:'+getColor(r.pct_hit)+'">'+r.pct_hit+'% hit/año</span>':'')+
+      (r.tipo?'<span>·</span><span style="font-size:10px">'+r.tipo+'</span>':'')+
+      '</div></div>'+
+      '<div class="ranking-score">'+
+      '<div class="pct-num" style="color:'+color+'">'+r.score+'%</div>'+
+      '<div class="pct-label">prob hit</div>'+
+      '<div class="pct-bar"><div class="pct-fill" style="width:'+r.score+'%;background:'+color+'"></div></div>'+
+      '</div></div>';
+  });
+  html+='</div>';
+  div.innerHTML=html;
+}
+
+function renderTurnoHit(tu) {
+  if(!tu || !tu.promedio) return '';
+  const maxPct = Math.max(tu.pct_t1, tu.pct_t2, tu.pct_t3, tu.pct_t4plus);
+  const gc = (pct) => pct === maxPct ? '#22c55e' : '#475569';
+  return '<div style="background:#0a1628;border:1px solid #1e3a5f;border-radius:6px;padding:8px;margin-top:6px">'+
+    '<div style="font-size:10px;color:#60a5fa;text-transform:uppercase;letter-spacing:1px;margin-bottom:6px">⚡ Patrón Hit en Vivo</div>'+
+    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:3px">'+
+    '<div style="font-size:10px;color:#64748b">Turno 1</div>'+
+    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t1)+';width:'+tu.pct_t1+'%"></div></div>'+
+    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t1)+';text-align:right">'+tu.pct_t1+'%</div>'+
+    '</div>'+
+    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:3px">'+
+    '<div style="font-size:10px;color:#64748b">Turno 2</div>'+
+    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t2)+';width:'+tu.pct_t2+'%"></div></div>'+
+    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t2)+';text-align:right">'+tu.pct_t2+'%</div>'+
+    '</div>'+
+    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:3px">'+
+    '<div style="font-size:10px;color:#64748b">Turno 3</div>'+
+    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t3)+';width:'+tu.pct_t3+'%"></div></div>'+
+    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t3)+';text-align:right">'+tu.pct_t3+'%</div>'+
+    '</div>'+
+    '<div style="display:grid;grid-template-columns:50px 1fr 35px;gap:3px;align-items:center;margin-bottom:5px">'+
+    '<div style="font-size:10px;color:#64748b">Turno 4+</div>'+
+    '<div style="height:5px;background:#1e293b;border-radius:2px"><div style="height:5px;border-radius:2px;background:'+gc(tu.pct_t4plus)+';width:'+tu.pct_t4plus+'%"></div></div>'+
+    '<div style="font-size:11px;font-weight:700;color:'+gc(tu.pct_t4plus)+';text-align:right">'+tu.pct_t4plus+'%</div>'+
+    '</div>'+
+    '<div style="font-size:10px;color:#64748b;text-align:center">Promedio: turno '+tu.promedio+'</div>'+
+    '</div>';
+}
+
+
+
+function renderCandidatos(data) {
+  const div=document.getElementById('tab-candidatos');
+  if(!data.candidatos_3j||!data.candidatos_3j.length){
+    div.innerHTML='<div class="empty"><div class="empty-icon">🚨</div><div>No hay candidatos hoy</div></div>';return;
+  }
+  let html='<div class="equipo-card">'+
+    '<div class="ranking-header">'+
+    '<span class="ranking-title">🚨 Candidatos a 3er Hit</span>'+
+    '<span style="font-size:11px;color:#64748b">Llevan 2j con hit</span>'+
+    '</div>';
+  data.candidatos_3j.forEach((c,i)=>{
+    const color=getColor(c.prob);
+    const emoji=c.prob>=70?'🔥':c.prob>=55?'✅':'📊';
+    html+='<div class="candidato-item">'+
+      '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
+      '<div class="candidato-info">'+
+      '<div class="candidato-nombre">'+emoji+' '+c.jugador+'</div>'+
+      '<div class="candidato-sub">'+
+      '<span>'+c.equipo+'</span><span>·</span>'+
+      '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
+      '<span>'+c.num_rachas+'x rachas 3+</span><span>·</span>'+
+      (c.rachas_3plus&&c.rachas_3plus.length>0?'<span style="color:#a78bfa">'+c.rachas_3plus.map(r=>r+'j').join(' ')+'</span>':'')+'<span>·</span>'+
+      '<span>max '+c.racha_max+'j</span>'+
+      (c.prob_2j_3j?'<span>·</span><span style="color:#22c55e;font-weight:700">2j→3j: '+c.prob_2j_3j+'%</span>':'')+
+      (c.prob_3j_4j?'<span>·</span><span style="color:#fbbf24;font-weight:700">3j→4j: '+c.prob_3j_4j+'%</span>':'')+ 
+      '</div>'+renderTurnoHit(c.turno_hit)+
+      '</div>'+
+      '<div class="candidato-score">'+
+      '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
+      '<div class="pct-label">prob 3er hit</div>'+
+      '<div class="pct-bar"><div class="pct-fill" style="width:'+c.prob+'%;background:'+color+'"></div></div>'+
+      '</div></div>';
+  });
+  html+='</div>';
+  div.innerHTML=html;
+}
+function renderJuegos(data) {
+  const div = document.getElementById('tab-juegos');
+  const juegos = data.juegos_hoy || [];
+  if(!juegos.length) {
+    div.innerHTML='<div class="empty"><div class="empty-icon">📅</div><div>No hay juegos hoy</div></div>';return;
+  }
+  const act = data.alineaciones_actualizadas || '';
+  let html = '<div style="padding:8px 12px;font-size:11px;color:#64748b;text-align:center">Alineaciones actualizadas: '+act+'</div>';
+  
+  juegos.forEach(j => {
+    const confirmado = j.alineacion_confirmada;
+    html += '<div class="equipo-card" style="margin-bottom:12px">'+
+      '<div style="background:linear-gradient(90deg,rgba(37,99,235,0.2),transparent);padding:12px 14px;border-left:3px solid #2563eb">'+
+      '<div style="font-family:Oswald,sans-serif;font-size:16px;color:#93c5fd;letter-spacing:1px">⚾ '+j.away+' vs '+j.home+'</div>'+
+      '<div style="font-size:10px;color:#64748b;margin-top:2px">'+(confirmado?'✅ Alineaciones confirmadas':'⏳ Alineaciones pendientes')+'</div>'+
+      '</div>';
+    
+    ['away','home'].forEach(lado => {
+      const equipo = lado === 'away' ? j.away : j.home;
+      const edata = lado === 'away' ? j.away_data : j.home_data;
+      const racha = edata.racha || [];
+      const c2j = edata.candidatos_2j || [];
+      const c1j = edata.candidatos_1j || [];
+      
+      if(!racha.length && !c2j.length && !c1j.length) return;
+      
+      html += '<div style="padding:10px 12px;border-top:1px solid #1e293b">'+
+        '<div style="font-family:Oswald,sans-serif;font-size:13px;color:#60a5fa;margin-bottom:8px">🏟 '+equipo.toUpperCase()+'</div>';
+      
+      // Racha 3+
+      racha.forEach(p => {
+        const avg = (p.avg*1000).toFixed(0).padStart(3,'0');
+        const conf = confirmado ? (p.confirmado?'✅':'❌') : '⏳';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #0d1117">'+
+          '<div>'+
+          '<span style="background:rgba(239,68,68,0.15);color:#f87171;border-radius:3px;padding:1px 5px;font-size:10px;font-weight:700">🔥 RACHA '+p.juegos+'J</span> '+
+          '<span style="font-size:13px;font-weight:600">'+p.jugador+'</span> '+conf+
+          '<div style="font-size:11px;color:#64748b;margin-top:2px">AVG .'+avg+' · '+p.pct_hit+'% hit/año · 3j→4j: '+p.prob_3j_4j+'%</div>'+
+          '</div>'+
+          '</div>';
+      });
+      
+      // Candidatos 2j
+      c2j.forEach(p => {
+        const conf = confirmado ? (p.confirmado?'✅':'❌') : '⏳';
+        const color = p.prob>=70?'#22c55e':p.prob>=55?'#f59e0b':'#60a5fa';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #0d1117">'+
+          '<div>'+
+          '<span style="background:rgba(239,68,68,0.1);color:#fb923c;border-radius:3px;padding:1px 5px;font-size:10px;font-weight:700">🚨 2J→3J</span> '+
+          '<span style="font-size:13px;font-weight:600">'+p.jugador+'</span> '+conf+
+          '<div style="font-size:11px;color:#64748b;margin-top:2px">'+p.pct_hit+'% hit/año · 2j→3j: '+p.prob_2j_3j+'%</div>'+
+          '</div>'+
+          '<div style="font-family:Oswald,sans-serif;font-size:20px;font-weight:700;color:'+color+'">'+p.prob+'%</div>'+
+          '</div>';
+      });
+      
+      // Candidatos 1j
+      c1j.forEach(p => {
+        const conf = confirmado ? (p.confirmado?'✅':'❌') : '⏳';
+        const color = p.prob>=70?'#22c55e':p.prob>=55?'#f59e0b':'#60a5fa';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:5px 0;border-bottom:1px solid #0d1117">'+
+          '<div>'+
+          '<span style="background:rgba(96,165,250,0.1);color:#60a5fa;border-radius:3px;padding:1px 5px;font-size:10px;font-weight:700">🎯 1J→2J</span> '+
+          '<span style="font-size:13px;font-weight:600">'+p.jugador+'</span> '+conf+
+          '<div style="font-size:11px;color:#64748b;margin-top:2px">'+p.pct_hit+'% hit/año · 1j→2j: '+p.prob_1j_2j+'%</div>'+
+          '</div>'+
+          '<div style="font-family:Oswald,sans-serif;font-size:20px;font-weight:700;color:'+color+'">'+p.prob+'%</div>'+
+          '</div>';
+      });
+      
+      html += '</div>';
+    });
+    
+    html += '</div>';
+  });
+  
+  div.innerHTML = html;
+}
+
+function renderCandidatos1j(data) {
+  const div=document.getElementById('tab-candidatos1j');
+  if(!data.candidatos_1j||!data.candidatos_1j.length){
+    div.innerHTML='<div class="empty"><div class="empty-icon">🎯</div><div>No hay candidatos hoy</div></div>';return;
+  }
+  let html='<div class="equipo-card">'+
+    '<div class="ranking-header">'+
+    '<span class="ranking-title">🎯 Candidatos a 2do Hit</span>'+
+    '<span style="font-size:11px;color:#64748b">Dieron hit hoy</span>'+
+    '</div>';
+  data.candidatos_1j.forEach((c,i)=>{
+    const color=getColor(c.prob);
+    const emoji=c.prob>=70?'🔥':c.prob>=55?'✅':'📊';
+    const rachas=c.rachas_3plus||[];
+    html+='<div class="candidato-item">'+
+      '<div class="ranking-num">'+(i===0?'🥇':i===1?'🥈':i===2?'🥉':(i+1))+'</div>'+
+      '<div class="candidato-info">'+
+      '<div class="candidato-nombre">'+emoji+' '+c.jugador+'</div>'+
+      '<div class="candidato-sub">'+
+      '<span>'+c.equipo+'</span><span>·</span>'+
+      '<span style="color:'+color+'">'+c.pct_hit+'% hit/año</span><span>·</span>'+
+      '<span>'+c.num_rachas+'x rachas 3+</span><span>·</span>'+
+      (c.rachas_3plus&&c.rachas_3plus.length>0?'<span style="color:#a78bfa">'+c.rachas_3plus.map(r=>r+'j').join(' ')+'</span>':'')+'<span>·</span>'+
+      '<span>max '+c.racha_max+'j</span>'+
+      (c.prob_1j_2j?'<span>·</span><span style="color:#22c55e;font-weight:700">1j→2j: '+c.prob_1j_2j+'%</span>':'')+
+      '</div>'+renderTurnoHit(c.turno_hit)+
+      '</div>'+
+      '<div class="candidato-score">'+
+      '<div class="pct-num" style="color:'+color+'">'+c.prob+'%</div>'+
+      '<div class="pct-label">prob 2do hit</div>'+
+      '<div class="pct-bar"><div class="pct-fill" style="width:'+c.prob+'%;background:'+color+'"></div></div>'+
+      '</div></div>';
+  });
+  html+='</div>';
+  div.innerHTML=html;
+}
+
+function renderEfectividad(data) {
+  const div = document.getElementById('tab-efectividad');
+  const ef = data.efectividad || {};
+  const pred = data.predicciones_hoy || {};
+  
+  let html = '<div class="equipo-card">';
+  
+  // Header
+  html += '<div class="ranking-header"><span class="ranking-title">📊 Efectividad Histórica</span></div>';
+  
+  // Stats por tipo
+  const tipos = [
+    {key: '1J→2J', emoji: '🎯', color: '#22c55e', label: 'Candidatos 1J→2J (Top 15)'},
+    {key: '2J→3J', emoji: '🚨', color: '#f59e0b', label: 'Candidatos 2J→3J (Top 15)'},
+    {key: 'RACHA', emoji: '🔥', color: '#f87171', label: 'Jugadores en Racha'}
+  ];
+  
+  tipos.forEach(t => {
+    const e = ef[t.key] || {total: 0, aciertos: 0, pct: 0};
+    const pct = e.pct || 0;
+    const color = pct >= 65 ? '#22c55e' : pct >= 50 ? '#f59e0b' : '#f87171';
+    html += '<div style="padding:14px;border-bottom:1px solid #1e293b">'+
+      '<div style="display:flex;justify-content:space-between;align-items:center">'+
+      '<div>'+
+      '<div style="font-weight:600;font-size:14px">'+t.emoji+' '+t.label+'</div>'+
+      '<div style="font-size:12px;color:#64748b;margin-top:3px">'+
+      e.aciertos+' aciertos de '+e.total+' predicciones'+
+      '</div>'+
+      '</div>'+
+      '<div style="text-align:right">'+
+      '<div style="font-family:Oswald,sans-serif;font-size:28px;font-weight:700;color:'+color+'">'+pct+'%</div>'+
+      '<div style="font-size:10px;color:#64748b">efectividad</div>'+
+      '</div>'+
+      '</div>'+
+      '<div style="height:4px;background:#1e293b;border-radius:2px;margin-top:8px">'+
+      '<div style="height:4px;border-radius:2px;background:'+color+';width:'+pct+'%"></div>'+
+      '</div>'+
+      '</div>';
+  });
+  
+  html += '</div>';
+  
+  // Predicciones de hoy
+  html += '<div class="equipo-card" style="margin-top:10px">';
+  html += '<div class="ranking-header"><span class="ranking-title">🎯 Predicciones de Hoy</span></div>';
+  
+  ['1J→2J','2J→3J'].forEach(tipo => {
+    const lista = pred[tipo] || [];
+    if(!lista.length) return;
+    const emoji = tipo === '1J→2J' ? '🎯' : '🚨';
+    html += '<div style="padding:10px 14px;border-bottom:1px solid #1e293b">'+
+      '<div style="font-family:Oswald,sans-serif;font-size:12px;color:#60a5fa;letter-spacing:1px;margin-bottom:8px">'+emoji+' '+tipo+'</div>';
+    lista.forEach((p,i) => {
+      const color = p.prob>=70?'#22c55e':p.prob>=55?'#f59e0b':'#60a5fa';
+      html += '<div style="display:flex;justify-content:space-between;padding:4px 0;border-bottom:1px solid #0d1117">'+
+        '<span style="font-size:13px">'+(i+1)+'. '+p.jugador+'</span>'+
+        '<span style="font-family:Oswald,sans-serif;font-size:16px;color:'+color+'">'+p.prob+'%</span>'+
+        '</div>';
+    });
+    html += '</div>';
+  });
+  
+  html += '</div>';
+  div.innerHTML = html;
+}
+
+function renderTendencia(data) {
+  const div = document.getElementById('tab-tendencia');
+  const efDiaria = data.efectividad_diaria || {};
+  const fechas = Object.keys(efDiaria).sort();
+  if (!fechas.length) { div.innerHTML = '<div class="empty"><div class="empty-icon">\ud83d\udcc8</div><div>Aun no hay historial suficiente</div></div>'; return; }
+  const tiposT = [
+    {key:'1J\u21922J', emoji:'\ud83c\udfaf', color:'#22c55e'},
+    {key:'2J\u21923J', emoji:'\ud83d\udea8', color:'#f59e0b'},
+    {key:'RACHA', emoji:'\ud83d\udd25', color:'#f87171'}
+  ];
+  const w = 660, h = 200, padL = 30, padR = 10, padT = 10, padB = 30;
+  const plotW = w - padL - padR, plotH = h - padT - padB;
+  const n = fechas.length;
+  const xStep = n>1 ? plotW/(n-1) : 0;
+  function xPos(i){ return padL + i*xStep; }
+  function yPos(pct){ return padT + plotH - (pct/100*plotH); }
+
+  let svg = '<svg viewBox="0 0 '+w+' '+h+'" style="width:100%;height:auto;display:block">';
+  [0,25,50,75,100].forEach(v=>{
+    const y = yPos(v);
+    svg += '<line x1="'+padL+'" y1="'+y+'" x2="'+(w-padR)+'" y2="'+y+'" stroke="#1e293b" stroke-width="1"/>';
+    svg += '<text x="2" y="'+(y+3)+'" font-size="9" fill="#64748b">'+v+'</text>';
+  });
+  tiposT.forEach(t=>{
+    let pts = [];
+    fechas.forEach((f,i)=>{
+      const e = efDiaria[f][t.key];
+      if(e) pts.push(xPos(i)+','+yPos(e.pct));
+    });
+    if(pts.length) svg += '<polyline points="'+pts.join(' ')+'" fill="none" stroke="'+t.color+'" stroke-width="2"/>';
+    fechas.forEach((f,i)=>{
+      const e = efDiaria[f][t.key];
+      if(!e) return;
+      svg += '<circle cx="'+xPos(i)+'" cy="'+yPos(e.pct)+'" r="4" fill="'+t.color+'" stroke="#070b14" stroke-width="1" style="cursor:pointer" onclick="seleccionarDiaTendencia(\''+f+'\')"/>';
+    });
+  });
+  fechas.forEach((f,i)=>{
+    svg += '<text x="'+xPos(i)+'" y="'+(h-8)+'" font-size="9" fill="#64748b" text-anchor="middle">'+f.slice(5)+'</text>';
+  });
+  svg += '</svg>';
+
+  let html = '<div class="equipo-card">';
+  html += '<div class="ranking-header"><span class="ranking-title">\ud83d\udcc8 Tendencia de Efectividad</span></div>';
+  html += '<div style="padding:10px 14px">';
+  html += '<div style="display:flex;gap:14px;margin-bottom:8px;flex-wrap:wrap">';
+  tiposT.forEach(t=>{
+    html += '<div style="display:flex;align-items:center;gap:5px;font-size:11px;color:#94a3b8"><span style="width:10px;height:10px;border-radius:50%;background:'+t.color+';display:inline-block"></span>'+t.emoji+' '+t.key+'</div>';
+  });
+  html += '</div>';
+  html += svg;
+  html += '</div></div>';
+
+  html += '<div class="equipo-card" style="margin-top:10px" id="tendencia-detalle-wrap">';
+  html += '<div class="ranking-header"><span class="ranking-title">\ud83d\udd0d Detalle por Dia</span></div>';
+  html += '<div style="padding:10px 14px">';
+  html += '<select id="tendencia-select" onchange="seleccionarDiaTendencia(this.value)" style="width:100%;background:#070b14;color:#e6edf3;border:1px solid #1e3a5f;border-radius:6px;padding:8px 12px;font-size:13px">';
+  fechas.slice().reverse().forEach(f=>{
+    html += '<option value="'+f+'">'+f+'</option>';
+  });
+  html += '</select>';
+  html += '</div>';
+  html += '<div id="tendencia-detalle-content" style="padding:0 14px 14px"></div>';
+  html += '</div>';
+
+  div.innerHTML = html;
+  window.__efDiariaGlobal = efDiaria;
+  window.__tiposTendencia = tiposT;
+  window.__detalleGlobal = data.detalle_predicciones || {};
+  seleccionarDiaTendencia(fechas[fechas.length-1]);
+}
+
+function seleccionarDiaTendencia(fecha) {
+  const efDiaria = window.__efDiariaGlobal || {};
+  const tiposT = window.__tiposTendencia || [];
+  const detalleGlobal = window.__detalleGlobal || {};
+  const diaData = efDiaria[fecha];
+  const diaDetalle = detalleGlobal[fecha] || {};
+  const sel = document.getElementById('tendencia-select');
+  if (sel) sel.value = fecha;
+  const cont = document.getElementById('tendencia-detalle-content');
+  if (!cont || !diaData) return;
+  let html = '<div style="font-family:Oswald,sans-serif;font-size:13px;color:#60a5fa;letter-spacing:1px;margin-bottom:8px">'+fecha+'</div>';
+  tiposT.forEach(t=>{
+    const e = diaData[t.key];
+    if(!e) return;
+    const pct = e.pct||0;
+    const color = pct>=65?'#22c55e':pct>=50?'#f59e0b':'#f87171';
+    const lista = diaDetalle[t.key] || [];
+    html += '<div style="margin-bottom:6px">';
+    html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;cursor:pointer" onclick="toggleDetalleTipo(this)">'+
+      '<span style="font-size:13px">'+t.emoji+' '+t.key+' ('+e.aciertos+'/'+e.total+')</span>'+
+      '<span style="display:flex;align-items:center;gap:6px">'+
+      '<span style="font-family:Oswald,sans-serif;font-size:16px;font-weight:600;color:'+color+'">'+pct+'%</span>'+
+      '<span style="color:#64748b;font-size:11px">▼</span>'+
+      '</span>'+
+      '</div>';
+    html += '<div style="display:none">';
+    if (t.key === 'RACHA') {
+      const porEquipo = {};
+      lista.forEach(p=>{
+        porEquipo[p.equipo] = porEquipo[p.equipo] || [];
+        porEquipo[p.equipo].push(p);
+      });
+      Object.keys(porEquipo).sort().forEach(eq=>{
+        html += '<div style="padding:4px 8px;font-size:10px;color:#60a5fa;text-transform:uppercase;letter-spacing:0.5px;background:rgba(37,99,235,0.08)">'+eq+'</div>';
+        porEquipo[eq].forEach(p=>{
+          const acerto = p.dio_hit === 1;
+          const icono = acerto ? '✅' : '❌';
+          const colorFila = acerto ? '#34d399' : '#f87171';
+          html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px 4px 16px;font-size:12px;border-bottom:1px solid #0d1117">'+
+            '<span>'+icono+' '+p.jugador+'</span>'+
+            '<span style="color:'+colorFila+'">'+Math.round(p.prob)+'%</span>'+
+            '</div>';
+        });
+      });
+    } else {
+      lista.forEach(p=>{
+        const acerto = p.dio_hit === 1;
+        const icono = acerto ? '✅' : '❌';
+        const colorFila = acerto ? '#34d399' : '#f87171';
+        html += '<div style="display:flex;justify-content:space-between;align-items:center;padding:4px 8px;font-size:12px;border-bottom:1px solid #0d1117">'+
+          '<span>'+icono+' '+p.jugador+' <span style="color:#64748b">('+p.equipo+')</span></span>'+
+          '<span style="color:'+colorFila+'">'+Math.round(p.prob)+'%</span>'+
+          '</div>';
+      });
+    }
+    html += '</div>';
+    html += '</div>';
+  });
+  cont.innerHTML = html;
+}
+function toggleDetalleTipo(el) {
+  const panel = el.nextElementSibling;
+  const arrow = el.querySelector('span:last-child span');
+  if (!panel) return;
+  const abierto = panel.style.display === 'block';
+  panel.style.display = abierto ? 'none' : 'block';
+  if (arrow) arrow.textContent = abierto ? '▼' : '▲';
+}
+
+function renderRotas(data) {
+  const div=document.getElementById('tab-rotas');
+  if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
+  let html='<div class="equipo-card">';
+  data.rotas_hoy.forEach(r=>{
+    html+='<div class="rotas-item">'+
+      '<div><div class="rotas-nombre">💔 '+r.jugador+'</div>'+
+      '<div class="rotas-equipo">'+r.equipo+'</div></div>'+
+      '<div class="rotas-right">'+
+      '<div class="rotas-juegos">'+r.juegos+'</div>'+
+      '<div class="rotas-label">juegos</div>'+
+      '</div></div>';
+  });
+  html+='</div>';
+  div.innerHTML=html;
+}
+fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
+  globalData=data;
+  document.getElementById('update-time').textContent='Actualizado: '+data.actualizado;
+  document.getElementById('stat-jugadores').textContent=data.total_jugadores;
+  document.getElementById('stat-equipos').textContent=Object.keys(data.equipos).length;
+  document.getElementById('stat-rotas').textContent=(data.rotas_hoy||[]).length;
+  document.getElementById('stat-top').textContent=Math.max(...data.ranking.map(r=>r.juegos))+'j';
+  const sel=document.getElementById('filtro-equipo');
+  Object.keys(data.equipos).sort().forEach(eq=>{
+    const opt=document.createElement('option');
+    opt.value=eq; opt.textContent='🏟 '+eq+' ('+data.equipos[eq].length+')';
+    sel.appendChild(opt);
+  });
+  renderEquipos(data);
+  renderRanking(data);
+  renderCandidatos(data);
+  renderJuegos(data);
+  renderCandidatos1j(data);
+  renderEfectividad(data);
+  renderTendencia(data);
+  renderRotas(data);
+}).catch(()=>{
+  document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
+});
+</script>
+</body>
+</html>
