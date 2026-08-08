@@ -7,3 +7,4 @@ export default function handler(req, res) {
     total_env_vars: Object.keys(process.env).length,
   });
 }
+// forzar redeploy Fri Aug  7 19:43:57 CST 2026
