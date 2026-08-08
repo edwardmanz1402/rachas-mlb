@@ -2,14 +2,14 @@ export default async function handler(req, res) {
   res.setHeader('Access-Control-Allow-Origin', '*');
   res.setHeader('Access-Control-Allow-Methods', 'GET, OPTIONS');
   if (req.method === 'OPTIONS') { res.status(200).end(); return; }
+
   const apiKey = process.env.SHARPAPI_KEY;
   if (!apiKey) {
     res.status(500).json({ error: 'SHARPAPI_KEY no configurada en Vercel' });
     return;
   }
 
-  const PRIORIDAD_CASAS = ["fanduel", "fanatics", "stake", "betmgm", "thescorebet"];
-  const resultado = {};
+  const porJugador = {};
   let cursor = null;
   let totalTraidas = 0;
 
@@ -29,27 +29,45 @@ export default async function handler(req, res) {
         if (item.line !== 0.5) continue;
         const nombre = item.player_name;
         if (!nombre) continue;
-        const casaNueva = item.sportsbook || '';
-        const existente = resultado[nombre];
-        if (existente) {
-          const rankActual = PRIORIDAD_CASAS.indexOf(existente.sportsbook);
-          const rankNueva = PRIORIDAD_CASAS.indexOf(casaNueva);
-          const ra = rankActual === -1 ? 999 : rankActual;
-          const rn = rankNueva === -1 ? 999 : rankNueva;
-          if (rn >= ra) continue;
+        if (!porJugador[nombre]) porJugador[nombre] = [];
+        const yaExiste = porJugador[nombre].some(x => x.sportsbook === item.sportsbook && x.odds_american === item.odds_american);
+        if (!yaExiste) {
+          porJugador[nombre].push({ sportsbook: item.sportsbook, odds_american: item.odds_american });
         }
-        resultado[nombre] = {
-          linea: item.line,
-          odds_over: item.odds_american,
-          prob_implicita: Math.round((item.odds_probability || 0) * 1000) / 10,
-          sportsbook: casaNueva,
-        };
       }
 
       const pag = data.pagination || {};
       if (!pag.has_more) break;
       cursor = pag.next_cursor;
       if (!cursor) break;
+    }
+
+    const resultado = {};
+    for (const nombre in porJugador) {
+      const lista = porJugador[nombre];
+      const valores = lista.map(x => x.odds_american).sort((a, b) => a - b);
+      const mitad = Math.floor(valores.length / 2);
+      const medianaTeorica = valores.length % 2 !== 0
+        ? valores[mitad]
+        : (valores[mitad - 1] + valores[mitad]) / 2;
+
+      let elegido = lista[0];
+      let menorDistancia = Infinity;
+      for (const item of lista) {
+        const distancia = Math.abs(item.odds_american - medianaTeorica);
+        if (distancia < menorDistancia) {
+          menorDistancia = distancia;
+          elegido = item;
+        }
+      }
+
+      resultado[nombre] = {
+        linea: 0.5,
+        odds_over: elegido.odds_american,
+        sportsbook: elegido.sportsbook,
+        casas_consultadas: lista.length,
+        casas: lista.map(x => `${x.sportsbook}:${x.odds_american}`),
+      };
     }
 
     res.setHeader('Cache-Control', 'no-store, max-age=0');
@@ -62,4 +80,3 @@ export default async function handler(req, res) {
     res.status(500).json({ error: e.message });
   }
 }
-// prueba webhook 1786155260
