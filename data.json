@@ -36521,7 +36521,17 @@
         "Matt McLain",
         "Ke'Bryan Hayes"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "CJ Abrams",
+        "Abimelec Ortiz",
+        "José Tena",
+        "Daylen Lile",
+        "Dylan Crews",
+        "Jorbit Vivas",
+        "Nasim Nuñez",
+        "Keibert Ruiz",
+        "Jacob Young"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -36564,7 +36574,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 64.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jacob Young",
@@ -36574,17 +36584,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 60.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "juegos": 3,
-            "avg": 0.444,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 34.3,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -36593,37 +36593,30 @@
             "prob": 66,
             "prob_2j_3j": 66.7,
             "pct_hit": 66.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daylen Lile",
             "prob": 65,
             "prob_2j_3j": 65.2,
             "pct_hit": 61.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Tena",
             "prob": 37,
             "prob_2j_3j": 40.0,
             "pct_hit": 41.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Brady House",
-            "prob": 60,
-            "prob_1j_2j": 66.7,
-            "pct_hit": 60.0,
-            "confirmado": false
-          },
           {
             "jugador": "Dylan Crews",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 58.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -36892,7 +36885,49 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Erik Miller",
+        "avg_contra": ".194",
+        "era": "2.57",
+        "whip": "1.34",
+        "k9": "12.60",
+        "h9": "6.17",
+        "ip_temporada": "35.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-06",
+            "ip": "2.0",
+            "k": 3,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "0.1",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "0.1",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-07-30",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          }
+        ]
+      }
     },
     {
       "away": "New York Mets",
@@ -37113,7 +37148,17 @@
       "game_id": 823425,
       "fecha": "2026-08-09",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "J.T. Realmuto",
+        "Bryson Stott",
+        "Brandon Marsh",
+        "Alec Bohm",
+        "Justin Crawford"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -37185,7 +37230,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 56.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
@@ -37195,7 +37240,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 58.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Schwarber",
@@ -37205,7 +37250,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 59.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "J.T. Realmuto",
@@ -37215,7 +37260,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 53.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -37225,21 +37270,21 @@
             "prob": 73,
             "prob_1j_2j": 71.4,
             "pct_hit": 75.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trea Turner",
             "prob": 66,
             "prob_1j_2j": 67.2,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryson Stott",
             "prob": 63,
             "prob_1j_2j": 64.4,
             "pct_hit": 64.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39445,7 +39490,49 @@
           }
         ]
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Ian Seymour",
+        "avg_contra": ".216",
+        "era": "4.27",
+        "whip": "1.13",
+        "k9": "10.57",
+        "h9": "7.15",
+        "ip_temporada": "84.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-03",
+            "ip": "6.0",
+            "k": 9,
+            "h": 7,
+            "er": 2,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-07-29",
+            "ip": "4.2",
+            "k": 4,
+            "h": 2,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-23",
+            "ip": "6.0",
+            "k": 7,
+            "h": 5,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-18",
+            "ip": "3.0",
+            "k": 4,
+            "h": 2,
+            "er": 3,
+            "bb": 2
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Emerson Hancock",
         "avg_contra": ".223",
@@ -39662,5 +39749,5 @@
       "home_pitcher": null
     }
   ],
-  "alineaciones_actualizadas": "09/08/26 08:00"
+  "alineaciones_actualizadas": "09/08/26 08:30"
 }
