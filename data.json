@@ -36622,13 +36622,21 @@
       },
       "away_pitcher": {
         "nombre": "Brady Singer",
-        "avg_contra": ".272",
-        "era": "4.67",
-        "whip": "1.43",
-        "k9": "7.68",
-        "h9": "9.74",
-        "ip_temporada": "113.2",
+        "avg_contra": ".270",
+        "era": "4.64",
+        "whip": "1.42",
+        "k9": "7.64",
+        "h9": "9.68",
+        "ip_temporada": "114.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-09",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-04",
             "ip": "6.0",
@@ -36652,26 +36660,26 @@
             "h": 6,
             "er": 3,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-17",
-            "ip": "7.0",
-            "k": 6,
-            "h": 4,
-            "er": 2,
-            "bb": 0
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Brad Lord",
-        "avg_contra": ".224",
-        "era": "3.81",
-        "whip": "1.20",
-        "k9": "7.93",
-        "h9": "7.63",
-        "ip_temporada": "59.0",
+        "avg_contra": ".221",
+        "era": "3.75",
+        "whip": "1.18",
+        "k9": "8.25",
+        "h9": "7.50",
+        "ip_temporada": "60.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-09",
+            "ip": "1.0",
+            "k": 3,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-05",
             "ip": "1.0",
@@ -36695,14 +36703,6 @@
             "h": 2,
             "er": 0,
             "bb": 2
-          },
-          {
-            "fecha": "2026-06-26",
-            "ip": "2.2",
-            "k": 5,
-            "h": 2,
-            "er": 1,
-            "bb": 3
           }
         ]
       }
@@ -38920,7 +38920,17 @@
       "game_id": 823190,
       "fecha": "2026-08-09",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Bryce Eldridge",
+        "Jung Hoo Lee",
+        "Willy Adames",
+        "Rafael Devers",
+        "Osleivis Basabe",
+        "Drew Gilbert",
+        "Daniel Susac",
+        "Grant McCray",
+        "Christian Koss"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -39016,7 +39026,7 @@
             "prob": 57,
             "prob_2j_3j": 55.0,
             "pct_hit": 58.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -39700,5 +39710,5 @@
       "home_pitcher": null
     }
   ],
-  "alineaciones_actualizadas": "09/08/26 10:00"
+  "alineaciones_actualizadas": "09/08/26 10:30"
 }
