@@ -36622,19 +36622,19 @@
       },
       "away_pitcher": {
         "nombre": "Brady Singer",
-        "avg_contra": ".270",
-        "era": "4.64",
-        "whip": "1.42",
-        "k9": "7.64",
-        "h9": "9.68",
-        "ip_temporada": "114.1",
+        "avg_contra": ".273",
+        "era": "4.75",
+        "whip": "1.44",
+        "k9": "7.55",
+        "h9": "9.80",
+        "ip_temporada": "115.2",
         "ultimas4": [
           {
             "fecha": "2026-08-09",
-            "ip": "1.0",
+            "ip": "2.0",
             "k": 0,
-            "h": 0,
-            "er": 0,
+            "h": 3,
+            "er": 2,
             "bb": 1
           },
           {
@@ -36665,19 +36665,19 @@
       },
       "home_pitcher": {
         "nombre": "Brad Lord",
-        "avg_contra": ".221",
-        "era": "3.75",
+        "avg_contra": ".224",
+        "era": "3.79",
         "whip": "1.18",
-        "k9": "8.25",
-        "h9": "7.50",
-        "ip_temporada": "60.0",
+        "k9": "8.17",
+        "h9": "7.59",
+        "ip_temporada": "61.2",
         "ultimas4": [
           {
             "fecha": "2026-08-09",
-            "ip": "1.0",
-            "k": 3,
-            "h": 0,
-            "er": 0,
+            "ip": "2.1",
+            "k": 4,
+            "h": 1,
+            "er": 1,
             "bb": 0
           },
           {
@@ -38712,7 +38712,17 @@
       "home": "Texas Rangers",
       "game_id": 822862,
       "fecha": "2026-08-09",
-      "away_lineup": [],
+      "away_lineup": [
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Tyler O'Neill",
+        "Dylan Beavers",
+        "Leody Taveras",
+        "Coby Mayo",
+        "Colton Cowser",
+        "Carlos Narváez"
+      ],
       "home_lineup": [
         "Wyatt Langford",
         "Corey Seager",
@@ -38724,7 +38734,7 @@
         "Jonah Bride",
         "Cam Cauley"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -38733,7 +38743,7 @@
             "prob": 49,
             "prob_2j_3j": 54.5,
             "pct_hit": 41.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38742,42 +38752,28 @@
             "prob": 60,
             "prob_1j_2j": 61.9,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Coby Mayo",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler O'Neill",
             "prob": 41,
             "prob_1j_2j": 44.0,
             "pct_hit": 45.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Holliday",
             "prob": 39,
             "prob_1j_2j": 42.1,
             "pct_hit": 40.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Encarnacion-Strand",
-            "prob": 36,
-            "prob_1j_2j": 0,
-            "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Yohel Pozo",
-            "prob": 32,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 38.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39123,9 +39119,19 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825050,
       "fecha": "2026-08-09",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Freddie Freeman",
+        "Tommy Edman",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Enrique Hernández",
+        "Ben Rortvedt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39136,7 +39142,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 60.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andy Pages",
@@ -39146,42 +39152,24 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 68.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Miguel Rojas",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 46.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Hunter Feduccia",
-            "prob": 64,
-            "prob_2j_3j": 80.0,
-            "pct_hit": 50.9,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Shohei Ohtani",
             "prob": 74,
             "prob_1j_2j": 73.8,
             "pct_hit": 73.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Teoscar Hernández",
             "prob": 59,
             "prob_1j_2j": 62.2,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39710,5 +39698,5 @@
       "home_pitcher": null
     }
   ],
-  "alineaciones_actualizadas": "09/08/26 10:30"
+  "alineaciones_actualizadas": "09/08/26 11:00"
 }
