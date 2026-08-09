@@ -36510,21 +36510,21 @@
       "home": "Washington Nationals",
       "game_id": 822700,
       "fecha": "2026-08-09",
-      "away_lineup": [],
+      "away_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Eugenio Suárez",
+        "Héctor Rodríguez",
+        "Dane Myers",
+        "Matt McLain",
+        "Ke'Bryan Hayes"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Noelvi Marte",
-            "juegos": 4,
-            "avg": 0.308,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 57.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Eugenio Suárez",
             "juegos": 3,
@@ -36533,7 +36533,7 @@
             "prob_3j_4j": 20.0,
             "pct_hit": 50.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -36543,14 +36543,14 @@
             "prob": 69,
             "prob_1j_2j": 69.4,
             "pct_hit": 65.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dane Myers",
             "prob": 55,
             "prob_1j_2j": 61.5,
             "pct_hit": 51.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -36720,7 +36720,17 @@
       "game_id": 824724,
       "fecha": "2026-08-09",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Andruw Monasterio",
+        "Anthony Seigler",
+        "Jarren Duran",
+        "Eli White",
+        "Jake Rogers"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -36777,17 +36787,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 58.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Caleb Durbin",
-            "juegos": 6,
-            "avg": 0.375,
-            "prob_2j_3j": 52.6,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 56.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wilyer Abreu",
@@ -36797,7 +36797,7 @@
             "prob_3j_4j": 45.5,
             "pct_hit": 62.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willson Contreras",
@@ -36807,7 +36807,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Sogard",
@@ -36817,7 +36817,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 66.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ceddanne Rafaela",
@@ -36827,30 +36827,16 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 74.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Masataka Yoshida",
-            "prob": 65,
-            "prob_2j_3j": 76.9,
-            "pct_hit": 57.1,
-            "confirmado": false
-          },
           {
             "jugador": "Anthony Seigler",
             "prob": 54,
             "prob_2j_3j": 66.7,
             "pct_hit": 47.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jahmai Jones",
-            "prob": 27,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 25.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -36859,7 +36845,7 @@
             "prob": 26,
             "prob_1j_2j": 27.3,
             "pct_hit": 34.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39676,5 +39662,5 @@
       "home_pitcher": null
     }
   ],
-  "alineaciones_actualizadas": "09/08/26 07:00"
+  "alineaciones_actualizadas": "09/08/26 08:00"
 }
