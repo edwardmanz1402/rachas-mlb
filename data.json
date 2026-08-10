@@ -32704,7 +32704,17 @@
       "home": "St. Louis Cardinals",
       "game_id": 823018,
       "fecha": "2026-08-10",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kyle Schwarber",
+        "Bryson Stott",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Brandon Marsh",
+        "Derek Hill",
+        "Justin Crawford",
+        "Edmundo Sosa",
+        "Garrett Stubbs"
+      ],
       "home_lineup": [
         "JJ Wetherholt",
         "Iván Herrera",
@@ -32716,7 +32726,7 @@
         "Jimmy Crooks",
         "César Prieto"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32727,17 +32737,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 57.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "J.T. Realmuto",
-            "juegos": 4,
-            "avg": 0.278,
-            "prob_2j_3j": 25.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 53.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Schwarber",
@@ -32747,7 +32747,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 60.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32756,7 +32756,7 @@
             "prob": 58,
             "prob_2j_3j": 58.3,
             "pct_hit": 64.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -32765,21 +32765,14 @@
             "prob": 70,
             "prob_1j_2j": 70.8,
             "pct_hit": 65.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alec Bohm",
-            "prob": 56,
-            "prob_1j_2j": 57.7,
-            "pct_hit": 58.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Derek Hill",
             "prob": 49,
             "prob_1j_2j": 53.3,
             "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -33142,9 +33135,19 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825048,
       "fecha": "2026-08-10",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Cole Carrigg",
+        "TJ Rumfield",
+        "Hunter Goodman",
+        "Mickey Moniak",
+        "Kyle Karros",
+        "Willi Castro",
+        "Troy Johnston",
+        "Jordan Beck"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -33155,7 +33158,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 72.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Beck",
@@ -33165,7 +33168,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 46.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -33174,14 +33177,14 @@
             "prob": 48,
             "prob_2j_3j": 43.5,
             "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Carrigg",
             "prob": 47,
             "prob_2j_3j": 50.0,
             "pct_hit": 59.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -33190,28 +33193,21 @@
             "prob": 65,
             "prob_1j_2j": 71.1,
             "pct_hit": 62.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willi Castro",
             "prob": 62,
             "prob_1j_2j": 58.0,
             "pct_hit": 66.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Karros",
             "prob": 58,
             "prob_1j_2j": 59.3,
             "pct_hit": 57.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Sullivan",
-            "prob": 48,
-            "prob_1j_2j": 52.6,
-            "pct_hit": 48.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34181,5 +34177,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "10/08/26 14:30"
+  "alineaciones_actualizadas": "10/08/26 15:00"
 }
