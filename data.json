@@ -32117,7 +32117,7 @@
         "George Springer",
         "Jesús Sánchez",
         "Andrés Giménez",
-        "Kazuma Okamoto",
+        "Charles McAdoo",
         "Josh Smith",
         "Brandon Valenzuela"
       ],
@@ -32189,13 +32189,6 @@
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Kazuma Okamoto",
-            "prob": 62,
-            "prob_1j_2j": 64.9,
-            "pct_hit": 57.8,
-            "confirmado": true
-          },
           {
             "jugador": "George Springer",
             "prob": 62,
@@ -32297,7 +32290,17 @@
       "home": "Atlanta Braves",
       "game_id": 824887,
       "fecha": "2026-08-10",
-      "away_lineup": [],
+      "away_lineup": [
+        "A.J. Ewing",
+        "Francisco Lindor",
+        "Bo Bichette",
+        "Carson Benge",
+        "Jared Young",
+        "Marcus Semien",
+        "Brett Baty",
+        "Jorge Polanco",
+        "Francisco Alvarez"
+      ],
       "home_lineup": [
         "Drake Baldwin",
         "Ronald Acuña Jr.",
@@ -32309,7 +32312,7 @@
         "Jim Jarvis",
         "Sean Murphy"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32320,7 +32323,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 66.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Francisco Lindor",
@@ -32330,7 +32333,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Francisco Alvarez",
@@ -32340,17 +32343,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Luis Robert Jr.",
-            "juegos": 3,
-            "avg": 0.429,
-            "prob_2j_3j": 60.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 54.5,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -32360,21 +32353,21 @@
             "prob": 69,
             "prob_1j_2j": 69.8,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Marcus Semien",
             "prob": 46,
             "prob_1j_2j": 46.3,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jared Young",
             "prob": 40,
             "prob_1j_2j": 40.0,
             "pct_hit": 52.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32509,7 +32502,17 @@
       "home": "Minnesota Twins",
       "game_id": 823675,
       "fecha": "2026-08-10",
-      "away_lineup": [],
+      "away_lineup": [
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Tyler O'Neill",
+        "Dylan Beavers",
+        "Leody Taveras",
+        "Coby Mayo",
+        "Colton Cowser",
+        "Carlos Narváez"
+      ],
       "home_lineup": [
         "Austin Martin",
         "Ryan Jeffers",
@@ -32521,7 +32524,7 @@
         "Victor Caratini",
         "Ryan Kreidler"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32532,7 +32535,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 42.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32541,28 +32544,28 @@
             "prob": 56,
             "prob_2j_3j": 63.6,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Alonso",
             "prob": 55,
             "prob_2j_3j": 56.0,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Holliday",
             "prob": 49,
             "prob_2j_3j": 60.0,
             "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler O'Neill",
             "prob": 48,
             "prob_2j_3j": 57.1,
             "pct_hit": 45.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -32571,21 +32574,21 @@
             "prob": 57,
             "prob_1j_2j": 60.9,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carlos Narváez",
             "prob": 46,
             "prob_1j_2j": 52.0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Beavers",
             "prob": 43,
             "prob_1j_2j": 45.0,
             "pct_hit": 50.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34178,5 +34181,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "10/08/26 14:00"
+  "alineaciones_actualizadas": "10/08/26 14:30"
 }
