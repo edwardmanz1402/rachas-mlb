@@ -32099,9 +32099,29 @@
       "home": "Toronto Blue Jays",
       "game_id": 822780,
       "fecha": "2026-08-10",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Masataka Yoshida",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Anthony Seigler",
+        "Connor Wong"
+      ],
+      "home_lineup": [
+        "Nathan Lukes",
+        "Brett Bateman",
+        "Vladimir Guerrero Jr.",
+        "George Springer",
+        "Jesús Sánchez",
+        "Andrés Giménez",
+        "Kazuma Okamoto",
+        "Josh Smith",
+        "Brandon Valenzuela"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32112,17 +32132,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jahmai Jones",
-            "juegos": 3,
-            "avg": 0.714,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 26.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Anthony Seigler",
@@ -32132,7 +32142,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 48.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32141,25 +32151,10 @@
             "prob": 65,
             "prob_2j_3j": 76.9,
             "pct_hit": 57.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jake Rogers",
-            "prob": 39,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 34.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Eli White",
-            "prob": 37,
-            "prob_1j_2j": 40.9,
-            "pct_hit": 40.7,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -32171,7 +32166,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 52.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Lukes",
@@ -32181,23 +32176,16 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 57.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Ernie Clement",
-            "prob": 71,
-            "prob_2j_3j": 72.4,
-            "pct_hit": 71.3,
-            "confirmado": false
-          },
           {
             "jugador": "Vladimir Guerrero Jr.",
             "prob": 64,
             "prob_2j_3j": 66.7,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -32206,28 +32194,14 @@
             "prob": 62,
             "prob_1j_2j": 64.9,
             "pct_hit": 57.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "George Springer",
             "prob": 62,
             "prob_1j_2j": 63.4,
             "pct_hit": 65.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alejandro Kirk",
-            "prob": 50,
-            "prob_1j_2j": 53.8,
-            "pct_hit": 59.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Myles Straw",
-            "prob": 33,
-            "prob_1j_2j": 34.6,
-            "pct_hit": 35.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32725,7 +32699,17 @@
       "game_id": 823018,
       "fecha": "2026-08-10",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Nathan Church",
+        "Masyn Winn",
+        "José Fermín",
+        "Jimmy Crooks",
+        "César Prieto"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -32803,17 +32787,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 74.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Blaze Jordan",
-            "juegos": 8,
-            "avg": 0.357,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 58.3,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
@@ -32823,7 +32797,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Masyn Winn",
@@ -32833,7 +32807,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 60.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32842,14 +32816,14 @@
             "prob": 57,
             "prob_2j_3j": 54.5,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Church",
             "prob": 50,
             "prob_2j_3j": 53.3,
             "pct_hit": 52.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -32858,14 +32832,7 @@
             "prob": 72,
             "prob_1j_2j": 76.2,
             "pct_hit": 68.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "prob": 36,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 40.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34208,5 +34175,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "10/08/26 13:00"
+  "alineaciones_actualizadas": "10/08/26 13:30"
 }
