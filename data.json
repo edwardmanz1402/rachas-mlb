@@ -39265,13 +39265,21 @@
       },
       "home_pitcher": {
         "nombre": "Eduardo Rodriguez",
-        "avg_contra": ".209",
-        "era": "2.29",
-        "whip": "1.10",
-        "k9": "9.35",
-        "h9": "7.06",
-        "ip_temporada": "51.0",
+        "avg_contra": ".203",
+        "era": "2.21",
+        "whip": "1.06",
+        "k9": "9.17",
+        "h9": "6.79",
+        "ip_temporada": "53.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-09",
+            "ip": "2.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-06",
             "ip": "2.0",
@@ -39294,14 +39302,6 @@
             "k": 2,
             "h": 2,
             "er": 1,
-            "bb": 0
-          },
-          {
-            "fecha": "2026-07-31",
-            "ip": "1.0",
-            "k": 2,
-            "h": 0,
-            "er": 0,
             "bb": 0
           }
         ]
@@ -39538,8 +39538,8 @@
         "Manny Machado",
         "Ty France",
         "Jackson Merrill",
-        "Luis Rengifo",
-        "Gavin Sheets",
+        "Jase Bowen",
+        "Austin Hays",
         "Xander Bogaerts",
         "Freddy Fermin"
       ],
@@ -39645,15 +39645,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Gavin Sheets",
-            "prob": 60,
-            "prob_1j_2j": 66.0,
-            "pct_hit": 48.5,
-            "confirmado": true
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Cristian Javier",
@@ -39743,5 +39735,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "09/08/26 20:00"
+  "alineaciones_actualizadas": "09/08/26 20:30"
 }
