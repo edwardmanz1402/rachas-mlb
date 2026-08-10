@@ -33599,7 +33599,17 @@
       "game_id": 823265,
       "fecha": "2026-08-10",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Fernando Tatis Jr.",
+        "Jake Cronenworth",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Luis Rengifo",
+        "Gavin Sheets",
+        "Freddy Fermin",
+        "Sung-Mun Song"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -33671,7 +33681,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 41.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Fernando Tatis Jr.",
@@ -33681,7 +33691,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 70.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Merrill",
@@ -33691,7 +33701,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Manny Machado",
@@ -33701,7 +33711,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 52.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -33710,37 +33720,30 @@
             "prob": 58,
             "prob_2j_3j": 63.2,
             "pct_hit": 48.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sung-Mun Song",
             "prob": 37,
             "prob_2j_3j": 40.0,
             "pct_hit": 42.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Austin Hays",
-            "prob": 60,
-            "prob_1j_2j": 62.5,
-            "pct_hit": 75.0,
-            "confirmado": false
-          },
           {
             "jugador": "Ty France",
             "prob": 51,
             "prob_1j_2j": 52.9,
             "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Rengifo",
             "prob": 48,
             "prob_1j_2j": 48.3,
             "pct_hit": 52.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -34177,5 +34180,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "10/08/26 15:00"
+  "alineaciones_actualizadas": "10/08/26 15:30"
 }
