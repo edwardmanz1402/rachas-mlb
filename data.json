@@ -32573,7 +32573,17 @@
       "game_id": 824240,
       "fecha": "2026-08-11",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Javier Báez",
+        "Zach McKinstry"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -32611,7 +32621,7 @@
             "prob_3j_4j": 73.7,
             "pct_hit": 74.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Torkelson",
@@ -32621,7 +32631,7 @@
             "prob_3j_4j": 37.5,
             "pct_hit": 55.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zach McKinstry",
@@ -32631,7 +32641,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 47.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -32730,7 +32740,17 @@
       "game_id": 823832,
       "fecha": "2026-08-11",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Xavier Edwards",
+        "Otto Lopez",
+        "Griffin Conine",
+        "Heriberto Hernández",
+        "Jakob Marsee",
+        "Javier Sanoja",
+        "Owen Caissie",
+        "Joe Mack",
+        "Esteury Ruiz"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -32768,7 +32788,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 54.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jakob Marsee",
@@ -32778,7 +32798,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 50.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -32877,7 +32897,17 @@
       "game_id": 822697,
       "fecha": "2026-08-11",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Dylan Crews",
+        "Andrés Chaparro",
+        "Brady House",
+        "CJ Abrams",
+        "Harry Ford",
+        "Jacob Young",
+        "Daylen Lile",
+        "Nasim Nuñez",
+        "Andrew Pinckney"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -32908,16 +32938,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Keibert Ruiz",
-            "juegos": 6,
-            "avg": 0.526,
-            "prob_2j_3j": 52.9,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 65.2,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
             "jugador": "Andrés Chaparro",
             "juegos": 4,
             "avg": 0.455,
@@ -32925,7 +32945,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 36.1,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "CJ Abrams",
@@ -32935,7 +32955,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daylen Lile",
@@ -32945,7 +32965,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 62.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -32994,7 +33014,49 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Jake Irvin",
+        "avg_contra": ".231",
+        "era": "5.37",
+        "whip": "1.29",
+        "k9": "9.00",
+        "h9": "7.84",
+        "ip_temporada": "62.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-05",
+            "ip": "5.1",
+            "k": 3,
+            "h": 3,
+            "er": 2,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-30",
+            "ip": "5.0",
+            "k": 1,
+            "h": 3,
+            "er": 5,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-05-23",
+            "ip": "5.0",
+            "k": 7,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-05-18",
+            "ip": "4.0",
+            "k": 6,
+            "h": 6,
+            "er": 2,
+            "bb": 1
+          }
+        ]
+      }
     },
     {
       "away": "Seattle Mariners",
@@ -35311,5 +35373,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "11/08/26 12:30"
+  "alineaciones_actualizadas": "11/08/26 13:00"
 }
