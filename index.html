@@ -158,6 +158,7 @@
   <div class="tab" onclick="showTab('efectividad')">📊 Efectividad</div>
   <div class="tab" onclick="showTab('tendencia')">📈 Tendencia</div>
   <div class="tab" onclick="showTab('rotas')">💔 Rotas</div>
+  <div class="tab" onclick="showTab('resultado')">🔍 Resultado</div>
 </div>
 </div>
 <div id="filtro-bar" class="filtro-section">
@@ -175,15 +176,16 @@
   <div id="tab-efectividad" style="display:none"></div>
   <div id="tab-tendencia" style="display:none"></div>
   <div id="tab-rotas" style="display:none"></div>
+  <div id="tab-resultado" style="display:none"></div>
 </div>
 <script>
 const DATA_URL = 'https://raw.githubusercontent.com/edwardmanz1402/rachas-mlb/main/data.json';
 let globalData = null;
 
 function showTab(tab) {
-  ['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas'].forEach(t => {
+  ['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas','resultado'].forEach(t => {
     document.getElementById('tab-'+t).style.display = t===tab?'block':'none';
-    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas'].indexOf(t)].classList.toggle('active',t===tab);
+    document.querySelectorAll('.tab')[['equipos','ranking','candidatos','candidatos1j','juegos','efectividad','tendencia','rotas','resultado'].indexOf(t)].classList.toggle('active',t===tab);
   });
   document.getElementById('filtro-bar').style.display = tab==='equipos'?'flex':'none';
 }
@@ -602,7 +604,7 @@ function renderJuegos(data) {
   }
   const act = data.alineaciones_actualizadas || '';
   let html = '<div style="padding:8px 12px;font-size:11px;color:#64748b;text-align:center">Alineaciones actualizadas: '+act+'</div>';
-  
+
   juegos.forEach(j => {
     const confirmado = j.alineacion_confirmada;
     html += '<div class="equipo-card" style="margin-bottom:12px">'+
@@ -610,7 +612,7 @@ function renderJuegos(data) {
       '<div style="font-family:Oswald,sans-serif;font-size:16px;color:#93c5fd;letter-spacing:1px">⚾ '+j.away+' vs '+j.home+'</div>'+
       '<div style="font-size:10px;color:#64748b;margin-top:2px">'+(confirmado?'✅ Alineaciones confirmadas':'⏳ Alineaciones pendientes')+'</div>'+
       '</div>';
-    
+
     const awayPitcher = j.away_pitcher || null;
     const homePitcher = j.home_pitcher || null;
     if(awayPitcher || homePitcher) {
@@ -645,12 +647,12 @@ function renderJuegos(data) {
       const racha = edata.racha || [];
       const c2j = edata.candidatos_2j || [];
       const c1j = edata.candidatos_1j || [];
-      
+
       if(!racha.length && !c2j.length && !c1j.length) return;
-      
+
       html += '<div style="padding:10px 12px;border-top:1px solid #1e293b">'+
         '<div style="font-family:Oswald,sans-serif;font-size:13px;color:#60a5fa;margin-bottom:8px">🏟 '+equipo.toUpperCase()+'</div>';
-      
+
       // Racha 3+
       racha.forEach(p => {
         const avg = (p.avg*1000).toFixed(0).padStart(3,'0');
@@ -663,7 +665,7 @@ function renderJuegos(data) {
           '</div>'+
           '</div>';
       });
-      
+
       // Candidatos 2j
       c2j.forEach(p => {
         const conf = confirmado ? (p.confirmado?'✅':'❌') : '⏳';
@@ -677,7 +679,7 @@ function renderJuegos(data) {
           '<div style="font-family:Oswald,sans-serif;font-size:20px;font-weight:700;color:'+color+'">'+p.prob+'%</div>'+
           '</div>';
       });
-      
+
       // Candidatos 1j
       c1j.forEach(p => {
         const conf = confirmado ? (p.confirmado?'✅':'❌') : '⏳';
@@ -691,13 +693,13 @@ function renderJuegos(data) {
           '<div style="font-family:Oswald,sans-serif;font-size:20px;font-weight:700;color:'+color+'">'+p.prob+'%</div>'+
           '</div>';
       });
-      
+
       html += '</div>';
     });
-    
+
     html += '</div>';
   });
-  
+
   div.innerHTML = html;
 }
 
@@ -747,19 +749,19 @@ function renderEfectividad(data) {
   const div = document.getElementById('tab-efectividad');
   const ef = data.efectividad || {};
   const pred = data.predicciones_hoy || {};
-  
+
   let html = '<div class="equipo-card">';
-  
+
   // Header
   html += '<div class="ranking-header"><span class="ranking-title">📊 Efectividad Histórica</span></div>';
-  
+
   // Stats por tipo
   const tipos = [
     {key: '1J→2J', emoji: '🎯', color: '#22c55e', label: 'Candidatos 1J→2J (Top 15)'},
     {key: '2J→3J', emoji: '🚨', color: '#f59e0b', label: 'Candidatos 2J→3J (Top 15)'},
     {key: 'RACHA', emoji: '🔥', color: '#f87171', label: 'Jugadores en Racha'}
   ];
-  
+
   tipos.forEach(t => {
     const e = ef[t.key] || {total: 0, aciertos: 0, pct: 0};
     const pct = e.pct || 0;
@@ -782,13 +784,13 @@ function renderEfectividad(data) {
       '</div>'+
       '</div>';
   });
-  
+
   html += '</div>';
-  
+
   // Predicciones de hoy
   html += '<div class="equipo-card" style="margin-top:10px">';
   html += '<div class="ranking-header"><span class="ranking-title">🎯 Predicciones de Hoy</span></div>';
-  
+
   ['1J→2J','2J→3J'].forEach(tipo => {
     const lista = pred[tipo] || [];
     if(!lista.length) return;
@@ -804,7 +806,7 @@ function renderEfectividad(data) {
     });
     html += '</div>';
   });
-  
+
   // RACHA por equipo
   const rachaEquipos = pred['RACHA_por_equipo'] || {};
   const equiposConRacha = Object.keys(rachaEquipos).filter(eq => rachaEquipos[eq].length > 0).sort();
@@ -971,6 +973,118 @@ function toggleDetalleTipo(el) {
   if (arrow) arrow.textContent = abierto ? '▼' : '▲';
 }
 
+// ── Tab "Resultado" — detalle del día más reciente con turno del primer hit ──
+const _cacheScheduleTurno = {};
+const _cacheLiveFeedTurno = {};
+
+async function _obtenerGamePkParaEquipo(equipo, fecha) {
+  if (!_cacheScheduleTurno[fecha]) {
+    _cacheScheduleTurno[fecha] = fetch('https://statsapi.mlb.com/api/v1/schedule?sportId=1&date=' + fecha)
+      .then(r => r.json()).catch(() => null);
+  }
+  const data = await _cacheScheduleTurno[fecha];
+  if (!data) return null;
+  const juegos = (data.dates && data.dates[0] && data.dates[0].games) || [];
+  const g = juegos.find(gm => gm.teams.away.team.name === equipo || gm.teams.home.team.name === equipo);
+  return g ? g.gamePk : null;
+}
+
+async function _obtenerTurnoPrimerHit(equipo, jugador, fecha) {
+  try {
+    const gamePk = await _obtenerGamePkParaEquipo(equipo, fecha);
+    if (!gamePk) return null;
+    if (!_cacheLiveFeedTurno[gamePk]) {
+      _cacheLiveFeedTurno[gamePk] = fetch('https://statsapi.mlb.com/api/v1.1/game/' + gamePk + '/feed/live')
+        .then(r => r.json()).catch(() => null);
+    }
+    const liveData = await _cacheLiveFeedTurno[gamePk];
+    if (!liveData) return null;
+    const plays = (liveData.liveData && liveData.liveData.plays && liveData.liveData.plays.allPlays) || [];
+    const eventosHit = { single: true, double: true, triple: true, home_run: true };
+    const contador = {};
+    for (const jugada of plays) {
+      const bateador = jugada.matchup && jugada.matchup.batter && jugada.matchup.batter.fullName;
+      if (!bateador) continue;
+      contador[bateador] = (contador[bateador] || 0) + 1;
+      if (bateador === jugador) {
+        const eventType = jugada.result && jugada.result.eventType;
+        if (eventosHit[eventType]) return contador[bateador];
+      }
+    }
+    return null;
+  } catch (e) {
+    return null;
+  }
+}
+
+function renderResultadoDetalle(data) {
+  const div = document.getElementById('tab-resultado');
+  const efDiaria = data.efectividad_diaria || {};
+  const detalleGlobal = data.detalle_predicciones || {};
+  const fechas = Object.keys(efDiaria).sort();
+  if (!fechas.length) {
+    div.innerHTML = '<div class="empty"><div class="empty-icon">🔍</div><div>Aun no hay historial suficiente</div></div>';
+    return;
+  }
+  const fecha = fechas[fechas.length - 1];
+  const diaDetalle = detalleGlobal[fecha] || {};
+  const tiposR = [
+    { key: '1J→2J', emoji: '🎯', color: '#22c55e' },
+    { key: '2J→3J', emoji: '🚨', color: '#f59e0b' },
+    { key: 'RACHA', emoji: '🔥', color: '#f87171' }
+  ];
+
+  let html = '<div class="equipo-card">';
+  html += '<div class="ranking-header"><span class="ranking-title">🔍 Resultado a Detalle</span><span style="font-size:11px;color:#64748b">' + fecha + '</span></div>';
+  html += '<div style="padding:6px 14px 2px;font-size:10px;color:#64748b">Turno del hit calculado en vivo — puede tardar unos segundos en aparecer</div>';
+
+  const pendientesTurno = []; // {jugador, equipo, elId}
+  let idx = 0;
+
+  tiposR.forEach(t => {
+    const lista = diaDetalle[t.key] || [];
+    if (!lista.length) return;
+    html += '<div style="padding:10px 14px;border-top:1px solid #1e293b">';
+    html += '<div style="font-family:Oswald,sans-serif;font-size:12px;color:' + t.color + ';letter-spacing:1px;margin-bottom:8px">' + t.emoji + ' ' + t.key + '</div>';
+    lista.forEach(p => {
+      const acerto = p.dio_hit === 1;
+      const icono = acerto ? '✅' : '❌';
+      const colorFila = acerto ? '#34d399' : '#f87171';
+      const elId = 'turno-detalle-' + idx;
+      idx++;
+      html += '<div style="padding:5px 0;border-bottom:1px solid #0d1117">' +
+        '<div style="display:flex;justify-content:space-between;align-items:center">' +
+        '<span style="font-size:13px">' + icono + ' ' + p.jugador + ' <span style="color:#64748b">(' + p.equipo + ')</span></span>' +
+        '<span style="color:' + colorFila + '">' + Math.round(p.prob) + '%</span>' +
+        '</div>';
+      if (acerto) {
+        html += '<div id="' + elId + '" style="font-size:11px;color:#a78bfa;margin-top:2px">⏳ calculando turno...</div>';
+        pendientesTurno.push({ jugador: p.jugador, equipo: p.equipo, elId });
+      }
+      html += '</div>';
+    });
+    html += '</div>';
+  });
+
+  html += '</div>';
+  div.innerHTML = html;
+
+  // Calcular turnos en segundo plano, uno por uno, y actualizar cada línea al resolver.
+  pendientesTurno.forEach(item => {
+    _obtenerTurnoPrimerHit(item.equipo, item.jugador, fecha).then(turno => {
+      const el = document.getElementById(item.elId);
+      if (!el) return;
+      if (turno === null || turno === undefined) {
+        el.textContent = '— turno no disponible';
+        el.style.color = '#64748b';
+      } else {
+        const ordinal = turno === 1 ? '1er' : turno === 2 ? '2do' : turno === 3 ? '3er' : turno + 'to';
+        el.textContent = '🕐 hit en su ' + ordinal + ' turno al bate';
+      }
+    });
+  });
+}
+
 function renderRotas(data) {
   const div=document.getElementById('tab-rotas');
   if(!data.rotas_hoy||!data.rotas_hoy.length){div.innerHTML='<div class="empty"><div class="empty-icon">💚</div><div>Ninguna racha rota hoy</div></div>';return;}
@@ -1008,6 +1122,7 @@ fetch(DATA_URL+'?t='+Date.now()).then(r=>r.json()).then(data=>{
   renderEfectividad(data);
   renderTendencia(data);
   renderRotas(data);
+  renderResultadoDetalle(data);
 }).catch(()=>{
   document.getElementById('tab-equipos').innerHTML='<div class="empty"><div class="empty-icon">⚠️</div><div>Error cargando datos</div></div>';
 });
