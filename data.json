@@ -34840,7 +34840,17 @@
       "home": "San Diego Padres",
       "game_id": 823264,
       "fecha": "2026-08-11",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Garrett Mitchell",
+        "Jake Bauers",
+        "William Contreras",
+        "Christian Yelich",
+        "Luis Lara",
+        "David Hamilton",
+        "Jihwan Bae"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Luis Rengifo",
@@ -34852,7 +34862,7 @@
         "Xander Bogaerts",
         "Jake Cronenworth"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -34863,7 +34873,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 56.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Bauers",
@@ -34873,7 +34883,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 61.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -34882,14 +34892,7 @@
             "prob": 71,
             "prob_2j_3j": 73.7,
             "pct_hit": 74.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gary Sánchez",
-            "prob": 27,
-            "prob_2j_3j": 22.2,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34898,7 +34901,7 @@
             "prob": 32,
             "prob_1j_2j": 0,
             "pct_hit": 43.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35204,9 +35207,19 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823917,
       "fecha": "2026-08-11",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nick Loftin",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Carter Jensen",
+        "Michael Massey",
+        "Tyler Tolbert",
+        "John Rave",
+        "Kyle Isbel"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -35217,7 +35230,7 @@
             "prob_3j_4j": 46.2,
             "pct_hit": 62.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Massey",
@@ -35227,39 +35240,31 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 55.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Josh Rojas",
-            "prob": 22,
-            "prob_2j_3j": 0,
-            "pct_hit": 36.4,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Kyle Isbel",
             "prob": 58,
             "prob_1j_2j": 67.9,
             "pct_hit": 48.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Loftin",
             "prob": 44,
             "prob_1j_2j": 46.4,
             "pct_hit": 47.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "John Rave",
             "prob": 31,
             "prob_1j_2j": 0,
             "pct_hit": 46.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35387,5 +35392,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "11/08/26 16:00"
+  "alineaciones_actualizadas": "11/08/26 16:30"
 }
