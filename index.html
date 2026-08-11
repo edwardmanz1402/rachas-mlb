@@ -1046,23 +1046,44 @@ function renderResultadoDetalle(data) {
     if (!lista.length) return;
     html += '<div style="padding:10px 14px;border-top:1px solid #1e293b">';
     html += '<div style="font-family:Oswald,sans-serif;font-size:12px;color:' + t.color + ';letter-spacing:1px;margin-bottom:8px">' + t.emoji + ' ' + t.key + '</div>';
-    lista.forEach(p => {
+
+    function renderFilaJugador(p) {
       const acerto = p.dio_hit === 1;
       const icono = acerto ? '✅' : '❌';
       const colorFila = acerto ? '#34d399' : '#f87171';
       const elId = 'turno-detalle-' + idx;
       idx++;
-      html += '<div style="padding:5px 0;border-bottom:1px solid #0d1117">' +
+      let fila = '<div style="padding:5px 0;border-bottom:1px solid #0d1117">' +
         '<div style="display:flex;justify-content:space-between;align-items:center">' +
         '<span style="font-size:13px">' + icono + ' ' + p.jugador + ' <span style="color:#64748b">(' + p.equipo + ')</span></span>' +
         '<span style="color:' + colorFila + '">' + Math.round(p.prob) + '%</span>' +
         '</div>';
       if (acerto) {
-        html += '<div id="' + elId + '" style="font-size:11px;color:#a78bfa;margin-top:2px">⏳ calculando turno...</div>';
+        fila += '<div id="' + elId + '" style="font-size:11px;color:#a78bfa;margin-top:2px">⏳ calculando turno...</div>';
         pendientesTurno.push({ jugador: p.jugador, equipo: p.equipo, elId });
       }
-      html += '</div>';
-    });
+      fila += '</div>';
+      return fila;
+    }
+
+    if (t.key === 'RACHA') {
+      const porEquipo = {};
+      lista.forEach(p => {
+        porEquipo[p.equipo] = porEquipo[p.equipo] || [];
+        porEquipo[p.equipo].push(p);
+      });
+      Object.keys(porEquipo).sort().forEach(eq => {
+        html += '<div style="padding:4px 8px;font-size:10px;color:#60a5fa;text-transform:uppercase;letter-spacing:0.5px;background:rgba(37,99,235,0.08);margin-top:6px">' + eq + '</div>';
+        porEquipo[eq].forEach(p => {
+          html += renderFilaJugador(p);
+        });
+      });
+    } else {
+      lista.forEach(p => {
+        html += renderFilaJugador(p);
+      });
+    }
+
     html += '</div>';
   });
 
