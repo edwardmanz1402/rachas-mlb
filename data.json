@@ -33685,7 +33685,17 @@
       "home": "Minnesota Twins",
       "game_id": 823673,
       "fecha": "2026-08-11",
-      "away_lineup": [],
+      "away_lineup": [
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Tyler O'Neill",
+        "Christian Encarnacion-Strand",
+        "Coby Mayo",
+        "Christian Franklin",
+        "Jeremiah Jackson",
+        "Yohel Pozo"
+      ],
       "home_lineup": [
         "Trevor Larnach",
         "Ryan Jeffers",
@@ -33697,19 +33707,9 @@
         "Alan Roden",
         "Kaelen Culpepper"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Colton Cowser",
-            "juegos": 4,
-            "avg": 0.385,
-            "prob_2j_3j": 54.5,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 42.7,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Pete Alonso",
             "juegos": 3,
@@ -33718,7 +33718,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 64.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Holliday",
@@ -33728,7 +33728,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 41.1,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Coby Mayo",
@@ -33738,18 +33738,10 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 50.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Leody Taveras",
-            "prob": 43,
-            "prob_2j_3j": 40.0,
-            "pct_hit": 54.5,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": []
       },
       "home_data": {
@@ -33893,22 +33885,31 @@
       "home": "Chicago White Sox",
       "game_id": 824563,
       "fecha": "2026-08-11",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Eugenio Suárez",
+        "Héctor Rodríguez",
+        "Dane Myers",
+        "Matt McLain",
+        "Ke'Bryan Hayes"
+      ],
+      "home_lineup": [
+        "Brenton Doyle",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Randal Grichuk",
+        "Braden Montgomery",
+        "Colson Montgomery",
+        "Edgar Quero",
+        "Sam Antonacci",
+        "Luisangel Acuña"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Noelvi Marte",
-            "juegos": 4,
-            "avg": 0.308,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 57.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [],
         "candidatos_1j": []
       },
@@ -33922,17 +33923,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 62.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Chase Meidroth",
-            "juegos": 3,
-            "avg": 0.357,
-            "prob_2j_3j": 70.4,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 68.9,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -34031,7 +34022,17 @@
       "game_id": 823019,
       "fecha": "2026-08-11",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Jordan Walker",
+        "Alec Burleson",
+        "José Fermín",
+        "Masyn Winn",
+        "Blaze Jordan",
+        "Everson Pereira",
+        "Pedro Pagés"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -34112,7 +34113,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 74.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Jordan",
@@ -34122,7 +34123,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 58.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
@@ -34132,7 +34133,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 64.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Masyn Winn",
@@ -34142,17 +34143,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 61.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Nathan Church",
-            "juegos": 3,
-            "avg": 0.308,
-            "prob_2j_3j": 53.3,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 53.5,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -34161,7 +34152,7 @@
             "prob": 72,
             "prob_2j_3j": 77.8,
             "pct_hit": 68.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34170,7 +34161,7 @@
             "prob": 55,
             "prob_1j_2j": 61.3,
             "pct_hit": 47.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35415,5 +35406,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "11/08/26 14:00"
+  "alineaciones_actualizadas": "11/08/26 14:30"
 }
