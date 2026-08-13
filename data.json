@@ -33563,9 +33563,19 @@
       "home": "New York Yankees",
       "game_id": 823508,
       "fecha": "2026-08-13",
-      "away_lineup": [],
+      "away_lineup": [
+        "Randy Arozarena",
+        "Julio Rodríguez",
+        "Dominic Canzone",
+        "Cal Raleigh",
+        "Josh Naylor",
+        "Brendan Donovan",
+        "Weston Wilson",
+        "Jhonny Pereda",
+        "Leo Rivas"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -33576,7 +33586,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 66.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
@@ -33586,7 +33596,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 50.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brendan Donovan",
@@ -33596,7 +33606,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 59.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -33605,37 +33615,23 @@
             "prob": 68,
             "prob_2j_3j": 71.4,
             "pct_hit": 65.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Cole Young",
-            "prob": 70,
-            "prob_1j_2j": 70.8,
-            "pct_hit": 67.5,
-            "confirmado": false
-          },
           {
             "jugador": "Julio Rodríguez",
             "prob": 67,
             "prob_1j_2j": 67.8,
             "pct_hit": 68.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Taylor Ward",
-            "prob": 66,
-            "prob_1j_2j": 65.6,
-            "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cal Raleigh",
             "prob": 53,
             "prob_1j_2j": 56.2,
             "pct_hit": 48.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -33808,7 +33804,17 @@
         "Matt McLain",
         "Ke'Bryan Hayes"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Chase Meidroth",
+        "Randal Grichuk",
+        "Miguel Vargas",
+        "Braden Montgomery",
+        "Brenton Doyle",
+        "Colson Montgomery",
+        "Edgar Quero",
+        "Sam Antonacci",
+        "Luisangel Acuña"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -33836,7 +33842,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 69.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brenton Doyle",
@@ -33846,7 +33852,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 52.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Vargas",
@@ -33856,7 +33862,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 62.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -33865,7 +33871,7 @@
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -33874,35 +33880,21 @@
             "prob": 62,
             "prob_1j_2j": 64.2,
             "pct_hit": 54.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tristan Peters",
-            "prob": 57,
-            "prob_1j_2j": 61.2,
-            "pct_hit": 52.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Braden Montgomery",
             "prob": 50,
             "prob_1j_2j": 52.9,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Edgar Quero",
             "prob": 32,
             "prob_1j_2j": 33.3,
             "pct_hit": 40.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drew Romo",
-            "prob": 19,
-            "prob_1j_2j": 16.7,
-            "pct_hit": 31.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35129,5 +35121,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/08/26 08:30"
+  "alineaciones_actualizadas": "13/08/26 09:00"
 }
