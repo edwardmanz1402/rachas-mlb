@@ -34244,7 +34244,7 @@
       "fecha": "2026-08-13",
       "away_lineup": [
         "Pete Crow-Armstrong",
-        "Seiya Suzuki",
+        "Tyrone Taylor",
         "James Triantos",
         "Alex Bregman",
         "Ian Happ",
@@ -34298,15 +34298,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Seiya Suzuki",
-            "prob": 65,
-            "prob_2j_3j": 68.2,
-            "pct_hit": 64.9,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Dansby Swanson",
@@ -34408,20 +34400,20 @@
       },
       "home_pitcher": {
         "nombre": "Cade Cavalli",
-        "avg_contra": ".250",
-        "era": "3.38",
-        "whip": "1.25",
-        "k9": "9.88",
-        "h9": "8.56",
-        "ip_temporada": "135.2",
+        "avg_contra": ".248",
+        "era": "3.36",
+        "whip": "1.24",
+        "k9": "9.94",
+        "h9": "8.50",
+        "ip_temporada": "136.2",
         "ultimas4": [
           {
             "fecha": "2026-08-13",
-            "ip": "7.0",
-            "k": 8,
+            "ip": "8.0",
+            "k": 10,
             "h": 1,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-07",
@@ -34871,7 +34863,17 @@
       "game_id": 823915,
       "fecha": "2026-08-13",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Tommy Edman",
+        "Freddie Freeman",
+        "Teoscar Hernández",
+        "Miguel Rojas",
+        "Kyle Tucker",
+        "Enrique Hernández",
+        "Ben Rortvedt"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -34909,32 +34911,21 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Mookie Betts",
-            "juegos": 3,
-            "avg": 0.545,
-            "prob_2j_3j": 46.2,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 55.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Andy Pages",
             "prob": 68,
             "prob_2j_3j": 66.7,
             "pct_hit": 68.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Rojas",
             "prob": 44,
             "prob_2j_3j": 50.0,
             "pct_hit": 45.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34943,28 +34934,14 @@
             "prob": 73,
             "prob_1j_2j": 73.8,
             "pct_hit": 71.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Freddie Freeman",
             "prob": 72,
             "prob_1j_2j": 71.6,
             "pct_hit": 70.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Hunter Feduccia",
-            "prob": 42,
-            "prob_1j_2j": 40.9,
-            "pct_hit": 51.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alex Call",
-            "prob": 38,
-            "prob_1j_2j": 39.1,
-            "pct_hit": 47.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35056,5 +35033,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/08/26 16:00"
+  "alineaciones_actualizadas": "13/08/26 16:30"
 }
