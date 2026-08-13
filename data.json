@@ -33360,6 +33360,203 @@
       }
     },
     {
+      "away": "Cincinnati Reds",
+      "home": "Chicago White Sox",
+      "game_id": 824561,
+      "fecha": "2026-08-13",
+      "away_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Eugenio Suárez",
+        "Dane Myers",
+        "Héctor Rodríguez",
+        "Matt McLain",
+        "Ke'Bryan Hayes"
+      ],
+      "home_lineup": [
+        "Chase Meidroth",
+        "Randal Grichuk",
+        "Miguel Vargas",
+        "Braden Montgomery",
+        "Brenton Doyle",
+        "Colson Montgomery",
+        "Edgar Quero",
+        "Sam Antonacci",
+        "Luisangel Acuña"
+      ],
+      "alineacion_confirmada": true,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Sal Stewart",
+            "juegos": 4,
+            "avg": 0.294,
+            "prob_2j_3j": 59.3,
+            "prob_3j_4j": 61.5,
+            "pct_hit": 66.4,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": true
+          }
+        ],
+        "candidatos_2j": [],
+        "candidatos_1j": []
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Chase Meidroth",
+            "juegos": 4,
+            "avg": 0.389,
+            "prob_2j_3j": 70.4,
+            "prob_3j_4j": 71.4,
+            "pct_hit": 69.2,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": true
+          },
+          {
+            "jugador": "Brenton Doyle",
+            "juegos": 3,
+            "avg": 0.333,
+            "prob_2j_3j": 33.3,
+            "prob_3j_4j": 0,
+            "pct_hit": 52.2,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
+          },
+          {
+            "jugador": "Miguel Vargas",
+            "juegos": 3,
+            "avg": 0.273,
+            "prob_2j_3j": 78.3,
+            "prob_3j_4j": 64.3,
+            "pct_hit": 62.4,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Sam Antonacci",
+            "prob": 61,
+            "prob_2j_3j": 63.2,
+            "pct_hit": 60.4,
+            "confirmado": true
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Colson Montgomery",
+            "prob": 62,
+            "prob_1j_2j": 64.2,
+            "pct_hit": 54.8,
+            "confirmado": true
+          },
+          {
+            "jugador": "Braden Montgomery",
+            "prob": 50,
+            "prob_1j_2j": 52.9,
+            "pct_hit": 54.5,
+            "confirmado": true
+          },
+          {
+            "jugador": "Edgar Quero",
+            "prob": 32,
+            "prob_1j_2j": 33.3,
+            "pct_hit": 40.0,
+            "confirmado": true
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Andrew Abbott",
+        "avg_contra": ".242",
+        "era": "3.92",
+        "whip": "1.39",
+        "k9": "6.92",
+        "h9": "8.25",
+        "ip_temporada": "128.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-06",
+            "ip": "6.2",
+            "k": 4,
+            "h": 7,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-01",
+            "ip": "5.0",
+            "k": 1,
+            "h": 3,
+            "er": 3,
+            "bb": 5
+          },
+          {
+            "fecha": "2026-07-26",
+            "ip": "6.0",
+            "k": 4,
+            "h": 3,
+            "er": 2,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-07-20",
+            "ip": "6.0",
+            "k": 6,
+            "h": 4,
+            "er": 0,
+            "bb": 2
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Davis Martin",
+        "avg_contra": ".266",
+        "era": "4.17",
+        "whip": "1.33",
+        "k9": "7.90",
+        "h9": "9.15",
+        "ip_temporada": "123.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-09",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "5.0",
+            "k": 1,
+            "h": 10,
+            "er": 9,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-29",
+            "ip": "6.0",
+            "k": 6,
+            "h": 5,
+            "er": 4,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-24",
+            "ip": "5.0",
+            "k": 3,
+            "h": 6,
+            "er": 4,
+            "bb": 0
+          }
+        ]
+      }
+    },
+    {
       "away": "Pittsburgh Pirates",
       "home": "Miami Marlins",
       "game_id": 823829,
@@ -33784,203 +33981,6 @@
             "h": 1,
             "er": 0,
             "bb": 1
-          }
-        ]
-      }
-    },
-    {
-      "away": "Cincinnati Reds",
-      "home": "Chicago White Sox",
-      "game_id": 824561,
-      "fecha": "2026-08-13",
-      "away_lineup": [
-        "Elly De La Cruz",
-        "Sal Stewart",
-        "JJ Bleday",
-        "Tyler Stephenson",
-        "Eugenio Suárez",
-        "Dane Myers",
-        "Héctor Rodríguez",
-        "Matt McLain",
-        "Ke'Bryan Hayes"
-      ],
-      "home_lineup": [
-        "Chase Meidroth",
-        "Randal Grichuk",
-        "Miguel Vargas",
-        "Braden Montgomery",
-        "Brenton Doyle",
-        "Colson Montgomery",
-        "Edgar Quero",
-        "Sam Antonacci",
-        "Luisangel Acuña"
-      ],
-      "alineacion_confirmada": true,
-      "away_data": {
-        "racha": [
-          {
-            "jugador": "Sal Stewart",
-            "juegos": 4,
-            "avg": 0.294,
-            "prob_2j_3j": 59.3,
-            "prob_3j_4j": 61.5,
-            "pct_hit": 66.4,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          }
-        ],
-        "candidatos_2j": [],
-        "candidatos_1j": []
-      },
-      "home_data": {
-        "racha": [
-          {
-            "jugador": "Chase Meidroth",
-            "juegos": 4,
-            "avg": 0.389,
-            "prob_2j_3j": 70.4,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 69.2,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
-          {
-            "jugador": "Brenton Doyle",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 0,
-            "pct_hit": 52.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Miguel Vargas",
-            "juegos": 3,
-            "avg": 0.273,
-            "prob_2j_3j": 78.3,
-            "prob_3j_4j": 64.3,
-            "pct_hit": 62.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          }
-        ],
-        "candidatos_2j": [
-          {
-            "jugador": "Sam Antonacci",
-            "prob": 61,
-            "prob_2j_3j": 63.2,
-            "pct_hit": 60.4,
-            "confirmado": true
-          }
-        ],
-        "candidatos_1j": [
-          {
-            "jugador": "Colson Montgomery",
-            "prob": 62,
-            "prob_1j_2j": 64.2,
-            "pct_hit": 54.8,
-            "confirmado": true
-          },
-          {
-            "jugador": "Braden Montgomery",
-            "prob": 50,
-            "prob_1j_2j": 52.9,
-            "pct_hit": 54.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Edgar Quero",
-            "prob": 32,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 40.0,
-            "confirmado": true
-          }
-        ]
-      },
-      "away_pitcher": {
-        "nombre": "Andrew Abbott",
-        "avg_contra": ".242",
-        "era": "3.92",
-        "whip": "1.39",
-        "k9": "6.92",
-        "h9": "8.25",
-        "ip_temporada": "128.2",
-        "ultimas4": [
-          {
-            "fecha": "2026-08-06",
-            "ip": "6.2",
-            "k": 4,
-            "h": 7,
-            "er": 3,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-08-01",
-            "ip": "5.0",
-            "k": 1,
-            "h": 3,
-            "er": 3,
-            "bb": 5
-          },
-          {
-            "fecha": "2026-07-26",
-            "ip": "6.0",
-            "k": 4,
-            "h": 3,
-            "er": 2,
-            "bb": 4
-          },
-          {
-            "fecha": "2026-07-20",
-            "ip": "6.0",
-            "k": 6,
-            "h": 4,
-            "er": 0,
-            "bb": 2
-          }
-        ]
-      },
-      "home_pitcher": {
-        "nombre": "Davis Martin",
-        "avg_contra": ".266",
-        "era": "4.17",
-        "whip": "1.33",
-        "k9": "7.90",
-        "h9": "9.15",
-        "ip_temporada": "123.0",
-        "ultimas4": [
-          {
-            "fecha": "2026-08-09",
-            "ip": "1.0",
-            "k": 1,
-            "h": 2,
-            "er": 1,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-08-04",
-            "ip": "5.0",
-            "k": 1,
-            "h": 10,
-            "er": 9,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-07-29",
-            "ip": "6.0",
-            "k": 6,
-            "h": 5,
-            "er": 4,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-07-24",
-            "ip": "5.0",
-            "k": 3,
-            "h": 6,
-            "er": 4,
-            "bb": 0
           }
         ]
       }
@@ -35121,5 +35121,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/08/26 09:00"
+  "alineaciones_actualizadas": "13/08/26 09:30"
 }
