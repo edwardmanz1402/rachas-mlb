@@ -33990,7 +33990,17 @@
       "home": "Toronto Blue Jays",
       "game_id": 822776,
       "fecha": "2026-08-13",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Masataka Yoshida",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Connor Wong"
+      ],
       "home_lineup": [
         "Charles McAdoo",
         "Ernie Clement",
@@ -34002,19 +34012,9 @@
         "Myles Straw",
         "Nathan Lukes"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Anthony Seigler",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 50.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
           {
             "jugador": "Jarren Duran",
             "juegos": 3,
@@ -34023,7 +34023,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 54.7,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Sogard",
@@ -34033,7 +34033,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 66.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ceddanne Rafaela",
@@ -34043,7 +34043,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 73.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -34052,14 +34052,14 @@
             "prob": 59,
             "prob_2j_3j": 56.5,
             "pct_hit": 61.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andruw Monasterio",
             "prob": 41,
             "prob_2j_3j": 40.0,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -34068,21 +34068,21 @@
             "prob": 69,
             "prob_1j_2j": 71.2,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Connor Wong",
             "prob": 62,
             "prob_1j_2j": 68.0,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Caleb Durbin",
             "prob": 59,
             "prob_1j_2j": 63.0,
             "pct_hit": 55.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -35104,5 +35104,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/08/26 10:00"
+  "alineaciones_actualizadas": "13/08/26 10:30"
 }
