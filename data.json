@@ -31571,7 +31571,7 @@
       "away_pitcher": {
         "nombre": "Matthew Liberatore",
         "avg_contra": ".285",
-        "era": "4.92",
+        "era": "5.07",
         "whip": "1.48",
         "k9": "8.77",
         "h9": "9.98",
@@ -31582,7 +31582,7 @@
             "ip": "5.1",
             "k": 6,
             "h": 2,
-            "er": 0,
+            "er": 2,
             "bb": 1
           },
           {
@@ -31613,20 +31613,20 @@
       },
       "home_pitcher": {
         "nombre": "Clay Holmes",
-        "avg_contra": ".206",
-        "era": "2.59",
+        "avg_contra": ".204",
+        "era": "2.56",
         "whip": "1.07",
-        "k9": "7.04",
-        "h9": "6.75",
-        "ip_temporada": "62.2",
+        "k9": "6.96",
+        "h9": "6.68",
+        "ip_temporada": "63.1",
         "ultimas4": [
           {
             "fecha": "2026-08-14",
-            "ip": "6.0",
+            "ip": "6.2",
             "k": 3,
             "h": 1,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-08",
@@ -32252,7 +32252,17 @@
       "home": "New York Mets",
       "game_id": 823591,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "CJ Abrams",
+        "Abimelec Ortiz",
+        "Brady House",
+        "Daylen Lile",
+        "Keibert Ruiz",
+        "José Tena",
+        "Nasim Nuñez",
+        "Jorbit Vivas",
+        "Jacob Young"
+      ],
       "home_lineup": [
         "A.J. Ewing",
         "Francisco Lindor",
@@ -32264,7 +32274,7 @@
         "Jared Young",
         "Luis Torrens"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32275,17 +32285,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 72.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
-          },
-          {
-            "jugador": "Harry Ford",
-            "juegos": 4,
-            "avg": 0.312,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 57.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brady House",
@@ -32295,7 +32295,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jorbit Vivas",
@@ -32305,7 +32305,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 50.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nasim Nuñez",
@@ -32315,7 +32315,7 @@
             "prob_3j_4j": 44.4,
             "pct_hit": 51.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -32324,14 +32324,14 @@
             "prob": 65,
             "prob_2j_3j": 65.2,
             "pct_hit": 61.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jacob Young",
             "prob": 59,
             "prob_2j_3j": 58.8,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -32340,28 +32340,14 @@
             "prob": 68,
             "prob_1j_2j": 70.3,
             "pct_hit": 66.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Dylan Crews",
-            "prob": 54,
-            "prob_1j_2j": 57.1,
-            "pct_hit": 58.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Tena",
             "prob": 43,
             "prob_1j_2j": 46.7,
             "pct_hit": 41.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "prob": 17,
-            "prob_1j_2j": 12.5,
-            "pct_hit": 34.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32642,7 +32628,17 @@
       "home": "Tampa Bay Rays",
       "game_id": 822942,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Coby Mayo",
+        "Tyler O'Neill",
+        "Gunnar Henderson",
+        "Christian Encarnacion-Strand",
+        "Leody Taveras",
+        "Colton Cowser",
+        "Carlos Narváez"
+      ],
       "home_lineup": [
         "Yandy Díaz",
         "Jonathan Aranda",
@@ -32654,7 +32650,7 @@
         "Richie Palacios",
         "Taylor Walls"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32665,7 +32661,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 65.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Leody Taveras",
@@ -32675,7 +32671,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 55.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -32975,7 +32971,17 @@
       "home": "Toronto Blue Jays",
       "game_id": 822777,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Spencer Jones",
+        "Luis García Jr.",
+        "Jazz Chisholm Jr.",
+        "Heliot Ramos",
+        "Ryan McMahon",
+        "Austin Wells",
+        "George Lombard Jr."
+      ],
       "home_lineup": [
         "Brett Bateman",
         "Nathan Lukes",
@@ -32987,7 +32993,7 @@
         "Jesús Sánchez",
         "Ernie Clement"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -32998,7 +33004,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 38.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trent Grisham",
@@ -33008,7 +33014,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 50.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -33018,14 +33024,7 @@
             "prob": 60,
             "prob_1j_2j": 59.3,
             "pct_hit": 58.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ali Sánchez",
-            "prob": 33,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 27.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -33166,7 +33165,17 @@
       "game_id": 824159,
       "fecha": "2026-08-14",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Taylor Trammell",
+        "Jose Altuve",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Cam Smith",
+        "Christian Vázquez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -33986,5 +33995,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/08/26 14:00"
+  "alineaciones_actualizadas": "14/08/26 14:30"
 }
