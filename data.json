@@ -31570,17 +31570,17 @@
       },
       "away_pitcher": {
         "nombre": "Matthew Liberatore",
-        "avg_contra": ".291",
-        "era": "5.13",
-        "whip": "1.52",
-        "k9": "8.68",
-        "h9": "10.26",
-        "ip_temporada": "114.0",
+        "avg_contra": ".288",
+        "era": "5.04",
+        "whip": "1.49",
+        "k9": "8.69",
+        "h9": "10.09",
+        "ip_temporada": "116.0",
         "ultimas4": [
           {
             "fecha": "2026-08-14",
-            "ip": "0.2",
-            "k": 0,
+            "ip": "2.0",
+            "k": 1,
             "h": 0,
             "er": 0,
             "bb": 0
@@ -31613,17 +31613,17 @@
       },
       "home_pitcher": {
         "nombre": "Clay Holmes",
-        "avg_contra": ".217",
-        "era": "2.81",
-        "whip": "1.14",
-        "k9": "7.18",
-        "h9": "7.18",
-        "ip_temporada": "57.2",
+        "avg_contra": ".211",
+        "era": "2.72",
+        "whip": "1.11",
+        "k9": "7.24",
+        "h9": "6.94",
+        "ip_temporada": "59.2",
         "ultimas4": [
           {
             "fecha": "2026-08-14",
-            "ip": "1.0",
-            "k": 0,
+            "ip": "3.0",
+            "k": 2,
             "h": 0,
             "er": 0,
             "bb": 0
@@ -31856,21 +31856,21 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823346,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nick Sogard",
+        "Masataka Yoshida",
+        "Adley Rutschman",
+        "Willson Contreras",
+        "Wilyer Abreu",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Eli White"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Ceddanne Rafaela",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 63.0,
-            "prob_3j_4j": 61.5,
-            "pct_hit": 74.0,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
           {
             "jugador": "Wilyer Abreu",
             "juegos": 3,
@@ -31879,7 +31879,7 @@
             "prob_3j_4j": 45.5,
             "pct_hit": 61.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andruw Monasterio",
@@ -31889,7 +31889,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 58.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -31898,14 +31898,14 @@
             "prob": 72,
             "prob_2j_3j": 75.0,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Caleb Durbin",
             "prob": 51,
             "prob_2j_3j": 52.6,
             "pct_hit": 55.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -31914,7 +31914,7 @@
             "prob": 61,
             "prob_1j_2j": 67.6,
             "pct_hit": 56.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32081,7 +32081,17 @@
       "game_id": 824237,
       "fecha": "2026-08-14",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Kevin McGonigle",
+        "Eduardo Valencia",
+        "Colt Keith",
+        "Spencer Torkelson",
+        "Zach McKinstry",
+        "Ben Malgeri",
+        "Max Clark"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -32166,17 +32176,7 @@
             "prob_3j_4j": 37.5,
             "pct_hit": 56.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Javier Báez",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 63.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eduardo Valencia",
@@ -32186,7 +32186,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -32196,7 +32196,7 @@
             "prob": 77,
             "prob_1j_2j": 78.6,
             "pct_hit": 73.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -33932,5 +33932,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/08/26 12:30"
+  "alineaciones_actualizadas": "14/08/26 13:00"
 }
