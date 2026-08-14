@@ -33164,7 +33164,17 @@
       "home": "Houston Astros",
       "game_id": 824159,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Cole Young",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Brendan Donovan",
+        "Cal Raleigh",
+        "Victor Robles",
+        "Brock Rodden"
+      ],
       "home_lineup": [
         "Jeremy Peña",
         "Yordan Alvarez",
@@ -33176,7 +33186,7 @@
         "Cam Smith",
         "Christian Vázquez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -33187,7 +33197,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Randy Arozarena",
@@ -33197,7 +33207,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 65.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -33206,32 +33216,10 @@
             "prob": 70,
             "prob_2j_3j": 73.9,
             "pct_hit": 68.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Taylor Ward",
-            "prob": 66,
-            "prob_1j_2j": 65.6,
-            "pct_hit": 60.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jhonny Pereda",
-            "prob": 62,
-            "prob_1j_2j": 69.2,
-            "pct_hit": 65.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Weston Wilson",
-            "prob": 38,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 44.4,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [],
@@ -33883,9 +33871,19 @@
       "home": "San Francisco Giants",
       "game_id": 823185,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Mickey Moniak",
+        "Willi Castro",
+        "TJ Rumfield",
+        "Troy Johnston",
+        "Connor Norby",
+        "Zac Veen",
+        "Ezequiel Tovar",
+        "Brett Sullivan"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -33995,5 +33993,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/08/26 14:30"
+  "alineaciones_actualizadas": "14/08/26 15:00"
 }
