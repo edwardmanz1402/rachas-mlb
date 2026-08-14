@@ -31495,9 +31495,19 @@
       "home": "Chicago Cubs",
       "game_id": 824643,
       "fecha": "2026-08-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Nathan Church",
+        "Masyn Winn",
+        "Bryan Torres",
+        "José Fermín",
+        "César Prieto"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -31508,7 +31518,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 54.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Burleson",
@@ -31518,7 +31528,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 69.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -33825,5 +33835,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/08/26 09:30"
+  "alineaciones_actualizadas": "14/08/26 10:00"
 }
