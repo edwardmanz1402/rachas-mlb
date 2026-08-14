@@ -31661,7 +31661,17 @@
       "game_id": 824479,
       "fecha": "2026-08-14",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Eugenio Suárez",
+        "Michael Toglia",
+        "Dane Myers",
+        "Noelvi Marte",
+        "Matt McLain"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -31719,7 +31729,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -31729,35 +31739,28 @@
             "prob": 67,
             "prob_1j_2j": 69.8,
             "pct_hit": 70.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler Stephenson",
             "prob": 56,
             "prob_1j_2j": 58.5,
             "pct_hit": 57.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dane Myers",
             "prob": 54,
             "prob_1j_2j": 61.5,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eugenio Suárez",
             "prob": 47,
             "prob_1j_2j": 50.0,
             "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ke'Bryan Hayes",
-            "prob": 37,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 35.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -32700,7 +32703,49 @@
         "candidatos_2j": [],
         "candidatos_1j": []
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Chris Bassitt",
+        "avg_contra": ".307",
+        "era": "5.27",
+        "whip": "1.63",
+        "k9": "5.91",
+        "h9": "11.18",
+        "ip_temporada": "56.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-06-03",
+            "ip": "3.0",
+            "k": 1,
+            "h": 6,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-05-28",
+            "ip": "6.0",
+            "k": 2,
+            "h": 4,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-05-22",
+            "ip": "4.1",
+            "k": 4,
+            "h": 6,
+            "er": 3,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-05-16",
+            "ip": "5.0",
+            "k": 4,
+            "h": 6,
+            "er": 4,
+            "bb": 1
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Steven Matz",
         "avg_contra": ".238",
@@ -33887,5 +33932,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/08/26 11:30"
+  "alineaciones_actualizadas": "14/08/26 12:00"
 }
