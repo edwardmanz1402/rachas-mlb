@@ -36913,9 +36913,19 @@
       "home": "Chicago Cubs",
       "game_id": 824644,
       "fecha": "2026-08-15",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Jordan Walker",
+        "Alec Burleson",
+        "Joshua Báez",
+        "Masyn Winn",
+        "Blaze Jordan",
+        "Everson Pereira",
+        "Pedro Pagés"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -36924,32 +36934,17 @@
             "prob": 61,
             "prob_2j_3j": 60.0,
             "pct_hit": 63.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Everson Pereira",
             "prob": 27,
             "prob_2j_3j": 25.0,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "José Fermín",
-            "prob": 55,
-            "prob_1j_2j": 61.3,
-            "pct_hit": 47.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "prob": 36,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 39.5,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -39729,5 +39724,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 09:00"
+  "alineaciones_actualizadas": "15/08/26 09:30"
 }
