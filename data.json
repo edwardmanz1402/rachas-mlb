@@ -37082,7 +37082,17 @@
       "home": "Toronto Blue Jays",
       "game_id": 822775,
       "fecha": "2026-08-15",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Heliot Ramos",
+        "Luis García Jr.",
+        "Spencer Jones",
+        "Jazz Chisholm Jr.",
+        "George Lombard Jr.",
+        "Ryan McMahon",
+        "Austin Wells"
+      ],
       "home_lineup": [
         "Brett Bateman",
         "Nathan Lukes",
@@ -37094,7 +37104,7 @@
         "Josh Smith",
         "Charles McAdoo"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -37105,7 +37115,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 51.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -37115,28 +37125,21 @@
             "prob": 54,
             "prob_1j_2j": 52.8,
             "pct_hit": 57.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan McMahon",
             "prob": 46,
             "prob_1j_2j": 48.5,
             "pct_hit": 45.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ali Sánchez",
-            "prob": 33,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 27.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Jones",
             "prob": 32,
             "prob_1j_2j": 36.4,
             "pct_hit": 34.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39713,5 +39716,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 10:00"
+  "alineaciones_actualizadas": "15/08/26 10:30"
 }
