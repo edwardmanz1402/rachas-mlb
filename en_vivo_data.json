@@ -1,13 +1,13 @@
 {
-  "actualizado": "14/08/26 20:30:04",
+  "actualizado": "14/08/26 20:35:04",
   "juegos_en_vivo": [
     {
       "away": "Seattle Mariners",
       "home": "Houston Astros",
-      "entrada": 7,
-      "estado_entrada": "Bottom",
-      "equipo_al_bate": "Houston Astros",
-      "bateador_actual": "Taylor Trammell",
+      "entrada": 8,
+      "estado_entrada": "Top",
+      "equipo_al_bate": "Seattle Mariners",
+      "bateador_actual": "Julio Rodríguez",
       "candidatos": [
         {
           "jugador": "Randy Arozarena",
@@ -19,7 +19,7 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 7,
           "turnos_restantes_minimo_garantizado": 1,
           "outs_equipo_hechos": 19,
           "outs_equipo_restantes": 8,
@@ -34,8 +34,8 @@
           "ab": 3,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 1,
           "outs_equipo_hechos": 19,
           "outs_equipo_restantes": 8,
@@ -51,7 +51,7 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 1,
           "outs_equipo_hechos": 19,
           "outs_equipo_restantes": 8,
@@ -65,7 +65,7 @@
       "entrada": 3,
       "estado_entrada": "Bottom",
       "equipo_al_bate": "Los Angeles Angels",
-      "bateador_actual": "Wade Meckler",
+      "bateador_actual": "Nolan Schanuel",
       "candidatos": [
         {
           "jugador": "Jac Caglianone",
@@ -105,15 +105,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 1,
-          "ab": 1,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "ab": 2,
+          "h": 1,
+          "dio_hit": true,
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 7,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Mike Trout",
@@ -121,15 +121,15 @@
           "tipo": "2J→3J",
           "prob": 61,
           "posicion_orden": 2,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 3,
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Nolan Schanuel",
@@ -140,12 +140,12 @@
           "ab": 1,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Moisés Ballesteros",
@@ -157,11 +157,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Vaughn Grissom",
@@ -173,11 +173,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Josh Lowe",
@@ -189,11 +189,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Denzer Guzman",
@@ -205,11 +205,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 7,
-          "outs_equipo_restantes": 20,
-          "pa_equipo_hasta_ahora": 9
+          "outs_equipo_hechos": 8,
+          "outs_equipo_restantes": 19,
+          "pa_equipo_hasta_ahora": 11
         }
       ]
     },
@@ -217,9 +217,9 @@
       "away": "Texas Rangers",
       "home": "Athletics",
       "entrada": 3,
-      "estado_entrada": "Top",
-      "equipo_al_bate": "Texas Rangers",
-      "bateador_actual": "Ezequiel Duran",
+      "estado_entrada": "Bottom",
+      "equipo_al_bate": "Athletics",
+      "bateador_actual": "Zack Gelof",
       "candidatos": [
         {
           "jugador": "Wyatt Langford",
@@ -231,11 +231,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 12
+          "outs_equipo_hechos": 10,
+          "outs_equipo_restantes": 17,
+          "pa_equipo_hasta_ahora": 13
         },
         {
           "jugador": "Evan Carter",
@@ -247,11 +247,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 12
+          "outs_equipo_hechos": 10,
+          "outs_equipo_restantes": 17,
+          "pa_equipo_hasta_ahora": 13
         },
         {
           "jugador": "Jeff McNeil",
@@ -263,7 +263,7 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 6,
           "outs_equipo_restantes": 21,
@@ -279,7 +279,7 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 8,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 6,
           "outs_equipo_restantes": 21,
@@ -294,8 +294,8 @@
           "ab": 0,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 6,
           "outs_equipo_restantes": 21,
@@ -311,7 +311,7 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 6,
           "outs_equipo_restantes": 21,
@@ -322,10 +322,10 @@
     {
       "away": "Milwaukee Brewers",
       "home": "Los Angeles Dodgers",
-      "entrada": 1,
-      "estado_entrada": "Bottom",
-      "equipo_al_bate": "Los Angeles Dodgers",
-      "bateador_actual": "Kyle Tucker",
+      "entrada": 2,
+      "estado_entrada": "Top",
+      "equipo_al_bate": "Milwaukee Brewers",
+      "bateador_actual": "William Contreras",
       "candidatos": [
         {
           "jugador": "Garrett Mitchell",
@@ -337,11 +337,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Jackson Chourio",
@@ -353,11 +353,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
+          "bateadores_faltan_su_turno": 5,
+          "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Jake Bauers",
@@ -369,11 +369,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 6,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Andrew Vaughn",
@@ -385,11 +385,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 7,
           "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Christian Yelich",
@@ -401,11 +401,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 3,
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 2,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "David Hamilton",
@@ -417,11 +417,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Joey Ortiz",
@@ -433,11 +433,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
-          "pa_equipo_hasta_ahora": 4
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Shohei Ohtani",
@@ -449,11 +449,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 2,
-          "outs_equipo_restantes": 25,
-          "pa_equipo_hasta_ahora": 5
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 6
         },
         {
           "jugador": "Teoscar Hernández",
@@ -465,11 +465,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 2,
-          "outs_equipo_restantes": 25,
-          "pa_equipo_hasta_ahora": 5
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 6
         },
         {
           "jugador": "Max Muncy",
@@ -481,11 +481,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 2,
-          "outs_equipo_restantes": 25,
-          "pa_equipo_hasta_ahora": 5
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 6
         },
         {
           "jugador": "Hunter Feduccia",
@@ -497,11 +497,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 2,
-          "outs_equipo_restantes": 25,
-          "pa_equipo_hasta_ahora": 5
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 6
         }
       ]
     },
@@ -509,9 +509,9 @@
       "away": "Colorado Rockies",
       "home": "San Francisco Giants",
       "entrada": 2,
-      "estado_entrada": "Top",
-      "equipo_al_bate": "Colorado Rockies",
-      "bateador_actual": "Troy Johnston",
+      "estado_entrada": "Bottom",
+      "equipo_al_bate": "San Francisco Giants",
+      "bateador_actual": "Victor Bericoto",
       "candidatos": [
         {
           "jugador": "Christian Koss",
@@ -523,7 +523,7 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 5,
           "turnos_restantes_minimo_garantizado": 3,
           "outs_equipo_hechos": 3,
           "outs_equipo_restantes": 24,
