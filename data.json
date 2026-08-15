@@ -37456,16 +37456,16 @@
       },
       "home_pitcher": {
         "nombre": "Logan Webb",
-        "avg_contra": ".226",
-        "era": "3.55",
-        "whip": "1.08",
-        "k9": "7.23",
-        "h9": "7.62",
-        "ip_temporada": "137.0",
+        "avg_contra": ".224",
+        "era": "3.50",
+        "whip": "1.06",
+        "k9": "7.12",
+        "h9": "7.51",
+        "ip_temporada": "139.0",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "4.0",
+            "ip": "6.0",
             "k": 7,
             "h": 4,
             "er": 1,
@@ -37675,19 +37675,19 @@
       "home_pitcher": {
         "nombre": "Sean Manaea",
         "avg_contra": ".253",
-        "era": "4.06",
-        "whip": "1.29",
+        "era": "4.23",
+        "whip": "1.30",
         "k9": "9.19",
         "h9": "8.70",
-        "ip_temporada": "108.2",
+        "ip_temporada": "110.2",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "4.1",
-            "k": 6,
-            "h": 2,
-            "er": 1,
-            "bb": 0
+            "ip": "6.0",
+            "k": 7,
+            "h": 4,
+            "er": 4,
+            "bb": 2
           },
           {
             "fecha": "2026-08-09",
@@ -39398,9 +39398,29 @@
       "home": "Los Angeles Angels",
       "game_id": 823990,
       "fecha": "2026-08-15",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Nick Loftin",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Isaac Collins",
+        "Michael Massey",
+        "Starling Marte",
+        "Luke Maile",
+        "Tyler Tolbert"
+      ],
+      "home_lineup": [
+        "Wade Meckler",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Zach Neto",
+        "Moisés Ballesteros",
+        "Josh Lowe",
+        "Denzer Guzman",
+        "Adam Frazier",
+        "Tyler Heineman"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39411,7 +39431,7 @@
             "prob_3j_4j": 46.2,
             "pct_hit": 63.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bobby Witt Jr.",
@@ -39421,7 +39441,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 72.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39430,44 +39450,37 @@
             "prob": 48,
             "prob_2j_3j": 47.4,
             "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Kyle Isbel",
-            "prob": 58,
-            "prob_1j_2j": 67.9,
-            "pct_hit": 47.5,
-            "confirmado": false
-          },
           {
             "jugador": "Isaac Collins",
             "prob": 55,
             "prob_1j_2j": 56.2,
             "pct_hit": 56.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Starling Marte",
             "prob": 55,
             "prob_1j_2j": 60.9,
             "pct_hit": 53.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Massey",
             "prob": 53,
             "prob_1j_2j": 56.1,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Loftin",
             "prob": 44,
             "prob_1j_2j": 46.4,
             "pct_hit": 45.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39481,17 +39494,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 64.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jose Siri",
-            "juegos": 3,
-            "avg": 0.429,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.0,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mike Trout",
@@ -39501,7 +39504,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 61.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Denzer Guzman",
@@ -39511,7 +39514,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39520,21 +39523,21 @@
             "prob": 68,
             "prob_2j_3j": 72.7,
             "pct_hit": 69.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Lowe",
             "prob": 49,
             "prob_2j_3j": 60.0,
             "pct_hit": 41.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Adam Frazier",
             "prob": 21,
             "prob_2j_3j": 0,
             "pct_hit": 34.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39543,14 +39546,14 @@
             "prob": 60,
             "prob_1j_2j": 60.7,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler Heineman",
             "prob": 20,
             "prob_1j_2j": 16.7,
             "pct_hit": 37.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39647,7 +39650,17 @@
       "game_id": 824966,
       "fecha": "2026-08-15",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Henry Bolte",
+        "Zack Gelof",
+        "Jeff McNeil",
+        "Jonah Heim",
+        "Tommy White",
+        "Lawrence Butler",
+        "Max Muncy",
+        "Brian Serven",
+        "Alika Williams"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -39698,16 +39711,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Tyler Soderstrom",
-            "juegos": 11,
-            "avg": 0.286,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 57.1,
-            "pct_hit": 62.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Lawrence Butler",
             "juegos": 4,
             "avg": 0.294,
@@ -39715,7 +39718,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 43.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jeff McNeil",
@@ -39725,17 +39728,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 52.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Carlos Cortes",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 84.6,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 51.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alika Williams",
@@ -39745,7 +39738,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 52.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -39839,5 +39832,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 15:30"
+  "alineaciones_actualizadas": "15/08/26 16:01"
 }
