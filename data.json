@@ -37111,7 +37111,7 @@
         "Brett Bateman",
         "Nathan Lukes",
         "Alejandro Kirk",
-        "Jesús Sánchez",
+        "Myles Straw",
         "Kazuma Okamoto",
         "Andrés Giménez",
         "Brandon Valenzuela",
@@ -37201,19 +37201,19 @@
       "away_pitcher": {
         "nombre": "Cam Schlittler",
         "avg_contra": ".196",
-        "era": "2.21",
+        "era": "2.19",
         "whip": "0.94",
-        "k9": "11.23",
+        "k9": "11.19",
         "h9": "6.45",
-        "ip_temporada": "150.2",
+        "ip_temporada": "152.0",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "4.0",
-            "k": 6,
-            "h": 3,
+            "ip": "5.1",
+            "k": 7,
+            "h": 4,
             "er": 1,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-09",
@@ -37399,19 +37399,19 @@
       },
       "away_pitcher": {
         "nombre": "Michael Lorenzen",
-        "avg_contra": ".337",
-        "era": "6.77",
-        "whip": "1.88",
-        "k9": "6.45",
-        "h9": "13.06",
-        "ip_temporada": "113.0",
+        "avg_contra": ".335",
+        "era": "6.73",
+        "whip": "1.85",
+        "k9": "6.42",
+        "h9": "12.91",
+        "ip_temporada": "115.0",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "1.0",
-            "k": 0,
-            "h": 0,
-            "er": 0,
+            "ip": "2.2",
+            "k": 1,
+            "h": 1,
+            "er": 1,
             "bb": 2
           },
           {
@@ -37442,19 +37442,19 @@
       },
       "home_pitcher": {
         "nombre": "Logan Webb",
-        "avg_contra": ".224",
-        "era": "3.55",
-        "whip": "1.07",
-        "k9": "7.03",
-        "h9": "7.50",
-        "ip_temporada": "134.1",
+        "avg_contra": ".227",
+        "era": "3.57",
+        "whip": "1.09",
+        "k9": "7.15",
+        "h9": "7.68",
+        "ip_temporada": "136.0",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "1.1",
-            "k": 2,
-            "h": 1,
-            "er": 0,
+            "ip": "3.0",
+            "k": 5,
+            "h": 4,
+            "er": 1,
             "bb": 0
           },
           {
@@ -37617,20 +37617,20 @@
       },
       "away_pitcher": {
         "nombre": "Brad Lord",
-        "avg_contra": ".223",
-        "era": "3.77",
-        "whip": "1.23",
-        "k9": "8.27",
-        "h9": "7.55",
-        "ip_temporada": "62.0",
+        "avg_contra": ".226",
+        "era": "4.04",
+        "whip": "1.25",
+        "k9": "8.23",
+        "h9": "7.65",
+        "ip_temporada": "62.1",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "0.1",
+            "ip": "0.2",
             "k": 1,
-            "h": 0,
-            "er": 0,
-            "bb": 3
+            "h": 1,
+            "er": 2,
+            "bb": 4
           },
           {
             "fecha": "2026-08-09",
@@ -37661,17 +37661,17 @@
       "home_pitcher": {
         "nombre": "Sean Manaea",
         "avg_contra": ".255",
-        "era": "4.09",
-        "whip": "1.31",
+        "era": "4.05",
+        "whip": "1.30",
         "k9": "9.20",
-        "h9": "8.77",
-        "ip_temporada": "105.2",
+        "h9": "8.78",
+        "ip_temporada": "106.2",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "1.0",
-            "k": 2,
-            "h": 0,
+            "ip": "2.0",
+            "k": 3,
+            "h": 1,
             "er": 0,
             "bb": 0
           },
@@ -39192,7 +39192,17 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823914,
       "fecha": "2026-08-15",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Chourio",
+        "Luis Lara",
+        "Andrew Vaughn",
+        "Jake Bauers",
+        "Gary Sánchez",
+        "Christian Yelich",
+        "William Contreras",
+        "Joey Ortiz",
+        "Jonathan Ornelas"
+      ],
       "home_lineup": [
         "Shohei Ohtani",
         "Freddie Freeman",
@@ -39204,7 +39214,7 @@
         "Alex Call",
         "Hunter Feduccia"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39215,7 +39225,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 48.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Bauers",
@@ -39225,7 +39235,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 60.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39234,21 +39244,7 @@
             "prob": 70,
             "prob_2j_3j": 73.7,
             "pct_hit": 72.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brice Turang",
-            "prob": 69,
-            "prob_2j_3j": 72.0,
-            "pct_hit": 68.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "David Hamilton",
-            "prob": 18,
-            "prob_2j_3j": 9.1,
-            "pct_hit": 46.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39257,7 +39253,7 @@
             "prob": 33,
             "prob_1j_2j": 0,
             "pct_hit": 44.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39829,5 +39825,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 14:30"
+  "alineaciones_actualizadas": "15/08/26 15:00"
 }
