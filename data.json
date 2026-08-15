@@ -37105,7 +37105,7 @@
         "Jazz Chisholm Jr.",
         "George Lombard Jr.",
         "Ryan McMahon",
-        "Austin Wells"
+        "Ali Sánchez"
       ],
       "home_lineup": [
         "Brett Bateman",
@@ -37115,7 +37115,7 @@
         "Kazuma Okamoto",
         "Andrés Giménez",
         "Brandon Valenzuela",
-        "Josh Smith",
+        "Ernie Clement",
         "Charles McAdoo"
       ],
       "alineacion_confirmada": true,
@@ -37146,6 +37146,13 @@
             "prob": 46,
             "prob_1j_2j": 48.5,
             "pct_hit": 45.9,
+            "confirmado": true
+          },
+          {
+            "jugador": "Ali Sánchez",
+            "prob": 33,
+            "prob_1j_2j": 40.0,
+            "pct_hit": 27.3,
             "confirmado": true
           },
           {
@@ -37182,6 +37189,13 @@
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
+          {
+            "jugador": "Ernie Clement",
+            "prob": 72,
+            "prob_1j_2j": 73.5,
+            "pct_hit": 69.6,
+            "confirmado": true
+          },
           {
             "jugador": "Kazuma Okamoto",
             "prob": 62,
@@ -37399,20 +37413,20 @@
       },
       "away_pitcher": {
         "nombre": "Michael Lorenzen",
-        "avg_contra": ".335",
-        "era": "6.73",
-        "whip": "1.85",
-        "k9": "6.42",
-        "h9": "12.91",
-        "ip_temporada": "115.0",
+        "avg_contra": ".338",
+        "era": "7.08",
+        "whip": "1.88",
+        "k9": "6.38",
+        "h9": "13.07",
+        "ip_temporada": "115.2",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "2.2",
+            "ip": "3.2",
             "k": 1,
-            "h": 1,
-            "er": 1,
-            "bb": 2
+            "h": 4,
+            "er": 6,
+            "bb": 3
           },
           {
             "fecha": "2026-08-09",
@@ -37442,17 +37456,17 @@
       },
       "home_pitcher": {
         "nombre": "Logan Webb",
-        "avg_contra": ".227",
-        "era": "3.57",
-        "whip": "1.09",
-        "k9": "7.15",
-        "h9": "7.68",
-        "ip_temporada": "136.0",
+        "avg_contra": ".226",
+        "era": "3.55",
+        "whip": "1.08",
+        "k9": "7.23",
+        "h9": "7.62",
+        "ip_temporada": "137.0",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "3.0",
-            "k": 5,
+            "ip": "4.0",
+            "k": 7,
             "h": 4,
             "er": 1,
             "bb": 0
@@ -37660,19 +37674,19 @@
       },
       "home_pitcher": {
         "nombre": "Sean Manaea",
-        "avg_contra": ".255",
-        "era": "4.05",
-        "whip": "1.30",
-        "k9": "9.20",
-        "h9": "8.78",
-        "ip_temporada": "106.2",
+        "avg_contra": ".253",
+        "era": "4.06",
+        "whip": "1.29",
+        "k9": "9.19",
+        "h9": "8.70",
+        "ip_temporada": "108.2",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "2.0",
-            "k": 3,
-            "h": 1,
-            "er": 0,
+            "ip": "4.1",
+            "k": 6,
+            "h": 2,
+            "er": 1,
             "bb": 0
           },
           {
@@ -39825,5 +39839,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 15:00"
+  "alineaciones_actualizadas": "15/08/26 15:30"
 }
