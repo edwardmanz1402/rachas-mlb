@@ -36825,17 +36825,17 @@
         "nombre": "Anthony Kay",
         "avg_contra": ".256",
         "era": "4.01",
-        "whip": "1.35",
-        "k9": "7.41",
-        "h9": "8.85",
-        "ip_temporada": "119.0",
+        "whip": "1.34",
+        "k9": "7.27",
+        "h9": "8.83",
+        "ip_temporada": "121.1",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "4.0",
+            "ip": "5.1",
             "k": 4,
-            "h": 4,
-            "er": 2,
+            "h": 6,
+            "er": 3,
             "bb": 1
           },
           {
@@ -36866,18 +36866,18 @@
       },
       "home_pitcher": {
         "nombre": "Troy Melton",
-        "avg_contra": ".187",
+        "avg_contra": ".189",
         "era": "1.71",
-        "whip": "0.96",
-        "k9": "7.82",
-        "h9": "6.00",
-        "ip_temporada": "84.0",
+        "whip": "0.97",
+        "k9": "7.79",
+        "h9": "6.08",
+        "ip_temporada": "84.1",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "4.0",
+            "ip": "4.1",
             "k": 4,
-            "h": 8,
+            "h": 9,
             "er": 3,
             "bb": 1
           },
@@ -36992,18 +36992,18 @@
       },
       "away_pitcher": {
         "nombre": "Michael McGreevy",
-        "avg_contra": ".256",
-        "era": "3.64",
-        "whip": "1.22",
-        "k9": "6.07",
-        "h9": "8.71",
-        "ip_temporada": "126.0",
+        "avg_contra": ".257",
+        "era": "3.59",
+        "whip": "1.23",
+        "k9": "6.05",
+        "h9": "8.79",
+        "ip_temporada": "128.0",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "0.0",
-            "k": 0,
-            "h": 0,
+            "ip": "2.0",
+            "k": 1,
+            "h": 3,
             "er": 0,
             "bb": 0
           },
@@ -37035,17 +37035,17 @@
       },
       "home_pitcher": {
         "nombre": "Matthew Boyd",
-        "avg_contra": ".245",
-        "era": "3.49",
-        "whip": "1.23",
-        "k9": "7.43",
-        "h9": "8.33",
-        "ip_temporada": "80.0",
+        "avg_contra": ".244",
+        "era": "3.75",
+        "whip": "1.21",
+        "k9": "7.49",
+        "h9": "8.27",
+        "ip_temporada": "81.2",
         "ultimas4": [
           {
             "fecha": "2026-08-15",
-            "ip": "0.2",
-            "k": 0,
+            "ip": "2.0",
+            "k": 2,
             "h": 1,
             "er": 3,
             "bb": 1
@@ -38111,7 +38111,17 @@
       "game_id": 824400,
       "fecha": "2026-08-15",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "José Ramírez",
+        "Jo Adell",
+        "Nathaniel Lowe",
+        "Angel Genao",
+        "Travis Bazzana",
+        "Patrick Bailey",
+        "Petey Halpin"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -38202,17 +38212,7 @@
             "prob_3j_4j": 81.8,
             "pct_hit": 65.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brayan Rocchio",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 72.7,
-            "prob_3j_4j": 41.7,
-            "pct_hit": 59.5,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38221,7 +38221,7 @@
             "prob": 24,
             "prob_2j_3j": 0,
             "pct_hit": 39.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38230,14 +38230,14 @@
             "prob": 60,
             "prob_1j_2j": 60.4,
             "pct_hit": 61.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathaniel Lowe",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38898,9 +38898,19 @@
       "home": "Atlanta Braves",
       "game_id": 824884,
       "fecha": "2026-08-15",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "Ildemaro Vargas",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38911,7 +38921,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
@@ -38921,7 +38931,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38930,7 +38940,7 @@
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 56.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38939,28 +38949,28 @@
             "prob": 64,
             "prob_1j_2j": 70.8,
             "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lars Nootbaar",
             "prob": 49,
             "prob_1j_2j": 52.6,
             "pct_hit": 52.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
             "prob": 46,
             "prob_1j_2j": 53.8,
             "pct_hit": 43.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Kepler",
             "prob": 43,
             "prob_1j_2j": 50.0,
             "pct_hit": 40.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39718,5 +39728,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 12:30"
+  "alineaciones_actualizadas": "15/08/26 13:00"
 }
