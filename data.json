@@ -39684,7 +39684,7 @@
         "Manny Machado",
         "Ty France",
         "Jackson Merrill",
-        "Luis Rengifo",
+        "Sung-Mun Song",
         "Jase Bowen",
         "Xander Bogaerts",
         "Freddy Fermin"
@@ -39711,16 +39711,6 @@
             "prob_3j_4j": 0,
             "pct_hit": 45.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Luis Rengifo",
-            "juegos": 3,
-            "avg": 0.308,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 40.0,
-            "pct_hit": 54.1,
-            "tipo": "📊 IRREGULAR",
             "confirmado": true
           }
         ],
@@ -40713,7 +40703,7 @@
         "Rafael Devers",
         "Bryce Eldridge",
         "Jung Hoo Lee",
-        "Osleivis Basabe",
+        "Jonah Cox",
         "Drew Cavanaugh",
         "Turner Hill",
         "Buddy Kennedy",
@@ -40803,13 +40793,6 @@
             "prob_2j_3j": 76.9,
             "pct_hit": 63.4,
             "confirmado": true
-          },
-          {
-            "jugador": "Osleivis Basabe",
-            "prob": 33,
-            "prob_2j_3j": 0,
-            "pct_hit": 58.3,
-            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40825,6 +40808,13 @@
             "prob": 48,
             "prob_1j_2j": 51.6,
             "pct_hit": 46.4,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jonah Cox",
+            "prob": 22,
+            "prob_1j_2j": 20.0,
+            "pct_hit": 35.7,
             "confirmado": true
           }
         ]
@@ -41628,13 +41618,21 @@
       },
       "home_pitcher": {
         "nombre": "Hunter Brown",
-        "avg_contra": ".201",
-        "era": "3.68",
-        "whip": "1.27",
-        "k9": "9.47",
-        "h9": "6.50",
-        "ip_temporada": "63.2",
+        "avg_contra": ".207",
+        "era": "3.80",
+        "whip": "1.30",
+        "k9": "9.42",
+        "h9": "6.75",
+        "ip_temporada": "64.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-16",
+            "ip": "1.0",
+            "k": 0,
+            "h": 2,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-11",
             "ip": "5.0",
@@ -41658,18 +41656,10 @@
             "h": 6,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-25",
-            "ip": "7.0",
-            "k": 7,
-            "h": 2,
-            "er": 0,
-            "bb": 0
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "16/08/26 17:01"
+  "alineaciones_actualizadas": "16/08/26 17:30"
 }
