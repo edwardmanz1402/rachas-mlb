@@ -38865,9 +38865,19 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823344,
       "fecha": "2026-08-16",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Adley Rutschman",
+        "Caleb Durbin",
+        "Andruw Monasterio",
+        "Jarren Duran",
+        "Anthony Seigler",
+        "Connor Wong"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38878,7 +38888,7 @@
             "prob_3j_4j": 45.5,
             "pct_hit": 62.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andruw Monasterio",
@@ -38888,7 +38898,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 59.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ceddanne Rafaela",
@@ -38898,27 +38908,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 74.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jahmai Jones",
-            "juegos": 4,
-            "avg": 0.667,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 26.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Masataka Yoshida",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 76.9,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 56.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38927,14 +38917,7 @@
             "prob": 54,
             "prob_2j_3j": 55.0,
             "pct_hit": 54.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eli White",
-            "prob": 29,
-            "prob_2j_3j": 28.6,
-            "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38943,7 +38926,7 @@
             "prob": 59,
             "prob_1j_2j": 63.0,
             "pct_hit": 55.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41791,5 +41774,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "16/08/26 08:00"
+  "alineaciones_actualizadas": "16/08/26 08:30"
 }
