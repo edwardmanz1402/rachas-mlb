@@ -38775,13 +38775,21 @@
       },
       "away_pitcher": {
         "nombre": "Trevor Rogers",
-        "avg_contra": ".250",
-        "era": "4.21",
+        "avg_contra": ".252",
+        "era": "4.18",
         "whip": "1.25",
-        "k9": "7.67",
-        "h9": "8.65",
-        "ip_temporada": "119.2",
+        "k9": "7.68",
+        "h9": "8.73",
+        "ip_temporada": "120.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-16",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-10",
             "ip": "4.0",
@@ -38805,26 +38813,26 @@
             "h": 8,
             "er": 4,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-24",
-            "ip": "7.0",
-            "k": 6,
-            "h": 6,
-            "er": 2,
-            "bb": 0
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Freddy Peralta",
-        "avg_contra": ".272",
-        "era": "5.33",
-        "whip": "1.50",
-        "k9": "8.83",
-        "h9": "9.85",
-        "ip_temporada": "123.1",
+        "avg_contra": ".271",
+        "era": "5.28",
+        "whip": "1.49",
+        "k9": "8.76",
+        "h9": "9.77",
+        "ip_temporada": "124.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-16",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-10",
             "ip": "6.0",
@@ -38847,14 +38855,6 @@
             "k": 3,
             "h": 6,
             "er": 2,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-07-20",
-            "ip": "5.1",
-            "k": 6,
-            "h": 8,
-            "er": 7,
             "bb": 2
           }
         ]
@@ -40758,7 +40758,17 @@
       "game_id": 823182,
       "fecha": "2026-08-16",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Drew Gilbert",
+        "Rafael Devers",
+        "Bryce Eldridge",
+        "Jung Hoo Lee",
+        "Osleivis Basabe",
+        "Drew Cavanaugh",
+        "Turner Hill",
+        "Buddy Kennedy",
+        "Christian Koss"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -40826,7 +40836,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 41.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40835,28 +40845,21 @@
             "prob": 66,
             "prob_2j_3j": 70.8,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Eldridge",
             "prob": 66,
             "prob_2j_3j": 76.9,
             "pct_hit": 63.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Bericoto",
-            "prob": 52,
-            "prob_2j_3j": 60.0,
-            "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Osleivis Basabe",
             "prob": 33,
             "prob_2j_3j": 0,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40865,21 +40868,14 @@
             "prob": 66,
             "prob_1j_2j": 69.0,
             "pct_hit": 64.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Gilbert",
             "prob": 48,
             "prob_1j_2j": 51.6,
             "pct_hit": 46.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jonah Cox",
-            "prob": 22,
-            "prob_1j_2j": 20.0,
-            "pct_hit": 35.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41733,5 +41729,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "16/08/26 10:00"
+  "alineaciones_actualizadas": "16/08/26 10:30"
 }
