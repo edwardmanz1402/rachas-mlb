@@ -37950,8 +37950,8 @@
         "Tyler Stephenson",
         "Eugenio Suárez",
         "Dane Myers",
-        "Noelvi Marte",
-        "Ke'Bryan Hayes",
+        "Héctor Rodríguez",
+        "Michael Toglia",
         "Matt McLain"
       ],
       "alineacion_confirmada": true,
@@ -38016,13 +38016,6 @@
             "prob": 41,
             "prob_2j_3j": 41.7,
             "pct_hit": 50.0,
-            "confirmado": true
-          },
-          {
-            "jugador": "Ke'Bryan Hayes",
-            "prob": 22,
-            "prob_2j_3j": 20.0,
-            "pct_hit": 35.3,
             "confirmado": true
           }
         ],
@@ -38582,7 +38575,7 @@
         "Alec Bohm",
         "Edmundo Sosa",
         "Bryson Stott",
-        "J.T. Realmuto",
+        "Garrett Stubbs",
         "Derek Hill"
       ],
       "home_lineup": [
@@ -38971,7 +38964,7 @@
         "Corbin Carroll",
         "Geraldo Perdomo",
         "Gabriel Moreno",
-        "Max Kepler",
+        "Jorge Barrosa",
         "Nolan Arenado",
         "Tim Tawa",
         "Ildemaro Vargas",
@@ -38982,7 +38975,7 @@
         "Drake Baldwin",
         "Matt Olson",
         "Ozzie Albies",
-        "Michael Harris II",
+        "Ha-Seong Kim",
         "Mauricio Dubón",
         "Lane Thomas",
         "Austin Riley",
@@ -39042,13 +39035,6 @@
             "prob_1j_2j": 53.8,
             "pct_hit": 43.4,
             "confirmado": true
-          },
-          {
-            "jugador": "Max Kepler",
-            "prob": 43,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 40.7,
-            "confirmado": true
           }
         ]
       },
@@ -39064,13 +39050,6 @@
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Michael Harris II",
-            "prob": 66,
-            "prob_1j_2j": 69.4,
-            "pct_hit": 68.2,
-            "confirmado": true
-          },
           {
             "jugador": "Mauricio Dubón",
             "prob": 65,
@@ -39194,7 +39173,7 @@
         "Shohei Ohtani",
         "Freddie Freeman",
         "Andy Pages",
-        "Max Muncy",
+        "Miguel Rojas",
         "Mookie Betts",
         "Tommy Edman",
         "Teoscar Hernández",
@@ -39539,13 +39518,21 @@
       },
       "away_pitcher": {
         "nombre": "Randy Dobnak",
-        "avg_contra": ".248",
-        "era": "2.00",
-        "whip": "1.33",
-        "k9": "4.75",
-        "h9": "8.50",
-        "ip_temporada": "36.0",
+        "avg_contra": ".250",
+        "era": "1.95",
+        "whip": "1.32",
+        "k9": "4.86",
+        "h9": "8.51",
+        "ip_temporada": "37.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-09",
             "ip": "5.0",
@@ -39569,26 +39556,26 @@
             "h": 4,
             "er": 0,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-23",
-            "ip": "5.0",
-            "k": 3,
-            "h": 4,
-            "er": 0,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Reid Detmers",
-        "avg_contra": ".213",
-        "era": "4.00",
-        "whip": "1.10",
-        "k9": "10.40",
-        "h9": "7.07",
-        "ip_temporada": "135.0",
+        "avg_contra": ".211",
+        "era": "3.94",
+        "whip": "1.09",
+        "k9": "10.45",
+        "h9": "6.96",
+        "ip_temporada": "137.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "2.0",
+            "k": 3,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-10",
             "ip": "6.0",
@@ -39612,14 +39599,6 @@
             "h": 4,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-22",
-            "ip": "5.1",
-            "k": 6,
-            "h": 2,
-            "er": 1,
-            "bb": 2
           }
         ]
       }
@@ -39729,13 +39708,21 @@
       },
       "away_pitcher": {
         "nombre": "MacKenzie Gore",
-        "avg_contra": ".229",
-        "era": "4.43",
+        "avg_contra": ".230",
+        "era": "4.40",
         "whip": "1.24",
-        "k9": "10.01",
-        "h9": "7.86",
-        "ip_temporada": "134.0",
+        "k9": "10.07",
+        "h9": "7.87",
+        "ip_temporada": "135.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "1.0",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-10",
             "ip": "5.1",
@@ -39759,26 +39746,26 @@
             "h": 3,
             "er": 3,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-24",
-            "ip": "5.0",
-            "k": 5,
-            "h": 7,
-            "er": 3,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "J.T. Ginn",
-        "avg_contra": ".213",
-        "era": "3.41",
-        "whip": "1.21",
-        "k9": "7.94",
-        "h9": "6.97",
-        "ip_temporada": "121.1",
+        "avg_contra": ".215",
+        "era": "3.38",
+        "whip": "1.22",
+        "k9": "7.95",
+        "h9": "7.06",
+        "ip_temporada": "122.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-09",
             "ip": "6.0",
@@ -39802,18 +39789,10 @@
             "h": 1,
             "er": 0,
             "bb": 3
-          },
-          {
-            "fecha": "2026-07-12",
-            "ip": "4.1",
-            "k": 7,
-            "h": 6,
-            "er": 8,
-            "bb": 3
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "15/08/26 19:30"
+  "alineaciones_actualizadas": "15/08/26 20:01"
 }
