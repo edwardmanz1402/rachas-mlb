@@ -38775,20 +38775,20 @@
       },
       "away_pitcher": {
         "nombre": "Trevor Rogers",
-        "avg_contra": ".252",
-        "era": "4.18",
-        "whip": "1.25",
-        "k9": "7.68",
-        "h9": "8.73",
-        "ip_temporada": "120.2",
+        "avg_contra": ".248",
+        "era": "4.11",
+        "whip": "1.24",
+        "k9": "7.63",
+        "h9": "8.58",
+        "ip_temporada": "122.2",
         "ultimas4": [
           {
             "fecha": "2026-08-16",
-            "ip": "1.0",
-            "k": 1,
+            "ip": "3.0",
+            "k": 2,
             "h": 2,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-10",
@@ -38818,20 +38818,20 @@
       },
       "home_pitcher": {
         "nombre": "Freddy Peralta",
-        "avg_contra": ".271",
-        "era": "5.28",
-        "whip": "1.49",
+        "avg_contra": ".269",
+        "era": "5.20",
+        "whip": "1.48",
         "k9": "8.76",
-        "h9": "9.77",
-        "ip_temporada": "124.1",
+        "h9": "9.69",
+        "ip_temporada": "126.1",
         "ultimas4": [
           {
             "fecha": "2026-08-16",
-            "ip": "1.0",
-            "k": 0,
-            "h": 0,
+            "ip": "3.0",
+            "k": 2,
+            "h": 1,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-10",
@@ -40533,32 +40533,21 @@
       "home": "Chicago Cubs",
       "game_id": 824642,
       "fecha": "2026-08-16",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Joshua Báez",
+        "Nathan Church",
+        "Masyn Winn",
+        "Jimmy Crooks",
+        "Blaze Jordan"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Pedro Pagés",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 30.0,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 48.1,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Everson Pereira",
-            "juegos": 3,
-            "avg": 0.429,
-            "prob_2j_3j": 25.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
@@ -40566,28 +40555,14 @@
             "prob": 72,
             "prob_1j_2j": 76.2,
             "pct_hit": 69.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "José Fermín",
-            "prob": 55,
-            "prob_1j_2j": 61.3,
-            "pct_hit": 47.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Jordan",
             "prob": 51,
             "prob_1j_2j": 54.5,
             "pct_hit": 55.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "prob": 36,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 39.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40757,7 +40732,17 @@
       "home": "San Francisco Giants",
       "game_id": 823182,
       "fecha": "2026-08-16",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Cole Carrigg",
+        "Mickey Moniak",
+        "Willi Castro",
+        "Troy Johnston",
+        "Zac Veen",
+        "Jordan Beck",
+        "Brett Sullivan",
+        "Adael Amador"
+      ],
       "home_lineup": [
         "Drew Gilbert",
         "Rafael Devers",
@@ -40769,19 +40754,9 @@
         "Buddy Kennedy",
         "Christian Koss"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Ezequiel Tovar",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 62.5,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 52.4,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
           {
             "jugador": "Cole Carrigg",
             "juegos": 3,
@@ -40790,7 +40765,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 60.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40799,7 +40774,7 @@
             "prob": 65,
             "prob_2j_3j": 63.6,
             "pct_hit": 63.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40808,21 +40783,14 @@
             "prob": 64,
             "prob_1j_2j": 66.7,
             "pct_hit": 70.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willi Castro",
             "prob": 61,
             "prob_1j_2j": 58.0,
             "pct_hit": 64.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Connor Norby",
-            "prob": 47,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 50.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40972,7 +40940,17 @@
       "game_id": 824965,
       "fecha": "2026-08-16",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Henry Bolte",
+        "Zack Gelof",
+        "Jacob Wilson",
+        "Jonah Heim",
+        "Tommy White",
+        "Lawrence Butler",
+        "Max Muncy",
+        "Alika Williams",
+        "Darell Hernaiz"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41047,16 +41025,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Tyler Soderstrom",
-            "juegos": 10,
-            "avg": 0.27,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 57.1,
-            "pct_hit": 62.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Alika Williams",
             "juegos": 4,
             "avg": 0.556,
@@ -41064,7 +41032,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 53.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy White",
@@ -41074,17 +41042,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 52.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Carlos Cortes",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 84.6,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 51.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -41094,14 +41052,14 @@
             "prob": 63,
             "prob_1j_2j": 66.7,
             "pct_hit": 58.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonah Heim",
             "prob": 60,
             "prob_1j_2j": 64.3,
             "pct_hit": 53.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41181,9 +41139,19 @@
       "home": "Los Angeles Angels",
       "game_id": 823991,
       "fecha": "2026-08-16",
-      "away_lineup": [],
+      "away_lineup": [
+        "Carter Jensen",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Michael Massey",
+        "Nick Loftin",
+        "Isaac Collins",
+        "John Rave",
+        "Kyle Isbel"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -41194,7 +41162,7 @@
             "prob_3j_4j": 46.2,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41203,7 +41171,7 @@
             "prob": 45,
             "prob_2j_3j": 43.8,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41212,7 +41180,7 @@
             "prob": 58,
             "prob_1j_2j": 67.9,
             "pct_hit": 47.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41355,7 +41323,17 @@
       "game_id": 823912,
       "fecha": "2026-08-16",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Freddie Freeman",
+        "Andy Pages",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Tommy Edman",
+        "Teoscar Hernández",
+        "Ben Rortvedt"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41406,32 +41384,17 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Alex Call",
-            "prob": 20,
-            "prob_2j_3j": 12.5,
-            "pct_hit": 47.2,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Shohei Ohtani",
             "prob": 73,
             "prob_1j_2j": 73.8,
             "pct_hit": 71.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Hunter Feduccia",
-            "prob": 41,
-            "prob_1j_2j": 40.9,
-            "pct_hit": 50.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41729,5 +41692,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "16/08/26 10:30"
+  "alineaciones_actualizadas": "16/08/26 11:00"
 }
