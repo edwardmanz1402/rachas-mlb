@@ -42,40 +42,6 @@ export default async function handler(req, res) {
     return res.status(200).end();
   }
 
-  // Diagnóstico temporal: confirma qué variables de entorno relacionadas a
-  // Kalshi existen realmente en este despliegue, sin revelar su contenido.
-  if (req.method === "GET" && req.query && req.query.debug === "1") {
-    const claves = Object.keys(process.env).filter(k => k.includes("KALSHI"));
-    return res.status(200).json({
-      variables_kalshi_encontradas: claves,
-      KALSHI_KEY_ID_existe: !!process.env.KALSHI_KEY_ID,
-      KALSHI_KEY_ID_longitud: process.env.KALSHI_KEY_ID ? process.env.KALSHI_KEY_ID.length : 0,
-      KALSHI_PRIVATE_KEY_B64_existe: !!process.env.KALSHI_PRIVATE_KEY_B64,
-      KALSHI_PRIVATE_KEY_B64_longitud: process.env.KALSHI_PRIVATE_KEY_B64 ? process.env.KALSHI_PRIVATE_KEY_B64.length : 0,
-    });
-  }
-
-  if (req.method === "GET" && req.query && req.query.probar_balance === "1") {
-    try {
-      const KEY_ID = process.env.KALSHI_KEY_ID;
-      const PRIVATE_KEY_B64 = process.env.KALSHI_PRIVATE_KEY_B64;
-      const PRIVATE_KEY = Buffer.from(PRIVATE_KEY_B64, "base64").toString("utf-8");
-      const ruta = "/trade-api/v2/portfolio/balance";
-      const { timestamp, firma } = firmarPeticion(PRIVATE_KEY, "GET", ruta);
-      const resp = await fetch(BASE_URL + ruta, {
-        headers: {
-          "KALSHI-ACCESS-KEY": KEY_ID,
-          "KALSHI-ACCESS-TIMESTAMP": timestamp,
-          "KALSHI-ACCESS-SIGNATURE": firma,
-        },
-      });
-      const resultado = await resp.json();
-      return res.status(resp.status).json({ prueba_balance: resultado });
-    } catch (e) {
-      return res.status(500).json({ error: "Error en prueba de balance", detalle: String(e) });
-    }
-  }
-
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Método no permitido, usa POST" });
   }
