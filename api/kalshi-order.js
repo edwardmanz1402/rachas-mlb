@@ -1,9 +1,13 @@
 // api/kalshi-order.js
 // Función serverless de Vercel — coloca una orden REAL en Kalshi.
 //
-// SEGURIDAD: KALSHI_KEY_ID y KALSHI_PRIVATE_KEY deben configurarse como
+// SEGURIDAD: KALSHI_KEY_ID y KALSHI_PRIVATE_KEY_B64 deben configurarse como
 // variables de entorno en el dashboard de Vercel (Settings > Environment
 // Variables), NUNCA en el código ni en el repositorio de GitHub.
+//
+// La llave privada se guarda en Base64 (una sola línea, sin saltos de línea)
+// para evitar que el formato PEM se corrompa al copiar/pegar en el campo de
+// Vercel — la función la decodifica de vuelta a su formato original aquí.
 //
 // Modo de prueba: si el body incluye "dry_run": true, la función arma la
 // orden completa y la devuelve SIN enviarla a Kalshi — para verificar que
@@ -66,10 +70,11 @@ export default async function handler(req, res) {
     }
 
     const KEY_ID = process.env.KALSHI_KEY_ID;
-    const PRIVATE_KEY = process.env.KALSHI_PRIVATE_KEY;
-    if (!KEY_ID || !PRIVATE_KEY) {
-      return res.status(500).json({ error: "Faltan las variables de entorno KALSHI_KEY_ID / KALSHI_PRIVATE_KEY en Vercel" });
+    const PRIVATE_KEY_B64 = process.env.KALSHI_PRIVATE_KEY_B64;
+    if (!KEY_ID || !PRIVATE_KEY_B64) {
+      return res.status(500).json({ error: "Faltan las variables de entorno KALSHI_KEY_ID / KALSHI_PRIVATE_KEY_B64 en Vercel" });
     }
+    const PRIVATE_KEY = Buffer.from(PRIVATE_KEY_B64, "base64").toString("utf-8");
 
     const ruta = "/trade-api/v2/portfolio/events/orders";
     const { timestamp, firma } = firmarPeticion(PRIVATE_KEY, "POST", ruta);
