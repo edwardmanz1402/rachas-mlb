@@ -38530,46 +38530,45 @@
       "home": "Cincinnati Reds",
       "game_id": 824478,
       "fecha": "2026-08-17",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Joshua Báez",
+        "Nathan Church",
+        "Masyn Winn",
+        "Bryan Torres",
+        "Blaze Jordan"
+      ],
+      "home_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Eugenio Suárez",
+        "Michael Toglia",
+        "Matt McLain",
+        "Héctor Rodríguez",
+        "Jose Trevino",
+        "TJ Friedl"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Pedro Pagés",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 30.0,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 48.1,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Everson Pereira",
-            "juegos": 3,
-            "avg": 0.429,
-            "prob_2j_3j": 25.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Blaze Jordan",
             "prob": 76,
             "prob_2j_3j": 100.0,
             "pct_hit": 55.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Burleson",
             "prob": 72,
             "prob_2j_3j": 77.8,
             "pct_hit": 69.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38578,42 +38577,28 @@
             "prob": 71,
             "prob_1j_2j": 73.1,
             "pct_hit": 72.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
             "prob": 64,
             "prob_1j_2j": 64.5,
             "pct_hit": 62.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "JJ Wetherholt",
             "prob": 60,
             "prob_1j_2j": 60.7,
             "pct_hit": 58.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "José Fermín",
-            "prob": 55,
-            "prob_1j_2j": 61.3,
-            "pct_hit": 47.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryan Torres",
             "prob": 36,
             "prob_1j_2j": 40.0,
             "pct_hit": 39.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jimmy Crooks",
-            "prob": 31,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 35.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38622,32 +38607,18 @@
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Tyler Stephenson",
-            "prob": 56,
-            "prob_1j_2j": 58.5,
-            "pct_hit": 57.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Dane Myers",
-            "prob": 54,
-            "prob_1j_2j": 61.5,
-            "pct_hit": 49.2,
-            "confirmado": false
-          },
-          {
             "jugador": "Eugenio Suárez",
             "prob": 47,
             "prob_1j_2j": 50.0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Trevino",
             "prob": 42,
             "prob_1j_2j": 45.5,
             "pct_hit": 46.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39622,7 +39593,17 @@
       "home": "New York Mets",
       "game_id": 823589,
       "fecha": "2026-08-17",
-      "away_lineup": [],
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Jake Cronenworth",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Luis Campusano",
+        "Gavin Sheets",
+        "Xander Bogaerts",
+        "Luis Rengifo"
+      ],
       "home_lineup": [
         "A.J. Ewing",
         "Francisco Lindor",
@@ -39634,7 +39615,7 @@
         "Jorge Polanco",
         "Francisco Alvarez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39645,7 +39626,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 46.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Rengifo",
@@ -39655,7 +39636,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 54.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -39665,42 +39646,28 @@
             "prob": 68,
             "prob_1j_2j": 65.7,
             "pct_hit": 70.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gavin Sheets",
             "prob": 60,
             "prob_1j_2j": 66.0,
             "pct_hit": 47.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Xander Bogaerts",
             "prob": 54,
             "prob_1j_2j": 54.2,
             "pct_hit": 52.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Merrill",
             "prob": 52,
             "prob_1j_2j": 51.9,
             "pct_hit": 57.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Freddy Fermin",
-            "prob": 40,
-            "prob_1j_2j": 43.8,
-            "pct_hit": 41.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jase Bowen",
-            "prob": 14,
-            "prob_1j_2j": 0,
-            "pct_hit": 21.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40693,5 +40660,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "17/08/26 15:00"
+  "alineaciones_actualizadas": "17/08/26 15:30"
 }
