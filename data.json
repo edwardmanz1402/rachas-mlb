@@ -40484,19 +40484,29 @@
       "home": "Colorado Rockies",
       "game_id": 824320,
       "fecha": "2026-08-17",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Freddie Freeman",
+        "Andy Pages",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Tommy Edman",
+        "Teoscar Hernández",
+        "Hunter Feduccia"
+      ],
       "home_lineup": [
         "Jake McCarthy",
+        "Jordan Beck",
         "Cole Carrigg",
-        "Hunter Goodman",
         "Willi Castro",
         "TJ Rumfield",
-        "Jordan Beck",
         "Connor Norby",
-        "Ezequiel Tovar",
-        "Adael Amador"
+        "Adael Amador",
+        "Brett Sullivan",
+        "Ezequiel Tovar"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40507,7 +40517,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 57.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40516,21 +40526,14 @@
             "prob": 81,
             "prob_2j_3j": 87.5,
             "pct_hit": 71.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hunter Feduccia",
             "prob": 64,
             "prob_2j_3j": 80.0,
             "pct_hit": 50.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alex Call",
-            "prob": 20,
-            "prob_2j_3j": 12.5,
-            "pct_hit": 47.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40539,14 +40542,14 @@
             "prob": 69,
             "prob_1j_2j": 69.2,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mookie Betts",
             "prob": 51,
             "prob_1j_2j": 52.8,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40586,7 +40589,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_1j": []
+        "candidatos_1j": [
+          {
+            "jugador": "Brett Sullivan",
+            "prob": 48,
+            "prob_1j_2j": 52.6,
+            "pct_hit": 46.8,
+            "confirmado": true
+          }
+        ]
       },
       "away_pitcher": {
         "nombre": "Blake Snell",
@@ -40660,5 +40671,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "17/08/26 15:30"
+  "alineaciones_actualizadas": "17/08/26 16:00"
 }
