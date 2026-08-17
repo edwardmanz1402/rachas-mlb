@@ -33,6 +33,15 @@ function firmarPeticion(privateKeyPem, metodo, ruta) {
 }
 
 export default async function handler(req, res) {
+  // CORS — necesario para que el navegador (desde cualquier origen, incluida
+  // una página local file://) pueda llamar a esta función sin ser bloqueado.
+  res.setHeader("Access-Control-Allow-Origin", "*");
+  res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS");
+  res.setHeader("Access-Control-Allow-Headers", "Content-Type");
+  if (req.method === "OPTIONS") {
+    return res.status(200).end();
+  }
+
   // Diagnóstico temporal: confirma qué variables de entorno relacionadas a
   // Kalshi existen realmente en este despliegue, sin revelar su contenido.
   if (req.method === "GET" && req.query && req.query.debug === "1") {
