@@ -46,6 +46,27 @@ export default async function handler(req, res) {
     });
   }
 
+  if (req.method === "GET" && req.query && req.query.probar_balance === "1") {
+    try {
+      const KEY_ID = process.env.KALSHI_KEY_ID;
+      const PRIVATE_KEY_B64 = process.env.KALSHI_PRIVATE_KEY_B64;
+      const PRIVATE_KEY = Buffer.from(PRIVATE_KEY_B64, "base64").toString("utf-8");
+      const ruta = "/trade-api/v2/portfolio/balance";
+      const { timestamp, firma } = firmarPeticion(PRIVATE_KEY, "GET", ruta);
+      const resp = await fetch(BASE_URL + ruta, {
+        headers: {
+          "KALSHI-ACCESS-KEY": KEY_ID,
+          "KALSHI-ACCESS-TIMESTAMP": timestamp,
+          "KALSHI-ACCESS-SIGNATURE": firma,
+        },
+      });
+      const resultado = await resp.json();
+      return res.status(resp.status).json({ prueba_balance: resultado });
+    } catch (e) {
+      return res.status(500).json({ error: "Error en prueba de balance", detalle: String(e) });
+    }
+  }
+
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Método no permitido, usa POST" });
   }
