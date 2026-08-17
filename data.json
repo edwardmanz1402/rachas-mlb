@@ -38844,13 +38844,21 @@
       },
       "away_pitcher": {
         "nombre": "Brandon Young",
-        "avg_contra": ".249",
-        "era": "3.33",
-        "whip": "1.32",
-        "k9": "7.36",
-        "h9": "8.63",
-        "ip_temporada": "113.2",
+        "avg_contra": ".247",
+        "era": "3.28",
+        "whip": "1.31",
+        "k9": "7.34",
+        "h9": "8.51",
+        "ip_temporada": "115.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-17",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-11",
             "ip": "6.0",
@@ -38874,26 +38882,26 @@
             "h": 5,
             "er": 4,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-25",
-            "ip": "6.1",
-            "k": 6,
-            "h": 4,
-            "er": 1,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Shane McClanahan",
-        "avg_contra": ".207",
-        "era": "3.09",
-        "whip": "1.12",
-        "k9": "8.27",
-        "h9": "6.91",
-        "ip_temporada": "99.0",
+        "avg_contra": ".205",
+        "era": "3.12",
+        "whip": "1.11",
+        "k9": "8.20",
+        "h9": "6.86",
+        "ip_temporada": "101.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-17",
+            "ip": "2.0",
+            "k": 1,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-07-30",
             "ip": "3.0",
@@ -38917,14 +38925,6 @@
             "h": 5,
             "er": 5,
             "bb": 3
-          },
-          {
-            "fecha": "2026-07-08",
-            "ip": "6.1",
-            "k": 5,
-            "h": 4,
-            "er": 0,
-            "bb": 0
           }
         ]
       }
@@ -40260,7 +40260,17 @@
         "Luisangel Acuña",
         "Jake Rogers"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Michael Conforto",
+        "Carson Kelly"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -40318,7 +40328,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 62.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Seiya Suzuki",
@@ -40328,23 +40338,16 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Miguel Amaya",
-            "prob": 42,
-            "prob_2j_3j": 42.9,
-            "pct_hit": 54.9,
-            "confirmado": false
-          },
           {
             "jugador": "Pedro Ramírez",
             "prob": 22,
             "prob_2j_3j": 0,
             "pct_hit": 36.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40353,42 +40356,28 @@
             "prob": 70,
             "prob_1j_2j": 68.3,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
             "prob": 69,
             "prob_1j_2j": 73.1,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carson Kelly",
             "prob": 57,
             "prob_1j_2j": 58.5,
             "pct_hit": 59.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ian Happ",
             "prob": 55,
             "prob_1j_2j": 58.5,
             "pct_hit": 53.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Dansby Swanson",
-            "prob": 50,
-            "prob_1j_2j": 52.2,
-            "pct_hit": 47.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyrone Taylor",
-            "prob": 39,
-            "prob_1j_2j": 42.1,
-            "pct_hit": 39.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40671,5 +40660,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "17/08/26 16:00"
+  "alineaciones_actualizadas": "17/08/26 16:30"
 }
