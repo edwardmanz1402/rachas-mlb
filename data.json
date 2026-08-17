@@ -38368,7 +38368,17 @@
       "home": "Cincinnati Reds",
       "game_id": 824514,
       "fecha": "2026-08-17",
-      "away_lineup": [],
+      "away_lineup": [
+        "Joshua Báez",
+        "Iván Herrera",
+        "Jordan Walker",
+        "Alec Burleson",
+        "José Fermín",
+        "Masyn Winn",
+        "Blaze Jordan",
+        "Everson Pereira",
+        "Pedro Pagés"
+      ],
       "home_lineup": [
         "Elly De La Cruz",
         "Sal Stewart",
@@ -38380,7 +38390,7 @@
         "Noelvi Marte",
         "Ke'Bryan Hayes"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38391,7 +38401,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 48.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Everson Pereira",
@@ -38401,7 +38411,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 42.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38410,14 +38420,14 @@
             "prob": 76,
             "prob_2j_3j": 100.0,
             "pct_hit": 55.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Burleson",
             "prob": 72,
             "prob_2j_3j": 77.8,
             "pct_hit": 69.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38426,42 +38436,21 @@
             "prob": 71,
             "prob_1j_2j": 73.1,
             "pct_hit": 72.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
             "prob": 64,
             "prob_1j_2j": 64.5,
             "pct_hit": 62.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "JJ Wetherholt",
-            "prob": 60,
-            "prob_1j_2j": 60.7,
-            "pct_hit": 58.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Fermín",
             "prob": 55,
             "prob_1j_2j": 61.3,
             "pct_hit": 47.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "prob": 36,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 39.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jimmy Crooks",
-            "prob": 31,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 35.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40755,5 +40744,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "17/08/26 08:30"
+  "alineaciones_actualizadas": "17/08/26 09:00"
 }
