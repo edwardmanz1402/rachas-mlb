@@ -33,6 +33,19 @@ function firmarPeticion(privateKeyPem, metodo, ruta) {
 }
 
 export default async function handler(req, res) {
+  // Diagnóstico temporal: confirma qué variables de entorno relacionadas a
+  // Kalshi existen realmente en este despliegue, sin revelar su contenido.
+  if (req.method === "GET" && req.query && req.query.debug === "1") {
+    const claves = Object.keys(process.env).filter(k => k.includes("KALSHI"));
+    return res.status(200).json({
+      variables_kalshi_encontradas: claves,
+      KALSHI_KEY_ID_existe: !!process.env.KALSHI_KEY_ID,
+      KALSHI_KEY_ID_longitud: process.env.KALSHI_KEY_ID ? process.env.KALSHI_KEY_ID.length : 0,
+      KALSHI_PRIVATE_KEY_B64_existe: !!process.env.KALSHI_PRIVATE_KEY_B64,
+      KALSHI_PRIVATE_KEY_B64_longitud: process.env.KALSHI_PRIVATE_KEY_B64 ? process.env.KALSHI_PRIVATE_KEY_B64.length : 0,
+    });
+  }
+
   if (req.method !== "POST") {
     return res.status(405).json({ error: "Método no permitido, usa POST" });
   }
