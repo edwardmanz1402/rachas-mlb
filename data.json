@@ -38743,7 +38743,17 @@
       "home": "Tampa Bay Rays",
       "game_id": 822939,
       "fecha": "2026-08-17",
-      "away_lineup": [],
+      "away_lineup": [
+        "Tyler O'Neill",
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Coby Mayo",
+        "Gunnar Henderson",
+        "Christian Encarnacion-Strand",
+        "Jeremiah Jackson",
+        "Carlos Narváez",
+        "Christian Franklin"
+      ],
       "home_lineup": [
         "Yandy Díaz",
         "Jonathan Aranda",
@@ -38755,7 +38765,7 @@
         "Richie Palacios",
         "Jorge Mateo"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38766,7 +38776,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 65.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler O'Neill",
@@ -38776,7 +38786,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 48.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Holliday",
@@ -38786,7 +38796,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 40.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Encarnacion-Strand",
@@ -38796,39 +38806,17 @@
             "prob_3j_4j": 0,
             "pct_hit": 47.1,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Colton Cowser",
-            "prob": 49,
-            "prob_2j_3j": 54.5,
-            "pct_hit": 42.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Leody Taveras",
-            "prob": 43,
-            "prob_2j_3j": 40.0,
-            "pct_hit": 54.9,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Coby Mayo",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 48.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Yohel Pozo",
-            "prob": 32,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39449,15 +39437,15 @@
       "fecha": "2026-08-17",
       "away_lineup": [],
       "home_lineup": [
-        "Jahmai Jones",
+        "Nick Sogard",
         "Ceddanne Rafaela",
         "Wilyer Abreu",
         "Willson Contreras",
         "Adley Rutschman",
         "Caleb Durbin",
         "Andruw Monasterio",
-        "Eli White",
-        "Nick Sogard"
+        "Mickey Gasper",
+        "Eli White"
       ],
       "alineacion_confirmada": false,
       "away_data": {
@@ -39530,18 +39518,7 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Jahmai Jones",
-            "juegos": 4,
-            "avg": 0.667,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 26.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": true
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Caleb Durbin",
@@ -39881,7 +39858,17 @@
       "home": "Kansas City Royals",
       "game_id": 824077,
       "fecha": "2026-08-17",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jeff McNeil",
+        "Jacob Wilson",
+        "Lawrence Butler",
+        "Zack Gelof",
+        "Carlos Cortes",
+        "Henry Bolte",
+        "Donovan Walton",
+        "Tommy White",
+        "Brian Serven"
+      ],
       "home_lineup": [
         "Carter Jensen",
         "Bobby Witt Jr.",
@@ -39893,29 +39880,9 @@
         "Isaac Collins",
         "Kyle Isbel"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Tyler Soderstrom",
-            "juegos": 9,
-            "avg": 0.273,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 57.1,
-            "pct_hit": 62.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Alika Williams",
-            "juegos": 5,
-            "avg": 0.462,
-            "prob_2j_3j": 83.3,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 54.5,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
           {
             "jugador": "Tommy White",
             "juegos": 4,
@@ -39924,7 +39891,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 53.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carlos Cortes",
@@ -39934,7 +39901,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 51.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39943,14 +39910,7 @@
             "prob": 72,
             "prob_2j_3j": 83.3,
             "pct_hit": 58.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Max Muncy",
-            "prob": 51,
-            "prob_2j_3j": 51.9,
-            "pct_hit": 52.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39959,21 +39919,14 @@
             "prob": 74,
             "prob_1j_2j": 80.9,
             "pct_hit": 73.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Darell Hernaiz",
-            "prob": 40,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 48.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lawrence Butler",
             "prob": 33,
             "prob_1j_2j": 30.6,
             "pct_hit": 43.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40740,5 +40693,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "17/08/26 14:30"
+  "alineaciones_actualizadas": "17/08/26 15:00"
 }
