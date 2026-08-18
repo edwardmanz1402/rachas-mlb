@@ -39173,7 +39173,17 @@
         "Max Clark",
         "Javier Báez"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Spencer Horwitz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Oneil Cruz",
+        "Jake Mangum",
+        "Rafael Flores Jr.",
+        "Jacob Gonzalez",
+        "Jared Triolo"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -39231,34 +39241,11 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 68.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Nick Yorke",
-            "prob": 73,
-            "prob_2j_3j": 100.0,
-            "pct_hit": 45.8,
-            "confirmado": false
-          }
-        ],
-        "candidatos_1j": [
-          {
-            "jugador": "Nick Gonzales",
-            "prob": 68,
-            "prob_1j_2j": 70.7,
-            "pct_hit": 65.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Henry Davis",
-            "prob": 29,
-            "prob_1j_2j": 28.6,
-            "pct_hit": 39.7,
-            "confirmado": false
-          }
-        ]
+        "candidatos_2j": [],
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Keider Montero",
@@ -40601,7 +40588,17 @@
       "home": "Kansas City Royals",
       "game_id": 824075,
       "fecha": "2026-08-18",
-      "away_lineup": [],
+      "away_lineup": [
+        "Henry Bolte",
+        "Zack Gelof",
+        "Jeff McNeil",
+        "Jonah Heim",
+        "Tommy White",
+        "Lawrence Butler",
+        "Max Muncy",
+        "Alika Williams",
+        "Darell Hernaiz"
+      ],
       "home_lineup": [
         "Nick Loftin",
         "Bobby Witt Jr.",
@@ -40613,7 +40610,7 @@
         "Carter Jensen",
         "Kyle Isbel"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40624,17 +40621,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 55.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Carlos Cortes",
-            "juegos": 4,
-            "avg": 0.286,
-            "prob_2j_3j": 84.6,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 51.7,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Henry Bolte",
@@ -40644,7 +40631,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40653,44 +40640,37 @@
             "prob": 71,
             "prob_2j_3j": 81.0,
             "pct_hit": 73.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Muncy",
             "prob": 51,
             "prob_2j_3j": 51.9,
             "pct_hit": 52.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lawrence Butler",
             "prob": 36,
             "prob_2j_3j": 37.5,
             "pct_hit": 43.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Donovan Walton",
-            "prob": 73,
-            "prob_1j_2j": 89.5,
-            "pct_hit": 54.8,
-            "confirmado": false
-          },
           {
             "jugador": "Jeff McNeil",
             "prob": 49,
             "prob_1j_2j": 50.0,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Darell Hernaiz",
             "prob": 40,
             "prob_1j_2j": 40.0,
             "pct_hit": 48.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40765,45 +40745,45 @@
         ]
       },
       "away_pitcher": {
-        "nombre": "Jack Perkins",
-        "avg_contra": ".277",
-        "era": "7.27",
-        "whip": "1.52",
-        "k9": "10.36",
-        "h9": "10.14",
-        "ip_temporada": "81.2",
+        "nombre": "Brady Basso",
+        "avg_contra": ".299",
+        "era": "4.35",
+        "whip": "1.40",
+        "k9": "7.84",
+        "h9": "11.32",
+        "ip_temporada": "20.2",
         "ultimas4": [
           {
-            "fecha": "2026-08-12",
-            "ip": "5.0",
+            "fecha": "2026-08-15",
+            "ip": "1.2",
             "k": 2,
-            "h": 12,
-            "er": 6,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-08-07",
-            "ip": "3.0",
-            "k": 3,
-            "h": 5,
-            "er": 5,
-            "bb": 3
-          },
-          {
-            "fecha": "2026-08-01",
-            "ip": "5.1",
-            "k": 9,
-            "h": 9,
-            "er": 6,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-07-27",
-            "ip": "5.2",
-            "k": 4,
             "h": 1,
-            "er": 2,
-            "bb": 3
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-11",
+            "ip": "2.0",
+            "k": 2,
+            "h": 3,
+            "er": 1,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-06",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
           }
         ]
       },
@@ -41110,7 +41090,17 @@
         "Victor Robles",
         "Brock Rodden"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Jake Bauers",
+        "William Contreras",
+        "Christian Yelich",
+        "Luis Lara",
+        "Garrett Mitchell",
+        "Joey Ortiz",
+        "David Hamilton"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -41409,7 +41399,17 @@
         "Tristan Peters",
         "Drew Romo"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Alex Bregman",
+        "Michael Busch",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Ian Happ",
+        "Miguel Amaya",
+        "Michael Conforto"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -41470,7 +41470,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41479,28 +41479,21 @@
             "prob": 73,
             "prob_2j_3j": 72.0,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
             "prob": 69,
             "prob_2j_3j": 75.0,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ian Happ",
             "prob": 52,
             "prob_2j_3j": 55.0,
             "pct_hit": 53.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Carson Kelly",
-            "prob": 51,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 59.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41509,14 +41502,7 @@
             "prob": 67,
             "prob_1j_2j": 71.0,
             "pct_hit": 65.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyrone Taylor",
-            "prob": 39,
-            "prob_1j_2j": 42.1,
-            "pct_hit": 39.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41976,5 +41962,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "18/08/26 14:30"
+  "alineaciones_actualizadas": "18/08/26 15:00"
 }
