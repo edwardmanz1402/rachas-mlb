@@ -38536,16 +38536,16 @@
         "Alec Burleson",
         "Jordan Walker",
         "Joshua Báez",
-        "Nathan Church",
+        "José Fermín",
         "Masyn Winn",
-        "Bryan Torres",
+        "Everson Pereira",
         "Blaze Jordan"
       ],
       "home_lineup": [
         "Elly De La Cruz",
         "Sal Stewart",
         "JJ Bleday",
-        "Eugenio Suárez",
+        "Noelvi Marte",
         "Michael Toglia",
         "Matt McLain",
         "Héctor Rodríguez",
@@ -38554,7 +38554,18 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [],
+        "racha": [
+          {
+            "jugador": "Everson Pereira",
+            "juegos": 3,
+            "avg": 0.429,
+            "prob_2j_3j": 25.0,
+            "prob_3j_4j": 0,
+            "pct_hit": 42.9,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
+          }
+        ],
         "candidatos_2j": [
           {
             "jugador": "Blaze Jordan",
@@ -38594,10 +38605,10 @@
             "confirmado": true
           },
           {
-            "jugador": "Bryan Torres",
-            "prob": 36,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 39.5,
+            "jugador": "José Fermín",
+            "prob": 55,
+            "prob_1j_2j": 61.3,
+            "pct_hit": 47.9,
             "confirmado": true
           }
         ]
@@ -38606,13 +38617,6 @@
         "racha": [],
         "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Eugenio Suárez",
-            "prob": 47,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 50.0,
-            "confirmado": true
-          },
           {
             "jugador": "Jose Trevino",
             "prob": 42,
@@ -38731,7 +38735,7 @@
         "Junior Caminero",
         "Jonny DeLuca",
         "Chandler Simpson",
-        "Ryan Vilade",
+        "Nick Fortes",
         "Cedric Mullins",
         "Richie Palacios",
         "Taylor Walls"
@@ -38852,10 +38856,10 @@
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Ryan Vilade",
-            "prob": 51,
-            "prob_1j_2j": 56.5,
-            "pct_hit": 44.8,
+            "jugador": "Nick Fortes",
+            "prob": 60,
+            "prob_1j_2j": 65.9,
+            "pct_hit": 57.1,
             "confirmado": true
           }
         ]
@@ -38953,7 +38957,7 @@
       "game_id": 823427,
       "fecha": "2026-08-17",
       "away_lineup": [
-        "Esteury Ruiz",
+        "Jakob Marsee",
         "Heriberto Hernández",
         "Xavier Edwards",
         "Agustín Ramírez",
@@ -38972,7 +38976,7 @@
         "Bryson Stott",
         "Brandon Marsh",
         "J.T. Realmuto",
-        "Justin Crawford"
+        "Derek Hill"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -39033,13 +39037,6 @@
             "prob": 44,
             "prob_1j_2j": 47.1,
             "pct_hit": 41.7,
-            "confirmado": true
-          },
-          {
-            "jugador": "Esteury Ruiz",
-            "prob": 33,
-            "prob_1j_2j": 35.3,
-            "pct_hit": 38.9,
             "confirmado": true
           }
         ]
@@ -39105,10 +39102,10 @@
             "confirmado": true
           },
           {
-            "jugador": "Justin Crawford",
-            "prob": 57,
-            "prob_1j_2j": 57.1,
-            "pct_hit": 56.7,
+            "jugador": "Derek Hill",
+            "prob": 49,
+            "prob_1j_2j": 53.3,
+            "pct_hit": 48.4,
             "confirmado": true
           }
         ]
@@ -39335,19 +39332,19 @@
       "away_pitcher": {
         "nombre": "Framber Valdez",
         "avg_contra": ".256",
-        "era": "4.14",
-        "whip": "1.37",
-        "k9": "7.16",
+        "era": "4.11",
+        "whip": "1.38",
+        "k9": "7.17",
         "h9": "9.00",
-        "ip_temporada": "137.0",
+        "ip_temporada": "138.0",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "4.0",
-            "k": 3,
-            "h": 2,
+            "ip": "5.0",
+            "k": 4,
+            "h": 3,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-12",
@@ -39746,17 +39743,17 @@
       },
       "away_pitcher": {
         "nombre": "Walker Buehler",
-        "avg_contra": ".259",
-        "era": "4.87",
-        "whip": "1.41",
-        "k9": "7.76",
-        "h9": "8.97",
-        "ip_temporada": "118.1",
+        "avg_contra": ".255",
+        "era": "4.79",
+        "whip": "1.39",
+        "k9": "7.78",
+        "h9": "8.83",
+        "ip_temporada": "120.1",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "4.0",
-            "k": 2,
+            "ip": "6.0",
+            "k": 4,
             "h": 2,
             "er": 2,
             "bb": 2
@@ -39789,20 +39786,20 @@
       },
       "home_pitcher": {
         "nombre": "Nolan McLean",
-        "avg_contra": ".215",
-        "era": "3.37",
+        "avg_contra": ".213",
+        "era": "3.34",
         "whip": "1.16",
-        "k9": "10.29",
-        "h9": "7.05",
-        "ip_temporada": "141.2",
+        "k9": "10.22",
+        "h9": "7.00",
+        "ip_temporada": "142.2",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "4.2",
+            "ip": "6.0",
             "k": 3,
             "h": 6,
             "er": 1,
-            "bb": 3
+            "bb": 4
           },
           {
             "fecha": "2026-08-11",
@@ -39966,20 +39963,20 @@
       },
       "away_pitcher": {
         "nombre": "Mason Barnett",
-        "avg_contra": ".260",
-        "era": "6.98",
-        "whip": "1.58",
-        "k9": "8.33",
-        "h9": "9.00",
-        "ip_temporada": "40.0",
+        "avg_contra": ".266",
+        "era": "7.08",
+        "whip": "1.62",
+        "k9": "8.41",
+        "h9": "9.30",
+        "ip_temporada": "40.2",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "1.2",
-            "k": 1,
-            "h": 5,
-            "er": 5,
-            "bb": 3
+            "ip": "2.2",
+            "k": 2,
+            "h": 7,
+            "er": 6,
+            "bb": 4
           },
           {
             "fecha": "2026-08-11",
@@ -40009,17 +40006,17 @@
       },
       "home_pitcher": {
         "nombre": "Michael Wacha",
-        "avg_contra": ".237",
-        "era": "3.48",
+        "avg_contra": ".236",
+        "era": "3.46",
         "whip": "1.15",
-        "k9": "6.96",
-        "h9": "7.96",
-        "ip_temporada": "152.2",
+        "k9": "6.97",
+        "h9": "7.91",
+        "ip_temporada": "153.2",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "2.0",
-            "k": 1,
+            "ip": "3.0",
+            "k": 2,
             "h": 3,
             "er": 1,
             "bb": 0
@@ -40180,13 +40177,21 @@
       },
       "away_pitcher": {
         "nombre": "Martín Pérez",
-        "avg_contra": ".208",
-        "era": "2.96",
-        "whip": "1.15",
-        "k9": "6.77",
-        "h9": "6.69",
-        "ip_temporada": "106.1",
+        "avg_contra": ".214",
+        "era": "3.27",
+        "whip": "1.19",
+        "k9": "6.79",
+        "h9": "6.96",
+        "ip_temporada": "107.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-17",
+            "ip": "0.1",
+            "k": 0,
+            "h": 4,
+            "er": 4,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-11",
             "ip": "6.0",
@@ -40210,26 +40215,26 @@
             "h": 1,
             "er": 0,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-27",
-            "ip": "5.0",
-            "k": 4,
-            "h": 8,
-            "er": 3,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Bailey Ober",
-        "avg_contra": ".251",
-        "era": "4.64",
-        "whip": "1.23",
-        "k9": "6.09",
-        "h9": "8.82",
-        "ip_temporada": "99.0",
+        "avg_contra": ".253",
+        "era": "4.59",
+        "whip": "1.24",
+        "k9": "6.21",
+        "h9": "8.91",
+        "ip_temporada": "100.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-17",
+            "ip": "1.0",
+            "k": 2,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-11",
             "ip": "6.0",
@@ -40253,14 +40258,6 @@
             "h": 4,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-22",
-            "ip": "4.0",
-            "k": 2,
-            "h": 8,
-            "er": 4,
-            "bb": 1
           }
         ]
       }
@@ -40404,18 +40401,18 @@
       },
       "away_pitcher": {
         "nombre": "Luis Castillo",
-        "avg_contra": ".266",
-        "era": "5.06",
-        "whip": "1.37",
-        "k9": "8.12",
-        "h9": "9.48",
-        "ip_temporada": "112.0",
+        "avg_contra": ".267",
+        "era": "4.99",
+        "whip": "1.36",
+        "k9": "8.00",
+        "h9": "9.50",
+        "ip_temporada": "113.2",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "1.0",
+            "ip": "3.0",
             "k": 0,
-            "h": 4,
+            "h": 6,
             "er": 2,
             "bb": 0
           },
@@ -40447,20 +40444,20 @@
       },
       "home_pitcher": {
         "nombre": "Shota Imanaga",
-        "avg_contra": ".232",
-        "era": "3.68",
-        "whip": "1.08",
-        "k9": "8.59",
-        "h9": "7.88",
-        "ip_temporada": "139.1",
+        "avg_contra": ".234",
+        "era": "3.85",
+        "whip": "1.10",
+        "k9": "8.66",
+        "h9": "7.95",
+        "ip_temporada": "140.1",
         "ultimas4": [
           {
             "fecha": "2026-08-17",
-            "ip": "2.0",
-            "k": 3,
+            "ip": "3.0",
+            "k": 5,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-11",
@@ -40611,13 +40608,21 @@
       },
       "away_pitcher": {
         "nombre": "Blake Snell",
-        "avg_contra": ".250",
-        "era": "5.00",
-        "whip": "1.33",
-        "k9": "15.00",
-        "h9": "9.00",
-        "ip_temporada": "9.0",
+        "avg_contra": ".231",
+        "era": "4.50",
+        "whip": "1.20",
+        "k9": "14.40",
+        "h9": "8.10",
+        "ip_temporada": "10.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-17",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-11",
             "ip": "6.0",
@@ -40639,12 +40644,20 @@
       "home_pitcher": {
         "nombre": "Tomoyuki Sugano",
         "avg_contra": ".264",
-        "era": "4.43",
+        "era": "4.46",
         "whip": "1.25",
-        "k9": "5.23",
-        "h9": "9.18",
-        "ip_temporada": "113.2",
+        "k9": "5.17",
+        "h9": "9.16",
+        "ip_temporada": "115.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-17",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-11",
             "ip": "6.0",
@@ -40668,18 +40681,10 @@
             "h": 5,
             "er": 1,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-24",
-            "ip": "5.1",
-            "k": 5,
-            "h": 6,
-            "er": 2,
-            "bb": 1
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "17/08/26 18:30"
+  "alineaciones_actualizadas": "17/08/26 19:00"
 }
