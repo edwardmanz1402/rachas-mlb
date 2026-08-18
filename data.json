@@ -39343,7 +39343,17 @@
       "home": "Cleveland Guardians",
       "game_id": 824398,
       "fecha": "2026-08-18",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jonah Cox",
+        "Rafael Devers",
+        "Victor Bericoto",
+        "Bryce Eldridge",
+        "Osleivis Basabe",
+        "Buddy Kennedy",
+        "Drew Gilbert",
+        "Andrew Knizner",
+        "Christian Koss"
+      ],
       "home_lineup": [
         "Steven Kwan",
         "José Ramírez",
@@ -39355,7 +39365,7 @@
         "Patrick Bailey",
         "Brayan Rocchio"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39366,7 +39376,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Devers",
@@ -39376,7 +39386,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 60.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Eldridge",
@@ -39386,7 +39396,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 63.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Osleivis Basabe",
@@ -39396,7 +39406,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -40184,9 +40194,19 @@
       "home": "Boston Red Sox",
       "game_id": 824723,
       "fecha": "2026-08-18",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ildemaro Vargas",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Tim Tawa",
+        "Jordan Lawlar",
+        "James McCann",
+        "Jose Fernandez",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40197,17 +40217,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 68.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Max Kepler",
-            "juegos": 3,
-            "avg": 0.308,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -40217,14 +40227,14 @@
             "prob": 54,
             "prob_1j_2j": 59.3,
             "pct_hit": 54.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
             "prob": 47,
             "prob_1j_2j": 53.8,
             "pct_hit": 43.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41912,5 +41922,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "18/08/26 12:30"
+  "alineaciones_actualizadas": "18/08/26 13:00"
 }
