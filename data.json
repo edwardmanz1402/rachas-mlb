@@ -35826,7 +35826,7 @@
       "game_id": 824640,
       "fecha": "2026-08-19",
       "away_lineup": [
-        "Sam Antonacci",
+        "Brenton Doyle",
         "Munetaka Murakami",
         "Miguel Vargas",
         "Randal Grichuk",
@@ -35845,7 +35845,7 @@
         "Pedro Ramírez",
         "Carson Kelly",
         "Ian Happ",
-        "Tyrone Taylor"
+        "Michael Conforto"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -35878,13 +35878,6 @@
             "prob": 68,
             "prob_1j_2j": 69.7,
             "pct_hit": 69.1,
-            "confirmado": true
-          },
-          {
-            "jugador": "Sam Antonacci",
-            "prob": 62,
-            "prob_1j_2j": 64.6,
-            "pct_hit": 59.4,
             "confirmado": true
           },
           {
@@ -36108,19 +36101,19 @@
       },
       "away_pitcher": {
         "nombre": "Brandon Pfaadt",
-        "avg_contra": ".233",
-        "era": "3.17",
-        "whip": "1.13",
-        "k9": "6.05",
-        "h9": "7.88",
-        "ip_temporada": "93.2",
+        "avg_contra": ".231",
+        "era": "3.20",
+        "whip": "1.12",
+        "k9": "6.11",
+        "h9": "7.81",
+        "ip_temporada": "95.2",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "1.0",
-            "k": 2,
-            "h": 1,
-            "er": 1,
+            "ip": "3.0",
+            "k": 4,
+            "h": 2,
+            "er": 2,
             "bb": 0
           },
           {
@@ -36151,18 +36144,18 @@
       },
       "home_pitcher": {
         "nombre": "Payton Tolle",
-        "avg_contra": ".215",
-        "era": "2.95",
-        "whip": "1.06",
-        "k9": "10.01",
-        "h9": "7.14",
-        "ip_temporada": "116.0",
+        "avg_contra": ".216",
+        "era": "2.90",
+        "whip": "1.07",
+        "k9": "10.14",
+        "h9": "7.17",
+        "ip_temporada": "118.0",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "1.1",
-            "k": 2,
-            "h": 1,
+            "ip": "3.0",
+            "k": 5,
+            "h": 3,
             "er": 0,
             "bb": 1
           },
@@ -36416,7 +36409,17 @@
         "George Lombard Jr.",
         "Austin Wells"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jackson Holliday",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Samuel Basallo",
+        "Coby Mayo",
+        "Dylan Beavers",
+        "Leody Taveras",
+        "Colton Cowser",
+        "Carlos Narváez"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -36459,7 +36462,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Coby Mayo",
@@ -36469,7 +36472,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 49.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -36479,7 +36482,7 @@
             "prob": 57,
             "prob_1j_2j": 60.9,
             "pct_hit": 55.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -37179,7 +37182,17 @@
       "home": "Kansas City Royals",
       "game_id": 824076,
       "fecha": "2026-08-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Henry Bolte",
+        "Jeff McNeil",
+        "Zack Gelof",
+        "Lawrence Butler",
+        "Tommy White",
+        "Carlos Cortes",
+        "Jonah Heim",
+        "Donovan Walton",
+        "Max Muncy"
+      ],
       "home_lineup": [
         "Nick Loftin",
         "Bobby Witt Jr.",
@@ -37191,7 +37204,7 @@
         "Tyler Tolbert",
         "Kyle Isbel"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -37202,7 +37215,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Henry Bolte",
@@ -37212,7 +37225,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lawrence Butler",
@@ -37222,7 +37235,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -37231,7 +37244,7 @@
             "prob": 56,
             "prob_2j_3j": 61.5,
             "pct_hit": 51.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -38098,5 +38111,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/08/26 14:30"
+  "alineaciones_actualizadas": "19/08/26 15:00"
 }
