@@ -35507,8 +35507,8 @@
         "Jackson Merrill",
         "Luis Rengifo",
         "Luis Campusano",
-        "Jase Bowen",
-        "Sung-Mun Song"
+        "Gavin Sheets",
+        "Austin Hays"
       ],
       "home_lineup": [
         "A.J. Ewing",
@@ -35994,19 +35994,19 @@
       },
       "home_pitcher": {
         "nombre": "Clay Holmes",
-        "avg_contra": ".206",
-        "era": "2.38",
-        "whip": "1.09",
-        "k9": "6.62",
-        "h9": "6.75",
-        "ip_temporada": "68.0",
+        "avg_contra": ".211",
+        "era": "2.49",
+        "whip": "1.11",
+        "k9": "6.55",
+        "h9": "6.95",
+        "ip_temporada": "68.2",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "5.0",
+            "ip": "5.1",
             "k": 1,
-            "h": 4,
-            "er": 0,
+            "h": 6,
+            "er": 1,
             "bb": 2
           },
           {
@@ -36405,9 +36405,19 @@
       "home": "Baltimore Orioles",
       "game_id": 824801,
       "fecha": "2026-08-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Luis García Jr.",
+        "Heliot Ramos",
+        "Jazz Chisholm Jr.",
+        "Spencer Jones",
+        "Ryan McMahon",
+        "George Lombard Jr.",
+        "Austin Wells"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -36418,7 +36428,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 72.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -36428,14 +36438,14 @@
             "prob": 42,
             "prob_1j_2j": 41.0,
             "pct_hit": 50.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Jones",
             "prob": 33,
             "prob_1j_2j": 36.4,
             "pct_hit": 36.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -36903,7 +36913,17 @@
       "home": "Tampa Bay Rays",
       "game_id": 822937,
       "fecha": "2026-08-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brett Bateman",
+        "Nathan Lukes",
+        "Alejandro Kirk",
+        "Kazuma Okamoto",
+        "Andrés Giménez",
+        "Jesús Sánchez",
+        "Josh Smith",
+        "Brandon Valenzuela",
+        "Charles McAdoo"
+      ],
       "home_lineup": [
         "Chandler Simpson",
         "Junior Caminero",
@@ -36915,7 +36935,7 @@
         "Richie Palacios",
         "Taylor Walls"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -36926,7 +36946,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrés Giménez",
@@ -36936,7 +36956,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 54.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kazuma Okamoto",
@@ -36946,52 +36966,38 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 58.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Ernie Clement",
-            "prob": 72,
-            "prob_1j_2j": 73.5,
-            "pct_hit": 69.6,
-            "confirmado": false
-          },
-          {
             "jugador": "Nathan Lukes",
             "prob": 66,
             "prob_1j_2j": 73.7,
             "pct_hit": 56.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "George Springer",
-            "prob": 62,
-            "prob_1j_2j": 63.4,
-            "pct_hit": 64.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jesús Sánchez",
             "prob": 60,
             "prob_1j_2j": 62.2,
             "pct_hit": 56.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Smith",
             "prob": 53,
             "prob_1j_2j": 61.9,
             "pct_hit": 44.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Bateman",
             "prob": 52,
             "prob_1j_2j": 0,
             "pct_hit": 80.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -37286,7 +37292,49 @@
           }
         ]
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Jeffrey Springs",
+        "avg_contra": ".272",
+        "era": "6.17",
+        "whip": "1.48",
+        "k9": "7.33",
+        "h9": "9.67",
+        "ip_temporada": "108.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-07-31",
+            "ip": "4.0",
+            "k": 2,
+            "h": 4,
+            "er": 2,
+            "bb": 5
+          },
+          {
+            "fecha": "2026-07-26",
+            "ip": "1.1",
+            "k": 0,
+            "h": 4,
+            "er": 4,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-20",
+            "ip": "5.0",
+            "k": 2,
+            "h": 6,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-08",
+            "ip": "4.1",
+            "k": 4,
+            "h": 6,
+            "er": 6,
+            "bb": 4
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Seth Lugo",
         "avg_contra": ".274",
@@ -37567,7 +37615,17 @@
       "game_id": 822860,
       "fecha": "2026-08-19",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Joc Pederson",
+        "Corey Seager",
+        "Wyatt Langford",
+        "Brandon Nimmo",
+        "Ezequiel Duran",
+        "Evan Carter",
+        "Jarred Kelenic",
+        "Elias Díaz",
+        "Nicky Lopez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -37621,16 +37679,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Jake Burger",
-            "juegos": 4,
-            "avg": 0.429,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 70.0,
-            "pct_hit": 58.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Brandon Nimmo",
             "juegos": 3,
             "avg": 0.333,
@@ -37638,7 +37686,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 62.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -37647,14 +37695,7 @@
             "prob": 44,
             "prob_2j_3j": 50.0,
             "pct_hit": 45.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Justin Foscue",
-            "prob": 35,
-            "prob_2j_3j": 40.0,
-            "pct_hit": 37.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -37663,14 +37704,14 @@
             "prob": 64,
             "prob_1j_2j": 63.6,
             "pct_hit": 60.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wyatt Langford",
             "prob": 58,
             "prob_1j_2j": 63.3,
             "pct_hit": 60.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -37767,7 +37808,17 @@
       "game_id": 824155,
       "fecha": "2026-08-19",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "LaMonte Wade Jr.",
+        "Cam Smith",
+        "Christian Walker",
+        "Taylor Trammell",
+        "Christian Vázquez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -37832,25 +37883,17 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Yainer Diaz",
-            "prob": 62,
-            "prob_2j_3j": 69.2,
-            "pct_hit": 64.3,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Cam Smith",
             "prob": 56,
             "prob_1j_2j": 58.0,
             "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38057,5 +38100,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/08/26 13:30"
+  "alineaciones_actualizadas": "19/08/26 14:00"
 }
