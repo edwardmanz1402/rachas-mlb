@@ -39096,13 +39096,21 @@
       },
       "away_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".286",
-        "era": "6.23",
-        "whip": "1.38",
-        "k9": "8.31",
-        "h9": "10.38",
-        "ip_temporada": "8.2",
+        "avg_contra": ".300",
+        "era": "6.52",
+        "whip": "1.55",
+        "k9": "8.38",
+        "h9": "11.17",
+        "ip_temporada": "9.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-19",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-14",
             "ip": "3.2",
@@ -39123,13 +39131,21 @@
       },
       "home_pitcher": {
         "nombre": "Paul Skenes",
-        "avg_contra": ".228",
-        "era": "3.88",
-        "whip": "1.12",
-        "k9": "11.09",
-        "h9": "7.62",
-        "ip_temporada": "134.2",
+        "avg_contra": ".226",
+        "era": "3.85",
+        "whip": "1.13",
+        "k9": "11.08",
+        "h9": "7.56",
+        "ip_temporada": "135.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-19",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-11",
             "ip": "5.0",
@@ -39153,14 +39169,6 @@
             "h": 7,
             "er": 5,
             "bb": 4
-          },
-          {
-            "fecha": "2026-07-25",
-            "ip": "5.1",
-            "k": 11,
-            "h": 6,
-            "er": 5,
-            "bb": 2
           }
         ]
       }
@@ -39818,7 +39826,17 @@
       "game_id": 824722,
       "fecha": "2026-08-19",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Caleb Durbin",
+        "Mickey Gasper",
+        "Andruw Monasterio",
+        "Jarren Duran",
+        "Connor Wong"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -39864,16 +39882,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Jahmai Jones",
-            "juegos": 4,
-            "avg": 0.667,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 26.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Caleb Durbin",
             "juegos": 3,
             "avg": 0.455,
@@ -39881,7 +39889,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 55.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jarren Duran",
@@ -39891,17 +39899,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 54.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Masataka Yoshida",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 76.9,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 56.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -39911,63 +39909,42 @@
             "prob": 70,
             "prob_1j_2j": 68.8,
             "pct_hit": 73.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willson Contreras",
             "prob": 69,
             "prob_1j_2j": 71.2,
             "pct_hit": 62.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Sogard",
             "prob": 65,
             "prob_1j_2j": 75.0,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Connor Wong",
             "prob": 62,
             "prob_1j_2j": 68.0,
             "pct_hit": 56.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wilyer Abreu",
             "prob": 61,
             "prob_1j_2j": 60.0,
             "pct_hit": 61.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Anthony Seigler",
-            "prob": 60,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 48.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Adley Rutschman",
-            "prob": 55,
-            "prob_1j_2j": 59.0,
-            "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mickey Gasper",
             "prob": 52,
             "prob_1j_2j": 55.0,
             "pct_hit": 58.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eli White",
-            "prob": 38,
-            "prob_1j_2j": 40.9,
-            "pct_hit": 41.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41818,5 +41795,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/08/26 10:30"
+  "alineaciones_actualizadas": "19/08/26 11:00"
 }
