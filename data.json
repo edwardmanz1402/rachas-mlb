@@ -36041,7 +36041,7 @@
         "Geraldo Perdomo",
         "Nolan Arenado",
         "Tim Tawa",
-        "Jordan Lawlar",
+        "Lars Nootbaar",
         "Jose Fernandez",
         "Ryan Waldschmidt"
       ],
@@ -36101,18 +36101,18 @@
       },
       "away_pitcher": {
         "nombre": "Brandon Pfaadt",
-        "avg_contra": ".231",
-        "era": "3.17",
+        "avg_contra": ".232",
+        "era": "3.13",
         "whip": "1.12",
-        "k9": "6.33",
-        "h9": "7.82",
-        "ip_temporada": "96.2",
+        "k9": "6.36",
+        "h9": "7.83",
+        "ip_temporada": "97.2",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "4.0",
-            "k": 7,
-            "h": 3,
+            "ip": "5.1",
+            "k": 8,
+            "h": 4,
             "er": 2,
             "bb": 0
           },
@@ -36144,16 +36144,16 @@
       },
       "home_pitcher": {
         "nombre": "Payton Tolle",
-        "avg_contra": ".217",
-        "era": "2.93",
+        "avg_contra": ".218",
+        "era": "3.08",
         "whip": "1.08",
-        "k9": "10.08",
-        "h9": "7.22",
-        "ip_temporada": "119.2",
+        "k9": "10.05",
+        "h9": "7.28",
+        "ip_temporada": "120.0",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "4.2",
+            "ip": "5.0",
             "k": 6,
             "h": 6,
             "er": 3,
@@ -37969,7 +37969,17 @@
         "Enrique Hernández",
         "Ben Rortvedt"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Mickey Moniak",
+        "Cole Carrigg",
+        "TJ Rumfield",
+        "Zac Veen",
+        "Connor Norby",
+        "Adael Amador",
+        "Brett Sullivan",
+        "Ezequiel Tovar"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -38000,16 +38010,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Willi Castro",
-            "juegos": 4,
-            "avg": 0.333,
-            "prob_2j_3j": 81.2,
-            "prob_3j_4j": 25.0,
-            "pct_hit": 65.7,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
             "jugador": "Connor Norby",
             "juegos": 4,
             "avg": 0.333,
@@ -38017,7 +38017,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 52.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zac Veen",
@@ -38027,7 +38027,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 83.3,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -38121,5 +38121,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/08/26 15:31"
+  "alineaciones_actualizadas": "19/08/26 16:00"
 }
