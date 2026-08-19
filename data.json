@@ -36102,17 +36102,17 @@
       "away_pitcher": {
         "nombre": "Brandon Pfaadt",
         "avg_contra": ".231",
-        "era": "3.20",
+        "era": "3.17",
         "whip": "1.12",
-        "k9": "6.11",
-        "h9": "7.81",
-        "ip_temporada": "95.2",
+        "k9": "6.33",
+        "h9": "7.82",
+        "ip_temporada": "96.2",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "3.0",
-            "k": 4,
-            "h": 2,
+            "ip": "4.0",
+            "k": 7,
+            "h": 3,
             "er": 2,
             "bb": 0
           },
@@ -36144,20 +36144,20 @@
       },
       "home_pitcher": {
         "nombre": "Payton Tolle",
-        "avg_contra": ".216",
-        "era": "2.90",
-        "whip": "1.07",
-        "k9": "10.14",
-        "h9": "7.17",
-        "ip_temporada": "118.0",
+        "avg_contra": ".217",
+        "era": "2.93",
+        "whip": "1.08",
+        "k9": "10.08",
+        "h9": "7.22",
+        "ip_temporada": "119.2",
         "ultimas4": [
           {
             "fecha": "2026-08-19",
-            "ip": "3.0",
-            "k": 5,
-            "h": 3,
-            "er": 0,
-            "bb": 1
+            "ip": "4.2",
+            "k": 6,
+            "h": 6,
+            "er": 3,
+            "bb": 2
           },
           {
             "fecha": "2026-08-13",
@@ -37958,9 +37958,19 @@
       "home": "Colorado Rockies",
       "game_id": 824318,
       "fecha": "2026-08-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Shohei Ohtani",
+        "Andy Pages",
+        "Teoscar Hernández",
+        "Freddie Freeman",
+        "Mookie Betts",
+        "Miguel Rojas",
+        "Kyle Tucker",
+        "Enrique Hernández",
+        "Ben Rortvedt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -37971,7 +37981,7 @@
             "prob_3j_4j": 47.1,
             "pct_hit": 72.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andy Pages",
@@ -37981,7 +37991,7 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 68.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -38111,5 +38121,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/08/26 15:00"
+  "alineaciones_actualizadas": "19/08/26 15:31"
 }
