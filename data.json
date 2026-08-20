@@ -37044,8 +37044,8 @@
         "Braden Montgomery",
         "Colson Montgomery",
         "Chase Meidroth",
-        "Tristan Peters",
-        "Drew Romo"
+        "Brenton Doyle",
+        "Jake Rogers"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -37133,13 +37133,6 @@
             "prob_2j_3j": 70.4,
             "pct_hit": 69.1,
             "confirmado": true
-          },
-          {
-            "jugador": "Drew Romo",
-            "prob": 20,
-            "prob_2j_3j": 0,
-            "pct_hit": 32.6,
-            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -37156,16 +37149,23 @@
             "prob_1j_2j": 36.4,
             "pct_hit": 50.5,
             "confirmado": true
+          },
+          {
+            "jugador": "Jake Rogers",
+            "prob": 26,
+            "prob_1j_2j": 27.3,
+            "pct_hit": 32.4,
+            "confirmado": true
           }
         ]
       },
       "away_pitcher": {
         "nombre": "Grant Holmes",
-        "avg_contra": ".232",
+        "avg_contra": ".234",
         "era": "3.64",
-        "whip": "1.30",
+        "whip": "1.32",
         "k9": "7.28",
-        "h9": "7.86",
+        "h9": "7.93",
         "ip_temporada": "123.2",
         "ultimas4": [
           {
@@ -37707,7 +37707,17 @@
       "game_id": 822861,
       "fecha": "2026-08-20",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Wyatt Langford",
+        "Corey Seager",
+        "Jake Burger",
+        "Brandon Nimmo",
+        "Ezequiel Duran",
+        "Justin Foscue",
+        "Danny Jansen",
+        "Cody Freeman",
+        "Evan Carter"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -37775,7 +37785,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 58.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corey Seager",
@@ -37785,7 +37795,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 45.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -37794,23 +37804,16 @@
             "prob": 35,
             "prob_2j_3j": 40.0,
             "pct_hit": 37.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Elias Díaz",
-            "prob": 50,
-            "prob_1j_2j": 55.6,
-            "pct_hit": 48.8,
-            "confirmado": false
-          },
           {
             "jugador": "Evan Carter",
             "prob": 43,
             "prob_1j_2j": 45.5,
             "pct_hit": 40.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -37906,32 +37909,35 @@
       "home": "Houston Astros",
       "game_id": 824153,
       "fecha": "2026-08-20",
-      "away_lineup": [],
+      "away_lineup": [
+        "Wade Meckler",
+        "Mike Trout",
+        "Nolan Schanuel",
+        "Zach Neto",
+        "Moisés Ballesteros",
+        "Vaughn Grissom",
+        "Josh Lowe",
+        "Tyler Heineman",
+        "Adam Frazier"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
-          {
-            "jugador": "Denzer Guzman",
-            "prob": 60,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 64.1,
-            "confirmado": false
-          },
           {
             "jugador": "Zach Neto",
             "prob": 56,
             "prob_2j_3j": 54.2,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Lowe",
             "prob": 49,
             "prob_2j_3j": 60.0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -37940,7 +37946,7 @@
             "prob": 67,
             "prob_1j_2j": 72.0,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38088,5 +38094,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/08/26 14:00"
+  "alineaciones_actualizadas": "20/08/26 14:30"
 }
