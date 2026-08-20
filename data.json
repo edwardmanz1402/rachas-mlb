@@ -36173,5 +36173,1949 @@
         }
       ]
     }
-  }
+  },
+  "juegos_hoy": [
+    {
+      "away": "St. Louis Cardinals",
+      "home": "Cincinnati Reds",
+      "game_id": 824474,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Alec Burleson",
+            "juegos": 6,
+            "avg": 0.36,
+            "prob_2j_3j": 77.8,
+            "prob_3j_4j": 80.0,
+            "pct_hit": 69.6,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Jordan Walker",
+            "juegos": 5,
+            "avg": 0.476,
+            "prob_2j_3j": 75.0,
+            "prob_3j_4j": 80.0,
+            "pct_hit": 72.8,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Bryan Torres",
+            "juegos": 3,
+            "avg": 0.375,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 41.0,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "José Fermín",
+            "prob": 52,
+            "prob_2j_3j": 58.3,
+            "pct_hit": 47.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "Nathan Church",
+            "prob": 50,
+            "prob_2j_3j": 53.3,
+            "pct_hit": 52.8,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "JJ Wetherholt",
+            "prob": 60,
+            "prob_1j_2j": 60.7,
+            "pct_hit": 57.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "Blaze Jordan",
+            "prob": 51,
+            "prob_1j_2j": 54.5,
+            "pct_hit": 55.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Pedro Pagés",
+            "prob": 49,
+            "prob_1j_2j": 54.2,
+            "pct_hit": 49.1,
+            "confirmado": false
+          },
+          {
+            "jugador": "Everson Pereira",
+            "prob": 44,
+            "prob_1j_2j": 50.0,
+            "pct_hit": 42.9,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Dane Myers",
+            "juegos": 5,
+            "avg": 0.375,
+            "prob_2j_3j": 33.3,
+            "prob_3j_4j": 100.0,
+            "pct_hit": 50.0,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Sal Stewart",
+            "juegos": 4,
+            "avg": 0.267,
+            "prob_2j_3j": 59.3,
+            "prob_3j_4j": 61.5,
+            "pct_hit": 67.0,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [],
+        "candidatos_1j": [
+          {
+            "jugador": "Elly De La Cruz",
+            "prob": 66,
+            "prob_1j_2j": 69.8,
+            "pct_hit": 67.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Matt McLain",
+            "prob": 44,
+            "prob_1j_2j": 47.2,
+            "pct_hit": 43.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Jose Trevino",
+            "prob": 41,
+            "prob_1j_2j": 45.5,
+            "pct_hit": 44.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "Ke'Bryan Hayes",
+            "prob": 38,
+            "prob_1j_2j": 42.9,
+            "pct_hit": 36.4,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Michael McGreevy",
+        "avg_contra": ".254",
+        "era": "3.48",
+        "whip": "1.22",
+        "k9": "6.20",
+        "h9": "8.66",
+        "ip_temporada": "132.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "6.0",
+            "k": 6,
+            "h": 5,
+            "er": 0,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "5.2",
+            "k": 4,
+            "h": 8,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-03",
+            "ip": "4.1",
+            "k": 5,
+            "h": 4,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "1.2",
+            "k": 2,
+            "h": 8,
+            "er": 7,
+            "bb": 2
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Brady Singer",
+        "avg_contra": ".277",
+        "era": "4.66",
+        "whip": "1.44",
+        "k9": "7.45",
+        "h9": "9.95",
+        "ip_temporada": "125.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "6.0",
+            "k": 4,
+            "h": 8,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "6.0",
+            "k": 3,
+            "h": 8,
+            "er": 3,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "6.0",
+            "k": 6,
+            "h": 5,
+            "er": 3,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-07-29",
+            "ip": "4.1",
+            "k": 3,
+            "h": 7,
+            "er": 4,
+            "bb": 4
+          }
+        ]
+      }
+    },
+    {
+      "away": "San Francisco Giants",
+      "home": "Cleveland Guardians",
+      "game_id": 824395,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Jung Hoo Lee",
+            "juegos": 3,
+            "avg": 0.417,
+            "prob_2j_3j": 73.9,
+            "prob_3j_4j": 66.7,
+            "pct_hit": 64.8,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Willy Adames",
+            "juegos": 3,
+            "avg": 0.545,
+            "prob_2j_3j": 55.0,
+            "prob_3j_4j": 60.0,
+            "pct_hit": 59.3,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Buddy Kennedy",
+            "juegos": 3,
+            "avg": 0.333,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 23.5,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [],
+        "candidatos_1j": [
+          {
+            "jugador": "Rafael Devers",
+            "prob": 63,
+            "prob_1j_2j": 65.1,
+            "pct_hit": 60.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Victor Bericoto",
+            "prob": 58,
+            "prob_1j_2j": 66.7,
+            "pct_hit": 52.2,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Angel Martínez",
+            "prob": 53,
+            "prob_2j_3j": 58.3,
+            "pct_hit": 55.8,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Austin Hedges",
+            "prob": 65,
+            "prob_1j_2j": 74.1,
+            "pct_hit": 55.8,
+            "confirmado": false
+          },
+          {
+            "jugador": "Jo Adell",
+            "prob": 56,
+            "prob_1j_2j": 56.9,
+            "pct_hit": 55.9,
+            "confirmado": false
+          },
+          {
+            "jugador": "Travis Bazzana",
+            "prob": 55,
+            "prob_1j_2j": 60.5,
+            "pct_hit": 52.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "Rhys Hoskins",
+            "prob": 33,
+            "prob_1j_2j": 33.3,
+            "pct_hit": 38.4,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Landen Roupp",
+        "avg_contra": ".225",
+        "era": "4.31",
+        "whip": "1.30",
+        "k9": "8.91",
+        "h9": "7.52",
+        "ip_temporada": "129.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "5.2",
+            "k": 5,
+            "h": 5,
+            "er": 4,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "5.1",
+            "k": 3,
+            "h": 2,
+            "er": 1,
+            "bb": 5
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "4.2",
+            "k": 6,
+            "h": 6,
+            "er": 5,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "3.2",
+            "k": 1,
+            "h": 4,
+            "er": 4,
+            "bb": 3
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Gavin Williams",
+        "avg_contra": ".212",
+        "era": "3.74",
+        "whip": "1.08",
+        "k9": "11.48",
+        "h9": "7.01",
+        "ip_temporada": "149.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "4.1",
+            "k": 5,
+            "h": 7,
+            "er": 5,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "5.2",
+            "k": 7,
+            "h": 3,
+            "er": 2,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "5.2",
+            "k": 10,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "7.0",
+            "k": 12,
+            "h": 3,
+            "er": 2,
+            "bb": 1
+          }
+        ]
+      }
+    },
+    {
+      "away": "Toronto Blue Jays",
+      "home": "Tampa Bay Rays",
+      "game_id": 822934,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Alejandro Kirk",
+            "juegos": 8,
+            "avg": 0.424,
+            "prob_2j_3j": 40.0,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 63.6,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Kazuma Okamoto",
+            "juegos": 5,
+            "avg": 0.263,
+            "prob_2j_3j": 54.2,
+            "prob_3j_4j": 58.3,
+            "pct_hit": 58.4,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Charles McAdoo",
+            "juegos": 3,
+            "avg": 0.636,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 56.2,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Josh Smith",
+            "prob": 41,
+            "prob_2j_3j": 44.4,
+            "pct_hit": 44.2,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Ernie Clement",
+            "prob": 72,
+            "prob_1j_2j": 73.5,
+            "pct_hit": 69.6,
+            "confirmado": false
+          },
+          {
+            "jugador": "Brandon Valenzuela",
+            "prob": 55,
+            "prob_1j_2j": 60.7,
+            "pct_hit": 48.4,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Taylor Walls",
+            "juegos": 10,
+            "avg": 0.333,
+            "prob_2j_3j": 64.3,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 54.4,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Chandler Simpson",
+            "juegos": 10,
+            "avg": 0.432,
+            "prob_2j_3j": 61.5,
+            "prob_3j_4j": 78.6,
+            "pct_hit": 71.4,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Yandy Díaz",
+            "juegos": 10,
+            "avg": 0.442,
+            "prob_2j_3j": 72.4,
+            "prob_3j_4j": 58.8,
+            "pct_hit": 68.8,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Richie Palacios",
+            "juegos": 3,
+            "avg": 0.3,
+            "prob_2j_3j": 54.5,
+            "prob_3j_4j": 16.7,
+            "pct_hit": 48.8,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": false
+          },
+          {
+            "jugador": "Junior Caminero",
+            "juegos": 3,
+            "avg": 0.308,
+            "prob_2j_3j": 72.4,
+            "prob_3j_4j": 61.1,
+            "pct_hit": 68.4,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Jonny DeLuca",
+            "prob": 67,
+            "prob_2j_3j": 77.8,
+            "pct_hit": 55.2,
+            "confirmado": false
+          },
+          {
+            "jugador": "Jorge Mateo",
+            "prob": 61,
+            "prob_2j_3j": 80.0,
+            "pct_hit": 40.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Liam Hicks",
+            "prob": 55,
+            "prob_2j_3j": 57.1,
+            "pct_hit": 60.6,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": []
+      },
+      "away_pitcher": {
+        "nombre": "Shane Bieber",
+        "avg_contra": ".271",
+        "era": "4.99",
+        "whip": "1.56",
+        "k9": "6.84",
+        "h9": "9.62",
+        "ip_temporada": "48.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "6.0",
+            "k": 5,
+            "h": 4,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "5.2",
+            "k": 4,
+            "h": 6,
+            "er": 5,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-08-03",
+            "ip": "5.2",
+            "k": 6,
+            "h": 9,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "0.2",
+            "k": 0,
+            "h": 1,
+            "er": 4,
+            "bb": 6
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Ian Seymour",
+        "avg_contra": ".218",
+        "era": "4.11",
+        "whip": "1.13",
+        "k9": "10.74",
+        "h9": "7.29",
+        "ip_temporada": "96.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "6.0",
+            "k": 9,
+            "h": 6,
+            "er": 3,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "6.0",
+            "k": 7,
+            "h": 5,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-03",
+            "ip": "6.0",
+            "k": 9,
+            "h": 7,
+            "er": 2,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-07-29",
+            "ip": "4.2",
+            "k": 4,
+            "h": 2,
+            "er": 0,
+            "bb": 1
+          }
+        ]
+      }
+    },
+    {
+      "away": "Athletics",
+      "home": "Kansas City Royals",
+      "game_id": 824074,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Henry Bolte",
+            "juegos": 5,
+            "avg": 0.455,
+            "prob_2j_3j": 83.3,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 60.0,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Lawrence Butler",
+            "juegos": 4,
+            "avg": 0.429,
+            "prob_2j_3j": 37.5,
+            "prob_3j_4j": 0,
+            "pct_hit": 44.6,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Jeff McNeil",
+            "juegos": 3,
+            "avg": 0.417,
+            "prob_2j_3j": 61.5,
+            "prob_3j_4j": 66.7,
+            "pct_hit": 51.5,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [],
+        "candidatos_1j": [
+          {
+            "jugador": "Donovan Walton",
+            "prob": 73,
+            "prob_1j_2j": 89.5,
+            "pct_hit": 53.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Zack Gelof",
+            "prob": 73,
+            "prob_1j_2j": 80.9,
+            "pct_hit": 72.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Max Muncy",
+            "prob": 53,
+            "prob_1j_2j": 54.7,
+            "pct_hit": 52.8,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Michael Massey",
+            "juegos": 5,
+            "avg": 0.529,
+            "prob_2j_3j": 43.8,
+            "prob_3j_4j": 57.1,
+            "pct_hit": 55.9,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Carter Jensen",
+            "juegos": 4,
+            "avg": 0.286,
+            "prob_2j_3j": 77.8,
+            "prob_3j_4j": 63.6,
+            "pct_hit": 57.7,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Vinnie Pasquantino",
+            "juegos": 3,
+            "avg": 0.5,
+            "prob_2j_3j": 52.9,
+            "prob_3j_4j": 71.4,
+            "pct_hit": 61.8,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Maikel Garcia",
+            "juegos": 3,
+            "avg": 0.357,
+            "prob_2j_3j": 55.6,
+            "prob_3j_4j": 60.0,
+            "pct_hit": 69.6,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Jac Caglianone",
+            "juegos": 3,
+            "avg": 0.6,
+            "prob_2j_3j": 70.0,
+            "prob_3j_4j": 46.2,
+            "pct_hit": 63.4,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Tyler Tolbert",
+            "prob": 31,
+            "prob_2j_3j": 33.3,
+            "pct_hit": 40.0,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Kyle Isbel",
+            "prob": 58,
+            "prob_1j_2j": 67.9,
+            "pct_hit": 47.6,
+            "confirmado": false
+          },
+          {
+            "jugador": "Salvador Perez",
+            "prob": 54,
+            "prob_1j_2j": 56.0,
+            "pct_hit": 58.7,
+            "confirmado": false
+          },
+          {
+            "jugador": "John Rave",
+            "prob": 24,
+            "prob_1j_2j": 0,
+            "pct_hit": 35.0,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Gage Jump",
+        "avg_contra": ".259",
+        "era": "4.50",
+        "whip": "1.45",
+        "k9": "9.81",
+        "h9": "8.77",
+        "ip_temporada": "78.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "5.1",
+            "k": 1,
+            "h": 3,
+            "er": 3,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "6.0",
+            "k": 11,
+            "h": 6,
+            "er": 2,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "3.2",
+            "k": 5,
+            "h": 4,
+            "er": 6,
+            "bb": 6
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "6.0",
+            "k": 7,
+            "h": 3,
+            "er": 0,
+            "bb": 4
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Randy Dobnak",
+        "avg_contra": ".242",
+        "era": "1.73",
+        "whip": "1.30",
+        "k9": "5.40",
+        "h9": "8.21",
+        "ip_temporada": "41.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "5.2",
+            "k": 6,
+            "h": 4,
+            "er": 0,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "5.0",
+            "k": 4,
+            "h": 10,
+            "er": 4,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "5.0",
+            "k": 1,
+            "h": 3,
+            "er": 1,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-07-29",
+            "ip": "7.0",
+            "k": 4,
+            "h": 4,
+            "er": 0,
+            "bb": 1
+          }
+        ]
+      }
+    },
+    {
+      "away": "Atlanta Braves",
+      "home": "Chicago White Sox",
+      "game_id": 824589,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Michael Harris II",
+            "juegos": 4,
+            "avg": 0.375,
+            "prob_2j_3j": 65.4,
+            "prob_3j_4j": 83.3,
+            "pct_hit": 68.2,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Ozzie Albies",
+            "juegos": 3,
+            "avg": 0.273,
+            "prob_2j_3j": 74.1,
+            "prob_3j_4j": 92.3,
+            "pct_hit": 62.7,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [],
+        "candidatos_1j": [
+          {
+            "jugador": "Matt Olson",
+            "prob": 71,
+            "prob_1j_2j": 72.9,
+            "pct_hit": 70.1,
+            "confirmado": false
+          },
+          {
+            "jugador": "Mauricio Dubón",
+            "prob": 65,
+            "prob_1j_2j": 67.2,
+            "pct_hit": 64.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Ronald Acuña Jr.",
+            "prob": 60,
+            "prob_1j_2j": 62.9,
+            "pct_hit": 62.7,
+            "confirmado": false
+          },
+          {
+            "jugador": "Lane Thomas",
+            "prob": 53,
+            "prob_1j_2j": 56.4,
+            "pct_hit": 51.6,
+            "confirmado": false
+          },
+          {
+            "jugador": "Mike Yastrzemski",
+            "prob": 52,
+            "prob_1j_2j": 56.8,
+            "pct_hit": 47.5,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Miguel Vargas",
+            "juegos": 6,
+            "avg": 0.417,
+            "prob_2j_3j": 78.3,
+            "prob_3j_4j": 64.3,
+            "pct_hit": 62.8,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Colson Montgomery",
+            "juegos": 4,
+            "avg": 0.438,
+            "prob_2j_3j": 61.9,
+            "prob_3j_4j": 54.5,
+            "pct_hit": 54.6,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Chase Meidroth",
+            "prob": 68,
+            "prob_2j_3j": 70.4,
+            "pct_hit": 69.1,
+            "confirmado": false
+          },
+          {
+            "jugador": "Drew Romo",
+            "prob": 20,
+            "prob_2j_3j": 0,
+            "pct_hit": 32.6,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Braden Montgomery",
+            "prob": 50,
+            "prob_1j_2j": 52.9,
+            "pct_hit": 54.2,
+            "confirmado": false
+          },
+          {
+            "jugador": "Andrew Benintendi",
+            "prob": 39,
+            "prob_1j_2j": 36.4,
+            "pct_hit": 50.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Randal Grichuk",
+            "prob": 33,
+            "prob_1j_2j": 30.8,
+            "pct_hit": 48.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Jake Rogers",
+            "prob": 26,
+            "prob_1j_2j": 27.3,
+            "pct_hit": 32.4,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Grant Holmes",
+        "avg_contra": ".242",
+        "era": "3.82",
+        "whip": "1.35",
+        "k9": "7.42",
+        "h9": "8.26",
+        "ip_temporada": "117.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "3.2",
+            "k": 3,
+            "h": 6,
+            "er": 6,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "6.0",
+            "k": 2,
+            "h": 3,
+            "er": 0,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "6.0",
+            "k": 5,
+            "h": 5,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-30",
+            "ip": "4.2",
+            "k": 4,
+            "h": 5,
+            "er": 3,
+            "bb": 2
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Anthony Kay",
+        "avg_contra": ".256",
+        "era": "4.01",
+        "whip": "1.34",
+        "k9": "7.27",
+        "h9": "8.83",
+        "ip_temporada": "121.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "5.1",
+            "k": 4,
+            "h": 6,
+            "er": 3,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "6.0",
+            "k": 4,
+            "h": 6,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "6.1",
+            "k": 3,
+            "h": 7,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "5.1",
+            "k": 7,
+            "h": 5,
+            "er": 3,
+            "bb": 1
+          }
+        ]
+      }
+    },
+    {
+      "away": "Seattle Mariners",
+      "home": "Milwaukee Brewers",
+      "game_id": 823747,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "Josh Naylor",
+            "juegos": 9,
+            "avg": 0.417,
+            "prob_2j_3j": 75.0,
+            "prob_3j_4j": 57.1,
+            "pct_hit": 67.9,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          },
+          {
+            "jugador": "Dominic Canzone",
+            "juegos": 5,
+            "avg": 0.429,
+            "prob_2j_3j": 38.5,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 51.0,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": false
+          },
+          {
+            "jugador": "Brock Rodden",
+            "juegos": 5,
+            "avg": 0.294,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 100.0,
+            "tipo": "⚡ RACHA INUSUAL",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Taylor Ward",
+            "prob": 68,
+            "prob_2j_3j": 66.7,
+            "pct_hit": 60.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "Brendan Donovan",
+            "prob": 61,
+            "prob_2j_3j": 75.0,
+            "pct_hit": 58.1,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Randy Arozarena",
+            "prob": 62,
+            "prob_1j_2j": 61.0,
+            "pct_hit": 64.9,
+            "confirmado": false
+          },
+          {
+            "jugador": "Jhonny Pereda",
+            "prob": 62,
+            "prob_1j_2j": 69.2,
+            "pct_hit": 63.6,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Andrew Vaughn",
+            "juegos": 4,
+            "avg": 0.417,
+            "prob_2j_3j": 40.0,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 52.2,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Jackson Chourio",
+            "juegos": 3,
+            "avg": 0.5,
+            "prob_2j_3j": 73.7,
+            "prob_3j_4j": 63.6,
+            "pct_hit": 72.6,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Christian Yelich",
+            "prob": 55,
+            "prob_2j_3j": 58.3,
+            "pct_hit": 55.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Luis Lara",
+            "prob": 42,
+            "prob_2j_3j": 50.0,
+            "pct_hit": 47.6,
+            "confirmado": false
+          },
+          {
+            "jugador": "Joey Ortiz",
+            "prob": 30,
+            "prob_2j_3j": 25.0,
+            "pct_hit": 49.4,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Brandon Lockridge",
+            "prob": 58,
+            "prob_1j_2j": 61.1,
+            "pct_hit": 61.8,
+            "confirmado": false
+          },
+          {
+            "jugador": "Garrett Mitchell",
+            "prob": 53,
+            "prob_1j_2j": 55.3,
+            "pct_hit": 52.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "David Hamilton",
+            "prob": 37,
+            "prob_1j_2j": 37.5,
+            "pct_hit": 46.4,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "George Kirby",
+        "avg_contra": ".278",
+        "era": "3.89",
+        "whip": "1.31",
+        "k9": "7.51",
+        "h9": "9.75",
+        "ip_temporada": "136.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "4.2",
+            "k": 2,
+            "h": 8,
+            "er": 5,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "5.0",
+            "k": 2,
+            "h": 4,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "7.0",
+            "k": 3,
+            "h": 5,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-27",
+            "ip": "4.0",
+            "k": 3,
+            "h": 7,
+            "er": 7,
+            "bb": 0
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Robert Gasser",
+        "avg_contra": ".253",
+        "era": "4.54",
+        "whip": "1.24",
+        "k9": "8.35",
+        "h9": "8.84",
+        "ip_temporada": "73.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "6.1",
+            "k": 7,
+            "h": 8,
+            "er": 3,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "4.2",
+            "k": 3,
+            "h": 7,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-01",
+            "ip": "5.0",
+            "k": 6,
+            "h": 4,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-25",
+            "ip": "6.0",
+            "k": 4,
+            "h": 5,
+            "er": 2,
+            "bb": 0
+          }
+        ]
+      }
+    },
+    {
+      "away": "New York Yankees",
+      "home": "Baltimore Orioles",
+      "game_id": 824802,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [
+          {
+            "jugador": "George Lombard Jr.",
+            "juegos": 4,
+            "avg": 0.5,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 72.7,
+            "tipo": "⚡ RACHA INUSUAL",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Trent Grisham",
+            "prob": 53,
+            "prob_2j_3j": 60.0,
+            "pct_hit": 50.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Spencer Jones",
+            "prob": 22,
+            "prob_2j_3j": 0,
+            "pct_hit": 36.4,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Heliot Ramos",
+            "prob": 67,
+            "prob_1j_2j": 71.4,
+            "pct_hit": 63.6,
+            "confirmado": false
+          },
+          {
+            "jugador": "Ben Rice",
+            "prob": 66,
+            "prob_1j_2j": 68.3,
+            "pct_hit": 61.1,
+            "confirmado": false
+          },
+          {
+            "jugador": "Luis García Jr.",
+            "prob": 60,
+            "prob_1j_2j": 59.3,
+            "pct_hit": 57.9,
+            "confirmado": false
+          },
+          {
+            "jugador": "Jazz Chisholm Jr.",
+            "prob": 54,
+            "prob_1j_2j": 52.8,
+            "pct_hit": 56.7,
+            "confirmado": false
+          },
+          {
+            "jugador": "Ryan McMahon",
+            "prob": 45,
+            "prob_1j_2j": 48.5,
+            "pct_hit": 44.3,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Pete Alonso",
+            "juegos": 11,
+            "avg": 0.476,
+            "prob_2j_3j": 56.0,
+            "prob_3j_4j": 63.6,
+            "pct_hit": 66.4,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Leody Taveras",
+            "prob": 43,
+            "prob_2j_3j": 40.0,
+            "pct_hit": 55.3,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Samuel Basallo",
+            "prob": 57,
+            "prob_1j_2j": 58.3,
+            "pct_hit": 59.0,
+            "confirmado": false
+          },
+          {
+            "jugador": "Gunnar Henderson",
+            "prob": 52,
+            "prob_1j_2j": 50.0,
+            "pct_hit": 54.9,
+            "confirmado": false
+          },
+          {
+            "jugador": "Dylan Beavers",
+            "prob": 42,
+            "prob_1j_2j": 45.0,
+            "pct_hit": 47.5,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Gerrit Cole",
+        "avg_contra": ".227",
+        "era": "3.22",
+        "whip": "1.08",
+        "k9": "9.55",
+        "h9": "7.79",
+        "ip_temporada": "86.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "6.0",
+            "k": 5,
+            "h": 5,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "7.0",
+            "k": 9,
+            "h": 6,
+            "er": 2,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "5.2",
+            "k": 5,
+            "h": 4,
+            "er": 1,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "6.0",
+            "k": 7,
+            "h": 4,
+            "er": 0,
+            "bb": 2
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Kyle Bradish",
+        "avg_contra": ".248",
+        "era": "3.65",
+        "whip": "1.36",
+        "k9": "8.39",
+        "h9": "8.32",
+        "ip_temporada": "133.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "6.0",
+            "k": 3,
+            "h": 7,
+            "er": 2,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "6.0",
+            "k": 4,
+            "h": 5,
+            "er": 1,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "3.0",
+            "k": 3,
+            "h": 2,
+            "er": 2,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-27",
+            "ip": "4.2",
+            "k": 4,
+            "h": 10,
+            "er": 5,
+            "bb": 1
+          }
+        ]
+      }
+    },
+    {
+      "away": "Washington Nationals",
+      "home": "Texas Rangers",
+      "game_id": 822861,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [],
+        "candidatos_2j": [
+          {
+            "jugador": "CJ Abrams",
+            "prob": 65,
+            "prob_2j_3j": 66.7,
+            "pct_hit": 64.6,
+            "confirmado": false
+          },
+          {
+            "jugador": "Keibert Ruiz",
+            "prob": 53,
+            "prob_2j_3j": 52.9,
+            "pct_hit": 63.4,
+            "confirmado": false
+          },
+          {
+            "jugador": "Andrés Chaparro",
+            "prob": 22,
+            "prob_2j_3j": 0,
+            "pct_hit": 35.0,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Jacob Young",
+            "prob": 58,
+            "prob_1j_2j": 57.4,
+            "pct_hit": 61.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Abimelec Ortiz",
+            "prob": 42,
+            "prob_1j_2j": 0,
+            "pct_hit": 64.3,
+            "confirmado": false
+          },
+          {
+            "jugador": "José Tena",
+            "prob": 42,
+            "prob_1j_2j": 46.7,
+            "pct_hit": 39.5,
+            "confirmado": false
+          },
+          {
+            "jugador": "Harry Ford",
+            "prob": 35,
+            "prob_1j_2j": 0,
+            "pct_hit": 52.9,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Jake Burger",
+            "juegos": 4,
+            "avg": 0.429,
+            "prob_2j_3j": 50.0,
+            "prob_3j_4j": 70.0,
+            "pct_hit": 58.7,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Corey Seager",
+            "juegos": 3,
+            "avg": 0.5,
+            "prob_2j_3j": 50.0,
+            "prob_3j_4j": 0,
+            "pct_hit": 45.8,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "Justin Foscue",
+            "prob": 35,
+            "prob_2j_3j": 40.0,
+            "pct_hit": 37.9,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Elias Díaz",
+            "prob": 50,
+            "prob_1j_2j": 55.6,
+            "pct_hit": 48.8,
+            "confirmado": false
+          },
+          {
+            "jugador": "Evan Carter",
+            "prob": 43,
+            "prob_1j_2j": 45.5,
+            "pct_hit": 40.8,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Andrew Alvarez",
+        "avg_contra": ".240",
+        "era": "3.72",
+        "whip": "1.33",
+        "k9": "8.28",
+        "h9": "8.04",
+        "ip_temporada": "75.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "5.2",
+            "k": 4,
+            "h": 2,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "5.1",
+            "k": 2,
+            "h": 3,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-03",
+            "ip": "6.1",
+            "k": 5,
+            "h": 3,
+            "er": 2,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-07-27",
+            "ip": "4.1",
+            "k": 3,
+            "h": 4,
+            "er": 1,
+            "bb": 3
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Jacob deGrom",
+        "avg_contra": ".237",
+        "era": "3.95",
+        "whip": "1.17",
+        "k9": "10.96",
+        "h9": "8.20",
+        "ip_temporada": "120.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-13",
+            "ip": "2.0",
+            "k": 3,
+            "h": 6,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "5.0",
+            "k": 9,
+            "h": 3,
+            "er": 1,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-01",
+            "ip": "3.1",
+            "k": 3,
+            "h": 7,
+            "er": 5,
+            "bb": 5
+          },
+          {
+            "fecha": "2026-07-26",
+            "ip": "5.0",
+            "k": 4,
+            "h": 7,
+            "er": 1,
+            "bb": 0
+          }
+        ]
+      }
+    },
+    {
+      "away": "Los Angeles Angels",
+      "home": "Houston Astros",
+      "game_id": 824153,
+      "fecha": "2026-08-20",
+      "away_lineup": [],
+      "home_lineup": [],
+      "alineacion_confirmada": false,
+      "away_data": {
+        "racha": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Denzer Guzman",
+            "prob": 60,
+            "prob_2j_3j": 66.7,
+            "pct_hit": 64.1,
+            "confirmado": false
+          },
+          {
+            "jugador": "Zach Neto",
+            "prob": 56,
+            "prob_2j_3j": 54.2,
+            "pct_hit": 60.2,
+            "confirmado": false
+          },
+          {
+            "jugador": "Josh Lowe",
+            "prob": 49,
+            "prob_2j_3j": 60.0,
+            "pct_hit": 41.7,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Mike Trout",
+            "prob": 67,
+            "prob_1j_2j": 72.0,
+            "pct_hit": 60.2,
+            "confirmado": false
+          }
+        ]
+      },
+      "home_data": {
+        "racha": [
+          {
+            "jugador": "Jose Altuve",
+            "juegos": 5,
+            "avg": 0.368,
+            "prob_2j_3j": 58.8,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 60.4,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": false
+          },
+          {
+            "jugador": "Christian Vázquez",
+            "juegos": 3,
+            "avg": 0.5,
+            "prob_2j_3j": 50.0,
+            "prob_3j_4j": 100.0,
+            "pct_hit": 46.4,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": false
+          }
+        ],
+        "candidatos_2j": [
+          {
+            "jugador": "LaMonte Wade Jr.",
+            "prob": 70,
+            "prob_2j_3j": 100.0,
+            "pct_hit": 39.3,
+            "confirmado": false
+          },
+          {
+            "jugador": "Yainer Diaz",
+            "prob": 62,
+            "prob_2j_3j": 69.2,
+            "pct_hit": 64.3,
+            "confirmado": false
+          }
+        ],
+        "candidatos_1j": [
+          {
+            "jugador": "Yordan Alvarez",
+            "prob": 70,
+            "prob_1j_2j": 72.3,
+            "pct_hit": 67.2,
+            "confirmado": false
+          },
+          {
+            "jugador": "Isaac Paredes",
+            "prob": 66,
+            "prob_1j_2j": 67.8,
+            "pct_hit": 62.4,
+            "confirmado": false
+          }
+        ]
+      },
+      "away_pitcher": {
+        "nombre": "Grayson Rodriguez",
+        "avg_contra": ".283",
+        "era": "7.17",
+        "whip": "1.59",
+        "k9": "8.39",
+        "h9": "10.07",
+        "ip_temporada": "59.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "4.0",
+            "k": 5,
+            "h": 3,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "4.0",
+            "k": 8,
+            "h": 4,
+            "er": 3,
+            "bb": 4
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "7.0",
+            "k": 6,
+            "h": 3,
+            "er": 2,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-29",
+            "ip": "5.0",
+            "k": 6,
+            "h": 5,
+            "er": 2,
+            "bb": 2
+          }
+        ]
+      },
+      "home_pitcher": {
+        "nombre": "Peter Lambert",
+        "avg_contra": ".208",
+        "era": "3.11",
+        "whip": "1.15",
+        "k9": "8.87",
+        "h9": "6.90",
+        "ip_temporada": "118.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-14",
+            "ip": "5.0",
+            "k": 6,
+            "h": 4,
+            "er": 2,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "5.0",
+            "k": 3,
+            "h": 5,
+            "er": 2,
+            "bb": 3
+          },
+          {
+            "fecha": "2026-08-02",
+            "ip": "5.2",
+            "k": 8,
+            "h": 3,
+            "er": 2,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-28",
+            "ip": "5.0",
+            "k": 6,
+            "h": 7,
+            "er": 2,
+            "bb": 1
+          }
+        ]
+      }
+    }
+  ],
+  "alineaciones_actualizadas": "20/08/26 07:00"
 }
