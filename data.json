@@ -36180,9 +36180,29 @@
       "home": "Cincinnati Reds",
       "game_id": 824474,
       "fecha": "2026-08-20",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Joshua Báez",
+        "Nathan Church",
+        "Bryan Torres",
+        "Blaze Jordan",
+        "Jimmy Crooks"
+      ],
+      "home_lineup": [
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Matt McLain",
+        "Michael Toglia",
+        "Dane Myers",
+        "Héctor Rodríguez",
+        "Ke'Bryan Hayes"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -36193,7 +36213,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 69.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Walker",
@@ -36203,7 +36223,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 72.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryan Torres",
@@ -36213,23 +36233,16 @@
             "prob_3j_4j": 0,
             "pct_hit": 41.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "José Fermín",
-            "prob": 52,
-            "prob_2j_3j": 58.3,
-            "pct_hit": 47.4,
-            "confirmado": false
-          },
           {
             "jugador": "Nathan Church",
             "prob": 50,
             "prob_2j_3j": 53.3,
             "pct_hit": 52.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -36238,28 +36251,14 @@
             "prob": 60,
             "prob_1j_2j": 60.7,
             "pct_hit": 57.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Jordan",
             "prob": 51,
             "prob_1j_2j": 54.5,
             "pct_hit": 55.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Pedro Pagés",
-            "prob": 49,
-            "prob_1j_2j": 54.2,
-            "pct_hit": 49.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Everson Pereira",
-            "prob": 44,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -36273,7 +36272,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sal Stewart",
@@ -36283,7 +36282,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -36293,28 +36292,21 @@
             "prob": 66,
             "prob_1j_2j": 69.8,
             "pct_hit": 67.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Matt McLain",
             "prob": 44,
             "prob_1j_2j": 47.2,
             "pct_hit": 43.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jose Trevino",
-            "prob": 41,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 44.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ke'Bryan Hayes",
             "prob": 38,
             "prob_1j_2j": 42.9,
             "pct_hit": 36.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -36599,7 +36591,17 @@
       "game_id": 822934,
       "fecha": "2026-08-20",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Jonathan Aranda",
+        "Yandy Díaz",
+        "Cedric Mullins",
+        "Jonny DeLuca",
+        "Richie Palacios",
+        "Jorge Mateo",
+        "Nick Fortes"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -36663,16 +36665,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Taylor Walls",
-            "juegos": 10,
-            "avg": 0.333,
-            "prob_2j_3j": 64.3,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 54.4,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Chandler Simpson",
             "juegos": 10,
             "avg": 0.432,
@@ -36680,7 +36672,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 71.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yandy Díaz",
@@ -36690,7 +36682,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 68.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Richie Palacios",
@@ -36700,7 +36692,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 48.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Junior Caminero",
@@ -36710,7 +36702,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 68.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -36719,21 +36711,14 @@
             "prob": 67,
             "prob_2j_3j": 77.8,
             "pct_hit": 55.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jorge Mateo",
             "prob": 61,
             "prob_2j_3j": 80.0,
             "pct_hit": 40.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Liam Hicks",
-            "prob": 55,
-            "prob_2j_3j": 57.1,
-            "pct_hit": 60.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -38117,5 +38102,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/08/26 07:00"
+  "alineaciones_actualizadas": "20/08/26 08:00"
 }
