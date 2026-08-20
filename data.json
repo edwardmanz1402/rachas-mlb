@@ -37007,9 +37007,29 @@
       "home": "Chicago White Sox",
       "game_id": 824589,
       "fecha": "2026-08-20",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Ronald Acuña Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Ozzie Albies",
+        "Lane Thomas",
+        "Michael Harris II",
+        "Mauricio Dubón",
+        "Austin Riley",
+        "Sean Murphy"
+      ],
+      "home_lineup": [
+        "Sam Antonacci",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Andrew Benintendi",
+        "Braden Montgomery",
+        "Colson Montgomery",
+        "Chase Meidroth",
+        "Tristan Peters",
+        "Drew Romo"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -37020,7 +37040,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 68.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ozzie Albies",
@@ -37030,7 +37050,7 @@
             "prob_3j_4j": 92.3,
             "pct_hit": 62.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -37040,35 +37060,28 @@
             "prob": 71,
             "prob_1j_2j": 72.9,
             "pct_hit": 70.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mauricio Dubón",
             "prob": 65,
             "prob_1j_2j": 67.2,
             "pct_hit": 64.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ronald Acuña Jr.",
             "prob": 60,
             "prob_1j_2j": 62.9,
             "pct_hit": 62.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lane Thomas",
             "prob": 53,
             "prob_1j_2j": 56.4,
             "pct_hit": 51.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Mike Yastrzemski",
-            "prob": 52,
-            "prob_1j_2j": 56.8,
-            "pct_hit": 47.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -37082,7 +37095,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 62.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colson Montgomery",
@@ -37092,7 +37105,7 @@
             "prob_3j_4j": 54.5,
             "pct_hit": 54.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -37101,14 +37114,14 @@
             "prob": 68,
             "prob_2j_3j": 70.4,
             "pct_hit": 69.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Romo",
             "prob": 20,
             "prob_2j_3j": 0,
             "pct_hit": 32.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -37117,28 +37130,14 @@
             "prob": 50,
             "prob_1j_2j": 52.9,
             "pct_hit": 54.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrew Benintendi",
             "prob": 39,
             "prob_1j_2j": 36.4,
             "pct_hit": 50.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Randal Grichuk",
-            "prob": 33,
-            "prob_1j_2j": 30.8,
-            "pct_hit": 48.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jake Rogers",
-            "prob": 26,
-            "prob_1j_2j": 27.3,
-            "pct_hit": 32.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38055,5 +38054,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/08/26 09:00"
+  "alineaciones_actualizadas": "20/08/26 09:30"
 }
