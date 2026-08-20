@@ -37243,9 +37243,29 @@
       "home": "Milwaukee Brewers",
       "game_id": 823747,
       "fecha": "2026-08-20",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Brendan Donovan",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Taylor Ward",
+        "Cole Young",
+        "Jhonny Pereda",
+        "Brock Rodden"
+      ],
+      "home_lineup": [
+        "Brice Turang",
+        "Jackson Chourio",
+        "Jake Bauers",
+        "Gary Sánchez",
+        "Christian Yelich",
+        "Joey Ortiz",
+        "Garrett Mitchell",
+        "David Hamilton",
+        "Luis Lara"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -37256,7 +37276,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 67.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
@@ -37266,7 +37286,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 51.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brock Rodden",
@@ -37276,7 +37296,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -37285,14 +37305,14 @@
             "prob": 68,
             "prob_2j_3j": 66.7,
             "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brendan Donovan",
             "prob": 61,
             "prob_2j_3j": 75.0,
             "pct_hit": 58.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -37301,29 +37321,19 @@
             "prob": 62,
             "prob_1j_2j": 61.0,
             "pct_hit": 64.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jhonny Pereda",
             "prob": 62,
             "prob_1j_2j": 69.2,
             "pct_hit": 63.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Andrew Vaughn",
-            "juegos": 4,
-            "avg": 0.417,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 52.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Jackson Chourio",
             "juegos": 3,
@@ -37332,7 +37342,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 72.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -37341,44 +37351,37 @@
             "prob": 55,
             "prob_2j_3j": 58.3,
             "pct_hit": 55.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Lara",
             "prob": 42,
             "prob_2j_3j": 50.0,
             "pct_hit": 47.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joey Ortiz",
             "prob": 30,
             "prob_2j_3j": 25.0,
             "pct_hit": 49.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Brandon Lockridge",
-            "prob": 58,
-            "prob_1j_2j": 61.1,
-            "pct_hit": 61.8,
-            "confirmado": false
-          },
           {
             "jugador": "Garrett Mitchell",
             "prob": 53,
             "prob_1j_2j": 55.3,
             "pct_hit": 52.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "David Hamilton",
             "prob": 37,
             "prob_1j_2j": 37.5,
             "pct_hit": 46.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38064,5 +38067,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/08/26 10:00"
+  "alineaciones_actualizadas": "20/08/26 10:30"
 }
