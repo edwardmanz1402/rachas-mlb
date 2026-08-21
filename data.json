@@ -38807,7 +38807,7 @@
         "Jackson Chourio",
         "Brice Turang",
         "William Contreras",
-        "Andrew Vaughn",
+        "Garrett Mitchell",
         "Jake Bauers",
         "Gary Sánchez",
         "Joey Ortiz",
@@ -38877,16 +38877,6 @@
             "confirmado": true
           },
           {
-            "jugador": "Andrew Vaughn",
-            "juegos": 4,
-            "avg": 0.417,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 52.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": true
-          },
-          {
             "jugador": "Joey Ortiz",
             "juegos": 3,
             "avg": 0.455,
@@ -38897,7 +38887,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Garrett Mitchell",
+            "prob": 57,
+            "prob_2j_3j": 62.5,
+            "pct_hit": 52.4,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Brice Turang",
@@ -38924,18 +38922,18 @@
       },
       "away_pitcher": {
         "nombre": "Chris Sale",
-        "avg_contra": ".223",
-        "era": "2.22",
-        "whip": "1.04",
-        "k9": "11.11",
-        "h9": "7.47",
-        "ip_temporada": "133.2",
+        "avg_contra": ".222",
+        "era": "2.20",
+        "whip": "1.03",
+        "k9": "11.07",
+        "h9": "7.40",
+        "ip_temporada": "135.0",
         "ultimas4": [
           {
             "fecha": "2026-08-21",
-            "ip": "4.2",
-            "k": 5,
-            "h": 6,
+            "ip": "6.0",
+            "k": 6,
+            "h": 8,
             "er": 2,
             "bb": 0
           },
@@ -38967,18 +38965,18 @@
       },
       "home_pitcher": {
         "nombre": "Jacob Misiorowski",
-        "avg_contra": ".151",
-        "era": "1.69",
+        "avg_contra": ".152",
+        "era": "1.68",
         "whip": "0.76",
-        "k9": "13.44",
-        "h9": "4.75",
-        "ip_temporada": "144.0",
+        "k9": "13.41",
+        "h9": "4.78",
+        "ip_temporada": "145.0",
         "ultimas4": [
           {
             "fecha": "2026-08-21",
-            "ip": "5.0",
-            "k": 5,
-            "h": 3,
+            "ip": "6.0",
+            "k": 6,
+            "h": 4,
             "er": 0,
             "bb": 2
           },
@@ -41277,7 +41275,49 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Randy Vásquez",
+        "avg_contra": ".281",
+        "era": "4.30",
+        "whip": "1.38",
+        "k9": "5.76",
+        "h9": "9.81",
+        "ip_temporada": "111.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-15",
+            "ip": "5.0",
+            "k": 5,
+            "h": 7,
+            "er": 4,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-09",
+            "ip": "5.0",
+            "k": 1,
+            "h": 2,
+            "er": 2,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-04",
+            "ip": "6.0",
+            "k": 1,
+            "h": 2,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-30",
+            "ip": "4.2",
+            "k": 1,
+            "h": 3,
+            "er": 0,
+            "bb": 1
+          }
+        ]
+      }
     },
     {
       "away": "Pittsburgh Pirates",
@@ -41285,7 +41325,17 @@
       "game_id": 823911,
       "fecha": "2026-08-21",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Freddie Freeman",
+        "Andy Pages",
+        "Max Muncy",
+        "Mookie Betts",
+        "Kyle Tucker",
+        "Tommy Edman",
+        "Teoscar Hernández",
+        "Hunter Feduccia"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -41302,7 +41352,7 @@
             "prob_3j_4j": 76.9,
             "pct_hit": 68.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Freddie Freeman",
@@ -41312,7 +41362,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 69.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -41411,7 +41461,17 @@
       "game_id": 823101,
       "fecha": "2026-08-21",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Brendan Donovan",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Taylor Ward",
+        "Cal Raleigh",
+        "Cole Young",
+        "Brock Rodden"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -41428,7 +41488,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 51.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brock Rodden",
@@ -41438,7 +41498,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brendan Donovan",
@@ -41448,25 +41508,17 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Jhonny Pereda",
-            "prob": 65,
-            "prob_2j_3j": 80.0,
-            "pct_hit": 63.6,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Julio Rodríguez",
             "prob": 67,
             "prob_1j_2j": 67.8,
             "pct_hit": 68.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41558,5 +41610,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "21/08/26 15:30"
+  "alineaciones_actualizadas": "21/08/26 16:00"
 }
