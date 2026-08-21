@@ -38792,9 +38792,19 @@
       "home": "Milwaukee Brewers",
       "game_id": 823746,
       "fecha": "2026-08-21",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ronald Acuña Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Michael Harris II",
+        "Ozzie Albies",
+        "Mauricio Dubón",
+        "Dominic Smith",
+        "Austin Riley",
+        "Mike Yastrzemski"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38805,7 +38815,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 68.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ozzie Albies",
@@ -38815,7 +38825,7 @@
             "prob_3j_4j": 92.3,
             "pct_hit": 63.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38824,7 +38834,7 @@
             "prob": 63,
             "prob_2j_3j": 65.4,
             "pct_hit": 64.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38833,14 +38843,14 @@
             "prob": 52,
             "prob_1j_2j": 56.8,
             "pct_hit": 47.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Riley",
             "prob": 47,
             "prob_1j_2j": 49.0,
             "pct_hit": 49.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41541,5 +41551,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "21/08/26 10:00"
+  "alineaciones_actualizadas": "21/08/26 10:30"
 }
