@@ -39014,21 +39014,21 @@
       "home": "Philadelphia Phillies",
       "game_id": 823420,
       "fecha": "2026-08-21",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Jordan Walker",
+        "Joshua Báez",
+        "Blaze Jordan",
+        "José Fermín",
+        "Everson Pereira",
+        "Bryan Torres",
+        "Pedro Pagés"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Alec Burleson",
-            "juegos": 7,
-            "avg": 0.345,
-            "prob_2j_3j": 77.8,
-            "prob_3j_4j": 80.0,
-            "pct_hit": 69.9,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
           {
             "jugador": "Jordan Walker",
             "juegos": 6,
@@ -39037,7 +39037,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 73.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryan Torres",
@@ -39047,17 +39047,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 42.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Nathan Church",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 53.3,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 53.3,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Fermín",
@@ -39067,7 +39057,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 48.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39076,7 +39066,7 @@
             "prob": 56,
             "prob_2j_3j": 54.5,
             "pct_hit": 57.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39085,14 +39075,14 @@
             "prob": 63,
             "prob_1j_2j": 64.5,
             "pct_hit": 61.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pedro Pagés",
             "prob": 49,
             "prob_1j_2j": 54.2,
             "pct_hit": 49.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39427,9 +39417,19 @@
       "home": "Boston Red Sox",
       "game_id": 824721,
       "fecha": "2026-08-21",
-      "away_lineup": [],
+      "away_lineup": [
+        "Drew Gilbert",
+        "Rafael Devers",
+        "Willy Adames",
+        "Bryce Eldridge",
+        "Jung Hoo Lee",
+        "Osleivis Basabe",
+        "Turner Hill",
+        "Drew Cavanaugh",
+        "Christian Koss"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39440,7 +39440,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willy Adames",
@@ -39450,17 +39450,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 59.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Buddy Kennedy",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 23.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39469,7 +39459,7 @@
             "prob": 65,
             "prob_2j_3j": 70.8,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39478,14 +39468,14 @@
             "prob": 61,
             "prob_1j_2j": 65.7,
             "pct_hit": 64.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Osleivis Basabe",
             "prob": 35,
             "prob_1j_2j": 0,
             "pct_hit": 53.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41529,5 +41519,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "21/08/26 12:30"
+  "alineaciones_actualizadas": "21/08/26 13:00"
 }
