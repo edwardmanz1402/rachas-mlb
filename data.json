@@ -37691,14 +37691,14 @@
       "fecha": "2026-08-20",
       "away_lineup": [
         "Daylen Lile",
-        "Abimelec Ortiz",
+        "Harry Ford",
         "Andrés Chaparro",
         "José Tena",
         "Brady House",
         "Keibert Ruiz",
         "Dylan Crews",
         "Nasim Nuñez",
-        "Andrew Pinckney"
+        "Jorbit Vivas"
       ],
       "home_lineup": [
         "Wyatt Langford",
@@ -37732,17 +37732,17 @@
         ],
         "candidatos_1j": [
           {
-            "jugador": "Abimelec Ortiz",
-            "prob": 42,
-            "prob_1j_2j": 0,
-            "pct_hit": 64.3,
-            "confirmado": true
-          },
-          {
             "jugador": "José Tena",
             "prob": 42,
             "prob_1j_2j": 46.7,
             "pct_hit": 39.5,
+            "confirmado": true
+          },
+          {
+            "jugador": "Harry Ford",
+            "prob": 35,
+            "prob_1j_2j": 0,
+            "pct_hit": 52.9,
             "confirmado": true
           }
         ]
@@ -37875,8 +37875,8 @@
       "fecha": "2026-08-20",
       "away_lineup": [
         "Jose Siri",
-        "Mike Trout",
-        "Nolan Schanuel",
+        "Oswald Peraza",
+        "Denzer Guzman",
         "Zach Neto",
         "Moisés Ballesteros",
         "Vaughn Grissom",
@@ -37900,6 +37900,13 @@
         "racha": [],
         "candidatos_2j": [
           {
+            "jugador": "Denzer Guzman",
+            "prob": 60,
+            "prob_2j_3j": 66.7,
+            "pct_hit": 64.1,
+            "confirmado": true
+          },
+          {
             "jugador": "Zach Neto",
             "prob": 56,
             "prob_2j_3j": 54.2,
@@ -37914,15 +37921,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Mike Trout",
-            "prob": 67,
-            "prob_1j_2j": 72.0,
-            "pct_hit": 60.2,
-            "confirmado": true
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -37965,17 +37964,17 @@
       },
       "away_pitcher": {
         "nombre": "Grayson Rodriguez",
-        "avg_contra": ".282",
-        "era": "6.61",
-        "whip": "1.58",
-        "k9": "8.44",
-        "h9": "9.98",
-        "ip_temporada": "64.0",
+        "avg_contra": ".278",
+        "era": "6.51",
+        "whip": "1.55",
+        "k9": "8.45",
+        "h9": "9.83",
+        "ip_temporada": "65.0",
         "ultimas4": [
           {
             "fecha": "2026-08-20",
-            "ip": "5.0",
-            "k": 5,
+            "ip": "6.2",
+            "k": 6,
             "h": 5,
             "er": 0,
             "bb": 2
@@ -38051,5 +38050,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/08/26 20:00"
+  "alineaciones_actualizadas": "20/08/26 20:30"
 }
