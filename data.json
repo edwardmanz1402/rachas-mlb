@@ -39116,12 +39116,20 @@
       "away_pitcher": {
         "nombre": "Hunter Dobbins",
         "avg_contra": ".233",
-        "era": "3.42",
-        "whip": "1.30",
+        "era": "3.35",
+        "whip": "1.31",
         "k9": "8.82",
-        "h9": "7.92",
-        "ip_temporada": "50.0",
+        "h9": "7.94",
+        "ip_temporada": "51.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-21",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-16",
             "ip": "5.0",
@@ -39145,26 +39153,26 @@
             "h": 4,
             "er": 2,
             "bb": 3
-          },
-          {
-            "fecha": "2026-07-27",
-            "ip": "5.1",
-            "k": 4,
-            "h": 7,
-            "er": 4,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Jesús Luzardo",
-        "avg_contra": ".227",
-        "era": "3.23",
-        "whip": "1.15",
-        "k9": "11.08",
-        "h9": "7.60",
-        "ip_temporada": "150.1",
+        "avg_contra": ".228",
+        "era": "3.33",
+        "whip": "1.16",
+        "k9": "11.06",
+        "h9": "7.67",
+        "ip_temporada": "151.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-21",
+            "ip": "1.0",
+            "k": 1,
+            "h": 3,
+            "er": 2,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-15",
             "ip": "6.2",
@@ -39188,14 +39196,6 @@
             "h": 4,
             "er": 0,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-29",
-            "ip": "6.1",
-            "k": 5,
-            "h": 6,
-            "er": 6,
-            "bb": 3
           }
         ]
       }
@@ -41317,7 +41317,17 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823911,
       "fecha": "2026-08-21",
-      "away_lineup": [],
+      "away_lineup": [
+        "Spencer Horwitz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Nick Gonzales",
+        "Oneil Cruz",
+        "Rafael Flores Jr.",
+        "Jake Mangum",
+        "Jacob Gonzalez",
+        "Jared Triolo"
+      ],
       "home_lineup": [
         "Shohei Ohtani",
         "Freddie Freeman",
@@ -41329,7 +41339,7 @@
         "Teoscar Hernández",
         "Hunter Feduccia"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -41453,7 +41463,17 @@
       "home": "Seattle Mariners",
       "game_id": 823101,
       "fecha": "2026-08-21",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Michael Conforto",
+        "Carson Kelly"
+      ],
       "home_lineup": [
         "Brendan Donovan",
         "Randy Arozarena",
@@ -41465,7 +41485,7 @@
         "Cole Young",
         "Brock Rodden"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -41603,5 +41623,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "21/08/26 16:31"
+  "alineaciones_actualizadas": "21/08/26 17:06"
 }
