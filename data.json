@@ -39694,20 +39694,20 @@
       },
       "away_pitcher": {
         "nombre": "Dylan Cease",
-        "avg_contra": ".178",
-        "era": "2.41",
+        "avg_contra": ".176",
+        "era": "2.38",
         "whip": "1.06",
-        "k9": "13.14",
-        "h9": "5.66",
-        "ip_temporada": "138.1",
+        "k9": "13.15",
+        "h9": "5.61",
+        "ip_temporada": "139.2",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "0.2",
-            "k": 1,
+            "ip": "2.1",
+            "k": 4,
             "h": 0,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-16",
@@ -39737,18 +39737,18 @@
       },
       "home_pitcher": {
         "nombre": "Ryan Weathers",
-        "avg_contra": ".244",
-        "era": "3.60",
+        "avg_contra": ".245",
+        "era": "3.56",
         "whip": "1.21",
-        "k9": "9.40",
-        "h9": "8.33",
-        "ip_temporada": "135.0",
+        "k9": "9.35",
+        "h9": "8.36",
+        "ip_temporada": "136.2",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "1.0",
-            "k": 1,
-            "h": 3,
+            "ip": "3.0",
+            "k": 2,
+            "h": 5,
             "er": 1,
             "bb": 0
           },
@@ -39910,13 +39910,21 @@
       },
       "away_pitcher": {
         "nombre": "Martín Pérez",
-        "avg_contra": ".218",
-        "era": "3.15",
-        "whip": "1.19",
-        "k9": "6.71",
-        "h9": "7.11",
-        "ip_temporada": "111.1",
+        "avg_contra": ".217",
+        "era": "3.13",
+        "whip": "1.20",
+        "k9": "6.75",
+        "h9": "7.07",
+        "ip_temporada": "112.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-22",
+            "ip": "0.2",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-17",
             "ip": "5.0",
@@ -39940,26 +39948,26 @@
             "h": 0,
             "er": 0,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-01",
-            "ip": "7.0",
-            "k": 6,
-            "h": 1,
-            "er": 0,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Logan Henderson",
-        "avg_contra": ".190",
-        "era": "2.70",
-        "whip": "0.87",
-        "k9": "10.66",
-        "h9": "6.11",
-        "ip_temporada": "63.1",
+        "avg_contra": ".195",
+        "era": "2.80",
+        "whip": "0.90",
+        "k9": "10.63",
+        "h9": "6.30",
+        "ip_temporada": "64.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-22",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-16",
             "ip": "7.0",
@@ -39983,14 +39991,6 @@
             "h": 4,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-07-28",
-            "ip": "5.2",
-            "k": 7,
-            "h": 2,
-            "er": 0,
-            "bb": 2
           }
         ]
       }
@@ -40197,7 +40197,17 @@
       "game_id": 823422,
       "fecha": "2026-08-22",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Edmundo Sosa",
+        "Bryan De La Cruz",
+        "J.T. Realmuto",
+        "Derek Hill"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -40295,17 +40305,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 74.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brandon Marsh",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 76.9,
-            "prob_3j_4j": 68.8,
-            "pct_hit": 64.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40314,7 +40314,7 @@
             "prob": 36,
             "prob_2j_3j": 0,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40323,21 +40323,14 @@
             "prob": 57,
             "prob_1j_2j": 57.7,
             "pct_hit": 61.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "J.T. Realmuto",
             "prob": 44,
             "prob_1j_2j": 45.5,
             "pct_hit": 50.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Garrett Stubbs",
-            "prob": 28,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 26.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42586,5 +42579,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/08/26 12:00"
+  "alineaciones_actualizadas": "22/08/26 12:30"
 }
