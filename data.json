@@ -39684,19 +39684,19 @@
       },
       "away_pitcher": {
         "nombre": "Dylan Cease",
-        "avg_contra": ".172",
-        "era": "2.31",
-        "whip": "1.05",
+        "avg_contra": ".175",
+        "era": "2.37",
+        "whip": "1.06",
         "k9": "13.03",
-        "h9": "5.42",
+        "h9": "5.55",
         "ip_temporada": "144.1",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
             "ip": "6.2",
             "k": 8,
-            "h": 1,
-            "er": 0,
+            "h": 2,
+            "er": 1,
             "bb": 5
           },
           {
@@ -39940,16 +39940,16 @@
       },
       "home_pitcher": {
         "nombre": "Logan Henderson",
-        "avg_contra": ".192",
-        "era": "2.62",
+        "avg_contra": ".194",
+        "era": "2.60",
         "whip": "0.89",
-        "k9": "10.35",
-        "h9": "6.16",
-        "ip_temporada": "68.2",
+        "k9": "10.25",
+        "h9": "6.23",
+        "ip_temporada": "69.1",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "5.2",
+            "ip": "6.0",
             "k": 4,
             "h": 5,
             "er": 1,
@@ -40093,13 +40093,21 @@
       },
       "away_pitcher": {
         "nombre": "Jake Irvin",
-        "avg_contra": ".244",
-        "era": "5.80",
-        "whip": "1.36",
-        "k9": "9.08",
-        "h9": "8.33",
-        "ip_temporada": "71.1",
+        "avg_contra": ".248",
+        "era": "6.03",
+        "whip": "1.40",
+        "k9": "9.04",
+        "h9": "8.54",
+        "ip_temporada": "71.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-22",
+            "ip": "1.0",
+            "k": 0,
+            "h": 2,
+            "er": 2,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-16",
             "ip": "6.0",
@@ -40123,26 +40131,26 @@
             "h": 3,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-30",
-            "ip": "5.0",
-            "k": 1,
-            "h": 3,
-            "er": 5,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Eury Pérez",
-        "avg_contra": ".200",
-        "era": "3.23",
+        "avg_contra": ".199",
+        "era": "3.20",
         "whip": "1.11",
-        "k9": "9.76",
-        "h9": "6.38",
-        "ip_temporada": "122.2",
+        "k9": "9.68",
+        "h9": "6.33",
+        "ip_temporada": "123.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-22",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-16",
             "ip": "6.0",
@@ -40165,14 +40173,6 @@
             "k": 9,
             "h": 7,
             "er": 4,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-07-30",
-            "ip": "6.0",
-            "k": 6,
-            "h": 3,
-            "er": 1,
             "bb": 2
           }
         ]
@@ -40383,7 +40383,17 @@
       "home": "Baltimore Orioles",
       "game_id": 824798,
       "fecha": "2026-08-22",
-      "away_lineup": [],
+      "away_lineup": [
+        "Yandy Díaz",
+        "Jonathan Aranda",
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Liam Hicks",
+        "Jonny DeLuca",
+        "Richie Palacios",
+        "Cedric Mullins",
+        "Taylor Walls"
+      ],
       "home_lineup": [
         "Jackson Holliday",
         "Pete Alonso",
@@ -40395,7 +40405,7 @@
         "Leody Taveras",
         "Carlos Narváez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40406,7 +40416,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 72.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Junior Caminero",
@@ -40416,7 +40426,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 69.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -40426,14 +40436,7 @@
             "prob": 53,
             "prob_1j_2j": 53.3,
             "pct_hit": 55.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Vilade",
-            "prob": 51,
-            "prob_1j_2j": 56.5,
-            "pct_hit": 47.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40757,9 +40760,29 @@
       "home": "Houston Astros",
       "game_id": 824151,
       "fecha": "2026-08-22",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Henry Bolte",
+        "Jeff McNeil",
+        "Zack Gelof",
+        "Carlos Cortes",
+        "Lawrence Butler",
+        "Tommy White",
+        "Jonah Heim",
+        "Donovan Walton",
+        "Max Muncy"
+      ],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Christian Walker",
+        "Daulton Varsho",
+        "Yainer Diaz",
+        "Cam Smith",
+        "LaMonte Wade Jr."
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40770,17 +40793,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 55.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brian Serven",
-            "juegos": 3,
-            "avg": 0.25,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 66.7,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40789,7 +40802,7 @@
             "prob": 70,
             "prob_2j_3j": 84.6,
             "pct_hit": 51.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40798,14 +40811,7 @@
             "prob": 49,
             "prob_1j_2j": 50.0,
             "pct_hit": 51.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Darell Hernaiz",
-            "prob": 39,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 47.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40819,17 +40825,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 65.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Vázquez",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 47.1,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Isaac Paredes",
@@ -40839,7 +40835,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 63.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yordan Alvarez",
@@ -40849,7 +40845,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 67.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40858,7 +40854,7 @@
             "prob": 48,
             "prob_2j_3j": 47.4,
             "pct_hit": 56.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40867,14 +40863,14 @@
             "prob": 61,
             "prob_1j_2j": 62.1,
             "pct_hit": 58.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Altuve",
             "prob": 60,
             "prob_1j_2j": 61.4,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42578,5 +42574,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/08/26 14:00"
+  "alineaciones_actualizadas": "22/08/26 14:30"
 }
