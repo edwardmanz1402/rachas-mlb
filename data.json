@@ -39588,7 +39588,7 @@
         "George Springer",
         "Kazuma Okamoto",
         "Ernie Clement",
-        "Daz Cameron",
+        "Nathan Lukes",
         "Charles McAdoo",
         "Myles Straw"
       ],
@@ -39634,16 +39634,6 @@
             "prob_3j_4j": 70.6,
             "pct_hit": 70.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
-          {
-            "jugador": "Daz Cameron",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 100.0,
-            "tipo": "⚡ RACHA INUSUAL",
             "confirmado": true
           }
         ],
@@ -39694,20 +39684,20 @@
       },
       "away_pitcher": {
         "nombre": "Dylan Cease",
-        "avg_contra": ".175",
-        "era": "2.37",
-        "whip": "1.05",
+        "avg_contra": ".174",
+        "era": "2.35",
+        "whip": "1.06",
         "k9": "13.18",
-        "h9": "5.57",
-        "ip_temporada": "140.2",
+        "h9": "5.51",
+        "ip_temporada": "142.0",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "3.1",
-            "k": 6,
+            "ip": "5.0",
+            "k": 7,
             "h": 0,
             "er": 0,
-            "bb": 2
+            "bb": 4
           },
           {
             "fecha": "2026-08-16",
@@ -39910,20 +39900,20 @@
       },
       "away_pitcher": {
         "nombre": "Martín Pérez",
-        "avg_contra": ".215",
-        "era": "3.10",
-        "whip": "1.19",
-        "k9": "6.67",
-        "h9": "6.99",
-        "ip_temporada": "113.1",
+        "avg_contra": ".221",
+        "era": "3.07",
+        "whip": "1.22",
+        "k9": "6.61",
+        "h9": "7.24",
+        "ip_temporada": "114.1",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "2.1",
+            "ip": "3.0",
             "k": 1,
-            "h": 0,
+            "h": 4,
             "er": 0,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-17",
@@ -39953,18 +39943,18 @@
       },
       "home_pitcher": {
         "nombre": "Logan Henderson",
-        "avg_contra": ".191",
-        "era": "2.73",
-        "whip": "0.89",
-        "k9": "10.50",
-        "h9": "6.14",
-        "ip_temporada": "66.0",
+        "avg_contra": ".195",
+        "era": "2.67",
+        "whip": "0.91",
+        "k9": "10.29",
+        "h9": "6.28",
+        "ip_temporada": "67.1",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "3.0",
+            "ip": "4.0",
             "k": 2,
-            "h": 2,
+            "h": 4,
             "er": 1,
             "bb": 2
           },
@@ -40196,7 +40186,17 @@
       "home": "Philadelphia Phillies",
       "game_id": 823422,
       "fecha": "2026-08-22",
-      "away_lineup": [],
+      "away_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Joshua Báez",
+        "Nathan Church",
+        "José Fermín",
+        "Jimmy Crooks",
+        "Blaze Jordan"
+      ],
       "home_lineup": [
         "Kyle Schwarber",
         "Trea Turner",
@@ -40208,7 +40208,7 @@
         "J.T. Realmuto",
         "Derek Hill"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40219,7 +40219,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 70.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Walker",
@@ -40229,17 +40229,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 73.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "juegos": 5,
-            "avg": 0.333,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 43.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Fermín",
@@ -40249,7 +40239,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 48.7,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Church",
@@ -40259,7 +40249,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 53.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40268,14 +40258,7 @@
             "prob": 60,
             "prob_2j_3j": 60.0,
             "pct_hit": 61.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Pedro Pagés",
-            "prob": 32,
-            "prob_2j_3j": 30.0,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40284,14 +40267,7 @@
             "prob": 50,
             "prob_1j_2j": 54.5,
             "pct_hit": 54.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Everson Pereira",
-            "prob": 44,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 43.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40979,7 +40955,17 @@
       "game_id": 824560,
       "fecha": "2026-08-22",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Sam Antonacci",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Andrew Benintendi",
+        "Braden Montgomery",
+        "Colson Montgomery",
+        "Chase Meidroth",
+        "Tristan Peters",
+        "Drew Romo"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -41034,18 +41020,11 @@
         "racha": [],
         "candidatos_2j": [
           {
-            "jugador": "Jake Rogers",
-            "prob": 39,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 34.2,
-            "confirmado": false
-          },
-          {
             "jugador": "Andrew Benintendi",
             "prob": 37,
             "prob_2j_3j": 33.3,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41054,21 +41033,14 @@
             "prob": 65,
             "prob_1j_2j": 69.5,
             "pct_hit": 62.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colson Montgomery",
             "prob": 62,
             "prob_1j_2j": 64.2,
             "pct_hit": 54.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Randal Grichuk",
-            "prob": 33,
-            "prob_1j_2j": 30.8,
-            "pct_hit": 48.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41380,7 +41352,17 @@
       "game_id": 823910,
       "fecha": "2026-08-22",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Freddie Freeman",
+        "Mookie Betts",
+        "Max Muncy",
+        "Tommy Edman",
+        "Kyle Tucker",
+        "Teoscar Hernández",
+        "Alek Thomas",
+        "Ben Rortvedt"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41444,7 +41426,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 51.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41453,7 +41435,7 @@
             "prob": 45,
             "prob_2j_3j": 46.2,
             "pct_hit": 54.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41462,14 +41444,7 @@
             "prob": 73,
             "prob_1j_2j": 73.8,
             "pct_hit": 72.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Hunter Feduccia",
-            "prob": 42,
-            "prob_1j_2j": 40.9,
-            "pct_hit": 51.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41749,7 +41724,17 @@
       "game_id": 824718,
       "fecha": "2026-08-22",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Nick Sogard",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Willson Contreras",
+        "Adley Rutschman",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Andruw Monasterio",
+        "Mickey Gasper"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41800,7 +41785,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 55.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willson Contreras",
@@ -41810,7 +41795,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 63.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Sogard",
@@ -41820,23 +41805,16 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Connor Wong",
-            "prob": 61,
-            "prob_2j_3j": 70.0,
-            "pct_hit": 56.6,
-            "confirmado": false
-          },
           {
             "jugador": "Wilyer Abreu",
             "prob": 59,
             "prob_2j_3j": 56.5,
             "pct_hit": 61.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41845,21 +41823,21 @@
             "prob": 70,
             "prob_1j_2j": 68.8,
             "pct_hit": 73.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Caleb Durbin",
             "prob": 59,
             "prob_1j_2j": 63.0,
             "pct_hit": 56.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Adley Rutschman",
             "prob": 55,
             "prob_1j_2j": 59.0,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42172,7 +42150,17 @@
       "game_id": 824316,
       "fecha": "2026-08-22",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Mickey Moniak",
+        "Cole Carrigg",
+        "TJ Rumfield",
+        "Kyle Karros",
+        "Willi Castro",
+        "Troy Johnston",
+        "Brett Sullivan",
+        "Zac Veen"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -42261,16 +42249,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Connor Norby",
-            "juegos": 6,
-            "avg": 0.368,
-            "prob_2j_3j": 54.5,
-            "prob_3j_4j": 75.0,
-            "pct_hit": 52.9,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
             "jugador": "Cole Carrigg",
             "juegos": 3,
             "avg": 0.231,
@@ -42278,7 +42256,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 61.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -42287,7 +42265,7 @@
             "prob": 58,
             "prob_2j_3j": 60.0,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -42296,14 +42274,7 @@
             "prob": 62,
             "prob_1j_2j": 58.0,
             "pct_hit": 66.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Beck",
-            "prob": 41,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 43.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42575,5 +42546,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/08/26 13:00"
+  "alineaciones_actualizadas": "22/08/26 13:30"
 }
