@@ -40085,20 +40085,20 @@
       },
       "away_pitcher": {
         "nombre": "Jake Irvin",
-        "avg_contra": ".247",
-        "era": "6.01",
-        "whip": "1.38",
+        "avg_contra": ".250",
+        "era": "6.05",
+        "whip": "1.40",
         "k9": "8.84",
-        "h9": "8.47",
-        "ip_temporada": "73.1",
+        "h9": "8.60",
+        "ip_temporada": "74.1",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "2.0",
-            "k": 0,
-            "h": 3,
-            "er": 3,
-            "bb": 1
+            "ip": "3.0",
+            "k": 1,
+            "h": 5,
+            "er": 4,
+            "bb": 2
           },
           {
             "fecha": "2026-08-16",
@@ -40128,20 +40128,20 @@
       },
       "home_pitcher": {
         "nombre": "Eury Pérez",
-        "avg_contra": ".197",
-        "era": "3.17",
-        "whip": "1.10",
-        "k9": "9.72",
-        "h9": "6.26",
-        "ip_temporada": "125.0",
+        "avg_contra": ".196",
+        "era": "3.13",
+        "whip": "1.11",
+        "k9": "9.73",
+        "h9": "6.25",
+        "ip_temporada": "126.2",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "2.1",
-            "k": 2,
-            "h": 0,
+            "ip": "4.0",
+            "k": 4,
+            "h": 1,
             "er": 0,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-16",
@@ -40565,7 +40565,17 @@
       "home": "Texas Rangers",
       "game_id": 822858,
       "fecha": "2026-08-22",
-      "away_lineup": [],
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Vaughn Grissom",
+        "Moisés Ballesteros",
+        "Jose Siri",
+        "Gustavo Campero",
+        "Denzer Guzman",
+        "Christian Moore",
+        "Travis d'Arnaud"
+      ],
       "home_lineup": [
         "Joc Pederson",
         "Corey Seager",
@@ -40577,7 +40587,7 @@
         "Cody Freeman",
         "Danny Jansen"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40588,7 +40598,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Denzer Guzman",
@@ -40598,34 +40608,17 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 65.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Adam Frazier",
-            "juegos": 4,
-            "avg": 0.538,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 37.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Wade Meckler",
-            "prob": 62,
-            "prob_1j_2j": 65.4,
-            "pct_hit": 63.2,
-            "confirmado": false
-          },
-          {
             "jugador": "Jose Siri",
             "prob": 34,
             "prob_1j_2j": 35.3,
             "pct_hit": 40.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42572,5 +42565,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/08/26 15:00"
+  "alineaciones_actualizadas": "22/08/26 15:30"
 }
