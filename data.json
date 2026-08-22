@@ -39781,7 +39781,7 @@
         "Michael Harris II",
         "Ozzie Albies",
         "Mauricio Dubón",
-        "Mike Yastrzemski",
+        "Lane Thomas",
         "Austin Riley",
         "Jim Jarvis"
       ],
@@ -39820,15 +39820,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Mike Yastrzemski",
-            "prob": 51,
-            "prob_2j_3j": 56.2,
-            "pct_hit": 48.0,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Matt Olson",
@@ -40093,19 +40085,19 @@
       },
       "away_pitcher": {
         "nombre": "Jake Irvin",
-        "avg_contra": ".248",
-        "era": "6.03",
-        "whip": "1.40",
-        "k9": "9.04",
-        "h9": "8.54",
-        "ip_temporada": "71.2",
+        "avg_contra": ".247",
+        "era": "6.01",
+        "whip": "1.38",
+        "k9": "8.84",
+        "h9": "8.47",
+        "ip_temporada": "73.1",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "1.0",
+            "ip": "2.0",
             "k": 0,
-            "h": 2,
-            "er": 2,
+            "h": 3,
+            "er": 3,
             "bb": 1
           },
           {
@@ -40136,20 +40128,20 @@
       },
       "home_pitcher": {
         "nombre": "Eury Pérez",
-        "avg_contra": ".199",
-        "era": "3.20",
-        "whip": "1.11",
-        "k9": "9.68",
-        "h9": "6.33",
-        "ip_temporada": "123.2",
+        "avg_contra": ".197",
+        "era": "3.17",
+        "whip": "1.10",
+        "k9": "9.72",
+        "h9": "6.26",
+        "ip_temporada": "125.0",
         "ultimas4": [
           {
             "fecha": "2026-08-22",
-            "ip": "1.0",
-            "k": 0,
+            "ip": "2.1",
+            "k": 2,
             "h": 0,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-16",
@@ -40966,7 +40958,17 @@
       "home": "Chicago White Sox",
       "game_id": 824560,
       "fecha": "2026-08-22",
-      "away_lineup": [],
+      "away_lineup": [
+        "A.J. Ewing",
+        "Francisco Lindor",
+        "Bo Bichette",
+        "Carson Benge",
+        "Jared Young",
+        "Luis Robert Jr.",
+        "Brett Baty",
+        "Marcus Semien",
+        "Francisco Alvarez"
+      ],
       "home_lineup": [
         "Sam Antonacci",
         "Munetaka Murakami",
@@ -40978,7 +40980,7 @@
         "Tristan Peters",
         "Drew Romo"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -40987,28 +40989,28 @@
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 65.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Robert Jr.",
             "prob": 53,
             "prob_2j_3j": 60.0,
             "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Marcus Semien",
             "prob": 39,
             "prob_2j_3j": 35.7,
             "pct_hit": 49.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jared Young",
             "prob": 30,
             "prob_2j_3j": 25.0,
             "pct_hit": 54.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41017,14 +41019,14 @@
             "prob": 69,
             "prob_1j_2j": 69.8,
             "pct_hit": 65.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Baty",
             "prob": 60,
             "prob_1j_2j": 65.3,
             "pct_hit": 53.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42177,7 +42179,17 @@
       "home": "Colorado Rockies",
       "game_id": 824316,
       "fecha": "2026-08-22",
-      "away_lineup": [],
+      "away_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "José Ramírez",
+        "Jo Adell",
+        "Nathaniel Lowe",
+        "Angel Genao",
+        "Travis Bazzana",
+        "Patrick Bailey",
+        "Petey Halpin"
+      ],
       "home_lineup": [
         "Jake McCarthy",
         "Mickey Moniak",
@@ -42189,7 +42201,7 @@
         "Brett Sullivan",
         "Zac Veen"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -42200,7 +42212,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 69.2,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Travis Bazzana",
@@ -42210,7 +42222,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 53.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -42219,21 +42231,21 @@
             "prob": 66,
             "prob_2j_3j": 70.6,
             "pct_hit": 62.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Patrick Bailey",
             "prob": 31,
             "prob_2j_3j": 30.0,
             "pct_hit": 43.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Petey Halpin",
             "prob": 24,
             "prob_2j_3j": 0,
             "pct_hit": 40.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -42242,35 +42254,21 @@
             "prob": 65,
             "prob_1j_2j": 68.0,
             "pct_hit": 65.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brayan Rocchio",
-            "prob": 65,
-            "prob_1j_2j": 66.7,
-            "pct_hit": 59.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Austin Hedges",
-            "prob": 65,
-            "prob_1j_2j": 74.1,
-            "pct_hit": 55.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jo Adell",
             "prob": 56,
             "prob_1j_2j": 56.9,
             "pct_hit": 55.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathaniel Lowe",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42574,5 +42572,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "22/08/26 14:30"
+  "alineaciones_actualizadas": "22/08/26 15:00"
 }
