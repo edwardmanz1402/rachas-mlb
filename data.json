@@ -41818,9 +41818,19 @@
       "home": "Colorado Rockies",
       "game_id": 824315,
       "fecha": "2026-08-23",
-      "away_lineup": [],
+      "away_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "Jo Adell",
+        "Nathaniel Lowe",
+        "Angel Genao",
+        "Travis Bazzana",
+        "Angel Martínez",
+        "Austin Hedges",
+        "Brayan Rocchio"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -41831,7 +41841,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 71.4,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Travis Bazzana",
@@ -41841,17 +41851,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 54.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Patrick Bailey",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 30.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 44.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41860,14 +41860,14 @@
             "prob": 56,
             "prob_2j_3j": 57.1,
             "pct_hit": 55.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathaniel Lowe",
             "prob": 51,
             "prob_2j_3j": 53.8,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41876,14 +41876,7 @@
             "prob": 65,
             "prob_1j_2j": 66.7,
             "pct_hit": 59.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "José Ramírez",
-            "prob": 59,
-            "prob_1j_2j": 60.0,
-            "pct_hit": 59.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42032,7 +42025,17 @@
       "home": "Boston Red Sox",
       "game_id": 824720,
       "fecha": "2026-08-23",
-      "away_lineup": [],
+      "away_lineup": [
+        "Osleivis Basabe",
+        "Rafael Devers",
+        "Willy Adames",
+        "Bryce Eldridge",
+        "Victor Bericoto",
+        "Jung Hoo Lee",
+        "Andrew Knizner",
+        "Jonah Cox",
+        "Christian Koss"
+      ],
       "home_lineup": [
         "Jahmai Jones",
         "Ceddanne Rafaela",
@@ -42044,7 +42047,7 @@
         "Eli White",
         "Connor Wong"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -42055,7 +42058,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 65.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -42065,21 +42068,21 @@
             "prob": 66,
             "prob_1j_2j": 69.0,
             "pct_hit": 64.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willy Adames",
             "prob": 59,
             "prob_1j_2j": 58.5,
             "pct_hit": 59.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Osleivis Basabe",
             "prob": 33,
             "prob_1j_2j": 0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43239,5 +43242,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "23/08/26 10:01"
+  "alineaciones_actualizadas": "23/08/26 10:30"
 }
