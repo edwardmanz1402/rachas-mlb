@@ -39448,9 +39448,29 @@
       "home": "Washington Nationals",
       "game_id": 822695,
       "fecha": "2026-08-24",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jake McCarthy",
+        "Mickey Moniak",
+        "Willi Castro",
+        "TJ Rumfield",
+        "Troy Johnston",
+        "Connor Norby",
+        "Brett Sullivan",
+        "Zac Veen",
+        "Ezequiel Tovar"
+      ],
+      "home_lineup": [
+        "CJ Abrams",
+        "Abimelec Ortiz",
+        "Dylan Crews",
+        "Daylen Lile",
+        "Brady House",
+        "Keibert Ruiz",
+        "Jacob Young",
+        "Jorbit Vivas",
+        "Nasim Nuñez"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39461,7 +39481,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 54.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willi Castro",
@@ -39471,7 +39491,7 @@
             "prob_3j_4j": 25.0,
             "pct_hit": 66.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39480,21 +39500,14 @@
             "prob": 65,
             "prob_2j_3j": 71.4,
             "pct_hit": 70.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Troy Johnston",
             "prob": 65,
             "prob_2j_3j": 63.6,
             "pct_hit": 63.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Beck",
-            "prob": 52,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 43.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39503,14 +39516,14 @@
             "prob": 52,
             "prob_1j_2j": 54.2,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Sullivan",
             "prob": 47,
             "prob_1j_2j": 52.6,
             "pct_hit": 45.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39524,7 +39537,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 56.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39533,7 +39546,7 @@
             "prob": 52,
             "prob_2j_3j": 52.9,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39542,14 +39555,14 @@
             "prob": 63,
             "prob_1j_2j": 63.3,
             "pct_hit": 60.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jorbit Vivas",
             "prob": 54,
             "prob_1j_2j": 61.1,
             "pct_hit": 47.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41180,5 +41193,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "24/08/26 13:00"
+  "alineaciones_actualizadas": "24/08/26 13:30"
 }
