@@ -40540,9 +40540,19 @@
       "home": "Athletics",
       "game_id": 824964,
       "fecha": "2026-08-24",
-      "away_lineup": [],
+      "away_lineup": [
+        "Luke Keaschall",
+        "Byron Buxton",
+        "Ryan Jeffers",
+        "Josh Bell",
+        "Kody Clemens",
+        "Royce Lewis",
+        "Kaelen Culpepper",
+        "Brooks Lee",
+        "Ryan Kreidler"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40553,7 +40563,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 67.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40562,14 +40572,14 @@
             "prob": 54,
             "prob_2j_3j": 52.2,
             "pct_hit": 59.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kaelen Culpepper",
             "prob": 39,
             "prob_2j_3j": 0,
             "pct_hit": 70.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40578,21 +40588,14 @@
             "prob": 68,
             "prob_1j_2j": 69.2,
             "pct_hit": 64.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan Jeffers",
             "prob": 65,
             "prob_1j_2j": 69.2,
             "pct_hit": 67.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alan Roden",
-            "prob": 28,
-            "prob_1j_2j": 0,
-            "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40762,7 +40765,17 @@
       "game_id": 823097,
       "fecha": "2026-08-24",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Taylor Ward",
+        "Cal Raleigh",
+        "Cole Young",
+        "Weston Wilson",
+        "Brock Rodden"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -40840,16 +40853,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Brendan Donovan",
-            "juegos": 4,
-            "avg": 0.467,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 60.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Randy Arozarena",
             "juegos": 3,
             "avg": 0.385,
@@ -40857,7 +40860,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 64.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cal Raleigh",
@@ -40867,7 +40870,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 46.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40876,7 +40879,7 @@
             "prob": 31,
             "prob_2j_3j": 33.3,
             "pct_hit": 41.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40885,21 +40888,14 @@
             "prob": 68,
             "prob_1j_2j": 70.0,
             "pct_hit": 67.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Robles",
-            "prob": 43,
-            "prob_1j_2j": 43.8,
-            "pct_hit": 48.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
             "prob": 43,
             "prob_1j_2j": 43.9,
             "pct_hit": 50.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41205,5 +41201,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "24/08/26 15:00"
+  "alineaciones_actualizadas": "24/08/26 15:30"
 }
