@@ -39869,9 +39869,29 @@
       "home": "Los Angeles Angels",
       "game_id": 823992,
       "fecha": "2026-08-24",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "José Ramírez",
+        "Jo Adell",
+        "Nathaniel Lowe",
+        "Angel Genao",
+        "Petey Halpin",
+        "Austin Hedges",
+        "Brayan Rocchio"
+      ],
+      "home_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Vaughn Grissom",
+        "Moisés Ballesteros",
+        "Jose Siri",
+        "Gustavo Campero",
+        "Christian Moore",
+        "Denzer Guzman",
+        "Travis d'Arnaud"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39882,7 +39902,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jo Adell",
@@ -39892,17 +39912,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 56.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Patrick Bailey",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 30.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 44.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39911,7 +39921,7 @@
             "prob": 67,
             "prob_2j_3j": 81.8,
             "pct_hit": 55.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39920,28 +39930,21 @@
             "prob": 64,
             "prob_1j_2j": 68.0,
             "pct_hit": 65.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Steven Kwan",
             "prob": 60,
             "prob_1j_2j": 60.4,
             "pct_hit": 62.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Ramírez",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 59.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Angel Martínez",
-            "prob": 52,
-            "prob_1j_2j": 54.3,
-            "pct_hit": 55.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39955,17 +39958,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Adam Frazier",
-            "juegos": 5,
-            "avg": 0.571,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 39.0,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39974,21 +39967,21 @@
             "prob": 68,
             "prob_2j_3j": 80.0,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mike Trout",
             "prob": 61,
             "prob_2j_3j": 63.6,
             "pct_hit": 59.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Moisés Ballesteros",
             "prob": 39,
             "prob_2j_3j": 44.4,
             "pct_hit": 41.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -39997,14 +39990,14 @@
             "prob": 39,
             "prob_1j_2j": 0,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Siri",
             "prob": 34,
             "prob_1j_2j": 35.3,
             "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40100,7 +40093,17 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825041,
       "fecha": "2026-08-24",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Michael Conforto",
+        "Carson Kelly"
+      ],
       "home_lineup": [
         "Lars Nootbaar",
         "Corbin Carroll",
@@ -40112,19 +40115,9 @@
         "Ildemaro Vargas",
         "Ryan Waldschmidt"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Tyrone Taylor",
-            "juegos": 4,
-            "avg": 0.6,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 0,
-            "pct_hit": 41.7,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Michael Busch",
             "juegos": 3,
@@ -40133,7 +40126,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 63.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
@@ -40143,7 +40136,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 68.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Seiya Suzuki",
@@ -40153,7 +40146,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 64.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nico Hoerner",
@@ -40163,7 +40156,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 68.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40172,14 +40165,14 @@
             "prob": 51,
             "prob_2j_3j": 50.0,
             "pct_hit": 60.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pedro Ramírez",
             "prob": 23,
             "prob_2j_3j": 0,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40188,28 +40181,14 @@
             "prob": 56,
             "prob_1j_2j": 58.5,
             "pct_hit": 53.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 56,
-            "prob_1j_2j": 62.5,
-            "pct_hit": 55.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Conforto",
             "prob": 44,
             "prob_1j_2j": 50.0,
             "pct_hit": 36.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Kevin Alcántara",
-            "prob": 28,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 26.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40346,9 +40325,19 @@
       "home": "San Diego Padres",
       "game_id": 823260,
       "fecha": "2026-08-24",
-      "away_lineup": [],
+      "away_lineup": [
+        "Nick Gonzales",
+        "Esmerlyn Valdez",
+        "Bryan Reynolds",
+        "Oneil Cruz",
+        "Rafael Flores Jr.",
+        "Brandon Lowe",
+        "Nick Yorke",
+        "Spencer Horwitz",
+        "Jared Triolo"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40359,7 +40348,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 68.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -40369,7 +40358,7 @@
             "prob": 58,
             "prob_1j_2j": 58.3,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -40756,7 +40745,17 @@
       "home": "Seattle Mariners",
       "game_id": 823097,
       "fecha": "2026-08-24",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Bryson Stott",
+        "Brandon Marsh",
+        "J.T. Realmuto",
+        "Justin Crawford"
+      ],
       "home_lineup": [
         "Randy Arozarena",
         "Dominic Canzone",
@@ -40768,29 +40767,9 @@
         "Weston Wilson",
         "Brock Rodden"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Edmundo Sosa",
-            "juegos": 5,
-            "avg": 0.421,
-            "prob_2j_3j": 25.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 46.7,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan De La Cruz",
-            "juegos": 4,
-            "avg": 0.455,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 66.7,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
-          },
           {
             "jugador": "J.T. Realmuto",
             "juegos": 3,
@@ -40799,7 +40778,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 51.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -40808,21 +40787,21 @@
             "prob": 61,
             "prob_2j_3j": 66.7,
             "pct_hit": 61.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
             "prob": 58,
             "prob_2j_3j": 57.1,
             "pct_hit": 57.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Schwarber",
             "prob": 55,
             "prob_2j_3j": 52.2,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -40831,14 +40810,7 @@
             "prob": 69,
             "prob_1j_2j": 70.8,
             "pct_hit": 64.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Derek Hill",
-            "prob": 49,
-            "prob_1j_2j": 53.3,
-            "pct_hit": 47.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41186,5 +41158,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "24/08/26 16:00"
+  "alineaciones_actualizadas": "24/08/26 16:30"
 }
