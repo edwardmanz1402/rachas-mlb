@@ -43449,9 +43449,29 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825042,
       "fecha": "2026-08-25",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Michael Conforto",
+        "Miguel Amaya"
+      ],
+      "home_lineup": [
+        "Lars Nootbaar",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "Ildemaro Vargas",
+        "Jordan Lawlar"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43462,17 +43482,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyrone Taylor",
-            "juegos": 4,
-            "avg": 0.6,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 0,
-            "pct_hit": 41.7,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pedro Ramírez",
@@ -43482,17 +43492,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 40.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Carson Kelly",
-            "juegos": 3,
-            "avg": 0.308,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 61.3,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43501,14 +43501,14 @@
             "prob": 53,
             "prob_2j_3j": 55.0,
             "pct_hit": 54.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Conforto",
             "prob": 40,
             "prob_2j_3j": 44.4,
             "pct_hit": 37.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -43517,36 +43517,12 @@
             "prob": 67,
             "prob_1j_2j": 71.0,
             "pct_hit": 65.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 56,
-            "prob_1j_2j": 62.5,
-            "pct_hit": 55.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Kevin Alcántara",
-            "prob": 28,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 26.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Jose Fernandez",
-            "juegos": 6,
-            "avg": 0.412,
-            "prob_2j_3j": 77.8,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 58.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Tim Tawa",
             "juegos": 4,
@@ -43555,7 +43531,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 47.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Kepler",
@@ -43565,7 +43541,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43574,14 +43550,14 @@
             "prob": 61,
             "prob_2j_3j": 70.0,
             "pct_hit": 59.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 56.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -44333,7 +44309,17 @@
         "Ke'Bryan Hayes",
         "TJ Friedl"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Drew Gilbert",
+        "Rafael Devers",
+        "Jung Hoo Lee",
+        "Turner Hill",
+        "Drew Cavanaugh",
+        "Nate Furman",
+        "Shay Whitcomb",
+        "Grant McCray",
+        "Christian Koss"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -44390,42 +44376,14 @@
         "candidatos_1j": []
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Buddy Kennedy",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 23.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryce Eldridge",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 76.9,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 66.2,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
-          {
-            "jugador": "Willy Adames",
-            "prob": 57,
-            "prob_2j_3j": 55.0,
-            "pct_hit": 59.5,
-            "confirmado": false
-          },
           {
             "jugador": "Christian Koss",
             "prob": 27,
             "prob_2j_3j": 0,
             "pct_hit": 46.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44434,42 +44392,28 @@
             "prob": 66,
             "prob_1j_2j": 69.0,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Devers",
             "prob": 63,
             "prob_1j_2j": 65.1,
             "pct_hit": 60.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Bericoto",
-            "prob": 56,
-            "prob_1j_2j": 66.7,
-            "pct_hit": 46.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Gilbert",
             "prob": 48,
             "prob_1j_2j": 51.6,
             "pct_hit": 45.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Drew Cavanaugh",
             "prob": 21,
             "prob_1j_2j": 20.0,
             "pct_hit": 33.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jonah Cox",
-            "prob": 21,
-            "prob_1j_2j": 20.0,
-            "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44561,5 +44505,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "25/08/26 16:00"
+  "alineaciones_actualizadas": "25/08/26 16:30"
 }
