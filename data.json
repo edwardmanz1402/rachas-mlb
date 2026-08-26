@@ -41883,7 +41883,17 @@
       "home": "Detroit Tigers",
       "game_id": 824234,
       "fecha": "2026-08-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Yandy Díaz",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Liam Hicks",
+        "Chandler Simpson",
+        "Jonny DeLuca",
+        "Richie Palacios",
+        "Jorge Mateo",
+        "Cedric Mullins"
+      ],
       "home_lineup": [
         "Brett Callahan",
         "Kevin McGonigle",
@@ -41895,7 +41905,7 @@
         "Max Clark",
         "Hao-Yu Lee"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -41906,7 +41916,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 70.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonny DeLuca",
@@ -41916,7 +41926,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 56.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Liam Hicks",
@@ -41926,24 +41936,17 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 60.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Ryan Vilade",
-            "prob": 51,
-            "prob_1j_2j": 56.5,
-            "pct_hit": 47.6,
-            "confirmado": false
-          },
-          {
             "jugador": "Jorge Mateo",
             "prob": 43,
             "prob_1j_2j": 47.4,
             "pct_hit": 39.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45078,5 +45081,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 08:30"
+  "alineaciones_actualizadas": "26/08/26 09:00"
 }
