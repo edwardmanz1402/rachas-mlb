@@ -41884,7 +41884,17 @@
       "game_id": 824234,
       "fecha": "2026-08-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Brett Callahan",
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Colt Keith",
+        "Dillon Dingler",
+        "Zach McKinstry",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Hao-Yu Lee"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41940,16 +41950,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Javier Báez",
-            "juegos": 4,
-            "avg": 0.333,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 60.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Dillon Dingler",
             "juegos": 3,
             "avg": 0.3,
@@ -41957,7 +41957,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 55.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41966,21 +41966,14 @@
             "prob": 53,
             "prob_2j_3j": 55.6,
             "pct_hit": 62.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Torkelson",
             "prob": 49,
             "prob_2j_3j": 47.1,
             "pct_hit": 53.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eduardo Valencia",
-            "prob": 34,
-            "prob_2j_3j": 0,
-            "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41989,14 +41982,14 @@
             "prob": 49,
             "prob_1j_2j": 51.9,
             "pct_hit": 54.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Clark",
             "prob": 36,
             "prob_1j_2j": 0,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45085,5 +45078,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 08:00"
+  "alineaciones_actualizadas": "26/08/26 08:30"
 }
