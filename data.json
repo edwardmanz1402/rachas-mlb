@@ -41998,18 +41998,18 @@
       },
       "away_pitcher": {
         "nombre": "Freddy Peralta",
-        "avg_contra": ".266",
-        "era": "5.29",
-        "whip": "1.45",
+        "avg_contra": ".264",
+        "era": "5.22",
+        "whip": "1.43",
         "k9": "8.54",
-        "h9": "9.46",
-        "ip_temporada": "136.0",
+        "h9": "9.39",
+        "ip_temporada": "138.0",
         "ultimas4": [
           {
             "fecha": "2026-08-26",
-            "ip": "1.0",
-            "k": 0,
-            "h": 0,
+            "ip": "3.2",
+            "k": 2,
+            "h": 1,
             "er": 0,
             "bb": 0
           },
@@ -42041,19 +42041,19 @@
       },
       "home_pitcher": {
         "nombre": "Troy Melton",
-        "avg_contra": ".200",
-        "era": "1.77",
+        "avg_contra": ".202",
+        "era": "1.83",
         "whip": "1.03",
-        "k9": "7.56",
-        "h9": "6.48",
-        "ip_temporada": "91.2",
+        "k9": "7.62",
+        "h9": "6.56",
+        "ip_temporada": "93.1",
         "ultimas4": [
           {
             "fecha": "2026-08-26",
-            "ip": "1.2",
-            "k": 1,
-            "h": 3,
-            "er": 1,
+            "ip": "4.0",
+            "k": 4,
+            "h": 5,
+            "er": 2,
             "bb": 0
           },
           {
@@ -42099,7 +42099,17 @@
         "Carson Kelly",
         "Gabriel Arias"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Ildemaro Vargas",
+        "Corbin Carroll",
+        "Geraldo Perdomo",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "Jose Fernandez",
+        "James McCann",
+        "Jordan Lawlar",
+        "Ryan Waldschmidt"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -42172,7 +42182,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 58.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
@@ -42182,31 +42192,24 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 56.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Gabriel Moreno",
-            "prob": 67,
-            "prob_1j_2j": 70.5,
-            "pct_hit": 68.0,
-            "confirmado": false
-          },
-          {
             "jugador": "Corbin Carroll",
             "prob": 61,
             "prob_1j_2j": 61.4,
             "pct_hit": 60.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan Waldschmidt",
             "prob": 38,
             "prob_1j_2j": 35.0,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42710,7 +42713,17 @@
       "home": "San Diego Padres",
       "game_id": 823255,
       "fecha": "2026-08-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Spencer Horwitz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Esmerlyn Valdez",
+        "Oneil Cruz",
+        "Nick Gonzales",
+        "Jake Mangum",
+        "Rafael Flores Jr.",
+        "Jacob Gonzalez"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Jake Cronenworth",
@@ -42722,7 +42735,7 @@
         "Xander Bogaerts",
         "Freddy Fermin"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -42733,7 +42746,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -42742,21 +42755,14 @@
             "prob": 63,
             "prob_2j_3j": 69.2,
             "pct_hit": 63.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Gonzales",
             "prob": 63,
             "prob_2j_3j": 64.0,
             "pct_hit": 65.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jared Triolo",
-            "prob": 29,
-            "prob_2j_3j": 23.1,
-            "pct_hit": 49.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -42765,14 +42771,14 @@
             "prob": 65,
             "prob_1j_2j": 66.7,
             "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Esmerlyn Valdez",
             "prob": 63,
             "prob_1j_2j": 76.5,
             "pct_hit": 51.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45067,5 +45073,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 11:30"
+  "alineaciones_actualizadas": "26/08/26 12:00"
 }
