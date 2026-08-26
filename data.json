@@ -42206,12 +42206,20 @@
       "away_pitcher": {
         "nombre": "Matthew Boyd",
         "avg_contra": ".246",
-        "era": "4.15",
+        "era": "4.12",
         "whip": "1.24",
-        "k9": "7.02",
-        "h9": "8.41",
-        "ip_temporada": "91.0",
+        "k9": "7.17",
+        "h9": "8.44",
+        "ip_temporada": "91.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-26",
+            "ip": "0.2",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-21",
             "ip": "6.0",
@@ -42235,14 +42243,6 @@
             "h": 5,
             "er": 2,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-03",
-            "ip": "6.2",
-            "k": 3,
-            "h": 9,
-            "er": 4,
-            "bb": 1
           }
         ]
       },
@@ -42385,6 +42385,14 @@
         "ip_temporada": "75.0",
         "ultimas4": [
           {
+            "fecha": "2026-08-26",
+            "ip": "0.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-08-21",
             "ip": "3.1",
             "k": 2,
@@ -42407,26 +42415,26 @@
             "h": 5,
             "er": 4,
             "bb": 0
-          },
-          {
-            "fecha": "2026-07-11",
-            "ip": "5.0",
-            "k": 4,
-            "h": 5,
-            "er": 2,
-            "bb": 3
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Logan Webb",
-        "avg_contra": ".229",
-        "era": "3.75",
-        "whip": "1.11",
-        "k9": "7.12",
-        "h9": "7.75",
-        "ip_temporada": "141.2",
+        "avg_contra": ".228",
+        "era": "3.72",
+        "whip": "1.10",
+        "k9": "7.19",
+        "h9": "7.70",
+        "ip_temporada": "142.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-26",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-21",
             "ip": "2.2",
@@ -42449,14 +42457,6 @@
             "k": 2,
             "h": 4,
             "er": 1,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-08-03",
-            "ip": "6.0",
-            "k": 8,
-            "h": 5,
-            "er": 0,
             "bb": 1
           }
         ]
@@ -43348,7 +43348,17 @@
         "Troy Johnston",
         "Ezequiel Tovar"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "CJ Abrams",
+        "Abimelec Ortiz",
+        "Dylan Crews",
+        "Daylen Lile",
+        "Andrés Chaparro",
+        "José Tena",
+        "Harry Ford",
+        "Jorbit Vivas",
+        "Jacob Young"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -43412,7 +43422,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 61.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43421,14 +43431,14 @@
             "prob": 58,
             "prob_2j_3j": 58.8,
             "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Abimelec Ortiz",
             "prob": 32,
             "prob_2j_3j": 0,
             "pct_hit": 55.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -43437,7 +43447,7 @@
             "prob": 53,
             "prob_1j_2j": 57.1,
             "pct_hit": 56.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44439,7 +44449,17 @@
       "game_id": 824555,
       "fecha": "2026-08-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Miguel Vargas",
+        "Munetaka Murakami",
+        "Randal Grichuk",
+        "Chase Meidroth",
+        "Braden Montgomery",
+        "Brenton Doyle",
+        "Jake Rogers",
+        "Tristan Peters",
+        "Luisangel Acuña"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -44538,7 +44558,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tristan Peters",
@@ -44548,7 +44568,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 52.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44557,7 +44577,7 @@
             "prob": 46,
             "prob_2j_3j": 50.0,
             "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44566,28 +44586,14 @@
             "prob": 67,
             "prob_1j_2j": 69.7,
             "pct_hit": 67.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Colson Montgomery",
-            "prob": 62,
-            "prob_1j_2j": 64.2,
-            "pct_hit": 53.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Sam Antonacci",
-            "prob": 62,
-            "prob_1j_2j": 64.6,
-            "pct_hit": 58.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brenton Doyle",
             "prob": 44,
             "prob_1j_2j": 47.1,
             "pct_hit": 48.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44694,7 +44700,17 @@
         "Colton Cowser",
         "Carlos Narváez"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "JJ Wetherholt",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Nathan Church",
+        "José Fermín",
+        "Nolan Gorman",
+        "Bryan Torres",
+        "Jimmy Crooks"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
@@ -44762,7 +44778,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 70.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Church",
@@ -44772,17 +44788,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 54.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Blaze Jordan",
-            "juegos": 4,
-            "avg": 0.308,
-            "prob_2j_3j": 100.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 56.8,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "JJ Wetherholt",
@@ -44792,17 +44798,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 58.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Pedro Pagés",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 30.0,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 50.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44811,7 +44807,7 @@
             "prob": 60,
             "prob_2j_3j": 60.0,
             "pct_hit": 61.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -44908,9 +44904,19 @@
       "home": "Athletics",
       "game_id": 824963,
       "fecha": "2026-08-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Luke Keaschall",
+        "Brooks Lee",
+        "Josh Bell",
+        "Ryan Jeffers",
+        "Kody Clemens",
+        "Royce Lewis",
+        "Trevor Larnach",
+        "Kaelen Culpepper",
+        "Alan Roden"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44921,7 +44927,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kaelen Culpepper",
@@ -44931,7 +44937,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 76.9,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44940,7 +44946,7 @@
             "prob": 62,
             "prob_2j_3j": 66.7,
             "pct_hit": 63.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44949,14 +44955,14 @@
             "prob": 60,
             "prob_1j_2j": 59.0,
             "pct_hit": 61.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alan Roden",
             "prob": 28,
             "prob_1j_2j": 0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45110,5 +45116,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 13:30"
+  "alineaciones_actualizadas": "26/08/26 14:00"
 }
