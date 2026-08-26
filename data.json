@@ -42320,7 +42320,17 @@
       "game_id": 823180,
       "fecha": "2026-08-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jonah Cox",
+        "Rafael Devers",
+        "Jung Hoo Lee",
+        "Buddy Kennedy",
+        "Osleivis Basabe",
+        "Turner Hill",
+        "Andrew Knizner",
+        "Shay Whitcomb",
+        "Christian Koss"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -42367,64 +42377,24 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Bryce Eldridge",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 76.9,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 66.2,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Jung Hoo Lee",
             "prob": 67,
             "prob_2j_3j": 73.9,
             "pct_hit": 64.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Devers",
             "prob": 66,
             "prob_2j_3j": 70.8,
             "pct_hit": 60.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drew Gilbert",
-            "prob": 63,
-            "prob_2j_3j": 77.8,
-            "pct_hit": 46.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Willy Adames",
-            "prob": 57,
-            "prob_2j_3j": 55.0,
-            "pct_hit": 59.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drew Cavanaugh",
-            "prob": 22,
-            "prob_2j_3j": 0,
-            "pct_hit": 35.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Victor Bericoto",
-            "prob": 56,
-            "prob_1j_2j": 66.7,
-            "pct_hit": 46.2,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Nick Lodolo",
@@ -45123,5 +45093,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 10:00"
+  "alineaciones_actualizadas": "26/08/26 10:30"
 }
