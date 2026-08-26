@@ -42248,13 +42248,21 @@
       },
       "home_pitcher": {
         "nombre": "Eduardo Rodriguez",
-        "avg_contra": ".203",
-        "era": "2.02",
-        "whip": "1.05",
-        "k9": "9.78",
-        "h9": "6.83",
-        "ip_temporada": "58.0",
+        "avg_contra": ".208",
+        "era": "1.99",
+        "whip": "1.07",
+        "k9": "9.97",
+        "h9": "7.06",
+        "ip_temporada": "58.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-26",
+            "ip": "1.0",
+            "k": 2,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-24",
             "ip": "0.2",
@@ -42275,14 +42283,6 @@
             "fecha": "2026-08-18",
             "ip": "0.1",
             "k": 1,
-            "h": 1,
-            "er": 0,
-            "bb": 0
-          },
-          {
-            "fecha": "2026-08-14",
-            "ip": "1.0",
-            "k": 2,
             "h": 1,
             "er": 0,
             "bb": 0
@@ -42307,9 +42307,9 @@
         "Ke'Bryan Hayes"
       ],
       "home_lineup": [
-        "Jonah Cox",
+        "Drew Gilbert",
         "Rafael Devers",
-        "Osleivis Basabe",
+        "Nate Furman",
         "Buddy Kennedy",
         "Turner Hill",
         "Andrew Knizner",
@@ -42370,6 +42370,13 @@
             "prob": 66,
             "prob_2j_3j": 70.8,
             "pct_hit": 60.3,
+            "confirmado": true
+          },
+          {
+            "jugador": "Drew Gilbert",
+            "prob": 63,
+            "prob_2j_3j": 77.8,
+            "pct_hit": 46.2,
             "confirmado": true
           }
         ],
@@ -42722,7 +42729,7 @@
         "Nick Gonzales",
         "Jake Mangum",
         "Rafael Flores Jr.",
-        "Jacob Gonzalez"
+        "Jared Triolo"
       ],
       "home_lineup": [
         "Fernando Tatis Jr.",
@@ -42730,7 +42737,7 @@
         "Manny Machado",
         "Ty France",
         "Jackson Merrill",
-        "Luis Rengifo",
+        "Jase Bowen",
         "Gavin Sheets",
         "Xander Bogaerts",
         "Freddy Fermin"
@@ -42762,6 +42769,13 @@
             "prob": 63,
             "prob_2j_3j": 64.0,
             "pct_hit": 65.2,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jared Triolo",
+            "prob": 29,
+            "prob_2j_3j": 23.1,
+            "pct_hit": 49.4,
             "confirmado": true
           }
         ],
@@ -43015,20 +43029,20 @@
       },
       "away_pitcher": {
         "nombre": "Jesús Luzardo",
-        "avg_contra": ".221",
-        "era": "3.11",
+        "avg_contra": ".220",
+        "era": "3.09",
         "whip": "1.12",
-        "k9": "11.17",
-        "h9": "7.39",
-        "ip_temporada": "162.0",
+        "k9": "11.21",
+        "h9": "7.34",
+        "ip_temporada": "163.0",
         "ultimas4": [
           {
             "fecha": "2026-08-26",
-            "ip": "6.0",
-            "k": 7,
+            "ip": "7.0",
+            "k": 9,
             "h": 1,
             "er": 0,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-21",
@@ -45110,5 +45124,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 16:00"
+  "alineaciones_actualizadas": "26/08/26 16:30"
 }
