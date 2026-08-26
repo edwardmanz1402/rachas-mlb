@@ -42248,16 +42248,16 @@
       },
       "home_pitcher": {
         "nombre": "Eduardo Rodriguez",
-        "avg_contra": ".208",
-        "era": "1.99",
-        "whip": "1.07",
-        "k9": "9.97",
-        "h9": "7.06",
-        "ip_temporada": "58.2",
+        "avg_contra": ".205",
+        "era": "1.96",
+        "whip": "1.06",
+        "k9": "9.80",
+        "h9": "6.94",
+        "ip_temporada": "59.2",
         "ultimas4": [
           {
             "fecha": "2026-08-26",
-            "ip": "1.0",
+            "ip": "2.0",
             "k": 2,
             "h": 2,
             "er": 0,
@@ -42296,7 +42296,7 @@
       "game_id": 823180,
       "fecha": "2026-08-26",
       "away_lineup": [
-        "Héctor Rodríguez",
+        "Ivan Johnson",
         "Elly De La Cruz",
         "Sal Stewart",
         "JJ Bleday",
@@ -42304,7 +42304,7 @@
         "Dane Myers",
         "Matt McLain",
         "Jose Trevino",
-        "Ke'Bryan Hayes"
+        "Tyler Stephenson"
       ],
       "home_lineup": [
         "Drew Gilbert",
@@ -42312,7 +42312,7 @@
         "Nate Furman",
         "Buddy Kennedy",
         "Turner Hill",
-        "Andrew Knizner",
+        "Drew Cavanaugh",
         "Christian Koss",
         "Grant McCray",
         "Shay Whitcomb"
@@ -42338,16 +42338,6 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 67.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
-          {
-            "jugador": "Héctor Rodríguez",
-            "juegos": 4,
-            "avg": 0.385,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 46.7,
-            "tipo": "🎲 POSIBLE SUERTE",
             "confirmado": true
           }
         ],
@@ -42377,6 +42367,13 @@
             "prob": 63,
             "prob_2j_3j": 77.8,
             "pct_hit": 46.2,
+            "confirmado": true
+          },
+          {
+            "jugador": "Drew Cavanaugh",
+            "prob": 22,
+            "prob_2j_3j": 0,
+            "pct_hit": 35.7,
             "confirmado": true
           }
         ],
@@ -42478,11 +42475,11 @@
         "Steven Kwan",
         "Travis Bazzana",
         "José Ramírez",
-        "Jo Adell",
+        "Patrick Bailey",
         "Nathaniel Lowe",
         "Angel Martínez",
         "Angel Genao",
-        "Austin Hedges",
+        "Petey Halpin",
         "Brayan Rocchio"
       ],
       "home_lineup": [
@@ -42493,8 +42490,8 @@
         "Jose Siri",
         "Josh Lowe",
         "Denzer Guzman",
-        "Tyler Heineman",
-        "Bryce Teodosio"
+        "Travis d'Arnaud",
+        "Oswald Peraza"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -42528,19 +42525,17 @@
             "pct_hit": 56.8,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
-          },
+          }
+        ],
+        "candidatos_2j": [
           {
-            "jugador": "Austin Hedges",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 81.8,
-            "prob_3j_4j": 83.3,
-            "pct_hit": 56.6,
-            "tipo": "✅ CONSISTENTE",
+            "jugador": "Petey Halpin",
+            "prob": 25,
+            "prob_2j_3j": 0,
+            "pct_hit": 42.2,
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Brayan Rocchio",
@@ -42919,7 +42914,7 @@
       "away_lineup": [
         "Kyle Schwarber",
         "Trea Turner",
-        "Bryce Harper",
+        "Derek Hill",
         "Luis Arraez",
         "Alec Bohm",
         "Bryson Stott",
@@ -42941,16 +42936,6 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Bryce Harper",
-            "juegos": 4,
-            "avg": 0.5,
-            "prob_2j_3j": 57.1,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 58.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
           {
             "jugador": "J.T. Realmuto",
             "juegos": 4,
@@ -43261,13 +43246,21 @@
       },
       "away_pitcher": {
         "nombre": "Sonny Gray",
-        "avg_contra": ".241",
-        "era": "2.79",
-        "whip": "1.16",
-        "k9": "7.98",
-        "h9": "8.11",
-        "ip_temporada": "138.2",
+        "avg_contra": ".242",
+        "era": "2.77",
+        "whip": "1.17",
+        "k9": "7.93",
+        "h9": "8.18",
+        "ip_temporada": "139.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-26",
+            "ip": "1.0",
+            "k": 0,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-21",
             "ip": "6.0",
@@ -43291,26 +43284,26 @@
             "h": 6,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "6.0",
-            "k": 8,
-            "h": 3,
-            "er": 0,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Ryan Gusto",
-        "avg_contra": ".262",
-        "era": "4.37",
+        "avg_contra": ".257",
+        "era": "4.27",
         "whip": "1.34",
-        "k9": "7.96",
-        "h9": "9.68",
-        "ip_temporada": "57.2",
+        "k9": "7.78",
+        "h9": "9.46",
+        "ip_temporada": "59.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-26",
+            "ip": "1.2",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-21",
             "ip": "4.0",
@@ -43334,14 +43327,6 @@
             "h": 3,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-04",
-            "ip": "6.0",
-            "k": 5,
-            "h": 5,
-            "er": 1,
-            "bb": 0
           }
         ]
       }
@@ -43475,6 +43460,14 @@
         "ip_temporada": "76.2",
         "ultimas4": [
           {
+            "fecha": "2026-08-26",
+            "ip": "1.0",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-08-21",
             "ip": "5.1",
             "k": 2,
@@ -43497,26 +43490,26 @@
             "h": 4,
             "er": 2,
             "bb": 0
-          },
-          {
-            "fecha": "2026-08-03",
-            "ip": "6.0",
-            "k": 3,
-            "h": 8,
-            "er": 4,
-            "bb": 0
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Matt Waldron",
-        "avg_contra": ".327",
-        "era": "7.54",
-        "whip": "1.62",
-        "k9": "7.54",
-        "h9": "12.16",
-        "ip_temporada": "37.0",
+        "avg_contra": ".325",
+        "era": "7.34",
+        "whip": "1.63",
+        "k9": "7.34",
+        "h9": "12.08",
+        "ip_temporada": "38.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-26",
+            "ip": "1.0",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-18",
             "ip": "2.0",
@@ -43540,14 +43533,6 @@
             "h": 0,
             "er": 0,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-07",
-            "ip": "1.0",
-            "k": 1,
-            "h": 0,
-            "er": 0,
-            "bb": 0
           }
         ]
       }
@@ -45124,5 +45109,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/08/26 16:30"
+  "alineaciones_actualizadas": "26/08/26 17:00"
 }
