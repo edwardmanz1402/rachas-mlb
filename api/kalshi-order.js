@@ -69,6 +69,11 @@ export default async function handler(req, res) {
       time_in_force: "good_till_canceled",
       self_trade_prevention_type: "taker_at_cross",
       client_order_id: crypto.randomUUID(),
+      post_only: false,
+      cancel_order_on_pause: false,
+      reduce_only: false,
+      subaccount: 0,
+      exchange_index: 0,
     };
 
     if (dry_run) {
