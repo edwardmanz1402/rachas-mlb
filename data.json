@@ -38772,9 +38772,29 @@
       "home": "New York Yankees",
       "game_id": 823503,
       "fecha": "2026-08-27",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Yainer Diaz",
+        "Taylor Trammell",
+        "Cam Smith"
+      ],
+      "home_lineup": [
+        "Trent Grisham",
+        "Ben Rice",
+        "Luis García Jr.",
+        "Cody Bellinger",
+        "George Lombard Jr.",
+        "Spencer Jones",
+        "Jazz Chisholm Jr.",
+        "Austin Wells",
+        "José Caballero"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38785,7 +38805,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 58.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Altuve",
@@ -38795,7 +38815,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yordan Alvarez",
@@ -38805,7 +38825,7 @@
             "prob_3j_4j": 58.8,
             "pct_hit": 67.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -38815,7 +38835,7 @@
             "prob": 67,
             "prob_1j_2j": 73.3,
             "pct_hit": 65.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38829,7 +38849,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Jones",
@@ -38839,7 +38859,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 40.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ben Rice",
@@ -38849,7 +38869,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 61.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cody Bellinger",
@@ -38859,7 +38879,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 66.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38868,14 +38888,14 @@
             "prob": 60,
             "prob_2j_3j": 60.0,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Caballero",
             "prob": 44,
             "prob_2j_3j": 46.2,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38884,14 +38904,14 @@
             "prob": 42,
             "prob_1j_2j": 41.0,
             "pct_hit": 49.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Wells",
             "prob": 25,
             "prob_1j_2j": 21.7,
             "pct_hit": 36.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39840,5 +39860,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 14:00"
+  "alineaciones_actualizadas": "27/08/26 14:30"
 }
