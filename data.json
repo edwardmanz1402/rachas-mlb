@@ -38531,7 +38531,17 @@
       "home": "St. Louis Cardinals",
       "game_id": 823014,
       "fecha": "2026-08-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Holliday",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Samuel Basallo",
+        "Christian Encarnacion-Strand",
+        "Dylan Beavers",
+        "Coby Mayo",
+        "Colton Cowser",
+        "Leody Taveras"
+      ],
       "home_lineup": [
         "José Fermín",
         "Iván Herrera",
@@ -38543,7 +38553,7 @@
         "Nathan Church",
         "Pedro Pagés"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38554,7 +38564,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 41.7,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -38563,28 +38573,28 @@
             "prob": 55,
             "prob_2j_3j": 56.0,
             "pct_hit": 66.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Beavers",
             "prob": 44,
             "prob_2j_3j": 50.0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Leody Taveras",
             "prob": 43,
             "prob_2j_3j": 40.0,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Encarnacion-Strand",
             "prob": 29,
             "prob_2j_3j": 0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -38593,21 +38603,21 @@
             "prob": 56,
             "prob_1j_2j": 58.3,
             "pct_hit": 56.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gunnar Henderson",
             "prob": 52,
             "prob_1j_2j": 50.0,
             "pct_hit": 55.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Coby Mayo",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 48.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39837,5 +39847,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 09:30"
+  "alineaciones_actualizadas": "27/08/26 10:00"
 }
