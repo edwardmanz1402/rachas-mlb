@@ -39678,7 +39678,17 @@
       "home": "San Francisco Giants",
       "game_id": 823179,
       "fecha": "2026-08-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Max Kepler",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "Ildemaro Vargas",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [
         "Drew Gilbert",
         "Rafael Devers",
@@ -39690,7 +39700,7 @@
         "Christian Koss",
         "Nate Furman"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39701,7 +39711,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 56.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -39711,28 +39721,14 @@
             "prob": 67,
             "prob_1j_2j": 70.5,
             "pct_hit": 68.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Lawlar",
-            "prob": 60,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Arenado",
             "prob": 58,
             "prob_1j_2j": 57.9,
             "pct_hit": 57.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "prob": 56,
-            "prob_1j_2j": 63.6,
-            "pct_hit": 54.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39872,5 +39868,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 16:00"
+  "alineaciones_actualizadas": "27/08/26 16:30"
 }
