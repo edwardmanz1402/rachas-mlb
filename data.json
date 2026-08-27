@@ -39679,7 +39679,17 @@
       "game_id": 823179,
       "fecha": "2026-08-27",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Drew Gilbert",
+        "Rafael Devers",
+        "Bryce Eldridge",
+        "Jonah Cox",
+        "Turner Hill",
+        "Shay Whitcomb",
+        "Drew Cavanaugh",
+        "Christian Koss",
+        "Nate Furman"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -39736,7 +39746,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 46.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Devers",
@@ -39746,46 +39756,31 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 60.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Jung Hoo Lee",
-            "prob": 67,
-            "prob_2j_3j": 73.9,
-            "pct_hit": 64.5,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Christian Koss",
             "prob": 30,
             "prob_1j_2j": 0,
             "pct_hit": 45.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Osleivis Basabe",
-            "prob": 30,
-            "prob_1j_2j": 0,
-            "pct_hit": 44.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonah Cox",
             "prob": 21,
             "prob_1j_2j": 20.0,
             "pct_hit": 31.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Shay Whitcomb",
             "prob": 13,
             "prob_1j_2j": 0,
             "pct_hit": 18.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39877,5 +39872,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 15:30"
+  "alineaciones_actualizadas": "27/08/26 16:00"
 }
