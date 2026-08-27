@@ -38682,20 +38682,20 @@
       },
       "away_pitcher": {
         "nombre": "Trevor Rogers",
-        "avg_contra": ".252",
-        "era": "4.35",
-        "whip": "1.24",
-        "k9": "7.90",
-        "h9": "8.76",
-        "ip_temporada": "136.2",
+        "avg_contra": ".253",
+        "era": "4.38",
+        "whip": "1.25",
+        "k9": "7.91",
+        "h9": "8.83",
+        "ip_temporada": "137.2",
         "ultimas4": [
           {
             "fecha": "2026-08-27",
-            "ip": "4.0",
-            "k": 6,
-            "h": 5,
-            "er": 5,
-            "bb": 0
+            "ip": "5.0",
+            "k": 7,
+            "h": 7,
+            "er": 6,
+            "bb": 1
           },
           {
             "fecha": "2026-08-21",
@@ -39173,7 +39173,17 @@
       "home": "New York Mets",
       "game_id": 823581,
       "fecha": "2026-08-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Chourio",
+        "Luis Lara",
+        "William Contreras",
+        "Andrew Vaughn",
+        "Gary Sánchez",
+        "Joey Ortiz",
+        "Sal Frelick",
+        "Cooper Pratt",
+        "David Hamilton"
+      ],
       "home_lineup": [
         "A.J. Ewing",
         "Francisco Lindor",
@@ -39185,7 +39195,7 @@
         "Christopher Morel",
         "Francisco Alvarez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -39196,7 +39206,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 55.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Lara",
@@ -39206,17 +39216,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 53.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Yelich",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 58.3,
-            "prob_3j_4j": 42.9,
-            "pct_hit": 56.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -39225,44 +39225,30 @@
             "prob": 64,
             "prob_2j_3j": 80.0,
             "pct_hit": 51.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Garrett Mitchell",
-            "prob": 57,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 53.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Brice Turang",
-            "prob": 68,
-            "prob_1j_2j": 70.5,
-            "pct_hit": 66.1,
-            "confirmado": false
-          },
           {
             "jugador": "Sal Frelick",
             "prob": 56,
             "prob_1j_2j": 56.0,
             "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joey Ortiz",
             "prob": 42,
             "prob_1j_2j": 42.9,
             "pct_hit": 49.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "David Hamilton",
             "prob": 37,
             "prob_1j_2j": 37.5,
             "pct_hit": 46.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39854,5 +39840,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 13:30"
+  "alineaciones_actualizadas": "27/08/26 14:00"
 }
