@@ -38337,9 +38337,19 @@
       "home": "Washington Nationals",
       "game_id": 822694,
       "fecha": "2026-08-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Cole Carrigg",
+        "Willi Castro",
+        "TJ Rumfield",
+        "Connor Norby",
+        "Troy Johnston",
+        "Brett Sullivan",
+        "Zac Veen",
+        "Ezequiel Tovar"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -38350,7 +38360,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 56.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake McCarthy",
@@ -38360,7 +38370,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 71.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ezequiel Tovar",
@@ -38370,46 +38380,31 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 50.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Hunter Goodman",
-            "prob": 48,
-            "prob_2j_3j": 43.5,
-            "pct_hit": 59.4,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "TJ Rumfield",
             "prob": 72,
             "prob_1j_2j": 72.3,
             "pct_hit": 64.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Troy Johnston",
             "prob": 65,
             "prob_1j_2j": 64.3,
             "pct_hit": 63.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Carrigg",
             "prob": 59,
             "prob_1j_2j": 66.7,
             "pct_hit": 58.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Beck",
-            "prob": 41,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 43.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -39818,5 +39813,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 08:00"
+  "alineaciones_actualizadas": "27/08/26 08:30"
 }
