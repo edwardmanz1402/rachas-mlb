@@ -38532,7 +38532,17 @@
       "game_id": 823014,
       "fecha": "2026-08-27",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "José Fermín",
+        "Iván Herrera",
+        "Jordan Walker",
+        "Alec Burleson",
+        "Joshua Báez",
+        "Blaze Jordan",
+        "Ramón Urías",
+        "Nathan Church",
+        "Pedro Pagés"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -38611,7 +38621,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 71.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Church",
@@ -38621,17 +38631,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 54.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "JJ Wetherholt",
-            "juegos": 4,
-            "avg": 0.4,
-            "prob_2j_3j": 54.5,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 58.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
@@ -38641,7 +38641,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 62.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -38651,21 +38651,7 @@
             "prob": 71,
             "prob_1j_2j": 73.1,
             "pct_hit": 72.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nolan Gorman",
-            "prob": 50,
-            "prob_1j_2j": 53.1,
-            "pct_hit": 51.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Bryan Torres",
-            "prob": 36,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 41.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -38712,7 +38698,49 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Gordon Graceffo",
+        "avg_contra": ".190",
+        "era": "3.13",
+        "whip": "1.12",
+        "k9": "5.40",
+        "h9": "5.83",
+        "ip_temporada": "63.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-21",
+            "ip": "0.2",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-18",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-08-17",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-16",
+            "ip": "1.0",
+            "k": 0,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          }
+        ]
+      }
     },
     {
       "away": "Houston Astros",
@@ -39809,5 +39837,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 09:00"
+  "alineaciones_actualizadas": "27/08/26 09:30"
 }
