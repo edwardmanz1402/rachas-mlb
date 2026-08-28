@@ -39455,13 +39455,21 @@
       },
       "away_pitcher": {
         "nombre": "Tarik Skubal",
-        "avg_contra": ".212",
-        "era": "2.91",
-        "whip": "0.95",
-        "k9": "10.89",
-        "h9": "7.01",
-        "ip_temporada": "120.2",
+        "avg_contra": ".213",
+        "era": "2.89",
+        "whip": "0.96",
+        "k9": "10.98",
+        "h9": "7.05",
+        "ip_temporada": "121.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-22",
             "ip": "7.0",
@@ -39485,26 +39493,26 @@
             "h": 4,
             "er": 3,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-04",
-            "ip": "6.0",
-            "k": 6,
-            "h": 4,
-            "er": 2,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Drew Anderson",
-        "avg_contra": ".241",
-        "era": "4.09",
-        "whip": "1.29",
-        "k9": "10.07",
-        "h9": "8.30",
-        "ip_temporada": "81.1",
+        "avg_contra": ".239",
+        "era": "4.04",
+        "whip": "1.30",
+        "k9": "10.17",
+        "h9": "8.20",
+        "ip_temporada": "82.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-22",
             "ip": "5.0",
@@ -39528,14 +39536,6 @@
             "h": 4,
             "er": 1,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "3.2",
-            "k": 0,
-            "h": 3,
-            "er": 0,
-            "bb": 1
           }
         ]
       }
@@ -39674,6 +39674,14 @@
         "ip_temporada": "127.2",
         "ultimas4": [
           {
+            "fecha": "2026-08-28",
+            "ip": "0.1",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-08-22",
             "ip": "5.0",
             "k": 4,
@@ -39696,26 +39704,26 @@
             "h": 3,
             "er": 0,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "5.0",
-            "k": 9,
-            "h": 7,
-            "er": 4,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Jackson Kent",
-        "avg_contra": ".300",
-        "era": "8.03",
-        "whip": "2.11",
-        "k9": "10.22",
-        "h9": "10.95",
-        "ip_temporada": "12.1",
+        "avg_contra": ".283",
+        "era": "7.43",
+        "whip": "1.95",
+        "k9": "9.45",
+        "h9": "10.13",
+        "ip_temporada": "13.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-23",
             "ip": "4.2",
@@ -41623,7 +41631,17 @@
       "home": "Athletics",
       "game_id": 824960,
       "fecha": "2026-08-28",
-      "away_lineup": [],
+      "away_lineup": [
+        "Blaze Alexander",
+        "Pete Alonso",
+        "Jackson Holliday",
+        "Coby Mayo",
+        "Christian Encarnacion-Strand",
+        "Leody Taveras",
+        "Christian Franklin",
+        "Dylan Beavers",
+        "Carlos Narváez"
+      ],
       "home_lineup": [
         "Henry Bolte",
         "Jeff McNeil",
@@ -41635,19 +41653,9 @@
         "Jonah Heim",
         "Alika Williams"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Colton Cowser",
-            "juegos": 4,
-            "avg": 0.538,
-            "prob_2j_3j": 54.5,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 42.3,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Christian Encarnacion-Strand",
             "juegos": 3,
@@ -41656,23 +41664,16 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Gunnar Henderson",
-            "prob": 61,
-            "prob_2j_3j": 64.7,
-            "pct_hit": 55.1,
-            "confirmado": false
-          },
           {
             "jugador": "Coby Mayo",
             "prob": 55,
             "prob_2j_3j": 63.6,
             "pct_hit": 48.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41681,7 +41682,7 @@
             "prob": 40,
             "prob_1j_2j": 42.1,
             "pct_hit": 41.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41793,7 +41794,17 @@
       "home": "San Francisco Giants",
       "game_id": 823178,
       "fecha": "2026-08-28",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Tim Tawa",
+        "Jose Fernandez",
+        "James McCann",
+        "Ildemaro Vargas",
+        "Jordan Lawlar"
+      ],
       "home_lineup": [
         "Jonah Cox",
         "Rafael Devers",
@@ -41805,7 +41816,7 @@
         "Christian Koss",
         "Osleivis Basabe"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -41816,7 +41827,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41825,7 +41836,7 @@
             "prob": 66,
             "prob_2j_3j": 72.2,
             "pct_hit": 68.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41834,42 +41845,28 @@
             "prob": 60,
             "prob_1j_2j": 71.4,
             "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nolan Arenado",
-            "prob": 58,
-            "prob_1j_2j": 57.9,
-            "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "James McCann",
             "prob": 56,
             "prob_1j_2j": 63.6,
             "pct_hit": 54.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Fernandez",
             "prob": 55,
             "prob_1j_2j": 59.3,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lars Nootbaar",
             "prob": 49,
             "prob_1j_2j": 52.6,
             "pct_hit": 50.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Max Kepler",
-            "prob": 43,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 43.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42010,5 +42007,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/08/26 16:30"
+  "alineaciones_actualizadas": "28/08/26 17:00"
 }
