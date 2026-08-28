@@ -1,13 +1,13 @@
 {
-  "actualizado": "28/08/26 15:00:02",
+  "actualizado": "28/08/26 15:15:02",
   "juegos_en_vivo": [
     {
       "away": "Cincinnati Reds",
       "home": "Chicago Cubs",
       "entrada": 8,
-      "estado_entrada": "Bottom",
-      "equipo_al_bate": "Chicago Cubs",
-      "bateador_actual": "Pedro Ramírez",
+      "estado_entrada": "End",
+      "equipo_al_bate": "Cincinnati Reds",
+      "bateador_actual": "Matt McLain",
       "candidatos": [
         {
           "jugador": "Elly De La Cruz",
@@ -19,27 +19,11 @@
           "h": 3,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 0,
           "outs_equipo_hechos": 25,
           "outs_equipo_restantes": 2,
           "pa_equipo_hasta_ahora": 42
-        },
-        {
-          "jugador": "Michael Conforto",
-          "equipo": "Chicago Cubs",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 8,
-          "ab": 3,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 33
         }
       ]
     }
