@@ -39235,7 +39235,17 @@
       "game_id": 824638,
       "fecha": "2026-08-28",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Michael Conforto",
+        "Carson Kelly"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -39266,16 +39276,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Tyrone Taylor",
-            "juegos": 5,
-            "avg": 0.538,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.6,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Michael Conforto",
             "juegos": 3,
             "avg": 0.556,
@@ -39283,7 +39283,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 38.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -41856,5 +41856,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/08/26 09:00"
+  "alineaciones_actualizadas": "28/08/26 09:30"
 }
