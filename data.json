@@ -38783,7 +38783,7 @@
         "Jeremy Peña",
         "Yordan Alvarez",
         "Isaac Paredes",
-        "Jose Altuve",
+        "Nick Allen",
         "Daulton Varsho",
         "Christian Walker",
         "Yainer Diaz",
@@ -38811,16 +38811,6 @@
             "prob_2j_3j": 47.4,
             "prob_3j_4j": 62.5,
             "pct_hit": 58.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Jose Altuve",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 58.8,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
           },
@@ -38925,7 +38915,7 @@
       "away_pitcher": {
         "nombre": "Hayden Wesneski",
         "avg_contra": ".229",
-        "era": "3.58",
+        "era": "3.86",
         "whip": "1.19",
         "k9": "7.71",
         "h9": "7.44",
@@ -38936,7 +38926,7 @@
             "ip": "5.0",
             "k": 6,
             "h": 3,
-            "er": 0,
+            "er": 1,
             "bb": 2
           },
           {
@@ -39027,7 +39017,7 @@
       ],
       "home_lineup": [
         "Charles McAdoo",
-        "Vladimir Guerrero Jr.",
+        "Brandon Valenzuela",
         "Alejandro Kirk",
         "George Springer",
         "Kazuma Okamoto",
@@ -39082,15 +39072,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Vladimir Guerrero Jr.",
-            "prob": 65,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 62.2,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "George Springer",
@@ -39110,19 +39092,19 @@
       },
       "away_pitcher": {
         "nombre": "Noah Cameron",
-        "avg_contra": ".233",
-        "era": "3.88",
-        "whip": "1.20",
-        "k9": "7.95",
-        "h9": "7.89",
-        "ip_temporada": "148.1",
+        "avg_contra": ".237",
+        "era": "3.98",
+        "whip": "1.22",
+        "k9": "7.90",
+        "h9": "8.08",
+        "ip_temporada": "149.1",
         "ultimas4": [
           {
             "fecha": "2026-08-27",
-            "ip": "5.2",
+            "ip": "6.0",
             "k": 3,
-            "h": 2,
-            "er": 0,
+            "h": 6,
+            "er": 2,
             "bb": 2
           },
           {
@@ -39441,7 +39423,7 @@
         "Shohei Ohtani",
         "Tommy Edman",
         "Mookie Betts",
-        "Freddie Freeman",
+        "Alek Thomas",
         "Teoscar Hernández",
         "Miguel Rojas",
         "Alex Call",
@@ -39490,13 +39472,6 @@
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Freddie Freeman",
-            "prob": 71,
-            "prob_1j_2j": 71.6,
-            "pct_hit": 68.6,
-            "confirmado": true
-          },
           {
             "jugador": "Teoscar Hernández",
             "prob": 58,
@@ -39601,7 +39576,7 @@
             "k": 8,
             "h": 4,
             "er": 1,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-21",
@@ -39631,18 +39606,18 @@
       },
       "home_pitcher": {
         "nombre": "Chris Sale",
-        "avg_contra": ".219",
-        "era": "2.09",
-        "whip": "1.01",
-        "k9": "11.09",
-        "h9": "7.29",
-        "ip_temporada": "142.0",
+        "avg_contra": ".218",
+        "era": "2.07",
+        "whip": "1.00",
+        "k9": "11.05",
+        "h9": "7.28",
+        "ip_temporada": "143.1",
         "ultimas4": [
           {
             "fecha": "2026-08-27",
-            "ip": "7.0",
-            "k": 9,
-            "h": 4,
+            "ip": "8.2",
+            "k": 10,
+            "h": 5,
             "er": 0,
             "bb": 0
           },
@@ -39684,8 +39659,8 @@
         "Gabriel Moreno",
         "Geraldo Perdomo",
         "Max Kepler",
-        "Nolan Arenado",
         "Tim Tawa",
+        "Jose Fernandez",
         "Ildemaro Vargas",
         "Ryan Waldschmidt"
       ],
@@ -39721,13 +39696,6 @@
             "prob": 67,
             "prob_1j_2j": 70.5,
             "pct_hit": 68.0,
-            "confirmado": true
-          },
-          {
-            "jugador": "Nolan Arenado",
-            "prob": 58,
-            "prob_1j_2j": 57.9,
-            "pct_hit": 57.9,
             "confirmado": true
           }
         ]
@@ -39868,5 +39836,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/08/26 19:00"
+  "alineaciones_actualizadas": "27/08/26 19:30"
 }
