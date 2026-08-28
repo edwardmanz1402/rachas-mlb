@@ -15,7 +15,7 @@
 
 import crypto from "crypto";
 
-const BASE_URL = "https://api.elections.kalshi.com"; // confirmado como host correcto y actualizado para crear órdenes (docs oficiales de Kalshi)
+const BASE_URL = "https://external-api.kalshi.com"; // confirmado como host correcto y actualizado para crear órdenes (docs oficiales de Kalshi)
 
 function firmarPeticion(privateKeyPem, metodo, ruta) {
   const timestamp = Date.now().toString();
