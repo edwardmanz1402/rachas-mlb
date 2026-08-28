@@ -47,7 +47,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { ticker, lado, cantidad, precio_centavos, dry_run } = req.body || {};
+    const { ticker, lado, cantidad, precio_centavos, dry_run, exchange_index } = req.body || {};
 
     if (!ticker || !lado || !cantidad || precio_centavos === undefined) {
       return res.status(400).json({
@@ -73,7 +73,7 @@ export default async function handler(req, res) {
       cancel_order_on_pause: false,
       reduce_only: false,
       subaccount: 0,
-      exchange_index: 0,
+      exchange_index: exchange_index !== undefined ? exchange_index : 0,
     };
 
     if (dry_run) {
