@@ -39754,7 +39754,7 @@
         "Jo Adell",
         "Nathaniel Lowe",
         "Travis Bazzana",
-        "Patrick Bailey",
+        "Angel Genao",
         "Petey Halpin",
         "Brayan Rocchio"
       ],
@@ -39961,7 +39961,7 @@
         "Jeremy Peña",
         "Yordan Alvarez",
         "Isaac Paredes",
-        "Jose Altuve",
+        "Nick Allen",
         "Daulton Varsho",
         "Christian Walker",
         "Yainer Diaz",
@@ -40011,6 +40011,13 @@
             "prob": 61,
             "prob_1j_2j": 62.1,
             "pct_hit": 57.9,
+            "confirmado": true
+          },
+          {
+            "jugador": "Nick Allen",
+            "prob": 31,
+            "prob_1j_2j": 31.2,
+            "pct_hit": 41.9,
             "confirmado": true
           }
         ]
@@ -40140,9 +40147,9 @@
       "game_id": 822935,
       "fecha": "2026-08-28",
       "away_lineup": [
-        "Fernando Tatis Jr.",
+        "Jase Bowen",
         "Luis Rengifo",
-        "Manny Machado",
+        "Dustin Harris",
         "Ty France",
         "Jackson Merrill",
         "Xander Bogaerts",
@@ -40499,7 +40506,7 @@
         "Mickey Moniak",
         "Connor Norby",
         "Zac Veen",
-        "Ezequiel Tovar"
+        "Troy Johnston"
       ],
       "home_lineup": [
         "Drake Baldwin",
@@ -40532,6 +40539,13 @@
             "prob": 70,
             "prob_2j_3j": 67.9,
             "pct_hit": 64.9,
+            "confirmado": true
+          },
+          {
+            "jugador": "Troy Johnston",
+            "prob": 65,
+            "prob_2j_3j": 63.6,
+            "pct_hit": 63.3,
             "confirmado": true
           }
         ],
@@ -40694,7 +40708,7 @@
         "Paul Goldschmidt",
         "Ben Rice",
         "Cody Bellinger",
-        "Heliot Ramos",
+        "Spencer Jones",
         "Trent Grisham",
         "George Lombard Jr.",
         "Jazz Chisholm Jr.",
@@ -40860,7 +40874,7 @@
         "Wyatt Langford",
         "Brandon Nimmo",
         "Ezequiel Duran",
-        "Evan Carter",
+        "Justin Foscue",
         "Jake Burger",
         "Cody Freeman",
         "Danny Jansen"
@@ -40872,7 +40886,7 @@
         "William Contreras",
         "Christian Yelich",
         "Joey Ortiz",
-        "Garrett Mitchell",
+        "Luis Lara",
         "Sal Frelick",
         "David Hamilton"
       ],
@@ -40916,6 +40930,16 @@
       "home_data": {
         "racha": [
           {
+            "jugador": "Luis Lara",
+            "juegos": 6,
+            "avg": 0.429,
+            "prob_2j_3j": 50.0,
+            "prob_3j_4j": 100.0,
+            "pct_hit": 55.6,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
             "jugador": "Christian Yelich",
             "juegos": 3,
             "avg": 0.5,
@@ -40927,13 +40951,6 @@
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Garrett Mitchell",
-            "prob": 57,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 53.6,
-            "confirmado": true
-          },
           {
             "jugador": "Joey Ortiz",
             "prob": 30,
@@ -41011,12 +41028,12 @@
       },
       "home_pitcher": {
         "nombre": "Logan Henderson",
-        "avg_contra": ".183",
-        "era": "2.50",
+        "avg_contra": ".181",
+        "era": "2.48",
         "whip": "0.83",
-        "k9": "10.11",
-        "h9": "5.83",
-        "ip_temporada": "75.2",
+        "k9": "10.14",
+        "h9": "5.78",
+        "ip_temporada": "76.1",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
@@ -41146,17 +41163,17 @@
       "away_pitcher": {
         "nombre": "Luis Castillo",
         "avg_contra": ".280",
-        "era": "5.36",
+        "era": "5.31",
         "whip": "1.44",
-        "k9": "7.88",
-        "h9": "10.19",
-        "ip_temporada": "121.0",
+        "k9": "7.82",
+        "h9": "10.18",
+        "ip_temporada": "122.0",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "3.0",
+            "ip": "4.0",
             "k": 1,
-            "h": 7,
+            "h": 8,
             "er": 4,
             "bb": 1
           },
@@ -41190,7 +41207,7 @@
         "nombre": "Dean Kremer",
         "avg_contra": ".243",
         "era": "5.60",
-        "whip": "1.24",
+        "whip": "1.26",
         "k9": "8.76",
         "h9": "8.19",
         "ip_temporada": "62.2",
@@ -41201,7 +41218,7 @@
             "k": 3,
             "h": 7,
             "er": 5,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-22",
@@ -41338,18 +41355,18 @@
       },
       "away_pitcher": {
         "nombre": "Jared Jones",
-        "avg_contra": ".234",
-        "era": "4.92",
+        "avg_contra": ".236",
+        "era": "4.83",
         "whip": "1.28",
-        "k9": "10.22",
-        "h9": "8.07",
-        "ip_temporada": "71.1",
+        "k9": "10.28",
+        "h9": "8.17",
+        "ip_temporada": "72.2",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "4.0",
-            "k": 5,
-            "h": 5,
+            "ip": "4.2",
+            "k": 6,
+            "h": 7,
             "er": 3,
             "bb": 1
           },
@@ -41381,19 +41398,19 @@
       },
       "home_pitcher": {
         "nombre": "Quinn Mathews",
-        "avg_contra": ".286",
-        "era": "5.00",
-        "whip": "1.56",
-        "k9": "8.50",
-        "h9": "10.00",
-        "ip_temporada": "18.0",
+        "avg_contra": ".295",
+        "era": "5.03",
+        "whip": "1.58",
+        "k9": "9.15",
+        "h9": "10.53",
+        "ip_temporada": "19.2",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "4.1",
-            "k": 4,
-            "h": 2,
-            "er": 0,
+            "ip": "5.2",
+            "k": 7,
+            "h": 5,
+            "er": 1,
             "bb": 1
           },
           {
@@ -41515,13 +41532,21 @@
       },
       "away_pitcher": {
         "nombre": "Andrew Painter",
-        "avg_contra": ".282",
-        "era": "6.04",
-        "whip": "1.48",
-        "k9": "7.70",
-        "h9": "10.04",
-        "ip_temporada": "92.1",
+        "avg_contra": ".286",
+        "era": "6.22",
+        "whip": "1.52",
+        "k9": "7.67",
+        "h9": "10.20",
+        "ip_temporada": "92.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 3,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-22",
             "ip": "7.0",
@@ -41545,26 +41570,26 @@
             "h": 2,
             "er": 2,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "4.0",
-            "k": 4,
-            "h": 3,
-            "er": 1,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Reid Detmers",
-        "avg_contra": ".209",
-        "era": "3.62",
-        "whip": "1.06",
-        "k9": "10.39",
-        "h9": "6.89",
-        "ip_temporada": "149.0",
+        "avg_contra": ".208",
+        "era": "3.60",
+        "whip": "1.05",
+        "k9": "10.38",
+        "h9": "6.84",
+        "ip_temporada": "150.0",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-21",
             "ip": "6.0",
@@ -41588,14 +41613,6 @@
             "h": 3,
             "er": 1,
             "bb": 4
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "4.0",
-            "k": 5,
-            "h": 4,
-            "er": 3,
-            "bb": 1
           }
         ]
       }
@@ -41678,13 +41695,21 @@
       },
       "away_pitcher": {
         "nombre": "Brandon Young",
-        "avg_contra": ".259",
-        "era": "3.50",
-        "whip": "1.36",
-        "k9": "7.22",
-        "h9": "8.98",
-        "ip_temporada": "123.1",
+        "avg_contra": ".257",
+        "era": "3.47",
+        "whip": "1.35",
+        "k9": "7.17",
+        "h9": "8.90",
+        "ip_temporada": "124.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-22",
             "ip": "5.2",
@@ -41708,26 +41733,26 @@
             "h": 6,
             "er": 1,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-06",
-            "ip": "4.1",
-            "k": 4,
-            "h": 6,
-            "er": 3,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Jacob Lopez",
-        "avg_contra": ".254",
-        "era": "4.98",
-        "whip": "1.48",
-        "k9": "8.62",
-        "h9": "8.81",
-        "ip_temporada": "94.0",
+        "avg_contra": ".251",
+        "era": "4.91",
+        "whip": "1.46",
+        "k9": "8.69",
+        "h9": "8.69",
+        "ip_temporada": "95.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.2",
+            "k": 3,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-22",
             "ip": "6.0",
@@ -41749,14 +41774,6 @@
             "ip": "7.0",
             "k": 5,
             "h": 5,
-            "er": 2,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "5.0",
-            "k": 9,
-            "h": 4,
             "er": 2,
             "bb": 1
           }
@@ -41981,5 +41998,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "28/08/26 19:30"
+  "alineaciones_actualizadas": "28/08/26 20:00"
 }
