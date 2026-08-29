@@ -41998,7 +41998,7 @@
         "Geraldo Perdomo",
         "Nolan Arenado",
         "Tim Tawa",
-        "Merrill Kelly",
+        "Taylor Clarke",
         "Jordan Lawlar",
         "Ryan Waldschmidt"
       ],
@@ -42106,17 +42106,17 @@
       },
       "away_pitcher": {
         "nombre": "Merrill Kelly",
-        "avg_contra": ".271",
-        "era": "5.12",
-        "whip": "1.49",
-        "k9": "5.95",
-        "h9": "9.34",
-        "ip_temporada": "140.2",
+        "avg_contra": ".270",
+        "era": "5.08",
+        "whip": "1.48",
+        "k9": "6.04",
+        "h9": "9.28",
+        "ip_temporada": "141.2",
         "ultimas4": [
           {
             "fecha": "2026-08-29",
-            "ip": "6.0",
-            "k": 5,
+            "ip": "7.0",
+            "k": 7,
             "h": 2,
             "er": 0,
             "bb": 4
@@ -42368,7 +42368,7 @@
         "Jakob Marsee",
         "Javier Sanoja",
         "Leo Jiménez",
-        "Agustín Ramírez"
+        "Brian Navarreto"
       ],
       "home_lineup": [
         "CJ Abrams",
@@ -42614,12 +42614,12 @@
         "Luke Maile"
       ],
       "home_lineup": [
-        "Steven Kwan",
+        "Petey Halpin",
         "Chase DeLauter",
         "José Ramírez",
         "Jo Adell",
         "Angel Martínez",
-        "David Fry",
+        "Nathaniel Lowe",
         "Angel Genao",
         "Austin Hedges",
         "Brayan Rocchio"
@@ -42690,6 +42690,16 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 59.7,
             "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
+            "jugador": "Petey Halpin",
+            "juegos": 3,
+            "avg": 0.375,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 43.5,
+            "tipo": "🎲 POSIBLE SUERTE",
             "confirmado": true
           }
         ],
@@ -42813,7 +42823,7 @@
         "Christian Walker",
         "Taylor Trammell",
         "Nick Allen",
-        "Christian Vázquez"
+        "Yainer Diaz"
       ],
       "home_lineup": [
         "Francisco Lindor",
@@ -42828,7 +42838,18 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [],
+        "racha": [
+          {
+            "jugador": "Yainer Diaz",
+            "juegos": 3,
+            "avg": 0.417,
+            "prob_2j_3j": 69.2,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 66.1,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": true
+          }
+        ],
         "candidatos_2j": [
           {
             "jugador": "Jeremy Peña",
@@ -42934,20 +42955,20 @@
       },
       "home_pitcher": {
         "nombre": "Nolan McLean",
-        "avg_contra": ".204",
-        "era": "3.08",
-        "whip": "1.13",
-        "k9": "9.89",
-        "h9": "6.63",
-        "ip_temporada": "154.2",
+        "avg_contra": ".203",
+        "era": "3.06",
+        "whip": "1.12",
+        "k9": "9.94",
+        "h9": "6.59",
+        "ip_temporada": "155.2",
         "ultimas4": [
           {
             "fecha": "2026-08-29",
-            "ip": "6.0",
-            "k": 2,
+            "ip": "7.0",
+            "k": 4,
             "h": 2,
             "er": 0,
-            "bb": 2
+            "bb": 3
           },
           {
             "fecha": "2026-08-23",
@@ -42989,14 +43010,14 @@
         "Jackson Merrill",
         "Luis Campusano",
         "Gavin Sheets",
-        "Luis Rengifo",
+        "Xander Bogaerts",
         "Dustin Harris"
       ],
       "home_lineup": [
-        "Yandy Díaz",
+        "Jorge Mateo",
         "Jonathan Aranda",
         "Junior Caminero",
-        "Liam Hicks",
+        "Kenny Piper",
         "Chandler Simpson",
         "Jonny DeLuca",
         "Richie Palacios",
@@ -43021,6 +43042,13 @@
             "prob": 68,
             "prob_1j_2j": 65.7,
             "pct_hit": 69.7,
+            "confirmado": true
+          },
+          {
+            "jugador": "Xander Bogaerts",
+            "prob": 53,
+            "prob_1j_2j": 54.2,
+            "pct_hit": 51.3,
             "confirmado": true
           }
         ]
@@ -43073,17 +43101,17 @@
         ],
         "candidatos_1j": [
           {
-            "jugador": "Yandy Díaz",
-            "prob": 74,
-            "prob_1j_2j": 75.8,
-            "pct_hit": 68.1,
-            "confirmado": true
-          },
-          {
             "jugador": "Taylor Walls",
             "prob": 54,
             "prob_1j_2j": 57.5,
             "pct_hit": 51.6,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jorge Mateo",
+            "prob": 43,
+            "prob_1j_2j": 47.4,
+            "pct_hit": 40.0,
             "confirmado": true
           }
         ]
@@ -44055,5 +44083,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "29/08/26 16:00"
+  "alineaciones_actualizadas": "29/08/26 16:30"
 }
