@@ -40869,7 +40869,7 @@
       "game_id": 823744,
       "fecha": "2026-08-28",
       "away_lineup": [
-        "Joc Pederson",
+        "Elias Díaz",
         "Corey Seager",
         "Wyatt Langford",
         "Brandon Nimmo",
@@ -41253,15 +41253,15 @@
       "game_id": 823013,
       "fecha": "2026-08-28",
       "away_lineup": [
-        "Jared Triolo",
+        "Jacob Gonzalez",
         "Esmerlyn Valdez",
         "Bryan Reynolds",
         "Oneil Cruz",
         "Nick Gonzales",
         "Rafael Flores Jr.",
         "Jake Mangum",
-        "Nick Yorke",
-        "Henry Davis"
+        "Brandon Lowe",
+        "Spencer Horwitz"
       ],
       "home_lineup": [
         "JJ Wetherholt",
@@ -41278,6 +41278,16 @@
       "away_data": {
         "racha": [
           {
+            "jugador": "Spencer Horwitz",
+            "juegos": 4,
+            "avg": 0.294,
+            "prob_2j_3j": 64.7,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 61.4,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
             "jugador": "Bryan Reynolds",
             "juegos": 3,
             "avg": 0.308,
@@ -41285,16 +41295,6 @@
             "prob_3j_4j": 90.9,
             "pct_hit": 64.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Jared Triolo",
-            "juegos": 3,
-            "avg": 0.444,
-            "prob_2j_3j": 23.1,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 50.0,
-            "tipo": "📊 IRREGULAR",
             "confirmado": true
           }
         ],
@@ -41532,17 +41532,17 @@
       },
       "away_pitcher": {
         "nombre": "Andrew Painter",
-        "avg_contra": ".286",
-        "era": "6.22",
-        "whip": "1.52",
-        "k9": "7.67",
-        "h9": "10.20",
-        "ip_temporada": "92.2",
+        "avg_contra": ".280",
+        "era": "6.14",
+        "whip": "1.48",
+        "k9": "7.84",
+        "h9": "9.91",
+        "ip_temporada": "95.1",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "1.0",
-            "k": 1,
+            "ip": "3.0",
+            "k": 4,
             "h": 2,
             "er": 3,
             "bb": 2
@@ -41576,17 +41576,17 @@
       "home_pitcher": {
         "nombre": "Reid Detmers",
         "avg_contra": ".208",
-        "era": "3.60",
+        "era": "3.55",
         "whip": "1.05",
-        "k9": "10.38",
-        "h9": "6.84",
-        "ip_temporada": "150.0",
+        "k9": "10.24",
+        "h9": "6.81",
+        "ip_temporada": "152.0",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "1.0",
+            "ip": "3.1",
             "k": 1,
-            "h": 0,
+            "h": 1,
             "er": 0,
             "bb": 0
           },
@@ -41695,18 +41695,18 @@
       },
       "away_pitcher": {
         "nombre": "Brandon Young",
-        "avg_contra": ".257",
-        "era": "3.47",
-        "whip": "1.35",
-        "k9": "7.17",
-        "h9": "8.90",
-        "ip_temporada": "124.1",
+        "avg_contra": ".259",
+        "era": "3.45",
+        "whip": "1.36",
+        "k9": "7.18",
+        "h9": "8.98",
+        "ip_temporada": "125.1",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "1.0",
-            "k": 0,
-            "h": 0,
+            "ip": "2.1",
+            "k": 1,
+            "h": 2,
             "er": 0,
             "bb": 0
           },
@@ -41738,20 +41738,20 @@
       },
       "home_pitcher": {
         "nombre": "Jacob Lopez",
-        "avg_contra": ".251",
-        "era": "4.91",
-        "whip": "1.46",
-        "k9": "8.69",
-        "h9": "8.69",
-        "ip_temporada": "95.1",
+        "avg_contra": ".254",
+        "era": "4.92",
+        "whip": "1.48",
+        "k9": "8.72",
+        "h9": "8.81",
+        "ip_temporada": "97.0",
         "ultimas4": [
           {
             "fecha": "2026-08-28",
-            "ip": "1.2",
-            "k": 3,
-            "h": 0,
-            "er": 0,
-            "bb": 1
+            "ip": "3.0",
+            "k": 4,
+            "h": 3,
+            "er": 1,
+            "bb": 2
           },
           {
             "fecha": "2026-08-22",
@@ -41912,13 +41912,21 @@
       },
       "away_pitcher": {
         "nombre": "Kohl Drake",
-        "avg_contra": ".299",
-        "era": "5.40",
-        "whip": "1.56",
-        "k9": "7.02",
-        "h9": "10.80",
-        "ip_temporada": "16.2",
+        "avg_contra": ".296",
+        "era": "5.60",
+        "whip": "1.53",
+        "k9": "7.13",
+        "h9": "10.70",
+        "ip_temporada": "17.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-06",
             "ip": "3.2",
@@ -41942,26 +41950,26 @@
             "h": 5,
             "er": 4,
             "bb": 2
-          },
-          {
-            "fecha": "2026-07-21",
-            "ip": "5.0",
-            "k": 5,
-            "h": 4,
-            "er": 1,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Blade Tidwell",
-        "avg_contra": ".224",
-        "era": "3.58",
+        "avg_contra": ".225",
+        "era": "3.74",
         "whip": "1.16",
-        "k9": "7.44",
-        "h9": "7.16",
-        "ip_temporada": "32.2",
+        "k9": "7.75",
+        "h9": "7.22",
+        "ip_temporada": "33.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-28",
+            "ip": "1.0",
+            "k": 2,
+            "h": 2,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-22",
             "ip": "5.2",
@@ -41985,18 +41993,10 @@
             "h": 4,
             "er": 1,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-04",
-            "ip": "5.0",
-            "k": 3,
-            "h": 6,
-            "er": 2,
-            "bb": 1
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "28/08/26 20:00"
+  "alineaciones_actualizadas": "28/08/26 20:31"
 }
