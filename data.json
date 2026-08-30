@@ -41333,9 +41333,29 @@
       "home": "Washington Nationals",
       "game_id": 822688,
       "fecha": "2026-08-30",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Heriberto Hernández",
+        "Otto Lopez",
+        "Agustín Ramírez",
+        "Esteury Ruiz",
+        "Xavier Edwards",
+        "Javier Sanoja",
+        "Leo Jiménez",
+        "Jakob Marsee",
+        "Brian Navarreto"
+      ],
+      "home_lineup": [
+        "CJ Abrams",
+        "Abimelec Ortiz",
+        "Andrés Chaparro",
+        "Daylen Lile",
+        "Dylan Crews",
+        "Jorbit Vivas",
+        "Harry Ford",
+        "Jacob Young",
+        "Nasim Nuñez"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -41346,7 +41366,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 53.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Otto Lopez",
@@ -41356,7 +41376,7 @@
             "prob_3j_4j": 65.0,
             "pct_hit": 73.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Sanoja",
@@ -41366,34 +41386,17 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 55.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Kyle Stowers",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 57.1,
-            "prob_3j_4j": 42.9,
-            "pct_hit": 57.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Joe Mack",
-            "prob": 44,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 49.3,
-            "confirmado": false
-          },
-          {
             "jugador": "Leo Jiménez",
             "prob": 43,
             "prob_1j_2j": 47.1,
             "pct_hit": 40.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41407,17 +41410,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 58.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brady House",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 63.6,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 58.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daylen Lile",
@@ -41427,37 +41420,30 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 61.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Keibert Ruiz",
-            "prob": 52,
-            "prob_2j_3j": 52.9,
-            "pct_hit": 62.7,
-            "confirmado": false
-          },
           {
             "jugador": "Jorbit Vivas",
             "prob": 50,
             "prob_2j_3j": 57.1,
             "pct_hit": 47.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Abimelec Ortiz",
             "prob": 30,
             "prob_2j_3j": 0,
             "pct_hit": 52.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Harry Ford",
             "prob": 28,
             "prob_2j_3j": 0,
             "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -41554,9 +41540,19 @@
       "home": "Atlanta Braves",
       "game_id": 824876,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Connor Norby",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Willi Castro",
+        "Mickey Moniak",
+        "Troy Johnston",
+        "Brett Sullivan",
+        "Ryan Ritter"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -41567,7 +41563,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 65.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Willi Castro",
@@ -41577,7 +41573,7 @@
             "prob_3j_4j": 25.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41586,14 +41582,7 @@
             "prob": 66,
             "prob_2j_3j": 71.4,
             "pct_hit": 70.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Cole Carrigg",
-            "prob": 46,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41602,28 +41591,21 @@
             "prob": 65,
             "prob_1j_2j": 64.3,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Connor Norby",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 55.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Sullivan",
             "prob": 47,
             "prob_1j_2j": 52.6,
             "pct_hit": 44.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Beck",
-            "prob": 41,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42132,7 +42114,17 @@
         "Tyler Tolbert",
         "Kyle Isbel"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "José Ramírez",
+        "Jo Adell",
+        "Nathaniel Lowe",
+        "Travis Bazzana",
+        "Angel Genao",
+        "Austin Hedges",
+        "Brayan Rocchio"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -42204,18 +42196,7 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Petey Halpin",
-            "juegos": 3,
-            "avg": 0.375,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 43.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
@@ -42223,35 +42204,14 @@
             "prob": 60,
             "prob_1j_2j": 60.4,
             "pct_hit": 62.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Ramírez",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 60.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Angel Martínez",
-            "prob": 52,
-            "prob_1j_2j": 54.3,
-            "pct_hit": 56.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Patrick Bailey",
-            "prob": 43,
-            "prob_1j_2j": 48.1,
-            "pct_hit": 43.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "David Fry",
-            "prob": 28,
-            "prob_1j_2j": 31.6,
-            "pct_hit": 28.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42348,7 +42308,17 @@
       "game_id": 824232,
       "fecha": "2026-08-30",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Gleyber Torres",
+        "Colt Keith",
+        "Kevin McGonigle",
+        "Dillon Dingler",
+        "Brett Callahan",
+        "Zach McKinstry",
+        "Hao-Yu Lee",
+        "Max Clark",
+        "Javier Báez"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -42414,21 +42384,21 @@
             "prob": 53,
             "prob_2j_3j": 55.6,
             "pct_hit": 61.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Callahan",
             "prob": 31,
             "prob_2j_3j": 0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Clark",
             "prob": 30,
             "prob_2j_3j": 0,
             "pct_hit": 52.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -42437,28 +42407,28 @@
             "prob": 77,
             "prob_1j_2j": 78.6,
             "pct_hit": 70.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Báez",
             "prob": 51,
             "prob_1j_2j": 53.3,
             "pct_hit": 58.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dillon Dingler",
             "prob": 51,
             "prob_1j_2j": 50.0,
             "pct_hit": 55.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hao-Yu Lee",
             "prob": 48,
             "prob_1j_2j": 51.9,
             "pct_hit": 52.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44155,5 +44125,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/08/26 08:00"
+  "alineaciones_actualizadas": "30/08/26 08:30"
 }
