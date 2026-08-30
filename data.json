@@ -42934,7 +42934,7 @@
         "Jackson Chourio",
         "Christian Yelich",
         "Gary Sánchez",
-        "Sal Frelick",
+        "Luis Lara",
         "Andrew Vaughn",
         "Joey Ortiz"
       ],
@@ -42983,6 +42983,16 @@
       "home_data": {
         "racha": [
           {
+            "jugador": "Luis Lara",
+            "juegos": 7,
+            "avg": 0.44,
+            "prob_2j_3j": 50.0,
+            "prob_3j_4j": 100.0,
+            "pct_hit": 55.6,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
             "jugador": "Christian Yelich",
             "juegos": 5,
             "avg": 0.562,
@@ -43014,15 +43024,7 @@
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": [
-          {
-            "jugador": "Sal Frelick",
-            "prob": 56,
-            "prob_1j_2j": 56.0,
-            "pct_hit": 57.3,
-            "confirmado": true
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Kumar Rocker",
@@ -43128,7 +43130,7 @@
         "Nick Yorke"
       ],
       "home_lineup": [
-        "Bryan Torres",
+        "Joshua Báez",
         "Iván Herrera",
         "Alec Burleson",
         "Jordan Walker",
@@ -43200,7 +43202,18 @@
         ]
       },
       "home_data": {
-        "racha": [],
+        "racha": [
+          {
+            "jugador": "Joshua Báez",
+            "juegos": 3,
+            "avg": 0.25,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 46.7,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
+          }
+        ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
@@ -43634,19 +43647,19 @@
       },
       "away_pitcher": {
         "nombre": "Chris Bassitt",
-        "avg_contra": ".308",
-        "era": "5.14",
-        "whip": "1.61",
-        "k9": "6.31",
-        "h9": "11.22",
-        "ip_temporada": "77.0",
+        "avg_contra": ".305",
+        "era": "5.08",
+        "whip": "1.59",
+        "k9": "6.35",
+        "h9": "11.08",
+        "ip_temporada": "78.0",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "2.2",
-            "k": 3,
-            "h": 6,
-            "er": 3,
+            "ip": "4.0",
+            "k": 4,
+            "h": 7,
+            "er": 5,
             "bb": 2
           },
           {
@@ -43677,20 +43690,20 @@
       },
       "home_pitcher": {
         "nombre": "Jeffrey Springs",
-        "avg_contra": ".269",
-        "era": "6.01",
-        "whip": "1.47",
-        "k9": "7.12",
-        "h9": "9.57",
-        "ip_temporada": "121.1",
+        "avg_contra": ".273",
+        "era": "6.15",
+        "whip": "1.49",
+        "k9": "7.17",
+        "h9": "9.73",
+        "ip_temporada": "123.0",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "3.0",
-            "k": 4,
-            "h": 1,
-            "er": 1,
-            "bb": 0
+            "ip": "4.2",
+            "k": 6,
+            "h": 5,
+            "er": 4,
+            "bb": 1
           },
           {
             "fecha": "2026-08-24",
@@ -43828,18 +43841,18 @@
       },
       "away_pitcher": {
         "nombre": "Zack Wheeler",
-        "avg_contra": ".214",
-        "era": "3.39",
-        "whip": "1.09",
-        "k9": "10.60",
-        "h9": "7.07",
-        "ip_temporada": "127.1",
+        "avg_contra": ".213",
+        "era": "3.34",
+        "whip": "1.08",
+        "k9": "10.58",
+        "h9": "7.03",
+        "ip_temporada": "129.1",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "2.2",
-            "k": 2,
-            "h": 3,
+            "ip": "4.2",
+            "k": 4,
+            "h": 4,
             "er": 1,
             "bb": 1
           },
@@ -43871,18 +43884,18 @@
       },
       "home_pitcher": {
         "nombre": "Yusei Kikuchi",
-        "avg_contra": ".284",
-        "era": "5.95",
-        "whip": "1.53",
-        "k9": "9.38",
-        "h9": "10.07",
-        "ip_temporada": "39.1",
+        "avg_contra": ".280",
+        "era": "5.71",
+        "whip": "1.49",
+        "k9": "9.22",
+        "h9": "9.88",
+        "ip_temporada": "41.0",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "3.0",
-            "k": 4,
-            "h": 2,
+            "ip": "5.0",
+            "k": 5,
+            "h": 3,
             "er": 1,
             "bb": 1
           },
@@ -44116,5 +44129,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/08/26 15:00"
+  "alineaciones_actualizadas": "30/08/26 15:30"
 }
