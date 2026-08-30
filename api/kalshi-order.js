@@ -73,7 +73,7 @@ export default async function handler(req, res) {
       cancel_order_on_pause: false,
       reduce_only: false,
       subaccount: 0,
-      exchange_index: exchange_index !== undefined ? exchange_index : 0,
+      exchange_index: exchange_index !== undefined ? exchange_index : 3,
     };
 
     if (dry_run) {
