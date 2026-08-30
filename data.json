@@ -42121,9 +42121,19 @@
       "home": "Cleveland Guardians",
       "game_id": 824393,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Carter Jensen",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Vinnie Pasquantino",
+        "Nick Loftin",
+        "John Rave",
+        "Tyler Tolbert",
+        "Kyle Isbel"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -42134,7 +42144,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 40.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bobby Witt Jr.",
@@ -42144,27 +42154,7 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 73.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Josh Rojas",
-            "juegos": 3,
-            "avg": 0.444,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 40.0,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Isaac Collins",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 58.8,
-            "prob_3j_4j": 62.5,
-            "pct_hit": 54.7,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Salvador Perez",
@@ -42174,7 +42164,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 60.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jac Caglianone",
@@ -42184,7 +42174,7 @@
             "prob_3j_4j": 46.2,
             "pct_hit": 62.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -42193,7 +42183,7 @@
             "prob": 53,
             "prob_2j_3j": 52.9,
             "pct_hit": 62.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -42202,14 +42192,14 @@
             "prob": 43,
             "prob_1j_2j": 46.4,
             "pct_hit": 44.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "John Rave",
             "prob": 26,
             "prob_1j_2j": 0,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44165,5 +44155,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/08/26 07:00"
+  "alineaciones_actualizadas": "30/08/26 08:00"
 }
