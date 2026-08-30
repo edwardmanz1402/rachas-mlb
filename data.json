@@ -41450,20 +41450,20 @@
       },
       "away_pitcher": {
         "nombre": "Janson Junk",
-        "avg_contra": ".262",
-        "era": "4.09",
-        "whip": "1.28",
-        "k9": "6.22",
+        "avg_contra": ".263",
+        "era": "4.05",
+        "whip": "1.29",
+        "k9": "6.16",
         "h9": "9.15",
-        "ip_temporada": "101.1",
+        "ip_temporada": "102.1",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "2.2",
-            "k": 1,
-            "h": 1,
+            "ip": "4.0",
+            "k": 2,
+            "h": 2,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-26",
@@ -41493,20 +41493,20 @@
       },
       "home_pitcher": {
         "nombre": "Andrew Alvarez",
-        "avg_contra": ".238",
-        "era": "3.59",
+        "avg_contra": ".236",
+        "era": "3.51",
         "whip": "1.32",
-        "k9": "8.52",
-        "h9": "7.90",
-        "ip_temporada": "87.2",
+        "k9": "8.53",
+        "h9": "7.83",
+        "ip_temporada": "89.2",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "3.0",
-            "k": 3,
-            "h": 1,
+            "ip": "5.0",
+            "k": 5,
+            "h": 2,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-25",
@@ -43498,7 +43498,17 @@
       "home": "Athletics",
       "game_id": 824959,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Blaze Alexander",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Coby Mayo",
+        "Christian Encarnacion-Strand",
+        "Leody Taveras",
+        "Christian Franklin",
+        "Carlos Narváez",
+        "Colton Cowser"
+      ],
       "home_lineup": [
         "Henry Bolte",
         "Jeff McNeil",
@@ -43510,7 +43520,7 @@
         "Brian Serven",
         "Alika Williams"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43521,7 +43531,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 43.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Encarnacion-Strand",
@@ -43531,7 +43541,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 48.1,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Coby Mayo",
@@ -43541,39 +43551,24 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 50.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Dylan Beavers",
-            "prob": 45,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 50.7,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Leody Taveras",
             "prob": 56,
             "prob_1j_2j": 60.9,
             "pct_hit": 53.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Blaze Alexander",
             "prob": 55,
             "prob_1j_2j": 56.1,
             "pct_hit": 58.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jackson Holliday",
-            "prob": 40,
-            "prob_1j_2j": 42.1,
-            "pct_hit": 40.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43725,9 +43720,19 @@
       "home": "Los Angeles Angels",
       "game_id": 823987,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Alec Bohm",
+        "Edmundo Sosa",
+        "Bryan De La Cruz",
+        "Bryson Stott",
+        "J.T. Realmuto",
+        "Derek Hill"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43738,7 +43743,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 47.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alec Bohm",
@@ -43748,7 +43753,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Schwarber",
@@ -43758,7 +43763,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 59.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43767,37 +43772,23 @@
             "prob": 62,
             "prob_2j_3j": 64.0,
             "pct_hit": 62.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Derek Hill",
             "prob": 42,
             "prob_2j_3j": 45.5,
             "pct_hit": 48.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Brandon Marsh",
-            "prob": 69,
-            "prob_1j_2j": 70.8,
-            "pct_hit": 62.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Justin Crawford",
-            "prob": 56,
-            "prob_1j_2j": 57.1,
-            "pct_hit": 56.2,
-            "confirmado": false
-          },
           {
             "jugador": "Bryan De La Cruz",
             "prob": 43,
             "prob_1j_2j": 0,
             "pct_hit": 64.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44130,5 +44121,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/08/26 11:00"
+  "alineaciones_actualizadas": "30/08/26 11:30"
 }
