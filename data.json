@@ -42917,7 +42917,17 @@
       "home": "Milwaukee Brewers",
       "game_id": 823740,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Joc Pederson",
+        "Corey Seager",
+        "Wyatt Langford",
+        "Brandon Nimmo",
+        "Ezequiel Duran",
+        "Jake Burger",
+        "Evan Carter",
+        "Cody Freeman",
+        "Elias Díaz"
+      ],
       "home_lineup": [
         "Brice Turang",
         "Garrett Mitchell",
@@ -42929,53 +42939,45 @@
         "David Hamilton",
         "Joey Ortiz"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
-        "candidatos_2j": [
-          {
-            "jugador": "Justin Foscue",
-            "prob": 36,
-            "prob_2j_3j": 40.0,
-            "pct_hit": 40.0,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Ezequiel Duran",
             "prob": 64,
             "prob_1j_2j": 63.6,
             "pct_hit": 61.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Burger",
             "prob": 62,
             "prob_1j_2j": 65.5,
             "pct_hit": 57.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brandon Nimmo",
             "prob": 60,
             "prob_1j_2j": 61.8,
             "pct_hit": 59.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corey Seager",
             "prob": 38,
             "prob_1j_2j": 37.5,
             "pct_hit": 45.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cody Freeman",
             "prob": 38,
             "prob_1j_2j": 0,
             "pct_hit": 52.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43115,7 +43117,17 @@
       "home": "St. Louis Cardinals",
       "game_id": 823010,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jared Triolo",
+        "Oneil Cruz",
+        "Bryan Reynolds",
+        "Rafael Flores Jr.",
+        "Brandon Lowe",
+        "Esmerlyn Valdez",
+        "Jake Mangum",
+        "Spencer Horwitz",
+        "Nick Yorke"
+      ],
       "home_lineup": [
         "Bryan Torres",
         "Iván Herrera",
@@ -43127,7 +43139,7 @@
         "Ramón Urías",
         "Thomas Saggese"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43138,23 +43150,16 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 50.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Nick Gonzales",
-            "prob": 63,
-            "prob_2j_3j": 64.0,
-            "pct_hit": 65.0,
-            "confirmado": false
-          },
           {
             "jugador": "Oneil Cruz",
             "prob": 62,
             "prob_2j_3j": 64.7,
             "pct_hit": 66.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -43163,42 +43168,35 @@
             "prob": 64,
             "prob_1j_2j": 63.3,
             "pct_hit": 65.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryan Reynolds",
             "prob": 64,
             "prob_1j_2j": 67.7,
             "pct_hit": 63.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Mangum",
             "prob": 57,
             "prob_1j_2j": 60.5,
             "pct_hit": 61.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Yorke",
             "prob": 48,
             "prob_1j_2j": 54.5,
             "pct_hit": 46.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jacob Gonzalez",
-            "prob": 45,
-            "prob_1j_2j": 53.8,
-            "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Flores Jr.",
             "prob": 33,
             "prob_1j_2j": 0,
             "pct_hit": 45.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44130,5 +44128,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/08/26 09:30"
+  "alineaciones_actualizadas": "30/08/26 10:00"
 }
