@@ -41450,13 +41450,21 @@
       },
       "away_pitcher": {
         "nombre": "Janson Junk",
-        "avg_contra": ".265",
-        "era": "4.18",
-        "whip": "1.29",
-        "k9": "6.27",
-        "h9": "9.27",
-        "ip_temporada": "99.0",
+        "avg_contra": ".262",
+        "era": "4.09",
+        "whip": "1.28",
+        "k9": "6.22",
+        "h9": "9.15",
+        "ip_temporada": "101.1",
         "ultimas4": [
+          {
+            "fecha": "2026-08-30",
+            "ip": "2.2",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-26",
             "ip": "1.0",
@@ -41480,33 +41488,25 @@
             "h": 8,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-12",
-            "ip": "6.0",
-            "k": 2,
-            "h": 4,
-            "er": 1,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Andrew Alvarez",
-        "avg_contra": ".241",
-        "era": "3.68",
-        "whip": "1.34",
-        "k9": "8.72",
-        "h9": "8.09",
-        "ip_temporada": "85.2",
+        "avg_contra": ".238",
+        "era": "3.59",
+        "whip": "1.32",
+        "k9": "8.52",
+        "h9": "7.90",
+        "ip_temporada": "87.2",
         "ultimas4": [
           {
             "fecha": "2026-08-30",
-            "ip": "1.0",
+            "ip": "3.0",
             "k": 3,
             "h": 1,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-25",
@@ -42549,7 +42549,17 @@
       "home": "Tampa Bay Rays",
       "game_id": 822933,
       "fecha": "2026-08-30",
-      "away_lineup": [],
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Jake Cronenworth",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Xander Bogaerts",
+        "Dustin Harris",
+        "Freddy Fermin",
+        "Sung-Mun Song"
+      ],
       "home_lineup": [
         "Yandy Díaz",
         "Jonathan Aranda",
@@ -42561,7 +42571,7 @@
         "Nick Fortes",
         "Taylor Walls"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -42572,7 +42582,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 55.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -42581,37 +42591,30 @@
             "prob": 64,
             "prob_2j_3j": 57.1,
             "pct_hit": 69.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Gavin Sheets",
-            "prob": 60,
-            "prob_1j_2j": 66.0,
-            "pct_hit": 46.4,
-            "confirmado": false
-          },
           {
             "jugador": "Ty France",
             "prob": 51,
             "prob_1j_2j": 52.9,
             "pct_hit": 57.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Manny Machado",
             "prob": 47,
             "prob_1j_2j": 48.0,
             "pct_hit": 50.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
             "prob": 39,
             "prob_1j_2j": 38.9,
             "pct_hit": 47.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43305,9 +43308,29 @@
       "home": "New York Mets",
       "game_id": 823580,
       "fecha": "2026-08-30",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Christian Walker",
+        "Daulton Varsho",
+        "Yainer Diaz",
+        "Cam Smith",
+        "Nick Allen"
+      ],
+      "home_lineup": [
+        "Francisco Lindor",
+        "Juan Soto",
+        "Bo Bichette",
+        "Carson Benge",
+        "Jared Young",
+        "Luis Robert Jr.",
+        "A.J. Ewing",
+        "Marcus Semien",
+        "Luis Torrens"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43318,7 +43341,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 71.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yainer Diaz",
@@ -43328,7 +43351,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 66.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43337,7 +43360,7 @@
             "prob": 57,
             "prob_2j_3j": 58.8,
             "pct_hit": 59.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -43346,7 +43369,7 @@
             "prob": 70,
             "prob_1j_2j": 72.3,
             "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43358,28 +43381,28 @@
             "prob": 66,
             "prob_2j_3j": 66.7,
             "pct_hit": 66.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Marcus Semien",
             "prob": 38,
             "prob_2j_3j": 35.7,
             "pct_hit": 48.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Francisco Lindor",
             "prob": 36,
             "prob_2j_3j": 33.3,
             "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Torrens",
             "prob": 34,
             "prob_2j_3j": 30.0,
             "pct_hit": 51.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -43388,35 +43411,14 @@
             "prob": 69,
             "prob_1j_2j": 70.9,
             "pct_hit": 69.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Francisco Alvarez",
-            "prob": 62,
-            "prob_1j_2j": 65.0,
-            "pct_hit": 58.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Baty",
-            "prob": 60,
-            "prob_1j_2j": 65.3,
-            "pct_hit": 53.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jared Young",
             "prob": 40,
             "prob_1j_2j": 40.0,
             "pct_hit": 54.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Christopher Morel",
-            "prob": 31,
-            "prob_1j_2j": 30.0,
-            "pct_hit": 42.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43497,7 +43499,17 @@
       "game_id": 824959,
       "fecha": "2026-08-30",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Henry Bolte",
+        "Jeff McNeil",
+        "Zack Gelof",
+        "Lawrence Butler",
+        "Donovan Walton",
+        "Tommy White",
+        "Carlos Cortes",
+        "Brian Serven",
+        "Alika Williams"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -43575,17 +43587,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 47.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jonah Heim",
-            "juegos": 4,
-            "avg": 0.333,
-            "prob_2j_3j": 80.0,
-            "prob_3j_4j": 25.0,
-            "pct_hit": 51.9,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jeff McNeil",
@@ -43595,7 +43597,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 52.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43604,14 +43606,14 @@
             "prob": 70,
             "prob_2j_3j": 84.6,
             "pct_hit": 52.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zack Gelof",
             "prob": 69,
             "prob_2j_3j": 81.0,
             "pct_hit": 67.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -43620,14 +43622,14 @@
             "prob": 74,
             "prob_1j_2j": 89.5,
             "pct_hit": 56.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Henry Bolte",
             "prob": 63,
             "prob_1j_2j": 66.7,
             "pct_hit": 58.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44128,5 +44130,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "30/08/26 10:30"
+  "alineaciones_actualizadas": "30/08/26 11:00"
 }
