@@ -40678,13 +40678,21 @@
       },
       "away_pitcher": {
         "nombre": "Anthony Molina",
-        "avg_contra": ".212",
-        "era": "2.89",
-        "whip": "0.96",
-        "k9": "2.89",
-        "h9": "6.75",
-        "ip_temporada": "9.1",
+        "avg_contra": ".231",
+        "era": "4.22",
+        "whip": "1.03",
+        "k9": "2.53",
+        "h9": "7.59",
+        "ip_temporada": "10.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-31",
+            "ip": "1.0",
+            "k": 0,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-25",
             "ip": "4.1",
@@ -40708,26 +40716,26 @@
             "h": 3,
             "er": 1,
             "bb": 0
-          },
-          {
-            "fecha": "2026-05-01",
-            "ip": "2.0",
-            "k": 0,
-            "h": 0,
-            "er": 0,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Bryce Elder",
-        "avg_contra": ".240",
+        "avg_contra": ".242",
         "era": "3.95",
         "whip": "1.24",
-        "k9": "7.39",
-        "h9": "8.27",
-        "ip_temporada": "143.2",
+        "k9": "7.29",
+        "h9": "8.34",
+        "ip_temporada": "145.2",
         "ultimas4": [
+          {
+            "fecha": "2026-08-31",
+            "ip": "2.0",
+            "k": 0,
+            "h": 3,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-25",
             "ip": "6.0",
@@ -40751,14 +40759,6 @@
             "h": 10,
             "er": 7,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-05",
-            "ip": "7.0",
-            "k": 3,
-            "h": 1,
-            "er": 1,
-            "bb": 2
           }
         ]
       }
@@ -42866,21 +42866,21 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825040,
       "fecha": "2026-08-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Bryson Stott",
+        "Brandon Marsh",
+        "Justin Crawford",
+        "Garrett Stubbs"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Edmundo Sosa",
-            "juegos": 4,
-            "avg": 0.5,
-            "prob_2j_3j": 25.0,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 47.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Kyle Schwarber",
             "juegos": 4,
@@ -42889,7 +42889,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trea Turner",
@@ -42899,17 +42899,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 62.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Derek Hill",
-            "juegos": 3,
-            "avg": 0.375,
-            "prob_2j_3j": 45.5,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 49.3,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -42918,7 +42908,7 @@
             "prob": 73,
             "prob_2j_3j": 76.9,
             "pct_hit": 62.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -42927,28 +42917,21 @@
             "prob": 63,
             "prob_1j_2j": 64.4,
             "pct_hit": 65.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Justin Crawford",
             "prob": 56,
             "prob_1j_2j": 57.1,
             "pct_hit": 56.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "J.T. Realmuto",
-            "prob": 44,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 51.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -43086,5 +43069,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/08/26 16:00"
+  "alineaciones_actualizadas": "31/08/26 16:30"
 }
