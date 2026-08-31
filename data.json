@@ -41546,7 +41546,17 @@
       "game_id": 823663,
       "fecha": "2026-08-31",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Luke Keaschall",
+        "Brooks Lee",
+        "Kody Clemens",
+        "Ryan Jeffers",
+        "Josh Bell",
+        "Trevor Larnach",
+        "Royce Lewis",
+        "Kaelen Culpepper",
+        "Walker Jenkins"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41582,7 +41592,7 @@
             "prob_3j_4j": 54.5,
             "pct_hit": 62.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luke Keaschall",
@@ -41592,7 +41602,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -41602,35 +41612,28 @@
             "prob": 64,
             "prob_1j_2j": 69.2,
             "pct_hit": 64.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brooks Lee",
             "prob": 60,
             "prob_1j_2j": 61.4,
             "pct_hit": 60.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Victor Caratini",
-            "prob": 53,
-            "prob_1j_2j": 57.5,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trevor Larnach",
             "prob": 52,
             "prob_1j_2j": 53.3,
             "pct_hit": 52.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kaelen Culpepper",
             "prob": 47,
             "prob_1j_2j": 0,
             "pct_hit": 73.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42939,8 +42942,50 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Brandon Pfaadt",
+        "avg_contra": ".237",
+        "era": "3.51",
+        "whip": "1.14",
+        "k9": "6.17",
+        "h9": "8.06",
+        "ip_temporada": "105.0",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-25",
+            "ip": "6.2",
+            "k": 3,
+            "h": 6,
+            "er": 4,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-19",
+            "ip": "5.2",
+            "k": 8,
+            "h": 7,
+            "er": 5,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-14",
+            "ip": "7.0",
+            "k": 7,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-08",
+            "ip": "7.0",
+            "k": 2,
+            "h": 2,
+            "er": 0,
+            "bb": 2
+          }
+        ]
+      }
     }
   ],
-  "alineaciones_actualizadas": "31/08/26 11:30"
+  "alineaciones_actualizadas": "31/08/26 12:00"
 }
