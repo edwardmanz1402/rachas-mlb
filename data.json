@@ -40546,9 +40546,19 @@
       "home": "Atlanta Braves",
       "game_id": 824911,
       "fecha": "2026-08-31",
-      "away_lineup": [],
+      "away_lineup": [
+        "Drew Gilbert",
+        "Rafael Devers",
+        "Bryce Eldridge",
+        "Jonah Cox",
+        "Jung Hoo Lee",
+        "Osleivis Basabe",
+        "Andrew Knizner",
+        "Nate Furman",
+        "Christian Koss"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -40559,7 +40569,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 61.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jung Hoo Lee",
@@ -40569,7 +40579,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -41183,9 +41193,29 @@
       "home": "Boston Red Sox",
       "game_id": 824719,
       "fecha": "2026-08-31",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Cal Raleigh",
+        "Josh Naylor",
+        "Taylor Ward",
+        "Cole Young",
+        "Weston Wilson",
+        "J.P. Crawford"
+      ],
+      "home_lineup": [
+        "Roman Anthony",
+        "Mickey Gasper",
+        "Ceddanne Rafaela",
+        "Wilyer Abreu",
+        "Nick Sogard",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Trevor Story",
+        "Connor Wong"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [
@@ -41194,7 +41224,7 @@
             "prob": 48,
             "prob_2j_3j": 50.0,
             "pct_hit": 46.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -41209,7 +41239,7 @@
             "prob_3j_4j": 45.5,
             "pct_hit": 61.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Sogard",
@@ -41219,7 +41249,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -41229,28 +41259,28 @@
             "prob": 61,
             "prob_1j_2j": 68.0,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trevor Story",
             "prob": 60,
             "prob_1j_2j": 63.0,
             "pct_hit": 65.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mickey Gasper",
             "prob": 52,
             "prob_1j_2j": 55.0,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Roman Anthony",
             "prob": 47,
             "prob_1j_2j": 47.1,
             "pct_hit": 56.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -41347,7 +41377,17 @@
       "game_id": 822689,
       "fecha": "2026-08-31",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "CJ Abrams",
+        "Abimelec Ortiz",
+        "Andrés Chaparro",
+        "Daylen Lile",
+        "Brady House",
+        "Jorbit Vivas",
+        "Jacob Young",
+        "Keibert Ruiz",
+        "Andrew Pinckney"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -41397,7 +41437,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 61.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jorbit Vivas",
@@ -41407,7 +41447,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 47.7,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brady House",
@@ -41417,7 +41457,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 58.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -41426,7 +41466,7 @@
             "prob": 53,
             "prob_2j_3j": 52.9,
             "pct_hit": 63.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -41435,21 +41475,14 @@
             "prob": 57,
             "prob_1j_2j": 57.4,
             "pct_hit": 59.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nasim Nuñez",
-            "prob": 53,
-            "prob_1j_2j": 55.3,
-            "pct_hit": 48.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrés Chaparro",
             "prob": 17,
             "prob_1j_2j": 12.5,
             "pct_hit": 34.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -42987,5 +43020,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "31/08/26 12:30"
+  "alineaciones_actualizadas": "31/08/26 13:00"
 }
