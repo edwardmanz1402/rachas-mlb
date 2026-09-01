@@ -45378,9 +45378,29 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825038,
       "fecha": "2026-09-01",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Edmundo Sosa",
+        "Bryson Stott",
+        "J.T. Realmuto",
+        "Derek Hill"
+      ],
+      "home_lineup": [
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Nolan Arenado",
+        "Ildemaro Vargas",
+        "Tim Tawa",
+        "Jordan Lawlar",
+        "Ryan Waldschmidt"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -45391,7 +45411,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 47.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Derek Hill",
@@ -45401,30 +45421,23 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 49.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Justin Crawford",
-            "prob": 61,
-            "prob_2j_3j": 64.7,
-            "pct_hit": 56.2,
-            "confirmado": false
-          },
           {
             "jugador": "Bryce Harper",
             "prob": 58,
             "prob_2j_3j": 57.1,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryson Stott",
             "prob": 58,
             "prob_2j_3j": 58.3,
             "pct_hit": 65.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -45433,21 +45446,14 @@
             "prob": 73,
             "prob_1j_2j": 71.4,
             "pct_hit": 73.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "J.T. Realmuto",
             "prob": 44,
             "prob_1j_2j": 45.5,
             "pct_hit": 51.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Garrett Stubbs",
-            "prob": 28,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 25.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45461,47 +45467,30 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 57.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Max Kepler",
-            "prob": 71,
-            "prob_2j_3j": 100.0,
-            "pct_hit": 45.2,
-            "confirmado": false
-          },
           {
             "jugador": "Gabriel Moreno",
             "prob": 66,
             "prob_2j_3j": 72.2,
             "pct_hit": 67.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Arenado",
             "prob": 53,
             "prob_2j_3j": 50.0,
             "pct_hit": 57.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan Waldschmidt",
             "prob": 39,
             "prob_2j_3j": 40.0,
             "pct_hit": 52.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -45510,35 +45499,28 @@
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ildemaro Vargas",
             "prob": 63,
             "prob_1j_2j": 70.8,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
             "prob": 61,
             "prob_1j_2j": 61.4,
             "pct_hit": 59.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Lawlar",
             "prob": 59,
             "prob_1j_2j": 71.4,
             "pct_hit": 47.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jorge Barrosa",
-            "prob": 32,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 37.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45645,7 +45627,17 @@
         "Thomas Saggese",
         "Nathan Church"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Freddie Freeman",
+        "Mookie Betts",
+        "Max Muncy",
+        "Will Smith",
+        "Kyle Tucker",
+        "Tommy Edman",
+        "Enrique Hernández",
+        "Alex Freeland"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
@@ -45662,7 +45654,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 57.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Freddie Freeman",
@@ -45672,7 +45664,7 @@
             "prob_3j_4j": 52.9,
             "pct_hit": 69.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -45766,5 +45758,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "01/09/26 16:00"
+  "alineaciones_actualizadas": "01/09/26 16:30"
 }
