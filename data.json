@@ -43706,7 +43706,17 @@
         "Brewer Hicklen",
         "Ha-Seong Kim"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "CJ Abrams",
+        "Dylan Crews",
+        "Brady House",
+        "Daylen Lile",
+        "Yohandy Morales",
+        "Abimelec Ortiz",
+        "Harry Ford",
+        "Jorbit Vivas",
+        "Jacob Young"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -43769,7 +43779,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 61.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brady House",
@@ -43779,35 +43789,10 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 58.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Keibert Ruiz",
-            "juegos": 3,
-            "avg": 0.385,
-            "prob_2j_3j": 52.9,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 63.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Nasim Nuñez",
-            "prob": 63,
-            "prob_2j_3j": 73.3,
-            "pct_hit": 48.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "prob": 21,
-            "prob_2j_3j": 0,
-            "pct_hit": 34.8,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": []
       },
       "away_pitcher": {
@@ -43894,7 +43879,17 @@
       "home": "Minnesota Twins",
       "game_id": 823661,
       "fecha": "2026-09-01",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kevin McGonigle",
+        "Gleyber Torres",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Hao-Yu Lee",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Javier Báez",
+        "John Peck"
+      ],
       "home_lineup": [
         "Luke Keaschall",
         "Brooks Lee",
@@ -43906,7 +43901,7 @@
         "Kaelen Culpepper",
         "Walker Jenkins"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43917,31 +43912,17 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 62.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Zach McKinstry",
-            "prob": 48,
-            "prob_1j_2j": 51.6,
-            "pct_hit": 42.1,
-            "confirmado": false
-          },
-          {
             "jugador": "Hao-Yu Lee",
             "prob": 48,
             "prob_1j_2j": 51.9,
             "pct_hit": 52.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Callahan",
-            "prob": 30,
-            "prob_1j_2j": 0,
-            "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44308,7 +44289,17 @@
       "home": "Chicago Cubs",
       "game_id": 824633,
       "fecha": "2026-09-01",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Chourio",
+        "Brice Turang",
+        "William Contreras",
+        "Jake Bauers",
+        "Andrew Vaughn",
+        "Christian Yelich",
+        "Luis Lara",
+        "Joey Ortiz",
+        "Cooper Pratt"
+      ],
       "home_lineup": [
         "Pete Crow-Armstrong",
         "Seiya Suzuki",
@@ -44320,7 +44311,7 @@
         "BJ Murray Jr.",
         "Matt Shaw"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44331,7 +44322,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 72.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "William Contreras",
@@ -44341,23 +44332,16 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Garrett Mitchell",
-            "prob": 57,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 52.7,
-            "confirmado": false
-          },
           {
             "jugador": "Jake Bauers",
             "prob": 48,
             "prob_2j_3j": 47.6,
             "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44366,28 +44350,21 @@
             "prob": 60,
             "prob_1j_2j": 69.2,
             "pct_hit": 51.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrew Vaughn",
             "prob": 49,
             "prob_1j_2j": 50.0,
             "pct_hit": 54.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Luis Lara",
             "prob": 38,
             "prob_1j_2j": 0,
             "pct_hit": 53.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "David Hamilton",
-            "prob": 36,
-            "prob_1j_2j": 37.5,
-            "pct_hit": 45.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44759,7 +44736,17 @@
       "game_id": 824148,
       "fecha": "2026-09-01",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "LaMonte Wade Jr.",
+        "Christian Walker",
+        "Yainer Diaz",
+        "Taylor Trammell",
+        "Cam Smith"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -44813,7 +44800,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 72.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yainer Diaz",
@@ -44823,7 +44810,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 66.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Altuve",
@@ -44833,60 +44820,38 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Nick Allen",
-            "prob": 26,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 40.9,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Yordan Alvarez",
             "prob": 70,
             "prob_1j_2j": 72.3,
             "pct_hit": 66.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Isaac Paredes",
             "prob": 65,
             "prob_1j_2j": 67.8,
             "pct_hit": 60.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cam Smith",
             "prob": 55,
             "prob_1j_2j": 58.0,
             "pct_hit": 50.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Vázquez",
-            "prob": 41,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 45.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "LaMonte Wade Jr.",
             "prob": 41,
             "prob_1j_2j": 50.0,
             "pct_hit": 34.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nelson Velázquez",
-            "prob": 26,
-            "prob_1j_2j": 27.3,
-            "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45791,5 +45756,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "01/09/26 14:00"
+  "alineaciones_actualizadas": "01/09/26 14:30"
 }
