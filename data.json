@@ -44677,7 +44677,17 @@
       "game_id": 825037,
       "fecha": "2026-09-02",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Lars Nootbaar",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "James McCann",
+        "Ildemaro Vargas",
+        "Jordan Lawlar"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -44763,39 +44773,21 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Ryan Waldschmidt",
-            "juegos": 3,
-            "avg": 0.4,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 53.4,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
-          {
-            "jugador": "Ketel Marte",
-            "prob": 74,
-            "prob_2j_3j": 79.2,
-            "pct_hit": 64.2,
-            "confirmado": false
-          },
           {
             "jugador": "Ildemaro Vargas",
             "prob": 61,
             "prob_2j_3j": 70.0,
             "pct_hit": 58.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Lawlar",
             "prob": 53,
             "prob_2j_3j": 66.7,
             "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44804,7 +44796,7 @@
             "prob": 47,
             "prob_1j_2j": 53.8,
             "pct_hit": 47.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47055,5 +47047,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 09:00"
+  "alineaciones_actualizadas": "02/09/26 09:30"
 }
