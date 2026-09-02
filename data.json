@@ -44019,7 +44019,17 @@
         "Austin Riley",
         "Ha-Seong Kim"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "James Wood",
+        "Abimelec Ortiz",
+        "Dylan Crews",
+        "CJ Abrams",
+        "Andrés Chaparro",
+        "Daylen Lile",
+        "Yohandy Morales",
+        "Keibert Ruiz",
+        "Nasim Nuñez"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -44085,16 +44095,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Brady House",
-            "juegos": 5,
-            "avg": 0.389,
-            "prob_2j_3j": 63.6,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 59.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Andrés Chaparro",
             "juegos": 3,
             "avg": 0.3,
@@ -44102,7 +44102,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 36.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Keibert Ruiz",
@@ -44112,7 +44112,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 63.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44121,7 +44121,7 @@
             "prob": 63,
             "prob_2j_3j": 73.3,
             "pct_hit": 49.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44130,28 +44130,7 @@
             "prob": 67,
             "prob_1j_2j": 70.3,
             "pct_hit": 62.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jacob Young",
-            "prob": 57,
-            "prob_1j_2j": 57.4,
-            "pct_hit": 58.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jorbit Vivas",
-            "prob": 54,
-            "prob_1j_2j": 61.1,
-            "pct_hit": 47.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Harry Ford",
-            "prob": 30,
-            "prob_1j_2j": 0,
-            "pct_hit": 45.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47076,5 +47055,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 08:30"
+  "alineaciones_actualizadas": "02/09/26 09:00"
 }
