@@ -43804,21 +43804,31 @@
       "home": "Cincinnati Reds",
       "game_id": 824470,
       "fecha": "2026-09-02",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Samad Taylor",
+        "Jackson Merrill",
+        "Ty France",
+        "Xander Bogaerts",
+        "Ethan Salas",
+        "Austin Hays",
+        "Luis Campusano",
+        "Jake Cronenworth"
+      ],
+      "home_lineup": [
+        "Héctor Rodríguez",
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Dane Myers",
+        "Juan Brito",
+        "Matt McLain",
+        "Edwin Arroyo"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Dustin Harris",
-            "juegos": 5,
-            "avg": 0.471,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 60.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Jackson Merrill",
             "juegos": 3,
@@ -43827,7 +43837,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43836,25 +43846,17 @@
             "prob": 64,
             "prob_2j_3j": 57.1,
             "pct_hit": 69.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Samad Taylor",
             "prob": 57,
             "prob_2j_3j": 60.0,
             "pct_hit": 76.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Jase Bowen",
-            "prob": 15,
-            "prob_1j_2j": 0,
-            "pct_hit": 22.6,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -43866,7 +43868,7 @@
             "prob_3j_4j": 61.5,
             "pct_hit": 68.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyler Stephenson",
@@ -43876,7 +43878,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 55.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Héctor Rodríguez",
@@ -43886,7 +43888,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -43896,28 +43898,21 @@
             "prob": 66,
             "prob_1j_2j": 69.8,
             "pct_hit": 67.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "JJ Bleday",
             "prob": 64,
             "prob_1j_2j": 71.4,
             "pct_hit": 53.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Edwin Arroyo",
             "prob": 49,
             "prob_1j_2j": 52.9,
             "pct_hit": 52.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jose Trevino",
-            "prob": 40,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 38.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47078,5 +47073,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 07:00"
+  "alineaciones_actualizadas": "02/09/26 08:00"
 }
