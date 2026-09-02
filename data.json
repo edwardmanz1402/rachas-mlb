@@ -44450,9 +44450,9 @@
         "Hunter Goodman",
         "TJ Rumfield",
         "Cole Carrigg",
-        "Jordan Beck",
+        "Zac Veen",
         "Adael Amador",
-        "Troy Johnston",
+        "Nick Frasso",
         "Mickey Moniak"
       ],
       "alineacion_confirmada": true,
@@ -44522,20 +44522,18 @@
             "pct_hit": 56.6,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
-          },
-          {
-            "jugador": "Troy Johnston",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 63.6,
-            "prob_3j_4j": 46.2,
-            "pct_hit": 63.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": []
+        "candidatos_1j": [
+          {
+            "jugador": "Zac Veen",
+            "prob": 33,
+            "prob_1j_2j": 0,
+            "pct_hit": 46.7,
+            "confirmado": true
+          }
+        ]
       },
       "away_pitcher": {
         "nombre": "Trevor Rogers",
@@ -44632,7 +44630,7 @@
       "away_lineup": [
         "Kyle Schwarber",
         "Trea Turner",
-        "Bryce Harper",
+        "Derek Hill",
         "Luis Arraez",
         "Bryson Stott",
         "Brandon Marsh",
@@ -44641,7 +44639,7 @@
         "Bryan De La Cruz"
       ],
       "home_lineup": [
-        "Lars Nootbaar",
+        "Jorge Barrosa",
         "Corbin Carroll",
         "Gabriel Moreno",
         "Geraldo Perdomo",
@@ -44655,22 +44653,22 @@
       "away_data": {
         "racha": [
           {
+            "jugador": "Derek Hill",
+            "juegos": 4,
+            "avg": 0.364,
+            "prob_2j_3j": 45.5,
+            "prob_3j_4j": 50.0,
+            "pct_hit": 49.3,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": true
+          },
+          {
             "jugador": "Justin Crawford",
             "juegos": 3,
             "avg": 0.375,
             "prob_2j_3j": 64.7,
             "prob_3j_4j": 30.0,
             "pct_hit": 56.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Bryce Harper",
-            "juegos": 3,
-            "avg": 0.615,
-            "prob_2j_3j": 57.1,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 58.3,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
           }
@@ -44971,18 +44969,18 @@
       },
       "away_pitcher": {
         "nombre": "Bryce Miller",
-        "avg_contra": ".227",
-        "era": "4.04",
+        "avg_contra": ".228",
+        "era": "4.01",
         "whip": "1.11",
-        "k9": "8.72",
-        "h9": "7.62",
-        "ip_temporada": "98.0",
+        "k9": "8.67",
+        "h9": "7.66",
+        "ip_temporada": "98.2",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "4.0",
+            "ip": "4.2",
             "k": 3,
-            "h": 6,
+            "h": 7,
             "er": 1,
             "bb": 1
           },
@@ -46512,7 +46510,17 @@
       "game_id": 823983,
       "fecha": "2026-09-02",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Wade Meckler",
+        "Vaughn Grissom",
+        "Moisés Ballesteros",
+        "Christian Moore",
+        "Josh Lowe",
+        "Oswald Peraza",
+        "Travis d'Arnaud"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -46618,7 +46626,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 53.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zach Neto",
@@ -46628,7 +46636,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 62.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wade Meckler",
@@ -46638,32 +46646,24 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 63.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Tyler Heineman",
-            "prob": 20,
-            "prob_2j_3j": 0,
-            "pct_hit": 32.7,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Oswald Peraza",
             "prob": 51,
             "prob_1j_2j": 52.3,
             "pct_hit": 48.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Moisés Ballesteros",
             "prob": 45,
             "prob_1j_2j": 50.0,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46931,5 +46931,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 15:30"
+  "alineaciones_actualizadas": "02/09/26 16:00"
 }
