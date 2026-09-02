@@ -44008,9 +44008,19 @@
       "home": "Washington Nationals",
       "game_id": 822686,
       "fecha": "2026-09-02",
-      "away_lineup": [],
+      "away_lineup": [
+        "Drake Baldwin",
+        "Ronald Acuña Jr.",
+        "Matt Olson",
+        "Ozzie Albies",
+        "Michael Harris II",
+        "Sean Murphy",
+        "Mike Yastrzemski",
+        "Austin Riley",
+        "Ha-Seong Kim"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44021,7 +44031,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 67.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Harris II",
@@ -44031,7 +44041,7 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 70.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sean Murphy",
@@ -44041,7 +44051,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 58.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ozzie Albies",
@@ -44051,7 +44061,7 @@
             "prob_3j_4j": 92.3,
             "pct_hit": 63.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -44061,21 +44071,14 @@
             "prob": 71,
             "prob_1j_2j": 72.9,
             "pct_hit": 69.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brewer Hicklen",
-            "prob": 40,
-            "prob_1j_2j": 0,
-            "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ha-Seong Kim",
             "prob": 32,
             "prob_1j_2j": 40.0,
             "pct_hit": 20.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47073,5 +47076,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 08:00"
+  "alineaciones_actualizadas": "02/09/26 08:30"
 }
