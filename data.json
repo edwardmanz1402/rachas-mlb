@@ -43816,7 +43816,7 @@
         "Jake Cronenworth"
       ],
       "home_lineup": [
-        "Héctor Rodríguez",
+        "TJ Friedl",
         "Elly De La Cruz",
         "Sal Stewart",
         "JJ Bleday",
@@ -43888,16 +43888,6 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 55.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Héctor Rodríguez",
-            "juegos": 3,
-            "avg": 0.308,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 50.0,
-            "tipo": "🎲 POSIBLE SUERTE",
             "confirmado": true
           }
         ],
@@ -44366,19 +44356,19 @@
       },
       "away_pitcher": {
         "nombre": "Jacob Lopez",
-        "avg_contra": ".251",
-        "era": "4.89",
-        "whip": "1.48",
-        "k9": "8.70",
-        "h9": "8.70",
-        "ip_temporada": "99.1",
+        "avg_contra": ".250",
+        "era": "4.90",
+        "whip": "1.47",
+        "k9": "9.00",
+        "h9": "8.64",
+        "ip_temporada": "101.0",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "1.0",
-            "k": 2,
-            "h": 1,
-            "er": 1,
+            "ip": "2.0",
+            "k": 5,
+            "h": 2,
+            "er": 2,
             "bb": 1
           },
           {
@@ -44409,20 +44399,20 @@
       },
       "home_pitcher": {
         "nombre": "Cody Bradford",
-        "avg_contra": ".321",
-        "era": "3.29",
-        "whip": "1.50",
-        "k9": "5.27",
-        "h9": "11.52",
-        "ip_temporada": "27.1",
+        "avg_contra": ".331",
+        "era": "4.03",
+        "whip": "1.59",
+        "k9": "4.97",
+        "h9": "12.10",
+        "ip_temporada": "29.0",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "1.0",
+            "ip": "2.2",
             "k": 3,
-            "h": 1,
-            "er": 0,
-            "bb": 0
+            "h": 5,
+            "er": 3,
+            "bb": 1
           },
           {
             "fecha": "2026-08-28",
@@ -44554,13 +44544,21 @@
       },
       "away_pitcher": {
         "nombre": "Trevor Rogers",
-        "avg_contra": ".253",
-        "era": "4.38",
-        "whip": "1.25",
-        "k9": "7.91",
-        "h9": "8.83",
-        "ip_temporada": "137.2",
+        "avg_contra": ".252",
+        "era": "4.36",
+        "whip": "1.24",
+        "k9": "7.87",
+        "h9": "8.78",
+        "ip_temporada": "138.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-02",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-27",
             "ip": "5.0",
@@ -44584,26 +44582,26 @@
             "h": 7,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-10",
-            "ip": "4.0",
-            "k": 4,
-            "h": 4,
-            "er": 2,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Tomoyuki Sugano",
-        "avg_contra": ".284",
-        "era": "5.23",
-        "whip": "1.36",
-        "k9": "5.37",
-        "h9": "10.17",
-        "ip_temporada": "125.2",
+        "avg_contra": ".282",
+        "era": "5.19",
+        "whip": "1.35",
+        "k9": "5.47",
+        "h9": "10.09",
+        "ip_temporada": "126.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-02",
+            "ip": "1.2",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-28",
             "ip": "4.0",
@@ -44627,14 +44625,6 @@
             "h": 7,
             "er": 6,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-11",
-            "ip": "6.0",
-            "k": 5,
-            "h": 6,
-            "er": 2,
-            "bb": 0
           }
         ]
       }
@@ -45485,7 +45475,17 @@
       "home": "Cleveland Guardians",
       "game_id": 824390,
       "fecha": "2026-09-02",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brett Bateman",
+        "George Springer",
+        "Vladimir Guerrero Jr.",
+        "Alejandro Kirk",
+        "Kazuma Okamoto",
+        "Nathan Lukes",
+        "Ernie Clement",
+        "Andrés Giménez",
+        "Myles Straw"
+      ],
       "home_lineup": [
         "Steven Kwan",
         "Chase DeLauter",
@@ -45497,7 +45497,7 @@
         "Patrick Bailey",
         "Angel Genao"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -45508,7 +45508,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 64.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -45517,14 +45517,14 @@
             "prob": 64,
             "prob_2j_3j": 66.7,
             "pct_hit": 61.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kazuma Okamoto",
             "prob": 55,
             "prob_2j_3j": 54.2,
             "pct_hit": 58.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -45916,7 +45916,17 @@
       "game_id": 824068,
       "fecha": "2026-09-02",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Carter Jensen",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Vinnie Pasquantino",
+        "Nick Loftin",
+        "Michael Massey",
+        "John Rave",
+        "Kyle Isbel"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -45988,26 +45998,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Tyler Tolbert",
-            "juegos": 5,
-            "avg": 0.556,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 0,
-            "pct_hit": 41.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Josh Rojas",
-            "juegos": 4,
-            "avg": 0.462,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.3,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Nick Loftin",
             "juegos": 3,
             "avg": 0.308,
@@ -46015,7 +46005,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 45.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -46024,7 +46014,7 @@
             "prob": 66,
             "prob_2j_3j": 77.8,
             "pct_hit": 57.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46033,7 +46023,7 @@
             "prob": 75,
             "prob_1j_2j": 73.9,
             "pct_hit": 72.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46981,5 +46971,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 13:00"
+  "alineaciones_actualizadas": "02/09/26 13:30"
 }
