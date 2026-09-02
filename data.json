@@ -43918,18 +43918,18 @@
       },
       "away_pitcher": {
         "nombre": "Casey Mize",
-        "avg_contra": ".234",
-        "era": "3.71",
-        "whip": "1.13",
-        "k9": "7.90",
-        "h9": "7.90",
-        "ip_temporada": "111.2",
+        "avg_contra": ".232",
+        "era": "3.64",
+        "whip": "1.12",
+        "k9": "7.92",
+        "h9": "7.84",
+        "ip_temporada": "113.2",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "2.0",
-            "k": 2,
-            "h": 4,
+            "ip": "4.0",
+            "k": 4,
+            "h": 5,
             "er": 4,
             "bb": 1
           },
@@ -43961,17 +43961,17 @@
       },
       "home_pitcher": {
         "nombre": "Brandon Williamson",
-        "avg_contra": ".276",
-        "era": "6.39",
-        "whip": "1.71",
-        "k9": "5.81",
-        "h9": "9.29",
-        "ip_temporada": "31.0",
+        "avg_contra": ".269",
+        "era": "6.19",
+        "whip": "1.66",
+        "k9": "6.19",
+        "h9": "9.00",
+        "ip_temporada": "32.0",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "3.0",
-            "k": 1,
+            "ip": "4.0",
+            "k": 3,
             "h": 6,
             "er": 3,
             "bb": 1
@@ -44027,7 +44027,7 @@
         "Andrés Chaparro",
         "Daylen Lile",
         "Yohandy Morales",
-        "Keibert Ruiz",
+        "Harry Ford",
         "Nasim Nuñez"
       ],
       "alineacion_confirmada": true,
@@ -44103,16 +44103,6 @@
             "pct_hit": 36.2,
             "tipo": "🎲 POSIBLE SUERTE",
             "confirmado": true
-          },
-          {
-            "jugador": "Keibert Ruiz",
-            "juegos": 3,
-            "avg": 0.385,
-            "prob_2j_3j": 52.9,
-            "prob_3j_4j": 71.4,
-            "pct_hit": 63.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44131,21 +44121,28 @@
             "prob_1j_2j": 70.3,
             "pct_hit": 62.2,
             "confirmado": true
+          },
+          {
+            "jugador": "Harry Ford",
+            "prob": 30,
+            "prob_1j_2j": 0,
+            "pct_hit": 45.0,
+            "confirmado": true
           }
         ]
       },
       "away_pitcher": {
         "nombre": "Grant Holmes",
-        "avg_contra": ".237",
-        "era": "3.65",
-        "whip": "1.32",
-        "k9": "7.16",
-        "h9": "8.06",
-        "ip_temporada": "130.2",
+        "avg_contra": ".236",
+        "era": "3.62",
+        "whip": "1.31",
+        "k9": "7.11",
+        "h9": "8.00",
+        "ip_temporada": "131.2",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "2.0",
+            "ip": "3.0",
             "k": 1,
             "h": 0,
             "er": 0,
@@ -44179,20 +44176,20 @@
       },
       "home_pitcher": {
         "nombre": "Brad Lord",
-        "avg_contra": ".208",
-        "era": "3.64",
-        "whip": "1.16",
-        "k9": "8.67",
-        "h9": "6.91",
-        "ip_temporada": "71.2",
+        "avg_contra": ".210",
+        "era": "3.58",
+        "whip": "1.18",
+        "k9": "8.63",
+        "h9": "7.03",
+        "ip_temporada": "73.0",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "2.0",
-            "k": 5,
-            "h": 0,
+            "ip": "3.1",
+            "k": 6,
+            "h": 2,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-08-29",
@@ -44449,7 +44446,17 @@
       "home": "Colorado Rockies",
       "game_id": 824312,
       "fecha": "2026-09-02",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Holliday",
+        "Pete Alonso",
+        "Gunnar Henderson",
+        "Luis Robert Jr.",
+        "Samuel Basallo",
+        "Coby Mayo",
+        "Dylan Beavers",
+        "Blaze Alexander",
+        "Colton Cowser"
+      ],
       "home_lineup": [
         "Jake McCarthy",
         "Connor Norby",
@@ -44461,7 +44468,7 @@
         "Ryan Ritter",
         "Ezequiel Tovar"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44472,7 +44479,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 51.1,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44481,7 +44488,7 @@
             "prob": 45,
             "prob_2j_3j": 50.0,
             "pct_hit": 50.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44490,28 +44497,14 @@
             "prob": 60,
             "prob_1j_2j": 61.9,
             "pct_hit": 65.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Carlos Narváez",
-            "prob": 45,
-            "prob_1j_2j": 52.0,
-            "pct_hit": 36.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Holliday",
             "prob": 39,
             "prob_1j_2j": 42.1,
             "pct_hit": 40.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Christian Encarnacion-Strand",
-            "prob": 34,
-            "prob_1j_2j": 0,
-            "pct_hit": 46.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46976,5 +46969,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 11:30"
+  "alineaciones_actualizadas": "02/09/26 12:00"
 }
