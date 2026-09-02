@@ -44226,7 +44226,17 @@
       "home": "Texas Rangers",
       "game_id": 822851,
       "fecha": "2026-09-02",
-      "away_lineup": [],
+      "away_lineup": [
+        "Henry Bolte",
+        "Zack Gelof",
+        "Lawrence Butler",
+        "Jonah Heim",
+        "Jeff McNeil",
+        "Michael Stefanic",
+        "Alika Williams",
+        "Brian Serven",
+        "Denzel Clarke"
+      ],
       "home_lineup": [
         "Ezequiel Duran",
         "Corey Seager",
@@ -44238,7 +44248,7 @@
         "Cody Freeman",
         "Danny Jansen"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44249,30 +44259,23 @@
             "prob_3j_4j": 0,
             "pct_hit": 48.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Carlos Cortes",
-            "prob": 70,
-            "prob_2j_3j": 84.6,
-            "pct_hit": 52.0,
-            "confirmado": false
-          },
           {
             "jugador": "Jonah Heim",
             "prob": 68,
             "prob_2j_3j": 80.0,
             "pct_hit": 51.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alika Williams",
             "prob": 65,
             "prob_2j_3j": 83.3,
             "pct_hit": 52.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44281,28 +44284,28 @@
             "prob": 72,
             "prob_1j_2j": 80.9,
             "pct_hit": 66.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Henry Bolte",
             "prob": 63,
             "prob_1j_2j": 66.7,
             "pct_hit": 58.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jeff McNeil",
             "prob": 50,
             "prob_1j_2j": 50.0,
             "pct_hit": 52.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brian Serven",
             "prob": 37,
             "prob_1j_2j": 0,
             "pct_hit": 57.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44447,7 +44450,17 @@
       "game_id": 824312,
       "fecha": "2026-09-02",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Connor Norby",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Cole Carrigg",
+        "Jordan Beck",
+        "Adael Amador",
+        "Ryan Ritter",
+        "Ezequiel Tovar"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -44512,7 +44525,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake McCarthy",
@@ -44522,61 +44535,17 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 71.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Mickey Moniak",
-            "juegos": 3,
-            "avg": 0.25,
-            "prob_2j_3j": 68.8,
-            "prob_3j_4j": 77.8,
-            "pct_hit": 56.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Sullivan",
-            "juegos": 3,
-            "avg": 0.444,
-            "prob_2j_3j": 42.9,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 44.2,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Troy Johnston",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 63.6,
-            "prob_3j_4j": 46.2,
-            "pct_hit": 63.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Willi Castro",
-            "prob": 62,
-            "prob_1j_2j": 58.0,
-            "pct_hit": 66.0,
-            "confirmado": false
-          },
-          {
             "jugador": "Ezequiel Tovar",
             "prob": 52,
             "prob_1j_2j": 54.2,
             "pct_hit": 50.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Zac Veen",
-            "prob": 33,
-            "prob_1j_2j": 0,
-            "pct_hit": 46.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47043,5 +47012,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 10:00"
+  "alineaciones_actualizadas": "02/09/26 10:30"
 }
