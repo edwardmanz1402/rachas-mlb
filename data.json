@@ -43716,9 +43716,19 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823337,
       "fecha": "2026-09-03",
-      "away_lineup": [],
+      "away_lineup": [
+        "Drew Gilbert",
+        "Rafael Devers",
+        "Bryce Eldridge",
+        "Jonah Cox",
+        "Turner Hill",
+        "Andrew Knizner",
+        "Shay Whitcomb",
+        "Nate Furman",
+        "Christian Koss"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43729,7 +43739,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 62.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Turner Hill",
@@ -43739,7 +43749,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 64.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Eldridge",
@@ -43749,7 +43759,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43758,28 +43768,14 @@
             "prob": 25,
             "prob_2j_3j": 0,
             "pct_hit": 41.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Osleivis Basabe",
-            "prob": 25,
-            "prob_2j_3j": 0,
-            "pct_hit": 42.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drew Cavanaugh",
-            "prob": 19,
-            "prob_2j_3j": 0,
-            "pct_hit": 30.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Shay Whitcomb",
             "prob": 9,
             "prob_2j_3j": 0,
             "pct_hit": 14.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -45732,5 +45728,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 07:00"
+  "alineaciones_actualizadas": "03/09/26 08:00"
 }
