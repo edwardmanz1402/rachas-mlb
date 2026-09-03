@@ -45673,8 +45673,8 @@
         "Brooks Lee",
         "Kody Clemens",
         "Ryan Jeffers",
-        "Josh Bell",
-        "Trevor Larnach",
+        "Ben Ross",
+        "Ryan Kreidler",
         "Royce Lewis",
         "Kaelen Culpepper",
         "Walker Jenkins"
@@ -45753,16 +45753,6 @@
             "pct_hit": 65.5,
             "tipo": "🔥 JUGADOR DE RACHA",
             "confirmado": true
-          },
-          {
-            "jugador": "Trevor Larnach",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 71.4,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 53.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -45775,13 +45765,6 @@
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Josh Bell",
-            "prob": 60,
-            "prob_1j_2j": 59.0,
-            "pct_hit": 62.3,
-            "confirmado": true
-          },
           {
             "jugador": "Royce Lewis",
             "prob": 60,
@@ -46319,8 +46302,8 @@
         "Sam Antonacci",
         "Munetaka Murakami",
         "Miguel Vargas",
-        "Andrew Benintendi",
-        "Braden Montgomery",
+        "Tommy Pham",
+        "Randal Grichuk",
         "Colson Montgomery",
         "Chase Meidroth",
         "Tristan Peters",
@@ -46328,11 +46311,11 @@
       ],
       "home_lineup": [
         "Jeremy Peña",
-        "Yordan Alvarez",
+        "Nick Allen",
         "Isaac Paredes",
         "Jose Altuve",
         "Daulton Varsho",
-        "Nelson Velázquez",
+        "Jake Meyers",
         "Cam Smith",
         "Christian Walker",
         "Christian Vázquez"
@@ -46369,10 +46352,10 @@
         ],
         "candidatos_1j": [
           {
-            "jugador": "Andrew Benintendi",
-            "prob": 39,
-            "prob_1j_2j": 36.4,
-            "pct_hit": 51.4,
+            "jugador": "Randal Grichuk",
+            "prob": 33,
+            "prob_1j_2j": 30.8,
+            "pct_hit": 45.1,
             "confirmado": true
           }
         ]
@@ -46385,6 +46368,13 @@
             "prob": 56,
             "prob_2j_3j": 53.8,
             "pct_hit": 60.7,
+            "confirmado": true
+          },
+          {
+            "jugador": "Nick Allen",
+            "prob": 27,
+            "prob_2j_3j": 25.0,
+            "pct_hit": 42.2,
             "confirmado": true
           }
         ],
@@ -46632,17 +46622,17 @@
       },
       "away_pitcher": {
         "nombre": "Cam Schlittler",
-        "avg_contra": ".197",
-        "era": "2.07",
-        "whip": "0.97",
+        "avg_contra": ".195",
+        "era": "2.05",
+        "whip": "0.96",
         "k9": "11.02",
-        "h9": "6.44",
-        "ip_temporada": "165.0",
+        "h9": "6.37",
+        "ip_temporada": "166.2",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "1.1",
-            "k": 1,
+            "ip": "3.0",
+            "k": 3,
             "h": 1,
             "er": 0,
             "bb": 0
@@ -46675,19 +46665,19 @@
       },
       "home_pitcher": {
         "nombre": "Reid Detmers",
-        "avg_contra": ".214",
-        "era": "3.50",
-        "whip": "1.06",
-        "k9": "10.03",
-        "h9": "7.05",
-        "ip_temporada": "157.0",
+        "avg_contra": ".216",
+        "era": "3.46",
+        "whip": "1.07",
+        "k9": "10.04",
+        "h9": "7.09",
+        "ip_temporada": "158.2",
         "ultimas4": [
           {
             "fecha": "2026-09-02",
-            "ip": "2.0",
-            "k": 1,
-            "h": 1,
-            "er": 0,
+            "ip": "3.2",
+            "k": 3,
+            "h": 5,
+            "er": 1,
             "bb": 0
           },
           {
@@ -46842,13 +46832,21 @@
       },
       "away_pitcher": {
         "nombre": "Brycen Mautz",
-        "avg_contra": ".346",
-        "era": "9.00",
-        "whip": "2.00",
-        "k9": "15.00",
-        "h9": "13.50",
-        "ip_temporada": "6.0",
+        "avg_contra": ".379",
+        "era": "12.79",
+        "whip": "2.37",
+        "k9": "14.21",
+        "h9": "15.63",
+        "ip_temporada": "6.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-02",
+            "ip": "0.2",
+            "k": 0,
+            "h": 2,
+            "er": 3,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-29",
             "ip": "3.0",
@@ -46869,13 +46867,21 @@
       },
       "home_pitcher": {
         "nombre": "Yoshinobu Yamamoto",
-        "avg_contra": ".187",
-        "era": "2.56",
+        "avg_contra": ".186",
+        "era": "2.55",
         "whip": "0.89",
         "k9": "8.72",
-        "h9": "5.98",
-        "ip_temporada": "158.0",
+        "h9": "5.94",
+        "ip_temporada": "159.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-02",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-27",
             "ip": "6.1",
@@ -46899,18 +46905,10 @@
             "h": 4,
             "er": 1,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-08",
-            "ip": "5.2",
-            "k": 6,
-            "h": 3,
-            "er": 0,
-            "bb": 3
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "02/09/26 20:00"
+  "alineaciones_actualizadas": "02/09/26 20:30"
 }
