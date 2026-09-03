@@ -45008,7 +45008,17 @@
       "home": "Texas Rangers",
       "game_id": 822853,
       "fecha": "2026-09-03",
-      "away_lineup": [],
+      "away_lineup": [
+        "Yandy Díaz",
+        "Chandler Simpson",
+        "Junior Caminero",
+        "Jonathan Aranda",
+        "Jonny DeLuca",
+        "Cedric Mullins",
+        "Jorge Mateo",
+        "Richie Palacios",
+        "Nick Fortes"
+      ],
       "home_lineup": [
         "Ezequiel Duran",
         "Corey Seager",
@@ -45020,19 +45030,9 @@
         "Cody Freeman",
         "Elias Díaz"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Taylor Walls",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 64.3,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 52.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
           {
             "jugador": "Chandler Simpson",
             "juegos": 3,
@@ -45041,7 +45041,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 71.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -45050,21 +45050,21 @@
             "prob": 72,
             "prob_2j_3j": 72.4,
             "pct_hit": 67.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cedric Mullins",
             "prob": 55,
             "prob_2j_3j": 60.0,
             "pct_hit": 52.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Richie Palacios",
             "prob": 50,
             "prob_2j_3j": 54.5,
             "pct_hit": 45.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -45073,21 +45073,14 @@
             "prob": 67,
             "prob_1j_2j": 68.3,
             "pct_hit": 67.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Fortes",
             "prob": 60,
             "prob_1j_2j": 65.9,
             "pct_hit": 55.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Vilade",
-            "prob": 51,
-            "prob_1j_2j": 56.5,
-            "pct_hit": 45.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45680,5 +45673,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 15:00"
+  "alineaciones_actualizadas": "03/09/26 15:30"
 }
