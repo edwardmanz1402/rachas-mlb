@@ -44164,7 +44164,7 @@
         "Jeremy Peña",
         "Yordan Alvarez",
         "Isaac Paredes",
-        "Jose Altuve",
+        "Nick Allen",
         "Daulton Varsho",
         "Christian Walker",
         "Taylor Trammell",
@@ -44198,7 +44198,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Nick Allen",
+            "prob": 27,
+            "prob_2j_3j": 25.0,
+            "pct_hit": 42.2,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Jeremy Peña",
@@ -44754,7 +44762,17 @@
       "home": "Kansas City Royals",
       "game_id": 824069,
       "fecha": "2026-09-03",
-      "away_lineup": [],
+      "away_lineup": [
+        "Heriberto Hernández",
+        "Kyle Stowers",
+        "Otto Lopez",
+        "Griffin Conine",
+        "Javier Sanoja",
+        "Jakob Marsee",
+        "Agustín Ramírez",
+        "Joe Mack",
+        "Graham Pauley"
+      ],
       "home_lineup": [
         "Carter Jensen",
         "Bobby Witt Jr.",
@@ -44766,7 +44784,7 @@
         "Isaac Collins",
         "Kyle Isbel"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44777,7 +44795,7 @@
             "prob_3j_4j": 65.0,
             "pct_hit": 73.8,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Sanoja",
@@ -44787,7 +44805,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 55.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Stowers",
@@ -44797,7 +44815,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 57.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joe Mack",
@@ -44807,7 +44825,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -44817,35 +44835,28 @@
             "prob": 55,
             "prob_1j_2j": 61.5,
             "pct_hit": 51.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Owen Caissie",
-            "prob": 51,
-            "prob_1j_2j": 51.2,
-            "pct_hit": 48.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Heriberto Hernández",
             "prob": 50,
             "prob_1j_2j": 52.8,
             "pct_hit": 52.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jakob Marsee",
             "prob": 50,
             "prob_1j_2j": 51.1,
             "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Graham Pauley",
             "prob": 41,
             "prob_1j_2j": 46.2,
             "pct_hit": 40.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45669,5 +45680,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 14:30"
+  "alineaciones_actualizadas": "03/09/26 15:00"
 }
