@@ -44158,7 +44158,7 @@
         "Christian Walker",
         "Taylor Trammell",
         "Yainer Diaz",
-        "LaMonte Wade Jr."
+        "Cam Smith"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -44216,25 +44216,32 @@
             "prob_1j_2j": 62.2,
             "pct_hit": 56.2,
             "confirmado": true
+          },
+          {
+            "jugador": "Cam Smith",
+            "prob": 55,
+            "prob_1j_2j": 58.0,
+            "pct_hit": 50.8,
+            "confirmado": true
           }
         ]
       },
       "away_pitcher": {
         "nombre": "Luis Castillo",
         "avg_contra": ".282",
-        "era": "5.59",
+        "era": "5.57",
         "whip": "1.46",
-        "k9": "7.81",
-        "h9": "10.31",
-        "ip_temporada": "125.2",
+        "k9": "7.79",
+        "h9": "10.29",
+        "ip_temporada": "126.0",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "3.0",
+            "ip": "4.0",
             "k": 3,
-            "h": 5,
+            "h": 6,
             "er": 6,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-28",
@@ -44264,20 +44271,20 @@
       },
       "home_pitcher": {
         "nombre": "Hunter Brown",
-        "avg_contra": ".217",
-        "era": "3.39",
-        "whip": "1.32",
-        "k9": "9.64",
-        "h9": "7.09",
-        "ip_temporada": "85.0",
+        "avg_contra": ".213",
+        "era": "3.31",
+        "whip": "1.30",
+        "k9": "9.62",
+        "h9": "6.93",
+        "ip_temporada": "87.0",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "4.0",
-            "k": 5,
+            "ip": "6.0",
+            "k": 7,
             "h": 6,
             "er": 2,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-08-28",
@@ -44311,9 +44318,19 @@
       "home": "Baltimore Orioles",
       "game_id": 824796,
       "fecha": "2026-09-03",
-      "away_lineup": [],
+      "away_lineup": [
+        "Roman Anthony",
+        "Mickey Gasper",
+        "Adley Rutschman",
+        "Wilyer Abreu",
+        "Nick Sogard",
+        "Caleb Durbin",
+        "Jarren Duran",
+        "Eli White",
+        "Isiah Kiner-Falefa"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -44324,17 +44341,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Trevor Story",
-            "juegos": 4,
-            "avg": 0.438,
-            "prob_2j_3j": 41.7,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 67.4,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mickey Gasper",
@@ -44344,7 +44351,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 61.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44353,37 +44360,23 @@
             "prob": 59,
             "prob_2j_3j": 56.5,
             "pct_hit": 60.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eli White",
             "prob": 28,
             "prob_2j_3j": 28.6,
             "pct_hit": 40.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Ceddanne Rafaela",
-            "prob": 69,
-            "prob_1j_2j": 68.8,
-            "pct_hit": 72.4,
-            "confirmado": false
-          },
           {
             "jugador": "Caleb Durbin",
             "prob": 59,
             "prob_1j_2j": 63.0,
             "pct_hit": 54.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jahmai Jones",
-            "prob": 29,
-            "prob_1j_2j": 33.3,
-            "pct_hit": 26.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44789,7 +44782,17 @@
       "game_id": 824069,
       "fecha": "2026-09-03",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Carter Jensen",
+        "Bobby Witt Jr.",
+        "Jac Caglianone",
+        "Salvador Perez",
+        "Vinnie Pasquantino",
+        "Michael Massey",
+        "Josh Rojas",
+        "Isaac Collins",
+        "Kyle Isbel"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -44876,16 +44879,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Nick Loftin",
-            "juegos": 4,
-            "avg": 0.312,
-            "prob_2j_3j": 30.0,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 46.5,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Josh Rojas",
             "juegos": 4,
             "avg": 0.462,
@@ -44893,7 +44886,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 42.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carter Jensen",
@@ -44903,7 +44896,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 58.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44912,7 +44905,7 @@
             "prob": 77,
             "prob_2j_3j": 75.9,
             "pct_hit": 72.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -44921,28 +44914,21 @@
             "prob": 63,
             "prob_1j_2j": 61.8,
             "pct_hit": 62.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Salvador Perez",
             "prob": 55,
             "prob_1j_2j": 56.0,
             "pct_hit": 60.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Massey",
             "prob": 54,
             "prob_1j_2j": 56.1,
             "pct_hit": 56.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "John Rave",
-            "prob": 26,
-            "prob_1j_2j": 0,
-            "pct_hit": 38.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45714,5 +45700,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 13:30"
+  "alineaciones_actualizadas": "03/09/26 14:00"
 }
