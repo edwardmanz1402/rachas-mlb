@@ -44134,9 +44134,29 @@
       "home": "Houston Astros",
       "game_id": 824144,
       "fecha": "2026-09-03",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Sam Antonacci",
+        "Munetaka Murakami",
+        "Miguel Vargas",
+        "Andrew Benintendi",
+        "Braden Montgomery",
+        "Colson Montgomery",
+        "Chase Meidroth",
+        "Tristan Peters",
+        "Jake Rogers"
+      ],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Taylor Trammell",
+        "Yainer Diaz",
+        "LaMonte Wade Jr."
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -44146,14 +44166,14 @@
             "prob": 57,
             "prob_1j_2j": 61.2,
             "pct_hit": 51.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Munetaka Murakami",
             "prob": 55,
             "prob_1j_2j": 58.3,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -44167,53 +44187,31 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 61.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Nick Allen",
-            "prob": 27,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 42.2,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Jeremy Peña",
             "prob": 70,
             "prob_1j_2j": 73.7,
             "pct_hit": 71.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Yordan Alvarez",
             "prob": 69,
             "prob_1j_2j": 72.3,
             "pct_hit": 65.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daulton Varsho",
             "prob": 58,
             "prob_1j_2j": 62.2,
             "pct_hit": 56.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Cam Smith",
-            "prob": 55,
-            "prob_1j_2j": 58.0,
-            "pct_hit": 50.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nelson Velázquez",
-            "prob": 26,
-            "prob_1j_2j": 27.3,
-            "pct_hit": 34.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -45712,5 +45710,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 09:00"
+  "alineaciones_actualizadas": "03/09/26 09:30"
 }
