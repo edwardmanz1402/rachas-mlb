@@ -44767,7 +44767,7 @@
         "Carter Jensen",
         "Bobby Witt Jr.",
         "Jac Caglianone",
-        "Salvador Perez",
+        "Tyler Tolbert",
         "Vinnie Pasquantino",
         "Michael Massey",
         "Nick Loftin",
@@ -44881,13 +44881,6 @@
             "confirmado": true
           },
           {
-            "jugador": "Salvador Perez",
-            "prob": 55,
-            "prob_1j_2j": 56.0,
-            "pct_hit": 60.5,
-            "confirmado": true
-          },
-          {
             "jugador": "Michael Massey",
             "prob": 54,
             "prob_1j_2j": 56.1,
@@ -44990,14 +44983,14 @@
       "fecha": "2026-09-03",
       "away_lineup": [
         "Yandy Díaz",
-        "Chandler Simpson",
+        "Kenny Piper",
         "Junior Caminero",
         "Jonathan Aranda",
         "Jonny DeLuca",
         "Cedric Mullins",
         "Jorge Mateo",
         "Richie Palacios",
-        "Kenny Piper"
+        "Victor Mesa Jr."
       ],
       "home_lineup": [
         "Ezequiel Duran",
@@ -45012,18 +45005,7 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Chandler Simpson",
-            "juegos": 3,
-            "avg": 0.417,
-            "prob_2j_3j": 61.5,
-            "prob_3j_4j": 78.6,
-            "pct_hit": 71.9,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Yandy Díaz",
@@ -45360,20 +45342,20 @@
       },
       "away_pitcher": {
         "nombre": "Jack Perkins",
-        "avg_contra": ".268",
-        "era": "6.59",
-        "whip": "1.52",
-        "k9": "10.35",
-        "h9": "9.60",
-        "ip_temporada": "95.2",
+        "avg_contra": ".270",
+        "era": "6.63",
+        "whip": "1.54",
+        "k9": "10.46",
+        "h9": "9.72",
+        "ip_temporada": "96.1",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "0.1",
-            "k": 1,
-            "h": 2,
-            "er": 2,
-            "bb": 1
+            "ip": "1.1",
+            "k": 3,
+            "h": 4,
+            "er": 3,
+            "bb": 3
           },
           {
             "fecha": "2026-08-29",
@@ -45403,20 +45385,20 @@
       },
       "home_pitcher": {
         "nombre": "Kade Anderson",
-        "avg_contra": ".231",
-        "era": "4.91",
-        "whip": "1.27",
-        "k9": "7.36",
-        "h9": "7.36",
-        "ip_temporada": "11.0",
+        "avg_contra": ".256",
+        "era": "5.25",
+        "whip": "1.42",
+        "k9": "7.50",
+        "h9": "8.25",
+        "ip_temporada": "12.0",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "1.0",
-            "k": 1,
-            "h": 1,
-            "er": 1,
-            "bb": 0
+            "ip": "2.0",
+            "k": 2,
+            "h": 3,
+            "er": 2,
+            "bb": 1
           },
           {
             "fecha": "2026-08-29",
@@ -45562,13 +45544,21 @@
       },
       "away_pitcher": {
         "nombre": "Quinn Mathews",
-        "avg_contra": ".295",
-        "era": "5.03",
-        "whip": "1.58",
-        "k9": "9.15",
-        "h9": "10.53",
-        "ip_temporada": "19.2",
+        "avg_contra": ".300",
+        "era": "4.95",
+        "whip": "1.65",
+        "k9": "9.00",
+        "h9": "10.80",
+        "ip_temporada": "20.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-03",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-28",
             "ip": "5.2",
@@ -45592,26 +45582,26 @@
             "h": 2,
             "er": 1,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-01",
-            "ip": "5.0",
-            "k": 3,
-            "h": 6,
-            "er": 2,
-            "bb": 3
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Tarik Skubal",
-        "avg_contra": ".211",
-        "era": "2.84",
-        "whip": "0.94",
-        "k9": "10.87",
-        "h9": "6.96",
-        "ip_temporada": "126.2",
+        "avg_contra": ".215",
+        "era": "2.89",
+        "whip": "0.96",
+        "k9": "10.86",
+        "h9": "7.12",
+        "ip_temporada": "127.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-03",
+            "ip": "1.0",
+            "k": 1,
+            "h": 3,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-28",
             "ip": "6.0",
@@ -45635,18 +45625,10 @@
             "h": 7,
             "er": 1,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-10",
-            "ip": "5.0",
-            "k": 6,
-            "h": 4,
-            "er": 3,
-            "bb": 2
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 20:00"
+  "alineaciones_actualizadas": "03/09/26 20:30"
 }
