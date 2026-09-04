@@ -44332,7 +44332,7 @@
       "fecha": "2026-09-03",
       "away_lineup": [
         "Roman Anthony",
-        "Mickey Gasper",
+        "Jahmai Jones",
         "Adley Rutschman",
         "Wilyer Abreu",
         "Nick Sogard",
@@ -44364,16 +44364,6 @@
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
-          },
-          {
-            "jugador": "Mickey Gasper",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 37.5,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 61.9,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -44398,6 +44388,13 @@
             "prob": 59,
             "prob_1j_2j": 63.0,
             "pct_hit": 54.5,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jahmai Jones",
+            "prob": 29,
+            "prob_1j_2j": 33.3,
+            "pct_hit": 26.2,
             "confirmado": true
           }
         ]
@@ -44569,7 +44566,7 @@
         "Ian Happ",
         "Nico Hoerner",
         "Pedro Ramírez",
-        "Michael Conforto",
+        "Matt Shaw",
         "Carson Kelly"
       ],
       "alineacion_confirmada": true,
@@ -44650,6 +44647,16 @@
             "pct_hit": 65.9,
             "tipo": "🔥 JUGADOR DE RACHA",
             "confirmado": true
+          },
+          {
+            "jugador": "Matt Shaw",
+            "juegos": 3,
+            "avg": 0.273,
+            "prob_2j_3j": 44.4,
+            "prob_3j_4j": 75.0,
+            "pct_hit": 47.1,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -44672,17 +44679,17 @@
       },
       "away_pitcher": {
         "nombre": "Logan Henderson",
-        "avg_contra": ".179",
-        "era": "2.51",
-        "whip": "0.80",
-        "k9": "10.06",
-        "h9": "5.68",
-        "ip_temporada": "82.1",
+        "avg_contra": ".177",
+        "era": "2.48",
+        "whip": "0.79",
+        "k9": "10.04",
+        "h9": "5.62",
+        "ip_temporada": "83.1",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "6.0",
-            "k": 6,
+            "ip": "7.0",
+            "k": 7,
             "h": 3,
             "er": 2,
             "bb": 0
@@ -44715,12 +44722,12 @@
       },
       "home_pitcher": {
         "nombre": "Kevin Gausman",
-        "avg_contra": ".256",
-        "era": "4.40",
+        "avg_contra": ".255",
+        "era": "4.38",
         "whip": "1.26",
-        "k9": "9.19",
-        "h9": "8.91",
-        "ip_temporada": "161.2",
+        "k9": "9.15",
+        "h9": "8.87",
+        "ip_temporada": "162.1",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
@@ -44919,16 +44926,16 @@
       "away_pitcher": {
         "nombre": "Sandy Alcantara",
         "avg_contra": ".243",
-        "era": "3.48",
+        "era": "3.54",
         "whip": "1.19",
-        "k9": "6.54",
-        "h9": "8.35",
-        "ip_temporada": "194.0",
+        "k9": "6.53",
+        "h9": "8.33",
+        "ip_temporada": "195.2",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "4.1",
-            "k": 1,
+            "ip": "6.0",
+            "k": 2,
             "h": 6,
             "er": 4,
             "bb": 1
@@ -44961,17 +44968,17 @@
       },
       "home_pitcher": {
         "nombre": "Michael Wacha",
-        "avg_contra": ".231",
-        "era": "3.38",
-        "whip": "1.11",
-        "k9": "7.22",
-        "h9": "7.74",
-        "ip_temporada": "175.2",
+        "avg_contra": ".229",
+        "era": "3.36",
+        "whip": "1.10",
+        "k9": "7.28",
+        "h9": "7.69",
+        "ip_temporada": "176.2",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "5.0",
-            "k": 5,
+            "ip": "6.0",
+            "k": 7,
             "h": 6,
             "er": 3,
             "bb": 2
@@ -45135,19 +45142,19 @@
       },
       "away_pitcher": {
         "nombre": "Shane McClanahan",
-        "avg_contra": ".204",
-        "era": "3.10",
-        "whip": "1.09",
-        "k9": "8.22",
-        "h9": "6.83",
-        "ip_temporada": "116.0",
+        "avg_contra": ".211",
+        "era": "3.36",
+        "whip": "1.12",
+        "k9": "8.08",
+        "h9": "7.09",
+        "ip_temporada": "118.0",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "3.1",
+            "ip": "5.0",
             "k": 3,
-            "h": 2,
-            "er": 0,
+            "h": 6,
+            "er": 4,
             "bb": 1
           },
           {
@@ -45178,17 +45185,17 @@
       },
       "home_pitcher": {
         "nombre": "Cal Quantrill",
-        "avg_contra": ".224",
-        "era": "2.88",
-        "whip": "1.08",
-        "k9": "6.82",
-        "h9": "7.59",
-        "ip_temporada": "93.2",
+        "avg_contra": ".221",
+        "era": "2.82",
+        "whip": "1.06",
+        "k9": "6.87",
+        "h9": "7.43",
+        "ip_temporada": "95.2",
         "ultimas4": [
           {
             "fecha": "2026-09-03",
-            "ip": "4.0",
-            "k": 3,
+            "ip": "6.0",
+            "k": 5,
             "h": 2,
             "er": 0,
             "bb": 0
@@ -45667,5 +45674,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "03/09/26 19:00"
+  "alineaciones_actualizadas": "03/09/26 19:30"
 }
