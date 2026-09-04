@@ -43881,6 +43881,14 @@
         "ip_temporada": "139.0",
         "ultimas4": [
           {
+            "fecha": "2026-09-04",
+            "ip": "0.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-08-29",
             "ip": "5.1",
             "k": 3,
@@ -43903,26 +43911,26 @@
             "h": 3,
             "er": 0,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-07",
-            "ip": "6.0",
-            "k": 5,
-            "h": 5,
-            "er": 5,
-            "bb": 3
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Logan Allen",
-        "avg_contra": ".283",
-        "era": "3.77",
-        "whip": "1.47",
-        "k9": "9.42",
-        "h9": "10.67",
-        "ip_temporada": "14.1",
+        "avg_contra": ".313",
+        "era": "5.87",
+        "whip": "1.76",
+        "k9": "9.39",
+        "h9": "12.33",
+        "ip_temporada": "15.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-04",
+            "ip": "1.0",
+            "k": 1,
+            "h": 4,
+            "er": 4,
+            "bb": 2
+          },
           {
             "fecha": "2026-08-29",
             "ip": "2.0",
@@ -43945,14 +43953,6 @@
             "k": 1,
             "h": 0,
             "er": 0,
-            "bb": 0
-          },
-          {
-            "fecha": "2026-08-16",
-            "ip": "1.0",
-            "k": 0,
-            "h": 1,
-            "er": 1,
             "bb": 0
           }
         ]
@@ -44348,7 +44348,17 @@
         "Austin Riley",
         "Ha-Seong Kim"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Edmundo Sosa",
+        "Bryson Stott",
+        "J.T. Realmuto",
+        "Derek Hill"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -44386,7 +44396,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 47.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
@@ -44396,7 +44406,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 58.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Derek Hill",
@@ -44406,7 +44416,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 49.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -44504,9 +44514,19 @@
       "home": "Pittsburgh Pirates",
       "game_id": 823338,
       "fecha": "2026-09-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Wade Meckler",
+        "Vaughn Grissom",
+        "Moisés Ballesteros",
+        "Christian Moore",
+        "Jose Siri",
+        "Adam Frazier",
+        "Oswald Peraza"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -46855,5 +46875,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/09/26 13:00"
+  "alineaciones_actualizadas": "04/09/26 13:30"
 }
