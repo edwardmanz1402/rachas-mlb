@@ -43762,9 +43762,29 @@
       "home": "Cleveland Guardians",
       "game_id": 824424,
       "fecha": "2026-09-04",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Gleyber Torres",
+        "Kevin McGonigle",
+        "Hao-Yu Lee",
+        "Dillon Dingler",
+        "Riley Greene",
+        "Ben Malgeri",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Javier Báez"
+      ],
+      "home_lineup": [
+        "Steven Kwan",
+        "Chase DeLauter",
+        "José Ramírez",
+        "Jo Adell",
+        "Nathaniel Lowe",
+        "Angel Genao",
+        "Travis Bazzana",
+        "Patrick Bailey",
+        "Brayan Rocchio"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43775,7 +43795,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 63.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hao-Yu Lee",
@@ -43785,7 +43805,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 52.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -43801,7 +43821,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 44.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -43810,58 +43830,44 @@
             "prob": 69,
             "prob_2j_3j": 78.9,
             "pct_hit": 63.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Austin Hedges",
-            "prob": 64,
-            "prob_1j_2j": 74.1,
-            "pct_hit": 53.6,
-            "confirmado": false
-          },
           {
             "jugador": "Steven Kwan",
             "prob": 60,
             "prob_1j_2j": 60.4,
             "pct_hit": 62.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Ramírez",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 60.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jo Adell",
             "prob": 56,
             "prob_1j_2j": 56.9,
             "pct_hit": 54.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathaniel Lowe",
             "prob": 54,
             "prob_1j_2j": 57.1,
             "pct_hit": 55.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Angel Genao",
             "prob": 37,
             "prob_1j_2j": 0,
             "pct_hit": 57.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "David Fry",
-            "prob": 28,
-            "prob_1j_2j": 31.6,
-            "pct_hit": 29.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46819,5 +46825,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/09/26 09:00"
+  "alineaciones_actualizadas": "04/09/26 09:30"
 }
