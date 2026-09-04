@@ -43963,9 +43963,19 @@
       "home": "Cleveland Guardians",
       "game_id": 824387,
       "fecha": "2026-09-04",
-      "away_lineup": [],
+      "away_lineup": [
+        "Gleyber Torres",
+        "Hao-Yu Lee",
+        "Kevin McGonigle",
+        "Eduardo Valencia",
+        "Spencer Torkelson",
+        "Max Clark",
+        "Ben Malgeri",
+        "John Peck",
+        "Zach McKinstry"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -43976,7 +43986,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 63.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hao-Yu Lee",
@@ -43986,7 +43996,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 52.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -46515,7 +46525,17 @@
       "game_id": 823093,
       "fecha": "2026-09-04",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Cal Raleigh",
+        "Josh Naylor",
+        "Cole Young",
+        "J.P. Crawford",
+        "Lazaro Montes",
+        "Brock Rodden"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -46643,7 +46663,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 47.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Randy Arozarena",
@@ -46653,7 +46673,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 63.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "J.P. Crawford",
@@ -46663,7 +46683,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 54.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
@@ -46673,7 +46693,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 51.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Julio Rodríguez",
@@ -46683,30 +46703,16 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 66.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Jhonny Pereda",
-            "prob": 66,
-            "prob_2j_3j": 80.0,
-            "pct_hit": 68.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Weston Wilson",
-            "prob": 31,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 41.9,
-            "confirmado": false
-          },
           {
             "jugador": "Brock Rodden",
             "prob": 25,
             "prob_2j_3j": 0,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46715,7 +46721,7 @@
             "prob": 68,
             "prob_1j_2j": 70.8,
             "pct_hit": 61.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46807,5 +46813,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/09/26 16:00"
+  "alineaciones_actualizadas": "04/09/26 16:30"
 }
