@@ -43873,20 +43873,20 @@
       },
       "away_pitcher": {
         "nombre": "Keider Montero",
-        "avg_contra": ".214",
-        "era": "3.29",
-        "whip": "1.01",
-        "k9": "6.07",
-        "h9": "7.15",
-        "ip_temporada": "142.1",
+        "avg_contra": ".216",
+        "era": "3.52",
+        "whip": "1.03",
+        "k9": "6.04",
+        "h9": "7.24",
+        "ip_temporada": "143.0",
         "ultimas4": [
           {
             "fecha": "2026-09-04",
-            "ip": "3.1",
+            "ip": "4.0",
             "k": 4,
-            "h": 6,
-            "er": 2,
-            "bb": 0
+            "h": 8,
+            "er": 6,
+            "bb": 1
           },
           {
             "fecha": "2026-08-29",
@@ -45614,21 +45614,31 @@
       "home": "Houston Astros",
       "game_id": 824146,
       "fecha": "2026-09-04",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Lars Nootbaar",
+        "Nolan Arenado",
+        "Max Kepler",
+        "Tim Tawa",
+        "Ryan Waldschmidt"
+      ],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Taylor Trammell",
+        "Yainer Diaz",
+        "LaMonte Wade Jr."
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "James McCann",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Ryan Waldschmidt",
             "juegos": 3,
@@ -45637,7 +45647,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 53.4,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -45653,7 +45663,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 61.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -45662,7 +45672,7 @@
             "prob": 48,
             "prob_2j_3j": 47.4,
             "pct_hit": 56.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -45671,42 +45681,35 @@
             "prob": 67,
             "prob_1j_2j": 73.3,
             "pct_hit": 65.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Walker",
             "prob": 60,
             "prob_1j_2j": 62.1,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jose Altuve",
             "prob": 59,
             "prob_1j_2j": 61.4,
             "pct_hit": 59.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Taylor Trammell",
             "prob": 48,
             "prob_1j_2j": 57.9,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "LaMonte Wade Jr.",
             "prob": 41,
             "prob_1j_2j": 50.0,
             "pct_hit": 32.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Nelson Velázquez",
-            "prob": 26,
-            "prob_1j_2j": 27.3,
-            "pct_hit": 34.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46827,5 +46830,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "04/09/26 14:30"
+  "alineaciones_actualizadas": "04/09/26 15:00"
 }
