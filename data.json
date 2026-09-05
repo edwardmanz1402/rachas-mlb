@@ -47336,9 +47336,29 @@
       "home": "Philadelphia Phillies",
       "game_id": 823419,
       "fecha": "2026-09-05",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Drake Baldwin",
+        "Ronald Acuña Jr.",
+        "Matt Olson",
+        "Michael Harris II",
+        "Mauricio Dubón",
+        "Ozzie Albies",
+        "Dominic Smith",
+        "Austin Riley",
+        "Ha-Seong Kim"
+      ],
+      "home_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Edmundo Sosa",
+        "J.T. Realmuto",
+        "Bryson Stott",
+        "Derek Hill"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -47349,7 +47369,7 @@
             "prob_3j_4j": 92.3,
             "pct_hit": 64.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -47358,14 +47378,14 @@
             "prob": 48,
             "prob_2j_3j": 46.7,
             "pct_hit": 61.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Austin Riley",
             "prob": 33,
             "prob_2j_3j": 26.3,
             "pct_hit": 47.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -47374,21 +47394,14 @@
             "prob": 69,
             "prob_1j_2j": 71.4,
             "pct_hit": 67.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mauricio Dubón",
             "prob": 65,
             "prob_1j_2j": 67.2,
             "pct_hit": 65.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Mike Yastrzemski",
-            "prob": 52,
-            "prob_1j_2j": 56.8,
-            "pct_hit": 45.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47402,7 +47415,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 48.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -47411,7 +47424,7 @@
             "prob": 61,
             "prob_2j_3j": 66.7,
             "pct_hit": 60.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -47420,14 +47433,14 @@
             "prob": 73,
             "prob_1j_2j": 71.4,
             "pct_hit": 73.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Trea Turner",
             "prob": 65,
             "prob_1j_2j": 67.2,
             "pct_hit": 62.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47524,7 +47537,17 @@
       "game_id": 824389,
       "fecha": "2026-09-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Steven Kwan",
+        "Angel Martínez",
+        "José Ramírez",
+        "Jo Adell",
+        "David Fry",
+        "Angel Genao",
+        "Petey Halpin",
+        "Austin Hedges",
+        "Brayan Rocchio"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -47600,62 +47623,37 @@
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Nathaniel Lowe",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 53.8,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 55.9,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Brayan Rocchio",
             "prob": 68,
             "prob_2j_3j": 72.7,
             "pct_hit": 58.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Travis Bazzana",
-            "prob": 55,
-            "prob_2j_3j": 64.3,
-            "pct_hit": 51.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Chase DeLauter",
-            "prob": 64,
-            "prob_1j_2j": 68.0,
-            "pct_hit": 63.6,
-            "confirmado": false
-          },
           {
             "jugador": "José Ramírez",
             "prob": 59,
             "prob_1j_2j": 60.0,
             "pct_hit": 60.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jo Adell",
             "prob": 56,
             "prob_1j_2j": 56.9,
             "pct_hit": 54.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Angel Genao",
             "prob": 37,
             "prob_1j_2j": 0,
             "pct_hit": 56.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47752,7 +47750,17 @@
       "game_id": 823335,
       "fecha": "2026-09-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Konnor Griffin",
+        "Esmerlyn Valdez",
+        "Bryan Reynolds",
+        "Oneil Cruz",
+        "Nick Gonzales",
+        "Rafael Flores Jr.",
+        "Jared Triolo",
+        "Jake Mangum",
+        "Nick Yorke"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -47803,45 +47811,31 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
-            "jugador": "Brandon Lowe",
-            "prob": 64,
-            "prob_1j_2j": 63.3,
-            "pct_hit": 66.1,
-            "confirmado": false
-          },
-          {
             "jugador": "Bryan Reynolds",
             "prob": 64,
             "prob_1j_2j": 67.7,
             "pct_hit": 64.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nick Yorke",
             "prob": 48,
             "prob_1j_2j": 54.5,
             "pct_hit": 44.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jacob Gonzalez",
-            "prob": 45,
-            "prob_1j_2j": 53.8,
-            "pct_hit": 35.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Rafael Flores Jr.",
             "prob": 30,
             "prob_1j_2j": 0,
             "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47938,7 +47932,17 @@
       "game_id": 824468,
       "fecha": "2026-09-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Héctor Rodríguez",
+        "Elly De La Cruz",
+        "Sal Stewart",
+        "JJ Bleday",
+        "Tyler Stephenson",
+        "Eugenio Suárez",
+        "Jose Trevino",
+        "Carlos Jorge",
+        "Matt McLain"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -48052,39 +48056,31 @@
             "prob_3j_4j": 83.3,
             "pct_hit": 68.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Dane Myers",
-            "prob": 35,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 48.6,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Sal Stewart",
             "prob": 70,
             "prob_1j_2j": 69.4,
             "pct_hit": 68.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eugenio Suárez",
             "prob": 46,
             "prob_1j_2j": 50.0,
             "pct_hit": 47.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Matt McLain",
             "prob": 44,
             "prob_1j_2j": 47.2,
             "pct_hit": 41.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -48865,9 +48861,19 @@
       "home": "Chicago White Sox",
       "game_id": 824553,
       "fecha": "2026-09-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Luke Keaschall",
+        "Kaelen Culpepper",
+        "Ryan Jeffers",
+        "Josh Bell",
+        "Royce Lewis",
+        "Kody Clemens",
+        "Brooks Lee",
+        "Gabriel Gonzalez",
+        "Ryan Kreidler"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48878,7 +48884,7 @@
             "prob_3j_4j": 54.5,
             "pct_hit": 62.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Royce Lewis",
@@ -48888,7 +48894,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 62.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -48898,14 +48904,14 @@
             "prob": 60,
             "prob_1j_2j": 62.0,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kaelen Culpepper",
             "prob": 46,
             "prob_1j_2j": 0,
             "pct_hit": 72.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49050,21 +49056,21 @@
       "home": "Houston Astros",
       "game_id": 824145,
       "fecha": "2026-09-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Geraldo Perdomo",
+        "Gabriel Moreno",
+        "Ketel Marte",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Max Kepler",
+        "Tim Tawa",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "James McCann",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
           {
             "jugador": "Ketel Marte",
             "juegos": 3,
@@ -49073,7 +49079,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 64.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49082,7 +49088,7 @@
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 57.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49091,7 +49097,7 @@
             "prob": 66,
             "prob_1j_2j": 70.5,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49419,7 +49425,17 @@
       "game_id": 824310,
       "fecha": "2026-09-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Connor Norby",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Cole Carrigg",
+        "Jordan Beck",
+        "Troy Johnston",
+        "Adael Amador",
+        "Ezequiel Tovar"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -49517,17 +49533,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Sullivan",
-            "juegos": 4,
-            "avg": 0.5,
-            "prob_2j_3j": 42.9,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 45.3,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Adael Amador",
@@ -49537,7 +49543,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 75.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49546,7 +49552,7 @@
             "prob": 46,
             "prob_2j_3j": 50.0,
             "pct_hit": 56.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49555,21 +49561,21 @@
             "prob": 65,
             "prob_1j_2j": 64.3,
             "pct_hit": 63.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ezequiel Tovar",
             "prob": 52,
             "prob_1j_2j": 54.2,
             "pct_hit": 50.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Connor Norby",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50113,5 +50119,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/09/26 12:30"
+  "alineaciones_actualizadas": "05/09/26 13:00"
 }
