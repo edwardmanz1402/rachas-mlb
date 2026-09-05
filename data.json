@@ -46892,7 +46892,17 @@
       "game_id": 823577,
       "fecha": "2026-09-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Francisco Lindor",
+        "Juan Soto",
+        "Bo Bichette",
+        "Carson Benge",
+        "Jared Young",
+        "Marcus Semien",
+        "A.J. Ewing",
+        "Francisco Alvarez",
+        "Brett Baty"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -46978,7 +46988,7 @@
             "prob_3j_4j": 78.6,
             "pct_hit": 64.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carson Benge",
@@ -46988,7 +46998,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Francisco Lindor",
@@ -46998,39 +47008,31 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 55.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Mark Vientos",
-            "prob": 44,
-            "prob_2j_3j": 42.9,
-            "pct_hit": 51.4,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Francisco Alvarez",
             "prob": 62,
             "prob_1j_2j": 65.0,
             "pct_hit": 58.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Baty",
             "prob": 60,
             "prob_1j_2j": 65.3,
             "pct_hit": 52.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "A.J. Ewing",
             "prob": 50,
             "prob_1j_2j": 51.5,
             "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47126,9 +47128,19 @@
       "home": "Miami Marlins",
       "game_id": 823823,
       "fecha": "2026-09-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Michael Busch",
+        "Alex Bregman",
+        "Ian Happ",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Michael Conforto",
+        "Miguel Amaya"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -47139,7 +47151,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
@@ -47149,27 +47161,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 68.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Tyrone Taylor",
-            "juegos": 3,
-            "avg": 0.545,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 0,
-            "pct_hit": 43.8,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Matt Shaw",
-            "juegos": 3,
-            "avg": 0.273,
-            "prob_2j_3j": 44.4,
-            "prob_3j_4j": 75.0,
-            "pct_hit": 47.1,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -47179,28 +47171,28 @@
             "prob": 70,
             "prob_1j_2j": 68.3,
             "pct_hit": 66.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Busch",
             "prob": 66,
             "prob_1j_2j": 69.5,
             "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ian Happ",
             "prob": 55,
             "prob_1j_2j": 58.5,
             "pct_hit": 53.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Michael Conforto",
             "prob": 45,
             "prob_1j_2j": 50.0,
             "pct_hit": 38.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50115,5 +50107,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/09/26 10:30"
+  "alineaciones_actualizadas": "05/09/26 11:00"
 }
