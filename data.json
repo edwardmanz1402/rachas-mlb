@@ -47034,17 +47034,17 @@
       },
       "away_pitcher": {
         "nombre": "Anthony Molina",
-        "avg_contra": ".203",
-        "era": "2.89",
-        "whip": "0.91",
-        "k9": "6.75",
-        "h9": "6.75",
-        "ip_temporada": "18.2",
+        "avg_contra": ".197",
+        "era": "2.79",
+        "whip": "0.88",
+        "k9": "6.98",
+        "h9": "6.52",
+        "ip_temporada": "19.1",
         "ultimas4": [
           {
             "fecha": "2026-09-05",
-            "ip": "4.1",
-            "k": 5,
+            "ip": "5.0",
+            "k": 6,
             "h": 1,
             "er": 0,
             "bb": 1
@@ -47246,20 +47246,20 @@
       },
       "away_pitcher": {
         "nombre": "Javier Assad",
-        "avg_contra": ".232",
-        "era": "3.34",
-        "whip": "1.14",
-        "k9": "5.94",
-        "h9": "7.61",
-        "ip_temporada": "86.1",
+        "avg_contra": ".230",
+        "era": "3.50",
+        "whip": "1.13",
+        "k9": "5.87",
+        "h9": "7.52",
+        "ip_temporada": "87.1",
         "ultimas4": [
           {
             "fecha": "2026-09-05",
-            "ip": "3.0",
+            "ip": "4.0",
             "k": 2,
             "h": 2,
-            "er": 0,
-            "bb": 4
+            "er": 2,
+            "bb": 5
           },
           {
             "fecha": "2026-08-18",
@@ -47289,19 +47289,19 @@
       },
       "home_pitcher": {
         "nombre": "Ryan Gusto",
-        "avg_contra": ".269",
-        "era": "4.14",
-        "whip": "1.40",
-        "k9": "7.66",
-        "h9": "9.80",
-        "ip_temporada": "71.2",
+        "avg_contra": ".272",
+        "era": "4.23",
+        "whip": "1.41",
+        "k9": "7.71",
+        "h9": "9.95",
+        "ip_temporada": "72.1",
         "ultimas4": [
           {
             "fecha": "2026-09-05",
-            "ip": "4.0",
-            "k": 4,
-            "h": 8,
-            "er": 4,
+            "ip": "4.2",
+            "k": 5,
+            "h": 10,
+            "er": 5,
             "bb": 2
           },
           {
@@ -49626,7 +49626,17 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823904,
       "fecha": "2026-09-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "James Wood",
+        "Daylen Lile",
+        "Abimelec Ortiz",
+        "CJ Abrams",
+        "Brady House",
+        "Jorbit Vivas",
+        "José Tena",
+        "Keibert Ruiz",
+        "Dylan Crews"
+      ],
       "home_lineup": [
         "Tommy Edman",
         "Freddie Freeman",
@@ -49638,7 +49648,7 @@
         "Alex Freeland",
         "Hunter Feduccia"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -49649,17 +49659,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Yohandy Morales",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 100.0,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49668,7 +49668,7 @@
             "prob": 72,
             "prob_2j_3j": 75.0,
             "pct_hit": 63.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49677,28 +49677,21 @@
             "prob": 53,
             "prob_1j_2j": 57.1,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "José Tena",
             "prob": 42,
             "prob_1j_2j": 46.7,
             "pct_hit": 37.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Abimelec Ortiz",
             "prob": 32,
             "prob_1j_2j": 0,
             "pct_hit": 48.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "prob": 17,
-            "prob_1j_2j": 12.5,
-            "pct_hit": 36.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49833,7 +49826,17 @@
       "game_id": 823094,
       "fecha": "2026-09-05",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Julio Rodríguez",
+        "Cal Raleigh",
+        "Josh Naylor",
+        "J.P. Crawford",
+        "Taylor Ward",
+        "Cole Young",
+        "Weston Wilson"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -49939,7 +49942,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 48.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "J.P. Crawford",
@@ -49949,7 +49952,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 54.8,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
@@ -49959,17 +49962,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 52.3,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brock Rodden",
-            "juegos": 3,
-            "avg": 0.556,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 46.2,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49978,21 +49971,14 @@
             "prob": 72,
             "prob_2j_3j": 76.9,
             "pct_hit": 62.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jhonny Pereda",
-            "prob": 66,
-            "prob_2j_3j": 80.0,
-            "pct_hit": 68.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Weston Wilson",
             "prob": 31,
             "prob_2j_3j": 33.3,
             "pct_hit": 41.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50001,7 +49987,7 @@
             "prob": 68,
             "prob_1j_2j": 70.0,
             "pct_hit": 65.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50093,5 +50079,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/09/26 15:30"
+  "alineaciones_actualizadas": "05/09/26 16:00"
 }
