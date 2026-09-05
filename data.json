@@ -46891,7 +46891,17 @@
       "home": "New York Mets",
       "game_id": 823577,
       "fecha": "2026-09-05",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jonah Cox",
+        "Rafael Devers",
+        "Bryce Eldridge",
+        "Osleivis Basabe",
+        "Turner Hill",
+        "Andrew Knizner",
+        "Shay Whitcomb",
+        "Grant McCray",
+        "Christian Koss"
+      ],
       "home_lineup": [
         "Francisco Lindor",
         "Juan Soto",
@@ -46903,7 +46913,7 @@
         "Francisco Alvarez",
         "Brett Baty"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -46914,23 +46924,16 @@
             "prob_3j_4j": 0,
             "pct_hit": 42.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Drew Gilbert",
-            "prob": 63,
-            "prob_2j_3j": 77.8,
-            "pct_hit": 46.0,
-            "confirmado": false
-          },
           {
             "jugador": "Shay Whitcomb",
             "prob": 11,
             "prob_2j_3j": 0,
             "pct_hit": 18.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46939,42 +46942,35 @@
             "prob": 63,
             "prob_1j_2j": 65.1,
             "pct_hit": 62.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Eldridge",
             "prob": 62,
             "prob_1j_2j": 65.7,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Turner Hill",
             "prob": 40,
             "prob_1j_2j": 0,
             "pct_hit": 62.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Koss",
             "prob": 29,
             "prob_1j_2j": 0,
             "pct_hit": 43.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonah Cox",
             "prob": 21,
             "prob_1j_2j": 20.0,
             "pct_hit": 33.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drew Cavanaugh",
-            "prob": 21,
-            "prob_1j_2j": 20.0,
-            "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47139,7 +47135,17 @@
         "Michael Conforto",
         "Miguel Amaya"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Stowers",
+        "Heriberto Hernández",
+        "Griffin Conine",
+        "Otto Lopez",
+        "Jakob Marsee",
+        "Owen Caissie",
+        "Joe Mack",
+        "Graham Pauley",
+        "Javier Sanoja"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -47206,7 +47212,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 56.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Stowers",
@@ -47216,7 +47222,7 @@
             "prob_3j_4j": 42.9,
             "pct_hit": 57.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -47225,7 +47231,7 @@
             "prob": 49,
             "prob_2j_3j": 50.0,
             "pct_hit": 49.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -47234,7 +47240,7 @@
             "prob": 55,
             "prob_1j_2j": 61.5,
             "pct_hit": 51.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50107,5 +50113,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/09/26 11:00"
+  "alineaciones_actualizadas": "05/09/26 11:30"
 }
