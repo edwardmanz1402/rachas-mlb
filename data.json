@@ -48136,9 +48136,29 @@
       "home": "Baltimore Orioles",
       "game_id": 824795,
       "fecha": "2026-09-05",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Roman Anthony",
+        "Mickey Gasper",
+        "Wilyer Abreu",
+        "Trevor Story",
+        "Nick Sogard",
+        "Isiah Kiner-Falefa",
+        "Jarren Duran",
+        "Eli White",
+        "Connor Wong"
+      ],
+      "home_lineup": [
+        "Jackson Holliday",
+        "Blaze Alexander",
+        "Gunnar Henderson",
+        "Pete Alonso",
+        "Samuel Basallo",
+        "Heston Kjerstad",
+        "Christian Encarnacion-Strand",
+        "Dylan Beavers",
+        "Colton Cowser"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48149,7 +48169,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 67.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eli White",
@@ -48159,61 +48179,36 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 42.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Jahmai Jones",
-            "prob": 28,
-            "prob_2j_3j": 33.3,
-            "pct_hit": 27.3,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Ceddanne Rafaela",
-            "prob": 69,
-            "prob_1j_2j": 68.8,
-            "pct_hit": 72.4,
-            "confirmado": false
-          },
           {
             "jugador": "Jarren Duran",
             "prob": 61,
             "prob_1j_2j": 66.0,
             "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Isiah Kiner-Falefa",
             "prob": 56,
             "prob_1j_2j": 63.6,
             "pct_hit": 54.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mickey Gasper",
             "prob": 52,
             "prob_1j_2j": 55.0,
             "pct_hit": 61.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Coby Mayo",
-            "juegos": 9,
-            "avg": 0.312,
-            "prob_2j_3j": 63.6,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 52.1,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Blaze Alexander",
             "juegos": 3,
@@ -48222,7 +48217,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48231,14 +48226,14 @@
             "prob": 61,
             "prob_2j_3j": 64.7,
             "pct_hit": 55.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Christian Encarnacion-Strand",
             "prob": 32,
             "prob_2j_3j": 0,
             "pct_hit": 48.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -50082,5 +50077,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "05/09/26 13:30"
+  "alineaciones_actualizadas": "05/09/26 14:00"
 }
