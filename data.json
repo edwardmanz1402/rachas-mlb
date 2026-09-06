@@ -46425,20 +46425,20 @@
       },
       "away_pitcher": {
         "nombre": "Kyle Harrison",
-        "avg_contra": ".242",
-        "era": "3.46",
-        "whip": "1.23",
-        "k9": "10.87",
-        "h9": "8.48",
-        "ip_temporada": "109.1",
+        "avg_contra": ".250",
+        "era": "3.67",
+        "whip": "1.27",
+        "k9": "10.93",
+        "h9": "8.81",
+        "ip_temporada": "110.1",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "2.1",
-            "k": 2,
-            "h": 4,
-            "er": 1,
-            "bb": 3
+            "ip": "3.1",
+            "k": 4,
+            "h": 9,
+            "er": 4,
+            "bb": 4
           },
           {
             "fecha": "2026-08-31",
@@ -46468,20 +46468,20 @@
       },
       "home_pitcher": {
         "nombre": "Brady Singer",
-        "avg_contra": ".277",
-        "era": "4.73",
-        "whip": "1.43",
-        "k9": "7.40",
-        "h9": "9.95",
-        "ip_temporada": "144.2",
+        "avg_contra": ".278",
+        "era": "4.88",
+        "whip": "1.45",
+        "k9": "7.41",
+        "h9": "10.01",
+        "ip_temporada": "145.2",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.0",
-            "k": 2,
-            "h": 0,
-            "er": 0,
-            "bb": 2
+            "ip": "4.0",
+            "k": 3,
+            "h": 2,
+            "er": 3,
+            "bb": 4
           },
           {
             "fecha": "2026-08-31",
@@ -46609,13 +46609,21 @@
       },
       "away_pitcher": {
         "nombre": "Tyler Mahle",
-        "avg_contra": ".254",
-        "era": "4.25",
+        "avg_contra": ".253",
+        "era": "4.23",
         "whip": "1.29",
-        "k9": "8.71",
-        "h9": "8.57",
-        "ip_temporada": "125.0",
+        "k9": "8.74",
+        "h9": "8.52",
+        "ip_temporada": "125.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-08-30",
             "ip": "6.2",
@@ -46639,26 +46647,26 @@
             "h": 6,
             "er": 2,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-12",
-            "ip": "6.0",
-            "k": 7,
-            "h": 4,
-            "er": 1,
-            "bb": 0
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Aaron Nola",
-        "avg_contra": ".269",
-        "era": "4.93",
-        "whip": "1.40",
-        "k9": "9.55",
-        "h9": "9.49",
-        "ip_temporada": "148.0",
+        "avg_contra": ".268",
+        "era": "4.89",
+        "whip": "1.39",
+        "k9": "9.54",
+        "h9": "9.42",
+        "ip_temporada": "149.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-31",
             "ip": "5.0",
@@ -46682,14 +46690,6 @@
             "h": 5,
             "er": 1,
             "bb": 0
-          },
-          {
-            "fecha": "2026-08-13",
-            "ip": "5.0",
-            "k": 9,
-            "h": 5,
-            "er": 1,
-            "bb": 3
           }
         ]
       }
@@ -48547,9 +48547,19 @@
       "home": "Seattle Mariners",
       "game_id": 823091,
       "fecha": "2026-09-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Henry Bolte",
+        "Jeff McNeil",
+        "Zack Gelof",
+        "Lawrence Butler",
+        "Carlos Cortes",
+        "Max Muncy",
+        "Donovan Walton",
+        "Alika Williams",
+        "Brian Serven"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48560,7 +48570,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alika Williams",
@@ -48570,7 +48580,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 55.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zack Gelof",
@@ -48580,7 +48590,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 67.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jeff McNeil",
@@ -48590,7 +48600,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 53.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carlos Cortes",
@@ -48600,17 +48610,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 52.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Stefanic",
-            "juegos": 3,
-            "avg": 0.4,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 71.4,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brian Serven",
@@ -48620,7 +48620,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -48630,21 +48630,21 @@
             "prob": 73,
             "prob_1j_2j": 89.5,
             "pct_hit": 53.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Henry Bolte",
             "prob": 63,
             "prob_1j_2j": 66.7,
             "pct_hit": 58.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Max Muncy",
             "prob": 53,
             "prob_1j_2j": 54.7,
             "pct_hit": 50.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -48794,7 +48794,17 @@
       "home": "San Diego Padres",
       "game_id": 823253,
       "fecha": "2026-09-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ben Rice",
+        "Cody Bellinger",
+        "Luis García Jr.",
+        "Spencer Jones",
+        "Jazz Chisholm Jr.",
+        "Jasson Domínguez",
+        "George Lombard Jr.",
+        "Ryan McMahon",
+        "Austin Wells"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Jake Cronenworth",
@@ -48806,7 +48816,7 @@
         "Xander Bogaerts",
         "Ethan Salas"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48817,7 +48827,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 62.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48826,37 +48836,23 @@
             "prob": 25,
             "prob_2j_3j": 0,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Heliot Ramos",
-            "prob": 66,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 61.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Paul Goldschmidt",
-            "prob": 63,
-            "prob_1j_2j": 70.0,
-            "pct_hit": 56.1,
-            "confirmado": false
-          },
           {
             "jugador": "Cody Bellinger",
             "prob": 61,
             "prob_1j_2j": 62.7,
             "pct_hit": 65.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ryan McMahon",
             "prob": 45,
             "prob_1j_2j": 48.5,
             "pct_hit": 43.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49370,5 +49366,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 11:00"
+  "alineaciones_actualizadas": "06/09/26 11:30"
 }
