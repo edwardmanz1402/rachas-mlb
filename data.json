@@ -46718,7 +46718,7 @@
       "fecha": "2026-09-06",
       "away_lineup": [
         "Roman Anthony",
-        "Mickey Gasper",
+        "Isiah Kiner-Falefa",
         "Adley Rutschman",
         "Trevor Story",
         "Nick Sogard",
@@ -46762,7 +46762,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Isiah Kiner-Falefa",
+            "prob": 48,
+            "prob_2j_3j": 55.6,
+            "pct_hit": 54.8,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "Nick Sogard",
@@ -47320,7 +47328,7 @@
         "Juan Soto",
         "Bo Bichette",
         "Carson Benge",
-        "Christopher Morel",
+        "Cristian Pache",
         "Marcus Semien",
         "Brett Baty",
         "A.J. Ewing",
@@ -47504,22 +47512,22 @@
       "away_lineup": [
         "Pete Crow-Armstrong",
         "Seiya Suzuki",
-        "Michael Busch",
-        "Alex Bregman",
+        "Matt Shaw",
+        "BJ Murray Jr.",
         "Michael Conforto",
-        "Nico Hoerner",
+        "Gabriel Arias",
         "Pedro Ramírez",
         "Carson Kelly",
         "Tyrone Taylor"
       ],
       "home_lineup": [
         "Kyle Stowers",
-        "Griffin Conine",
+        "Deyvison De Los Santos",
         "Owen Caissie",
         "Jakob Marsee",
         "Heriberto Hernández",
-        "Joe Mack",
-        "Otto Lopez",
+        "Brian Navarreto",
+        "Jared Serna",
         "Graham Pauley",
         "Javier Sanoja"
       ],
@@ -47538,20 +47546,6 @@
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Nico Hoerner",
-            "prob": 73,
-            "prob_2j_3j": 72.0,
-            "pct_hit": 66.4,
-            "confirmado": true
-          },
-          {
-            "jugador": "Michael Busch",
-            "prob": 63,
-            "prob_2j_3j": 64.0,
-            "pct_hit": 61.2,
-            "confirmado": true
-          },
           {
             "jugador": "Michael Conforto",
             "prob": 40,
@@ -47593,24 +47587,8 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Griffin Conine",
-            "prob": 52,
-            "prob_2j_3j": 60.0,
-            "pct_hit": 51.7,
-            "confirmado": true
-          }
-        ],
-        "candidatos_1j": [
-          {
-            "jugador": "Otto Lopez",
-            "prob": 77,
-            "prob_1j_2j": 79.7,
-            "pct_hit": 72.7,
-            "confirmado": true
-          }
-        ]
+        "candidatos_2j": [],
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Clay Holmes",
@@ -47710,7 +47688,7 @@
         "Gabriel Moreno",
         "Nolan Arenado",
         "Corbin Carroll",
-        "Tommy Troy",
+        "Lars Nootbaar",
         "James McCann",
         "Ildemaro Vargas",
         "Jordan Lawlar"
@@ -47762,6 +47740,13 @@
             "prob": 58,
             "prob_1j_2j": 57.9,
             "pct_hit": 56.7,
+            "confirmado": true
+          },
+          {
+            "jugador": "Lars Nootbaar",
+            "prob": 48,
+            "prob_1j_2j": 52.6,
+            "pct_hit": 49.2,
             "confirmado": true
           },
           {
@@ -47856,18 +47841,18 @@
       },
       "home_pitcher": {
         "nombre": "Peter Lambert",
-        "avg_contra": ".222",
-        "era": "3.68",
+        "avg_contra": ".223",
+        "era": "3.67",
         "whip": "1.23",
-        "k9": "8.85",
-        "h9": "7.43",
-        "ip_temporada": "139.1",
+        "k9": "8.83",
+        "h9": "7.47",
+        "ip_temporada": "139.2",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "6.2",
+            "ip": "7.0",
             "k": 6,
-            "h": 6,
+            "h": 7,
             "er": 3,
             "bb": 0
           },
@@ -47907,10 +47892,10 @@
         "Brett Bateman",
         "Nathan Lukes",
         "Vladimir Guerrero Jr.",
-        "Jesús Sánchez",
+        "Myles Straw",
         "Kazuma Okamoto",
-        "Sean Keys",
-        "Josh Smith",
+        "Charles McAdoo",
+        "Ernie Clement",
         "Andrés Giménez",
         "Brandon Valenzuela"
       ],
@@ -47928,6 +47913,16 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
+          {
+            "jugador": "Ernie Clement",
+            "juegos": 4,
+            "avg": 0.278,
+            "prob_2j_3j": 72.4,
+            "prob_3j_4j": 70.6,
+            "pct_hit": 67.7,
+            "tipo": "🔥 JUGADOR DE RACHA",
+            "confirmado": true
+          },
           {
             "jugador": "Brett Bateman",
             "juegos": 4,
@@ -47957,16 +47952,6 @@
             "pct_hit": 56.0,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
-          },
-          {
-            "jugador": "Sean Keys",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 50.0,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -47983,17 +47968,16 @@
             "prob_2j_3j": 54.2,
             "pct_hit": 58.5,
             "confirmado": true
-          }
-        ],
-        "candidatos_1j": [
+          },
           {
-            "jugador": "Jesús Sánchez",
-            "prob": 59,
-            "prob_1j_2j": 62.2,
-            "pct_hit": 53.9,
+            "jugador": "Myles Straw",
+            "prob": 42,
+            "prob_2j_3j": 50.0,
+            "pct_hit": 35.7,
             "confirmado": true
           }
-        ]
+        ],
+        "candidatos_1j": []
       },
       "home_data": {
         "racha": [
@@ -48146,7 +48130,7 @@
         "Jake Burger",
         "Logan O'Hoppe",
         "Elias Díaz",
-        "Cody Freeman"
+        "Evan Carter"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -48196,6 +48180,16 @@
             "confirmado": true
           },
           {
+            "jugador": "Evan Carter",
+            "juegos": 3,
+            "avg": 0.333,
+            "prob_2j_3j": 66.7,
+            "prob_3j_4j": 40.0,
+            "pct_hit": 41.4,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": true
+          },
+          {
             "jugador": "Jake Burger",
             "juegos": 3,
             "avg": 0.375,
@@ -48229,20 +48223,20 @@
       },
       "away_pitcher": {
         "nombre": "Ian Seymour",
-        "avg_contra": ".227",
-        "era": "4.18",
-        "whip": "1.13",
+        "avg_contra": ".230",
+        "era": "4.33",
+        "whip": "1.16",
         "k9": "10.83",
-        "h9": "7.74",
+        "h9": "7.89",
         "ip_temporada": "116.1",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
             "ip": "3.0",
             "k": 2,
-            "h": 3,
-            "er": 1,
-            "bb": 0
+            "h": 5,
+            "er": 3,
+            "bb": 1
           },
           {
             "fecha": "2026-08-31",
@@ -48482,19 +48476,19 @@
       },
       "away_pitcher": {
         "nombre": "Kyle Leahy",
-        "avg_contra": ".263",
-        "era": "3.20",
-        "whip": "1.30",
+        "avg_contra": ".268",
+        "era": "3.41",
+        "whip": "1.33",
         "k9": "8.45",
-        "h9": "9.14",
+        "h9": "9.34",
         "ip_temporada": "132.0",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
             "ip": "2.2",
             "k": 6,
-            "h": 3,
-            "er": 2,
+            "h": 6,
+            "er": 5,
             "bb": 0
           },
           {
@@ -48525,18 +48519,18 @@
       },
       "home_pitcher": {
         "nombre": "Tanner Gordon",
-        "avg_contra": ".301",
-        "era": "5.11",
+        "avg_contra": ".303",
+        "era": "5.01",
         "whip": "1.40",
-        "k9": "7.36",
-        "h9": "11.00",
-        "ip_temporada": "91.2",
+        "k9": "7.33",
+        "h9": "11.09",
+        "ip_temporada": "93.1",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.0",
-            "k": 3,
-            "h": 4,
+            "ip": "4.1",
+            "k": 4,
+            "h": 5,
             "er": 1,
             "bb": 0
           },
@@ -48730,12 +48724,20 @@
       "away_pitcher": {
         "nombre": "Gage Jump",
         "avg_contra": ".263",
-        "era": "5.15",
-        "whip": "1.49",
-        "k9": "9.62",
+        "era": "5.09",
+        "whip": "1.48",
+        "k9": "9.70",
         "h9": "9.03",
-        "ip_temporada": "92.2",
+        "ip_temporada": "93.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "1.0",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-31",
             "ip": "4.1",
@@ -48759,26 +48761,26 @@
             "h": 8,
             "er": 5,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-14",
-            "ip": "5.1",
-            "k": 1,
-            "h": 3,
-            "er": 3,
-            "bb": 4
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Bryan Woo",
-        "avg_contra": ".232",
-        "era": "4.25",
-        "whip": "1.09",
-        "k9": "9.04",
-        "h9": "7.95",
-        "ip_temporada": "148.1",
+        "avg_contra": ".231",
+        "era": "4.21",
+        "whip": "1.08",
+        "k9": "9.02",
+        "h9": "7.88",
+        "ip_temporada": "149.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-01",
             "ip": "6.0",
@@ -48801,14 +48803,6 @@
             "k": 5,
             "h": 3,
             "er": 2,
-            "bb": 1
-          },
-          {
-            "fecha": "2026-08-11",
-            "ip": "5.0",
-            "k": 5,
-            "h": 3,
-            "er": 0,
             "bb": 1
           }
         ]
@@ -48907,13 +48901,21 @@
       },
       "away_pitcher": {
         "nombre": "Gerrit Cole",
-        "avg_contra": ".233",
-        "era": "3.29",
-        "whip": "1.11",
-        "k9": "9.52",
-        "h9": "8.05",
-        "ip_temporada": "104.0",
+        "avg_contra": ".236",
+        "era": "3.51",
+        "whip": "1.12",
+        "k9": "9.43",
+        "h9": "8.23",
+        "ip_temporada": "105.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "0.2",
+            "k": 0,
+            "h": 3,
+            "er": 3,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-01",
             "ip": "5.1",
@@ -48937,26 +48939,26 @@
             "h": 4,
             "er": 1,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-14",
-            "ip": "6.0",
-            "k": 5,
-            "h": 5,
-            "er": 1,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Michael King",
-        "avg_contra": ".216",
-        "era": "3.11",
-        "whip": "1.17",
-        "k9": "7.83",
-        "h9": "7.00",
-        "ip_temporada": "162.0",
+        "avg_contra": ".215",
+        "era": "3.09",
+        "whip": "1.16",
+        "k9": "7.84",
+        "h9": "6.96",
+        "ip_temporada": "163.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-31",
             "ip": "6.0",
@@ -48980,14 +48982,6 @@
             "h": 4,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-14",
-            "ip": "6.0",
-            "k": 4,
-            "h": 8,
-            "er": 3,
-            "bb": 1
           }
         ]
       }
@@ -49404,5 +49398,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 14:00"
+  "alineaciones_actualizadas": "06/09/26 14:30"
 }
