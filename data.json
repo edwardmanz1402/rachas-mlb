@@ -48333,7 +48333,7 @@
         "Adael Amador",
         "Hunter Goodman",
         "Connor Norby",
-        "Ezequiel Tovar"
+        "Zac Veen"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -48444,13 +48444,6 @@
             "prob": 65,
             "prob_2j_3j": 63.6,
             "pct_hit": 63.1,
-            "confirmado": true
-          },
-          {
-            "jugador": "Ezequiel Tovar",
-            "prob": 57,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 50.4,
             "confirmado": true
           },
           {
@@ -48588,8 +48581,8 @@
         "Cal Raleigh",
         "J.P. Crawford",
         "Josh Naylor",
-        "Weston Wilson",
-        "Michael Arroyo",
+        "Cole Young",
+        "Brock Rodden",
         "Jhonny Pereda"
       ],
       "alineacion_confirmada": true,
@@ -48712,6 +48705,16 @@
             "pct_hit": 52.7,
             "tipo": "📊 IRREGULAR",
             "confirmado": true
+          },
+          {
+            "jugador": "Brock Rodden",
+            "juegos": 3,
+            "avg": 0.556,
+            "prob_2j_3j": 0,
+            "prob_3j_4j": 0,
+            "pct_hit": 46.2,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -48770,20 +48773,20 @@
       },
       "home_pitcher": {
         "nombre": "Bryan Woo",
-        "avg_contra": ".226",
-        "era": "4.06",
+        "avg_contra": ".224",
+        "era": "4.03",
         "whip": "1.06",
-        "k9": "9.12",
-        "h9": "7.66",
-        "ip_temporada": "155.0",
+        "k9": "9.10",
+        "h9": "7.60",
+        "ip_temporada": "156.1",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "6.2",
-            "k": 8,
+            "ip": "8.0",
+            "k": 9,
             "h": 1,
             "er": 0,
-            "bb": 1
+            "bb": 2
           },
           {
             "fecha": "2026-09-01",
@@ -48820,9 +48823,9 @@
       "away_lineup": [
         "Ben Rice",
         "Cody Bellinger",
-        "Luis García Jr.",
+        "Paul Goldschmidt",
         "Spencer Jones",
-        "Jazz Chisholm Jr.",
+        "José Caballero",
         "Jasson Domínguez",
         "George Lombard Jr.",
         "Ryan McMahon",
@@ -48835,7 +48838,7 @@
         "Ty France",
         "Jackson Merrill",
         "Luis Campusano",
-        "Dustin Harris",
+        "Jase Bowen",
         "Xander Bogaerts",
         "Ethan Salas"
       ],
@@ -48863,6 +48866,13 @@
           }
         ],
         "candidatos_1j": [
+          {
+            "jugador": "Paul Goldschmidt",
+            "prob": 63,
+            "prob_1j_2j": 70.0,
+            "pct_hit": 56.1,
+            "confirmado": true
+          },
           {
             "jugador": "Cody Bellinger",
             "prob": 61,
@@ -48906,15 +48916,15 @@
       "away_pitcher": {
         "nombre": "Gerrit Cole",
         "avg_contra": ".232",
-        "era": "3.35",
+        "era": "3.41",
         "whip": "1.09",
-        "k9": "9.25",
-        "h9": "8.02",
-        "ip_temporada": "110.0",
+        "k9": "9.16",
+        "h9": "8.03",
+        "ip_temporada": "111.0",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "6.0",
+            "ip": "7.0",
             "k": 3,
             "h": 6,
             "er": 4,
@@ -49112,12 +49122,12 @@
       },
       "away_pitcher": {
         "nombre": "Bailey Ober",
-        "avg_contra": ".247",
-        "era": "4.37",
+        "avg_contra": ".248",
+        "era": "4.35",
         "whip": "1.24",
-        "k9": "6.27",
-        "h9": "8.66",
-        "ip_temporada": "113.1",
+        "k9": "6.33",
+        "h9": "8.71",
+        "ip_temporada": "113.2",
         "ultimas4": [
           {
             "fecha": "2026-08-29",
@@ -49155,13 +49165,21 @@
       },
       "home_pitcher": {
         "nombre": "Bryan Hudson",
-        "avg_contra": ".255",
-        "era": "3.03",
+        "avg_contra": ".256",
+        "era": "2.98",
         "whip": "1.21",
-        "k9": "8.34",
-        "h9": "8.34",
-        "ip_temporada": "59.1",
+        "k9": "8.35",
+        "h9": "8.35",
+        "ip_temporada": "60.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-06",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-04",
             "ip": "1.0",
@@ -49185,14 +49203,6 @@
             "h": 0,
             "er": 0,
             "bb": 0
-          },
-          {
-            "fecha": "2026-08-28",
-            "ip": "1.0",
-            "k": 1,
-            "h": 2,
-            "er": 0,
-            "bb": 0
           }
         ]
       }
@@ -49203,7 +49213,17 @@
       "game_id": 823903,
       "fecha": "2026-09-06",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Tommy Edman",
+        "Mookie Betts",
+        "Will Smith",
+        "Freddie Freeman",
+        "Teoscar Hernández",
+        "Kyle Tucker",
+        "Miguel Rojas",
+        "Max Muncy",
+        "Enrique Hernández"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -49278,23 +49298,16 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 56.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Hunter Feduccia",
-            "prob": 64,
-            "prob_2j_3j": 80.0,
-            "pct_hit": 51.5,
-            "confirmado": false
-          },
           {
             "jugador": "Mookie Betts",
             "prob": 46,
             "prob_2j_3j": 46.2,
             "pct_hit": 57.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49303,14 +49316,7 @@
             "prob": 57,
             "prob_1j_2j": 66.7,
             "pct_hit": 52.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alex Freeland",
-            "prob": 42,
-            "prob_1j_2j": 43.3,
-            "pct_hit": 40.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49402,5 +49408,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 16:00"
+  "alineaciones_actualizadas": "06/09/26 16:30"
 }
