@@ -46284,9 +46284,19 @@
       "home": "Cincinnati Reds",
       "game_id": 824469,
       "fecha": "2026-09-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Sal Frelick",
+        "Christian Yelich",
+        "Jackson Chourio",
+        "Jake Bauers",
+        "Garrett Mitchell",
+        "Brice Turang",
+        "Cooper Pratt",
+        "Bo Naylor",
+        "David Hamilton"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -46297,17 +46307,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 53.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrew Vaughn",
-            "juegos": 5,
-            "avg": 0.429,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 55.7,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "David Hamilton",
@@ -46317,7 +46317,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 46.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -46326,14 +46326,7 @@
             "prob": 70,
             "prob_2j_3j": 73.7,
             "pct_hit": 72.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "William Contreras",
-            "prob": 64,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46342,21 +46335,14 @@
             "prob": 57,
             "prob_1j_2j": 60.8,
             "pct_hit": 59.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sal Frelick",
             "prob": 56,
             "prob_1j_2j": 56.0,
             "pct_hit": 55.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gary Sánchez",
-            "prob": 40,
-            "prob_1j_2j": 44.0,
-            "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49460,5 +49446,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 07:00"
+  "alineaciones_actualizadas": "06/09/26 08:00"
 }
