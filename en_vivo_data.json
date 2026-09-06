@@ -1,151 +1,13 @@
 {
-  "actualizado": "05/09/26 18:15:03",
+  "actualizado": "05/09/26 18:30:03",
   "juegos_en_vivo": [
-    {
-      "away": "Atlanta Braves",
-      "home": "Philadelphia Phillies",
-      "entrada": 8,
-      "estado_entrada": "Bottom",
-      "equipo_al_bate": "Philadelphia Phillies",
-      "bateador_actual": "J.T. Realmuto",
-      "candidatos": [
-        {
-          "jugador": "Drake Baldwin",
-          "equipo": "Atlanta Braves",
-          "tipo": "1J→2J",
-          "prob": 69,
-          "posicion_orden": 1,
-          "ab": 4,
-          "h": 2,
-          "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 30
-        },
-        {
-          "jugador": "Ronald Acuña Jr.",
-          "equipo": "Atlanta Braves",
-          "tipo": "2J→3J",
-          "prob": 48,
-          "posicion_orden": 2,
-          "ab": 4,
-          "h": 2,
-          "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 30
-        },
-        {
-          "jugador": "Mauricio Dubón",
-          "equipo": "Atlanta Braves",
-          "tipo": "1J→2J",
-          "prob": 65,
-          "posicion_orden": 5,
-          "ab": 3,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 30
-        },
-        {
-          "jugador": "Ozzie Albies",
-          "equipo": "Atlanta Braves",
-          "tipo": "RACHA",
-          "prob": null,
-          "posicion_orden": 6,
-          "ab": 3,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 30
-        },
-        {
-          "jugador": "Austin Riley",
-          "equipo": "Atlanta Braves",
-          "tipo": "2J→3J",
-          "prob": 33,
-          "posicion_orden": 8,
-          "ab": 3,
-          "h": 1,
-          "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 23,
-          "outs_equipo_restantes": 4,
-          "pa_equipo_hasta_ahora": 30
-        },
-        {
-          "jugador": "Trea Turner",
-          "equipo": "Philadelphia Phillies",
-          "tipo": "1J→2J",
-          "prob": 65,
-          "posicion_orden": 2,
-          "ab": 3,
-          "h": 1,
-          "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 33
-        },
-        {
-          "jugador": "Luis Arraez",
-          "equipo": "Philadelphia Phillies",
-          "tipo": "1J→2J",
-          "prob": 73,
-          "posicion_orden": 4,
-          "ab": 4,
-          "h": 2,
-          "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 33
-        },
-        {
-          "jugador": "Alec Bohm",
-          "equipo": "Philadelphia Phillies",
-          "tipo": "2J→3J",
-          "prob": 61,
-          "posicion_orden": 5,
-          "ab": 3,
-          "h": 0,
-          "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
-          "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 33
-        }
-      ]
-    },
     {
       "away": "Detroit Tigers",
       "home": "Cleveland Guardians",
-      "entrada": 8,
-      "estado_entrada": "Top",
-      "equipo_al_bate": "Detroit Tigers",
-      "bateador_actual": "Gleyber Torres",
+      "entrada": 9,
+      "estado_entrada": "Middle",
+      "equipo_al_bate": "Cleveland Guardians",
+      "bateador_actual": "Steven Kwan",
       "candidatos": [
         {
           "jugador": "Gleyber Torres",
@@ -153,15 +15,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 1,
-          "ab": 4,
+          "ab": 5,
           "h": 2,
           "dio_hit": true,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 36
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 26,
+          "outs_equipo_restantes": 1,
+          "pa_equipo_hasta_ahora": 41
         },
         {
           "jugador": "Dillon Dingler",
@@ -169,15 +31,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 4,
-          "ab": 3,
+          "ab": 4,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 36
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 26,
+          "outs_equipo_restantes": 1,
+          "pa_equipo_hasta_ahora": 41
         },
         {
           "jugador": "Spencer Torkelson",
@@ -189,11 +51,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 36
+          "outs_equipo_hechos": 26,
+          "outs_equipo_restantes": 1,
+          "pa_equipo_hasta_ahora": 41
         },
         {
           "jugador": "Zach McKinstry",
@@ -205,11 +67,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 0,
-          "outs_equipo_hechos": 21,
-          "outs_equipo_restantes": 6,
-          "pa_equipo_hasta_ahora": 36
+          "outs_equipo_hechos": 26,
+          "outs_equipo_restantes": 1,
+          "pa_equipo_hasta_ahora": 41
         },
         {
           "jugador": "José Ramírez",
@@ -221,11 +83,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 18,
-          "outs_equipo_restantes": 9,
-          "pa_equipo_hasta_ahora": 24
+          "outs_equipo_hechos": 21,
+          "outs_equipo_restantes": 6,
+          "pa_equipo_hasta_ahora": 27
         },
         {
           "jugador": "Jo Adell",
@@ -237,11 +99,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 18,
-          "outs_equipo_restantes": 9,
-          "pa_equipo_hasta_ahora": 24
+          "outs_equipo_hechos": 21,
+          "outs_equipo_restantes": 6,
+          "pa_equipo_hasta_ahora": 27
         },
         {
           "jugador": "Angel Genao",
@@ -253,11 +115,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 18,
-          "outs_equipo_restantes": 9,
-          "pa_equipo_hasta_ahora": 24
+          "bateadores_faltan_su_turno": 5,
+          "turnos_restantes_minimo_garantizado": 0,
+          "outs_equipo_hechos": 21,
+          "outs_equipo_restantes": 6,
+          "pa_equipo_hasta_ahora": 27
         },
         {
           "jugador": "Brayan Rocchio",
@@ -265,25 +127,25 @@
           "tipo": "2J→3J",
           "prob": 68,
           "posicion_orden": 9,
-          "ab": 2,
+          "ab": 3,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 8,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 18,
-          "outs_equipo_restantes": 9,
-          "pa_equipo_hasta_ahora": 24
+          "outs_equipo_hechos": 21,
+          "outs_equipo_restantes": 6,
+          "pa_equipo_hasta_ahora": 27
         }
       ]
     },
     {
       "away": "Los Angeles Angels",
       "home": "Pittsburgh Pirates",
-      "entrada": 6,
-      "estado_entrada": "Bottom",
-      "equipo_al_bate": "Pittsburgh Pirates",
-      "bateador_actual": "Rafael Flores Jr.",
+      "entrada": 7,
+      "estado_entrada": "Top",
+      "equipo_al_bate": "Los Angeles Angels",
+      "bateador_actual": "Wade Meckler",
       "candidatos": [
         {
           "jugador": "Mike Trout",
@@ -291,15 +153,15 @@
           "tipo": "2J→3J",
           "prob": 61,
           "posicion_orden": 2,
-          "ab": 3,
-          "h": 1,
+          "ab": 4,
+          "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 8,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 17,
-          "outs_equipo_restantes": 10,
-          "pa_equipo_hasta_ahora": 25
+          "outs_equipo_hechos": 18,
+          "outs_equipo_restantes": 9,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Wade Meckler",
@@ -310,12 +172,12 @@
           "ab": 3,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 17,
-          "outs_equipo_restantes": 10,
-          "pa_equipo_hasta_ahora": 25
+          "outs_equipo_hechos": 18,
+          "outs_equipo_restantes": 9,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Vaughn Grissom",
@@ -327,11 +189,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 17,
-          "outs_equipo_restantes": 10,
-          "pa_equipo_hasta_ahora": 25
+          "outs_equipo_hechos": 18,
+          "outs_equipo_restantes": 9,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Moisés Ballesteros",
@@ -343,11 +205,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 17,
-          "outs_equipo_restantes": 10,
-          "pa_equipo_hasta_ahora": 25
+          "outs_equipo_hechos": 18,
+          "outs_equipo_restantes": 9,
+          "pa_equipo_hasta_ahora": 29
         },
         {
           "jugador": "Bryan Reynolds",
@@ -359,11 +221,11 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 23
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 24
         },
         {
           "jugador": "Rafael Flores Jr.",
@@ -371,15 +233,15 @@
           "tipo": "1J→2J",
           "prob": 30,
           "posicion_orden": 6,
-          "ab": 2,
+          "ab": 3,
           "h": 1,
           "dio_hit": true,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 23
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 24
         },
         {
           "jugador": "Jake Mangum",
@@ -391,11 +253,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 23
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 24
         },
         {
           "jugador": "Nick Yorke",
@@ -407,21 +269,21 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 15,
-          "outs_equipo_restantes": 12,
-          "pa_equipo_hasta_ahora": 23
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 24
         }
       ]
     },
     {
       "away": "Boston Red Sox",
       "home": "Baltimore Orioles",
-      "entrada": 4,
-      "estado_entrada": "Top",
-      "equipo_al_bate": "Boston Red Sox",
-      "bateador_actual": "Eli White",
+      "entrada": 5,
+      "estado_entrada": "Middle",
+      "equipo_al_bate": "Baltimore Orioles",
+      "bateador_actual": "Dylan Beavers",
       "candidatos": [
         {
           "jugador": "Mickey Gasper",
@@ -429,15 +291,15 @@
           "tipo": "1J→2J",
           "prob": 52,
           "posicion_orden": 2,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 16
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Trevor Story",
@@ -449,11 +311,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 16
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Isiah Kiner-Falefa",
@@ -465,11 +327,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 16
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Jarren Duran",
@@ -481,11 +343,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 16
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Eli White",
@@ -493,15 +355,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 8,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 16
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Blaze Alexander",
@@ -513,11 +375,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 12
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         },
         {
           "jugador": "Gunnar Henderson",
@@ -529,11 +391,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 12
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         },
         {
           "jugador": "Christian Encarnacion-Strand",
@@ -541,25 +403,25 @@
           "tipo": "2J→3J",
           "prob": 32,
           "posicion_orden": 7,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 12
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         }
       ]
     },
     {
       "away": "Tampa Bay Rays",
       "home": "Texas Rangers",
-      "entrada": 5,
+      "entrada": 6,
       "estado_entrada": "Middle",
       "equipo_al_bate": "Texas Rangers",
-      "bateador_actual": "Ezequiel Duran",
+      "bateador_actual": "Danny Jansen",
       "candidatos": [
         {
           "jugador": "Yandy Díaz",
@@ -567,15 +429,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 1,
-          "ab": 2,
+          "ab": 3,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Jonathan Aranda",
@@ -583,15 +445,15 @@
           "tipo": "1J→2J",
           "prob": 67,
           "posicion_orden": 2,
-          "ab": 2,
+          "ab": 3,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Junior Caminero",
@@ -599,15 +461,15 @@
           "tipo": "1J→2J",
           "prob": 73,
           "posicion_orden": 3,
-          "ab": 2,
+          "ab": 3,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Liam Hicks",
@@ -621,9 +483,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Chandler Simpson",
@@ -637,9 +499,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Victor Mesa Jr.",
@@ -653,9 +515,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Richie Palacios",
@@ -669,9 +531,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 18
+          "outs_equipo_hechos": 16,
+          "outs_equipo_restantes": 11,
+          "pa_equipo_hasta_ahora": 21
         },
         {
           "jugador": "Corey Seager",
@@ -683,11 +545,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 13
+          "bateadores_faltan_su_turno": 2,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Ezequiel Duran",
@@ -695,15 +557,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 5,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 13
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 5,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Jake Burger",
@@ -711,15 +573,15 @@
           "tipo": "2J→3J",
           "prob": 51,
           "posicion_orden": 6,
-          "ab": 1,
-          "h": 0,
-          "dio_hit": false,
+          "ab": 2,
+          "h": 1,
+          "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 13
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Evan Carter",
@@ -727,15 +589,15 @@
           "tipo": "2J→3J",
           "prob": 55,
           "posicion_orden": 7,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 13
+          "bateadores_faltan_su_turno": 7,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Danny Jansen",
@@ -746,22 +608,22 @@
           "ab": 1,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 12,
-          "outs_equipo_restantes": 15,
-          "pa_equipo_hasta_ahora": 13
+          "outs_equipo_hechos": 15,
+          "outs_equipo_restantes": 12,
+          "pa_equipo_hasta_ahora": 17
         }
       ]
     },
     {
       "away": "Toronto Blue Jays",
       "home": "Kansas City Royals",
-      "entrada": 4,
+      "entrada": 5,
       "estado_entrada": "Middle",
       "equipo_al_bate": "Kansas City Royals",
-      "bateador_actual": "Michael Massey",
+      "bateador_actual": "Carter Jensen",
       "candidatos": [
         {
           "jugador": "Brett Bateman",
@@ -775,9 +637,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "George Springer",
@@ -791,9 +653,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Vladimir Guerrero Jr.",
@@ -801,15 +663,15 @@
           "tipo": "1J→2J",
           "prob": 62,
           "posicion_orden": 3,
-          "ab": 2,
+          "ab": 3,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Alejandro Kirk",
@@ -817,15 +679,15 @@
           "tipo": "1J→2J",
           "prob": 52,
           "posicion_orden": 4,
-          "ab": 2,
+          "ab": 3,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Nathan Lukes",
@@ -833,15 +695,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 5,
-          "ab": 2,
+          "ab": 3,
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Kazuma Okamoto",
@@ -855,9 +717,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Andrés Giménez",
@@ -871,9 +733,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Ernie Clement",
@@ -887,9 +749,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Myles Straw",
@@ -903,9 +765,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 20
+          "outs_equipo_hechos": 13,
+          "outs_equipo_restantes": 14,
+          "pa_equipo_hasta_ahora": 23
         },
         {
           "jugador": "Carter Jensen",
@@ -916,12 +778,12 @@
           "ab": 1,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 18
         },
         {
           "jugador": "Bobby Witt Jr.",
@@ -933,11 +795,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 18
         },
         {
           "jugador": "Salvador Perez",
@@ -949,11 +811,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 18
         },
         {
           "jugador": "Vinnie Pasquantino",
@@ -965,11 +827,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 18
         },
         {
           "jugador": "Michael Massey",
@@ -977,15 +839,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 6,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 14
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 5,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 18
         },
         {
           "jugador": "John Rave",
@@ -993,25 +855,25 @@
           "tipo": "1J→2J",
           "prob": 26,
           "posicion_orden": 7,
-          "ab": 0,
-          "h": 0,
-          "dio_hit": false,
+          "ab": 1,
+          "h": 1,
+          "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 14
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 18
         }
       ]
     },
     {
       "away": "Minnesota Twins",
       "home": "Chicago White Sox",
-      "entrada": 4,
-      "estado_entrada": "Bottom",
-      "equipo_al_bate": "Chicago White Sox",
-      "bateador_actual": "Braden Montgomery",
+      "entrada": 5,
+      "estado_entrada": "Top",
+      "equipo_al_bate": "Minnesota Twins",
+      "bateador_actual": "Royce Lewis",
       "candidatos": [
         {
           "jugador": "Kaelen Culpepper",
@@ -1019,15 +881,15 @@
           "tipo": "1J→2J",
           "prob": 46,
           "posicion_orden": 2,
-          "ab": 2,
+          "ab": 3,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 17
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 14,
+          "outs_equipo_restantes": 13,
+          "pa_equipo_hasta_ahora": 22
         },
         {
           "jugador": "Josh Bell",
@@ -1035,15 +897,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 4,
-          "ab": 2,
-          "h": 1,
+          "ab": 3,
+          "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
+          "bateadores_faltan_su_turno": 8,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 17
+          "outs_equipo_hechos": 14,
+          "outs_equipo_restantes": 13,
+          "pa_equipo_hasta_ahora": 22
         },
         {
           "jugador": "Royce Lewis",
@@ -1054,12 +916,12 @@
           "ab": 1,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 17
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 14,
+          "outs_equipo_restantes": 13,
+          "pa_equipo_hasta_ahora": 22
         },
         {
           "jugador": "Kody Clemens",
@@ -1071,11 +933,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 13,
-          "outs_equipo_restantes": 14,
-          "pa_equipo_hasta_ahora": 17
+          "bateadores_faltan_su_turno": 1,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 14,
+          "outs_equipo_restantes": 13,
+          "pa_equipo_hasta_ahora": 22
         },
         {
           "jugador": "Sam Antonacci",
@@ -1087,11 +949,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Miguel Vargas",
@@ -1103,11 +965,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Colson Montgomery",
@@ -1119,11 +981,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 1,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Braden Montgomery",
@@ -1131,15 +993,15 @@
           "tipo": "2J→3J",
           "prob": 46,
           "posicion_orden": 6,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 14
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": null,
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Tristan Peters",
@@ -1151,11 +1013,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 15
         },
         {
           "jugador": "Jake Rogers",
@@ -1167,21 +1029,21 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
+          "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 11,
-          "outs_equipo_restantes": 16,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 15
         }
       ]
     },
     {
       "away": "Arizona Diamondbacks",
       "home": "Houston Astros",
-      "entrada": 4,
+      "entrada": 5,
       "estado_entrada": "Top",
       "equipo_al_bate": "Arizona Diamondbacks",
-      "bateador_actual": "Nolan Arenado",
+      "bateador_actual": "Ryan Waldschmidt",
       "candidatos": [
         {
           "jugador": "Geraldo Perdomo",
@@ -1193,11 +1055,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Gabriel Moreno",
@@ -1209,11 +1071,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Ketel Marte",
@@ -1225,11 +1087,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 4,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 10,
-          "outs_equipo_restantes": 17,
-          "pa_equipo_hasta_ahora": 14
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 17
         },
         {
           "jugador": "Jeremy Peña",
@@ -1243,9 +1105,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 13
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         },
         {
           "jugador": "Yordan Alvarez",
@@ -1259,9 +1121,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 13
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         },
         {
           "jugador": "Isaac Paredes",
@@ -1275,9 +1137,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 13
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         },
         {
           "jugador": "Christian Walker",
@@ -1285,15 +1147,15 @@
           "tipo": "2J→3J",
           "prob": 61,
           "posicion_orden": 6,
-          "ab": 1,
+          "ab": 2,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 13
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         },
         {
           "jugador": "Yainer Diaz",
@@ -1301,25 +1163,25 @@
           "tipo": "2J→3J",
           "prob": 62,
           "posicion_orden": 7,
-          "ab": 1,
+          "ab": 2,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 9,
-          "outs_equipo_restantes": 18,
-          "pa_equipo_hasta_ahora": 13
+          "turnos_restantes_minimo_garantizado": 1,
+          "outs_equipo_hechos": 12,
+          "outs_equipo_restantes": 15,
+          "pa_equipo_hasta_ahora": 16
         }
       ]
     },
     {
       "away": "New York Yankees",
       "home": "San Diego Padres",
-      "entrada": 3,
+      "entrada": 4,
       "estado_entrada": "Top",
       "equipo_al_bate": "New York Yankees",
-      "bateador_actual": "José Caballero",
+      "bateador_actual": "Cody Bellinger",
       "candidatos": [
         {
           "jugador": "Amed Rosario",
@@ -1331,11 +1193,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 16
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Ben Rice",
@@ -1347,11 +1209,11 @@
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 16
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Spencer Jones",
@@ -1363,11 +1225,11 @@
           "h": 2,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 8,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 16
+          "bateadores_faltan_su_turno": 5,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "José Caballero",
@@ -1378,12 +1240,12 @@
           "ab": 0,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 16
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 20
         },
         {
           "jugador": "Xander Bogaerts",
@@ -1391,15 +1253,15 @@
           "tipo": "2J→3J",
           "prob": 58,
           "posicion_orden": 2,
-          "ab": 1,
+          "ab": 2,
           "h": 1,
           "dio_hit": true,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 8
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Manny Machado",
@@ -1413,9 +1275,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 8
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Ty France",
@@ -1429,9 +1291,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 8
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 11
         },
         {
           "jugador": "Luis Campusano",
@@ -1445,19 +1307,19 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 2,
-          "outs_equipo_hechos": 6,
-          "outs_equipo_restantes": 21,
-          "pa_equipo_hasta_ahora": 8
+          "outs_equipo_hechos": 9,
+          "outs_equipo_restantes": 18,
+          "pa_equipo_hasta_ahora": 11
         }
       ]
     },
     {
       "away": "St. Louis Cardinals",
       "home": "Colorado Rockies",
-      "entrada": 1,
+      "entrada": 2,
       "estado_entrada": "Top",
       "equipo_al_bate": "St. Louis Cardinals",
-      "bateador_actual": "Iván Herrera",
+      "bateador_actual": "Joshua Báez",
       "candidatos": [
         {
           "jugador": "Iván Herrera",
@@ -1465,15 +1327,15 @@
           "tipo": "2J→3J",
           "prob": 60,
           "posicion_orden": 2,
-          "ab": 0,
+          "ab": 1,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": true,
-          "bateadores_faltan_su_turno": 0,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "esta_al_bate_ahora": false,
+          "bateadores_faltan_su_turno": 5,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Alec Burleson",
@@ -1481,15 +1343,15 @@
           "tipo": "1J→2J",
           "prob": 72,
           "posicion_orden": 3,
-          "ab": 0,
+          "ab": 1,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 1,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "bateadores_faltan_su_turno": 6,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Jordan Walker",
@@ -1497,15 +1359,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 4,
-          "ab": 0,
+          "ab": 1,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 2,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "bateadores_faltan_su_turno": 7,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Leo Bernal",
@@ -1513,15 +1375,15 @@
           "tipo": "RACHA",
           "prob": null,
           "posicion_orden": 5,
-          "ab": 0,
+          "ab": 1,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 3,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "bateadores_faltan_su_turno": 8,
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Joshua Báez",
@@ -1532,12 +1394,12 @@
           "ab": 0,
           "h": 0,
           "dio_hit": false,
-          "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 4,
+          "esta_al_bate_ahora": true,
+          "bateadores_faltan_su_turno": 0,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Nolan Gorman",
@@ -1549,11 +1411,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 5,
+          "bateadores_faltan_su_turno": 1,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Thomas Saggese",
@@ -1565,11 +1427,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 6,
+          "bateadores_faltan_su_turno": 2,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Nathan Church",
@@ -1581,11 +1443,11 @@
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
-          "bateadores_faltan_su_turno": 7,
+          "bateadores_faltan_su_turno": 3,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 1
+          "outs_equipo_hechos": 4,
+          "outs_equipo_restantes": 23,
+          "pa_equipo_hasta_ahora": 5
         },
         {
           "jugador": "Connor Norby",
@@ -1593,15 +1455,15 @@
           "tipo": "1J→2J",
           "prob": 48,
           "posicion_orden": 2,
-          "ab": 0,
+          "ab": 1,
           "h": 0,
           "dio_hit": false,
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
-          "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "turnos_restantes_minimo_garantizado": 2,
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "TJ Rumfield",
@@ -1615,9 +1477,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Cole Carrigg",
@@ -1631,9 +1493,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Troy Johnston",
@@ -1647,9 +1509,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Adael Amador",
@@ -1663,9 +1525,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 3
         },
         {
           "jugador": "Ezequiel Tovar",
@@ -1679,9 +1541,9 @@
           "esta_al_bate_ahora": false,
           "bateadores_faltan_su_turno": null,
           "turnos_restantes_minimo_garantizado": 3,
-          "outs_equipo_hechos": 0,
-          "outs_equipo_restantes": 27,
-          "pa_equipo_hasta_ahora": 0
+          "outs_equipo_hechos": 3,
+          "outs_equipo_restantes": 24,
+          "pa_equipo_hasta_ahora": 3
         }
       ]
     }
