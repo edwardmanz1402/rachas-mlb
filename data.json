@@ -46425,20 +46425,20 @@
       },
       "away_pitcher": {
         "nombre": "Kyle Harrison",
-        "avg_contra": ".241",
-        "era": "3.50",
-        "whip": "1.21",
-        "k9": "10.83",
-        "h9": "8.42",
-        "ip_temporada": "108.0",
+        "avg_contra": ".242",
+        "era": "3.46",
+        "whip": "1.23",
+        "k9": "10.87",
+        "h9": "8.48",
+        "ip_temporada": "109.1",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "1.0",
-            "k": 0,
-            "h": 2,
+            "ip": "2.1",
+            "k": 2,
+            "h": 4,
             "er": 1,
-            "bb": 1
+            "bb": 3
           },
           {
             "fecha": "2026-08-31",
@@ -46468,20 +46468,20 @@
       },
       "home_pitcher": {
         "nombre": "Brady Singer",
-        "avg_contra": ".279",
-        "era": "4.79",
-        "whip": "1.44",
-        "k9": "7.44",
-        "h9": "10.09",
-        "ip_temporada": "142.2",
+        "avg_contra": ".277",
+        "era": "4.73",
+        "whip": "1.43",
+        "k9": "7.40",
+        "h9": "9.95",
+        "ip_temporada": "144.2",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "1.0",
-            "k": 1,
+            "ip": "3.0",
+            "k": 2,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 2
           },
           {
             "fecha": "2026-08-31",
@@ -48294,7 +48294,17 @@
       "home": "Colorado Rockies",
       "game_id": 824309,
       "fecha": "2026-09-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "Bryan Torres",
+        "Iván Herrera",
+        "Alec Burleson",
+        "Jordan Walker",
+        "Leo Bernal",
+        "Joshua Báez",
+        "Nolan Gorman",
+        "Thomas Saggese",
+        "Nathan Church"
+      ],
       "home_lineup": [
         "Jake McCarthy",
         "Troy Johnston",
@@ -48306,7 +48316,7 @@
         "Vimael Machín",
         "Ezequiel Tovar"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48317,7 +48327,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 48.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Church",
@@ -48327,7 +48337,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 56.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joshua Báez",
@@ -48337,7 +48347,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Leo Bernal",
@@ -48347,7 +48357,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Iván Herrera",
@@ -48357,7 +48367,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48366,37 +48376,23 @@
             "prob": 72,
             "prob_2j_3j": 77.8,
             "pct_hit": 68.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Gorman",
             "prob": 49,
             "prob_2j_3j": 54.5,
             "pct_hit": 49.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "José Fermín",
-            "prob": 55,
-            "prob_1j_2j": 61.3,
-            "pct_hit": 47.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Pedro Pagés",
-            "prob": 49,
-            "prob_1j_2j": 54.2,
-            "pct_hit": 50.0,
-            "confirmado": false
-          },
           {
             "jugador": "Bryan Torres",
             "prob": 36,
             "prob_1j_2j": 40.0,
             "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -48799,7 +48795,17 @@
       "game_id": 823253,
       "fecha": "2026-09-06",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Fernando Tatis Jr.",
+        "Jake Cronenworth",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Luis Campusano",
+        "Dustin Harris",
+        "Xander Bogaerts",
+        "Ethan Salas"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -48864,7 +48870,7 @@
             "prob_3j_4j": 25.0,
             "pct_hit": 51.6,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48873,18 +48879,10 @@
             "prob": 42,
             "prob_2j_3j": 41.2,
             "pct_hit": 50.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Austin Hays",
-            "prob": 56,
-            "prob_1j_2j": 62.5,
-            "pct_hit": 59.1,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Gerrit Cole",
@@ -49372,5 +49370,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 10:30"
+  "alineaciones_actualizadas": "06/09/26 11:00"
 }
