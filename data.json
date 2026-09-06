@@ -48115,7 +48115,7 @@
       "fecha": "2026-09-06",
       "away_lineup": [
         "Yandy Díaz",
-        "Jonathan Aranda",
+        "Richie Palacios",
         "Junior Caminero",
         "Ryan Vilade",
         "Chandler Simpson",
@@ -48131,7 +48131,7 @@
         "Brandon Nimmo",
         "Wyatt Langford",
         "Jake Burger",
-        "Logan O'Hoppe",
+        "Cam Cauley",
         "Elias Díaz",
         "Evan Carter"
       ],
@@ -48147,17 +48147,17 @@
             "confirmado": true
           },
           {
-            "jugador": "Jonathan Aranda",
-            "prob": 69,
-            "prob_2j_3j": 72.0,
-            "pct_hit": 66.9,
-            "confirmado": true
-          },
-          {
             "jugador": "Victor Mesa Jr.",
             "prob": 58,
             "prob_2j_3j": 75.0,
             "pct_hit": 40.9,
+            "confirmado": true
+          },
+          {
+            "jugador": "Richie Palacios",
+            "prob": 50,
+            "prob_2j_3j": 54.5,
+            "pct_hit": 46.3,
             "confirmado": true
           },
           {
@@ -48204,15 +48204,7 @@
           }
         ],
         "candidatos_2j": [],
-        "candidatos_1j": [
-          {
-            "jugador": "Logan O'Hoppe",
-            "prob": 40,
-            "prob_1j_2j": 42.4,
-            "pct_hit": 46.6,
-            "confirmado": true
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Ian Seymour",
@@ -48312,7 +48304,7 @@
         "Alec Burleson",
         "Jordan Walker",
         "Leo Bernal",
-        "Joshua Báez",
+        "Victor Scott II",
         "Nolan Gorman",
         "Thomas Saggese",
         "Nathan Church"
@@ -48324,8 +48316,8 @@
         "TJ Rumfield",
         "Mickey Moniak",
         "Adael Amador",
-        "Brett Sullivan",
-        "Vimael Machín",
+        "Hunter Goodman",
+        "Connor Norby",
         "Ezequiel Tovar"
       ],
       "alineacion_confirmada": true,
@@ -48348,16 +48340,6 @@
             "prob_2j_3j": 53.3,
             "prob_3j_4j": 60.0,
             "pct_hit": 56.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          },
-          {
-            "jugador": "Joshua Báez",
-            "juegos": 5,
-            "avg": 0.438,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
           },
@@ -48455,6 +48437,13 @@
             "prob_2j_3j": 62.5,
             "pct_hit": 50.4,
             "confirmado": true
+          },
+          {
+            "jugador": "Connor Norby",
+            "prob": 50,
+            "prob_2j_3j": 54.5,
+            "pct_hit": 55.6,
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -48463,6 +48452,13 @@
             "prob": 65,
             "prob_1j_2j": 66.7,
             "pct_hit": 71.3,
+            "confirmado": true
+          },
+          {
+            "jugador": "Hunter Goodman",
+            "prob": 58,
+            "prob_1j_2j": 60.0,
+            "pct_hit": 58.4,
             "confirmado": true
           }
         ]
@@ -48716,19 +48712,19 @@
       },
       "away_pitcher": {
         "nombre": "Gage Jump",
-        "avg_contra": ".258",
-        "era": "4.99",
-        "whip": "1.45",
-        "k9": "9.69",
-        "h9": "8.84",
-        "ip_temporada": "95.2",
+        "avg_contra": ".266",
+        "era": "5.12",
+        "whip": "1.49",
+        "k9": "9.87",
+        "h9": "9.22",
+        "ip_temporada": "96.2",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.0",
-            "k": 4,
-            "h": 1,
-            "er": 0,
+            "ip": "4.0",
+            "k": 7,
+            "h": 6,
+            "er": 2,
             "bb": 0
           },
           {
@@ -48759,20 +48755,20 @@
       },
       "home_pitcher": {
         "nombre": "Bryan Woo",
-        "avg_contra": ".229",
-        "era": "4.14",
+        "avg_contra": ".228",
+        "era": "4.12",
         "whip": "1.07",
-        "k9": "9.06",
-        "h9": "7.82",
-        "ip_temporada": "152.0",
+        "k9": "9.00",
+        "h9": "7.76",
+        "ip_temporada": "153.0",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.2",
+            "ip": "4.2",
             "k": 4,
             "h": 1,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-09-01",
@@ -48895,17 +48891,17 @@
       "away_pitcher": {
         "nombre": "Gerrit Cole",
         "avg_contra": ".235",
-        "era": "3.45",
+        "era": "3.42",
         "whip": "1.11",
-        "k9": "9.34",
-        "h9": "8.16",
-        "ip_temporada": "107.0",
+        "k9": "9.33",
+        "h9": "8.17",
+        "ip_temporada": "108.0",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.0",
-            "k": 1,
-            "h": 4,
+            "ip": "4.0",
+            "k": 2,
+            "h": 5,
             "er": 3,
             "bb": 0
           },
@@ -48937,20 +48933,20 @@
       },
       "home_pitcher": {
         "nombre": "Michael King",
-        "avg_contra": ".215",
-        "era": "3.05",
-        "whip": "1.16",
-        "k9": "7.80",
-        "h9": "6.98",
-        "ip_temporada": "165.0",
+        "avg_contra": ".217",
+        "era": "3.02",
+        "whip": "1.17",
+        "k9": "7.78",
+        "h9": "7.02",
+        "ip_temporada": "166.2",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.0",
-            "k": 2,
-            "h": 2,
+            "ip": "5.0",
+            "k": 3,
+            "h": 4,
             "er": 0,
-            "bb": 0
+            "bb": 2
           },
           {
             "fecha": "2026-08-31",
@@ -49391,5 +49387,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 15:00"
+  "alineaciones_actualizadas": "06/09/26 15:30"
 }
