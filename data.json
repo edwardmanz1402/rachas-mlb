@@ -47155,19 +47155,19 @@
       },
       "away_pitcher": {
         "nombre": "Jake Irvin",
-        "avg_contra": ".248",
-        "era": "5.54",
-        "whip": "1.41",
-        "k9": "9.14",
-        "h9": "8.52",
-        "ip_temporada": "87.2",
+        "avg_contra": ".254",
+        "era": "5.62",
+        "whip": "1.44",
+        "k9": "9.03",
+        "h9": "8.83",
+        "ip_temporada": "89.2",
         "ultimas4": [
           {
             "fecha": "2026-09-07",
-            "ip": "2.0",
-            "k": 2,
-            "h": 4,
-            "er": 1,
+            "ip": "4.0",
+            "k": 3,
+            "h": 8,
+            "er": 3,
             "bb": 1
           },
           {
@@ -47198,17 +47198,17 @@
       },
       "home_pitcher": {
         "nombre": "Nick Pivetta",
-        "avg_contra": ".197",
-        "era": "3.79",
-        "whip": "1.05",
-        "k9": "11.84",
-        "h9": "6.63",
-        "ip_temporada": "19.0",
+        "avg_contra": ".187",
+        "era": "3.54",
+        "whip": "0.98",
+        "k9": "11.51",
+        "h9": "6.20",
+        "ip_temporada": "20.1",
         "ultimas4": [
           {
             "fecha": "2026-09-07",
-            "ip": "3.0",
-            "k": 1,
+            "ip": "5.0",
+            "k": 2,
             "h": 2,
             "er": 0,
             "bb": 0
@@ -47509,7 +47509,17 @@
         "Carlos Jorge",
         "Ke'Bryan Hayes"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Shohei Ohtani",
+        "Freddie Freeman",
+        "Tommy Edman",
+        "Max Muncy",
+        "Teoscar Hernández",
+        "Kyle Tucker",
+        "Hunter Feduccia",
+        "Alex Call",
+        "Alex Freeland"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -47572,17 +47582,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 56.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Mookie Betts",
-            "juegos": 3,
-            "avg": 0.385,
-            "prob_2j_3j": 46.2,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 58.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -47591,14 +47591,14 @@
             "prob": 64,
             "prob_2j_3j": 80.0,
             "pct_hit": 52.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy Edman",
             "prob": 50,
             "prob_2j_3j": 60.0,
             "pct_hit": 52.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -47607,21 +47607,14 @@
             "prob": 71,
             "prob_1j_2j": 71.6,
             "pct_hit": 68.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Will Smith",
-            "prob": 52,
-            "prob_1j_2j": 54.8,
-            "pct_hit": 58.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alex Call",
             "prob": 37,
             "prob_1j_2j": 39.1,
             "pct_hit": 45.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47668,7 +47661,49 @@
           }
         ]
       },
-      "home_pitcher": null
+      "home_pitcher": {
+        "nombre": "Emmet Sheehan",
+        "avg_contra": ".252",
+        "era": "5.29",
+        "whip": "1.29",
+        "k9": "10.20",
+        "h9": "8.78",
+        "ip_temporada": "95.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-08-02",
+            "ip": "2.2",
+            "k": 4,
+            "h": 6,
+            "er": 5,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-26",
+            "ip": "5.0",
+            "k": 5,
+            "h": 3,
+            "er": 1,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-07-20",
+            "ip": "5.1",
+            "k": 6,
+            "h": 8,
+            "er": 6,
+            "bb": 1
+          },
+          {
+            "fecha": "2026-07-12",
+            "ip": "5.1",
+            "k": 7,
+            "h": 3,
+            "er": 2,
+            "bb": 1
+          }
+        ]
+      }
     },
     {
       "away": "Toronto Blue Jays",
@@ -47855,5 +47890,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "07/09/26 16:00"
+  "alineaciones_actualizadas": "07/09/26 16:30"
 }
