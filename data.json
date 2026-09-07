@@ -45833,7 +45833,17 @@
       "game_id": 823820,
       "fecha": "2026-09-07",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Stowers",
+        "Heriberto Hernández",
+        "Griffin Conine",
+        "Otto Lopez",
+        "Jakob Marsee",
+        "Javier Sanoja",
+        "Owen Caissie",
+        "Graham Pauley",
+        "Joe Mack"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -45901,7 +45911,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 56.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Griffin Conine",
@@ -45911,7 +45921,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 52.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -45920,7 +45930,7 @@
             "prob": 80,
             "prob_2j_3j": 84.4,
             "pct_hit": 72.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -45929,35 +45939,28 @@
             "prob": 51,
             "prob_1j_2j": 51.2,
             "pct_hit": 48.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Heriberto Hernández",
             "prob": 50,
             "prob_1j_2j": 52.8,
             "pct_hit": 52.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jakob Marsee",
             "prob": 50,
             "prob_1j_2j": 51.1,
             "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joe Mack",
             "prob": 44,
             "prob_1j_2j": 42.9,
             "pct_hit": 49.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Esteury Ruiz",
-            "prob": 33,
-            "prob_1j_2j": 35.3,
-            "pct_hit": 36.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46384,9 +46387,19 @@
       "home": "Kansas City Royals",
       "game_id": 824062,
       "fecha": "2026-09-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Geraldo Perdomo",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Nolan Arenado",
+        "Lourdes Gurriel Jr.",
+        "Ildemaro Vargas",
+        "Tim Tawa",
+        "Jordan Lawlar",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -46397,17 +46410,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 5,
-            "avg": 0.353,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -46417,30 +46420,23 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Corbin Carroll",
-            "prob": 63,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 57.8,
-            "confirmado": false
-          },
           {
             "jugador": "Nolan Arenado",
             "prob": 53,
             "prob_2j_3j": 50.0,
             "pct_hit": 56.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
             "prob": 36,
             "prob_2j_3j": 40.0,
             "pct_hit": 45.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46449,14 +46445,14 @@
             "prob": 63,
             "prob_1j_2j": 70.8,
             "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
             "prob": 58,
             "prob_1j_2j": 58.5,
             "pct_hit": 57.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46529,7 +46525,49 @@
           }
         ]
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Derek Law",
+        "avg_contra": ".250",
+        "era": "1.93",
+        "whip": "1.07",
+        "k9": "5.79",
+        "h9": "7.71",
+        "ip_temporada": "4.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-09-04",
+            "ip": "1.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-09-02",
+            "ip": "1.1",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-09-01",
+            "ip": "1.0",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-08-29",
+            "ip": "1.1",
+            "k": 1,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Noah Cameron",
         "avg_contra": ".237",
@@ -47756,5 +47794,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "07/09/26 07:00"
+  "alineaciones_actualizadas": "07/09/26 08:00"
 }
