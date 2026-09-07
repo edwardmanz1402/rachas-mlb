@@ -49020,7 +49020,7 @@
         "Sam Antonacci",
         "Miguel Vargas",
         "Munetaka Murakami",
-        "Andrew Benintendi",
+        "Randal Grichuk",
         "Colson Montgomery",
         "Braden Montgomery",
         "Tristan Peters",
@@ -49117,25 +49117,32 @@
             "prob_1j_2j": 58.3,
             "pct_hit": 55.7,
             "confirmado": true
+          },
+          {
+            "jugador": "Randal Grichuk",
+            "prob": 32,
+            "prob_1j_2j": 30.8,
+            "pct_hit": 43.5,
+            "confirmado": true
           }
         ]
       },
       "away_pitcher": {
         "nombre": "Bailey Ober",
-        "avg_contra": ".243",
-        "era": "4.22",
-        "whip": "1.24",
-        "k9": "6.52",
-        "h9": "8.51",
-        "ip_temporada": "117.1",
+        "avg_contra": ".246",
+        "era": "4.28",
+        "whip": "1.25",
+        "k9": "6.50",
+        "h9": "8.64",
+        "ip_temporada": "117.2",
         "ultimas4": [
           {
             "fecha": "2026-09-06",
-            "ip": "3.2",
+            "ip": "4.1",
             "k": 6,
-            "h": 2,
-            "er": 0,
-            "bb": 2
+            "h": 4,
+            "er": 1,
+            "bb": 3
           },
           {
             "fecha": "2026-08-29",
@@ -49212,7 +49219,17 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823903,
       "fecha": "2026-09-06",
-      "away_lineup": [],
+      "away_lineup": [
+        "James Wood",
+        "Dylan Crews",
+        "Andrés Chaparro",
+        "CJ Abrams",
+        "Brady House",
+        "Daylen Lile",
+        "Harry Ford",
+        "Jacob Young",
+        "Nasim Nuñez"
+      ],
       "home_lineup": [
         "Tommy Edman",
         "Mookie Betts",
@@ -49224,7 +49241,7 @@
         "Max Muncy",
         "Enrique Hernández"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -49235,7 +49252,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 60.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "James Wood",
@@ -49245,7 +49262,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 64.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49254,14 +49271,14 @@
             "prob": 44,
             "prob_2j_3j": 45.5,
             "pct_hit": 56.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrés Chaparro",
             "prob": 22,
             "prob_2j_3j": 0,
             "pct_hit": 36.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49270,21 +49287,14 @@
             "prob": 67,
             "prob_1j_2j": 70.3,
             "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Daylen Lile",
             "prob": 63,
             "prob_1j_2j": 63.3,
             "pct_hit": 60.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Keibert Ruiz",
-            "prob": 61,
-            "prob_1j_2j": 65.0,
-            "pct_hit": 62.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49408,5 +49418,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "06/09/26 17:30"
+  "alineaciones_actualizadas": "06/09/26 18:00"
 }
