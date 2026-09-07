@@ -46671,9 +46671,19 @@
       "home": "Milwaukee Brewers",
       "game_id": 823742,
       "fecha": "2026-09-07",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Alex Bregman",
+        "Tyrone Taylor",
+        "Nico Hoerner",
+        "Matt Shaw",
+        "Carson Kelly",
+        "BJ Murray Jr.",
+        "Pedro Ramírez"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -46684,7 +46694,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 68.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyrone Taylor",
@@ -46694,17 +46704,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 43.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Conforto",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 44.4,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 38.8,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nico Hoerner",
@@ -46714,7 +46714,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 66.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -46723,21 +46723,7 @@
             "prob": 64,
             "prob_2j_3j": 68.2,
             "pct_hit": 62.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 55,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 53.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ian Happ",
-            "prob": 52,
-            "prob_2j_3j": 55.0,
-            "pct_hit": 54.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46746,14 +46732,7 @@
             "prob": 57,
             "prob_1j_2j": 58.5,
             "pct_hit": 58.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Miguel Amaya",
-            "prob": 43,
-            "prob_1j_2j": 43.5,
-            "pct_hit": 51.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47900,5 +47879,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "07/09/26 09:00"
+  "alineaciones_actualizadas": "07/09/26 09:30"
 }
