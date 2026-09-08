@@ -45954,10 +45954,10 @@
         "Ketel Marte",
         "Gabriel Moreno",
         "Geraldo Perdomo",
-        "Corbin Carroll",
         "Nolan Arenado",
         "Tommy Troy",
         "Tim Tawa",
+        "Ildemaro Vargas",
         "Ryan Waldschmidt"
       ],
       "home_lineup": [
@@ -46021,6 +46021,13 @@
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 57.3,
+            "confirmado": true
+          },
+          {
+            "jugador": "Ildemaro Vargas",
+            "prob": 60,
+            "prob_2j_3j": 70.0,
+            "pct_hit": 57.5,
             "confirmado": true
           }
         ],
@@ -46467,7 +46474,17 @@
       "home": "San Diego Padres",
       "game_id": 823250,
       "fecha": "2026-09-08",
-      "away_lineup": [],
+      "away_lineup": [
+        "James Wood",
+        "Abimelec Ortiz",
+        "Dylan Crews",
+        "CJ Abrams",
+        "Brady House",
+        "Daylen Lile",
+        "Yohandy Morales",
+        "Jorbit Vivas",
+        "Harry Ford"
+      ],
       "home_lineup": [
         "Fernando Tatis Jr.",
         "Jake Cronenworth",
@@ -46479,7 +46496,7 @@
         "Xander Bogaerts",
         "Freddy Fermin"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -46490,17 +46507,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 64.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Andrés Chaparro",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 38.0,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -46510,28 +46517,28 @@
             "prob": 54,
             "prob_1j_2j": 61.1,
             "pct_hit": 46.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Crews",
             "prob": 53,
             "prob_1j_2j": 57.1,
             "pct_hit": 56.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Abimelec Ortiz",
             "prob": 30,
             "prob_1j_2j": 0,
             "pct_hit": 44.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Harry Ford",
             "prob": 28,
             "prob_1j_2j": 0,
             "pct_hit": 40.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47490,5 +47497,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "08/09/26 16:00"
+  "alineaciones_actualizadas": "08/09/26 16:30"
 }
