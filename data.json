@@ -45949,7 +45949,17 @@
       "home": "Kansas City Royals",
       "game_id": 824063,
       "fecha": "2026-09-08",
-      "away_lineup": [],
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Tommy Troy",
+        "Tim Tawa",
+        "Ryan Waldschmidt"
+      ],
       "home_lineup": [
         "Carter Jensen",
         "Bobby Witt Jr.",
@@ -45961,7 +45971,7 @@
         "Matthew Lugo",
         "Kyle Isbel"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -45972,17 +45982,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 65.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "James McCann",
-            "juegos": 5,
-            "avg": 0.353,
-            "prob_2j_3j": 75.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 56.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -45992,7 +45992,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tim Tawa",
@@ -46002,7 +46002,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 46.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Arenado",
@@ -46012,7 +46012,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 57.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -46021,14 +46021,7 @@
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 57.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ildemaro Vargas",
-            "prob": 60,
-            "prob_2j_3j": 70.0,
-            "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -46037,7 +46030,7 @@
             "prob": 37,
             "prob_1j_2j": 35.0,
             "pct_hit": 51.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -46269,7 +46262,17 @@
       "home": "Milwaukee Brewers",
       "game_id": 823738,
       "fecha": "2026-09-08",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Seiya Suzuki",
+        "Alex Bregman",
+        "Michael Busch",
+        "Nico Hoerner",
+        "Ian Happ",
+        "Matt Shaw",
+        "Tyrone Taylor",
+        "Miguel Amaya"
+      ],
       "home_lineup": [
         "Jackson Chourio",
         "Brice Turang",
@@ -46281,7 +46284,7 @@
         "Garrett Mitchell",
         "Cooper Pratt"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -46292,7 +46295,7 @@
             "prob_3j_4j": 68.8,
             "pct_hit": 68.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tyrone Taylor",
@@ -46302,49 +46305,24 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Conforto",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 44.4,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 38.8,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Gabriel Arias",
-            "prob": 55,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 53.7,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Alex Bregman",
             "prob": 67,
             "prob_1j_2j": 71.0,
             "pct_hit": 65.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Amaya",
             "prob": 43,
             "prob_1j_2j": 43.5,
             "pct_hit": 51.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Pedro Ramírez",
-            "prob": 24,
-            "prob_1j_2j": 22.2,
-            "pct_hit": 38.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -47428,5 +47406,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "08/09/26 14:30"
+  "alineaciones_actualizadas": "08/09/26 15:00"
 }
