@@ -49423,7 +49423,7 @@
         "Christian Moore",
         "Oswald Peraza",
         "Denzer Guzman",
-        "Kyren Paris",
+        "Josh Lowe",
         "Moisés Ballesteros"
       ],
       "home_lineup": [
@@ -49435,7 +49435,7 @@
         "Daylen Lile",
         "Harry Ford",
         "Jorbit Vivas",
-        "Jacob Young"
+        "José Tena"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -49614,7 +49614,7 @@
         "Fernando Tatis Jr.",
         "Sung-Mun Song",
         "Manny Machado",
-        "Luis Campusano",
+        "Freddy Fermin",
         "Jackson Merrill",
         "Ethan Salas",
         "Xander Bogaerts",
@@ -49628,24 +49628,13 @@
         "Jonah Cox",
         "Turner Hill",
         "Jung Hoo Lee",
-        "Shay Whitcomb",
+        "Nate Furman",
         "Drew Cavanaugh",
         "Christian Koss"
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Luis Campusano",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 49.0,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": true
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Fernando Tatis Jr.",
@@ -49670,6 +49659,13 @@
           }
         ],
         "candidatos_1j": [
+          {
+            "jugador": "Freddy Fermin",
+            "prob": 40,
+            "prob_1j_2j": 43.8,
+            "pct_hit": 40.0,
+            "confirmado": true
+          },
           {
             "jugador": "Jake Cronenworth",
             "prob": 37,
@@ -50222,8 +50218,8 @@
         "Kyle Tucker",
         "Teoscar Hernández",
         "Josue De Paula",
-        "Hunter Feduccia",
-        "Alex Freeland"
+        "Alex Call",
+        "Will Smith"
       ],
       "home_lineup": [
         "Kyle Stowers",
@@ -50248,16 +50244,19 @@
             "pct_hit": 51.6,
             "tipo": "📊 IRREGULAR",
             "confirmado": true
+          },
+          {
+            "jugador": "Will Smith",
+            "juegos": 4,
+            "avg": 0.308,
+            "prob_2j_3j": 54.5,
+            "prob_3j_4j": 60.0,
+            "pct_hit": 58.9,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Alex Freeland",
-            "prob": 52,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 39.7,
-            "confirmado": true
-          },
           {
             "jugador": "Kyle Tucker",
             "prob": 51,
@@ -50546,17 +50545,17 @@
       },
       "away_pitcher": {
         "nombre": "Peter Lambert",
-        "avg_contra": ".223",
-        "era": "3.65",
-        "whip": "1.23",
-        "k9": "8.77",
-        "h9": "7.49",
-        "ip_temporada": "140.2",
+        "avg_contra": ".220",
+        "era": "3.60",
+        "whip": "1.21",
+        "k9": "8.83",
+        "h9": "7.38",
+        "ip_temporada": "142.2",
         "ultimas4": [
           {
             "fecha": "2026-09-12",
-            "ip": "1.0",
-            "k": 0,
+            "ip": "3.0",
+            "k": 3,
             "h": 1,
             "er": 0,
             "bb": 0
@@ -50589,17 +50588,17 @@
       },
       "home_pitcher": {
         "nombre": "Ian Seymour",
-        "avg_contra": ".232",
-        "era": "4.37",
-        "whip": "1.18",
-        "k9": "10.97",
-        "h9": "7.98",
-        "ip_temporada": "117.1",
+        "avg_contra": ".228",
+        "era": "4.28",
+        "whip": "1.15",
+        "k9": "11.03",
+        "h9": "7.80",
+        "ip_temporada": "120.0",
         "ultimas4": [
           {
             "fecha": "2026-09-12",
-            "ip": "1.0",
-            "k": 3,
+            "ip": "3.2",
+            "k": 7,
             "h": 2,
             "er": 1,
             "bb": 1
@@ -51659,5 +51658,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "12/09/26 16:30"
+  "alineaciones_actualizadas": "12/09/26 17:00"
 }
