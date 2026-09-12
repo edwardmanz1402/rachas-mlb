@@ -48746,7 +48746,17 @@
       "game_id": 823496,
       "fecha": "2026-09-12",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Paul Goldschmidt",
+        "Aaron Judge",
+        "Cody Bellinger",
+        "Heliot Ramos",
+        "Amed Rosario",
+        "Spencer Jones",
+        "George Lombard Jr.",
+        "Anthony Volpe",
+        "Austin Wells"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -48834,17 +48844,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Luis García Jr.",
-            "juegos": 5,
-            "avg": 0.45,
-            "prob_2j_3j": 60.0,
-            "prob_3j_4j": 45.5,
-            "pct_hit": 57.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Jones",
@@ -48854,7 +48854,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 45.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48863,28 +48863,14 @@
             "prob": 68,
             "prob_2j_3j": 71.4,
             "pct_hit": 66.7,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ben Rice",
-            "prob": 67,
-            "prob_2j_3j": 70.8,
-            "pct_hit": 61.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Anthony Volpe",
             "prob": 62,
             "prob_2j_3j": 75.0,
             "pct_hit": 52.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan McMahon",
-            "prob": 42,
-            "prob_2j_3j": 45.5,
-            "pct_hit": 43.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -51680,5 +51666,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "12/09/26 08:30"
+  "alineaciones_actualizadas": "12/09/26 09:00"
 }
