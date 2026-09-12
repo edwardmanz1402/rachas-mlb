@@ -48967,21 +48967,21 @@
       "home": "Chicago Cubs",
       "game_id": 824630,
       "fecha": "2026-09-12",
-      "away_lineup": [],
+      "away_lineup": [
+        "Oneil Cruz",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Konnor Griffin",
+        "Ryan O'Hearn",
+        "Spencer Horwitz",
+        "Jake Mangum",
+        "Jacob Gonzalez",
+        "Henry Davis"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Rafael Flores Jr.",
-            "juegos": 6,
-            "avg": 0.36,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 46.4,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Oneil Cruz",
             "juegos": 4,
@@ -48990,17 +48990,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 65.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Nick Gonzales",
-            "juegos": 3,
-            "avg": 0.273,
-            "prob_2j_3j": 64.0,
-            "prob_3j_4j": 75.0,
-            "pct_hit": 65.3,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Horwitz",
@@ -49010,7 +49000,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 58.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -49020,21 +49010,21 @@
             "prob": 70,
             "prob_1j_2j": 77.5,
             "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryan Reynolds",
             "prob": 64,
             "prob_1j_2j": 67.7,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Mangum",
             "prob": 57,
             "prob_1j_2j": 60.5,
             "pct_hit": 60.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51668,5 +51658,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "12/09/26 09:30"
+  "alineaciones_actualizadas": "12/09/26 10:00"
 }
