@@ -48561,9 +48561,29 @@
       "home": "Detroit Tigers",
       "game_id": 824224,
       "fecha": "2026-09-12",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jake McCarthy",
+        "Connor Norby",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Cole Carrigg",
+        "Kyle Karros",
+        "Jordan Beck",
+        "Adael Amador",
+        "Ezequiel Tovar"
+      ],
+      "home_lineup": [
+        "Kevin McGonigle",
+        "Hao-Yu Lee",
+        "Colt Keith",
+        "Riley Greene",
+        "Eduardo Valencia",
+        "Max Clark",
+        "Spencer Torkelson",
+        "Brett Callahan",
+        "John Peck"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48574,7 +48594,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 72.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Adael Amador",
@@ -48584,7 +48604,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 72.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48593,37 +48613,23 @@
             "prob": 46,
             "prob_2j_3j": 50.0,
             "pct_hit": 56.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Troy Johnston",
-            "prob": 65,
-            "prob_1j_2j": 64.3,
-            "pct_hit": 62.9,
-            "confirmado": false
-          },
           {
             "jugador": "Connor Norby",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 54.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Beck",
             "prob": 40,
             "prob_1j_2j": 45.5,
             "pct_hit": 39.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Zac Veen",
-            "prob": 30,
-            "prob_1j_2j": 0,
-            "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -48631,18 +48637,11 @@
         "racha": [],
         "candidatos_2j": [
           {
-            "jugador": "Dillon Dingler",
-            "prob": 54,
-            "prob_2j_3j": 56.2,
-            "pct_hit": 54.5,
-            "confirmado": false
-          },
-          {
             "jugador": "Max Clark",
             "prob": 29,
             "prob_2j_3j": 0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -48651,14 +48650,14 @@
             "prob": 63,
             "prob_1j_2j": 64.5,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Callahan",
             "prob": 28,
             "prob_1j_2j": 0,
             "pct_hit": 38.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51681,5 +51680,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "12/09/26 08:00"
+  "alineaciones_actualizadas": "12/09/26 08:30"
 }
