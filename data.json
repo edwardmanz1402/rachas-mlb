@@ -51346,14 +51346,14 @@
       "game_id": 824708,
       "fecha": "2026-09-13",
       "away_lineup": [
-        "Nick Loftin",
+        "Carter Jensen",
         "Bobby Witt Jr.",
-        "Jac Caglianone",
+        "Vinnie Pasquantino",
         "Salvador Perez",
         "Michael Massey",
         "Matthew Lugo",
         "Isaac Collins",
-        "Luke Maile",
+        "John Rave",
         "Tyler Tolbert"
       ],
       "home_lineup": [
@@ -51365,7 +51365,7 @@
         "Trevor Story",
         "Caleb Durbin",
         "Nick Sogard",
-        "Nate Eaton"
+        "Andruw Monasterio"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -51379,9 +51379,26 @@
             "pct_hit": 57.3,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
+          },
+          {
+            "jugador": "Carter Jensen",
+            "juegos": 3,
+            "avg": 0.333,
+            "prob_2j_3j": 77.8,
+            "prob_3j_4j": 63.6,
+            "pct_hit": 58.4,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
+          {
+            "jugador": "Vinnie Pasquantino",
+            "prob": 53,
+            "prob_2j_3j": 52.9,
+            "pct_hit": 61.1,
+            "confirmado": true
+          },
           {
             "jugador": "Salvador Perez",
             "prob": 49,
@@ -51463,16 +51480,16 @@
       },
       "away_pitcher": {
         "nombre": "Noah Cameron",
-        "avg_contra": ".232",
-        "era": "3.86",
+        "avg_contra": ".233",
+        "era": "3.84",
         "whip": "1.19",
-        "k9": "8.11",
-        "h9": "7.89",
-        "ip_temporada": "165.1",
+        "k9": "8.06",
+        "h9": "7.90",
+        "ip_temporada": "166.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "5.1",
+            "ip": "6.0",
             "k": 4,
             "h": 4,
             "er": 1,
@@ -51560,7 +51577,7 @@
         "Cal Raleigh",
         "Julio Rodríguez",
         "Josh Naylor",
-        "Michael Arroyo",
+        "Cole Young",
         "Brock Rodden",
         "Jhonny Pereda"
       ],
@@ -51569,7 +51586,7 @@
         "Jeff McNeil",
         "Zack Gelof",
         "Lawrence Butler",
-        "Max Muncy",
+        "Shea Langeliers",
         "Donovan Walton",
         "Carlos Cortes",
         "Brian Serven",
@@ -51578,6 +51595,16 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
+          {
+            "jugador": "Cole Young",
+            "juegos": 5,
+            "avg": 0.4,
+            "prob_2j_3j": 76.9,
+            "prob_3j_4j": 60.0,
+            "pct_hit": 62.5,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
           {
             "jugador": "Julio Rodríguez",
             "juegos": 4,
@@ -51646,7 +51673,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_1j": []
+        "candidatos_1j": [
+          {
+            "jugador": "Shea Langeliers",
+            "prob": 65,
+            "prob_1j_2j": 64.4,
+            "pct_hit": 71.1,
+            "confirmado": true
+          }
+        ]
       },
       "away_pitcher": {
         "nombre": "Bryce Miller",
@@ -52181,5 +52216,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/09/26 16:30"
+  "alineaciones_actualizadas": "13/09/26 17:02"
 }
