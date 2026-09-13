@@ -49202,20 +49202,20 @@
       },
       "away_pitcher": {
         "nombre": "Gabriel Hughes",
-        "avg_contra": ".267",
-        "era": "6.05",
-        "whip": "1.40",
-        "k9": "7.60",
-        "h9": "9.31",
-        "ip_temporada": "58.0",
+        "avg_contra": ".273",
+        "era": "6.41",
+        "whip": "1.46",
+        "k9": "7.63",
+        "h9": "9.61",
+        "ip_temporada": "59.0",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "0.2",
-            "k": 1,
-            "h": 2,
-            "er": 2,
-            "bb": 0
+            "ip": "1.2",
+            "k": 2,
+            "h": 5,
+            "er": 5,
+            "bb": 2
           },
           {
             "fecha": "2026-09-08",
@@ -49245,18 +49245,18 @@
       },
       "home_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".257",
-        "era": "4.60",
-        "whip": "1.40",
-        "k9": "8.59",
+        "avg_contra": ".259",
+        "era": "4.45",
+        "whip": "1.38",
+        "k9": "8.60",
         "h9": "8.90",
-        "ip_temporada": "29.1",
+        "ip_temporada": "30.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 2,
-            "h": 1,
+            "ip": "2.0",
+            "k": 3,
+            "h": 2,
             "er": 1,
             "bb": 0
           },
@@ -50346,7 +50346,17 @@
         "Miguel Rojas",
         "Alex Freeland"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Kyle Stowers",
+        "Heriberto Hernández",
+        "Otto Lopez",
+        "Griffin Conine",
+        "Xavier Edwards",
+        "Jakob Marsee",
+        "Javier Sanoja",
+        "Joe Mack",
+        "Esteury Ruiz"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -50392,7 +50402,7 @@
             "prob_3j_4j": 65.0,
             "pct_hit": 73.5,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Griffin Conine",
@@ -50402,17 +50412,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 52.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Graham Pauley",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 40.5,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50421,7 +50421,7 @@
             "prob": 44,
             "prob_2j_3j": 46.2,
             "pct_hit": 51.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -52287,5 +52287,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/09/26 10:30"
+  "alineaciones_actualizadas": "13/09/26 11:00"
 }
