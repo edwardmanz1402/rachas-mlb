@@ -49202,16 +49202,16 @@
       },
       "away_pitcher": {
         "nombre": "Gabriel Hughes",
-        "avg_contra": ".273",
-        "era": "6.41",
-        "whip": "1.46",
-        "k9": "7.63",
-        "h9": "9.61",
-        "ip_temporada": "59.0",
+        "avg_contra": ".272",
+        "era": "6.37",
+        "whip": "1.45",
+        "k9": "7.58",
+        "h9": "9.56",
+        "ip_temporada": "59.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.2",
+            "ip": "2.0",
             "k": 2,
             "h": 5,
             "er": 5,
@@ -49245,20 +49245,20 @@
       },
       "home_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".259",
-        "era": "4.45",
-        "whip": "1.38",
-        "k9": "8.60",
-        "h9": "8.90",
-        "ip_temporada": "30.1",
+        "avg_contra": ".246",
+        "era": "4.18",
+        "whip": "1.33",
+        "k9": "8.63",
+        "h9": "8.35",
+        "ip_temporada": "32.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "2.0",
-            "k": 3,
+            "ip": "4.0",
+            "k": 5,
             "h": 2,
             "er": 1,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-09-06",
@@ -51616,7 +51616,17 @@
       "game_id": 824952,
       "fecha": "2026-09-13",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Henry Bolte",
+        "Jeff McNeil",
+        "Zack Gelof",
+        "Lawrence Butler",
+        "Max Muncy",
+        "Donovan Walton",
+        "Carlos Cortes",
+        "Brian Serven",
+        "Alika Williams"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -51694,7 +51704,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51703,25 +51713,10 @@
             "prob": 70,
             "prob_2j_3j": 84.6,
             "pct_hit": 52.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jonah Heim",
-            "prob": 68,
-            "prob_2j_3j": 80.0,
-            "pct_hit": 51.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_1j": [
-          {
-            "jugador": "Shea Langeliers",
-            "prob": 65,
-            "prob_1j_2j": 64.4,
-            "pct_hit": 71.1,
-            "confirmado": false
-          }
-        ]
+        "candidatos_1j": []
       },
       "away_pitcher": {
         "nombre": "Bryce Miller",
@@ -51816,7 +51811,17 @@
       "game_id": 825033,
       "fecha": "2026-09-13",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Lars Nootbaar",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "James McCann",
+        "Jordan Lawlar"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -51909,27 +51914,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 48.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Ildemaro Vargas",
-            "juegos": 3,
-            "avg": 0.4,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 63.6,
-            "pct_hit": 58.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Lourdes Gurriel Jr.",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 60.0,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 55.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51938,7 +51923,7 @@
             "prob": 66,
             "prob_2j_3j": 72.2,
             "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51947,14 +51932,7 @@
             "prob": 58,
             "prob_1j_2j": 58.5,
             "pct_hit": 57.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Pavin Smith",
-            "prob": 38,
-            "prob_1j_2j": 44.4,
-            "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -52287,5 +52265,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/09/26 11:00"
+  "alineaciones_actualizadas": "13/09/26 11:30"
 }
