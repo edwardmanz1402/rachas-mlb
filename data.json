@@ -49070,7 +49070,7 @@
       "game_id": 824225,
       "fecha": "2026-09-13",
       "away_lineup": [
-        "Jake McCarthy",
+        "Jordan Beck",
         "Adael Amador",
         "Cole Carrigg",
         "TJ Rumfield",
@@ -49084,7 +49084,7 @@
         "Kevin McGonigle",
         "Hao-Yu Lee",
         "Colt Keith",
-        "Riley Greene",
+        "Ben Malgeri",
         "Dillon Dingler",
         "Max Clark",
         "Spencer Torkelson",
@@ -49094,16 +49094,6 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Jake McCarthy",
-            "juegos": 7,
-            "avg": 0.4,
-            "prob_2j_3j": 71.4,
-            "prob_3j_4j": 58.3,
-            "pct_hit": 72.6,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
           {
             "jugador": "Adael Amador",
             "juegos": 4,
@@ -49115,7 +49105,15 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [],
+        "candidatos_2j": [
+          {
+            "jugador": "Jordan Beck",
+            "prob": 51,
+            "prob_2j_3j": 66.7,
+            "pct_hit": 39.1,
+            "confirmado": true
+          }
+        ],
         "candidatos_1j": [
           {
             "jugador": "TJ Rumfield",
@@ -49154,13 +49152,6 @@
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Riley Greene",
-            "prob": 69,
-            "prob_2j_3j": 73.9,
-            "pct_hit": 60.9,
-            "confirmado": true
-          },
           {
             "jugador": "Dillon Dingler",
             "prob": 54,
@@ -49245,18 +49236,18 @@
       },
       "home_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".234",
-        "era": "3.93",
-        "whip": "1.25",
-        "k9": "8.65",
-        "h9": "7.86",
-        "ip_temporada": "34.1",
+        "avg_contra": ".238",
+        "era": "3.89",
+        "whip": "1.27",
+        "k9": "8.83",
+        "h9": "8.05",
+        "ip_temporada": "34.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "6.0",
-            "k": 7,
-            "h": 2,
+            "ip": "6.1",
+            "k": 8,
+            "h": 3,
             "er": 1,
             "bb": 1
           },
@@ -49404,18 +49395,18 @@
       },
       "away_pitcher": {
         "nombre": "Grayson Rodriguez",
-        "avg_contra": ".286",
-        "era": "6.23",
-        "whip": "1.59",
-        "k9": "8.31",
-        "h9": "10.17",
-        "ip_temporada": "82.1",
+        "avg_contra": ".285",
+        "era": "6.06",
+        "whip": "1.57",
+        "k9": "8.08",
+        "h9": "10.10",
+        "ip_temporada": "84.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "0.2",
+            "ip": "3.0",
             "k": 1,
-            "h": 2,
+            "h": 4,
             "er": 0,
             "bb": 1
           },
@@ -49447,17 +49438,17 @@
       },
       "home_pitcher": {
         "nombre": "Riley Cornelio",
-        "avg_contra": ".223",
-        "era": "5.06",
-        "whip": "1.61",
-        "k9": "9.79",
-        "h9": "7.09",
-        "ip_temporada": "26.2",
+        "avg_contra": ".216",
+        "era": "4.88",
+        "whip": "1.55",
+        "k9": "10.08",
+        "h9": "6.83",
+        "ip_temporada": "27.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 2,
+            "ip": "2.0",
+            "k": 4,
             "h": 1,
             "er": 0,
             "bb": 1
@@ -49628,20 +49619,20 @@
       },
       "away_pitcher": {
         "nombre": "Andrew Painter",
-        "avg_contra": ".275",
-        "era": "5.74",
-        "whip": "1.43",
-        "k9": "7.92",
-        "h9": "9.70",
-        "ip_temporada": "111.1",
+        "avg_contra": ".274",
+        "era": "5.65",
+        "whip": "1.42",
+        "k9": "7.88",
+        "h9": "9.64",
+        "ip_temporada": "113.0",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 1,
-            "h": 3,
+            "ip": "3.0",
+            "k": 2,
+            "h": 5,
             "er": 1,
-            "bb": 0
+            "bb": 2
           },
           {
             "fecha": "2026-09-08",
@@ -49671,20 +49662,20 @@
       },
       "home_pitcher": {
         "nombre": "Grant Holmes",
-        "avg_contra": ".232",
-        "era": "3.43",
-        "whip": "1.28",
-        "k9": "7.12",
-        "h9": "7.83",
-        "ip_temporada": "139.0",
+        "avg_contra": ".233",
+        "era": "3.52",
+        "whip": "1.29",
+        "k9": "7.04",
+        "h9": "7.87",
+        "ip_temporada": "140.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.2",
+            "ip": "3.0",
             "k": 0,
-            "h": 2,
-            "er": 0,
-            "bb": 0
+            "h": 3,
+            "er": 2,
+            "bb": 2
           },
           {
             "fecha": "2026-09-07",
@@ -49833,13 +49824,21 @@
       },
       "away_pitcher": {
         "nombre": "Christian Scott",
-        "avg_contra": ".223",
-        "era": "3.81",
-        "whip": "1.29",
-        "k9": "10.87",
-        "h9": "7.61",
-        "ip_temporada": "99.1",
+        "avg_contra": ".221",
+        "era": "3.82",
+        "whip": "1.27",
+        "k9": "10.75",
+        "h9": "7.55",
+        "ip_temporada": "101.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "2.0",
+            "k": 1,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-06",
             "ip": "4.2",
@@ -49863,33 +49862,25 @@
             "h": 5,
             "er": 4,
             "bb": 4
-          },
-          {
-            "fecha": "2026-08-16",
-            "ip": "6.1",
-            "k": 7,
-            "h": 5,
-            "er": 3,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Cam Schlittler",
-        "avg_contra": ".189",
-        "era": "2.01",
-        "whip": "0.92",
-        "k9": "11.08",
-        "h9": "6.15",
-        "ip_temporada": "178.2",
+        "avg_contra": ".187",
+        "era": "1.99",
+        "whip": "0.91",
+        "k9": "11.16",
+        "h9": "6.08",
+        "ip_temporada": "180.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "0.1",
-            "k": 1,
+            "ip": "2.1",
+            "k": 4,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-09-08",
@@ -50040,19 +50031,19 @@
       },
       "away_pitcher": {
         "nombre": "Trevor Rogers",
-        "avg_contra": ".252",
-        "era": "4.15",
-        "whip": "1.21",
-        "k9": "8.19",
-        "h9": "8.72",
-        "ip_temporada": "151.2",
+        "avg_contra": ".253",
+        "era": "4.16",
+        "whip": "1.22",
+        "k9": "8.14",
+        "h9": "8.79",
+        "ip_temporada": "153.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 0,
-            "h": 1,
-            "er": 0,
+            "ip": "2.2",
+            "k": 2,
+            "h": 3,
+            "er": 1,
             "bb": 0
           },
           {
@@ -50083,20 +50074,20 @@
       },
       "home_pitcher": {
         "nombre": "Dylan Cease",
-        "avg_contra": ".178",
-        "era": "2.38",
+        "avg_contra": ".176",
+        "era": "2.35",
         "whip": "1.05",
-        "k9": "12.75",
-        "h9": "5.66",
-        "ip_temporada": "162.1",
+        "k9": "12.76",
+        "h9": "5.59",
+        "ip_temporada": "164.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 3,
+            "ip": "3.0",
+            "k": 6,
             "h": 1,
             "er": 0,
-            "bb": 2
+            "bb": 4
           },
           {
             "fecha": "2026-09-07",
@@ -50245,20 +50236,20 @@
       },
       "away_pitcher": {
         "nombre": "Hayden Wesneski",
-        "avg_contra": ".217",
-        "era": "3.72",
-        "whip": "1.09",
-        "k9": "7.24",
-        "h9": "7.04",
-        "ip_temporada": "46.0",
+        "avg_contra": ".211",
+        "era": "3.78",
+        "whip": "1.07",
+        "k9": "7.17",
+        "h9": "6.80",
+        "ip_temporada": "47.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
+            "ip": "2.0",
             "k": 2,
             "h": 3,
             "er": 3,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-09-08",
@@ -50288,20 +50279,20 @@
       },
       "home_pitcher": {
         "nombre": "Freddy Peralta",
-        "avg_contra": ".254",
-        "era": "4.79",
-        "whip": "1.35",
-        "k9": "8.36",
-        "h9": "8.94",
-        "ip_temporada": "154.0",
+        "avg_contra": ".252",
+        "era": "4.74",
+        "whip": "1.36",
+        "k9": "8.38",
+        "h9": "8.85",
+        "ip_temporada": "155.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 1,
+            "ip": "3.0",
+            "k": 3,
             "h": 0,
             "er": 0,
-            "bb": 0
+            "bb": 3
           },
           {
             "fecha": "2026-09-08",
@@ -50428,17 +50419,17 @@
       },
       "away_pitcher": {
         "nombre": "Emmet Sheehan",
-        "avg_contra": ".246",
-        "era": "5.05",
-        "whip": "1.25",
-        "k9": "10.62",
-        "h9": "8.50",
-        "ip_temporada": "101.2",
+        "avg_contra": ".242",
+        "era": "4.95",
+        "whip": "1.23",
+        "k9": "10.59",
+        "h9": "8.33",
+        "ip_temporada": "103.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 2,
+            "ip": "3.0",
+            "k": 4,
             "h": 0,
             "er": 0,
             "bb": 0
@@ -50471,20 +50462,20 @@
       },
       "home_pitcher": {
         "nombre": "Eury Pérez",
-        "avg_contra": ".217",
-        "era": "3.91",
+        "avg_contra": ".216",
+        "era": "3.86",
         "whip": "1.23",
-        "k9": "9.68",
-        "h9": "7.12",
-        "ip_temporada": "140.1",
+        "k9": "9.67",
+        "h9": "7.08",
+        "ip_temporada": "142.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.2",
-            "k": 1,
-            "h": 0,
+            "ip": "3.0",
+            "k": 3,
+            "h": 1,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-09-07",
@@ -50645,13 +50636,21 @@
       },
       "away_pitcher": {
         "nombre": "Tanner Bibee",
-        "avg_contra": ".238",
-        "era": "4.22",
+        "avg_contra": ".237",
+        "era": "4.20",
         "whip": "1.20",
-        "k9": "7.01",
-        "h9": "8.02",
-        "ip_temporada": "170.2",
+        "k9": "6.99",
+        "h9": "7.98",
+        "ip_temporada": "171.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "0.2",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-08",
             "ip": "4.1",
@@ -50675,26 +50674,26 @@
             "h": 7,
             "er": 1,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-22",
-            "ip": "6.0",
-            "k": 6,
-            "h": 5,
-            "er": 2,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Joe Ryan",
-        "avg_contra": ".237",
-        "era": "3.68",
-        "whip": "1.13",
-        "k9": "10.06",
-        "h9": "8.26",
-        "ip_temporada": "129.2",
+        "avg_contra": ".238",
+        "era": "3.72",
+        "whip": "1.14",
+        "k9": "9.99",
+        "h9": "8.33",
+        "ip_temporada": "130.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "1.0",
+            "k": 0,
+            "h": 2,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-07",
             "ip": "4.0",
@@ -50717,14 +50716,6 @@
             "k": 4,
             "h": 8,
             "er": 4,
-            "bb": 0
-          },
-          {
-            "fecha": "2026-07-20",
-            "ip": "4.0",
-            "k": 3,
-            "h": 10,
-            "er": 8,
             "bb": 0
           }
         ]
@@ -50900,13 +50891,21 @@
       },
       "away_pitcher": {
         "nombre": "Chase Burns",
-        "avg_contra": ".216",
-        "era": "2.73",
+        "avg_contra": ".215",
+        "era": "2.71",
         "whip": "1.14",
-        "k9": "10.68",
-        "h9": "7.16",
-        "ip_temporada": "148.1",
+        "k9": "10.73",
+        "h9": "7.11",
+        "ip_temporada": "149.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-07",
             "ip": "3.0",
@@ -50930,26 +50929,26 @@
             "h": 9,
             "er": 5,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-19",
-            "ip": "5.0",
-            "k": 8,
-            "h": 6,
-            "er": 2,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Robert Gasser",
-        "avg_contra": ".247",
-        "era": "4.43",
-        "whip": "1.28",
-        "k9": "8.57",
-        "h9": "8.67",
-        "ip_temporada": "91.1",
+        "avg_contra": ".245",
+        "era": "4.39",
+        "whip": "1.27",
+        "k9": "8.58",
+        "h9": "8.58",
+        "ip_temporada": "92.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "1.1",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-07",
             "ip": "4.2",
@@ -50973,14 +50972,6 @@
             "h": 6,
             "er": 1,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-20",
-            "ip": "3.2",
-            "k": 4,
-            "h": 4,
-            "er": 4,
-            "bb": 4
           }
         ]
       }
@@ -51106,13 +51097,21 @@
       },
       "away_pitcher": {
         "nombre": "David Sandlin",
-        "avg_contra": ".237",
-        "era": "6.93",
-        "whip": "1.38",
-        "k9": "8.76",
-        "h9": "8.03",
-        "ip_temporada": "24.2",
+        "avg_contra": ".229",
+        "era": "6.66",
+        "whip": "1.32",
+        "k9": "9.12",
+        "h9": "7.71",
+        "ip_temporada": "25.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-08-07",
             "ip": "5.1",
@@ -51136,26 +51135,26 @@
             "h": 3,
             "er": 3,
             "bb": 3
-          },
-          {
-            "fecha": "2026-06-01",
-            "ip": "4.0",
-            "k": 4,
-            "h": 8,
-            "er": 8,
-            "bb": 4
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Michael McGreevy",
-        "avg_contra": ".257",
-        "era": "3.92",
+        "avg_contra": ".256",
+        "era": "3.89",
         "whip": "1.25",
-        "k9": "6.19",
-        "h9": "8.82",
-        "ip_temporada": "154.0",
+        "k9": "6.15",
+        "h9": "8.77",
+        "ip_temporada": "155.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "1.1",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-07",
             "ip": "6.2",
@@ -51178,14 +51177,6 @@
             "k": 3,
             "h": 10,
             "er": 7,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-08-20",
-            "ip": "5.1",
-            "k": 4,
-            "h": 3,
-            "er": 3,
             "bb": 2
           }
         ]
@@ -51355,13 +51346,21 @@
       },
       "home_pitcher": {
         "nombre": "Matthew Boyd",
-        "avg_contra": ".244",
-        "era": "4.03",
-        "whip": "1.22",
-        "k9": "7.08",
-        "h9": "8.23",
-        "ip_temporada": "109.1",
+        "avg_contra": ".248",
+        "era": "4.10",
+        "whip": "1.24",
+        "k9": "7.06",
+        "h9": "8.37",
+        "ip_temporada": "109.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "0.1",
+            "k": 0,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-07",
             "ip": "7.0",
@@ -51384,14 +51383,6 @@
             "k": 5,
             "h": 3,
             "er": 1,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-08-21",
-            "ip": "6.0",
-            "k": 3,
-            "h": 6,
-            "er": 4,
             "bb": 2
           }
         ]
@@ -52256,5 +52247,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/09/26 12:00"
+  "alineaciones_actualizadas": "13/09/26 12:30"
 }
