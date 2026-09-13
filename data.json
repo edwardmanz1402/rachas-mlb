@@ -51146,7 +51146,7 @@
       "away_lineup": [
         "Konnor Griffin",
         "Oneil Cruz",
-        "Bryan Reynolds",
+        "Billy Cook",
         "Rafael Flores Jr.",
         "Jacob Gonzalez",
         "Ryan O'Hearn",
@@ -51161,9 +51161,9 @@
         "Alex Bregman",
         "Ian Happ",
         "Nico Hoerner",
-        "Michael Conforto",
+        "Matt Shaw",
         "Pedro Ramírez",
-        "Miguel Amaya"
+        "Carson Kelly"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -51179,15 +51179,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Bryan Reynolds",
-            "prob": 63,
-            "prob_2j_3j": 69.2,
-            "pct_hit": 63.0,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Brandon Lowe",
@@ -51471,13 +51463,21 @@
       },
       "away_pitcher": {
         "nombre": "Noah Cameron",
-        "avg_contra": ".234",
-        "era": "3.93",
-        "whip": "1.20",
-        "k9": "8.14",
-        "h9": "7.97",
-        "ip_temporada": "160.1",
+        "avg_contra": ".235",
+        "era": "3.94",
+        "whip": "1.21",
+        "k9": "8.17",
+        "h9": "8.00",
+        "ip_temporada": "162.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-13",
+            "ip": "1.2",
+            "k": 2,
+            "h": 2,
+            "er": 1,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-07",
             "ip": "6.0",
@@ -51501,31 +51501,23 @@
             "h": 6,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-21",
-            "ip": "5.0",
-            "k": 2,
-            "h": 2,
-            "er": 0,
-            "bb": 3
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Payton Tolle",
         "avg_contra": ".218",
-        "era": "3.13",
+        "era": "3.11",
         "whip": "1.07",
-        "k9": "10.57",
-        "h9": "7.24",
-        "ip_temporada": "138.0",
+        "k9": "10.55",
+        "h9": "7.25",
+        "ip_temporada": "139.0",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "1.0",
-            "k": 3,
-            "h": 0,
+            "ip": "2.0",
+            "k": 4,
+            "h": 1,
             "er": 0,
             "bb": 0
           },
@@ -51666,16 +51658,16 @@
       },
       "away_pitcher": {
         "nombre": "Bryce Miller",
-        "avg_contra": ".230",
-        "era": "4.31",
-        "whip": "1.16",
-        "k9": "8.97",
-        "h9": "7.76",
-        "ip_temporada": "104.1",
+        "avg_contra": ".228",
+        "era": "4.27",
+        "whip": "1.15",
+        "k9": "8.89",
+        "h9": "7.69",
+        "ip_temporada": "105.1",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "2.0",
+            "ip": "3.0",
             "k": 3,
             "h": 2,
             "er": 2,
@@ -51709,20 +51701,20 @@
       },
       "home_pitcher": {
         "nombre": "Jacob Lopez",
-        "avg_contra": ".254",
-        "era": "4.84",
-        "whip": "1.46",
-        "k9": "8.34",
-        "h9": "8.81",
-        "ip_temporada": "113.1",
+        "avg_contra": ".257",
+        "era": "4.94",
+        "whip": "1.48",
+        "k9": "8.40",
+        "h9": "8.95",
+        "ip_temporada": "114.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "2.1",
-            "k": 1,
-            "h": 3,
-            "er": 2,
-            "bb": 2
+            "ip": "3.2",
+            "k": 3,
+            "h": 6,
+            "er": 4,
+            "bb": 3
           },
           {
             "fecha": "2026-09-07",
@@ -51880,19 +51872,19 @@
       },
       "away_pitcher": {
         "nombre": "Cal Quantrill",
-        "avg_contra": ".218",
-        "era": "2.81",
+        "avg_contra": ".219",
+        "era": "2.87",
         "whip": "1.05",
-        "k9": "6.81",
-        "h9": "7.32",
-        "ip_temporada": "105.2",
+        "k9": "6.83",
+        "h9": "7.34",
+        "ip_temporada": "106.2",
         "ultimas4": [
           {
             "fecha": "2026-09-13",
-            "ip": "3.0",
-            "k": 3,
-            "h": 2,
-            "er": 0,
+            "ip": "4.0",
+            "k": 4,
+            "h": 3,
+            "er": 1,
             "bb": 0
           },
           {
@@ -52197,5 +52189,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/09/26 15:00"
+  "alineaciones_actualizadas": "13/09/26 15:30"
 }
