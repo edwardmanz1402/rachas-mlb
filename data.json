@@ -50636,7 +50636,7 @@
         "Dane Myers",
         "Elly De La Cruz",
         "Sal Stewart",
-        "Tyler Stephenson",
+        "Will Banfield",
         "Eugenio Suárez",
         "JJ Bleday",
         "Juan Brito",
@@ -50652,7 +50652,7 @@
         "Garrett Mitchell",
         "Sal Frelick",
         "Cooper Pratt",
-        "David Hamilton"
+        "Joey Ortiz"
       ],
       "alineacion_confirmada": true,
       "away_data": {
@@ -50670,6 +50670,16 @@
       },
       "home_data": {
         "racha": [
+          {
+            "jugador": "Joey Ortiz",
+            "juegos": 4,
+            "avg": 0.438,
+            "prob_2j_3j": 25.0,
+            "prob_3j_4j": 0,
+            "pct_hit": 50.5,
+            "tipo": "🎲 POSIBLE SUERTE",
+            "confirmado": true
+          },
           {
             "jugador": "Jackson Chourio",
             "juegos": 4,
@@ -50825,23 +50835,23 @@
       "fecha": "2026-09-12",
       "away_lineup": [
         "Kyle Schwarber",
-        "Edmundo Sosa",
         "Bryan De La Cruz",
+        "Rafael Marchán",
         "Luis Arraez",
         "Alec Bohm",
         "Bryson Stott",
         "Brandon Marsh",
-        "Rafael Marchán",
+        "Edmundo Sosa",
         "Justin Crawford"
       ],
       "home_lineup": [
         "Drake Baldwin",
-        "Ronald Acuña Jr.",
-        "Matt Olson",
+        "DaShawn Keirsey Jr.",
+        "Dominic Smith",
         "Ozzie Albies",
-        "Michael Harris II",
+        "Brewer Hicklen",
         "Mauricio Dubón",
-        "Austin Riley",
+        "Kyle Farmer",
         "Sean Murphy",
         "Ha-Seong Kim"
       ],
@@ -50895,24 +50905,10 @@
         ],
         "candidatos_2j": [
           {
-            "jugador": "Matt Olson",
-            "prob": 68,
-            "prob_2j_3j": 70.0,
-            "pct_hit": 67.2,
-            "confirmado": true
-          },
-          {
             "jugador": "Ha-Seong Kim",
             "prob": 67,
             "prob_2j_3j": 100.0,
             "pct_hit": 23.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Austin Riley",
-            "prob": 33,
-            "prob_2j_3j": 26.3,
-            "pct_hit": 48.1,
             "confirmado": true
           }
         ],
@@ -50922,13 +50918,6 @@
             "prob": 65,
             "prob_1j_2j": 67.2,
             "pct_hit": 63.8,
-            "confirmado": true
-          },
-          {
-            "jugador": "Ronald Acuña Jr.",
-            "prob": 59,
-            "prob_1j_2j": 62.9,
-            "pct_hit": 61.0,
             "confirmado": true
           },
           {
@@ -51253,7 +51242,7 @@
       "game_id": 825035,
       "fecha": "2026-09-12",
       "away_lineup": [
-        "Joc Pederson",
+        "Justin Foscue",
         "Corey Seager",
         "Josh Jung",
         "Brandon Nimmo",
@@ -51264,28 +51253,20 @@
         "Elias Díaz"
       ],
       "home_lineup": [
-        "Lars Nootbaar",
+        "Jordan Lawlar",
         "Ketel Marte",
         "Gabriel Moreno",
         "Geraldo Perdomo",
         "Corbin Carroll",
         "Nolan Arenado",
         "Tim Tawa",
-        "Pavin Smith",
+        "Ildemaro Vargas",
         "Ryan Waldschmidt"
       ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
-        "candidatos_2j": [
-          {
-            "jugador": "Joc Pederson",
-            "prob": 38,
-            "prob_2j_3j": 35.7,
-            "pct_hit": 46.3,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Wyatt Langford",
@@ -51321,10 +51302,24 @@
         ],
         "candidatos_2j": [
           {
+            "jugador": "Ildemaro Vargas",
+            "prob": 60,
+            "prob_2j_3j": 70.0,
+            "pct_hit": 57.8,
+            "confirmado": true
+          },
+          {
             "jugador": "Nolan Arenado",
             "prob": 53,
             "prob_2j_3j": 50.0,
             "pct_hit": 56.9,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jordan Lawlar",
+            "prob": 52,
+            "prob_2j_3j": 66.7,
+            "pct_hit": 42.3,
             "confirmado": true
           }
         ],
@@ -51349,7 +51344,7 @@
         "nombre": "Kumar Rocker",
         "avg_contra": ".259",
         "era": "4.54",
-        "whip": "1.41",
+        "whip": "1.43",
         "k9": "8.57",
         "h9": "9.15",
         "ip_temporada": "138.2",
@@ -51360,7 +51355,7 @@
             "k": 5,
             "h": 2,
             "er": 1,
-            "bb": 0
+            "bb": 2
           },
           {
             "fecha": "2026-09-04",
@@ -51391,17 +51386,17 @@
       "home_pitcher": {
         "nombre": "Brandon Pfaadt",
         "avg_contra": ".244",
-        "era": "3.83",
+        "era": "3.79",
         "whip": "1.17",
-        "k9": "6.03",
+        "k9": "6.06",
         "h9": "8.39",
-        "ip_temporada": "122.1",
+        "ip_temporada": "123.1",
         "ultimas4": [
           {
             "fecha": "2026-09-12",
-            "ip": "5.0",
-            "k": 5,
-            "h": 8,
+            "ip": "6.0",
+            "k": 6,
+            "h": 9,
             "er": 6,
             "bb": 0
           },
@@ -51580,13 +51575,21 @@
       },
       "away_pitcher": {
         "nombre": "Bryan Woo",
-        "avg_contra": ".224",
-        "era": "4.03",
+        "avg_contra": ".223",
+        "era": "4.01",
         "whip": "1.06",
-        "k9": "9.10",
-        "h9": "7.60",
-        "ip_temporada": "156.1",
+        "k9": "9.11",
+        "h9": "7.57",
+        "ip_temporada": "157.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-12",
+            "ip": "0.2",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-06",
             "ip": "8.0",
@@ -51610,26 +51613,26 @@
             "h": 5,
             "er": 6,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-16",
-            "ip": "6.0",
-            "k": 5,
-            "h": 3,
-            "er": 2,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Gage Jump",
-        "avg_contra": ".266",
-        "era": "5.12",
-        "whip": "1.49",
-        "k9": "9.87",
-        "h9": "9.22",
-        "ip_temporada": "96.2",
+        "avg_contra": ".271",
+        "era": "5.25",
+        "whip": "1.52",
+        "k9": "9.86",
+        "h9": "9.40",
+        "ip_temporada": "97.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-12",
+            "ip": "1.0",
+            "k": 1,
+            "h": 3,
+            "er": 2,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-06",
             "ip": "4.0",
@@ -51653,18 +51656,10 @@
             "h": 3,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-20",
-            "ip": "4.0",
-            "k": 3,
-            "h": 8,
-            "er": 5,
-            "bb": 3
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "12/09/26 19:30"
+  "alineaciones_actualizadas": "12/09/26 20:00"
 }
