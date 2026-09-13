@@ -49069,9 +49069,29 @@
       "home": "Detroit Tigers",
       "game_id": 824225,
       "fecha": "2026-09-13",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jake McCarthy",
+        "Adael Amador",
+        "Cole Carrigg",
+        "TJ Rumfield",
+        "Mickey Moniak",
+        "Troy Johnston",
+        "Vimael Machín",
+        "Brett Sullivan",
+        "Zac Veen"
+      ],
+      "home_lineup": [
+        "Kevin McGonigle",
+        "Hao-Yu Lee",
+        "Colt Keith",
+        "Riley Greene",
+        "Dillon Dingler",
+        "Max Clark",
+        "Spencer Torkelson",
+        "Zach McKinstry",
+        "John Peck"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -49082,7 +49102,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 72.6,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Adael Amador",
@@ -49092,67 +49112,31 @@
             "prob_3j_4j": 0,
             "pct_hit": 75.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Jordan Beck",
-            "prob": 51,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 39.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Connor Norby",
-            "prob": 49,
-            "prob_2j_3j": 54.5,
-            "pct_hit": 54.7,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "TJ Rumfield",
             "prob": 72,
             "prob_1j_2j": 72.3,
             "pct_hit": 66.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Troy Johnston",
             "prob": 65,
             "prob_1j_2j": 64.3,
             "pct_hit": 62.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Hunter Goodman",
-            "prob": 58,
-            "prob_1j_2j": 60.0,
-            "pct_hit": 56.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Kyle Karros",
-            "prob": 58,
-            "prob_1j_2j": 59.3,
-            "pct_hit": 56.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ezequiel Tovar",
-            "prob": 52,
-            "prob_1j_2j": 54.2,
-            "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zac Veen",
             "prob": 30,
             "prob_1j_2j": 0,
             "pct_hit": 42.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49166,7 +49150,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 51.7,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49175,28 +49159,14 @@
             "prob": 69,
             "prob_2j_3j": 73.9,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dillon Dingler",
             "prob": 54,
             "prob_2j_3j": 56.2,
             "pct_hit": 54.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eduardo Valencia",
-            "prob": 33,
-            "prob_2j_3j": 0,
-            "pct_hit": 54.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brett Callahan",
-            "prob": 25,
-            "prob_2j_3j": 0,
-            "pct_hit": 38.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49205,35 +49175,28 @@
             "prob": 76,
             "prob_1j_2j": 78.6,
             "pct_hit": 69.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Gleyber Torres",
-            "prob": 54,
-            "prob_1j_2j": 53.8,
-            "pct_hit": 63.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Colt Keith",
             "prob": 52,
             "prob_1j_2j": 56.5,
             "pct_hit": 48.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Torkelson",
             "prob": 49,
             "prob_1j_2j": 49.0,
             "pct_hit": 51.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hao-Yu Lee",
             "prob": 48,
             "prob_1j_2j": 51.9,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -52258,5 +52221,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "13/09/26 07:00"
+  "alineaciones_actualizadas": "13/09/26 08:00"
 }
