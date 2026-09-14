@@ -50626,9 +50626,29 @@
       "home": "Minnesota Twins",
       "game_id": 823656,
       "fecha": "2026-09-14",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Ben Rice",
+        "Cody Bellinger",
+        "Aaron Judge",
+        "Luis García Jr.",
+        "Spencer Jones",
+        "George Lombard Jr.",
+        "Ryan McMahon",
+        "Austin Wells",
+        "José Caballero"
+      ],
+      "home_lineup": [
+        "Luke Keaschall",
+        "Brooks Lee",
+        "Kody Clemens",
+        "Ryan Jeffers",
+        "Josh Bell",
+        "Emmanuel Rodriguez",
+        "Victor Caratini",
+        "Ryan Kreidler",
+        "Walker Jenkins"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -50639,7 +50659,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 46.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ben Rice",
@@ -50649,39 +50669,17 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 61.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Paul Goldschmidt",
-            "prob": 64,
-            "prob_2j_3j": 75.0,
-            "pct_hit": 56.6,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Heliot Ramos",
-            "prob": 66,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 60.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ali Sánchez",
-            "prob": 32,
-            "prob_1j_2j": 40.0,
-            "pct_hit": 21.4,
-            "confirmado": false
-          },
           {
             "jugador": "Austin Wells",
             "prob": 24,
             "prob_1j_2j": 21.7,
             "pct_hit": 34.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50695,17 +50693,7 @@
             "prob_3j_4j": 40.0,
             "pct_hit": 58.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Trevor Larnach",
-            "juegos": 3,
-            "avg": 0.571,
-            "prob_2j_3j": 71.4,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 51.9,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50714,7 +50702,7 @@
             "prob": 66,
             "prob_2j_3j": 65.2,
             "pct_hit": 65.9,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": []
@@ -51692,5 +51680,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/09/26 14:30"
+  "alineaciones_actualizadas": "14/09/26 15:00"
 }
