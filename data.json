@@ -49984,13 +49984,13 @@
       "away_lineup": [
         "Kevin McGonigle",
         "Gleyber Torres",
-        "Colt Keith",
         "Riley Greene",
         "Dillon Dingler",
         "Brett Callahan",
         "Max Clark",
         "Spencer Torkelson",
-        "Zach McKinstry"
+        "Zach McKinstry",
+        "Hao-Yu Lee"
       ],
       "home_lineup": [
         "Brett Bateman",
@@ -50040,13 +50040,6 @@
             "prob": 48,
             "prob_2j_3j": 47.1,
             "pct_hit": 51.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Colt Keith",
-            "prob": 44,
-            "prob_2j_3j": 44.4,
-            "pct_hit": 48.4,
             "confirmado": true
           }
         ],
@@ -50985,7 +50978,17 @@
       "home": "Colorado Rockies",
       "game_id": 824308,
       "fecha": "2026-09-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Fernando Tatis Jr.",
+        "Dustin Harris",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Luis Campusano",
+        "Xander Bogaerts",
+        "Jake Cronenworth",
+        "Freddy Fermin"
+      ],
       "home_lineup": [
         "Jake McCarthy",
         "Connor Norby",
@@ -50997,7 +51000,7 @@
         "Adael Amador",
         "Ezequiel Tovar"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51008,17 +51011,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 55.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Samad Taylor",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 60.0,
-            "prob_3j_4j": 80.0,
-            "pct_hit": 69.7,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Fernando Tatis Jr.",
@@ -51028,7 +51021,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 68.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dustin Harris",
@@ -51038,7 +51031,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 54.2,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
@@ -51048,25 +51041,17 @@
             "prob_3j_4j": 0,
             "pct_hit": 43.6,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Austin Hays",
-            "prob": 31,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 60.0,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Manny Machado",
             "prob": 47,
             "prob_1j_2j": 48.0,
             "pct_hit": 50.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51431,7 +51416,17 @@
       "game_id": 825034,
       "fecha": "2026-09-14",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Lars Nootbaar",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Tim Tawa",
+        "Pavin Smith",
+        "Jordan Lawlar"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -51529,7 +51524,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 49.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -51539,27 +51534,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 67.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Ildemaro Vargas",
-            "juegos": 3,
-            "avg": 0.4,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 63.6,
-            "pct_hit": 58.2,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Lourdes Gurriel Jr.",
-            "juegos": 3,
-            "avg": 0.333,
-            "prob_2j_3j": 60.0,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 55.1,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51568,7 +51543,7 @@
             "prob": 61,
             "prob_2j_3j": 63.2,
             "pct_hit": 57.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51577,42 +51552,42 @@
             "prob": 69,
             "prob_1j_2j": 70.5,
             "pct_hit": 65.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
             "prob": 60,
             "prob_1j_2j": 61.4,
             "pct_hit": 57.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nolan Arenado",
             "prob": 58,
             "prob_1j_2j": 57.9,
             "pct_hit": 56.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jordan Lawlar",
             "prob": 57,
             "prob_1j_2j": 71.4,
             "pct_hit": 40.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lars Nootbaar",
             "prob": 48,
             "prob_1j_2j": 52.6,
             "pct_hit": 46.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pavin Smith",
             "prob": 38,
             "prob_1j_2j": 44.4,
             "pct_hit": 33.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51680,5 +51655,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/09/26 15:00"
+  "alineaciones_actualizadas": "14/09/26 15:30"
 }
