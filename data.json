@@ -50423,9 +50423,19 @@
       "home": "Chicago Cubs",
       "game_id": 824629,
       "fecha": "2026-09-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ronald Acuña Jr.",
+        "Drake Baldwin",
+        "Matt Olson",
+        "Ozzie Albies",
+        "Michael Harris II",
+        "Mauricio Dubón",
+        "Austin Riley",
+        "Sean Murphy",
+        "Ha-Seong Kim"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -50436,7 +50446,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 68.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mauricio Dubón",
@@ -50446,7 +50456,7 @@
             "prob_3j_4j": 84.6,
             "pct_hit": 64.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ronald Acuña Jr.",
@@ -50456,7 +50466,7 @@
             "prob_3j_4j": 71.4,
             "pct_hit": 61.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50465,14 +50475,14 @@
             "prob": 62,
             "prob_2j_3j": 65.4,
             "pct_hit": 66.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sean Murphy",
             "prob": 29,
             "prob_2j_3j": 0,
             "pct_hit": 50.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50481,7 +50491,7 @@
             "prob": 70,
             "prob_1j_2j": 72.9,
             "pct_hit": 66.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51677,5 +51687,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/09/26 13:30"
+  "alineaciones_actualizadas": "14/09/26 14:00"
 }
