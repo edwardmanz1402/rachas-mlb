@@ -49658,13 +49658,21 @@
       },
       "away_pitcher": {
         "nombre": "Tarik Skubal",
-        "avg_contra": ".217",
-        "era": "2.84",
+        "avg_contra": ".216",
+        "era": "2.82",
         "whip": "0.97",
-        "k9": "10.57",
-        "h9": "7.22",
-        "ip_temporada": "139.2",
+        "k9": "10.62",
+        "h9": "7.17",
+        "ip_temporada": "140.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-14",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-08",
             "ip": "7.1",
@@ -49688,26 +49696,26 @@
             "h": 4,
             "er": 1,
             "bb": 0
-          },
-          {
-            "fecha": "2026-08-22",
-            "ip": "7.0",
-            "k": 11,
-            "h": 5,
-            "er": 3,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Nick Lodolo",
-        "avg_contra": ".288",
-        "era": "5.12",
-        "whip": "1.53",
-        "k9": "7.53",
-        "h9": "9.94",
-        "ip_temporada": "89.2",
+        "avg_contra": ".285",
+        "era": "5.11",
+        "whip": "1.51",
+        "k9": "7.46",
+        "h9": "9.82",
+        "ip_temporada": "91.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-14",
+            "ip": "2.0",
+            "k": 1,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-08",
             "ip": "4.2",
@@ -49730,14 +49738,6 @@
             "k": 5,
             "h": 6,
             "er": 4,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-08-21",
-            "ip": "3.1",
-            "k": 2,
-            "h": 10,
-            "er": 6,
             "bb": 2
           }
         ]
@@ -49891,13 +49891,21 @@
       },
       "away_pitcher": {
         "nombre": "Sean Newcomb",
-        "avg_contra": ".216",
-        "era": "2.77",
+        "avg_contra": ".218",
+        "era": "2.74",
         "whip": "1.14",
-        "k9": "8.32",
-        "h9": "7.04",
-        "ip_temporada": "84.1",
+        "k9": "8.23",
+        "h9": "7.07",
+        "ip_temporada": "85.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-14",
+            "ip": "1.0",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-12",
             "ip": "1.1",
@@ -49921,26 +49929,26 @@
             "h": 2,
             "er": 1,
             "bb": 0
-          },
-          {
-            "fecha": "2026-09-02",
-            "ip": "2.0",
-            "k": 2,
-            "h": 2,
-            "er": 2,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Gavin Williams",
-        "avg_contra": ".213",
-        "era": "3.78",
-        "whip": "1.09",
-        "k9": "12.14",
+        "avg_contra": ".212",
+        "era": "3.75",
+        "whip": "1.10",
+        "k9": "12.10",
         "h9": "7.03",
-        "ip_temporada": "169.0",
+        "ip_temporada": "170.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-14",
+            "ip": "1.1",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-06",
             "ip": "6.0",
@@ -49964,14 +49972,6 @@
             "h": 6,
             "er": 5,
             "bb": 1
-          },
-          {
-            "fecha": "2026-08-20",
-            "ip": "5.2",
-            "k": 11,
-            "h": 4,
-            "er": 2,
-            "bb": 3
           }
         ]
       }
@@ -51414,7 +51414,17 @@
       "home": "Arizona Diamondbacks",
       "game_id": 825034,
       "fecha": "2026-09-14",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kyle Stowers",
+        "Heriberto Hernández",
+        "Xavier Edwards",
+        "Griffin Conine",
+        "Otto Lopez",
+        "Jakob Marsee",
+        "Javier Sanoja",
+        "Joe Mack",
+        "Agustín Ramírez"
+      ],
       "home_lineup": [
         "Lars Nootbaar",
         "Ketel Marte",
@@ -51426,7 +51436,7 @@
         "Pavin Smith",
         "Jordan Lawlar"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51437,7 +51447,7 @@
             "prob_3j_4j": 65.0,
             "pct_hit": 73.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Heriberto Hernández",
@@ -51447,17 +51457,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 51.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Graham Pauley",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 40.5,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -51467,49 +51467,42 @@
             "prob": 72,
             "prob_1j_2j": 73.2,
             "pct_hit": 72.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Stowers",
             "prob": 52,
             "prob_1j_2j": 52.4,
             "pct_hit": 55.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jakob Marsee",
             "prob": 50,
             "prob_1j_2j": 51.1,
             "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Sanoja",
             "prob": 49,
             "prob_1j_2j": 51.4,
             "pct_hit": 57.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Agustín Ramírez",
             "prob": 48,
             "prob_1j_2j": 52.6,
             "pct_hit": 46.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Joe Mack",
             "prob": 43,
             "prob_1j_2j": 42.9,
             "pct_hit": 48.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Esteury Ruiz",
-            "prob": 32,
-            "prob_1j_2j": 35.3,
-            "pct_hit": 34.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51654,5 +51647,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/09/26 16:30"
+  "alineaciones_actualizadas": "14/09/26 17:00"
 }
