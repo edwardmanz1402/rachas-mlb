@@ -51207,9 +51207,29 @@
       "home": "Los Angeles Angels",
       "game_id": 823981,
       "fecha": "2026-09-14",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "J.P. Crawford",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Cal Raleigh",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Michael Arroyo",
+        "Cole Young",
+        "Weston Wilson"
+      ],
+      "home_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Jose Siri",
+        "Vaughn Grissom",
+        "Christian Moore",
+        "Denzer Guzman",
+        "Travis d'Arnaud",
+        "Kyren Paris",
+        "Wade Meckler"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51220,7 +51240,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dominic Canzone",
@@ -51230,7 +51250,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 53.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Naylor",
@@ -51240,7 +51260,7 @@
             "prob_3j_4j": 57.1,
             "pct_hit": 65.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Randy Arozarena",
@@ -51250,7 +51270,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 63.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "J.P. Crawford",
@@ -51260,7 +51280,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 54.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51269,23 +51289,16 @@
             "prob": 30,
             "prob_2j_3j": 33.3,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Jhonny Pereda",
-            "prob": 62,
-            "prob_1j_2j": 69.2,
-            "pct_hit": 65.4,
-            "confirmado": false
-          },
           {
             "jugador": "Cal Raleigh",
             "prob": 53,
             "prob_1j_2j": 56.2,
             "pct_hit": 49.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51298,28 +51311,14 @@
             "prob": 67,
             "prob_1j_2j": 72.0,
             "pct_hit": 61.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Zach Neto",
             "prob": 60,
             "prob_1j_2j": 60.7,
             "pct_hit": 60.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Josh Lowe",
-            "prob": 50,
-            "prob_1j_2j": 59.3,
-            "pct_hit": 39.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Moisés Ballesteros",
-            "prob": 45,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 44.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51655,5 +51654,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "14/09/26 16:00"
+  "alineaciones_actualizadas": "14/09/26 16:30"
 }
