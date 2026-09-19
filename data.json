@@ -51076,9 +51076,29 @@
       "home": "Chicago White Sox",
       "game_id": 824545,
       "fecha": "2026-09-19",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Kevin McGonigle",
+        "Hao-Yu Lee",
+        "Colt Keith",
+        "Riley Greene",
+        "Dillon Dingler",
+        "Max Clark",
+        "Ben Malgeri",
+        "Brett Callahan",
+        "John Peck"
+      ],
+      "home_lineup": [
+        "Sam Antonacci",
+        "Kyle Teel",
+        "Miguel Vargas",
+        "Munetaka Murakami",
+        "Andrew Benintendi",
+        "Colson Montgomery",
+        "Chase Meidroth",
+        "Braden Montgomery",
+        "Brenton Doyle"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51089,7 +51109,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 54.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Riley Greene",
@@ -51099,7 +51119,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 61.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kevin McGonigle",
@@ -51109,40 +51129,16 @@
             "prob_3j_4j": 73.7,
             "pct_hit": 69.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Spencer Torkelson",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 47.1,
-            "prob_3j_4j": 37.5,
-            "pct_hit": 51.9,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Gleyber Torres",
-            "prob": 53,
-            "prob_2j_3j": 55.6,
-            "pct_hit": 63.9,
-            "confirmado": false
-          },
           {
             "jugador": "Colt Keith",
             "prob": 44,
             "prob_2j_3j": 44.4,
             "pct_hit": 48.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Eduardo Valencia",
-            "prob": 34,
-            "prob_2j_3j": 0,
-            "pct_hit": 56.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51151,29 +51147,19 @@
             "prob": 51,
             "prob_1j_2j": 50.0,
             "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Callahan",
             "prob": 28,
             "prob_1j_2j": 0,
             "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Randal Grichuk",
-            "juegos": 7,
-            "avg": 0.526,
-            "prob_2j_3j": 33.3,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 46.1,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
           {
             "jugador": "Sam Antonacci",
             "juegos": 4,
@@ -51182,7 +51168,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Miguel Vargas",
@@ -51192,7 +51178,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 63.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51201,7 +51187,7 @@
             "prob": 36,
             "prob_2j_3j": 33.3,
             "pct_hit": 48.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51210,14 +51196,14 @@
             "prob": 67,
             "prob_1j_2j": 69.7,
             "pct_hit": 63.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kyle Teel",
             "prob": 51,
             "prob_1j_2j": 62.5,
             "pct_hit": 37.5,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -54013,5 +53999,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/09/26 09:01"
+  "alineaciones_actualizadas": "19/09/26 10:01"
 }
