@@ -51517,7 +51517,17 @@
         "Jarren Duran",
         "Isiah Kiner-Falefa"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Yandy Díaz",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Liam Hicks",
+        "Chandler Simpson",
+        "Victor Mesa Jr.",
+        "Richie Palacios",
+        "Cedric Mullins",
+        "Jorge Mateo"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -51575,7 +51585,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 46.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Richie Palacios",
@@ -51585,17 +51595,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 48.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jonny DeLuca",
-            "juegos": 3,
-            "avg": 0.444,
-            "prob_2j_3j": 77.8,
-            "prob_3j_4j": 0,
-            "pct_hit": 55.6,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jonathan Aranda",
@@ -51605,7 +51605,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 66.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Junior Caminero",
@@ -51615,13 +51615,55 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 69.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
         "candidatos_1j": []
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Brayan Bello",
+        "avg_contra": ".279",
+        "era": "4.74",
+        "whip": "1.43",
+        "k9": "6.81",
+        "h9": "9.83",
+        "ip_temporada": "104.1",
+        "ultimas4": [
+          {
+            "fecha": "2026-09-15",
+            "ip": "1.2",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
+            "fecha": "2026-09-07",
+            "ip": "5.0",
+            "k": 7,
+            "h": 4,
+            "er": 0,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-09-02",
+            "ip": "3.0",
+            "k": 0,
+            "h": 7,
+            "er": 4,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-29",
+            "ip": "4.1",
+            "k": 2,
+            "h": 5,
+            "er": 4,
+            "bb": 1
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Freddy Peralta",
         "avg_contra": ".249",
@@ -53757,7 +53799,41 @@
           }
         ]
       },
-      "away_pitcher": null,
+      "away_pitcher": {
+        "nombre": "Yunior Marte",
+        "avg_contra": ".189",
+        "era": "2.45",
+        "whip": "1.09",
+        "k9": "5.52",
+        "h9": "6.14",
+        "ip_temporada": "14.2",
+        "ultimas4": [
+          {
+            "fecha": "2026-09-11",
+            "ip": "5.0",
+            "k": 4,
+            "h": 3,
+            "er": 0,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-09-04",
+            "ip": "5.0",
+            "k": 2,
+            "h": 4,
+            "er": 3,
+            "bb": 2
+          },
+          {
+            "fecha": "2026-08-29",
+            "ip": "4.2",
+            "k": 3,
+            "h": 3,
+            "er": 1,
+            "bb": 2
+          }
+        ]
+      },
       "home_pitcher": {
         "nombre": "Tarik Skubal",
         "avg_contra": ".214",
@@ -54009,5 +54085,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/09/26 10:30"
+  "alineaciones_actualizadas": "19/09/26 11:00"
 }
