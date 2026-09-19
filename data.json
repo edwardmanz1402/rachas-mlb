@@ -51209,19 +51209,19 @@
       },
       "away_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".222",
-        "era": "3.72",
-        "whip": "1.19",
-        "k9": "9.54",
-        "h9": "7.45",
-        "ip_temporada": "38.2",
+        "avg_contra": ".233",
+        "era": "4.05",
+        "whip": "1.23",
+        "k9": "9.23",
+        "h9": "7.88",
+        "ip_temporada": "40.0",
         "ultimas4": [
           {
             "fecha": "2026-09-19",
-            "ip": "4.0",
+            "ip": "5.1",
             "k": 7,
-            "h": 1,
-            "er": 1,
+            "h": 4,
+            "er": 3,
             "bb": 1
           },
           {
@@ -51253,19 +51253,19 @@
       "home_pitcher": {
         "nombre": "Sean Burke",
         "avg_contra": ".226",
-        "era": "3.42",
+        "era": "3.40",
         "whip": "1.20",
-        "k9": "9.56",
-        "h9": "7.55",
-        "ip_temporada": "165.2",
+        "k9": "9.59",
+        "h9": "7.54",
+        "ip_temporada": "167.0",
         "ultimas4": [
           {
             "fecha": "2026-09-19",
-            "ip": "5.0",
-            "k": 4,
-            "h": 4,
+            "ip": "6.0",
+            "k": 5,
+            "h": 5,
             "er": 1,
-            "bb": 1
+            "bb": 3
           },
           {
             "fecha": "2026-09-14",
@@ -52075,7 +52075,17 @@
       "home": "Cincinnati Reds",
       "game_id": 824461,
       "fecha": "2026-09-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Alex Bregman",
+        "Seiya Suzuki",
+        "Tyrone Taylor",
+        "Nico Hoerner",
+        "Michael Busch",
+        "Carson Kelly",
+        "Matt Shaw",
+        "Dansby Swanson"
+      ],
       "home_lineup": [
         "Dane Myers",
         "Elly De La Cruz",
@@ -52087,7 +52097,7 @@
         "Matt McLain",
         "Ke'Bryan Hayes"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -52097,49 +52107,28 @@
             "prob": 70,
             "prob_1j_2j": 68.3,
             "pct_hit": 66.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pete Crow-Armstrong",
             "prob": 69,
             "prob_1j_2j": 73.1,
             "pct_hit": 68.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Seiya Suzuki",
             "prob": 69,
             "prob_1j_2j": 74.0,
             "pct_hit": 60.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carson Kelly",
             "prob": 56,
             "prob_1j_2j": 58.5,
             "pct_hit": 57.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ian Happ",
-            "prob": 55,
-            "prob_1j_2j": 58.5,
-            "pct_hit": 51.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Conforto",
-            "prob": 45,
-            "prob_1j_2j": 50.0,
-            "pct_hit": 38.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Miguel Amaya",
-            "prob": 43,
-            "prob_1j_2j": 43.5,
-            "pct_hit": 50.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -52456,7 +52445,17 @@
       "home": "Texas Rangers",
       "game_id": 822843,
       "fecha": "2026-09-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brett Bateman",
+        "Vladimir Guerrero Jr.",
+        "Alejandro Kirk",
+        "George Springer",
+        "Nathan Lukes",
+        "Kazuma Okamoto",
+        "Josh Smith",
+        "Andrés Giménez",
+        "Myles Straw"
+      ],
       "home_lineup": [
         "Ezequiel Duran",
         "Corey Seager",
@@ -52468,7 +52467,7 @@
         "Danny Jansen",
         "Evan Carter"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -52479,7 +52478,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 60.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "George Springer",
@@ -52489,7 +52488,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 64.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Kazuma Okamoto",
@@ -52499,7 +52498,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 58.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrés Giménez",
@@ -52509,7 +52508,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 56.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -52518,37 +52517,16 @@
             "prob": 41,
             "prob_2j_3j": 40.0,
             "pct_hit": 65.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Ernie Clement",
-            "prob": 71,
-            "prob_1j_2j": 73.5,
-            "pct_hit": 66.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brandon Valenzuela",
-            "prob": 54,
-            "prob_1j_2j": 60.7,
-            "pct_hit": 46.4,
-            "confirmado": false
-          },
           {
             "jugador": "Brett Bateman",
             "prob": 51,
             "prob_1j_2j": 0,
             "pct_hit": 77.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Charles McAdoo",
-            "prob": 35,
-            "prob_1j_2j": 0,
-            "pct_hit": 48.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -52833,7 +52811,17 @@
       "game_id": 823003,
       "fecha": "2026-09-19",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "José Fermín",
+        "Iván Herrera",
+        "Jordan Walker",
+        "Leo Bernal",
+        "Thomas Saggese",
+        "Masyn Winn",
+        "Nathan Church",
+        "Pedro Pagés",
+        "Victor Scott II"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -52883,36 +52871,28 @@
       },
       "home_data": {
         "racha": [],
-        "candidatos_2j": [
-          {
-            "jugador": "Alec Burleson",
-            "prob": 72,
-            "prob_2j_3j": 77.8,
-            "pct_hit": 68.5,
-            "confirmado": false
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Jordan Walker",
             "prob": 70,
             "prob_1j_2j": 73.1,
             "pct_hit": 68.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Thomas Saggese",
             "prob": 53,
             "prob_1j_2j": 60.0,
             "pct_hit": 51.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Leo Bernal",
             "prob": 52,
             "prob_1j_2j": 0,
             "pct_hit": 81.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -54127,5 +54107,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/09/26 13:31"
+  "alineaciones_actualizadas": "19/09/26 14:01"
 }
