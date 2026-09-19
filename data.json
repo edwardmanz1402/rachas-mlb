@@ -51209,13 +51209,21 @@
       },
       "away_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".238",
-        "era": "3.89",
-        "whip": "1.27",
-        "k9": "8.83",
-        "h9": "8.05",
-        "ip_temporada": "34.2",
+        "avg_contra": ".239",
+        "era": "4.04",
+        "whip": "1.29",
+        "k9": "9.08",
+        "h9": "8.07",
+        "ip_temporada": "35.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-19",
+            "ip": "1.0",
+            "k": 2,
+            "h": 1,
+            "er": 1,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-13",
             "ip": "6.1",
@@ -51239,26 +51247,26 @@
             "h": 6,
             "er": 4,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-25",
-            "ip": "4.1",
-            "k": 4,
-            "h": 4,
-            "er": 1,
-            "bb": 3
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Sean Burke",
-        "avg_contra": ".226",
-        "era": "3.47",
-        "whip": "1.20",
-        "k9": "9.67",
-        "h9": "7.55",
-        "ip_temporada": "161.0",
+        "avg_contra": ".225",
+        "era": "3.44",
+        "whip": "1.19",
+        "k9": "9.72",
+        "h9": "7.50",
+        "ip_temporada": "162.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-19",
+            "ip": "1.1",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-14",
             "ip": "5.0",
@@ -51282,14 +51290,6 @@
             "h": 1,
             "er": 0,
             "bb": 4
-          },
-          {
-            "fecha": "2026-08-26",
-            "ip": "3.0",
-            "k": 3,
-            "h": 2,
-            "er": 2,
-            "bb": 8
           }
         ]
       }
@@ -51310,7 +51310,17 @@
         "Luis Lara",
         "David Hamilton"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremiah Jackson",
+        "Pete Alonso",
+        "Coby Mayo",
+        "Christian Encarnacion-Strand",
+        "Gunnar Henderson",
+        "Rece Hinds",
+        "Christian Franklin",
+        "Samuel Basallo",
+        "Leody Taveras"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -51358,7 +51368,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 54.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gunnar Henderson",
@@ -51368,7 +51378,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 55.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51377,7 +51387,7 @@
             "prob": 32,
             "prob_2j_3j": 0,
             "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51386,21 +51396,7 @@
             "prob": 56,
             "prob_1j_2j": 60.9,
             "pct_hit": 50.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Colton Cowser",
-            "prob": 46,
-            "prob_1j_2j": 48.6,
-            "pct_hit": 41.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jackson Holliday",
-            "prob": 39,
-            "prob_1j_2j": 42.1,
-            "pct_hit": 39.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -54088,5 +54084,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/09/26 12:00"
+  "alineaciones_actualizadas": "19/09/26 12:31"
 }
