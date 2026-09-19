@@ -51079,12 +51079,12 @@
       "away_lineup": [
         "Kevin McGonigle",
         "Hao-Yu Lee",
-        "Colt Keith",
+        "Spencer Torkelson",
         "Riley Greene",
         "Dillon Dingler",
         "Max Clark",
         "Ben Malgeri",
-        "Brett Callahan",
+        "Eduardo Valencia",
         "John Peck"
       ],
       "home_lineup": [
@@ -51130,14 +51130,24 @@
             "pct_hit": 69.3,
             "tipo": "🔥 JUGADOR DE RACHA",
             "confirmado": true
+          },
+          {
+            "jugador": "Spencer Torkelson",
+            "juegos": 3,
+            "avg": 0.364,
+            "prob_2j_3j": 47.1,
+            "prob_3j_4j": 37.5,
+            "pct_hit": 51.9,
+            "tipo": "📊 IRREGULAR",
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
           {
-            "jugador": "Colt Keith",
-            "prob": 44,
-            "prob_2j_3j": 44.4,
-            "pct_hit": 48.8,
+            "jugador": "Eduardo Valencia",
+            "prob": 34,
+            "prob_2j_3j": 0,
+            "pct_hit": 56.0,
             "confirmado": true
           }
         ],
@@ -51147,13 +51157,6 @@
             "prob": 51,
             "prob_1j_2j": 50.0,
             "pct_hit": 54.1,
-            "confirmado": true
-          },
-          {
-            "jugador": "Brett Callahan",
-            "prob": 28,
-            "prob_1j_2j": 0,
-            "pct_hit": 40.0,
             "confirmado": true
           }
         ]
@@ -51209,17 +51212,17 @@
       },
       "away_pitcher": {
         "nombre": "Jackson Jobe",
-        "avg_contra": ".233",
-        "era": "4.05",
-        "whip": "1.23",
-        "k9": "9.23",
-        "h9": "7.88",
-        "ip_temporada": "40.0",
+        "avg_contra": ".230",
+        "era": "3.98",
+        "whip": "1.20",
+        "k9": "9.52",
+        "h9": "7.75",
+        "ip_temporada": "40.2",
         "ultimas4": [
           {
             "fecha": "2026-09-19",
-            "ip": "5.1",
-            "k": 7,
+            "ip": "6.0",
+            "k": 9,
             "h": 4,
             "er": 3,
             "bb": 1
@@ -51403,12 +51406,20 @@
       "away_pitcher": {
         "nombre": "Robert Gasser",
         "avg_contra": ".243",
-        "era": "4.30",
-        "whip": "1.27",
-        "k9": "8.60",
-        "h9": "8.50",
-        "ip_temporada": "96.1",
+        "era": "4.25",
+        "whip": "1.26",
+        "k9": "8.69",
+        "h9": "8.51",
+        "ip_temporada": "97.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-19",
+            "ip": "1.0",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-13",
             "ip": "5.0",
@@ -51432,26 +51443,26 @@
             "h": 3,
             "er": 2,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-26",
-            "ip": "5.1",
-            "k": 6,
-            "h": 6,
-            "er": 1,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Trevor Rogers",
-        "avg_contra": ".253",
-        "era": "4.22",
-        "whip": "1.22",
-        "k9": "8.16",
-        "h9": "8.79",
-        "ip_temporada": "157.2",
+        "avg_contra": ".252",
+        "era": "4.23",
+        "whip": "1.21",
+        "k9": "8.17",
+        "h9": "8.74",
+        "ip_temporada": "159.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-19",
+            "ip": "2.0",
+            "k": 2,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-13",
             "ip": "6.0",
@@ -51475,14 +51486,6 @@
             "h": 6,
             "er": 2,
             "bb": 0
-          },
-          {
-            "fecha": "2026-08-27",
-            "ip": "5.0",
-            "k": 7,
-            "h": 7,
-            "er": 6,
-            "bb": 1
           }
         ]
       }
@@ -51609,13 +51612,21 @@
       },
       "away_pitcher": {
         "nombre": "Brayan Bello",
-        "avg_contra": ".279",
-        "era": "4.74",
-        "whip": "1.43",
-        "k9": "6.81",
-        "h9": "9.83",
-        "ip_temporada": "104.1",
+        "avg_contra": ".277",
+        "era": "4.70",
+        "whip": "1.41",
+        "k9": "6.92",
+        "h9": "9.74",
+        "ip_temporada": "105.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-19",
+            "ip": "1.0",
+            "k": 2,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-15",
             "ip": "1.2",
@@ -51639,26 +51650,26 @@
             "h": 7,
             "er": 4,
             "bb": 2
-          },
-          {
-            "fecha": "2026-08-29",
-            "ip": "4.1",
-            "k": 2,
-            "h": 5,
-            "er": 4,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Freddy Peralta",
-        "avg_contra": ".249",
-        "era": "4.67",
-        "whip": "1.34",
-        "k9": "8.32",
-        "h9": "8.72",
-        "ip_temporada": "158.0",
+        "avg_contra": ".248",
+        "era": "4.63",
+        "whip": "1.32",
+        "k9": "8.42",
+        "h9": "8.64",
+        "ip_temporada": "159.1",
         "ultimas4": [
+          {
+            "fecha": "2026-09-19",
+            "ip": "2.0",
+            "k": 4,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-13",
             "ip": "5.0",
@@ -51681,14 +51692,6 @@
             "k": 7,
             "h": 3,
             "er": 1,
-            "bb": 0
-          },
-          {
-            "fecha": "2026-08-26",
-            "ip": "6.0",
-            "k": 4,
-            "h": 2,
-            "er": 0,
             "bb": 0
           }
         ]
@@ -52649,7 +52652,17 @@
         "Austin Riley",
         "Sean Murphy"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Jeremy Peña",
+        "Yordan Alvarez",
+        "Isaac Paredes",
+        "Jose Altuve",
+        "Yainer Diaz",
+        "Daulton Varsho",
+        "Christian Walker",
+        "Cam Smith",
+        "LaMonte Wade Jr."
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [
@@ -52712,7 +52725,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 62.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -53457,7 +53470,17 @@
       "game_id": 823249,
       "fecha": "2026-09-19",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Fernando Tatis Jr.",
+        "Dustin Harris",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Luis Campusano",
+        "Jake Cronenworth",
+        "Samad Taylor",
+        "Freddy Fermin"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -53546,7 +53569,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 55.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Fernando Tatis Jr.",
@@ -53556,7 +53579,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 69.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dustin Harris",
@@ -53566,7 +53589,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 56.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
@@ -53576,7 +53599,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 44.3,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Samad Taylor",
@@ -53586,7 +53609,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 69.7,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ty France",
@@ -53596,7 +53619,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -53605,30 +53628,16 @@
             "prob": 42,
             "prob_2j_3j": 41.2,
             "pct_hit": 50.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Austin Hays",
-            "prob": 31,
-            "prob_2j_3j": 25.0,
-            "pct_hit": 60.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Xander Bogaerts",
-            "prob": 53,
-            "prob_1j_2j": 54.2,
-            "pct_hit": 51.2,
-            "confirmado": false
-          },
           {
             "jugador": "Freddy Fermin",
             "prob": 40,
             "prob_1j_2j": 43.8,
             "pct_hit": 39.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -54107,5 +54116,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/09/26 14:01"
+  "alineaciones_actualizadas": "19/09/26 14:31"
 }
