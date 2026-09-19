@@ -51299,9 +51299,19 @@
       "home": "Baltimore Orioles",
       "game_id": 824788,
       "fecha": "2026-09-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jackson Chourio",
+        "Garrett Mitchell",
+        "William Contreras",
+        "Andrew Vaughn",
+        "Joey Ortiz",
+        "Gary Sánchez",
+        "Cooper Pratt",
+        "Luis Lara",
+        "David Hamilton"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51312,7 +51322,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.5,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "William Contreras",
@@ -51322,7 +51332,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 61.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cooper Pratt",
@@ -51332,27 +51342,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 51.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jake Bauers",
-            "juegos": 3,
-            "avg": 0.308,
-            "prob_2j_3j": 47.6,
-            "prob_3j_4j": 62.5,
-            "pct_hit": 59.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brice Turang",
-            "juegos": 3,
-            "avg": 0.7,
-            "prob_2j_3j": 72.0,
-            "prob_3j_4j": 64.3,
-            "pct_hit": 62.9,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -51713,7 +51703,17 @@
       "home": "New York Mets",
       "game_id": 823571,
       "fecha": "2026-09-19",
-      "away_lineup": [],
+      "away_lineup": [
+        "Kyle Schwarber",
+        "Trea Turner",
+        "Bryce Harper",
+        "Luis Arraez",
+        "Alec Bohm",
+        "Bryson Stott",
+        "Brandon Marsh",
+        "J.T. Realmuto",
+        "Justin Crawford"
+      ],
       "home_lineup": [
         "Francisco Lindor",
         "Juan Soto",
@@ -51725,7 +51725,7 @@
         "Francisco Alvarez",
         "Ronny Mauricio"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51736,7 +51736,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 56.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryce Harper",
@@ -51746,7 +51746,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -54088,5 +54088,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "19/09/26 11:31"
+  "alineaciones_actualizadas": "19/09/26 12:00"
 }
