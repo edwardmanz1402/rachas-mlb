@@ -10420,7 +10420,17 @@
       "home": "Texas Rangers",
       "game_id": 822844,
       "fecha": "2026-09-20",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brett Bateman",
+        "Vladimir Guerrero Jr.",
+        "Nathan Lukes",
+        "Kazuma Okamoto",
+        "Sean Keys",
+        "Josh Smith",
+        "Andrés Giménez",
+        "Brandon Valenzuela",
+        "Ernie Clement"
+      ],
       "home_lineup": [
         "Wyatt Langford",
         "Corey Seager",
@@ -10432,19 +10442,9 @@
         "Danny Jansen",
         "Evan Carter"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Alejandro Kirk",
-            "juegos": 5,
-            "avg": 0.4,
-            "prob_2j_3j": 40.0,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 66.7,
-            "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
-          },
           {
             "jugador": "Vladimir Guerrero Jr.",
             "juegos": 3,
@@ -10453,7 +10453,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 61.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11546,5 +11546,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/09/26 09:31"
+  "alineaciones_actualizadas": "20/09/26 10:01"
 }
