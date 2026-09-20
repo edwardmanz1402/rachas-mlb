@@ -10951,9 +10951,29 @@
       "home": "Los Angeles Dodgers",
       "game_id": 823896,
       "fecha": "2026-09-20",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Jonah Cox",
+        "Jung Hoo Lee",
+        "Victor Bericoto",
+        "Andrew Knizner",
+        "Brett Harris",
+        "Scott Bandura",
+        "Shay Whitcomb",
+        "Grant McCray",
+        "Christian Koss"
+      ],
+      "home_lineup": [
+        "Mookie Betts",
+        "Tommy Edman",
+        "Teoscar Hernández",
+        "Freddie Freeman",
+        "Miguel Rojas",
+        "Max Muncy",
+        "Josue De Paula",
+        "Enrique Hernández",
+        "Hunter Feduccia"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -10964,7 +10984,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 30.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Andrew Knizner",
@@ -10974,7 +10994,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 36.4,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -10983,26 +11003,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "Kyle Tucker",
-            "juegos": 4,
-            "avg": 0.533,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 55.6,
-            "pct_hit": 54.9,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Will Smith",
-            "juegos": 3,
-            "avg": 0.462,
-            "prob_2j_3j": 54.5,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 58.3,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
             "jugador": "Max Muncy",
             "juegos": 3,
             "avg": 0.455,
@@ -11010,7 +11010,7 @@
             "prob_3j_4j": 90.0,
             "pct_hit": 50.5,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Teoscar Hernández",
@@ -11020,7 +11020,7 @@
             "prob_3j_4j": 62.5,
             "pct_hit": 57.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mookie Betts",
@@ -11030,7 +11030,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 57.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josue De Paula",
@@ -11040,7 +11040,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11097,7 +11097,17 @@
       "game_id": 823247,
       "fecha": "2026-09-20",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Fernando Tatis Jr.",
+        "Dustin Harris",
+        "Manny Machado",
+        "Ty France",
+        "Jackson Merrill",
+        "Xander Bogaerts",
+        "Jake Cronenworth",
+        "Samad Taylor",
+        "Ethan Salas"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -11145,7 +11155,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dustin Harris",
@@ -11155,7 +11165,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 62.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
@@ -11165,7 +11175,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 47.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Samad Taylor",
@@ -11175,7 +11185,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 70.3,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ty France",
@@ -11185,7 +11195,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Fernando Tatis Jr.",
@@ -11195,7 +11205,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 69.3,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11294,7 +11304,17 @@
       "game_id": 825028,
       "fecha": "2026-09-20",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Lars Nootbaar",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Jesús Sánchez",
+        "Pavin Smith",
+        "Tim Tawa"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -11332,17 +11352,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 57.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Lawlar",
-            "juegos": 4,
-            "avg": 0.333,
-            "prob_2j_3j": 66.7,
-            "prob_3j_4j": 100.0,
-            "pct_hit": 44.8,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Geraldo Perdomo",
@@ -11352,7 +11362,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 58.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11566,5 +11576,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/09/26 10:30"
+  "alineaciones_actualizadas": "20/09/26 11:00"
 }
