@@ -10263,7 +10263,17 @@
       "home": "St. Louis Cardinals",
       "game_id": 823001,
       "fecha": "2026-09-20",
-      "away_lineup": [],
+      "away_lineup": [
+        "James Wood",
+        "Andrés Chaparro",
+        "Brady House",
+        "CJ Abrams",
+        "Dylan Crews",
+        "Daylen Lile",
+        "Harry Ford",
+        "Jacob Young",
+        "Nasim Nuñez"
+      ],
       "home_lineup": [
         "JJ Wetherholt",
         "Iván Herrera",
@@ -10275,7 +10285,7 @@
         "José Fermín",
         "Nathan Church"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -10286,7 +10296,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 38.9,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Dylan Crews",
@@ -10296,7 +10306,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 57.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -10587,9 +10597,29 @@
       "home": "Colorado Rockies",
       "game_id": 824300,
       "fecha": "2026-09-20",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "J.P. Crawford",
+        "Randy Arozarena",
+        "Dominic Canzone",
+        "Cal Raleigh",
+        "Julio Rodríguez",
+        "Josh Naylor",
+        "Cole Young",
+        "Lazaro Montes",
+        "Brock Rodden"
+      ],
+      "home_lineup": [
+        "Jake McCarthy",
+        "Connor Norby",
+        "Hunter Goodman",
+        "Cole Carrigg",
+        "Kyle Karros",
+        "Adael Amador",
+        "Brett Sullivan",
+        "Jordan Beck",
+        "Ezequiel Tovar"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -10600,7 +10630,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 55.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Randy Arozarena",
@@ -10610,7 +10640,7 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 64.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -10619,16 +10649,6 @@
       "home_data": {
         "racha": [
           {
-            "jugador": "TJ Rumfield",
-            "juegos": 7,
-            "avg": 0.429,
-            "prob_2j_3j": 67.9,
-            "prob_3j_4j": 68.8,
-            "pct_hit": 67.2,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
             "jugador": "Connor Norby",
             "juegos": 7,
             "avg": 0.448,
@@ -10636,7 +10656,7 @@
             "prob_3j_4j": 75.0,
             "pct_hit": 57.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hunter Goodman",
@@ -10646,7 +10666,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.8,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake McCarthy",
@@ -10656,7 +10676,7 @@
             "prob_3j_4j": 58.3,
             "pct_hit": 72.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cole Carrigg",
@@ -10666,7 +10686,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 55.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11546,5 +11566,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/09/26 10:01"
+  "alineaciones_actualizadas": "20/09/26 10:30"
 }
