@@ -9221,6 +9221,14 @@
         "ip_temporada": "193.2",
         "ultimas4": [
           {
+            "fecha": "2026-09-20",
+            "ip": "0.0",
+            "k": 0,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
+          {
             "fecha": "2026-09-15",
             "ip": "6.1",
             "k": 5,
@@ -9243,26 +9251,26 @@
             "h": 5,
             "er": 3,
             "bb": 3
-          },
-          {
-            "fecha": "2026-08-29",
-            "ip": "7.0",
-            "k": 8,
-            "h": 2,
-            "er": 0,
-            "bb": 1
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Jonah Tong",
-        "avg_contra": ".203",
-        "era": "3.43",
-        "whip": "1.19",
-        "k9": "8.57",
-        "h9": "6.86",
-        "ip_temporada": "21.0",
+        "avg_contra": ".214",
+        "era": "4.09",
+        "whip": "1.27",
+        "k9": "8.59",
+        "h9": "7.36",
+        "ip_temporada": "22.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-20",
+            "ip": "1.0",
+            "k": 1,
+            "h": 2,
+            "er": 2,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-14",
             "ip": "6.0",
@@ -9286,14 +9294,6 @@
             "h": 5,
             "er": 4,
             "bb": 2
-          },
-          {
-            "fecha": "2026-05-27",
-            "ip": "3.2",
-            "k": 1,
-            "h": 3,
-            "er": 0,
-            "bb": 4
           }
         ]
       }
@@ -10446,7 +10446,7 @@
         "Corey Seager",
         "Josh Jung",
         "Ezequiel Duran",
-        "Brandon Nimmo",
+        "Alejandro Osuna",
         "Jake Burger",
         "Nicky Lopez",
         "Danny Jansen",
@@ -10784,21 +10784,21 @@
       "home": "Los Angeles Angels",
       "game_id": 823975,
       "fecha": "2026-09-20",
-      "away_lineup": [],
+      "away_lineup": [
+        "Walker Jenkins",
+        "Brooks Lee",
+        "Kody Clemens",
+        "Josh Bell",
+        "Alan Roden",
+        "Royce Lewis",
+        "Victor Caratini",
+        "Emmanuel Rodriguez",
+        "Ben Ross"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
-          {
-            "jugador": "Luke Keaschall",
-            "juegos": 5,
-            "avg": 0.409,
-            "prob_2j_3j": 65.2,
-            "prob_3j_4j": 61.5,
-            "pct_hit": 66.7,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
           {
             "jugador": "Brooks Lee",
             "juegos": 4,
@@ -10807,7 +10807,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Josh Bell",
@@ -10817,7 +10817,7 @@
             "prob_3j_4j": 54.5,
             "pct_hit": 61.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Victor Caratini",
@@ -10827,7 +10827,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 50.0,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Walker Jenkins",
@@ -10837,7 +10837,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 41.2,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -11576,5 +11576,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "20/09/26 11:00"
+  "alineaciones_actualizadas": "20/09/26 11:31"
 }
