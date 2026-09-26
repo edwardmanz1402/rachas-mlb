@@ -48317,7 +48317,7 @@
         "Jake Mangum",
         "Konnor Griffin",
         "Spencer Horwitz",
-        "Ronny Simon",
+        "Billy Cook",
         "Jared Triolo",
         "Henry Davis"
       ],
@@ -48356,13 +48356,6 @@
             "prob": 57,
             "prob_1j_2j": 60.5,
             "pct_hit": 58.1,
-            "confirmado": true
-          },
-          {
-            "jugador": "Ronny Simon",
-            "prob": 45,
-            "prob_1j_2j": 0,
-            "pct_hit": 64.3,
             "confirmado": true
           }
         ]
@@ -48617,17 +48610,17 @@
       "away_pitcher": {
         "nombre": "Rhett Lowder",
         "avg_contra": ".277",
-        "era": "5.96",
-        "whip": "1.56",
-        "k9": "7.15",
-        "h9": "10.10",
-        "ip_temporada": "128.1",
+        "era": "5.91",
+        "whip": "1.55",
+        "k9": "7.10",
+        "h9": "10.09",
+        "ip_temporada": "129.1",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "1.0",
-            "k": 1,
-            "h": 0,
+            "ip": "3.0",
+            "k": 2,
+            "h": 2,
             "er": 0,
             "bb": 2
           },
@@ -48660,15 +48653,15 @@
       "home_pitcher": {
         "nombre": "Trey Yesavage",
         "avg_contra": ".186",
-        "era": "3.70",
+        "era": "3.69",
         "whip": "1.14",
-        "k9": "8.97",
-        "h9": "5.92",
-        "ip_temporada": "97.1",
+        "k9": "8.94",
+        "h9": "5.90",
+        "ip_temporada": "97.2",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "1.2",
+            "ip": "2.0",
             "k": 3,
             "h": 2,
             "er": 1,
@@ -49264,7 +49257,17 @@
       "home": "Kansas City Royals",
       "game_id": 824057,
       "fecha": "2026-09-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Steven Kwan",
+        "José Ramírez",
+        "Chase DeLauter",
+        "Jo Adell",
+        "Travis Bazzana",
+        "Nathaniel Lowe",
+        "Angel Martínez",
+        "Patrick Bailey",
+        "Brayan Rocchio"
+      ],
       "home_lineup": [
         "Carter Jensen",
         "Bobby Witt Jr.",
@@ -49276,44 +49279,23 @@
         "Josh Rojas",
         "Isaac Collins"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "David Fry",
-            "juegos": 4,
-            "avg": 0.267,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 30.8,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Petey Halpin",
-            "juegos": 4,
-            "avg": 0.417,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 42.9,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "José Ramírez",
             "prob": 58,
             "prob_2j_3j": 58.8,
             "pct_hit": 59.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Angel Martínez",
             "prob": 53,
             "prob_2j_3j": 58.3,
             "pct_hit": 55.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49322,35 +49304,28 @@
             "prob": 65,
             "prob_1j_2j": 66.7,
             "pct_hit": 58.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Chase DeLauter",
             "prob": 64,
             "prob_1j_2j": 68.0,
             "pct_hit": 62.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Austin Hedges",
-            "prob": 64,
-            "prob_1j_2j": 74.1,
-            "pct_hit": 51.6,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jo Adell",
             "prob": 56,
             "prob_1j_2j": 56.9,
             "pct_hit": 56.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Travis Bazzana",
             "prob": 55,
             "prob_1j_2j": 60.5,
             "pct_hit": 51.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49942,7 +49917,17 @@
       "game_id": 823407,
       "fecha": "2026-09-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Alec Bohm",
+        "Bryson Stott",
+        "Bryan De La Cruz",
+        "Brandon Marsh",
+        "J.T. Realmuto",
+        "Justin Crawford"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -50026,7 +50011,7 @@
             "prob": 58,
             "prob_2j_3j": 57.1,
             "pct_hit": 57.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50035,21 +50020,21 @@
             "prob": 65,
             "prob_1j_2j": 67.2,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryson Stott",
             "prob": 62,
             "prob_1j_2j": 64.4,
             "pct_hit": 60.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Justin Crawford",
             "prob": 57,
             "prob_1j_2j": 57.1,
             "pct_hit": 57.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50671,5 +50656,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 13:30"
+  "alineaciones_actualizadas": "26/09/26 14:00"
 }
