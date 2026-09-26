@@ -48709,7 +48709,7 @@
         "Victor Bericoto",
         "Bo Davidson",
         "Brett Harris",
-        "Drew Gilbert",
+        "Osleivis Basabe",
         "Marcelo Mayer",
         "Drew Cavanaugh",
         "Christian Koss"
@@ -48963,20 +48963,20 @@
       },
       "away_pitcher": {
         "nombre": "Nathan Eovaldi",
-        "avg_contra": ".253",
-        "era": "4.30",
+        "avg_contra": ".252",
+        "era": "4.27",
         "whip": "1.21",
-        "k9": "8.92",
-        "h9": "8.79",
-        "ip_temporada": "142.1",
+        "k9": "8.85",
+        "h9": "8.73",
+        "ip_temporada": "143.1",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "1.0",
-            "k": 0,
+            "ip": "2.1",
+            "k": 1,
             "h": 1,
             "er": 1,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-09-22",
@@ -49006,19 +49006,19 @@
       },
       "home_pitcher": {
         "nombre": "Bailey Ober",
-        "avg_contra": ".246",
-        "era": "4.16",
-        "whip": "1.25",
+        "avg_contra": ".253",
+        "era": "4.40",
+        "whip": "1.28",
         "k9": "6.56",
-        "h9": "8.67",
-        "ip_temporada": "127.2",
+        "h9": "9.00",
+        "ip_temporada": "129.0",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "1.2",
-            "k": 2,
-            "h": 0,
-            "er": 0,
+            "ip": "3.0",
+            "k": 3,
+            "h": 6,
+            "er": 4,
             "bb": 0
           },
           {
@@ -49055,7 +49055,7 @@
       "fecha": "2026-09-26",
       "away_lineup": [
         "Michael Harris II",
-        "Ronald Acuña Jr.",
+        "DaShawn Keirsey Jr.",
         "Matt Olson",
         "Drake Baldwin",
         "Austin Riley",
@@ -50475,9 +50475,19 @@
       "home": "Seattle Mariners",
       "game_id": 823083,
       "fecha": "2026-09-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Zach Neto",
+        "Mike Trout",
+        "Jose Siri",
+        "Vaughn Grissom",
+        "Denzer Guzman",
+        "Christian Moore",
+        "Wade Meckler",
+        "Bryce Teodosio",
+        "Tyler Heineman"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -50488,7 +50498,7 @@
             "prob_3j_4j": 70.0,
             "pct_hit": 60.0,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Wade Meckler",
@@ -50498,7 +50508,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 63.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50507,7 +50517,7 @@
             "prob": 27,
             "prob_2j_3j": 0,
             "pct_hit": 41.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50516,7 +50526,7 @@
             "prob": 56,
             "prob_1j_2j": 58.1,
             "pct_hit": 55.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50639,5 +50649,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 16:30"
+  "alineaciones_actualizadas": "26/09/26 17:00"
 }
