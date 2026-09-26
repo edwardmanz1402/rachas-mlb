@@ -48241,18 +48241,18 @@
       },
       "away_pitcher": {
         "nombre": "Jonah Tong",
-        "avg_contra": ".215",
-        "era": "4.08",
-        "whip": "1.29",
-        "k9": "9.73",
-        "h9": "7.22",
-        "ip_temporada": "28.2",
+        "avg_contra": ".214",
+        "era": "3.90",
+        "whip": "1.27",
+        "k9": "9.90",
+        "h9": "7.20",
+        "ip_temporada": "30.0",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "3.0",
-            "k": 6,
-            "h": 2,
+            "ip": "4.1",
+            "k": 8,
+            "h": 3,
             "er": 1,
             "bb": 1
           },
@@ -48335,7 +48335,7 @@
         "Ryan O'Hearn",
         "Brandon Lowe",
         "Bryan Reynolds",
-        "Oneil Cruz",
+        "Jake Mangum",
         "Konnor Griffin",
         "Spencer Horwitz",
         "Ronny Simon",
@@ -48356,15 +48356,7 @@
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
-        "candidatos_2j": [
-          {
-            "jugador": "Oneil Cruz",
-            "prob": 62,
-            "prob_2j_3j": 64.7,
-            "pct_hit": 65.5,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Ryan O'Hearn",
@@ -48378,6 +48370,13 @@
             "prob": 58,
             "prob_1j_2j": 58.3,
             "pct_hit": 59.0,
+            "confirmado": true
+          },
+          {
+            "jugador": "Jake Mangum",
+            "prob": 57,
+            "prob_1j_2j": 60.5,
+            "pct_hit": 58.1,
             "confirmado": true
           },
           {
@@ -48436,17 +48435,17 @@
       },
       "away_pitcher": {
         "nombre": "Kirby Yates",
-        "avg_contra": ".225",
-        "era": "3.29",
-        "whip": "1.24",
-        "k9": "10.54",
-        "h9": "7.46",
-        "ip_temporada": "41.0",
+        "avg_contra": ".221",
+        "era": "3.19",
+        "whip": "1.20",
+        "k9": "10.42",
+        "h9": "7.23",
+        "ip_temporada": "42.1",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "1.0",
-            "k": 0,
+            "ip": "1.2",
+            "k": 1,
             "h": 2,
             "er": 0,
             "bb": 0
@@ -48479,20 +48478,20 @@
       },
       "home_pitcher": {
         "nombre": "Justin Verlander",
-        "avg_contra": ".300",
-        "era": "9.64",
-        "whip": "1.71",
-        "k9": "1.93",
-        "h9": "11.57",
-        "ip_temporada": "4.2",
+        "avg_contra": ".269",
+        "era": "6.75",
+        "whip": "1.50",
+        "k9": "5.40",
+        "h9": "9.45",
+        "ip_temporada": "6.2",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "1.0",
-            "k": 0,
-            "h": 0,
+            "ip": "3.0",
+            "k": 3,
+            "h": 1,
             "er": 0,
-            "bb": 0
+            "bb": 1
           },
           {
             "fecha": "2026-03-30",
@@ -49548,9 +49547,19 @@
       "home": "Chicago White Sox",
       "game_id": 824543,
       "fecha": "2026-09-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Jake McCarthy",
+        "Cole Carrigg",
+        "Hunter Goodman",
+        "TJ Rumfield",
+        "Connor Norby",
+        "Adael Amador",
+        "Mickey Moniak",
+        "Brett Sullivan",
+        "Ezequiel Tovar"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -49561,7 +49570,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 57.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49570,7 +49579,7 @@
             "prob": 70,
             "prob_2j_3j": 67.9,
             "pct_hit": 66.2,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49579,28 +49588,14 @@
             "prob": 53,
             "prob_1j_2j": 54.2,
             "pct_hit": 50.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Connor Norby",
             "prob": 48,
             "prob_1j_2j": 50.0,
             "pct_hit": 55.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Beck",
-            "prob": 40,
-            "prob_1j_2j": 45.5,
-            "pct_hit": 38.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Braxton Fulford",
-            "prob": 15,
-            "prob_1j_2j": 11.1,
-            "pct_hit": 32.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50721,5 +50716,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 11:30"
+  "alineaciones_actualizadas": "26/09/26 12:00"
 }
