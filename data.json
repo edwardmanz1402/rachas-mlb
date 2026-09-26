@@ -48489,7 +48489,7 @@
         "JJ Bleday",
         "Tyler Stephenson",
         "Héctor Rodríguez",
-        "Juan Brito",
+        "Ke'Bryan Hayes",
         "Matt McLain"
       ],
       "home_lineup": [
@@ -48540,13 +48540,6 @@
             "prob": 64,
             "prob_2j_3j": 59.3,
             "pct_hit": 67.8,
-            "confirmado": true
-          },
-          {
-            "jugador": "Juan Brito",
-            "prob": 43,
-            "prob_2j_3j": 50.0,
-            "pct_hit": 48.0,
             "confirmado": true
           },
           {
@@ -48779,18 +48772,18 @@
       },
       "away_pitcher": {
         "nombre": "Blake Snell",
-        "avg_contra": ".200",
-        "era": "1.94",
+        "avg_contra": ".203",
+        "era": "1.90",
         "whip": "1.10",
-        "k9": "11.88",
-        "h9": "6.48",
-        "ip_temporada": "41.2",
+        "k9": "11.60",
+        "h9": "6.54",
+        "ip_temporada": "42.2",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "3.0",
+            "ip": "4.0",
             "k": 3,
-            "h": 4,
+            "h": 5,
             "er": 1,
             "bb": 0
           },
@@ -49167,17 +49160,17 @@
       },
       "away_pitcher": {
         "nombre": "Brent Suter",
-        "avg_contra": ".250",
-        "era": "3.40",
-        "whip": "1.23",
-        "k9": "7.70",
-        "h9": "8.60",
-        "ip_temporada": "90.0",
+        "avg_contra": ".248",
+        "era": "3.36",
+        "whip": "1.22",
+        "k9": "7.71",
+        "h9": "8.51",
+        "ip_temporada": "91.0",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "2.0",
-            "k": 2,
+            "ip": "3.0",
+            "k": 3,
             "h": 1,
             "er": 0,
             "bb": 0
@@ -49693,7 +49686,7 @@
         "Leo Bernal",
         "Nolan Gorman",
         "Bryan Torres",
-        "Masyn Winn",
+        "Thomas Saggese",
         "Nathan Church"
       ],
       "home_lineup": [
@@ -50115,9 +50108,29 @@
       "home": "San Diego Padres",
       "game_id": 823245,
       "fecha": "2026-09-26",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Pavin Smith",
+        "James McCann",
+        "Tim Tawa"
+      ],
+      "home_lineup": [
+        "Fernando Tatis Jr.",
+        "Dustin Harris",
+        "Manny Machado",
+        "Jackson Merrill",
+        "Ty France",
+        "Gavin Sheets",
+        "Xander Bogaerts",
+        "Jake Cronenworth",
+        "Ethan Salas"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -50128,7 +50141,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -50138,7 +50151,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 68.7,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50147,37 +50160,23 @@
             "prob": 62,
             "prob_2j_3j": 63.2,
             "pct_hit": 59.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Lars Nootbaar",
             "prob": 55,
             "prob_2j_3j": 66.7,
             "pct_hit": 46.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Jordan Lawlar",
-            "prob": 58,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 45.5,
-            "confirmado": false
-          },
           {
             "jugador": "Tim Tawa",
             "prob": 48,
             "prob_1j_2j": 53.8,
             "pct_hit": 47.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Waldschmidt",
-            "prob": 36,
-            "prob_1j_2j": 35.0,
-            "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50191,7 +50190,7 @@
             "prob_3j_4j": 69.2,
             "pct_hit": 70.4,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ethan Salas",
@@ -50201,23 +50200,16 @@
             "prob_3j_4j": 0,
             "pct_hit": 40.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "Luis Campusano",
-            "prob": 54,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 49.2,
-            "confirmado": false
-          },
           {
             "jugador": "Jackson Merrill",
             "prob": 40,
             "prob_2j_3j": 35.0,
             "pct_hit": 56.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50226,35 +50218,21 @@
             "prob": 56,
             "prob_1j_2j": 62.5,
             "pct_hit": 58.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Xander Bogaerts",
             "prob": 54,
             "prob_1j_2j": 54.2,
             "pct_hit": 52.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Sung-Mun Song",
-            "prob": 40,
-            "prob_1j_2j": 46.7,
-            "pct_hit": 34.6,
-            "confirmado": false
-          },
-          {
-            "jugador": "Freddy Fermin",
-            "prob": 40,
-            "prob_1j_2j": 43.8,
-            "pct_hit": 40.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
             "prob": 38,
             "prob_1j_2j": 38.9,
             "pct_hit": 46.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50683,5 +50661,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 15:00"
+  "alineaciones_actualizadas": "26/09/26 15:30"
 }
