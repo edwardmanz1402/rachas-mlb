@@ -48328,7 +48328,17 @@
       "home": "Detroit Tigers",
       "game_id": 824219,
       "fecha": "2026-09-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Ryan O'Hearn",
+        "Brandon Lowe",
+        "Bryan Reynolds",
+        "Oneil Cruz",
+        "Konnor Griffin",
+        "Spencer Horwitz",
+        "Ronny Simon",
+        "Jacob Gonzalez",
+        "Henry Davis"
+      ],
       "home_lineup": [
         "Max Clark",
         "Hao-Yu Lee",
@@ -48340,27 +48350,16 @@
         "Zach McKinstry",
         "Javier Báez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Nick Gonzales",
-            "juegos": 3,
-            "avg": 0.3,
-            "prob_2j_3j": 64.0,
-            "prob_3j_4j": 75.0,
-            "pct_hit": 65.6,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
           {
             "jugador": "Oneil Cruz",
             "prob": 62,
             "prob_2j_3j": 64.7,
             "pct_hit": 65.5,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -48369,35 +48368,21 @@
             "prob": 62,
             "prob_1j_2j": 61.5,
             "pct_hit": 60.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Spencer Horwitz",
             "prob": 58,
             "prob_1j_2j": 58.3,
             "pct_hit": 59.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jake Mangum",
-            "prob": 57,
-            "prob_1j_2j": 60.5,
-            "pct_hit": 58.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ronny Simon",
             "prob": 45,
             "prob_1j_2j": 0,
             "pct_hit": 64.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Rafael Flores Jr.",
-            "prob": 37,
-            "prob_1j_2j": 0,
-            "pct_hit": 51.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50736,5 +50721,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 08:30"
+  "alineaciones_actualizadas": "26/09/26 09:00"
 }
