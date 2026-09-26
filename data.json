@@ -48241,13 +48241,21 @@
       },
       "away_pitcher": {
         "nombre": "Jonah Tong",
-        "avg_contra": ".216",
-        "era": "4.21",
-        "whip": "1.32",
-        "k9": "8.77",
-        "h9": "7.36",
-        "ip_temporada": "25.2",
+        "avg_contra": ".218",
+        "era": "4.05",
+        "whip": "1.35",
+        "k9": "9.11",
+        "h9": "7.43",
+        "ip_temporada": "26.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-26",
+            "ip": "1.0",
+            "k": 2,
+            "h": 1,
+            "er": 0,
+            "bb": 1
+          },
           {
             "fecha": "2026-09-20",
             "ip": "4.2",
@@ -48271,26 +48279,26 @@
             "h": 4,
             "er": 4,
             "bb": 1
-          },
-          {
-            "fecha": "2026-06-02",
-            "ip": "3.1",
-            "k": 4,
-            "h": 5,
-            "er": 4,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Connelly Early",
-        "avg_contra": ".235",
-        "era": "3.44",
+        "avg_contra": ".236",
+        "era": "3.40",
         "whip": "1.25",
-        "k9": "9.13",
-        "h9": "7.95",
-        "ip_temporada": "91.2",
+        "k9": "9.03",
+        "h9": "7.96",
+        "ip_temporada": "92.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-26",
+            "ip": "2.0",
+            "k": 0,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-06-30",
             "ip": "4.0",
@@ -48313,14 +48321,6 @@
             "k": 7,
             "h": 2,
             "er": 1,
-            "bb": 2
-          },
-          {
-            "fecha": "2026-06-14",
-            "ip": "4.2",
-            "k": 3,
-            "h": 11,
-            "er": 6,
             "bb": 2
           }
         ]
@@ -48720,9 +48720,29 @@
       "home": "San Francisco Giants",
       "game_id": 823165,
       "fecha": "2026-09-26",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Mookie Betts",
+        "Shohei Ohtani",
+        "Will Smith",
+        "Teoscar Hernández",
+        "Kyle Tucker",
+        "Miguel Rojas",
+        "Andy Pages",
+        "Enrique Hernández",
+        "Tommy Edman"
+      ],
+      "home_lineup": [
+        "Jonah Cox",
+        "Turner Hill",
+        "Victor Bericoto",
+        "Bo Davidson",
+        "Brett Harris",
+        "Andrew Knizner",
+        "Shay Whitcomb",
+        "Scott Bandura",
+        "Christian Koss"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48733,7 +48753,7 @@
             "prob_3j_4j": 60.0,
             "pct_hit": 59.4,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -48743,14 +48763,14 @@
             "prob": 69,
             "prob_1j_2j": 69.2,
             "pct_hit": 66.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Teoscar Hernández",
             "prob": 59,
             "prob_1j_2j": 62.2,
             "pct_hit": 58.8,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -48764,7 +48784,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 100.0,
             "tipo": "⚡ RACHA INUSUAL",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -48774,7 +48794,7 @@
             "prob": 56,
             "prob_1j_2j": 66.7,
             "pct_hit": 45.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49092,7 +49112,17 @@
       "game_id": 823813,
       "fecha": "2026-09-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Otto Lopez",
+        "Heriberto Hernández",
+        "Jakob Marsee",
+        "Javier Sanoja",
+        "Agustín Ramírez",
+        "Esteury Ruiz",
+        "Griffin Conine",
+        "Deyvison De Los Santos",
+        "Jared Serna"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [],
@@ -49117,7 +49147,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 50.8,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Javier Sanoja",
@@ -49127,7 +49157,7 @@
             "prob_3j_4j": 100.0,
             "pct_hit": 60.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Otto Lopez",
@@ -49137,7 +49167,7 @@
             "prob_3j_4j": 65.0,
             "pct_hit": 73.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49146,7 +49176,7 @@
             "prob": 50,
             "prob_2j_3j": 50.0,
             "pct_hit": 50.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49155,28 +49185,14 @@
             "prob": 55,
             "prob_1j_2j": 61.5,
             "pct_hit": 52.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Heriberto Hernández",
             "prob": 50,
             "prob_1j_2j": 52.8,
             "pct_hit": 52.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Joe Mack",
-            "prob": 43,
-            "prob_1j_2j": 42.9,
-            "pct_hit": 48.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Graham Pauley",
-            "prob": 41,
-            "prob_1j_2j": 46.2,
-            "pct_hit": 39.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50707,5 +50723,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 10:30"
+  "alineaciones_actualizadas": "26/09/26 11:00"
 }
