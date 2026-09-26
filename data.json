@@ -48100,9 +48100,19 @@
       "home": "Washington Nationals",
       "game_id": 822678,
       "fecha": "2026-09-26",
-      "away_lineup": [],
+      "away_lineup": [
+        "Francisco Lindor",
+        "Juan Soto",
+        "Bo Bichette",
+        "Carson Benge",
+        "Mark Vientos",
+        "Brett Baty",
+        "Francisco Alvarez",
+        "A.J. Ewing",
+        "Ronny Mauricio"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -48113,7 +48123,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 56.1,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Francisco Lindor",
@@ -48123,7 +48133,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 56.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -48132,7 +48142,7 @@
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 65.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -48141,21 +48151,21 @@
             "prob": 69,
             "prob_1j_2j": 69.8,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Juan Soto",
             "prob": 68,
             "prob_1j_2j": 70.9,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Mark Vientos",
             "prob": 51,
             "prob_1j_2j": 54.1,
             "pct_hit": 50.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -48500,7 +48510,17 @@
       "game_id": 822759,
       "fecha": "2026-09-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Brett Bateman",
+        "Nathan Lukes",
+        "Vladimir Guerrero Jr.",
+        "Alejandro Kirk",
+        "Kazuma Okamoto",
+        "Sean Keys",
+        "Josh Smith",
+        "Andrés Giménez",
+        "Ernie Clement"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -48584,7 +48604,7 @@
             "prob_3j_4j": 41.7,
             "pct_hit": 62.3,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nathan Lukes",
@@ -48594,27 +48614,7 @@
             "prob_3j_4j": 77.8,
             "pct_hit": 61.9,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Brandon Valenzuela",
-            "juegos": 4,
-            "avg": 0.357,
-            "prob_2j_3j": 70.0,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 48.6,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
-          },
-          {
-            "jugador": "Myles Straw",
-            "juegos": 3,
-            "avg": 0.444,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 37.8,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -48624,21 +48624,14 @@
             "prob": 62,
             "prob_1j_2j": 64.9,
             "pct_hit": 59.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alejandro Kirk",
             "prob": 52,
             "prob_1j_2j": 53.8,
             "pct_hit": 67.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Charles McAdoo",
-            "prob": 35,
-            "prob_1j_2j": 0,
-            "pct_hit": 48.3,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50721,5 +50714,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 09:00"
+  "alineaciones_actualizadas": "26/09/26 09:30"
 }
