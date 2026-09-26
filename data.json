@@ -48695,8 +48695,8 @@
       "away_lineup": [
         "Mookie Betts",
         "Shohei Ohtani",
-        "Will Smith",
-        "Teoscar Hernández",
+        "Dalton Rushing",
+        "Alex Call",
         "Kyle Tucker",
         "Miguel Rojas",
         "Andy Pages",
@@ -48716,18 +48716,7 @@
       ],
       "alineacion_confirmada": true,
       "away_data": {
-        "racha": [
-          {
-            "jugador": "Will Smith",
-            "juegos": 3,
-            "avg": 0.5,
-            "prob_2j_3j": 54.5,
-            "prob_3j_4j": 60.0,
-            "pct_hit": 59.4,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": true
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [],
         "candidatos_1j": [
           {
@@ -48735,13 +48724,6 @@
             "prob": 69,
             "prob_1j_2j": 69.2,
             "pct_hit": 66.9,
-            "confirmado": true
-          },
-          {
-            "jugador": "Teoscar Hernández",
-            "prob": 59,
-            "prob_1j_2j": 62.2,
-            "pct_hit": 58.8,
             "confirmado": true
           }
         ]
@@ -50287,7 +50269,17 @@
       "game_id": 824949,
       "fecha": "2026-09-26",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Henry Bolte",
+        "Lawrence Butler",
+        "Shea Langeliers",
+        "Jeff McNeil",
+        "Zack Gelof",
+        "Donovan Walton",
+        "Carlos Cortes",
+        "Tommy White",
+        "Jonah Heim"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -50355,7 +50347,7 @@
             "prob_3j_4j": 66.7,
             "pct_hit": 54.9,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50364,21 +50356,7 @@
             "prob": 68,
             "prob_2j_3j": 80.0,
             "pct_hit": 50.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Alika Williams",
-            "prob": 65,
-            "prob_2j_3j": 83.3,
-            "pct_hit": 52.3,
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Stefanic",
-            "prob": 31,
-            "prob_2j_3j": 0,
-            "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50387,21 +50365,21 @@
             "prob": 65,
             "prob_1j_2j": 66.7,
             "pct_hit": 61.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Carlos Cortes",
             "prob": 57,
             "prob_1j_2j": 61.5,
             "pct_hit": 50.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Tommy White",
             "prob": 32,
             "prob_1j_2j": 0,
             "pct_hit": 49.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50661,5 +50639,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 15:30"
+  "alineaciones_actualizadas": "26/09/26 16:00"
 }
