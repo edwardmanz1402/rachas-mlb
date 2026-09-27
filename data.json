@@ -49456,7 +49456,7 @@
         "Kyle Karros",
         "Connor Norby",
         "Adael Amador",
-        "Mickey Moniak",
+        "Jordan Beck",
         "Brett Sullivan",
         "Ezequiel Tovar"
       ],
@@ -49465,7 +49465,7 @@
         "Andrew Benintendi",
         "Randal Grichuk",
         "Munetaka Murakami",
-        "Braden Montgomery",
+        "Chase Meidroth",
         "Kyle Teel",
         "Sam Antonacci",
         "Colson Montgomery",
@@ -49500,21 +49500,18 @@
             "prob_1j_2j": 50.0,
             "pct_hit": 55.8,
             "confirmado": true
+          },
+          {
+            "jugador": "Jordan Beck",
+            "prob": 40,
+            "prob_1j_2j": 45.5,
+            "pct_hit": 38.9,
+            "confirmado": true
           }
         ]
       },
       "home_data": {
         "racha": [
-          {
-            "jugador": "Braden Montgomery",
-            "juegos": 6,
-            "avg": 0.478,
-            "prob_2j_3j": 50.0,
-            "prob_3j_4j": 33.3,
-            "pct_hit": 49.3,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": true
-          },
           {
             "jugador": "Munetaka Murakami",
             "juegos": 4,
@@ -49532,6 +49529,16 @@
             "prob_2j_3j": 63.2,
             "prob_3j_4j": 50.0,
             "pct_hit": 57.9,
+            "tipo": "✅ CONSISTENTE",
+            "confirmado": true
+          },
+          {
+            "jugador": "Chase Meidroth",
+            "juegos": 4,
+            "avg": 0.5,
+            "prob_2j_3j": 70.4,
+            "prob_3j_4j": 71.4,
+            "pct_hit": 64.7,
             "tipo": "✅ CONSISTENTE",
             "confirmado": true
           },
@@ -49885,7 +49892,7 @@
         "Bryson Stott",
         "Bryan De La Cruz",
         "Brandon Marsh",
-        "J.T. Realmuto",
+        "Garrett Stubbs",
         "Justin Crawford"
       ],
       "alineacion_confirmada": true,
@@ -50249,19 +50256,19 @@
       },
       "home_pitcher": {
         "nombre": "Walker Buehler",
-        "avg_contra": ".255",
-        "era": "4.54",
-        "whip": "1.34",
-        "k9": "7.66",
-        "h9": "8.72",
-        "ip_temporada": "152.2",
+        "avg_contra": ".256",
+        "era": "4.63",
+        "whip": "1.35",
+        "k9": "7.67",
+        "h9": "8.79",
+        "ip_temporada": "153.2",
         "ultimas4": [
           {
             "fecha": "2026-09-26",
-            "ip": "2.2",
-            "k": 2,
-            "h": 3,
-            "er": 1,
+            "ip": "3.2",
+            "k": 3,
+            "h": 5,
+            "er": 3,
             "bb": 1
           },
           {
@@ -50409,13 +50416,21 @@
       },
       "away_pitcher": {
         "nombre": "Hayden Wesneski",
-        "avg_contra": ".219",
-        "era": "3.50",
-        "whip": "1.15",
-        "k9": "6.83",
-        "h9": "7.17",
-        "ip_temporada": "54.0",
+        "avg_contra": ".216",
+        "era": "3.44",
+        "whip": "1.13",
+        "k9": "6.87",
+        "h9": "7.04",
+        "ip_temporada": "55.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-26",
+            "ip": "1.0",
+            "k": 1,
+            "h": 0,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-19",
             "ip": "5.1",
@@ -50439,26 +50454,26 @@
             "h": 5,
             "er": 3,
             "bb": 0
-          },
-          {
-            "fecha": "2026-09-02",
-            "ip": "7.0",
-            "k": 5,
-            "h": 1,
-            "er": 0,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Jack Perkins",
-        "avg_contra": ".263",
-        "era": "5.90",
-        "whip": "1.45",
-        "k9": "10.16",
-        "h9": "9.31",
-        "ip_temporada": "116.0",
+        "avg_contra": ".261",
+        "era": "5.87",
+        "whip": "1.43",
+        "k9": "10.30",
+        "h9": "9.23",
+        "ip_temporada": "118.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-26",
+            "ip": "2.0",
+            "k": 4,
+            "h": 1,
+            "er": 1,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-20",
             "ip": "6.0",
@@ -50482,14 +50497,6 @@
             "h": 7,
             "er": 4,
             "bb": 0
-          },
-          {
-            "fecha": "2026-09-03",
-            "ip": "3.0",
-            "k": 7,
-            "h": 4,
-            "er": 3,
-            "bb": 5
           }
         ]
       }
@@ -50591,12 +50598,20 @@
       "away_pitcher": {
         "nombre": "Ryan Johnson",
         "avg_contra": ".247",
-        "era": "4.93",
-        "whip": "1.35",
-        "k9": "7.20",
-        "h9": "8.43",
-        "ip_temporada": "95.0",
+        "era": "4.88",
+        "whip": "1.34",
+        "k9": "7.22",
+        "h9": "8.44",
+        "ip_temporada": "96.0",
         "ultimas4": [
+          {
+            "fecha": "2026-09-26",
+            "ip": "1.0",
+            "k": 1,
+            "h": 1,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-20",
             "ip": "4.2",
@@ -50620,26 +50635,26 @@
             "h": 5,
             "er": 3,
             "bb": 1
-          },
-          {
-            "fecha": "2026-09-04",
-            "ip": "6.0",
-            "k": 6,
-            "h": 4,
-            "er": 1,
-            "bb": 2
           }
         ]
       },
       "home_pitcher": {
         "nombre": "Kade Anderson",
-        "avg_contra": ".256",
-        "era": "4.18",
-        "whip": "1.21",
-        "k9": "7.79",
-        "h9": "8.63",
-        "ip_temporada": "32.1",
+        "avg_contra": ".260",
+        "era": "4.01",
+        "whip": "1.22",
+        "k9": "7.49",
+        "h9": "8.82",
+        "ip_temporada": "33.2",
         "ultimas4": [
+          {
+            "fecha": "2026-09-26",
+            "ip": "1.1",
+            "k": 0,
+            "h": 2,
+            "er": 0,
+            "bb": 0
+          },
           {
             "fecha": "2026-09-20",
             "ip": "7.0",
@@ -50663,18 +50678,10 @@
             "h": 6,
             "er": 1,
             "bb": 1
-          },
-          {
-            "fecha": "2026-09-03",
-            "ip": "5.0",
-            "k": 3,
-            "h": 7,
-            "er": 4,
-            "bb": 2
           }
         ]
       }
     }
   ],
-  "alineaciones_actualizadas": "26/09/26 19:30"
+  "alineaciones_actualizadas": "26/09/26 20:00"
 }
