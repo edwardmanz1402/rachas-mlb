@@ -48999,7 +48999,17 @@
       "home": "Washington Nationals",
       "game_id": 822679,
       "fecha": "2026-09-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Francisco Lindor",
+        "Juan Soto",
+        "Bo Bichette",
+        "Carson Benge",
+        "Marcus Semien",
+        "Brett Baty",
+        "Luis Torrens",
+        "A.J. Ewing",
+        "Ronny Mauricio"
+      ],
       "home_lineup": [
         "James Wood",
         "Andrés Chaparro",
@@ -49011,7 +49021,7 @@
         "Harry Ford",
         "Nasim Nuñez"
       ],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -49022,7 +49032,7 @@
             "prob_3j_4j": 53.8,
             "pct_hit": 65.9,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49031,14 +49041,14 @@
             "prob": 73,
             "prob_2j_3j": 76.0,
             "pct_hit": 64.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Juan Soto",
             "prob": 71,
             "prob_2j_3j": 77.3,
             "pct_hit": 66.3,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49047,14 +49057,14 @@
             "prob": 51,
             "prob_1j_2j": 51.5,
             "pct_hit": 56.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ronny Mauricio",
             "prob": 50,
             "prob_1j_2j": 57.1,
             "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -50485,7 +50495,17 @@
       "game_id": 824217,
       "fecha": "2026-09-27",
       "away_lineup": [],
-      "home_lineup": [],
+      "home_lineup": [
+        "Max Clark",
+        "Hao-Yu Lee",
+        "Kevin McGonigle",
+        "Riley Greene",
+        "Eduardo Valencia",
+        "Brett Callahan",
+        "Spencer Torkelson",
+        "Zach McKinstry",
+        "John Peck"
+      ],
       "alineacion_confirmada": false,
       "away_data": {
         "racha": [
@@ -50564,7 +50584,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 62.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50573,21 +50593,14 @@
             "prob": 69,
             "prob_2j_3j": 73.9,
             "pct_hit": 62.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Dillon Dingler",
-            "prob": 54,
-            "prob_2j_3j": 56.2,
-            "pct_hit": 54.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Eduardo Valencia",
             "prob": 36,
             "prob_2j_3j": 0,
             "pct_hit": 59.4,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50596,28 +50609,21 @@
             "prob": 76,
             "prob_1j_2j": 78.6,
             "pct_hit": 69.1,
-            "confirmado": false
-          },
-          {
-            "jugador": "Javier Báez",
-            "prob": 50,
-            "prob_1j_2j": 53.3,
-            "pct_hit": 53.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Hao-Yu Lee",
             "prob": 48,
             "prob_1j_2j": 51.9,
             "pct_hit": 50.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brett Callahan",
             "prob": 26,
             "prob_1j_2j": 0,
             "pct_hit": 36.4,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -52030,5 +52036,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/09/26 09:00"
+  "alineaciones_actualizadas": "27/09/26 09:30"
 }
