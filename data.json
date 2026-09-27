@@ -49345,9 +49345,29 @@
       "home": "Philadelphia Phillies",
       "game_id": 823408,
       "fecha": "2026-09-27",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Victor Mesa Jr.",
+        "Jonathan Aranda",
+        "Junior Caminero",
+        "Liam Hicks",
+        "Richie Palacios",
+        "Jonny DeLuca",
+        "Cedric Mullins",
+        "Nick Fortes",
+        "Jorge Mateo"
+      ],
+      "home_lineup": [
+        "Trea Turner",
+        "Kyle Schwarber",
+        "Bryce Harper",
+        "Bryson Stott",
+        "Alec Bohm",
+        "Brandon Marsh",
+        "Edmundo Sosa",
+        "Justin Crawford",
+        "J.T. Realmuto"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -49358,17 +49378,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 56.5,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Taylor Walls",
-            "juegos": 3,
-            "avg": 0.417,
-            "prob_2j_3j": 64.3,
-            "prob_3j_4j": 50.0,
-            "pct_hit": 51.4,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Richie Palacios",
@@ -49378,7 +49388,7 @@
             "prob_3j_4j": 16.7,
             "pct_hit": 49.1,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Junior Caminero",
@@ -49388,7 +49398,7 @@
             "prob_3j_4j": 61.1,
             "pct_hit": 70.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Cedric Mullins",
@@ -49398,7 +49408,7 @@
             "prob_3j_4j": 37.5,
             "pct_hit": 51.7,
             "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49407,37 +49417,23 @@
             "prob": 60,
             "prob_2j_3j": 75.0,
             "pct_hit": 48.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Vilade",
-            "prob": 52,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 43.0,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
-          {
-            "jugador": "Yandy Díaz",
-            "prob": 73,
-            "prob_1j_2j": 75.8,
-            "pct_hit": 64.5,
-            "confirmado": false
-          },
           {
             "jugador": "Nick Fortes",
             "prob": 60,
             "prob_1j_2j": 65.9,
             "pct_hit": 55.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Liam Hicks",
             "prob": 57,
             "prob_1j_2j": 60.0,
             "pct_hit": 57.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49451,7 +49447,7 @@
             "prob_3j_4j": 50.0,
             "pct_hit": 57.6,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -49460,21 +49456,21 @@
             "prob": 62,
             "prob_2j_3j": 64.0,
             "pct_hit": 63.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Justin Crawford",
             "prob": 61,
             "prob_2j_3j": 64.7,
             "pct_hit": 57.0,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Bryson Stott",
             "prob": 57,
             "prob_2j_3j": 58.3,
             "pct_hit": 60.7,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -49483,7 +49479,7 @@
             "prob": 68,
             "prob_1j_2j": 70.8,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -49579,9 +49575,29 @@
       "home": "Boston Red Sox",
       "game_id": 824705,
       "fecha": "2026-09-27",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Pete Crow-Armstrong",
+        "Alex Bregman",
+        "Michael Busch",
+        "Ian Happ",
+        "Michael Conforto",
+        "Nico Hoerner",
+        "Pedro Ramírez",
+        "Dansby Swanson",
+        "Miguel Amaya"
+      ],
+      "home_lineup": [
+        "Roman Anthony",
+        "Adley Rutschman",
+        "Willson Contreras",
+        "Wilyer Abreu",
+        "Ceddanne Rafaela",
+        "Nick Sogard",
+        "Caleb Durbin",
+        "Trevor Story",
+        "Andruw Monasterio"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -49597,7 +49613,7 @@
             "prob_3j_4j": 33.3,
             "pct_hit": 59.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [],
@@ -50660,9 +50676,29 @@
       "home": "San Diego Padres",
       "game_id": 823246,
       "fecha": "2026-09-27",
-      "away_lineup": [],
-      "home_lineup": [],
-      "alineacion_confirmada": false,
+      "away_lineup": [
+        "Lars Nootbaar",
+        "Ketel Marte",
+        "Gabriel Moreno",
+        "Geraldo Perdomo",
+        "Corbin Carroll",
+        "Nolan Arenado",
+        "Pavin Smith",
+        "James McCann",
+        "Tim Tawa"
+      ],
+      "home_lineup": [
+        "Dustin Harris",
+        "Manny Machado",
+        "Ty France",
+        "Gavin Sheets",
+        "Austin Hays",
+        "Jake Cronenworth",
+        "Freddy Fermin",
+        "Sung-Mun Song",
+        "Jase Bowen"
+      ],
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -50673,7 +50709,7 @@
             "prob_3j_4j": 30.0,
             "pct_hit": 59.7,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Gabriel Moreno",
@@ -50683,7 +50719,7 @@
             "prob_3j_4j": 80.0,
             "pct_hit": 69.0,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -50692,7 +50728,7 @@
             "prob": 37,
             "prob_2j_3j": 40.0,
             "pct_hit": 47.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50701,96 +50737,47 @@
             "prob": 70,
             "prob_1j_2j": 70.5,
             "pct_hit": 66.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Corbin Carroll",
             "prob": 61,
             "prob_1j_2j": 61.4,
             "pct_hit": 58.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Jordan Lawlar",
-            "prob": 58,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 45.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "James McCann",
             "prob": 56,
             "prob_1j_2j": 63.6,
             "pct_hit": 54.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Pavin Smith",
             "prob": 40,
             "prob_1j_2j": 44.4,
             "pct_hit": 40.0,
-            "confirmado": false
-          },
-          {
-            "jugador": "Ryan Waldschmidt",
-            "prob": 36,
-            "prob_1j_2j": 35.0,
-            "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
       "home_data": {
-        "racha": [
-          {
-            "jugador": "Ethan Salas",
-            "juegos": 4,
-            "avg": 0.545,
-            "prob_2j_3j": 0,
-            "prob_3j_4j": 0,
-            "pct_hit": 43.8,
-            "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Jackson Merrill",
-            "juegos": 3,
-            "avg": 0.4,
-            "prob_2j_3j": 35.0,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 57.0,
-            "tipo": "✅ CONSISTENTE",
-            "confirmado": false
-          }
-        ],
+        "racha": [],
         "candidatos_2j": [
-          {
-            "jugador": "Xander Bogaerts",
-            "prob": 59,
-            "prob_2j_3j": 62.5,
-            "pct_hit": 52.2,
-            "confirmado": false
-          },
           {
             "jugador": "Dustin Harris",
             "prob": 56,
             "prob_2j_3j": 66.7,
             "pct_hit": 58.8,
-            "confirmado": false
-          },
-          {
-            "jugador": "Luis Campusano",
-            "prob": 54,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 49.2,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Cronenworth",
             "prob": 38,
             "prob_2j_3j": 40.0,
             "pct_hit": 46.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -50799,28 +50786,28 @@
             "prob": 60,
             "prob_1j_2j": 66.0,
             "pct_hit": 46.8,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ty France",
             "prob": 51,
             "prob_1j_2j": 52.9,
             "pct_hit": 56.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Manny Machado",
             "prob": 48,
             "prob_1j_2j": 48.0,
             "pct_hit": 51.1,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sung-Mun Song",
             "prob": 40,
             "prob_1j_2j": 46.7,
             "pct_hit": 34.6,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51110,9 +51097,19 @@
       "home": "Minnesota Twins",
       "game_id": 823650,
       "fecha": "2026-09-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Brandon Nimmo",
+        "Wyatt Langford",
+        "Corey Seager",
+        "Jake Burger",
+        "Ezequiel Duran",
+        "Nicky Lopez",
+        "Danny Jansen",
+        "Evan Carter",
+        "Alejandro Osuna"
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [
           {
@@ -51123,17 +51120,7 @@
             "prob_3j_4j": 0,
             "pct_hit": 50.0,
             "tipo": "🎲 POSIBLE SUERTE",
-            "confirmado": false
-          },
-          {
-            "jugador": "Josh Jung",
-            "juegos": 3,
-            "avg": 0.455,
-            "prob_2j_3j": 71.4,
-            "prob_3j_4j": 70.6,
-            "pct_hit": 70.7,
-            "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
@@ -51142,28 +51129,28 @@
             "prob": 65,
             "prob_2j_3j": 66.7,
             "pct_hit": 57.9,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jake Burger",
             "prob": 51,
             "prob_2j_3j": 50.0,
             "pct_hit": 56.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Brandon Nimmo",
             "prob": 50,
             "prob_2j_3j": 47.8,
             "pct_hit": 58.7,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Danny Jansen",
             "prob": 44,
             "prob_2j_3j": 50.0,
             "pct_hit": 46.6,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51172,28 +51159,28 @@
             "prob": 56,
             "prob_1j_2j": 63.3,
             "pct_hit": 53.3,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Nicky Lopez",
             "prob": 56,
             "prob_1j_2j": 64.0,
             "pct_hit": 47.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Alejandro Osuna",
             "prob": 49,
             "prob_1j_2j": 50.0,
             "pct_hit": 53.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Evan Carter",
             "prob": 43,
             "prob_1j_2j": 45.5,
             "pct_hit": 38.7,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51565,9 +51552,19 @@
       "home": "Miami Marlins",
       "game_id": 823814,
       "fecha": "2026-09-27",
-      "away_lineup": [],
+      "away_lineup": [
+        "Mauricio Dubón",
+        "Ozzie Albies",
+        "Matt Olson",
+        "Austin Riley",
+        "Mike Yastrzemski",
+        "Sean Murphy",
+        "Ha-Seong Kim",
+        "Brewer Hicklen",
+        "DaShawn Keirsey Jr."
+      ],
       "home_lineup": [],
-      "alineacion_confirmada": false,
+      "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
         "candidatos_2j": [],
@@ -51577,42 +51574,21 @@
             "prob": 70,
             "prob_1j_2j": 72.9,
             "pct_hit": 66.2,
-            "confirmado": false
-          },
-          {
-            "jugador": "Drake Baldwin",
-            "prob": 69,
-            "prob_1j_2j": 71.4,
-            "pct_hit": 68.5,
-            "confirmado": false
-          },
-          {
-            "jugador": "Michael Harris II",
-            "prob": 66,
-            "prob_1j_2j": 69.4,
-            "pct_hit": 65.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Dominic Smith",
-            "prob": 51,
-            "prob_1j_2j": 53.7,
-            "pct_hit": 49.5,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Ha-Seong Kim",
             "prob": 32,
             "prob_1j_2j": 40.0,
             "pct_hit": 21.4,
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Sean Murphy",
             "prob": 27,
             "prob_1j_2j": 0,
             "pct_hit": 40.0,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51778,7 +51754,17 @@
         "César Prieto",
         "Pedro Pagés"
       ],
-      "home_lineup": [],
+      "home_lineup": [
+        "Garrett Mitchell",
+        "Jake Bauers",
+        "Jackson Chourio",
+        "Brice Turang",
+        "Gary Sánchez",
+        "Christian Yelich",
+        "Cooper Pratt",
+        "Sal Frelick",
+        "David Hamilton"
+      ],
       "alineacion_confirmada": true,
       "away_data": {
         "racha": [],
@@ -51811,7 +51797,7 @@
             "prob_3j_4j": 64.3,
             "pct_hit": 64.2,
             "tipo": "✅ CONSISTENTE",
-            "confirmado": false
+            "confirmado": true
           },
           {
             "jugador": "Jackson Chourio",
@@ -51821,33 +51807,16 @@
             "prob_3j_4j": 63.6,
             "pct_hit": 72.1,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": false
-          },
-          {
-            "jugador": "Joey Ortiz",
-            "juegos": 3,
-            "avg": 0.364,
-            "prob_2j_3j": 25.0,
-            "prob_3j_4j": 0,
-            "pct_hit": 53.5,
-            "tipo": "📊 IRREGULAR",
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_2j": [
-          {
-            "jugador": "William Contreras",
-            "prob": 65,
-            "prob_2j_3j": 66.7,
-            "pct_hit": 63.2,
-            "confirmado": false
-          },
           {
             "jugador": "David Hamilton",
             "prob": 18,
             "prob_2j_3j": 9.1,
             "pct_hit": 46.1,
-            "confirmado": false
+            "confirmado": true
           }
         ],
         "candidatos_1j": [
@@ -51856,21 +51825,7 @@
             "prob": 61,
             "prob_1j_2j": 69.2,
             "pct_hit": 54.4,
-            "confirmado": false
-          },
-          {
-            "jugador": "Brandon Lockridge",
-            "prob": 58,
-            "prob_1j_2j": 61.1,
-            "pct_hit": 62.9,
-            "confirmado": false
-          },
-          {
-            "jugador": "Luis Lara",
-            "prob": 40,
-            "prob_1j_2j": 0,
-            "pct_hit": 56.1,
-            "confirmado": false
+            "confirmado": true
           }
         ]
       },
@@ -51962,5 +51917,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/09/26 10:00"
+  "alineaciones_actualizadas": "27/09/26 10:30"
 }
