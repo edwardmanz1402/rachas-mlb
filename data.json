@@ -49416,7 +49416,7 @@
       "away_lineup": [
         "Tyrone Taylor",
         "Alex Bregman",
-        "Michael Busch",
+        "Gabriel Arias",
         "Ian Happ",
         "Michael Conforto",
         "Matt Shaw",
@@ -49426,7 +49426,7 @@
       ],
       "home_lineup": [
         "Jarren Duran",
-        "Adley Rutschman",
+        "Connor Wong",
         "Jahmai Jones",
         "Wilyer Abreu",
         "Nate Eaton",
@@ -49707,11 +49707,11 @@
       "game_id": 823164,
       "fecha": "2026-09-27",
       "away_lineup": [
-        "Shohei Ohtani",
+        "Dalton Rushing",
         "Miguel Rojas",
         "Enrique Hernández",
         "Kyle Tucker",
-        "Teoscar Hernández",
+        "Alex Call",
         "Max Muncy",
         "Andy Pages",
         "Hunter Feduccia",
@@ -49720,9 +49720,9 @@
       "home_lineup": [
         "Jonah Cox",
         "Bo Davidson",
-        "Victor Bericoto",
+        "Grant McCray",
         "Marcelo Mayer",
-        "Shay Whitcomb",
+        "Turner Hill",
         "Drew Cavanaugh",
         "Scott Bandura",
         "Christian Koss",
@@ -49742,23 +49742,8 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Teoscar Hernández",
-            "prob": 67,
-            "prob_2j_3j": 76.9,
-            "pct_hit": 58.8,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
-          {
-            "jugador": "Shohei Ohtani",
-            "prob": 73,
-            "prob_1j_2j": 73.8,
-            "pct_hit": 68.9,
-            "confirmado": true
-          },
           {
             "jugador": "Kyle Tucker",
             "prob": 57,
@@ -49795,28 +49780,20 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Victor Bericoto",
-            "prob": 49,
-            "prob_2j_3j": 60.0,
-            "pct_hit": 45.2,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
+          {
+            "jugador": "Turner Hill",
+            "prob": 32,
+            "prob_1j_2j": 0,
+            "pct_hit": 48.3,
+            "confirmado": true
+          },
           {
             "jugador": "Jonah Cox",
             "prob": 25,
             "prob_1j_2j": 20.0,
             "pct_hit": 47.5,
-            "confirmado": true
-          },
-          {
-            "jugador": "Shay Whitcomb",
-            "prob": 25,
-            "prob_1j_2j": 0,
-            "pct_hit": 36.1,
             "confirmado": true
           },
           {
@@ -49934,7 +49911,7 @@
       "home_lineup": [
         "Sean Keys",
         "Brett Bateman",
-        "Kazuma Okamoto",
+        "Josh Smith",
         "Charles McAdoo",
         "Davis Schneider",
         "Brandon Valenzuela",
@@ -50010,6 +49987,13 @@
             "confirmado": true
           },
           {
+            "jugador": "Josh Smith",
+            "prob": 52,
+            "prob_1j_2j": 61.9,
+            "pct_hit": 37.7,
+            "confirmado": true
+          },
+          {
             "jugador": "Brett Bateman",
             "prob": 49,
             "prob_1j_2j": 0,
@@ -50078,17 +50062,17 @@
       "home_pitcher": {
         "nombre": "Max Scherzer",
         "avg_contra": ".242",
-        "era": "5.95",
-        "whip": "1.35",
-        "k9": "7.05",
-        "h9": "8.38",
-        "ip_temporada": "81.2",
+        "era": "5.81",
+        "whip": "1.34",
+        "k9": "7.31",
+        "h9": "8.39",
+        "ip_temporada": "83.2",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "4.1",
-            "k": 3,
-            "h": 4,
+            "ip": "6.0",
+            "k": 7,
+            "h": 6,
             "er": 1,
             "bb": 0
           },
@@ -50131,7 +50115,7 @@
         "Nathaniel Lowe",
         "David Fry",
         "Angel Genao",
-        "Austin Hedges",
+        "Patrick Bailey",
         "Daniel Schneemann",
         "Petey Halpin"
       ],
@@ -50139,7 +50123,7 @@
         "Maikel Garcia",
         "Bobby Witt Jr.",
         "Jac Caglianone",
-        "Salvador Perez",
+        "Josh Rojas",
         "Vinnie Pasquantino",
         "Isaac Collins",
         "Tyler Tolbert",
@@ -50178,17 +50162,17 @@
         ],
         "candidatos_1j": [
           {
-            "jugador": "Austin Hedges",
-            "prob": 64,
-            "prob_1j_2j": 74.1,
-            "pct_hit": 51.6,
-            "confirmado": true
-          },
-          {
             "jugador": "Nathaniel Lowe",
             "prob": 53,
             "prob_1j_2j": 57.1,
             "pct_hit": 54.4,
+            "confirmado": true
+          },
+          {
+            "jugador": "Patrick Bailey",
+            "prob": 44,
+            "prob_1j_2j": 48.1,
+            "pct_hit": 44.4,
             "confirmado": true
           }
         ]
@@ -50203,16 +50187,6 @@
             "prob_3j_4j": 55.6,
             "pct_hit": 72.2,
             "tipo": "🔥 JUGADOR DE RACHA",
-            "confirmado": true
-          },
-          {
-            "jugador": "Salvador Perez",
-            "juegos": 6,
-            "avg": 0.318,
-            "prob_2j_3j": 47.4,
-            "prob_3j_4j": 66.7,
-            "pct_hit": 61.6,
-            "tipo": "✅ CONSISTENTE",
             "confirmado": true
           },
           {
@@ -50296,18 +50270,18 @@
       },
       "home_pitcher": {
         "nombre": "Daniel Lynch IV",
-        "avg_contra": ".220",
-        "era": "3.98",
-        "whip": "1.13",
+        "avg_contra": ".225",
+        "era": "4.08",
+        "whip": "1.15",
         "k9": "5.86",
-        "h9": "7.43",
+        "h9": "7.64",
         "ip_temporada": "86.0",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
             "ip": "5.1",
             "k": 2,
-            "h": 6,
+            "h": 7,
             "er": 2,
             "bb": 0
           },
@@ -50345,7 +50319,7 @@
       "fecha": "2026-09-27",
       "away_lineup": [
         "Konnor Griffin",
-        "Ryan O'Hearn",
+        "Jared Triolo",
         "Ronny Simon",
         "Rafael Flores Jr.",
         "Spencer Horwitz",
@@ -50379,15 +50353,7 @@
             "confirmado": true
           }
         ],
-        "candidatos_2j": [
-          {
-            "jugador": "Ryan O'Hearn",
-            "prob": 61,
-            "prob_2j_3j": 60.0,
-            "pct_hit": 60.8,
-            "confirmado": true
-          }
-        ],
+        "candidatos_2j": [],
         "candidatos_1j": [
           {
             "jugador": "Konnor Griffin",
@@ -50711,19 +50677,19 @@
       },
       "home_pitcher": {
         "nombre": "Randy Vásquez",
-        "avg_contra": ".260",
-        "era": "3.86",
-        "whip": "1.26",
-        "k9": "5.59",
-        "h9": "8.94",
-        "ip_temporada": "140.0",
+        "avg_contra": ".262",
+        "era": "3.90",
+        "whip": "1.27",
+        "k9": "5.57",
+        "h9": "9.02",
+        "ip_temporada": "140.2",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "5.1",
+            "ip": "6.0",
             "k": 2,
-            "h": 2,
-            "er": 0,
+            "h": 3,
+            "er": 1,
             "bb": 0
           },
           {
@@ -50760,7 +50726,7 @@
       "fecha": "2026-09-27",
       "away_lineup": [
         "Zach Neto",
-        "Wade Meckler",
+        "Jose Siri",
         "Vaughn Grissom",
         "Moisés Ballesteros",
         "Denzer Guzman",
@@ -50770,7 +50736,7 @@
         "Bryce Teodosio"
       ],
       "home_lineup": [
-        "J.P. Crawford",
+        "Leo Rivas",
         "Randy Arozarena",
         "Dominic Canzone",
         "Cal Raleigh",
@@ -50812,6 +50778,13 @@
             "confirmado": true
           },
           {
+            "jugador": "Jose Siri",
+            "prob": 33,
+            "prob_1j_2j": 35.3,
+            "pct_hit": 34.2,
+            "confirmado": true
+          },
+          {
             "jugador": "Bryce Teodosio",
             "prob": 31,
             "prob_1j_2j": 33.3,
@@ -50849,30 +50822,23 @@
             "prob_1j_2j": 70.8,
             "pct_hit": 61.2,
             "confirmado": true
-          },
-          {
-            "jugador": "J.P. Crawford",
-            "prob": 55,
-            "prob_1j_2j": 56.8,
-            "pct_hit": 55.6,
-            "confirmado": true
           }
         ]
       },
       "away_pitcher": {
         "nombre": "Yusei Kikuchi",
-        "avg_contra": ".279",
-        "era": "5.00",
-        "whip": "1.55",
-        "k9": "8.78",
-        "h9": "9.86",
-        "ip_temporada": "66.2",
+        "avg_contra": ".278",
+        "era": "4.92",
+        "whip": "1.54",
+        "k9": "8.91",
+        "h9": "9.84",
+        "ip_temporada": "67.2",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "4.0",
-            "k": 5,
-            "h": 5,
+            "ip": "5.0",
+            "k": 7,
+            "h": 6,
             "er": 3,
             "bb": 1
           },
@@ -51147,17 +51113,17 @@
       "home_pitcher": {
         "nombre": "Dean Kremer",
         "avg_contra": ".225",
-        "era": "4.79",
-        "whip": "1.15",
-        "k9": "8.76",
-        "h9": "7.44",
-        "ip_temporada": "88.1",
+        "era": "4.70",
+        "whip": "1.14",
+        "k9": "8.60",
+        "h9": "7.40",
+        "ip_temporada": "90.0",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "5.0",
+            "ip": "6.2",
             "k": 4,
-            "h": 2,
+            "h": 3,
             "er": 1,
             "bb": 0
           },
@@ -51205,7 +51171,7 @@
         "Ezequiel Tovar"
       ],
       "home_lineup": [
-        "Randal Grichuk",
+        "Tristan Peters",
         "Tommy Pham",
         "Munetaka Murakami",
         "Brenton Doyle",
@@ -51285,6 +51251,13 @@
         "candidatos_2j": [],
         "candidatos_1j": [
           {
+            "jugador": "Tristan Peters",
+            "prob": 57,
+            "prob_1j_2j": 61.2,
+            "pct_hit": 49.6,
+            "confirmado": true
+          },
+          {
             "jugador": "Brenton Doyle",
             "prob": 44,
             "prob_1j_2j": 47.1,
@@ -51345,12 +51318,12 @@
       },
       "home_pitcher": {
         "nombre": "Anthony Kay",
-        "avg_contra": ".263",
-        "era": "4.47",
-        "whip": "1.38",
-        "k9": "7.39",
-        "h9": "9.23",
-        "ip_temporada": "157.0",
+        "avg_contra": ".262",
+        "era": "4.44",
+        "whip": "1.37",
+        "k9": "7.35",
+        "h9": "9.17",
+        "ip_temporada": "158.0",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
@@ -51485,19 +51458,19 @@
       },
       "away_pitcher": {
         "nombre": "JR Ritchie",
-        "avg_contra": ".228",
-        "era": "4.60",
-        "whip": "1.44",
-        "k9": "8.46",
-        "h9": "7.59",
-        "ip_temporada": "72.1",
+        "avg_contra": ".237",
+        "era": "4.91",
+        "whip": "1.47",
+        "k9": "8.35",
+        "h9": "7.98",
+        "ip_temporada": "73.1",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "5.0",
+            "ip": "5.2",
             "k": 2,
-            "h": 3,
-            "er": 1,
+            "h": 7,
+            "er": 4,
             "bb": 2
           },
           {
@@ -51663,17 +51636,17 @@
       },
       "away_pitcher": {
         "nombre": "Andre Pallante",
-        "avg_contra": ".254",
-        "era": "3.86",
-        "whip": "1.28",
-        "k9": "6.04",
-        "h9": "8.72",
-        "ip_temporada": "161.0",
+        "avg_contra": ".253",
+        "era": "3.83",
+        "whip": "1.27",
+        "k9": "6.11",
+        "h9": "8.67",
+        "ip_temporada": "162.0",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "4.0",
-            "k": 2,
+            "ip": "5.0",
+            "k": 4,
             "h": 10,
             "er": 6,
             "bb": 1
@@ -51707,17 +51680,17 @@
       "home_pitcher": {
         "nombre": "Jacob Misiorowski",
         "avg_contra": ".157",
-        "era": "1.82",
+        "era": "1.80",
         "whip": "0.80",
         "k9": "12.98",
-        "h9": "4.93",
-        "ip_temporada": "173.1",
+        "h9": "4.95",
+        "ip_temporada": "174.2",
         "ultimas4": [
           {
             "fecha": "2026-09-27",
-            "ip": "5.0",
-            "k": 4,
-            "h": 1,
+            "ip": "5.1",
+            "k": 5,
+            "h": 2,
             "er": 0,
             "bb": 2
           },
@@ -51749,5 +51722,5 @@
       }
     }
   ],
-  "alineaciones_actualizadas": "27/09/26 14:30"
+  "alineaciones_actualizadas": "27/09/26 15:00"
 }
